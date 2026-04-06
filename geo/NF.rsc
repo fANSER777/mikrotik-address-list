@@ -1,5 +1,5 @@
 # GeoIP address list — NF
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: NF | Subnets: 2 (was 2, collapsed 0) | IPs: ~768
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — MM
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: MM | Subnets: 232 (was 234, collapsed 2) | IPs: ~245,504
 #

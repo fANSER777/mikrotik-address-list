@@ -1,5 +1,5 @@
 # GeoIP address list — AI
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:57
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: AI | Subnets: 9 (was 9, collapsed 0) | IPs: ~9,728
 #

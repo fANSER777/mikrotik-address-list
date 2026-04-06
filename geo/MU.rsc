@@ -1,5 +1,5 @@
 # GeoIP address list — MU
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: MU | Subnets: 104 (was 106, collapsed 2) | IPs: ~3,697,920
 #

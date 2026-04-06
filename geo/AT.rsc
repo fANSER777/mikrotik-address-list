@@ -1,5 +1,5 @@
 # GeoIP address list — AT
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:57
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: AT | Subnets: 1895 (was 2121, collapsed 226) | IPs: ~11,193,440
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — MY
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: MY | Subnets: 787 (was 909, collapsed 122) | IPs: ~6,702,080
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — BW
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: BW | Subnets: 53 (was 53, collapsed 0) | IPs: ~164,096
 #

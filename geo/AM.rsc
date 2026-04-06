@@ -1,5 +1,5 @@
 # GeoIP address list — AM
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:57
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: AM | Subnets: 183 (was 193, collapsed 10) | IPs: ~643,872
 #

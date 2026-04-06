@@ -1,5 +1,5 @@
 # GeoIP address list — CW
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: CW | Subnets: 40 (was 47, collapsed 7) | IPs: ~200,192
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — HU
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: HU | Subnets: 645 (was 909, collapsed 264) | IPs: ~5,921,280
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — IN
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: IN | Subnets: 7103 (was 9176, collapsed 2073) | IPs: ~41,890,560
 #

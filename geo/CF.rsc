@@ -1,5 +1,5 @@
 # GeoIP address list — CF
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: CF | Subnets: 5 (was 5, collapsed 0) | IPs: ~5,632
 #

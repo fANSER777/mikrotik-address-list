@@ -1,5 +1,5 @@
 # GeoIP address list — IT
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: IT | Subnets: 3332 (was 3707, collapsed 375) | IPs: ~53,916,032
 #

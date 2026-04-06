@@ -1,5 +1,5 @@
 # GeoIP address list — IR
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: IR | Subnets: 1713 (was 1920, collapsed 207) | IPs: ~10,819,584
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — CN
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: CN | Subnets: 5504 (was 8802, collapsed 3298) | IPs: ~342,952,192
 #

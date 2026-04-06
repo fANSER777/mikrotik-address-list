@@ -1,5 +1,5 @@
 # GeoIP address list — SE
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: SE | Subnets: 1981 (was 2136, collapsed 155) | IPs: ~31,367,456
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — BG
-# Generated: 2026-04-06 20:48
+# Generated: 2026-04-06 20:57
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: BG | Subnets: 1335 (was 1825, collapsed 490) | IPs: ~4,338,496
 #

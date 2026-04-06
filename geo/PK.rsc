@@ -1,5 +1,5 @@
 # GeoIP address list — PK
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: PK | Subnets: 717 (was 774, collapsed 57) | IPs: ~5,441,536
 #

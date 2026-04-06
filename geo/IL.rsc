@@ -1,5 +1,5 @@
 # GeoIP address list — IL
-# Generated: 2026-04-06 20:49
+# Generated: 2026-04-06 20:58
 # Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
 # Countries: IL | Subnets: 755 (was 1023, collapsed 268) | IPs: ~8,045,632
 #
