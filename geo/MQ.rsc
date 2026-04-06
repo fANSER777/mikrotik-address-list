@@ -1,0 +1,32 @@
+# GeoIP address list — MQ
+# Generated: 2026-04-06 20:49
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: MQ | Subnets: 21 (was 22, collapsed 1) | IPs: ~134,656
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MQ&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_MQ comment!="WHITE"]
+add address=5.102.72.0/21 list=GEO_MQ comment=MQ
+add address=80.243.240.0/20 list=GEO_MQ comment=MQ
+add address=82.197.96.0/19 list=GEO_MQ comment=MQ
+add address=89.16.0.0/19 list=GEO_MQ comment=MQ
+add address=92.49.64.0/18 list=GEO_MQ comment=MQ
+add address=93.176.0.0/18 list=GEO_MQ comment=MQ
+add address=94.124.152.0/21 list=GEO_MQ comment=MQ
+add address=94.124.216.0/21 list=GEO_MQ comment=MQ
+add address=94.198.176.0/21 list=GEO_MQ comment=MQ
+add address=104.245.112.0/21 list=GEO_MQ comment=MQ
+add address=104.249.191.0/24 list=GEO_MQ comment=MQ
+add address=109.62.0.0/17 list=GEO_MQ comment=MQ
+add address=109.203.224.0/19 list=GEO_MQ comment=MQ
+add address=185.13.216.0/22 list=GEO_MQ comment=MQ
+add address=185.14.99.0/24 list=GEO_MQ comment=MQ
+add address=185.21.212.0/22 list=GEO_MQ comment=MQ
+add address=185.60.232.0/22 list=GEO_MQ comment=MQ
+add address=185.91.232.0/22 list=GEO_MQ comment=MQ
+add address=188.115.64.0/18 list=GEO_MQ comment=MQ
+add address=192.163.24.0/22 list=GEO_MQ comment=MQ
+add address=217.175.160.0/19 list=GEO_MQ comment=MQ

@@ -1,0 +1,45 @@
+# GeoIP address list — DZ
+# Generated: 2026-04-06 20:49
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: DZ | Subnets: 34 (was 34, collapsed 0) | IPs: ~4,765,184
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=DZ&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_DZ comment!="WHITE"]
+add address=41.96.0.0/12 list=GEO_DZ comment=DZ
+add address=41.200.0.0/15 list=GEO_DZ comment=DZ
+add address=41.220.144.0/20 list=GEO_DZ comment=DZ
+add address=41.221.16.0/20 list=GEO_DZ comment=DZ
+add address=41.223.236.0/22 list=GEO_DZ comment=DZ
+add address=80.88.12.0/22 list=GEO_DZ comment=DZ
+add address=80.246.0.0/20 list=GEO_DZ comment=DZ
+add address=80.249.64.0/20 list=GEO_DZ comment=DZ
+add address=102.204.112.0/22 list=GEO_DZ comment=DZ
+add address=102.206.40.0/22 list=GEO_DZ comment=DZ
+add address=102.207.216.0/22 list=GEO_DZ comment=DZ
+add address=102.213.56.0/22 list=GEO_DZ comment=DZ
+add address=102.218.188.0/22 list=GEO_DZ comment=DZ
+add address=102.220.28.0/22 list=GEO_DZ comment=DZ
+add address=105.96.0.0/12 list=GEO_DZ comment=DZ
+add address=105.235.128.0/20 list=GEO_DZ comment=DZ
+add address=129.45.0.0/17 list=GEO_DZ comment=DZ
+add address=154.73.92.0/22 list=GEO_DZ comment=DZ
+add address=154.121.0.0/16 list=GEO_DZ comment=DZ
+add address=154.240.0.0/12 list=GEO_DZ comment=DZ
+add address=168.253.96.0/20 list=GEO_DZ comment=DZ
+add address=192.52.232.0/24 list=GEO_DZ comment=DZ
+add address=192.245.148.0/24 list=GEO_DZ comment=DZ
+add address=193.41.146.0/23 list=GEO_DZ comment=DZ
+add address=193.194.64.0/19 list=GEO_DZ comment=DZ
+add address=195.24.80.0/21 list=GEO_DZ comment=DZ
+add address=195.39.218.0/23 list=GEO_DZ comment=DZ
+add address=196.20.64.0/18 list=GEO_DZ comment=DZ
+add address=196.29.40.0/22 list=GEO_DZ comment=DZ
+add address=196.41.224.0/19 list=GEO_DZ comment=DZ
+add address=197.112.0.0/13 list=GEO_DZ comment=DZ
+add address=197.140.0.0/14 list=GEO_DZ comment=DZ
+add address=197.200.0.0/13 list=GEO_DZ comment=DZ
+add address=213.179.160.0/19 list=GEO_DZ comment=DZ

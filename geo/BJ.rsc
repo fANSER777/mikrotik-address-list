@@ -1,0 +1,48 @@
+# GeoIP address list — BJ
+# Generated: 2026-04-06 20:48
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: BJ | Subnets: 37 (was 37, collapsed 0) | IPs: ~149,248
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BJ&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_BJ comment!="WHITE"]
+add address=41.74.0.0/20 list=GEO_BJ comment=BJ
+add address=41.79.216.0/22 list=GEO_BJ comment=BJ
+add address=41.85.160.0/19 list=GEO_BJ comment=BJ
+add address=41.86.224.0/19 list=GEO_BJ comment=BJ
+add address=41.138.88.0/22 list=GEO_BJ comment=BJ
+add address=41.191.84.0/22 list=GEO_BJ comment=BJ
+add address=41.216.32.0/19 list=GEO_BJ comment=BJ
+add address=41.222.192.0/22 list=GEO_BJ comment=BJ
+add address=41.223.248.0/22 list=GEO_BJ comment=BJ
+add address=45.221.224.0/19 list=GEO_BJ comment=BJ
+add address=81.91.224.0/20 list=GEO_BJ comment=BJ
+add address=102.38.128.0/19 list=GEO_BJ comment=BJ
+add address=102.203.12.0/22 list=GEO_BJ comment=BJ
+add address=102.207.72.0/22 list=GEO_BJ comment=BJ
+add address=102.207.112.0/22 list=GEO_BJ comment=BJ
+add address=102.209.80.0/22 list=GEO_BJ comment=BJ
+add address=102.214.143.0/24 list=GEO_BJ comment=BJ
+add address=102.214.247.0/24 list=GEO_BJ comment=BJ
+add address=102.215.88.0/22 list=GEO_BJ comment=BJ
+add address=102.215.93.0/24 list=GEO_BJ comment=BJ
+add address=102.215.124.0/22 list=GEO_BJ comment=BJ
+add address=102.215.136.0/22 list=GEO_BJ comment=BJ
+add address=102.222.216.0/22 list=GEO_BJ comment=BJ
+add address=137.255.0.0/16 list=GEO_BJ comment=BJ
+add address=154.65.28.0/22 list=GEO_BJ comment=BJ
+add address=154.66.128.0/20 list=GEO_BJ comment=BJ
+add address=154.127.32.0/20 list=GEO_BJ comment=BJ
+add address=156.0.212.0/22 list=GEO_BJ comment=BJ
+add address=160.119.144.0/22 list=GEO_BJ comment=BJ
+add address=164.160.140.0/22 list=GEO_BJ comment=BJ
+add address=196.49.8.0/24 list=GEO_BJ comment=BJ
+add address=196.49.110.0/24 list=GEO_BJ comment=BJ
+add address=196.60.118.0/24 list=GEO_BJ comment=BJ
+add address=196.192.16.0/20 list=GEO_BJ comment=BJ
+add address=196.223.40.0/24 list=GEO_BJ comment=BJ
+add address=196.251.152.0/22 list=GEO_BJ comment=BJ
+add address=197.234.216.0/21 list=GEO_BJ comment=BJ

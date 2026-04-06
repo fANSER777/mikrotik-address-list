@@ -1,0 +1,20 @@
+# GeoIP address list — MH
+# Generated: 2026-04-06 20:49
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: MH | Subnets: 9 (was 9, collapsed 0) | IPs: ~15,104
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MH&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_MH comment!="WHITE"]
+add address=23.181.56.0/24 list=GEO_MH comment=MH
+add address=81.30.106.0/24 list=GEO_MH comment=MH
+add address=103.202.148.0/22 list=GEO_MH comment=MH
+add address=117.103.88.0/21 list=GEO_MH comment=MH
+add address=185.201.244.0/22 list=GEO_MH comment=MH
+add address=185.207.196.0/22 list=GEO_MH comment=MH
+add address=193.227.113.0/24 list=GEO_MH comment=MH
+add address=203.78.152.0/22 list=GEO_MH comment=MH
+add address=204.236.0.0/19 list=GEO_MH comment=MH

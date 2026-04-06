@@ -1,0 +1,61 @@
+# GeoIP address list — BF
+# Generated: 2026-04-06 20:48
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: BF | Subnets: 50 (was 52, collapsed 2) | IPs: ~338,176
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BF&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_BF comment!="WHITE"]
+add address=41.78.48.0/21 list=GEO_BF comment=BF
+add address=41.138.96.0/19 list=GEO_BF comment=BF
+add address=41.203.224.0/20 list=GEO_BF comment=BF
+add address=41.216.144.0/20 list=GEO_BF comment=BF
+add address=41.223.232.0/22 list=GEO_BF comment=BF
+add address=102.23.0.0/18 list=GEO_BF comment=BF
+add address=102.36.164.0/22 list=GEO_BF comment=BF
+add address=102.67.96.0/19 list=GEO_BF comment=BF
+add address=102.67.172.0/22 list=GEO_BF comment=BF
+add address=102.68.32.0/21 list=GEO_BF comment=BF
+add address=102.68.100.0/22 list=GEO_BF comment=BF
+add address=102.68.125.0/24 list=GEO_BF comment=BF
+add address=102.68.188.0/22 list=GEO_BF comment=BF
+add address=102.69.152.0/22 list=GEO_BF comment=BF
+add address=102.176.176.0/22 list=GEO_BF comment=BF
+add address=102.178.0.0/15 list=GEO_BF comment=BF
+add address=102.180.0.0/16 list=GEO_BF comment=BF
+add address=102.204.24.0/22 list=GEO_BF comment=BF
+add address=102.204.125.0/24 list=GEO_BF comment=BF
+add address=102.207.224.0/22 list=GEO_BF comment=BF
+add address=102.208.240.0/24 list=GEO_BF comment=BF
+add address=102.209.188.0/23 list=GEO_BF comment=BF
+add address=102.211.121.0/24 list=GEO_BF comment=BF
+add address=102.212.160.0/23 list=GEO_BF comment=BF
+add address=102.214.40.0/22 list=GEO_BF comment=BF
+add address=102.214.64.0/22 list=GEO_BF comment=BF
+add address=102.216.120.0/22 list=GEO_BF comment=BF
+add address=102.219.0.0/22 list=GEO_BF comment=BF
+add address=102.219.92.0/24 list=GEO_BF comment=BF
+add address=102.222.56.0/22 list=GEO_BF comment=BF
+add address=102.222.120.0/22 list=GEO_BF comment=BF
+add address=102.223.174.0/23 list=GEO_BF comment=BF
+add address=105.235.176.0/20 list=GEO_BF comment=BF
+add address=129.45.128.0/17 list=GEO_BF comment=BF
+add address=154.65.60.0/22 list=GEO_BF comment=BF
+add address=154.66.160.0/20 list=GEO_BF comment=BF
+add address=160.226.184.0/22 list=GEO_BF comment=BF
+add address=165.16.208.0/20 list=GEO_BF comment=BF
+add address=192.12.116.0/24 list=GEO_BF comment=BF
+add address=192.136.55.0/24 list=GEO_BF comment=BF
+add address=192.136.56.0/23 list=GEO_BF comment=BF
+add address=196.13.207.0/24 list=GEO_BF comment=BF
+add address=196.28.240.0/20 list=GEO_BF comment=BF
+add address=196.43.247.0/24 list=GEO_BF comment=BF
+add address=196.49.19.0/24 list=GEO_BF comment=BF
+add address=196.49.74.0/24 list=GEO_BF comment=BF
+add address=196.60.76.0/24 list=GEO_BF comment=BF
+add address=196.223.47.0/24 list=GEO_BF comment=BF
+add address=197.239.64.0/18 list=GEO_BF comment=BF
+add address=212.52.128.0/19 list=GEO_BF comment=BF

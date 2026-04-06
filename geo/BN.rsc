@@ -1,0 +1,46 @@
+# GeoIP address list — BN
+# Generated: 2026-04-06 20:48
+# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Countries: BN | Subnets: 35 (was 37, collapsed 2) | IPs: ~216,064
+#
+# MikroTik usage:
+#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BN&white=yes"
+#   /import file-name=addresslist.rsc
+#
+/ip firewall address-list
+remove [find list=GEO_BN comment!="WHITE"]
+add address=43.225.40.0/22 list=GEO_BN comment=BN
+add address=43.225.136.0/22 list=GEO_BN comment=BN
+add address=43.251.128.0/22 list=GEO_BN comment=BN
+add address=45.126.140.0/22 list=GEO_BN comment=BN
+add address=45.127.140.0/22 list=GEO_BN comment=BN
+add address=58.97.144.0/20 list=GEO_BN comment=BN
+add address=61.6.192.0/18 list=GEO_BN comment=BN
+add address=103.4.188.0/22 list=GEO_BN comment=BN
+add address=103.12.208.0/23 list=GEO_BN comment=BN
+add address=103.16.120.0/22 list=GEO_BN comment=BN
+add address=103.17.24.0/22 list=GEO_BN comment=BN
+add address=103.18.172.0/22 list=GEO_BN comment=BN
+add address=103.20.24.0/22 list=GEO_BN comment=BN
+add address=103.42.208.0/22 list=GEO_BN comment=BN
+add address=103.139.109.0/24 list=GEO_BN comment=BN
+add address=103.162.82.0/24 list=GEO_BN comment=BN
+add address=103.170.170.0/24 list=GEO_BN comment=BN
+add address=103.224.96.0/22 list=GEO_BN comment=BN
+add address=103.230.64.0/22 list=GEO_BN comment=BN
+add address=118.103.248.0/21 list=GEO_BN comment=BN
+add address=119.160.128.0/18 list=GEO_BN comment=BN
+add address=139.5.184.0/22 list=GEO_BN comment=BN
+add address=156.31.0.0/16 list=GEO_BN comment=BN
+add address=158.161.0.0/16 list=GEO_BN comment=BN
+add address=185.8.100.0/22 list=GEO_BN comment=BN
+add address=185.100.40.0/22 list=GEO_BN comment=BN
+add address=192.94.122.0/24 list=GEO_BN comment=BN
+add address=195.128.4.0/22 list=GEO_BN comment=BN
+add address=202.59.230.0/24 list=GEO_BN comment=BN
+add address=202.86.24.0/21 list=GEO_BN comment=BN
+add address=202.90.36.0/24 list=GEO_BN comment=BN
+add address=202.93.208.0/20 list=GEO_BN comment=BN
+add address=202.152.64.0/19 list=GEO_BN comment=BN
+add address=202.160.0.0/19 list=GEO_BN comment=BN
+add address=202.160.32.0/20 list=GEO_BN comment=BN
