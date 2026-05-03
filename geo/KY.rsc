@@ -1,14 +1,10 @@
 # GeoIP address list — KY
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: KY | Subnets: 32 (was 32, collapsed 0) | IPs: ~86,272
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KY&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_KY comment!="WHITE"]
+remove [find list=GEO_KY]
 add address=23.188.0.0/24 list=GEO_KY comment=KY
 add address=45.144.204.0/22 list=GEO_KY comment=KY
 add address=45.152.156.0/22 list=GEO_KY comment=KY

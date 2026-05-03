@@ -1,14 +1,10 @@
 # GeoIP address list — SX
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: SX | Subnets: 10 (was 13, collapsed 3) | IPs: ~34,304
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SX&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_SX comment!="WHITE"]
+remove [find list=GEO_SX]
 add address=131.161.84.0/22 list=GEO_SX comment=SX
 add address=168.0.84.0/22 list=GEO_SX comment=SX
 add address=168.197.108.0/22 list=GEO_SX comment=SX

@@ -1,14 +1,10 @@
 # GeoIP address list — LI
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: LI | Subnets: 62 (was 63, collapsed 1) | IPs: ~104,704
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LI&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_LI comment!="WHITE"]
+remove [find list=GEO_LI]
 add address=5.34.248.0/21 list=GEO_LI comment=LI
 add address=31.10.16.0/20 list=GEO_LI comment=LI
 add address=45.80.175.0/24 list=GEO_LI comment=LI

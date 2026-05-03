@@ -1,14 +1,10 @@
 # GeoIP address list — PE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PE | Subnets: 231 (was 266, collapsed 35) | IPs: ~3,248,896
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PE&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PE comment!="WHITE"]
+remove [find list=GEO_PE]
 add address=45.4.92.0/22 list=GEO_PE comment=PE
 add address=45.5.56.0/22 list=GEO_PE comment=PE
 add address=45.5.68.0/22 list=GEO_PE comment=PE

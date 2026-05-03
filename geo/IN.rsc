@@ -1,14 +1,10 @@
 # GeoIP address list — IN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: IN | Subnets: 7103 (was 9176, collapsed 2073) | IPs: ~41,890,560
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IN&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: IN | Subnets: 7126 (was 9205, collapsed 2079) | IPs: ~41,921,536
 #
 /ip firewall address-list
-remove [find list=GEO_IN comment!="WHITE"]
+remove [find list=GEO_IN]
 add address=1.6.0.0/15 list=GEO_IN comment=IN
 add address=1.10.10.0/24 list=GEO_IN comment=IN
 add address=1.22.0.0/15 list=GEO_IN comment=IN
@@ -6102,7 +6098,6 @@ add address=160.250.228.0/23 list=GEO_IN comment=IN
 add address=160.250.234.0/23 list=GEO_IN comment=IN
 add address=160.250.236.0/23 list=GEO_IN comment=IN
 add address=161.118.0.0/16 list=GEO_IN comment=IN
-add address=161.145.96.0/21 list=GEO_IN comment=IN
 add address=161.248.0.0/23 list=GEO_IN comment=IN
 add address=161.248.18.0/23 list=GEO_IN comment=IN
 add address=161.248.22.0/23 list=GEO_IN comment=IN
@@ -6134,6 +6129,12 @@ add address=161.248.223.0/24 list=GEO_IN comment=IN
 add address=161.248.224.0/23 list=GEO_IN comment=IN
 add address=161.248.228.0/22 list=GEO_IN comment=IN
 add address=161.248.242.0/23 list=GEO_IN comment=IN
+add address=162.4.2.0/23 list=GEO_IN comment=IN
+add address=162.4.10.0/23 list=GEO_IN comment=IN
+add address=162.4.12.0/22 list=GEO_IN comment=IN
+add address=162.4.20.0/23 list=GEO_IN comment=IN
+add address=162.4.24.0/23 list=GEO_IN comment=IN
+add address=162.4.42.0/23 list=GEO_IN comment=IN
 add address=162.12.244.0/22 list=GEO_IN comment=IN
 add address=162.56.0.0/16 list=GEO_IN comment=IN
 add address=162.216.140.0/22 list=GEO_IN comment=IN
@@ -6191,6 +6192,23 @@ add address=163.128.112.0/23 list=GEO_IN comment=IN
 add address=163.128.124.0/23 list=GEO_IN comment=IN
 add address=163.128.130.0/23 list=GEO_IN comment=IN
 add address=163.128.142.0/23 list=GEO_IN comment=IN
+add address=163.128.164.0/22 list=GEO_IN comment=IN
+add address=163.128.168.0/23 list=GEO_IN comment=IN
+add address=163.128.174.0/23 list=GEO_IN comment=IN
+add address=163.128.177.0/24 list=GEO_IN comment=IN
+add address=163.128.178.0/23 list=GEO_IN comment=IN
+add address=163.128.180.0/23 list=GEO_IN comment=IN
+add address=163.128.196.0/23 list=GEO_IN comment=IN
+add address=163.128.200.0/23 list=GEO_IN comment=IN
+add address=163.128.204.0/23 list=GEO_IN comment=IN
+add address=163.128.208.0/23 list=GEO_IN comment=IN
+add address=163.128.220.0/22 list=GEO_IN comment=IN
+add address=163.128.224.0/21 list=GEO_IN comment=IN
+add address=163.128.232.0/23 list=GEO_IN comment=IN
+add address=163.128.234.0/24 list=GEO_IN comment=IN
+add address=163.128.242.0/23 list=GEO_IN comment=IN
+add address=163.128.250.0/23 list=GEO_IN comment=IN
+add address=163.128.253.0/24 list=GEO_IN comment=IN
 add address=163.223.0.0/23 list=GEO_IN comment=IN
 add address=163.223.26.0/23 list=GEO_IN comment=IN
 add address=163.223.42.0/23 list=GEO_IN comment=IN
@@ -6391,6 +6409,7 @@ add address=175.184.252.0/22 list=GEO_IN comment=IN
 add address=176.111.172.0/24 list=GEO_IN comment=IN
 add address=176.111.175.0/24 list=GEO_IN comment=IN
 add address=176.124.48.0/22 list=GEO_IN comment=IN
+add address=177.177.112.0/20 list=GEO_IN comment=IN
 add address=178.212.226.0/24 list=GEO_IN comment=IN
 add address=178.251.234.0/23 list=GEO_IN comment=IN
 add address=180.87.0.0/17 list=GEO_IN comment=IN
@@ -6492,6 +6511,8 @@ add address=185.223.248.0/22 list=GEO_IN comment=IN
 add address=185.242.217.0/24 list=GEO_IN comment=IN
 add address=185.244.0.0/22 list=GEO_IN comment=IN
 add address=185.253.68.0/22 list=GEO_IN comment=IN
+add address=186.242.160.0/19 list=GEO_IN comment=IN
+add address=186.244.160.0/19 list=GEO_IN comment=IN
 add address=188.68.0.0/22 list=GEO_IN comment=IN
 add address=188.119.154.0/24 list=GEO_IN comment=IN
 add address=188.208.140.0/22 list=GEO_IN comment=IN
@@ -6992,7 +7013,6 @@ add address=203.171.240.0/21 list=GEO_IN comment=IN
 add address=203.174.18.0/23 list=GEO_IN comment=IN
 add address=203.174.20.0/22 list=GEO_IN comment=IN
 add address=203.175.4.0/22 list=GEO_IN comment=IN
-add address=203.175.98.0/23 list=GEO_IN comment=IN
 add address=203.175.176.0/23 list=GEO_IN comment=IN
 add address=203.175.180.0/22 list=GEO_IN comment=IN
 add address=203.175.184.0/23 list=GEO_IN comment=IN
@@ -7091,7 +7111,6 @@ add address=220.158.184.0/22 list=GEO_IN comment=IN
 add address=220.224.0.0/14 list=GEO_IN comment=IN
 add address=221.120.104.0/21 list=GEO_IN comment=IN
 add address=221.134.0.0/15 list=GEO_IN comment=IN
-add address=223.26.16.0/22 list=GEO_IN comment=IN
 add address=223.26.28.0/22 list=GEO_IN comment=IN
 add address=223.26.32.0/20 list=GEO_IN comment=IN
 add address=223.27.120.0/22 list=GEO_IN comment=IN

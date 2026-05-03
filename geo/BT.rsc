@@ -1,14 +1,10 @@
 # GeoIP address list — BT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BT | Subnets: 45 (was 56, collapsed 11) | IPs: ~49,408
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BT&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BT comment!="WHITE"]
+remove [find list=GEO_BT]
 add address=36.50.37.0/24 list=GEO_BT comment=BT
 add address=43.229.124.0/22 list=GEO_BT comment=BT
 add address=43.230.208.0/24 list=GEO_BT comment=BT

@@ -1,14 +1,10 @@
 # GeoIP address list — TD
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: TD | Subnets: 20 (was 20, collapsed 0) | IPs: ~25,856
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TD&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_TD comment!="WHITE"]
+remove [find list=GEO_TD]
 add address=41.242.152.0/21 list=GEO_TD comment=TD
 add address=102.23.84.0/22 list=GEO_TD comment=TD
 add address=102.131.56.0/22 list=GEO_TD comment=TD

@@ -1,14 +1,10 @@
 # GeoIP address list — KE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: KE | Subnets: 343 (was 366, collapsed 23) | IPs: ~6,231,040
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KE&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: KE | Subnets: 345 (was 369, collapsed 24) | IPs: ~6,233,344
 #
 /ip firewall address-list
-remove [find list=GEO_KE comment!="WHITE"]
+remove [find list=GEO_KE]
 add address=41.57.96.0/20 list=GEO_KE comment=KE
 add address=41.72.160.0/19 list=GEO_KE comment=KE
 add address=41.75.144.0/20 list=GEO_KE comment=KE
@@ -65,9 +61,10 @@ add address=102.164.52.0/22 list=GEO_KE comment=KE
 add address=102.164.56.0/21 list=GEO_KE comment=KE
 add address=102.166.0.0/15 list=GEO_KE comment=KE
 add address=102.176.180.0/22 list=GEO_KE comment=KE
+add address=102.202.189.0/24 list=GEO_KE comment=KE
 add address=102.203.2.0/23 list=GEO_KE comment=KE
 add address=102.203.44.0/22 list=GEO_KE comment=KE
-add address=102.203.64.0/22 list=GEO_KE comment=KE
+add address=102.203.64.0/21 list=GEO_KE comment=KE
 add address=102.203.84.0/23 list=GEO_KE comment=KE
 add address=102.203.100.0/22 list=GEO_KE comment=KE
 add address=102.203.112.0/24 list=GEO_KE comment=KE
@@ -76,6 +73,7 @@ add address=102.203.126.0/23 list=GEO_KE comment=KE
 add address=102.203.132.0/22 list=GEO_KE comment=KE
 add address=102.203.137.0/24 list=GEO_KE comment=KE
 add address=102.203.140.0/22 list=GEO_KE comment=KE
+add address=102.203.144.0/22 list=GEO_KE comment=KE
 add address=102.203.172.0/22 list=GEO_KE comment=KE
 add address=102.203.215.0/24 list=GEO_KE comment=KE
 add address=102.203.216.0/22 list=GEO_KE comment=KE

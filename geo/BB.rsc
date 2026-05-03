@@ -1,14 +1,10 @@
 # GeoIP address list — BB
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BB | Subnets: 30 (was 30, collapsed 0) | IPs: ~168,704
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BB&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BB comment!="WHITE"]
+remove [find list=GEO_BB]
 add address=23.236.0.0/20 list=GEO_BB comment=BB
 add address=64.119.192.0/20 list=GEO_BB comment=BB
 add address=65.48.128.0/17 list=GEO_BB comment=BB

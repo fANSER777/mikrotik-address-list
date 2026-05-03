@@ -1,14 +1,10 @@
 # GeoIP address list — NO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: NO | Subnets: 1225 (was 1318, collapsed 93) | IPs: ~15,602,448
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NO&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: NO | Subnets: 1227 (was 1320, collapsed 93) | IPs: ~15,602,960
 #
 /ip firewall address-list
-remove [find list=GEO_NO comment!="WHITE"]
+remove [find list=GEO_NO]
 add address=2.58.24.0/22 list=GEO_NO comment=NO
 add address=2.148.0.0/14 list=GEO_NO comment=NO
 add address=5.44.64.0/21 list=GEO_NO comment=NO
@@ -230,6 +226,8 @@ add address=85.113.72.0/21 list=GEO_NO comment=NO
 add address=85.113.160.0/19 list=GEO_NO comment=NO
 add address=85.119.136.0/21 list=GEO_NO comment=NO
 add address=85.136.80.0/23 list=GEO_NO comment=NO
+add address=85.137.80.0/24 list=GEO_NO comment=NO
+add address=85.137.182.0/24 list=GEO_NO comment=NO
 add address=85.137.228.0/22 list=GEO_NO comment=NO
 add address=85.158.80.0/21 list=GEO_NO comment=NO
 add address=85.164.0.0/14 list=GEO_NO comment=NO
@@ -943,11 +941,11 @@ add address=193.69.0.0/16 list=GEO_NO comment=NO
 add address=193.71.0.0/16 list=GEO_NO comment=NO
 add address=193.75.0.0/17 list=GEO_NO comment=NO
 add address=193.84.10.0/24 list=GEO_NO comment=NO
+add address=193.84.17.0/24 list=GEO_NO comment=NO
 add address=193.90.0.0/16 list=GEO_NO comment=NO
 add address=193.91.128.0/17 list=GEO_NO comment=NO
 add address=193.93.128.0/22 list=GEO_NO comment=NO
 add address=193.93.220.0/22 list=GEO_NO comment=NO
-add address=193.93.253.0/24 list=GEO_NO comment=NO
 add address=193.104.105.0/24 list=GEO_NO comment=NO
 add address=193.105.77.0/24 list=GEO_NO comment=NO
 add address=193.105.112.0/24 list=GEO_NO comment=NO

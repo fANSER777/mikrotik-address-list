@@ -1,14 +1,10 @@
 # GeoIP address list — RO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: RO | Subnets: 2432 (was 2838, collapsed 406) | IPs: ~7,836,288
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=RO&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: RO | Subnets: 2429 (was 2835, collapsed 406) | IPs: ~7,835,264
 #
 /ip firewall address-list
-remove [find list=GEO_RO comment!="WHITE"]
+remove [find list=GEO_RO]
 add address=2.56.48.0/22 list=GEO_RO comment=RO
 add address=2.57.120.0/22 list=GEO_RO comment=RO
 add address=2.58.44.0/22 list=GEO_RO comment=RO
@@ -119,7 +115,6 @@ add address=45.91.4.0/22 list=GEO_RO comment=RO
 add address=45.92.32.0/22 list=GEO_RO comment=RO
 add address=45.93.128.0/22 list=GEO_RO comment=RO
 add address=45.93.196.0/23 list=GEO_RO comment=RO
-add address=45.93.199.0/24 list=GEO_RO comment=RO
 add address=45.95.220.0/22 list=GEO_RO comment=RO
 add address=45.95.228.0/22 list=GEO_RO comment=RO
 add address=45.128.36.0/22 list=GEO_RO comment=RO
@@ -2135,7 +2130,6 @@ add address=194.60.72.0/24 list=GEO_RO comment=RO
 add address=194.60.82.0/24 list=GEO_RO comment=RO
 add address=194.61.80.0/24 list=GEO_RO comment=RO
 add address=194.61.82.0/23 list=GEO_RO comment=RO
-add address=194.61.156.0/23 list=GEO_RO comment=RO
 add address=194.62.2.0/23 list=GEO_RO comment=RO
 add address=194.62.22.0/24 list=GEO_RO comment=RO
 add address=194.62.122.0/23 list=GEO_RO comment=RO
@@ -2308,7 +2302,6 @@ add address=195.95.237.0/24 list=GEO_RO comment=RO
 add address=195.95.254.0/23 list=GEO_RO comment=RO
 add address=195.110.4.0/23 list=GEO_RO comment=RO
 add address=195.128.130.0/24 list=GEO_RO comment=RO
-add address=195.130.201.0/24 list=GEO_RO comment=RO
 add address=195.137.166.0/24 list=GEO_RO comment=RO
 add address=195.138.192.0/24 list=GEO_RO comment=RO
 add address=195.138.214.0/24 list=GEO_RO comment=RO

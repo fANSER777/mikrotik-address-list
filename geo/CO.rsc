@@ -1,14 +1,10 @@
 # GeoIP address list — CO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: CO | Subnets: 514 (was 641, collapsed 127) | IPs: ~17,512,192
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CO&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: CO | Subnets: 514 (was 641, collapsed 127) | IPs: ~17,511,680
 #
 /ip firewall address-list
-remove [find list=GEO_CO comment!="WHITE"]
+remove [find list=GEO_CO]
 add address=24.152.56.0/24 list=GEO_CO comment=CO
 add address=24.152.58.0/23 list=GEO_CO comment=CO
 add address=37.10.70.0/24 list=GEO_CO comment=CO
@@ -96,7 +92,6 @@ add address=45.225.224.0/22 list=GEO_CO comment=CO
 add address=45.226.112.0/22 list=GEO_CO comment=CO
 add address=45.226.186.0/23 list=GEO_CO comment=CO
 add address=45.227.5.0/24 list=GEO_CO comment=CO
-add address=45.227.88.0/22 list=GEO_CO comment=CO
 add address=45.228.66.0/24 list=GEO_CO comment=CO
 add address=45.229.72.0/23 list=GEO_CO comment=CO
 add address=45.229.192.0/23 list=GEO_CO comment=CO
@@ -284,6 +279,7 @@ add address=186.103.0.0/17 list=GEO_CO comment=CO
 add address=186.112.0.0/13 list=GEO_CO comment=CO
 add address=186.121.0.0/17 list=GEO_CO comment=CO
 add address=186.121.136.0/21 list=GEO_CO comment=CO
+add address=186.121.144.0/23 list=GEO_CO comment=CO
 add address=186.144.0.0/14 list=GEO_CO comment=CO
 add address=186.148.160.0/19 list=GEO_CO comment=CO
 add address=186.154.0.0/15 list=GEO_CO comment=CO

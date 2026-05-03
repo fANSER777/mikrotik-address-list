@@ -1,14 +1,10 @@
 # GeoIP address list — PT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PT | Subnets: 403 (was 447, collapsed 44) | IPs: ~6,692,384
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PT&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PT comment!="WHITE"]
+remove [find list=GEO_PT]
 add address=2.80.0.0/14 list=GEO_PT comment=PT
 add address=5.43.0.0/18 list=GEO_PT comment=PT
 add address=5.158.0.0/18 list=GEO_PT comment=PT

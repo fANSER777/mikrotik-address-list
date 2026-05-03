@@ -1,14 +1,10 @@
 # GeoIP address list — BE
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: BE | Subnets: 923 (was 980, collapsed 57) | IPs: ~12,345,984
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BE&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: BE | Subnets: 924 (was 983, collapsed 59) | IPs: ~12,340,352
 #
 /ip firewall address-list
-remove [find list=GEO_BE comment!="WHITE"]
+remove [find list=GEO_BE]
 add address=2.56.171.0/24 list=GEO_BE comment=BE
 add address=2.57.40.0/22 list=GEO_BE comment=BE
 add address=2.58.108.0/22 list=GEO_BE comment=BE
@@ -138,6 +134,7 @@ add address=80.248.141.0/24 list=GEO_BE comment=BE
 add address=80.248.142.0/23 list=GEO_BE comment=BE
 add address=81.11.128.0/17 list=GEO_BE comment=BE
 add address=81.82.0.0/15 list=GEO_BE comment=BE
+add address=81.85.61.0/24 list=GEO_BE comment=BE
 add address=81.92.112.0/20 list=GEO_BE comment=BE
 add address=81.95.112.0/20 list=GEO_BE comment=BE
 add address=81.164.0.0/15 list=GEO_BE comment=BE
@@ -215,6 +212,7 @@ add address=91.198.243.0/24 list=GEO_BE comment=BE
 add address=91.199.15.0/24 list=GEO_BE comment=BE
 add address=91.199.110.0/24 list=GEO_BE comment=BE
 add address=91.202.32.0/22 list=GEO_BE comment=BE
+add address=91.206.75.0/24 list=GEO_BE comment=BE
 add address=91.206.84.0/23 list=GEO_BE comment=BE
 add address=91.206.250.0/23 list=GEO_BE comment=BE
 add address=91.208.12.0/24 list=GEO_BE comment=BE
@@ -338,14 +336,13 @@ add address=149.126.56.0/21 list=GEO_BE comment=BE
 add address=149.134.0.0/16 list=GEO_BE comment=BE
 add address=149.154.192.0/18 list=GEO_BE comment=BE
 add address=150.251.0.0/18 list=GEO_BE comment=BE
-add address=150.251.64.0/19 list=GEO_BE comment=BE
+add address=150.251.72.0/22 list=GEO_BE comment=BE
+add address=150.251.80.0/20 list=GEO_BE comment=BE
 add address=150.251.96.0/20 list=GEO_BE comment=BE
 add address=150.251.124.0/22 list=GEO_BE comment=BE
 add address=150.251.176.0/20 list=GEO_BE comment=BE
 add address=150.251.192.0/19 list=GEO_BE comment=BE
 add address=150.251.232.0/21 list=GEO_BE comment=BE
-add address=150.251.240.0/21 list=GEO_BE comment=BE
-add address=150.251.248.0/22 list=GEO_BE comment=BE
 add address=152.55.156.0/22 list=GEO_BE comment=BE
 add address=152.152.0.0/16 list=GEO_BE comment=BE
 add address=153.89.0.0/16 list=GEO_BE comment=BE

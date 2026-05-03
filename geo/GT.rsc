@@ -1,21 +1,16 @@
 # GeoIP address list — GT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: GT | Subnets: 137 (was 151, collapsed 14) | IPs: ~651,008
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GT&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: GT | Subnets: 136 (was 151, collapsed 15) | IPs: ~651,008
 #
 /ip firewall address-list
-remove [find list=GEO_GT comment!="WHITE"]
+remove [find list=GEO_GT]
 add address=24.152.52.0/22 list=GEO_GT comment=GT
 add address=45.4.128.0/22 list=GEO_GT comment=GT
 add address=45.5.116.0/22 list=GEO_GT comment=GT
 add address=45.68.4.0/22 list=GEO_GT comment=GT
 add address=45.68.48.0/22 list=GEO_GT comment=GT
 add address=45.164.148.0/22 list=GEO_GT comment=GT
-add address=45.165.152.0/24 list=GEO_GT comment=GT
 add address=45.166.240.0/22 list=GEO_GT comment=GT
 add address=45.171.64.0/22 list=GEO_GT comment=GT
 add address=45.173.216.0/22 list=GEO_GT comment=GT
@@ -41,7 +36,7 @@ add address=138.118.104.0/22 list=GEO_GT comment=GT
 add address=143.208.56.0/22 list=GEO_GT comment=GT
 add address=143.208.180.0/22 list=GEO_GT comment=GT
 add address=148.222.58.0/23 list=GEO_GT comment=GT
-add address=148.224.60.0/24 list=GEO_GT comment=GT
+add address=148.224.60.0/23 list=GEO_GT comment=GT
 add address=148.227.208.0/20 list=GEO_GT comment=GT
 add address=148.230.16.0/20 list=GEO_GT comment=GT
 add address=167.250.220.0/22 list=GEO_GT comment=GT

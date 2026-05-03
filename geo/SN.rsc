@@ -1,14 +1,10 @@
 # GeoIP address list — SN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: SN | Subnets: 33 (was 39, collapsed 6) | IPs: ~406,784
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SN&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: SN | Subnets: 34 (was 40, collapsed 6) | IPs: ~407,040
 #
 /ip firewall address-list
-remove [find list=GEO_SN comment!="WHITE"]
+remove [find list=GEO_SN]
 add address=41.82.0.0/15 list=GEO_SN comment=SN
 add address=41.208.128.0/18 list=GEO_SN comment=SN
 add address=41.214.0.0/17 list=GEO_SN comment=SN
@@ -16,6 +12,7 @@ add address=41.219.0.0/18 list=GEO_SN comment=SN
 add address=102.36.136.0/22 list=GEO_SN comment=SN
 add address=102.36.147.0/24 list=GEO_SN comment=SN
 add address=102.164.128.0/18 list=GEO_SN comment=SN
+add address=102.202.197.0/24 list=GEO_SN comment=SN
 add address=102.203.86.0/23 list=GEO_SN comment=SN
 add address=102.203.220.0/22 list=GEO_SN comment=SN
 add address=102.204.28.0/22 list=GEO_SN comment=SN

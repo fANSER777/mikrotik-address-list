@@ -1,14 +1,10 @@
 # GeoIP address list — PL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: PL | Subnets: 3932 (was 4305, collapsed 373) | IPs: ~19,990,792
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PL&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: PL | Subnets: 3933 (was 4305, collapsed 372) | IPs: ~19,991,304
 #
 /ip firewall address-list
-remove [find list=GEO_PL comment!="WHITE"]
+remove [find list=GEO_PL]
 add address=2.56.68.0/22 list=GEO_PL comment=PL
 add address=2.57.8.0/22 list=GEO_PL comment=PL
 add address=2.57.132.0/22 list=GEO_PL comment=PL
@@ -574,7 +570,7 @@ add address=87.199.112.0/21 list=GEO_PL comment=PL
 add address=87.199.120.0/22 list=GEO_PL comment=PL
 add address=87.199.124.0/23 list=GEO_PL comment=PL
 add address=87.199.126.0/24 list=GEO_PL comment=PL
-add address=87.199.128.0/17 list=GEO_PL comment=PL
+add address=87.199.128.0/18 list=GEO_PL comment=PL
 add address=87.204.0.0/14 list=GEO_PL comment=PL
 add address=87.236.36.0/24 list=GEO_PL comment=PL
 add address=87.239.40.0/21 list=GEO_PL comment=PL
@@ -1677,6 +1673,7 @@ add address=147.78.232.0/22 list=GEO_PL comment=PL
 add address=148.81.0.0/16 list=GEO_PL comment=PL
 add address=148.253.208.0/21 list=GEO_PL comment=PL
 add address=149.156.0.0/16 list=GEO_PL comment=PL
+add address=150.251.76.0/22 list=GEO_PL comment=PL
 add address=150.251.252.0/22 list=GEO_PL comment=PL
 add address=150.254.0.0/16 list=GEO_PL comment=PL
 add address=151.248.32.0/20 list=GEO_PL comment=PL
@@ -2536,6 +2533,7 @@ add address=188.215.96.0/22 list=GEO_PL comment=PL
 add address=188.241.28.0/24 list=GEO_PL comment=PL
 add address=188.246.128.0/19 list=GEO_PL comment=PL
 add address=188.252.0.0/17 list=GEO_PL comment=PL
+add address=191.44.64.0/18 list=GEO_PL comment=PL
 add address=192.54.220.0/24 list=GEO_PL comment=PL
 add address=192.55.109.0/24 list=GEO_PL comment=PL
 add address=192.68.51.0/24 list=GEO_PL comment=PL
@@ -3145,7 +3143,6 @@ add address=194.6.204.0/22 list=GEO_PL comment=PL
 add address=194.6.241.0/24 list=GEO_PL comment=PL
 add address=194.6.245.0/24 list=GEO_PL comment=PL
 add address=194.6.246.0/24 list=GEO_PL comment=PL
-add address=194.8.14.0/23 list=GEO_PL comment=PL
 add address=194.8.45.0/24 list=GEO_PL comment=PL
 add address=194.8.46.0/24 list=GEO_PL comment=PL
 add address=194.8.68.0/23 list=GEO_PL comment=PL

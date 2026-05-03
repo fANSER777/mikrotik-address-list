@@ -1,14 +1,10 @@
 # GeoIP address list — KZ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: KZ | Subnets: 578 (was 648, collapsed 70) | IPs: ~3,326,976
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KZ&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: KZ | Subnets: 583 (was 653, collapsed 70) | IPs: ~3,330,048
 #
 /ip firewall address-list
-remove [find list=GEO_KZ comment!="WHITE"]
+remove [find list=GEO_KZ]
 add address=2.57.96.0/22 list=GEO_KZ comment=KZ
 add address=2.72.0.0/13 list=GEO_KZ comment=KZ
 add address=2.132.0.0/14 list=GEO_KZ comment=KZ
@@ -257,6 +253,7 @@ add address=93.185.64.0/20 list=GEO_KZ comment=KZ
 add address=93.190.240.0/22 list=GEO_KZ comment=KZ
 add address=93.191.224.0/21 list=GEO_KZ comment=KZ
 add address=94.126.201.0/24 list=GEO_KZ comment=KZ
+add address=94.131.60.0/22 list=GEO_KZ comment=KZ
 add address=94.131.80.0/20 list=GEO_KZ comment=KZ
 add address=94.131.176.0/20 list=GEO_KZ comment=KZ
 add address=94.131.224.0/20 list=GEO_KZ comment=KZ
@@ -313,6 +310,8 @@ add address=149.27.0.0/16 list=GEO_KZ comment=KZ
 add address=149.154.188.0/22 list=GEO_KZ comment=KZ
 add address=151.236.192.0/21 list=GEO_KZ comment=KZ
 add address=151.237.144.0/20 list=GEO_KZ comment=KZ
+add address=153.56.200.0/22 list=GEO_KZ comment=KZ
+add address=153.56.204.0/23 list=GEO_KZ comment=KZ
 add address=157.22.222.0/23 list=GEO_KZ comment=KZ
 add address=157.22.232.0/21 list=GEO_KZ comment=KZ
 add address=158.94.223.0/24 list=GEO_KZ comment=KZ
@@ -413,6 +412,7 @@ add address=185.143.128.0/22 list=GEO_KZ comment=KZ
 add address=185.146.0.0/22 list=GEO_KZ comment=KZ
 add address=185.146.16.0/22 list=GEO_KZ comment=KZ
 add address=185.151.40.0/22 list=GEO_KZ comment=KZ
+add address=185.161.186.0/24 list=GEO_KZ comment=KZ
 add address=185.162.234.0/24 list=GEO_KZ comment=KZ
 add address=185.165.48.0/23 list=GEO_KZ comment=KZ
 add address=185.179.8.0/22 list=GEO_KZ comment=KZ
@@ -422,6 +422,7 @@ add address=185.188.14.0/24 list=GEO_KZ comment=KZ
 add address=185.190.248.0/24 list=GEO_KZ comment=KZ
 add address=185.191.28.0/22 list=GEO_KZ comment=KZ
 add address=185.191.212.0/24 list=GEO_KZ comment=KZ
+add address=185.198.153.0/24 list=GEO_KZ comment=KZ
 add address=185.206.32.0/22 list=GEO_KZ comment=KZ
 add address=185.209.88.0/22 list=GEO_KZ comment=KZ
 add address=185.210.139.0/24 list=GEO_KZ comment=KZ

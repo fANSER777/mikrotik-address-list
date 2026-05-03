@@ -1,14 +1,10 @@
 # GeoIP address list — MU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MU | Subnets: 104 (was 106, collapsed 2) | IPs: ~3,697,920
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MU&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MU comment!="WHITE"]
+remove [find list=GEO_MU]
 add address=37.139.132.0/22 list=GEO_MU comment=MU
 add address=41.72.192.0/19 list=GEO_MU comment=MU
 add address=41.76.40.0/21 list=GEO_MU comment=MU

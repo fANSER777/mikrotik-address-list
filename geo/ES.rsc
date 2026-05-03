@@ -1,14 +1,10 @@
 # GeoIP address list — ES
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: ES | Subnets: 3408 (was 3769, collapsed 361) | IPs: ~32,112,256
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ES&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: ES | Subnets: 3410 (was 3778, collapsed 368) | IPs: ~32,112,256
 #
 /ip firewall address-list
-remove [find list=GEO_ES comment!="WHITE"]
+remove [find list=GEO_ES]
 add address=1.178.224.0/19 list=GEO_ES comment=ES
 add address=2.56.64.0/22 list=GEO_ES comment=ES
 add address=2.57.2.0/24 list=GEO_ES comment=ES
@@ -32,7 +28,6 @@ add address=2.59.244.0/22 list=GEO_ES comment=ES
 add address=2.136.0.0/13 list=GEO_ES comment=ES
 add address=2.152.0.0/18 list=GEO_ES comment=ES
 add address=2.152.66.0/23 list=GEO_ES comment=ES
-add address=2.152.68.0/22 list=GEO_ES comment=ES
 add address=2.152.72.0/21 list=GEO_ES comment=ES
 add address=2.152.80.0/20 list=GEO_ES comment=ES
 add address=2.152.96.0/19 list=GEO_ES comment=ES
@@ -106,7 +101,6 @@ add address=5.183.184.0/22 list=GEO_ES comment=ES
 add address=5.183.210.0/24 list=GEO_ES comment=ES
 add address=5.183.220.0/22 list=GEO_ES comment=ES
 add address=5.187.0.0/21 list=GEO_ES comment=ES
-add address=5.187.38.0/23 list=GEO_ES comment=ES
 add address=5.199.224.0/21 list=GEO_ES comment=ES
 add address=5.205.0.0/16 list=GEO_ES comment=ES
 add address=5.224.0.0/15 list=GEO_ES comment=ES
@@ -548,7 +542,7 @@ add address=79.98.216.0/21 list=GEO_ES comment=ES
 add address=79.98.244.0/22 list=GEO_ES comment=ES
 add address=79.99.208.0/21 list=GEO_ES comment=ES
 add address=79.108.0.0/17 list=GEO_ES comment=ES
-add address=79.108.128.0/20 list=GEO_ES comment=ES
+add address=79.108.136.0/21 list=GEO_ES comment=ES
 add address=79.108.226.0/24 list=GEO_ES comment=ES
 add address=79.108.228.0/22 list=GEO_ES comment=ES
 add address=79.108.232.0/21 list=GEO_ES comment=ES
@@ -628,7 +622,10 @@ add address=81.89.32.0/20 list=GEO_ES comment=ES
 add address=81.90.96.0/20 list=GEO_ES comment=ES
 add address=81.92.128.0/20 list=GEO_ES comment=ES
 add address=81.95.64.0/20 list=GEO_ES comment=ES
-add address=81.172.32.0/20 list=GEO_ES comment=ES
+add address=81.172.32.0/21 list=GEO_ES comment=ES
+add address=81.172.40.0/22 list=GEO_ES comment=ES
+add address=81.172.44.0/24 list=GEO_ES comment=ES
+add address=81.172.46.0/23 list=GEO_ES comment=ES
 add address=81.172.60.0/22 list=GEO_ES comment=ES
 add address=81.172.68.0/22 list=GEO_ES comment=ES
 add address=81.172.72.0/21 list=GEO_ES comment=ES
@@ -707,17 +704,17 @@ add address=85.117.248.0/22 list=GEO_ES comment=ES
 add address=85.118.240.0/21 list=GEO_ES comment=ES
 add address=85.119.192.0/21 list=GEO_ES comment=ES
 add address=85.136.82.0/23 list=GEO_ES comment=ES
-add address=85.136.208.0/22 list=GEO_ES comment=ES
+add address=85.136.210.0/23 list=GEO_ES comment=ES
 add address=85.137.16.0/20 list=GEO_ES comment=ES
-add address=85.137.80.0/22 list=GEO_ES comment=ES
-add address=85.137.168.0/22 list=GEO_ES comment=ES
-add address=85.137.180.0/22 list=GEO_ES comment=ES
+add address=85.137.81.0/24 list=GEO_ES comment=ES
+add address=85.137.82.0/23 list=GEO_ES comment=ES
+add address=85.137.180.0/23 list=GEO_ES comment=ES
+add address=85.137.183.0/24 list=GEO_ES comment=ES
 add address=85.137.212.0/22 list=GEO_ES comment=ES
 add address=85.137.216.0/22 list=GEO_ES comment=ES
 add address=85.137.224.0/22 list=GEO_ES comment=ES
 add address=85.152.0.0/16 list=GEO_ES comment=ES
 add address=85.155.0.0/19 list=GEO_ES comment=ES
-add address=85.155.168.0/21 list=GEO_ES comment=ES
 add address=85.155.192.0/19 list=GEO_ES comment=ES
 add address=85.155.252.0/22 list=GEO_ES comment=ES
 add address=85.158.168.0/21 list=GEO_ES comment=ES
@@ -908,6 +905,7 @@ add address=89.107.48.0/21 list=GEO_ES comment=ES
 add address=89.107.176.0/21 list=GEO_ES comment=ES
 add address=89.107.240.0/21 list=GEO_ES comment=ES
 add address=89.124.250.0/24 list=GEO_ES comment=ES
+add address=89.127.192.0/19 list=GEO_ES comment=ES
 add address=89.128.0.0/14 list=GEO_ES comment=ES
 add address=89.140.0.0/15 list=GEO_ES comment=ES
 add address=89.150.32.0/24 list=GEO_ES comment=ES
@@ -923,6 +921,7 @@ add address=90.160.0.0/12 list=GEO_ES comment=ES
 add address=91.90.0.0/21 list=GEO_ES comment=ES
 add address=91.90.161.0/24 list=GEO_ES comment=ES
 add address=91.92.248.0/23 list=GEO_ES comment=ES
+add address=91.102.125.0/24 list=GEO_ES comment=ES
 add address=91.102.240.0/21 list=GEO_ES comment=ES
 add address=91.103.48.0/21 list=GEO_ES comment=ES
 add address=91.103.148.0/22 list=GEO_ES comment=ES
@@ -2052,7 +2051,6 @@ add address=185.161.12.0/22 list=GEO_ES comment=ES
 add address=185.161.40.0/22 list=GEO_ES comment=ES
 add address=185.161.96.0/22 list=GEO_ES comment=ES
 add address=185.161.116.0/22 list=GEO_ES comment=ES
-add address=185.161.186.0/23 list=GEO_ES comment=ES
 add address=185.162.52.0/22 list=GEO_ES comment=ES
 add address=185.162.168.0/21 list=GEO_ES comment=ES
 add address=185.163.49.0/24 list=GEO_ES comment=ES

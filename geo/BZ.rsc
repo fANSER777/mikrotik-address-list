@@ -1,14 +1,10 @@
 # GeoIP address list — BZ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BZ | Subnets: 130 (was 132, collapsed 2) | IPs: ~163,584
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BZ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BZ comment!="WHITE"]
+remove [find list=GEO_BZ]
 add address=2.56.44.0/22 list=GEO_BZ comment=BZ
 add address=2.59.10.0/23 list=GEO_BZ comment=BZ
 add address=5.253.160.0/22 list=GEO_BZ comment=BZ

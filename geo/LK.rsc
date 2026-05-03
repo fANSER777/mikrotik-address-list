@@ -1,14 +1,10 @@
 # GeoIP address list — LK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: LK | Subnets: 69 (was 83, collapsed 14) | IPs: ~563,968
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LK&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: LK | Subnets: 68 (was 82, collapsed 14) | IPs: ~563,456
 #
 /ip firewall address-list
-remove [find list=GEO_LK comment!="WHITE"]
+remove [find list=GEO_LK]
 add address=43.224.124.0/22 list=GEO_LK comment=LK
 add address=43.228.108.0/22 list=GEO_LK comment=LK
 add address=43.250.240.0/22 list=GEO_LK comment=LK
@@ -25,7 +21,6 @@ add address=103.77.64.0/22 list=GEO_LK comment=LK
 add address=103.84.160.0/22 list=GEO_LK comment=LK
 add address=103.87.12.0/22 list=GEO_LK comment=LK
 add address=103.87.124.0/22 list=GEO_LK comment=LK
-add address=103.96.226.0/23 list=GEO_LK comment=LK
 add address=103.99.100.0/24 list=GEO_LK comment=LK
 add address=103.138.180.0/24 list=GEO_LK comment=LK
 add address=103.140.194.0/23 list=GEO_LK comment=LK

@@ -1,14 +1,10 @@
 # GeoIP address list — PR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PR | Subnets: 208 (was 224, collapsed 16) | IPs: ~773,120
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PR&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PR comment!="WHITE"]
+remove [find list=GEO_PR]
 add address=23.128.16.0/24 list=GEO_PR comment=PR
 add address=23.128.168.0/24 list=GEO_PR comment=PR
 add address=23.129.176.0/24 list=GEO_PR comment=PR

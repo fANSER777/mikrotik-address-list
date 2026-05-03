@@ -1,14 +1,10 @@
 # GeoIP address list — GP
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GP | Subnets: 16 (was 16, collapsed 0) | IPs: ~124,928
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GP&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GP comment!="WHITE"]
+remove [find list=GEO_GP]
 add address=5.187.96.0/19 list=GEO_GP comment=GP
 add address=46.238.128.0/18 list=GEO_GP comment=GP
 add address=93.121.128.0/17 list=GEO_GP comment=GP

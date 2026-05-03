@@ -1,14 +1,10 @@
 # GeoIP address list — CY
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: CY | Subnets: 534 (was 583, collapsed 49) | IPs: ~1,290,816
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CY&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: CY | Subnets: 534 (was 584, collapsed 50) | IPs: ~1,291,840
 #
 /ip firewall address-list
-remove [find list=GEO_CY comment!="WHITE"]
+remove [find list=GEO_CY]
 add address=2.56.116.0/22 list=GEO_CY comment=CY
 add address=2.56.120.0/21 list=GEO_CY comment=CY
 add address=2.56.140.0/22 list=GEO_CY comment=CY
@@ -156,7 +152,7 @@ add address=83.168.0.0/18 list=GEO_CY comment=CY
 add address=84.238.132.0/23 list=GEO_CY comment=CY
 add address=84.246.111.0/24 list=GEO_CY comment=CY
 add address=85.132.224.0/19 list=GEO_CY comment=CY
-add address=85.137.172.0/22 list=GEO_CY comment=CY
+add address=85.137.168.0/21 list=GEO_CY comment=CY
 add address=85.208.96.0/22 list=GEO_CY comment=CY
 add address=85.208.104.0/21 list=GEO_CY comment=CY
 add address=85.208.112.0/21 list=GEO_CY comment=CY
@@ -197,6 +193,7 @@ add address=91.208.6.0/24 list=GEO_CY comment=CY
 add address=91.210.124.0/24 list=GEO_CY comment=CY
 add address=91.211.147.0/24 list=GEO_CY comment=CY
 add address=91.212.145.0/24 list=GEO_CY comment=CY
+add address=91.213.140.0/24 list=GEO_CY comment=CY
 add address=91.214.126.0/24 list=GEO_CY comment=CY
 add address=91.214.236.0/22 list=GEO_CY comment=CY
 add address=91.217.246.0/24 list=GEO_CY comment=CY
@@ -523,7 +520,6 @@ add address=212.108.119.0/24 list=GEO_CY comment=CY
 add address=213.5.129.0/24 list=GEO_CY comment=CY
 add address=213.7.0.0/16 list=GEO_CY comment=CY
 add address=213.59.112.0/20 list=GEO_CY comment=CY
-add address=213.109.193.0/24 list=GEO_CY comment=CY
 add address=213.109.198.0/24 list=GEO_CY comment=CY
 add address=213.109.205.0/24 list=GEO_CY comment=CY
 add address=213.133.80.0/20 list=GEO_CY comment=CY

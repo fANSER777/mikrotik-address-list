@@ -1,14 +1,10 @@
 # GeoIP address list — PG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PG | Subnets: 62 (was 62, collapsed 0) | IPs: ~66,560
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PG comment!="WHITE"]
+remove [find list=GEO_PG]
 add address=14.192.72.0/22 list=GEO_PG comment=PG
 add address=27.122.16.0/20 list=GEO_PG comment=PG
 add address=43.245.56.0/22 list=GEO_PG comment=PG

@@ -1,14 +1,10 @@
 # GeoIP address list — HN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: HN | Subnets: 187 (was 192, collapsed 5) | IPs: ~536,064
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=HN&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_HN comment!="WHITE"]
+remove [find list=GEO_HN]
 add address=45.4.84.0/22 list=GEO_HN comment=HN
 add address=45.4.136.0/22 list=GEO_HN comment=HN
 add address=45.4.204.0/22 list=GEO_HN comment=HN

@@ -1,14 +1,10 @@
 # GeoIP address list — AM
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: AM | Subnets: 183 (was 193, collapsed 10) | IPs: ~643,872
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AM&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: AM | Subnets: 187 (was 197, collapsed 10) | IPs: ~648,736
 #
 /ip firewall address-list
-remove [find list=GEO_AM comment!="WHITE"]
+remove [find list=GEO_AM]
 add address=2.56.204.0/22 list=GEO_AM comment=AM
 add address=5.39.204.0/22 list=GEO_AM comment=AM
 add address=5.63.160.0/21 list=GEO_AM comment=AM
@@ -102,13 +98,16 @@ add address=93.185.144.0/20 list=GEO_AM comment=AM
 add address=93.187.160.0/21 list=GEO_AM comment=AM
 add address=94.141.100.0/22 list=GEO_AM comment=AM
 add address=94.142.250.0/24 list=GEO_AM comment=AM
+add address=94.154.127.0/24 list=GEO_AM comment=AM
 add address=95.140.192.0/20 list=GEO_AM comment=AM
 add address=95.174.96.0/19 list=GEO_AM comment=AM
 add address=109.68.120.0/21 list=GEO_AM comment=AM
 add address=109.75.32.0/20 list=GEO_AM comment=AM
 add address=130.193.27.0/24 list=GEO_AM comment=AM
 add address=130.193.120.0/21 list=GEO_AM comment=AM
+add address=132.243.176.0/20 list=GEO_AM comment=AM
 add address=141.136.64.0/19 list=GEO_AM comment=AM
+add address=146.19.140.0/24 list=GEO_AM comment=AM
 add address=176.32.192.0/21 list=GEO_AM comment=AM
 add address=176.113.118.0/24 list=GEO_AM comment=AM
 add address=176.120.24.0/21 list=GEO_AM comment=AM
@@ -134,6 +133,7 @@ add address=185.79.0.0/22 list=GEO_AM comment=AM
 add address=185.80.91.0/24 list=GEO_AM comment=AM
 add address=185.86.192.0/22 list=GEO_AM comment=AM
 add address=185.92.84.0/22 list=GEO_AM comment=AM
+add address=185.113.8.0/24 list=GEO_AM comment=AM
 add address=185.127.64.0/22 list=GEO_AM comment=AM
 add address=185.136.32.0/22 list=GEO_AM comment=AM
 add address=185.149.140.0/22 list=GEO_AM comment=AM

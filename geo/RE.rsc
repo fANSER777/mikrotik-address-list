@@ -1,14 +1,10 @@
 # GeoIP address list — RE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: RE | Subnets: 23 (was 24, collapsed 1) | IPs: ~408,832
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=RE&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: RE | Subnets: 24 (was 25, collapsed 1) | IPs: ~409,856
 #
 /ip firewall address-list
-remove [find list=GEO_RE comment!="WHITE"]
+remove [find list=GEO_RE]
 add address=5.57.96.0/19 list=GEO_RE comment=RE
 add address=41.213.128.0/17 list=GEO_RE comment=RE
 add address=41.242.124.0/22 list=GEO_RE comment=RE
@@ -17,6 +13,7 @@ add address=78.108.224.0/20 list=GEO_RE comment=RE
 add address=80.69.208.0/20 list=GEO_RE comment=RE
 add address=102.35.0.0/16 list=GEO_RE comment=RE
 add address=102.135.224.0/20 list=GEO_RE comment=RE
+add address=102.202.160.0/22 list=GEO_RE comment=RE
 add address=102.206.36.0/22 list=GEO_RE comment=RE
 add address=102.213.8.0/22 list=GEO_RE comment=RE
 add address=109.122.128.0/18 list=GEO_RE comment=RE

@@ -1,14 +1,10 @@
 # GeoIP address list — FI
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: FI | Subnets: 989 (was 1149, collapsed 160) | IPs: ~13,864,000
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=FI&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: FI | Subnets: 985 (was 1145, collapsed 160) | IPs: ~13,866,048
 #
 /ip firewall address-list
-remove [find list=GEO_FI comment!="WHITE"]
+remove [find list=GEO_FI]
 add address=2.58.88.0/22 list=GEO_FI comment=FI
 add address=2.58.220.0/22 list=GEO_FI comment=FI
 add address=5.22.208.0/20 list=GEO_FI comment=FI
@@ -656,11 +652,7 @@ add address=192.84.204.0/22 list=GEO_FI comment=FI
 add address=192.88.86.0/24 list=GEO_FI comment=FI
 add address=192.89.0.0/16 list=GEO_FI comment=FI
 add address=192.92.116.0/24 list=GEO_FI comment=FI
-add address=192.98.0.0/18 list=GEO_FI comment=FI
-add address=192.98.64.0/19 list=GEO_FI comment=FI
-add address=192.98.96.0/20 list=GEO_FI comment=FI
-add address=192.98.112.0/21 list=GEO_FI comment=FI
-add address=192.98.128.0/17 list=GEO_FI comment=FI
+add address=192.98.0.0/16 list=GEO_FI comment=FI
 add address=192.101.192.0/24 list=GEO_FI comment=FI
 add address=192.102.18.0/23 list=GEO_FI comment=FI
 add address=192.102.20.0/22 list=GEO_FI comment=FI

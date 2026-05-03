@@ -1,14 +1,10 @@
 # GeoIP address list — ML
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: ML | Subnets: 27 (was 27, collapsed 0) | IPs: ~92,672
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ML&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_ML comment!="WHITE"]
+remove [find list=GEO_ML]
 add address=41.73.96.0/19 list=GEO_ML comment=ML
 add address=41.203.192.0/20 list=GEO_ML comment=ML
 add address=41.221.176.0/20 list=GEO_ML comment=ML

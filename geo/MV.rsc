@@ -1,14 +1,10 @@
 # GeoIP address list — MV
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MV | Subnets: 45 (was 47, collapsed 2) | IPs: ~93,952
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MV&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MV comment!="WHITE"]
+remove [find list=GEO_MV]
 add address=27.114.128.0/18 list=GEO_MV comment=MV
 add address=36.255.104.0/23 list=GEO_MV comment=MV
 add address=43.226.220.0/22 list=GEO_MV comment=MV

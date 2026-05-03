@@ -1,18 +1,16 @@
 # GeoIP address list — PH
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: PH | Subnets: 802 (was 881, collapsed 79) | IPs: ~6,248,448
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PH&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: PH | Subnets: 807 (was 886, collapsed 79) | IPs: ~6,249,472
 #
 /ip firewall address-list
-remove [find list=GEO_PH comment!="WHITE"]
+remove [find list=GEO_PH]
 add address=1.37.0.0/16 list=GEO_PH comment=PH
 add address=2.58.228.0/22 list=GEO_PH comment=PH
 add address=14.102.168.0/22 list=GEO_PH comment=PH
 add address=23.155.4.0/24 list=GEO_PH comment=PH
+add address=23.156.204.0/24 list=GEO_PH comment=PH
+add address=23.187.40.0/24 list=GEO_PH comment=PH
 add address=27.49.0.0/16 list=GEO_PH comment=PH
 add address=27.50.0.0/22 list=GEO_PH comment=PH
 add address=27.106.216.0/21 list=GEO_PH comment=PH
@@ -175,7 +173,6 @@ add address=103.83.40.0/22 list=GEO_PH comment=PH
 add address=103.83.224.0/22 list=GEO_PH comment=PH
 add address=103.83.238.0/23 list=GEO_PH comment=PH
 add address=103.84.176.0/23 list=GEO_PH comment=PH
-add address=103.85.134.0/24 list=GEO_PH comment=PH
 add address=103.86.120.0/22 list=GEO_PH comment=PH
 add address=103.86.184.0/22 list=GEO_PH comment=PH
 add address=103.88.68.0/22 list=GEO_PH comment=PH
@@ -250,7 +247,6 @@ add address=103.139.80.0/24 list=GEO_PH comment=PH
 add address=103.139.248.0/24 list=GEO_PH comment=PH
 add address=103.140.150.0/23 list=GEO_PH comment=PH
 add address=103.140.169.0/24 list=GEO_PH comment=PH
-add address=103.141.29.0/24 list=GEO_PH comment=PH
 add address=103.141.100.0/23 list=GEO_PH comment=PH
 add address=103.141.122.0/24 list=GEO_PH comment=PH
 add address=103.141.202.0/23 list=GEO_PH comment=PH
@@ -476,7 +472,6 @@ add address=122.49.208.0/20 list=GEO_PH comment=PH
 add address=122.52.0.0/14 list=GEO_PH comment=PH
 add address=122.144.64.0/18 list=GEO_PH comment=PH
 add address=123.108.112.0/20 list=GEO_PH comment=PH
-add address=123.136.72.0/21 list=GEO_PH comment=PH
 add address=123.176.64.0/21 list=GEO_PH comment=PH
 add address=123.253.48.0/22 list=GEO_PH comment=PH
 add address=123.253.136.0/22 list=GEO_PH comment=PH
@@ -492,6 +487,7 @@ add address=125.60.128.0/17 list=GEO_PH comment=PH
 add address=125.212.0.0/17 list=GEO_PH comment=PH
 add address=125.253.128.0/22 list=GEO_PH comment=PH
 add address=126.209.0.0/17 list=GEO_PH comment=PH
+add address=130.12.80.0/22 list=GEO_PH comment=PH
 add address=130.105.0.0/16 list=GEO_PH comment=PH
 add address=131.226.64.0/18 list=GEO_PH comment=PH
 add address=136.158.0.0/16 list=GEO_PH comment=PH
@@ -582,12 +578,17 @@ add address=161.248.126.0/24 list=GEO_PH comment=PH
 add address=161.248.130.0/23 list=GEO_PH comment=PH
 add address=161.248.168.0/23 list=GEO_PH comment=PH
 add address=161.248.190.0/23 list=GEO_PH comment=PH
+add address=162.4.0.0/23 list=GEO_PH comment=PH
 add address=163.61.86.0/24 list=GEO_PH comment=PH
 add address=163.61.94.0/23 list=GEO_PH comment=PH
 add address=163.61.135.0/24 list=GEO_PH comment=PH
 add address=163.61.255.0/24 list=GEO_PH comment=PH
 add address=163.128.40.0/23 list=GEO_PH comment=PH
 add address=163.128.116.0/23 list=GEO_PH comment=PH
+add address=163.128.182.0/24 list=GEO_PH comment=PH
+add address=163.128.186.0/23 list=GEO_PH comment=PH
+add address=163.128.214.0/23 list=GEO_PH comment=PH
+add address=163.128.252.0/24 list=GEO_PH comment=PH
 add address=163.223.30.0/23 list=GEO_PH comment=PH
 add address=163.223.76.0/24 list=GEO_PH comment=PH
 add address=163.223.80.0/23 list=GEO_PH comment=PH

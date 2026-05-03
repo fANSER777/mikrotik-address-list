@@ -1,14 +1,10 @@
 # GeoIP address list — KH
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: KH | Subnets: 274 (was 285, collapsed 11) | IPs: ~499,456
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KH&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_KH comment!="WHITE"]
+remove [find list=GEO_KH]
 add address=5.28.32.0/21 list=GEO_KH comment=KH
 add address=27.96.84.0/22 list=GEO_KH comment=KH
 add address=27.109.112.0/22 list=GEO_KH comment=KH

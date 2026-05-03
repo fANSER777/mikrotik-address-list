@@ -1,14 +1,10 @@
 # GeoIP address list — BN
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BN | Subnets: 35 (was 37, collapsed 2) | IPs: ~216,064
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BN&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BN comment!="WHITE"]
+remove [find list=GEO_BN]
 add address=43.225.40.0/22 list=GEO_BN comment=BN
 add address=43.225.136.0/22 list=GEO_BN comment=BN
 add address=43.251.128.0/22 list=GEO_BN comment=BN

@@ -1,14 +1,10 @@
 # GeoIP address list — BI
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BI | Subnets: 13 (was 13, collapsed 0) | IPs: ~36,864
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BI&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BI comment!="WHITE"]
+remove [find list=GEO_BI]
 add address=41.79.44.0/22 list=GEO_BI comment=BI
 add address=41.79.224.0/22 list=GEO_BI comment=BI
 add address=102.134.96.0/20 list=GEO_BI comment=BI

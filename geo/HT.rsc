@@ -1,14 +1,10 @@
 # GeoIP address list — HT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: HT | Subnets: 21 (was 25, collapsed 4) | IPs: ~154,880
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=HT&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_HT comment!="WHITE"]
+remove [find list=GEO_HT]
 add address=148.102.128.0/17 list=GEO_HT comment=HT
 add address=161.0.128.0/19 list=GEO_HT comment=HT
 add address=168.197.100.0/22 list=GEO_HT comment=HT

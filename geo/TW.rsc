@@ -1,14 +1,10 @@
 # GeoIP address list — TW
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: TW | Subnets: 721 (was 1019, collapsed 298) | IPs: ~35,721,984
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TW&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: TW | Subnets: 720 (was 1035, collapsed 315) | IPs: ~35,721,472
 #
 /ip firewall address-list
-remove [find list=GEO_TW comment!="WHITE"]
+remove [find list=GEO_TW]
 add address=1.34.0.0/15 list=GEO_TW comment=TW
 add address=1.160.0.0/12 list=GEO_TW comment=TW
 add address=1.200.0.0/16 list=GEO_TW comment=TW
@@ -391,7 +387,6 @@ add address=112.213.48.0/20 list=GEO_TW comment=TW
 add address=113.21.80.0/20 list=GEO_TW comment=TW
 add address=113.21.160.0/19 list=GEO_TW comment=TW
 add address=113.61.128.0/17 list=GEO_TW comment=TW
-add address=113.192.24.0/23 list=GEO_TW comment=TW
 add address=113.196.0.0/16 list=GEO_TW comment=TW
 add address=113.212.78.0/23 list=GEO_TW comment=TW
 add address=114.24.0.0/14 list=GEO_TW comment=TW
@@ -513,7 +508,6 @@ add address=157.20.106.0/23 list=GEO_TW comment=TW
 add address=157.20.108.0/23 list=GEO_TW comment=TW
 add address=157.20.134.0/23 list=GEO_TW comment=TW
 add address=157.20.198.0/23 list=GEO_TW comment=TW
-add address=157.20.248.0/23 list=GEO_TW comment=TW
 add address=157.66.166.0/23 list=GEO_TW comment=TW
 add address=159.117.64.0/19 list=GEO_TW comment=TW
 add address=160.19.52.0/22 list=GEO_TW comment=TW
@@ -523,7 +517,6 @@ add address=160.25.220.0/23 list=GEO_TW comment=TW
 add address=160.30.78.0/23 list=GEO_TW comment=TW
 add address=160.30.98.0/23 list=GEO_TW comment=TW
 add address=160.30.210.0/23 list=GEO_TW comment=TW
-add address=160.187.72.0/23 list=GEO_TW comment=TW
 add address=160.187.100.0/23 list=GEO_TW comment=TW
 add address=160.187.198.0/23 list=GEO_TW comment=TW
 add address=160.187.200.0/23 list=GEO_TW comment=TW
@@ -546,6 +539,8 @@ add address=163.61.124.0/23 list=GEO_TW comment=TW
 add address=163.61.184.0/23 list=GEO_TW comment=TW
 add address=163.128.76.0/23 list=GEO_TW comment=TW
 add address=163.128.120.0/23 list=GEO_TW comment=TW
+add address=163.128.172.0/23 list=GEO_TW comment=TW
+add address=163.128.192.0/23 list=GEO_TW comment=TW
 add address=163.223.206.0/23 list=GEO_TW comment=TW
 add address=163.223.248.0/23 list=GEO_TW comment=TW
 add address=163.227.172.0/23 list=GEO_TW comment=TW

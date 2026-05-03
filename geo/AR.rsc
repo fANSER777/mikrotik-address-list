@@ -1,14 +1,10 @@
 # GeoIP address list — AR
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: AR | Subnets: 1600 (was 1937, collapsed 337) | IPs: ~19,434,496
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AR&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: AR | Subnets: 1598 (was 1937, collapsed 339) | IPs: ~19,435,776
 #
 /ip firewall address-list
-remove [find list=GEO_AR comment!="WHITE"]
+remove [find list=GEO_AR]
 add address=24.152.57.0/24 list=GEO_AR comment=AR
 add address=24.232.0.0/16 list=GEO_AR comment=AR
 add address=45.4.97.0/24 list=GEO_AR comment=AR
@@ -988,7 +984,7 @@ add address=186.65.108.0/22 list=GEO_AR comment=AR
 add address=186.96.192.0/21 list=GEO_AR comment=AR
 add address=186.100.0.0/16 list=GEO_AR comment=AR
 add address=186.108.0.0/14 list=GEO_AR comment=AR
-add address=186.121.144.0/22 list=GEO_AR comment=AR
+add address=186.121.146.0/23 list=GEO_AR comment=AR
 add address=186.121.152.0/21 list=GEO_AR comment=AR
 add address=186.121.168.0/21 list=GEO_AR comment=AR
 add address=186.121.176.0/20 list=GEO_AR comment=AR
@@ -1292,7 +1288,6 @@ add address=200.0.192.0/21 list=GEO_AR comment=AR
 add address=200.0.200.0/24 list=GEO_AR comment=AR
 add address=200.0.208.0/21 list=GEO_AR comment=AR
 add address=200.0.224.0/19 list=GEO_AR comment=AR
-add address=200.1.7.0/24 list=GEO_AR comment=AR
 add address=200.1.32.0/19 list=GEO_AR comment=AR
 add address=200.1.113.0/24 list=GEO_AR comment=AR
 add address=200.1.116.0/23 list=GEO_AR comment=AR
@@ -1424,8 +1419,7 @@ add address=200.49.192.0/19 list=GEO_AR comment=AR
 add address=200.49.224.0/20 list=GEO_AR comment=AR
 add address=200.49.248.0/21 list=GEO_AR comment=AR
 add address=200.50.152.0/22 list=GEO_AR comment=AR
-add address=200.50.160.0/20 list=GEO_AR comment=AR
-add address=200.50.184.0/21 list=GEO_AR comment=AR
+add address=200.50.160.0/19 list=GEO_AR comment=AR
 add address=200.50.240.0/20 list=GEO_AR comment=AR
 add address=200.51.0.0/16 list=GEO_AR comment=AR
 add address=200.55.0.0/17 list=GEO_AR comment=AR

@@ -1,14 +1,10 @@
 # GeoIP address list — CL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CL | Subnets: 633 (was 814, collapsed 181) | IPs: ~10,038,272
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CL&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CL comment!="WHITE"]
+remove [find list=GEO_CL]
 add address=45.4.0.0/22 list=GEO_CL comment=CL
 add address=45.4.168.0/22 list=GEO_CL comment=CL
 add address=45.5.120.0/21 list=GEO_CL comment=CL

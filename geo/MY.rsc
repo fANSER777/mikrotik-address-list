@@ -1,14 +1,10 @@
 # GeoIP address list — MY
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: MY | Subnets: 787 (was 909, collapsed 122) | IPs: ~6,702,080
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MY&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: MY | Subnets: 794 (was 916, collapsed 122) | IPs: ~6,704,640
 #
 /ip firewall address-list
-remove [find list=GEO_MY comment!="WHITE"]
+remove [find list=GEO_MY]
 add address=1.9.0.0/16 list=GEO_MY comment=MY
 add address=1.32.0.0/17 list=GEO_MY comment=MY
 add address=14.1.128.0/17 list=GEO_MY comment=MY
@@ -18,7 +14,10 @@ add address=14.192.64.0/21 list=GEO_MY comment=MY
 add address=14.192.192.0/18 list=GEO_MY comment=MY
 add address=23.155.52.0/24 list=GEO_MY comment=MY
 add address=23.155.92.0/24 list=GEO_MY comment=MY
+add address=23.156.132.0/24 list=GEO_MY comment=MY
+add address=23.156.148.0/24 list=GEO_MY comment=MY
 add address=23.177.232.0/24 list=GEO_MY comment=MY
+add address=23.187.104.0/24 list=GEO_MY comment=MY
 add address=27.0.4.0/22 list=GEO_MY comment=MY
 add address=27.110.80.0/20 list=GEO_MY comment=MY
 add address=27.121.108.0/22 list=GEO_MY comment=MY
@@ -566,6 +565,7 @@ add address=124.158.224.0/19 list=GEO_MY comment=MY
 add address=124.195.128.0/20 list=GEO_MY comment=MY
 add address=124.197.224.0/19 list=GEO_MY comment=MY
 add address=124.217.224.0/19 list=GEO_MY comment=MY
+add address=130.12.56.0/22 list=GEO_MY comment=MY
 add address=131.143.128.0/22 list=GEO_MY comment=MY
 add address=135.84.232.0/21 list=GEO_MY comment=MY
 add address=137.59.80.0/22 list=GEO_MY comment=MY
@@ -628,6 +628,8 @@ add address=163.61.18.0/24 list=GEO_MY comment=MY
 add address=163.61.92.0/23 list=GEO_MY comment=MY
 add address=163.61.102.0/23 list=GEO_MY comment=MY
 add address=163.128.146.0/23 list=GEO_MY comment=MY
+add address=163.128.218.0/24 list=GEO_MY comment=MY
+add address=163.128.246.0/24 list=GEO_MY comment=MY
 add address=163.223.146.0/23 list=GEO_MY comment=MY
 add address=163.223.158.0/23 list=GEO_MY comment=MY
 add address=165.84.232.0/21 list=GEO_MY comment=MY
@@ -635,6 +637,7 @@ add address=165.99.116.0/24 list=GEO_MY comment=MY
 add address=165.99.144.0/23 list=GEO_MY comment=MY
 add address=165.99.155.0/24 list=GEO_MY comment=MY
 add address=165.99.198.0/23 list=GEO_MY comment=MY
+add address=167.179.26.0/24 list=GEO_MY comment=MY
 add address=170.38.0.0/16 list=GEO_MY comment=MY
 add address=175.28.12.0/22 list=GEO_MY comment=MY
 add address=175.136.0.0/13 list=GEO_MY comment=MY

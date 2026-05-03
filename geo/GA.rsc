@@ -1,14 +1,10 @@
 # GeoIP address list — GA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GA | Subnets: 25 (was 25, collapsed 0) | IPs: ~393,728
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GA&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GA comment!="WHITE"]
+remove [find list=GEO_GA]
 add address=41.78.240.0/22 list=GEO_GA comment=GA
 add address=41.158.0.0/15 list=GEO_GA comment=GA
 add address=41.211.128.0/18 list=GEO_GA comment=GA

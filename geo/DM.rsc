@@ -1,14 +1,10 @@
 # GeoIP address list — DM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: DM | Subnets: 13 (was 13, collapsed 0) | IPs: ~10,496
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=DM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_DM comment!="WHITE"]
+remove [find list=GEO_DM]
 add address=23.186.240.0/24 list=GEO_DM comment=DM
 add address=45.9.148.0/22 list=GEO_DM comment=DM
 add address=66.118.36.0/22 list=GEO_DM comment=DM

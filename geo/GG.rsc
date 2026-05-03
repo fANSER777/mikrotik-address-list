@@ -1,14 +1,10 @@
 # GeoIP address list — GG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GG | Subnets: 22 (was 22, collapsed 0) | IPs: ~31,488
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GG comment!="WHITE"]
+remove [find list=GEO_GG]
 add address=45.11.144.0/22 list=GEO_GG comment=GG
 add address=45.135.252.0/22 list=GEO_GG comment=GG
 add address=46.31.240.0/21 list=GEO_GG comment=GG

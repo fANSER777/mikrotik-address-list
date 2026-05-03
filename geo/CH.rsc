@@ -1,14 +1,10 @@
 # GeoIP address list — CH
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: CH | Subnets: 2672 (was 3051, collapsed 379) | IPs: ~23,403,632
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CH&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: CH | Subnets: 2670 (was 3050, collapsed 380) | IPs: ~23,390,064
 #
 /ip firewall address-list
-remove [find list=GEO_CH comment!="WHITE"]
+remove [find list=GEO_CH]
 add address=2.56.40.0/22 list=GEO_CH comment=CH
 add address=2.56.169.0/24 list=GEO_CH comment=CH
 add address=2.59.120.0/22 list=GEO_CH comment=CH
@@ -49,7 +45,6 @@ add address=5.183.0.0/21 list=GEO_CH comment=CH
 add address=5.187.36.0/23 list=GEO_CH comment=CH
 add address=5.187.56.0/21 list=GEO_CH comment=CH
 add address=5.226.144.0/21 list=GEO_CH comment=CH
-add address=5.249.168.0/21 list=GEO_CH comment=CH
 add address=5.252.136.0/22 list=GEO_CH comment=CH
 add address=5.253.208.0/22 list=GEO_CH comment=CH
 add address=5.255.56.0/24 list=GEO_CH comment=CH
@@ -692,7 +687,7 @@ add address=94.230.208.0/20 list=GEO_CH comment=CH
 add address=94.231.80.0/20 list=GEO_CH comment=CH
 add address=94.244.192.0/18 list=GEO_CH comment=CH
 add address=94.247.216.0/21 list=GEO_CH comment=CH
-add address=95.36.96.0/22 list=GEO_CH comment=CH
+add address=95.36.96.0/21 list=GEO_CH comment=CH
 add address=95.128.32.0/21 list=GEO_CH comment=CH
 add address=95.128.80.0/21 list=GEO_CH comment=CH
 add address=95.128.157.0/24 list=GEO_CH comment=CH
@@ -846,6 +841,7 @@ add address=152.89.80.0/22 list=GEO_CH comment=CH
 add address=152.96.0.0/16 list=GEO_CH comment=CH
 add address=153.51.32.0/19 list=GEO_CH comment=CH
 add address=153.51.64.0/18 list=GEO_CH comment=CH
+add address=153.75.48.0/20 list=GEO_CH comment=CH
 add address=153.92.41.0/24 list=GEO_CH comment=CH
 add address=153.92.47.0/24 list=GEO_CH comment=CH
 add address=153.108.0.0/15 list=GEO_CH comment=CH
@@ -2130,6 +2126,7 @@ add address=194.5.220.0/22 list=GEO_CH comment=CH
 add address=194.5.228.0/22 list=GEO_CH comment=CH
 add address=194.6.160.0/19 list=GEO_CH comment=CH
 add address=194.6.247.0/24 list=GEO_CH comment=CH
+add address=194.8.15.0/24 list=GEO_CH comment=CH
 add address=194.8.78.0/23 list=GEO_CH comment=CH
 add address=194.9.12.0/23 list=GEO_CH comment=CH
 add address=194.9.34.0/23 list=GEO_CH comment=CH
@@ -2162,7 +2159,6 @@ add address=194.11.217.0/24 list=GEO_CH comment=CH
 add address=194.11.218.0/23 list=GEO_CH comment=CH
 add address=194.11.221.0/24 list=GEO_CH comment=CH
 add address=194.11.222.0/23 list=GEO_CH comment=CH
-add address=194.11.228.0/23 list=GEO_CH comment=CH
 add address=194.11.232.0/23 list=GEO_CH comment=CH
 add address=194.11.236.0/23 list=GEO_CH comment=CH
 add address=194.11.238.0/24 list=GEO_CH comment=CH
@@ -2225,7 +2221,6 @@ add address=194.50.178.0/24 list=GEO_CH comment=CH
 add address=194.56.0.0/18 list=GEO_CH comment=CH
 add address=194.56.64.0/21 list=GEO_CH comment=CH
 add address=194.56.96.0/19 list=GEO_CH comment=CH
-add address=194.56.128.0/20 list=GEO_CH comment=CH
 add address=194.56.152.0/21 list=GEO_CH comment=CH
 add address=194.56.160.0/21 list=GEO_CH comment=CH
 add address=194.56.174.0/23 list=GEO_CH comment=CH
@@ -2374,7 +2369,6 @@ add address=194.180.247.0/24 list=GEO_CH comment=CH
 add address=194.182.160.0/19 list=GEO_CH comment=CH
 add address=194.187.88.0/22 list=GEO_CH comment=CH
 add address=194.191.0.0/16 list=GEO_CH comment=CH
-add address=194.204.64.0/19 list=GEO_CH comment=CH
 add address=194.209.0.0/16 list=GEO_CH comment=CH
 add address=194.213.7.0/24 list=GEO_CH comment=CH
 add address=194.230.0.0/16 list=GEO_CH comment=CH
@@ -2570,7 +2564,7 @@ add address=212.40.0.0/19 list=GEO_CH comment=CH
 add address=212.41.64.0/18 list=GEO_CH comment=CH
 add address=212.41.192.0/19 list=GEO_CH comment=CH
 add address=212.42.128.0/19 list=GEO_CH comment=CH
-add address=212.43.128.0/19 list=GEO_CH comment=CH
+add address=212.43.128.0/20 list=GEO_CH comment=CH
 add address=212.45.192.0/19 list=GEO_CH comment=CH
 add address=212.47.53.0/24 list=GEO_CH comment=CH
 add address=212.47.160.0/19 list=GEO_CH comment=CH

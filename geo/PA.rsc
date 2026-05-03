@@ -1,14 +1,10 @@
 # GeoIP address list — PA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PA | Subnets: 138 (was 165, collapsed 27) | IPs: ~1,998,336
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PA&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PA comment!="WHITE"]
+remove [find list=GEO_PA]
 add address=5.252.152.0/22 list=GEO_PA comment=PA
 add address=23.137.100.0/24 list=GEO_PA comment=PA
 add address=31.7.56.0/21 list=GEO_PA comment=PA

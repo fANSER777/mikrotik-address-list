@@ -1,14 +1,10 @@
 # GeoIP address list — MD
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MD | Subnets: 412 (was 423, collapsed 11) | IPs: ~1,242,112
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MD&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MD comment!="WHITE"]
+remove [find list=GEO_MD]
 add address=2.57.152.0/22 list=GEO_MD comment=MD
 add address=2.59.204.0/22 list=GEO_MD comment=MD
 add address=5.32.168.0/21 list=GEO_MD comment=MD

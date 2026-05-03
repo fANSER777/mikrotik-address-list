@@ -1,14 +1,10 @@
 # GeoIP address list — CU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CU | Subnets: 17 (was 21, collapsed 4) | IPs: ~257,024
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CU&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CU comment!="WHITE"]
+remove [find list=GEO_CU]
 add address=152.206.0.0/15 list=GEO_CU comment=CU
 add address=169.158.0.0/16 list=GEO_CU comment=CU
 add address=181.225.224.0/19 list=GEO_CU comment=CU

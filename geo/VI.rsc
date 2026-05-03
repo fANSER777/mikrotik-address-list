@@ -1,14 +1,10 @@
 # GeoIP address list — VI
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: VI | Subnets: 26 (was 26, collapsed 0) | IPs: ~131,840
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=VI&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_VI comment!="WHITE"]
+remove [find list=GEO_VI]
 add address=23.143.120.0/24 list=GEO_VI comment=VI
 add address=23.177.184.0/23 list=GEO_VI comment=VI
 add address=66.59.216.0/24 list=GEO_VI comment=VI

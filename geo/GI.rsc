@@ -1,14 +1,10 @@
 # GeoIP address list — GI
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: GI | Subnets: 71 (was 71, collapsed 0) | IPs: ~134,400
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GI&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: GI | Subnets: 73 (was 73, collapsed 0) | IPs: ~133,376
 #
 /ip firewall address-list
-remove [find list=GEO_GI comment!="WHITE"]
+remove [find list=GEO_GI]
 add address=2.58.8.0/22 list=GEO_GI comment=GI
 add address=5.150.152.0/22 list=GEO_GI comment=GI
 add address=31.222.48.0/20 list=GEO_GI comment=GI
@@ -37,7 +33,9 @@ add address=94.131.4.0/22 list=GEO_GI comment=GI
 add address=94.131.21.0/24 list=GEO_GI comment=GI
 add address=94.131.22.0/24 list=GEO_GI comment=GI
 add address=94.131.24.0/21 list=GEO_GI comment=GI
-add address=94.131.32.0/19 list=GEO_GI comment=GI
+add address=94.131.32.0/20 list=GEO_GI comment=GI
+add address=94.131.48.0/21 list=GEO_GI comment=GI
+add address=94.131.56.0/22 list=GEO_GI comment=GI
 add address=94.131.64.0/20 list=GEO_GI comment=GI
 add address=94.131.124.0/22 list=GEO_GI comment=GI
 add address=94.131.128.0/19 list=GEO_GI comment=GI

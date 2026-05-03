@@ -1,14 +1,10 @@
 # GeoIP address list — MK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MK | Subnets: 105 (was 143, collapsed 38) | IPs: ~685,312
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MK&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MK comment!="WHITE"]
+remove [find list=GEO_MK]
 add address=5.32.176.0/21 list=GEO_MK comment=MK
 add address=31.3.88.0/21 list=GEO_MK comment=MK
 add address=31.7.168.0/21 list=GEO_MK comment=MK

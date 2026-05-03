@@ -1,14 +1,10 @@
 # GeoIP address list — UG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: UG | Subnets: 103 (was 105, collapsed 2) | IPs: ~1,422,848
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=UG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_UG comment!="WHITE"]
+remove [find list=GEO_UG]
 add address=41.75.160.0/19 list=GEO_UG comment=UG
 add address=41.77.72.0/21 list=GEO_UG comment=UG
 add address=41.84.192.0/19 list=GEO_UG comment=UG

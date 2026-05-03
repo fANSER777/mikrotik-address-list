@@ -1,14 +1,10 @@
 # GeoIP address list — MT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MT | Subnets: 123 (was 124, collapsed 1) | IPs: ~679,552
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MT&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MT comment!="WHITE"]
+remove [find list=GEO_MT]
 add address=37.75.32.0/19 list=GEO_MT comment=MT
 add address=37.114.72.0/21 list=GEO_MT comment=MT
 add address=37.233.120.0/21 list=GEO_MT comment=MT

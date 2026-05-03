@@ -1,14 +1,10 @@
 # GeoIP address list — LA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: LA | Subnets: 61 (was 61, collapsed 0) | IPs: ~90,688
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LA&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_LA comment!="WHITE"]
+remove [find list=GEO_LA]
 add address=43.224.36.0/22 list=GEO_LA comment=LA
 add address=43.228.84.0/22 list=GEO_LA comment=LA
 add address=43.252.244.0/22 list=GEO_LA comment=LA

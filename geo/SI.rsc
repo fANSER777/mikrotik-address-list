@@ -1,14 +1,10 @@
 # GeoIP address list — SI
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: SI | Subnets: 530 (was 546, collapsed 16) | IPs: ~2,679,552
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SI&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: SI | Subnets: 531 (was 547, collapsed 16) | IPs: ~2,680,576
 #
 /ip firewall address-list
-remove [find list=GEO_SI comment!="WHITE"]
+remove [find list=GEO_SI]
 add address=2.58.48.0/22 list=GEO_SI comment=SI
 add address=2.59.118.0/24 list=GEO_SI comment=SI
 add address=5.32.136.0/21 list=GEO_SI comment=SI
@@ -70,6 +66,7 @@ add address=84.54.32.0/24 list=GEO_SI comment=SI
 add address=84.255.192.0/18 list=GEO_SI comment=SI
 add address=85.10.0.0/19 list=GEO_SI comment=SI
 add address=85.10.32.0/20 list=GEO_SI comment=SI
+add address=85.155.172.0/22 list=GEO_SI comment=SI
 add address=85.204.38.0/24 list=GEO_SI comment=SI
 add address=85.208.172.0/22 list=GEO_SI comment=SI
 add address=86.54.86.0/24 list=GEO_SI comment=SI

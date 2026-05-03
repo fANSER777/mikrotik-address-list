@@ -1,14 +1,10 @@
 # GeoIP address list — GR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: GR | Subnets: 438 (was 461, collapsed 23) | IPs: ~5,782,144
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GR&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: GR | Subnets: 439 (was 466, collapsed 27) | IPs: ~5,782,400
 #
 /ip firewall address-list
-remove [find list=GEO_GR comment!="WHITE"]
+remove [find list=GEO_GR]
 add address=2.84.0.0/14 list=GEO_GR comment=GR
 add address=5.54.0.0/15 list=GEO_GR comment=GR
 add address=5.144.192.0/18 list=GEO_GR comment=GR
@@ -314,6 +310,7 @@ add address=193.84.251.0/24 list=GEO_GR comment=GR
 add address=193.92.0.0/16 list=GEO_GR comment=GR
 add address=193.93.164.0/22 list=GEO_GR comment=GR
 add address=193.104.200.0/24 list=GEO_GR comment=GR
+add address=193.104.210.0/24 list=GEO_GR comment=GR
 add address=193.105.42.0/24 list=GEO_GR comment=GR
 add address=193.105.80.0/24 list=GEO_GR comment=GR
 add address=193.105.85.0/24 list=GEO_GR comment=GR

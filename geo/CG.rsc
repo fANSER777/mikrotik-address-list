@@ -1,14 +1,10 @@
 # GeoIP address list — CG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CG | Subnets: 21 (was 21, collapsed 0) | IPs: ~141,824
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CG comment!="WHITE"]
+remove [find list=GEO_CG]
 add address=41.75.64.0/20 list=GEO_CG comment=CG
 add address=102.64.116.0/22 list=GEO_CG comment=CG
 add address=102.129.64.0/19 list=GEO_CG comment=CG

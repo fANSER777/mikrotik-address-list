@@ -1,14 +1,10 @@
 # GeoIP address list — GU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GU | Subnets: 27 (was 29, collapsed 2) | IPs: ~219,392
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GU&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GU comment!="WHITE"]
+remove [find list=GEO_GU]
 add address=43.240.88.0/22 list=GEO_GU comment=GU
 add address=43.247.60.0/22 list=GEO_GU comment=GU
 add address=49.128.104.0/22 list=GEO_GU comment=GU

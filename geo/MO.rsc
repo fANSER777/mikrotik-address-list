@@ -1,14 +1,10 @@
 # GeoIP address list — MO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MO | Subnets: 31 (was 39, collapsed 8) | IPs: ~339,712
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MO&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MO comment!="WHITE"]
+remove [find list=GEO_MO]
 add address=23.148.24.0/24 list=GEO_MO comment=MO
 add address=27.109.128.0/17 list=GEO_MO comment=MO
 add address=43.247.24.0/22 list=GEO_MO comment=MO

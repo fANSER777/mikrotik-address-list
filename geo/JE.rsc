@@ -1,14 +1,10 @@
 # GeoIP address list — JE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: JE | Subnets: 42 (was 44, collapsed 2) | IPs: ~145,664
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=JE&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: JE | Subnets: 44 (was 46, collapsed 2) | IPs: ~145,152
 #
 /ip firewall address-list
-remove [find list=GEO_JE comment!="WHITE"]
+remove [find list=GEO_JE]
 add address=5.35.160.0/21 list=GEO_JE comment=JE
 add address=5.42.128.0/21 list=GEO_JE comment=JE
 add address=31.186.112.0/21 list=GEO_JE comment=JE
@@ -25,7 +21,9 @@ add address=103.105.148.0/22 list=GEO_JE comment=JE
 add address=109.68.192.0/22 list=GEO_JE comment=JE
 add address=146.19.127.0/24 list=GEO_JE comment=JE
 add address=165.250.0.0/16 list=GEO_JE comment=JE
-add address=173.255.144.0/21 list=GEO_JE comment=JE
+add address=173.255.144.0/22 list=GEO_JE comment=JE
+add address=173.255.149.0/24 list=GEO_JE comment=JE
+add address=173.255.151.0/24 list=GEO_JE comment=JE
 add address=185.3.52.0/22 list=GEO_JE comment=JE
 add address=185.16.68.0/22 list=GEO_JE comment=JE
 add address=185.48.60.0/22 list=GEO_JE comment=JE

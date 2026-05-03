@@ -1,14 +1,10 @@
 # GeoIP address list — MG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MG | Subnets: 27 (was 27, collapsed 0) | IPs: ~579,840
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MG comment!="WHITE"]
+remove [find list=GEO_MG]
 add address=41.63.128.0/19 list=GEO_MG comment=MG
 add address=41.74.16.0/20 list=GEO_MG comment=MG
 add address=41.74.208.0/20 list=GEO_MG comment=MG

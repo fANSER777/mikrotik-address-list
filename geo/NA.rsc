@@ -1,14 +1,10 @@
 # GeoIP address list — NA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: NA | Subnets: 43 (was 43, collapsed 0) | IPs: ~484,864
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NA&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_NA comment!="WHITE"]
+remove [find list=GEO_NA]
 add address=41.63.192.0/18 list=GEO_NA comment=NA
 add address=41.182.0.0/16 list=GEO_NA comment=NA
 add address=41.190.84.0/22 list=GEO_NA comment=NA

@@ -1,14 +1,10 @@
 # GeoIP address list — IL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: IL | Subnets: 755 (was 1023, collapsed 268) | IPs: ~8,045,632
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IL&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: IL | Subnets: 757 (was 1025, collapsed 268) | IPs: ~8,013,888
 #
 /ip firewall address-list
-remove [find list=GEO_IL comment!="WHITE"]
+remove [find list=GEO_IL]
 add address=2.52.0.0/14 list=GEO_IL comment=IL
 add address=2.57.228.0/22 list=GEO_IL comment=IL
 add address=5.22.128.0/21 list=GEO_IL comment=IL
@@ -322,7 +318,6 @@ add address=109.237.76.0/23 list=GEO_IL comment=IL
 add address=109.253.0.0/16 list=GEO_IL comment=IL
 add address=128.139.0.0/16 list=GEO_IL comment=IL
 add address=130.185.96.0/21 list=GEO_IL comment=IL
-add address=131.125.128.0/17 list=GEO_IL comment=IL
 add address=132.64.0.0/13 list=GEO_IL comment=IL
 add address=132.72.0.0/14 list=GEO_IL comment=IL
 add address=132.76.0.0/15 list=GEO_IL comment=IL
@@ -632,6 +627,7 @@ add address=194.36.88.0/22 list=GEO_IL comment=IL
 add address=194.37.80.0/22 list=GEO_IL comment=IL
 add address=194.41.120.0/22 list=GEO_IL comment=IL
 add address=194.50.71.0/24 list=GEO_IL comment=IL
+add address=194.50.89.0/24 list=GEO_IL comment=IL
 add address=194.50.175.0/24 list=GEO_IL comment=IL
 add address=194.54.168.0/22 list=GEO_IL comment=IL
 add address=194.56.215.0/24 list=GEO_IL comment=IL
@@ -655,6 +651,7 @@ add address=194.180.243.0/24 list=GEO_IL comment=IL
 add address=194.187.36.0/22 list=GEO_IL comment=IL
 add address=194.187.84.0/22 list=GEO_IL comment=IL
 add address=194.213.4.0/24 list=GEO_IL comment=IL
+add address=194.238.72.0/23 list=GEO_IL comment=IL
 add address=194.242.24.0/23 list=GEO_IL comment=IL
 add address=194.247.166.0/23 list=GEO_IL comment=IL
 add address=195.3.136.0/22 list=GEO_IL comment=IL
@@ -701,6 +698,7 @@ add address=198.49.162.0/24 list=GEO_IL comment=IL
 add address=198.99.230.0/24 list=GEO_IL comment=IL
 add address=198.202.22.0/24 list=GEO_IL comment=IL
 add address=199.101.112.0/22 list=GEO_IL comment=IL
+add address=199.115.175.0/24 list=GEO_IL comment=IL
 add address=199.203.0.0/16 list=GEO_IL comment=IL
 add address=203.33.70.0/24 list=GEO_IL comment=IL
 add address=204.52.208.0/24 list=GEO_IL comment=IL

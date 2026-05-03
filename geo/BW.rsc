@@ -1,14 +1,10 @@
 # GeoIP address list — BW
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: BW | Subnets: 53 (was 53, collapsed 0) | IPs: ~164,096
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BW&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: BW | Subnets: 54 (was 55, collapsed 1) | IPs: ~164,608
 #
 /ip firewall address-list
-remove [find list=GEO_BW comment!="WHITE"]
+remove [find list=GEO_BW]
 add address=41.74.48.0/20 list=GEO_BW comment=BW
 add address=41.75.0.0/20 list=GEO_BW comment=BW
 add address=41.76.240.0/21 list=GEO_BW comment=BW
@@ -29,6 +25,7 @@ add address=102.134.84.0/22 list=GEO_BW comment=BW
 add address=102.134.160.0/20 list=GEO_BW comment=BW
 add address=102.141.112.0/21 list=GEO_BW comment=BW
 add address=102.165.128.0/19 list=GEO_BW comment=BW
+add address=102.202.190.0/23 list=GEO_BW comment=BW
 add address=102.204.97.0/24 list=GEO_BW comment=BW
 add address=102.204.208.0/22 list=GEO_BW comment=BW
 add address=102.205.8.0/23 list=GEO_BW comment=BW

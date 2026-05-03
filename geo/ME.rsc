@@ -1,14 +1,10 @@
 # GeoIP address list — ME
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: ME | Subnets: 48 (was 48, collapsed 0) | IPs: ~198,400
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ME&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: ME | Subnets: 47 (was 47, collapsed 0) | IPs: ~198,144
 #
 /ip firewall address-list
-remove [find list=GEO_ME comment!="WHITE"]
+remove [find list=GEO_ME]
 add address=31.204.192.0/18 list=GEO_ME comment=ME
 add address=37.0.64.0/21 list=GEO_ME comment=ME
 add address=37.122.160.0/19 list=GEO_ME comment=ME
@@ -21,7 +17,6 @@ add address=78.155.32.0/19 list=GEO_ME comment=ME
 add address=79.140.144.0/20 list=GEO_ME comment=ME
 add address=79.143.96.0/20 list=GEO_ME comment=ME
 add address=81.28.248.0/22 list=GEO_ME comment=ME
-add address=84.54.45.0/24 list=GEO_ME comment=ME
 add address=85.94.96.0/19 list=GEO_ME comment=ME
 add address=89.188.32.0/19 list=GEO_ME comment=ME
 add address=91.217.138.0/24 list=GEO_ME comment=ME

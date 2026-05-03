@@ -1,14 +1,10 @@
 # GeoIP address list — NE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: NE | Subnets: 12 (was 12, collapsed 0) | IPs: ~45,056
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NE&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_NE comment!="WHITE"]
+remove [find list=GEO_NE]
 add address=41.78.116.0/22 list=GEO_NE comment=NE
 add address=41.138.32.0/19 list=GEO_NE comment=NE
 add address=41.203.128.0/19 list=GEO_NE comment=NE

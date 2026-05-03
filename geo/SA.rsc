@@ -1,14 +1,10 @@
 # GeoIP address list — SA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: SA | Subnets: 578 (was 613, collapsed 35) | IPs: ~10,964,800
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SA&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: SA | Subnets: 578 (was 618, collapsed 40) | IPs: ~10,964,800
 #
 /ip firewall address-list
-remove [find list=GEO_SA comment!="WHITE"]
+remove [find list=GEO_SA]
 add address=2.88.0.0/14 list=GEO_SA comment=SA
 add address=5.41.0.0/16 list=GEO_SA comment=SA
 add address=5.42.224.0/19 list=GEO_SA comment=SA

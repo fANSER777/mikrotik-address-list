@@ -1,14 +1,10 @@
 # GeoIP address list — KG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: KG | Subnets: 109 (was 118, collapsed 9) | IPs: ~283,648
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KG&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: KG | Subnets: 110 (was 120, collapsed 10) | IPs: ~284,928
 #
 /ip firewall address-list
-remove [find list=GEO_KG comment!="WHITE"]
+remove [find list=GEO_KG]
 add address=5.57.8.0/21 list=GEO_KG comment=KG
 add address=31.3.216.0/24 list=GEO_KG comment=KG
 add address=31.29.0.0/19 list=GEO_KG comment=KG
@@ -93,6 +89,7 @@ add address=194.76.192.0/24 list=GEO_KG comment=KG
 add address=194.76.217.0/24 list=GEO_KG comment=KG
 add address=194.76.218.0/24 list=GEO_KG comment=KG
 add address=194.76.238.0/24 list=GEO_KG comment=KG
+add address=194.107.125.0/24 list=GEO_KG comment=KG
 add address=194.150.178.0/24 list=GEO_KG comment=KG
 add address=194.152.36.0/23 list=GEO_KG comment=KG
 add address=194.176.111.0/24 list=GEO_KG comment=KG
@@ -111,7 +108,7 @@ add address=212.112.96.0/19 list=GEO_KG comment=KG
 add address=212.241.0.0/19 list=GEO_KG comment=KG
 add address=213.109.64.0/21 list=GEO_KG comment=KG
 add address=213.145.128.0/19 list=GEO_KG comment=KG
-add address=213.155.12.0/22 list=GEO_KG comment=KG
+add address=213.155.8.0/21 list=GEO_KG comment=KG
 add address=213.155.28.0/23 list=GEO_KG comment=KG
 add address=213.232.200.0/24 list=GEO_KG comment=KG
 add address=217.29.16.0/20 list=GEO_KG comment=KG

@@ -1,14 +1,10 @@
 # GeoIP address list — PF
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PF | Subnets: 19 (was 19, collapsed 0) | IPs: ~75,520
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PF&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PF comment!="WHITE"]
+remove [find list=GEO_PF]
 add address=43.249.176.0/22 list=GEO_PF comment=PF
 add address=50.21.80.0/20 list=GEO_PF comment=PF
 add address=64.140.144.0/20 list=GEO_PF comment=PF

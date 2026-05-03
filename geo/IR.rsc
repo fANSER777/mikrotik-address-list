@@ -1,14 +1,10 @@
 # GeoIP address list — IR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: IR | Subnets: 1713 (was 1920, collapsed 207) | IPs: ~10,819,584
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IR&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_IR comment!="WHITE"]
+remove [find list=GEO_IR]
 add address=2.57.3.0/24 list=GEO_IR comment=IR
 add address=2.144.0.0/14 list=GEO_IR comment=IR
 add address=2.176.0.0/12 list=GEO_IR comment=IR
@@ -506,6 +502,7 @@ add address=91.92.220.0/22 list=GEO_IR comment=IR
 add address=91.92.228.0/23 list=GEO_IR comment=IR
 add address=91.92.231.0/24 list=GEO_IR comment=IR
 add address=91.92.236.0/22 list=GEO_IR comment=IR
+add address=91.102.126.0/23 list=GEO_IR comment=IR
 add address=91.106.64.0/19 list=GEO_IR comment=IR
 add address=91.108.128.0/19 list=GEO_IR comment=IR
 add address=91.109.104.0/21 list=GEO_IR comment=IR
@@ -558,7 +555,6 @@ add address=91.216.217.0/24 list=GEO_IR comment=IR
 add address=91.217.64.0/23 list=GEO_IR comment=IR
 add address=91.217.166.0/24 list=GEO_IR comment=IR
 add address=91.217.177.0/24 list=GEO_IR comment=IR
-add address=91.217.241.0/24 list=GEO_IR comment=IR
 add address=91.220.0.0/24 list=GEO_IR comment=IR
 add address=91.220.79.0/24 list=GEO_IR comment=IR
 add address=91.220.113.0/24 list=GEO_IR comment=IR
@@ -697,8 +693,6 @@ add address=95.80.128.0/18 list=GEO_IR comment=IR
 add address=95.128.155.0/24 list=GEO_IR comment=IR
 add address=95.128.159.0/24 list=GEO_IR comment=IR
 add address=95.128.194.0/24 list=GEO_IR comment=IR
-add address=95.128.196.0/23 list=GEO_IR comment=IR
-add address=95.128.198.0/24 list=GEO_IR comment=IR
 add address=95.130.56.0/21 list=GEO_IR comment=IR
 add address=95.130.225.0/24 list=GEO_IR comment=IR
 add address=95.130.240.0/21 list=GEO_IR comment=IR
@@ -894,6 +888,7 @@ add address=185.41.0.0/22 list=GEO_IR comment=IR
 add address=185.41.220.0/22 list=GEO_IR comment=IR
 add address=185.42.212.0/22 list=GEO_IR comment=IR
 add address=185.42.224.0/22 list=GEO_IR comment=IR
+add address=185.43.33.0/24 list=GEO_IR comment=IR
 add address=185.44.36.0/22 list=GEO_IR comment=IR
 add address=185.44.100.0/22 list=GEO_IR comment=IR
 add address=185.44.112.0/22 list=GEO_IR comment=IR
@@ -1576,6 +1571,7 @@ add address=194.39.248.0/24 list=GEO_IR comment=IR
 add address=194.39.254.0/24 list=GEO_IR comment=IR
 add address=194.41.48.0/22 list=GEO_IR comment=IR
 add address=194.48.198.0/24 list=GEO_IR comment=IR
+add address=194.50.42.0/24 list=GEO_IR comment=IR
 add address=194.50.204.0/24 list=GEO_IR comment=IR
 add address=194.50.209.0/24 list=GEO_IR comment=IR
 add address=194.50.216.0/24 list=GEO_IR comment=IR

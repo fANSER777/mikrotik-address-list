@@ -1,14 +1,10 @@
 # GeoIP address list — HU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: HU | Subnets: 645 (was 909, collapsed 264) | IPs: ~5,921,280
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=HU&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: HU | Subnets: 649 (was 913, collapsed 264) | IPs: ~5,924,096
 #
 /ip firewall address-list
-remove [find list=GEO_HU comment!="WHITE"]
+remove [find list=GEO_HU]
 add address=2.58.168.0/22 list=GEO_HU comment=HU
 add address=2.59.196.0/22 list=GEO_HU comment=HU
 add address=5.28.0.0/21 list=GEO_HU comment=HU
@@ -114,6 +110,7 @@ add address=62.112.192.0/21 list=GEO_HU comment=HU
 add address=62.112.208.0/21 list=GEO_HU comment=HU
 add address=62.165.192.0/18 list=GEO_HU comment=HU
 add address=62.201.64.0/18 list=GEO_HU comment=HU
+add address=66.203.124.0/22 list=GEO_HU comment=HU
 add address=77.74.204.0/22 list=GEO_HU comment=HU
 add address=77.110.128.0/18 list=GEO_HU comment=HU
 add address=77.111.88.0/21 list=GEO_HU comment=HU
@@ -262,6 +259,7 @@ add address=93.180.130.0/24 list=GEO_HU comment=HU
 add address=93.189.112.0/21 list=GEO_HU comment=HU
 add address=93.190.0.0/21 list=GEO_HU comment=HU
 add address=94.21.0.0/16 list=GEO_HU comment=HU
+add address=94.24.36.0/23 list=GEO_HU comment=HU
 add address=94.27.128.0/17 list=GEO_HU comment=HU
 add address=94.44.0.0/16 list=GEO_HU comment=HU
 add address=94.125.176.0/21 list=GEO_HU comment=HU
@@ -318,6 +316,7 @@ add address=152.66.0.0/16 list=GEO_HU comment=HU
 add address=157.181.0.0/16 list=GEO_HU comment=HU
 add address=158.249.0.0/16 list=GEO_HU comment=HU
 add address=160.114.0.0/16 list=GEO_HU comment=HU
+add address=162.208.16.0/24 list=GEO_HU comment=HU
 add address=171.19.0.0/16 list=GEO_HU comment=HU
 add address=171.25.180.0/23 list=GEO_HU comment=HU
 add address=171.31.0.0/16 list=GEO_HU comment=HU
@@ -442,6 +441,7 @@ add address=185.203.184.0/22 list=GEO_HU comment=HU
 add address=185.204.152.0/24 list=GEO_HU comment=HU
 add address=185.205.72.0/22 list=GEO_HU comment=HU
 add address=185.205.248.0/22 list=GEO_HU comment=HU
+add address=185.206.24.0/22 list=GEO_HU comment=HU
 add address=185.208.224.0/22 list=GEO_HU comment=HU
 add address=185.214.28.0/22 list=GEO_HU comment=HU
 add address=185.217.72.0/22 list=GEO_HU comment=HU

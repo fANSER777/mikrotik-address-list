@@ -1,14 +1,10 @@
 # GeoIP address list — NL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: NL | Subnets: 5655 (was 6350, collapsed 695) | IPs: ~47,826,656
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NL&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: NL | Subnets: 5664 (was 6358, collapsed 694) | IPs: ~47,856,864
 #
 /ip firewall address-list
-remove [find list=GEO_NL comment!="WHITE"]
+remove [find list=GEO_NL]
 add address=2.16.0.0/13 list=GEO_NL comment=NL
 add address=2.56.56.0/22 list=GEO_NL comment=NL
 add address=2.56.192.0/22 list=GEO_NL comment=NL
@@ -699,7 +695,7 @@ add address=45.153.252.0/22 list=GEO_NL comment=NL
 add address=45.154.4.0/22 list=GEO_NL comment=NL
 add address=45.154.8.0/22 list=GEO_NL comment=NL
 add address=45.154.24.0/22 list=GEO_NL comment=NL
-add address=45.154.32.0/23 list=GEO_NL comment=NL
+add address=45.154.33.0/24 list=GEO_NL comment=NL
 add address=45.154.34.0/24 list=GEO_NL comment=NL
 add address=45.154.44.0/22 list=GEO_NL comment=NL
 add address=45.154.136.0/22 list=GEO_NL comment=NL
@@ -767,7 +763,9 @@ add address=46.151.176.0/21 list=GEO_NL comment=NL
 add address=46.161.208.0/20 list=GEO_NL comment=NL
 add address=46.166.128.0/19 list=GEO_NL comment=NL
 add address=46.166.176.0/20 list=GEO_NL comment=NL
-add address=46.174.128.0/21 list=GEO_NL comment=NL
+add address=46.174.128.0/22 list=GEO_NL comment=NL
+add address=46.174.132.0/23 list=GEO_NL comment=NL
+add address=46.174.135.0/24 list=GEO_NL comment=NL
 add address=46.175.129.0/24 list=GEO_NL comment=NL
 add address=46.175.131.0/24 list=GEO_NL comment=NL
 add address=46.182.104.0/21 list=GEO_NL comment=NL
@@ -1158,9 +1156,8 @@ add address=81.31.216.0/21 list=GEO_NL comment=NL
 add address=81.58.0.0/15 list=GEO_NL comment=NL
 add address=81.85.0.0/19 list=GEO_NL comment=NL
 add address=81.85.52.0/22 list=GEO_NL comment=NL
-add address=81.85.60.0/23 list=GEO_NL comment=NL
+add address=81.85.60.0/24 list=GEO_NL comment=NL
 add address=81.85.64.0/22 list=GEO_NL comment=NL
-add address=81.85.84.0/22 list=GEO_NL comment=NL
 add address=81.85.92.0/22 list=GEO_NL comment=NL
 add address=81.85.96.0/22 list=GEO_NL comment=NL
 add address=81.85.100.0/24 list=GEO_NL comment=NL
@@ -1545,6 +1542,7 @@ add address=89.255.200.0/21 list=GEO_NL comment=NL
 add address=89.255.216.0/21 list=GEO_NL comment=NL
 add address=89.255.248.0/21 list=GEO_NL comment=NL
 add address=90.145.0.0/16 list=GEO_NL comment=NL
+add address=91.102.123.0/24 list=GEO_NL comment=NL
 add address=91.102.208.0/21 list=GEO_NL comment=NL
 add address=91.103.16.0/21 list=GEO_NL comment=NL
 add address=91.103.141.0/24 list=GEO_NL comment=NL
@@ -1981,7 +1979,6 @@ add address=93.190.124.0/24 list=GEO_NL comment=NL
 add address=93.190.136.0/21 list=GEO_NL comment=NL
 add address=93.190.185.0/24 list=GEO_NL comment=NL
 add address=93.190.186.0/23 list=GEO_NL comment=NL
-add address=93.190.188.0/23 list=GEO_NL comment=NL
 add address=93.190.191.0/24 list=GEO_NL comment=NL
 add address=93.191.0.0/21 list=GEO_NL comment=NL
 add address=93.191.128.0/21 list=GEO_NL comment=NL
@@ -2049,7 +2046,6 @@ add address=94.247.138.0/23 list=GEO_NL comment=NL
 add address=94.247.192.0/21 list=GEO_NL comment=NL
 add address=95.36.0.0/20 list=GEO_NL comment=NL
 add address=95.36.64.0/21 list=GEO_NL comment=NL
-add address=95.36.100.0/22 list=GEO_NL comment=NL
 add address=95.36.104.0/21 list=GEO_NL comment=NL
 add address=95.36.112.0/20 list=GEO_NL comment=NL
 add address=95.36.128.0/17 list=GEO_NL comment=NL
@@ -2119,6 +2115,7 @@ add address=107.150.166.0/23 list=GEO_NL comment=NL
 add address=107.150.168.0/23 list=GEO_NL comment=NL
 add address=107.150.170.0/24 list=GEO_NL comment=NL
 add address=107.150.172.0/23 list=GEO_NL comment=NL
+add address=107.182.112.0/20 list=GEO_NL comment=NL
 add address=109.32.0.0/13 list=GEO_NL comment=NL
 add address=109.69.136.0/21 list=GEO_NL comment=NL
 add address=109.69.224.0/21 list=GEO_NL comment=NL
@@ -2180,7 +2177,8 @@ add address=128.140.216.0/21 list=GEO_NL comment=NL
 add address=128.204.192.0/20 list=GEO_NL comment=NL
 add address=129.125.0.0/16 list=GEO_NL comment=NL
 add address=130.37.0.0/16 list=GEO_NL comment=NL
-add address=130.78.0.0/17 list=GEO_NL comment=NL
+add address=130.78.0.0/19 list=GEO_NL comment=NL
+add address=130.78.64.0/18 list=GEO_NL comment=NL
 add address=130.78.128.0/18 list=GEO_NL comment=NL
 add address=130.78.192.0/20 list=GEO_NL comment=NL
 add address=130.78.208.0/21 list=GEO_NL comment=NL
@@ -2199,11 +2197,13 @@ add address=130.161.0.0/16 list=GEO_NL comment=NL
 add address=130.193.4.0/23 list=GEO_NL comment=NL
 add address=130.255.168.0/24 list=GEO_NL comment=NL
 add address=130.255.171.0/24 list=GEO_NL comment=NL
+add address=131.125.128.0/17 list=GEO_NL comment=NL
 add address=131.150.144.0/20 list=GEO_NL comment=NL
 add address=131.155.0.0/16 list=GEO_NL comment=NL
 add address=131.174.0.0/16 list=GEO_NL comment=NL
 add address=131.180.0.0/16 list=GEO_NL comment=NL
 add address=131.211.0.0/16 list=GEO_NL comment=NL
+add address=131.222.201.0/24 list=GEO_NL comment=NL
 add address=131.224.0.0/16 list=GEO_NL comment=NL
 add address=131.228.128.0/17 list=GEO_NL comment=NL
 add address=131.237.0.0/16 list=GEO_NL comment=NL
@@ -2250,7 +2250,6 @@ add address=141.98.2.0/23 list=GEO_NL comment=NL
 add address=141.98.16.0/21 list=GEO_NL comment=NL
 add address=141.98.32.0/22 list=GEO_NL comment=NL
 add address=141.98.96.0/22 list=GEO_NL comment=NL
-add address=141.98.208.0/24 list=GEO_NL comment=NL
 add address=141.98.228.0/22 list=GEO_NL comment=NL
 add address=141.101.128.0/20 list=GEO_NL comment=NL
 add address=141.101.144.0/22 list=GEO_NL comment=NL
@@ -2318,7 +2317,6 @@ add address=145.2.0.0/15 list=GEO_NL comment=NL
 add address=145.4.0.0/14 list=GEO_NL comment=NL
 add address=145.8.0.0/15 list=GEO_NL comment=NL
 add address=145.10.0.0/16 list=GEO_NL comment=NL
-add address=145.11.16.0/21 list=GEO_NL comment=NL
 add address=145.11.48.0/20 list=GEO_NL comment=NL
 add address=145.11.128.0/17 list=GEO_NL comment=NL
 add address=145.12.0.0/15 list=GEO_NL comment=NL
@@ -2440,7 +2438,12 @@ add address=149.143.0.0/17 list=GEO_NL comment=NL
 add address=149.146.0.0/16 list=GEO_NL comment=NL
 add address=149.210.128.0/17 list=GEO_NL comment=NL
 add address=150.129.8.0/22 list=GEO_NL comment=NL
-add address=150.251.128.0/19 list=GEO_NL comment=NL
+add address=150.251.129.0/24 list=GEO_NL comment=NL
+add address=150.251.130.0/23 list=GEO_NL comment=NL
+add address=150.251.132.0/22 list=GEO_NL comment=NL
+add address=150.251.136.0/21 list=GEO_NL comment=NL
+add address=150.251.144.0/20 list=GEO_NL comment=NL
+add address=150.251.240.0/21 list=GEO_NL comment=NL
 add address=151.184.0.0/16 list=GEO_NL comment=NL
 add address=151.236.128.0/19 list=GEO_NL comment=NL
 add address=151.237.160.0/21 list=GEO_NL comment=NL
@@ -2468,6 +2471,7 @@ add address=157.97.144.0/23 list=GEO_NL comment=NL
 add address=157.97.168.0/22 list=GEO_NL comment=NL
 add address=157.97.192.0/18 list=GEO_NL comment=NL
 add address=157.239.128.0/23 list=GEO_NL comment=NL
+add address=158.94.160.0/22 list=GEO_NL comment=NL
 add address=158.94.174.0/24 list=GEO_NL comment=NL
 add address=158.173.0.0/16 list=GEO_NL comment=NL
 add address=159.46.0.0/16 list=GEO_NL comment=NL
@@ -2511,6 +2515,7 @@ add address=164.140.0.0/16 list=GEO_NL comment=NL
 add address=164.152.216.0/24 list=GEO_NL comment=NL
 add address=165.114.0.0/16 list=GEO_NL comment=NL
 add address=167.81.0.0/16 list=GEO_NL comment=NL
+add address=167.104.52.0/22 list=GEO_NL comment=NL
 add address=167.150.81.0/24 list=GEO_NL comment=NL
 add address=167.150.86.0/24 list=GEO_NL comment=NL
 add address=167.160.0.0/22 list=GEO_NL comment=NL
@@ -2704,7 +2709,6 @@ add address=185.3.208.0/22 list=GEO_NL comment=NL
 add address=185.4.112.0/22 list=GEO_NL comment=NL
 add address=185.4.148.0/22 list=GEO_NL comment=NL
 add address=185.5.120.0/22 list=GEO_NL comment=NL
-add address=185.5.129.0/24 list=GEO_NL comment=NL
 add address=185.5.206.0/23 list=GEO_NL comment=NL
 add address=185.6.48.0/22 list=GEO_NL comment=NL
 add address=185.6.84.0/22 list=GEO_NL comment=NL
@@ -4251,7 +4255,6 @@ add address=193.110.4.0/23 list=GEO_NL comment=NL
 add address=193.110.48.0/21 list=GEO_NL comment=NL
 add address=193.110.134.0/23 list=GEO_NL comment=NL
 add address=193.110.143.0/24 list=GEO_NL comment=NL
-add address=193.110.147.0/24 list=GEO_NL comment=NL
 add address=193.110.148.0/24 list=GEO_NL comment=NL
 add address=193.110.153.0/24 list=GEO_NL comment=NL
 add address=193.110.157.0/24 list=GEO_NL comment=NL
@@ -4263,7 +4266,6 @@ add address=193.110.232.0/22 list=GEO_NL comment=NL
 add address=193.111.12.0/23 list=GEO_NL comment=NL
 add address=193.111.32.0/24 list=GEO_NL comment=NL
 add address=193.111.81.0/24 list=GEO_NL comment=NL
-add address=193.111.94.0/24 list=GEO_NL comment=NL
 add address=193.111.228.0/24 list=GEO_NL comment=NL
 add address=193.116.128.0/18 list=GEO_NL comment=NL
 add address=193.138.100.0/24 list=GEO_NL comment=NL
@@ -5287,7 +5289,6 @@ add address=195.242.0.0/19 list=GEO_NL comment=NL
 add address=195.242.96.0/22 list=GEO_NL comment=NL
 add address=195.242.171.0/24 list=GEO_NL comment=NL
 add address=195.245.124.0/22 list=GEO_NL comment=NL
-add address=195.245.196.0/24 list=GEO_NL comment=NL
 add address=195.245.236.0/24 list=GEO_NL comment=NL
 add address=195.245.246.0/24 list=GEO_NL comment=NL
 add address=195.246.114.0/23 list=GEO_NL comment=NL
@@ -5303,7 +5304,7 @@ add address=195.250.55.0/24 list=GEO_NL comment=NL
 add address=195.250.63.0/24 list=GEO_NL comment=NL
 add address=195.253.200.0/21 list=GEO_NL comment=NL
 add address=195.253.241.0/24 list=GEO_NL comment=NL
-add address=195.253.243.0/24 list=GEO_NL comment=NL
+add address=195.253.242.0/23 list=GEO_NL comment=NL
 add address=198.17.180.0/23 list=GEO_NL comment=NL
 add address=198.17.182.0/24 list=GEO_NL comment=NL
 add address=198.55.28.0/22 list=GEO_NL comment=NL
@@ -5397,6 +5398,7 @@ add address=212.32.48.0/22 list=GEO_NL comment=NL
 add address=212.32.68.0/22 list=GEO_NL comment=NL
 add address=212.32.72.0/21 list=GEO_NL comment=NL
 add address=212.32.224.0/19 list=GEO_NL comment=NL
+add address=212.43.144.0/20 list=GEO_NL comment=NL
 add address=212.45.32.0/19 list=GEO_NL comment=NL
 add address=212.46.43.0/24 list=GEO_NL comment=NL
 add address=212.47.48.0/24 list=GEO_NL comment=NL
@@ -5550,7 +5552,9 @@ add address=213.187.240.0/21 list=GEO_NL comment=NL
 add address=213.189.0.0/19 list=GEO_NL comment=NL
 add address=213.193.192.0/21 list=GEO_NL comment=NL
 add address=213.193.208.0/21 list=GEO_NL comment=NL
-add address=213.193.232.0/21 list=GEO_NL comment=NL
+add address=213.193.232.0/23 list=GEO_NL comment=NL
+add address=213.193.234.0/24 list=GEO_NL comment=NL
+add address=213.193.236.0/23 list=GEO_NL comment=NL
 add address=213.193.240.0/21 list=GEO_NL comment=NL
 add address=213.196.0.0/18 list=GEO_NL comment=NL
 add address=213.197.0.0/18 list=GEO_NL comment=NL
@@ -5653,6 +5657,7 @@ add address=217.166.0.0/16 list=GEO_NL comment=NL
 add address=217.169.224.0/20 list=GEO_NL comment=NL
 add address=217.170.0.0/19 list=GEO_NL comment=NL
 add address=217.171.224.0/21 list=GEO_NL comment=NL
+add address=217.177.15.0/24 list=GEO_NL comment=NL
 add address=217.180.12.0/23 list=GEO_NL comment=NL
 add address=217.180.14.0/24 list=GEO_NL comment=NL
 add address=217.180.22.0/24 list=GEO_NL comment=NL

@@ -1,14 +1,10 @@
 # GeoIP address list — CI
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CI | Subnets: 232 (was 244, collapsed 12) | IPs: ~1,717,760
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CI&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CI comment!="WHITE"]
+remove [find list=GEO_CI]
 add address=41.66.0.0/18 list=GEO_CI comment=CI
 add address=41.67.64.0/20 list=GEO_CI comment=CI
 add address=41.67.88.0/21 list=GEO_CI comment=CI

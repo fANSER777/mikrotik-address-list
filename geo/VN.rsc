@@ -1,14 +1,10 @@
 # GeoIP address list — VN
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: VN | Subnets: 1251 (was 1647, collapsed 396) | IPs: ~16,489,728
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=VN&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: VN | Subnets: 1252 (was 1648, collapsed 396) | IPs: ~16,490,240
 #
 /ip firewall address-list
-remove [find list=GEO_VN comment!="WHITE"]
+remove [find list=GEO_VN]
 add address=1.52.0.0/14 list=GEO_VN comment=VN
 add address=14.0.16.0/20 list=GEO_VN comment=VN
 add address=14.160.0.0/11 list=GEO_VN comment=VN
@@ -1088,6 +1084,7 @@ add address=161.248.196.0/22 list=GEO_VN comment=VN
 add address=161.248.208.0/22 list=GEO_VN comment=VN
 add address=161.248.212.0/23 list=GEO_VN comment=VN
 add address=161.248.236.0/22 list=GEO_VN comment=VN
+add address=162.4.8.0/23 list=GEO_VN comment=VN
 add address=163.44.192.0/22 list=GEO_VN comment=VN
 add address=163.44.200.0/24 list=GEO_VN comment=VN
 add address=163.44.204.0/22 list=GEO_VN comment=VN

@@ -1,14 +1,10 @@
 # GeoIP address list — BA
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: BA | Subnets: 157 (was 170, collapsed 13) | IPs: ~793,600
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BA&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: BA | Subnets: 158 (was 171, collapsed 13) | IPs: ~794,624
 #
 /ip firewall address-list
-remove [find list=GEO_BA comment!="WHITE"]
+remove [find list=GEO_BA]
 add address=5.43.64.0/18 list=GEO_BA comment=BA
 add address=5.133.0.0/21 list=GEO_BA comment=BA
 add address=5.133.128.0/19 list=GEO_BA comment=BA
@@ -82,6 +78,7 @@ add address=93.157.192.0/21 list=GEO_BA comment=BA
 add address=93.180.96.0/19 list=GEO_BA comment=BA
 add address=93.180.144.0/21 list=GEO_BA comment=BA
 add address=94.250.0.0/17 list=GEO_BA comment=BA
+add address=95.133.140.0/22 list=GEO_BA comment=BA
 add address=95.133.232.0/22 list=GEO_BA comment=BA
 add address=95.156.128.0/18 list=GEO_BA comment=BA
 add address=109.94.104.0/22 list=GEO_BA comment=BA

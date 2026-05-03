@@ -1,14 +1,11 @@
 # GeoIP address list — BY
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: BY | Subnets: 102 (was 106, collapsed 4) | IPs: ~1,792,512
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BY&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: BY | Subnets: 104 (was 108, collapsed 4) | IPs: ~1,793,024
 #
 /ip firewall address-list
-remove [find list=GEO_BY comment!="WHITE"]
+remove [find list=GEO_BY]
+add address=5.44.44.0/24 list=GEO_BY comment=BY
 add address=5.100.192.0/19 list=GEO_BY comment=BY
 add address=31.24.88.0/21 list=GEO_BY comment=BY
 add address=31.130.200.0/21 list=GEO_BY comment=BY
@@ -17,6 +14,7 @@ add address=37.44.64.0/18 list=GEO_BY comment=BY
 add address=37.45.0.0/16 list=GEO_BY comment=BY
 add address=37.212.0.0/14 list=GEO_BY comment=BY
 add address=45.128.205.0/24 list=GEO_BY comment=BY
+add address=45.129.186.0/24 list=GEO_BY comment=BY
 add address=46.16.35.0/24 list=GEO_BY comment=BY
 add address=46.28.96.0/21 list=GEO_BY comment=BY
 add address=46.53.128.0/17 list=GEO_BY comment=BY

@@ -1,14 +1,10 @@
 # GeoIP address list — BH
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BH | Subnets: 56 (was 57, collapsed 1) | IPs: ~417,024
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BH&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BH comment!="WHITE"]
+remove [find list=GEO_BH]
 add address=31.217.249.0/24 list=GEO_BH comment=BH
 add address=37.131.0.0/17 list=GEO_BH comment=BH
 add address=45.11.72.0/22 list=GEO_BH comment=BH

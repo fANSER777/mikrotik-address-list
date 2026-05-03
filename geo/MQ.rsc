@@ -1,14 +1,10 @@
 # GeoIP address list — MQ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MQ | Subnets: 21 (was 22, collapsed 1) | IPs: ~134,656
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MQ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MQ comment!="WHITE"]
+remove [find list=GEO_MQ]
 add address=5.102.72.0/21 list=GEO_MQ comment=MQ
 add address=80.243.240.0/20 list=GEO_MQ comment=MQ
 add address=82.197.96.0/19 list=GEO_MQ comment=MQ

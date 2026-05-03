@@ -1,14 +1,10 @@
 # GeoIP address list — TJ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: TJ | Subnets: 56 (was 66, collapsed 10) | IPs: ~84,800
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TJ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_TJ comment!="WHITE"]
+remove [find list=GEO_TJ]
 add address=37.98.152.0/21 list=GEO_TJ comment=TJ
 add address=45.81.37.0/24 list=GEO_TJ comment=TJ
 add address=45.94.216.0/22 list=GEO_TJ comment=TJ

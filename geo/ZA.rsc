@@ -1,14 +1,10 @@
 # GeoIP address list — ZA
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: ZA | Subnets: 1568 (was 2197, collapsed 629) | IPs: ~27,156,736
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ZA&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: ZA | Subnets: 1573 (was 2204, collapsed 631) | IPs: ~27,163,904
 #
 /ip firewall address-list
-remove [find list=GEO_ZA comment!="WHITE"]
+remove [find list=GEO_ZA]
 add address=2.59.96.0/22 list=GEO_ZA comment=ZA
 add address=41.0.0.0/11 list=GEO_ZA comment=ZA
 add address=41.48.0.0/13 list=GEO_ZA comment=ZA
@@ -324,6 +320,11 @@ add address=102.177.64.0/21 list=GEO_ZA comment=ZA
 add address=102.177.112.0/20 list=GEO_ZA comment=ZA
 add address=102.177.128.0/18 list=GEO_ZA comment=ZA
 add address=102.182.0.0/16 list=GEO_ZA comment=ZA
+add address=102.202.156.0/22 list=GEO_ZA comment=ZA
+add address=102.202.168.0/21 list=GEO_ZA comment=ZA
+add address=102.202.176.0/22 list=GEO_ZA comment=ZA
+add address=102.202.192.0/22 list=GEO_ZA comment=ZA
+add address=102.202.200.0/21 list=GEO_ZA comment=ZA
 add address=102.202.224.0/22 list=GEO_ZA comment=ZA
 add address=102.202.252.0/22 list=GEO_ZA comment=ZA
 add address=102.203.16.0/22 list=GEO_ZA comment=ZA

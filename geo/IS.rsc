@@ -1,14 +1,10 @@
 # GeoIP address list — IS
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: IS | Subnets: 151 (was 161, collapsed 10) | IPs: ~913,664
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IS&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: IS | Subnets: 154 (was 164, collapsed 10) | IPs: ~914,688
 #
 /ip firewall address-list
-remove [find list=GEO_IS comment!="WHITE"]
+remove [find list=GEO_IS]
 add address=5.23.64.0/19 list=GEO_IS comment=IS
 add address=31.15.112.0/21 list=GEO_IS comment=IS
 add address=31.43.172.0/23 list=GEO_IS comment=IS
@@ -61,6 +57,7 @@ add address=93.95.224.0/21 list=GEO_IS comment=IS
 add address=94.142.152.0/21 list=GEO_IS comment=IS
 add address=94.198.48.0/23 list=GEO_IS comment=IS
 add address=94.198.190.0/24 list=GEO_IS comment=IS
+add address=95.133.160.0/23 list=GEO_IS comment=IS
 add address=128.140.232.0/21 list=GEO_IS comment=IS
 add address=130.208.0.0/16 list=GEO_IS comment=IS
 add address=141.138.152.0/21 list=GEO_IS comment=IS
@@ -71,6 +68,7 @@ add address=157.97.0.0/19 list=GEO_IS comment=IS
 add address=157.157.0.0/16 list=GEO_IS comment=IS
 add address=160.20.214.0/23 list=GEO_IS comment=IS
 add address=160.210.0.0/16 list=GEO_IS comment=IS
+add address=164.37.40.0/24 list=GEO_IS comment=IS
 add address=176.10.32.0/21 list=GEO_IS comment=IS
 add address=176.57.224.0/20 list=GEO_IS comment=IS
 add address=178.19.48.0/20 list=GEO_IS comment=IS
@@ -153,6 +151,7 @@ add address=213.167.128.0/19 list=GEO_IS comment=IS
 add address=213.176.128.0/19 list=GEO_IS comment=IS
 add address=213.181.96.0/19 list=GEO_IS comment=IS
 add address=213.190.96.0/19 list=GEO_IS comment=IS
+add address=213.193.235.0/24 list=GEO_IS comment=IS
 add address=213.213.128.0/19 list=GEO_IS comment=IS
 add address=213.218.160.0/24 list=GEO_IS comment=IS
 add address=213.220.64.0/18 list=GEO_IS comment=IS

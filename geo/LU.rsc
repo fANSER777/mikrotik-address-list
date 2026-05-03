@@ -1,17 +1,14 @@
 # GeoIP address list — LU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: LU | Subnets: 538 (was 554, collapsed 16) | IPs: ~1,858,048
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LU&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: LU | Subnets: 541 (was 557, collapsed 16) | IPs: ~1,858,048
 #
 /ip firewall address-list
-remove [find list=GEO_LU comment!="WHITE"]
+remove [find list=GEO_LU]
 add address=2.56.104.0/22 list=GEO_LU comment=LU
 add address=2.56.220.0/22 list=GEO_LU comment=LU
 add address=2.57.172.0/22 list=GEO_LU comment=LU
+add address=2.152.68.0/22 list=GEO_LU comment=LU
 add address=5.8.24.0/22 list=GEO_LU comment=LU
 add address=5.8.32.0/22 list=GEO_LU comment=LU
 add address=5.8.40.0/23 list=GEO_LU comment=LU
@@ -339,6 +336,8 @@ add address=158.120.254.0/24 list=GEO_LU comment=LU
 add address=158.166.0.0/15 list=GEO_LU comment=LU
 add address=158.168.0.0/15 list=GEO_LU comment=LU
 add address=171.22.196.0/22 list=GEO_LU comment=LU
+add address=173.255.148.0/24 list=GEO_LU comment=LU
+add address=173.255.150.0/24 list=GEO_LU comment=LU
 add address=176.65.72.0/21 list=GEO_LU comment=LU
 add address=176.119.203.0/24 list=GEO_LU comment=LU
 add address=176.119.219.0/24 list=GEO_LU comment=LU
@@ -441,7 +440,6 @@ add address=188.241.71.0/24 list=GEO_LU comment=LU
 add address=188.241.250.0/24 list=GEO_LU comment=LU
 add address=192.58.28.0/24 list=GEO_LU comment=LU
 add address=192.91.140.0/23 list=GEO_LU comment=LU
-add address=192.98.120.0/21 list=GEO_LU comment=LU
 add address=192.103.2.0/24 list=GEO_LU comment=LU
 add address=192.156.248.0/24 list=GEO_LU comment=LU
 add address=192.160.22.0/24 list=GEO_LU comment=LU
@@ -543,6 +541,7 @@ add address=217.28.137.0/24 list=GEO_LU comment=LU
 add address=217.31.64.0/20 list=GEO_LU comment=LU
 add address=217.117.192.0/20 list=GEO_LU comment=LU
 add address=217.171.176.0/20 list=GEO_LU comment=LU
+add address=217.180.16.0/23 list=GEO_LU comment=LU
 add address=217.195.193.0/24 list=GEO_LU comment=LU
 add address=217.195.194.0/24 list=GEO_LU comment=LU
 add address=217.195.200.0/23 list=GEO_LU comment=LU

@@ -1,14 +1,10 @@
 # GeoIP address list — GL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GL | Subnets: 25 (was 25, collapsed 0) | IPs: ~34,304
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GL&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GL comment!="WHITE"]
+remove [find list=GEO_GL]
 add address=37.18.44.0/22 list=GEO_GL comment=GL
 add address=37.230.164.0/22 list=GEO_GL comment=GL
 add address=37.230.214.0/23 list=GEO_GL comment=GL

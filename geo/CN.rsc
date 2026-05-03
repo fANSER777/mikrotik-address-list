@@ -1,14 +1,10 @@
 # GeoIP address list — CN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: CN | Subnets: 5504 (was 8802, collapsed 3298) | IPs: ~342,952,192
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CN&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: CN | Subnets: 5505 (was 8803, collapsed 3298) | IPs: ~342,952,192
 #
 /ip firewall address-list
-remove [find list=GEO_CN comment!="WHITE"]
+remove [find list=GEO_CN]
 add address=1.0.1.0/24 list=GEO_CN comment=CN
 add address=1.0.2.0/23 list=GEO_CN comment=CN
 add address=1.0.8.0/21 list=GEO_CN comment=CN
@@ -1037,7 +1033,6 @@ add address=103.12.184.0/22 list=GEO_CN comment=CN
 add address=103.12.232.0/22 list=GEO_CN comment=CN
 add address=103.13.12.0/22 list=GEO_CN comment=CN
 add address=103.13.124.0/22 list=GEO_CN comment=CN
-add address=103.13.144.0/22 list=GEO_CN comment=CN
 add address=103.13.196.0/22 list=GEO_CN comment=CN
 add address=103.13.244.0/22 list=GEO_CN comment=CN
 add address=103.14.84.0/22 list=GEO_CN comment=CN
@@ -2163,7 +2158,6 @@ add address=103.152.120.0/22 list=GEO_CN comment=CN
 add address=103.152.152.0/23 list=GEO_CN comment=CN
 add address=103.152.168.0/22 list=GEO_CN comment=CN
 add address=103.152.186.0/23 list=GEO_CN comment=CN
-add address=103.152.190.0/23 list=GEO_CN comment=CN
 add address=103.152.192.0/23 list=GEO_CN comment=CN
 add address=103.152.200.0/23 list=GEO_CN comment=CN
 add address=103.152.208.0/23 list=GEO_CN comment=CN
@@ -3763,6 +3757,7 @@ add address=161.248.92.0/23 list=GEO_CN comment=CN
 add address=161.248.108.0/22 list=GEO_CN comment=CN
 add address=161.248.112.0/23 list=GEO_CN comment=CN
 add address=161.248.136.0/23 list=GEO_CN comment=CN
+add address=162.4.54.0/23 list=GEO_CN comment=CN
 add address=162.14.0.0/16 list=GEO_CN comment=CN
 add address=162.105.0.0/16 list=GEO_CN comment=CN
 add address=163.0.0.0/16 list=GEO_CN comment=CN
@@ -3787,6 +3782,8 @@ add address=163.61.214.0/23 list=GEO_CN comment=CN
 add address=163.125.0.0/16 list=GEO_CN comment=CN
 add address=163.128.30.0/23 list=GEO_CN comment=CN
 add address=163.128.152.0/23 list=GEO_CN comment=CN
+add address=163.128.236.0/23 list=GEO_CN comment=CN
+add address=163.128.254.0/23 list=GEO_CN comment=CN
 add address=163.142.0.0/16 list=GEO_CN comment=CN
 add address=163.177.0.0/16 list=GEO_CN comment=CN
 add address=163.179.0.0/16 list=GEO_CN comment=CN

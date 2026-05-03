@@ -1,14 +1,10 @@
 # GeoIP address list — EG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: EG | Subnets: 175 (was 183, collapsed 8) | IPs: ~24,150,528
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=EG&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: EG | Subnets: 177 (was 185, collapsed 8) | IPs: ~24,151,296
 #
 /ip firewall address-list
-remove [find list=GEO_EG comment!="WHITE"]
+remove [find list=GEO_EG]
 add address=41.32.0.0/12 list=GEO_EG comment=EG
 add address=41.64.0.0/15 list=GEO_EG comment=EG
 add address=41.68.0.0/15 list=GEO_EG comment=EG
@@ -72,6 +68,8 @@ add address=102.131.32.0/22 list=GEO_EG comment=EG
 add address=102.164.114.0/23 list=GEO_EG comment=EG
 add address=102.164.122.0/24 list=GEO_EG comment=EG
 add address=102.184.0.0/13 list=GEO_EG comment=EG
+add address=102.202.166.0/23 list=GEO_EG comment=EG
+add address=102.202.222.0/24 list=GEO_EG comment=EG
 add address=102.204.121.0/24 list=GEO_EG comment=EG
 add address=102.206.48.0/22 list=GEO_EG comment=EG
 add address=102.206.80.0/24 list=GEO_EG comment=EG

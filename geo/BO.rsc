@@ -1,14 +1,10 @@
 # GeoIP address list — BO
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BO | Subnets: 102 (was 122, collapsed 20) | IPs: ~1,170,176
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BO&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BO comment!="WHITE"]
+remove [find list=GEO_BO]
 add address=45.4.98.0/23 list=GEO_BO comment=BO
 add address=45.5.13.0/24 list=GEO_BO comment=BO
 add address=45.68.0.0/22 list=GEO_BO comment=BO

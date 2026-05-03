@@ -1,14 +1,10 @@
 # GeoIP address list — RU
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: RU | Subnets: 8587 (was 11284, collapsed 2697) | IPs: ~45,048,128
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=RU&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: RU | Subnets: 8593 (was 11301, collapsed 2708) | IPs: ~45,066,560
 #
 /ip firewall address-list
-remove [find list=GEO_RU comment!="WHITE"]
+remove [find list=GEO_RU]
 add address=2.56.24.0/22 list=GEO_RU comment=RU
 add address=2.56.88.0/22 list=GEO_RU comment=RU
 add address=2.56.180.0/22 list=GEO_RU comment=RU
@@ -73,7 +69,9 @@ add address=5.42.215.0/24 list=GEO_RU comment=RU
 add address=5.43.128.0/19 list=GEO_RU comment=RU
 add address=5.43.240.0/21 list=GEO_RU comment=RU
 add address=5.44.0.0/20 list=GEO_RU comment=RU
-add address=5.44.40.0/21 list=GEO_RU comment=RU
+add address=5.44.40.0/22 list=GEO_RU comment=RU
+add address=5.44.45.0/24 list=GEO_RU comment=RU
+add address=5.44.46.0/23 list=GEO_RU comment=RU
 add address=5.44.48.0/20 list=GEO_RU comment=RU
 add address=5.44.168.0/21 list=GEO_RU comment=RU
 add address=5.45.192.0/18 list=GEO_RU comment=RU
@@ -677,7 +675,8 @@ add address=45.128.206.0/23 list=GEO_RU comment=RU
 add address=45.129.76.0/23 list=GEO_RU comment=RU
 add address=45.129.142.0/23 list=GEO_RU comment=RU
 add address=45.129.152.0/22 list=GEO_RU comment=RU
-add address=45.129.184.0/22 list=GEO_RU comment=RU
+add address=45.129.184.0/23 list=GEO_RU comment=RU
+add address=45.129.187.0/24 list=GEO_RU comment=RU
 add address=45.129.200.0/22 list=GEO_RU comment=RU
 add address=45.130.8.0/22 list=GEO_RU comment=RU
 add address=45.130.40.0/22 list=GEO_RU comment=RU
@@ -792,6 +791,7 @@ add address=45.153.196.0/22 list=GEO_RU comment=RU
 add address=45.154.0.0/22 list=GEO_RU comment=RU
 add address=45.154.184.0/22 list=GEO_RU comment=RU
 add address=45.155.6.0/24 list=GEO_RU comment=RU
+add address=45.155.60.0/24 list=GEO_RU comment=RU
 add address=45.155.92.0/22 list=GEO_RU comment=RU
 add address=45.155.104.0/22 list=GEO_RU comment=RU
 add address=45.155.144.0/22 list=GEO_RU comment=RU
@@ -1827,8 +1827,7 @@ add address=84.52.64.0/18 list=GEO_RU comment=RU
 add address=84.53.192.0/18 list=GEO_RU comment=RU
 add address=84.54.28.0/22 list=GEO_RU comment=RU
 add address=84.54.36.0/22 list=GEO_RU comment=RU
-add address=84.54.44.0/24 list=GEO_RU comment=RU
-add address=84.54.46.0/23 list=GEO_RU comment=RU
+add address=84.54.44.0/22 list=GEO_RU comment=RU
 add address=84.54.55.0/24 list=GEO_RU comment=RU
 add address=84.54.56.0/22 list=GEO_RU comment=RU
 add address=84.54.192.0/18 list=GEO_RU comment=RU
@@ -2871,7 +2870,6 @@ add address=91.217.129.0/24 list=GEO_RU comment=RU
 add address=91.217.136.0/23 list=GEO_RU comment=RU
 add address=91.217.143.0/24 list=GEO_RU comment=RU
 add address=91.217.156.0/24 list=GEO_RU comment=RU
-add address=91.217.159.0/24 list=GEO_RU comment=RU
 add address=91.217.163.0/24 list=GEO_RU comment=RU
 add address=91.217.178.0/24 list=GEO_RU comment=RU
 add address=91.217.180.0/24 list=GEO_RU comment=RU
@@ -4347,7 +4345,9 @@ add address=109.237.0.0/20 list=GEO_RU comment=RU
 add address=109.237.96.0/20 list=GEO_RU comment=RU
 add address=109.237.144.0/20 list=GEO_RU comment=RU
 add address=109.237.224.0/20 list=GEO_RU comment=RU
-add address=109.238.80.0/20 list=GEO_RU comment=RU
+add address=109.238.80.0/21 list=GEO_RU comment=RU
+add address=109.238.88.0/22 list=GEO_RU comment=RU
+add address=109.238.92.0/23 list=GEO_RU comment=RU
 add address=109.238.96.0/20 list=GEO_RU comment=RU
 add address=109.238.192.0/20 list=GEO_RU comment=RU
 add address=109.238.240.0/20 list=GEO_RU comment=RU
@@ -4377,9 +4377,9 @@ add address=128.140.192.0/21 list=GEO_RU comment=RU
 add address=128.204.0.0/17 list=GEO_RU comment=RU
 add address=128.204.160.0/19 list=GEO_RU comment=RU
 add address=130.0.216.0/21 list=GEO_RU comment=RU
+add address=130.49.128.0/23 list=GEO_RU comment=RU
 add address=130.49.132.0/22 list=GEO_RU comment=RU
-add address=130.49.136.0/22 list=GEO_RU comment=RU
-add address=130.49.142.0/23 list=GEO_RU comment=RU
+add address=130.49.136.0/21 list=GEO_RU comment=RU
 add address=130.49.144.0/21 list=GEO_RU comment=RU
 add address=130.49.152.0/23 list=GEO_RU comment=RU
 add address=130.49.154.0/24 list=GEO_RU comment=RU
@@ -4419,15 +4419,14 @@ add address=136.234.112.0/21 list=GEO_RU comment=RU
 add address=136.234.120.0/22 list=GEO_RU comment=RU
 add address=136.234.124.0/23 list=GEO_RU comment=RU
 add address=136.234.126.0/24 list=GEO_RU comment=RU
+add address=138.16.224.0/22 list=GEO_RU comment=RU
 add address=139.28.52.0/22 list=GEO_RU comment=RU
 add address=139.28.72.0/22 list=GEO_RU comment=RU
 add address=139.28.168.0/22 list=GEO_RU comment=RU
 add address=139.28.180.0/22 list=GEO_RU comment=RU
 add address=139.45.224.0/19 list=GEO_RU comment=RU
 add address=139.100.160.0/20 list=GEO_RU comment=RU
-add address=139.100.192.0/19 list=GEO_RU comment=RU
-add address=139.100.224.0/21 list=GEO_RU comment=RU
-add address=139.100.240.0/20 list=GEO_RU comment=RU
+add address=139.100.192.0/18 list=GEO_RU comment=RU
 add address=141.0.176.0/21 list=GEO_RU comment=RU
 add address=141.8.128.0/18 list=GEO_RU comment=RU
 add address=141.8.192.0/21 list=GEO_RU comment=RU
@@ -4519,11 +4518,11 @@ add address=152.89.108.0/22 list=GEO_RU comment=RU
 add address=152.89.132.0/22 list=GEO_RU comment=RU
 add address=152.89.196.0/24 list=GEO_RU comment=RU
 add address=152.89.216.0/22 list=GEO_RU comment=RU
+add address=153.80.172.0/22 list=GEO_RU comment=RU
+add address=153.80.176.0/23 list=GEO_RU comment=RU
 add address=153.80.180.0/22 list=GEO_RU comment=RU
 add address=153.80.184.0/21 list=GEO_RU comment=RU
-add address=153.80.224.0/21 list=GEO_RU comment=RU
-add address=153.80.244.0/22 list=GEO_RU comment=RU
-add address=153.80.248.0/21 list=GEO_RU comment=RU
+add address=153.80.224.0/19 list=GEO_RU comment=RU
 add address=155.212.128.0/20 list=GEO_RU comment=RU
 add address=155.212.144.0/21 list=GEO_RU comment=RU
 add address=155.212.152.0/23 list=GEO_RU comment=RU
@@ -4540,6 +4539,7 @@ add address=155.212.245.0/24 list=GEO_RU comment=RU
 add address=155.212.246.0/23 list=GEO_RU comment=RU
 add address=155.212.248.0/21 list=GEO_RU comment=RU
 add address=157.22.152.0/22 list=GEO_RU comment=RU
+add address=157.22.158.0/23 list=GEO_RU comment=RU
 add address=157.22.160.0/19 list=GEO_RU comment=RU
 add address=157.22.192.0/20 list=GEO_RU comment=RU
 add address=157.22.216.0/22 list=GEO_RU comment=RU
@@ -4547,6 +4547,7 @@ add address=157.22.220.0/23 list=GEO_RU comment=RU
 add address=157.22.224.0/21 list=GEO_RU comment=RU
 add address=157.22.240.0/21 list=GEO_RU comment=RU
 add address=157.22.248.0/22 list=GEO_RU comment=RU
+add address=157.22.252.0/23 list=GEO_RU comment=RU
 add address=157.22.254.0/24 list=GEO_RU comment=RU
 add address=157.186.0.0/16 list=GEO_RU comment=RU
 add address=158.46.0.0/16 list=GEO_RU comment=RU
@@ -4569,6 +4570,7 @@ add address=159.253.168.0/21 list=GEO_RU comment=RU
 add address=159.255.0.0/19 list=GEO_RU comment=RU
 add address=159.255.64.0/18 list=GEO_RU comment=RU
 add address=160.20.156.0/22 list=GEO_RU comment=RU
+add address=161.104.32.0/19 list=GEO_RU comment=RU
 add address=161.104.96.0/20 list=GEO_RU comment=RU
 add address=164.138.32.0/21 list=GEO_RU comment=RU
 add address=164.138.88.0/21 list=GEO_RU comment=RU
@@ -4967,9 +4969,7 @@ add address=178.215.144.0/20 list=GEO_RU comment=RU
 add address=178.215.232.0/22 list=GEO_RU comment=RU
 add address=178.216.64.0/20 list=GEO_RU comment=RU
 add address=178.216.96.0/21 list=GEO_RU comment=RU
-add address=178.216.121.0/24 list=GEO_RU comment=RU
-add address=178.216.122.0/24 list=GEO_RU comment=RU
-add address=178.216.124.0/22 list=GEO_RU comment=RU
+add address=178.216.120.0/21 list=GEO_RU comment=RU
 add address=178.216.152.0/21 list=GEO_RU comment=RU
 add address=178.216.160.0/21 list=GEO_RU comment=RU
 add address=178.216.172.0/23 list=GEO_RU comment=RU
@@ -7683,6 +7683,7 @@ add address=195.35.116.0/23 list=GEO_RU comment=RU
 add address=195.38.23.0/24 list=GEO_RU comment=RU
 add address=195.38.32.0/19 list=GEO_RU comment=RU
 add address=195.39.206.0/23 list=GEO_RU comment=RU
+add address=195.39.210.0/23 list=GEO_RU comment=RU
 add address=195.39.228.0/23 list=GEO_RU comment=RU
 add address=195.39.248.0/23 list=GEO_RU comment=RU
 add address=195.42.64.0/19 list=GEO_RU comment=RU
@@ -8539,6 +8540,7 @@ add address=217.118.64.0/19 list=GEO_RU comment=RU
 add address=217.118.176.0/20 list=GEO_RU comment=RU
 add address=217.119.16.0/20 list=GEO_RU comment=RU
 add address=217.119.80.0/20 list=GEO_RU comment=RU
+add address=217.119.139.0/24 list=GEO_RU comment=RU
 add address=217.144.96.0/21 list=GEO_RU comment=RU
 add address=217.144.160.0/20 list=GEO_RU comment=RU
 add address=217.145.16.0/20 list=GEO_RU comment=RU

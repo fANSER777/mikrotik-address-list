@@ -1,14 +1,10 @@
 # GeoIP address list — AI
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AI | Subnets: 9 (was 9, collapsed 0) | IPs: ~9,728
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AI&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AI comment!="WHITE"]
+remove [find list=GEO_AI]
 add address=104.192.92.0/22 list=GEO_AI comment=AI
 add address=104.193.196.0/22 list=GEO_AI comment=AI
 add address=104.255.176.0/22 list=GEO_AI comment=AI

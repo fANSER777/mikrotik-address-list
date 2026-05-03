@@ -1,14 +1,10 @@
 # GeoIP address list — ZZ
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: ZZ | Subnets: 563 (was 566, collapsed 3) | IPs: ~5,226,240
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ZZ&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: ZZ | Subnets: 558 (was 561, collapsed 3) | IPs: ~5,207,040
 #
 /ip firewall address-list
-remove [find list=GEO_ZZ comment!="WHITE"]
+remove [find list=GEO_ZZ]
 add address=41.57.112.0/21 list=GEO_ZZ comment=ZZ
 add address=41.57.124.0/22 list=GEO_ZZ comment=ZZ
 add address=41.57.192.0/18 list=GEO_ZZ comment=ZZ
@@ -169,18 +165,13 @@ add address=102.183.0.0/16 list=GEO_ZZ comment=ZZ
 add address=102.192.0.0/13 list=GEO_ZZ comment=ZZ
 add address=102.200.0.0/15 list=GEO_ZZ comment=ZZ
 add address=102.202.0.0/17 list=GEO_ZZ comment=ZZ
-add address=102.202.128.0/18 list=GEO_ZZ comment=ZZ
-add address=102.202.192.0/20 list=GEO_ZZ comment=ZZ
-add address=102.202.208.0/21 list=GEO_ZZ comment=ZZ
-add address=102.202.216.0/22 list=GEO_ZZ comment=ZZ
-add address=102.202.220.0/23 list=GEO_ZZ comment=ZZ
-add address=102.202.222.0/24 list=GEO_ZZ comment=ZZ
+add address=102.202.128.0/20 list=GEO_ZZ comment=ZZ
+add address=102.202.144.0/21 list=GEO_ZZ comment=ZZ
+add address=102.202.152.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.20.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.24.0/21 list=GEO_ZZ comment=ZZ
 add address=102.203.52.0/22 list=GEO_ZZ comment=ZZ
-add address=102.203.68.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.72.0/21 list=GEO_ZZ comment=ZZ
-add address=102.203.144.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.248.0/21 list=GEO_ZZ comment=ZZ
 add address=102.204.128.0/20 list=GEO_ZZ comment=ZZ
 add address=102.208.156.0/22 list=GEO_ZZ comment=ZZ

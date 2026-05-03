@@ -1,14 +1,10 @@
 # GeoIP address list — CV
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CV | Subnets: 23 (was 23, collapsed 0) | IPs: ~38,144
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CV&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CV comment!="WHITE"]
+remove [find list=GEO_CV]
 add address=41.74.128.0/20 list=GEO_CV comment=CV
 add address=41.79.124.0/22 list=GEO_CV comment=CV
 add address=41.215.208.0/20 list=GEO_CV comment=CV

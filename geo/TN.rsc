@@ -1,14 +1,10 @@
 # GeoIP address list — TN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: TN | Subnets: 43 (was 44, collapsed 1) | IPs: ~7,876,608
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TN&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_TN comment!="WHITE"]
+remove [find list=GEO_TN]
 add address=41.62.0.0/16 list=GEO_TN comment=TN
 add address=41.224.0.0/13 list=GEO_TN comment=TN
 add address=102.24.0.0/13 list=GEO_TN comment=TN

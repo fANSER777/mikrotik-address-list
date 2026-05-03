@@ -1,14 +1,10 @@
 # GeoIP address list — KW
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: KW | Subnets: 132 (was 138, collapsed 6) | IPs: ~1,907,456
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KW&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_KW comment!="WHITE"]
+remove [find list=GEO_KW]
 add address=5.182.132.0/22 list=GEO_KW comment=KW
 add address=31.203.0.0/16 list=GEO_KW comment=KW
 add address=31.214.0.0/17 list=GEO_KW comment=KW

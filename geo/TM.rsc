@@ -1,14 +1,10 @@
 # GeoIP address list — TM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: TM | Subnets: 11 (was 11, collapsed 0) | IPs: ~22,336
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_TM comment!="WHITE"]
+remove [find list=GEO_TM]
 add address=77.83.59.0/24 list=GEO_TM comment=TM
 add address=95.85.96.0/19 list=GEO_TM comment=TM
 add address=103.220.0.0/22 list=GEO_TM comment=TM

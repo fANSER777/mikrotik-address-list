@@ -1,14 +1,10 @@
 # GeoIP address list — OM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: OM | Subnets: 75 (was 75, collapsed 0) | IPs: ~950,528
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=OM&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: OM | Subnets: 76 (was 76, collapsed 0) | IPs: ~951,552
 #
 /ip firewall address-list
-remove [find list=GEO_OM comment!="WHITE"]
+remove [find list=GEO_OM]
 add address=5.21.0.0/16 list=GEO_OM comment=OM
 add address=5.32.192.0/18 list=GEO_OM comment=OM
 add address=5.36.0.0/15 list=GEO_OM comment=OM
@@ -77,6 +73,7 @@ add address=188.140.128.0/17 list=GEO_OM comment=OM
 add address=193.3.37.0/24 list=GEO_OM comment=OM
 add address=193.203.254.0/24 list=GEO_OM comment=OM
 add address=194.26.102.0/24 list=GEO_OM comment=OM
+add address=194.169.128.0/22 list=GEO_OM comment=OM
 add address=195.245.85.0/24 list=GEO_OM comment=OM
 add address=199.48.224.0/24 list=GEO_OM comment=OM
 add address=206.167.33.0/24 list=GEO_OM comment=OM

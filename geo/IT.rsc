@@ -1,14 +1,10 @@
 # GeoIP address list — IT
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: IT | Subnets: 3332 (was 3707, collapsed 375) | IPs: ~53,916,032
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IT&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: IT | Subnets: 3338 (was 3713, collapsed 375) | IPs: ~53,929,856
 #
 /ip firewall address-list
-remove [find list=GEO_IT comment!="WHITE"]
+remove [find list=GEO_IT]
 add address=2.32.0.0/12 list=GEO_IT comment=IT
 add address=2.56.92.0/22 list=GEO_IT comment=IT
 add address=2.56.128.0/22 list=GEO_IT comment=IT
@@ -536,6 +532,7 @@ add address=79.98.0.0/21 list=GEO_IT comment=IT
 add address=79.98.40.0/21 list=GEO_IT comment=IT
 add address=79.99.8.0/21 list=GEO_IT comment=IT
 add address=79.99.112.0/21 list=GEO_IT comment=IT
+add address=79.108.128.0/21 list=GEO_IT comment=IT
 add address=79.108.152.0/21 list=GEO_IT comment=IT
 add address=79.108.208.0/21 list=GEO_IT comment=IT
 add address=79.133.100.0/22 list=GEO_IT comment=IT
@@ -1188,6 +1185,7 @@ add address=95.131.40.0/21 list=GEO_IT comment=IT
 add address=95.131.56.0/21 list=GEO_IT comment=IT
 add address=95.131.203.0/24 list=GEO_IT comment=IT
 add address=95.131.206.0/23 list=GEO_IT comment=IT
+add address=95.133.128.0/22 list=GEO_IT comment=IT
 add address=95.140.128.0/20 list=GEO_IT comment=IT
 add address=95.141.32.0/20 list=GEO_IT comment=IT
 add address=95.142.176.0/20 list=GEO_IT comment=IT
@@ -1278,6 +1276,7 @@ add address=128.127.56.0/21 list=GEO_IT comment=IT
 add address=130.0.128.0/18 list=GEO_IT comment=IT
 add address=130.0.208.0/21 list=GEO_IT comment=IT
 add address=130.25.0.0/16 list=GEO_IT comment=IT
+add address=130.78.32.0/19 list=GEO_IT comment=IT
 add address=130.78.220.0/23 list=GEO_IT comment=IT
 add address=130.136.0.0/16 list=GEO_IT comment=IT
 add address=130.186.0.0/19 list=GEO_IT comment=IT
@@ -1353,6 +1352,7 @@ add address=150.145.0.0/16 list=GEO_IT comment=IT
 add address=150.146.0.0/16 list=GEO_IT comment=IT
 add address=150.178.0.0/16 list=GEO_IT comment=IT
 add address=150.217.0.0/16 list=GEO_IT comment=IT
+add address=150.251.64.0/21 list=GEO_IT comment=IT
 add address=150.252.224.0/20 list=GEO_IT comment=IT
 add address=151.0.128.0/17 list=GEO_IT comment=IT
 add address=151.1.0.0/16 list=GEO_IT comment=IT
@@ -1609,6 +1609,7 @@ add address=185.19.208.0/22 list=GEO_IT comment=IT
 add address=185.20.64.0/22 list=GEO_IT comment=IT
 add address=185.21.24.0/22 list=GEO_IT comment=IT
 add address=185.21.72.0/22 list=GEO_IT comment=IT
+add address=185.21.129.0/24 list=GEO_IT comment=IT
 add address=185.21.172.0/22 list=GEO_IT comment=IT
 add address=185.21.248.0/22 list=GEO_IT comment=IT
 add address=185.22.0.0/22 list=GEO_IT comment=IT
@@ -1981,6 +1982,7 @@ add address=185.128.28.0/22 list=GEO_IT comment=IT
 add address=185.128.76.0/22 list=GEO_IT comment=IT
 add address=185.128.148.0/22 list=GEO_IT comment=IT
 add address=185.129.88.0/22 list=GEO_IT comment=IT
+add address=185.130.88.0/24 list=GEO_IT comment=IT
 add address=185.131.16.0/22 list=GEO_IT comment=IT
 add address=185.131.205.0/24 list=GEO_IT comment=IT
 add address=185.131.206.0/24 list=GEO_IT comment=IT

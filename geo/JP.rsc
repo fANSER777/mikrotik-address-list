@@ -1,14 +1,10 @@
 # GeoIP address list — JP
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: JP | Subnets: 3171 (was 4732, collapsed 1561) | IPs: ~188,678,976
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=JP&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: JP | Subnets: 3175 (was 4736, collapsed 1561) | IPs: ~188,681,024
 #
 /ip firewall address-list
-remove [find list=GEO_JP comment!="WHITE"]
+remove [find list=GEO_JP]
 add address=1.0.16.0/20 list=GEO_JP comment=JP
 add address=1.0.64.0/18 list=GEO_JP comment=JP
 add address=1.1.64.0/18 list=GEO_JP comment=JP
@@ -44,7 +40,6 @@ add address=23.131.108.0/24 list=GEO_JP comment=JP
 add address=23.131.136.0/24 list=GEO_JP comment=JP
 add address=23.137.68.0/24 list=GEO_JP comment=JP
 add address=23.137.116.0/24 list=GEO_JP comment=JP
-add address=23.156.104.0/24 list=GEO_JP comment=JP
 add address=23.159.40.0/24 list=GEO_JP comment=JP
 add address=23.176.40.0/24 list=GEO_JP comment=JP
 add address=23.183.56.0/24 list=GEO_JP comment=JP
@@ -1889,6 +1884,9 @@ add address=161.94.0.0/15 list=GEO_JP comment=JP
 add address=161.96.0.0/16 list=GEO_JP comment=JP
 add address=161.248.2.0/23 list=GEO_JP comment=JP
 add address=161.248.40.0/23 list=GEO_JP comment=JP
+add address=162.4.26.0/23 list=GEO_JP comment=JP
+add address=162.4.28.0/23 list=GEO_JP comment=JP
+add address=162.4.52.0/23 list=GEO_JP comment=JP
 add address=162.43.0.0/17 list=GEO_JP comment=JP
 add address=163.42.0.0/15 list=GEO_JP comment=JP
 add address=163.44.0.0/17 list=GEO_JP comment=JP
@@ -1917,6 +1915,8 @@ add address=163.61.206.0/23 list=GEO_JP comment=JP
 add address=163.128.26.0/23 list=GEO_JP comment=JP
 add address=163.128.72.0/23 list=GEO_JP comment=JP
 add address=163.128.118.0/24 list=GEO_JP comment=JP
+add address=163.128.154.0/23 list=GEO_JP comment=JP
+add address=163.128.219.0/24 list=GEO_JP comment=JP
 add address=163.130.0.0/15 list=GEO_JP comment=JP
 add address=163.132.0.0/14 list=GEO_JP comment=JP
 add address=163.136.0.0/14 list=GEO_JP comment=JP

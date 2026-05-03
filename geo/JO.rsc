@@ -1,14 +1,10 @@
 # GeoIP address list — JO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: JO | Subnets: 127 (was 128, collapsed 1) | IPs: ~647,936
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=JO&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_JO comment!="WHITE"]
+remove [find list=GEO_JO]
 add address=2.59.52.0/22 list=GEO_JO comment=JO
 add address=5.45.128.0/20 list=GEO_JO comment=JO
 add address=5.198.240.0/21 list=GEO_JO comment=JO

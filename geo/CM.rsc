@@ -1,14 +1,10 @@
 # GeoIP address list — CM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CM | Subnets: 59 (was 61, collapsed 2) | IPs: ~601,856
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CM comment!="WHITE"]
+remove [find list=GEO_CM]
 add address=41.77.80.0/21 list=GEO_CM comment=CM
 add address=41.92.128.0/21 list=GEO_CM comment=CM
 add address=41.92.152.0/21 list=GEO_CM comment=CM

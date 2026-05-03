@@ -1,14 +1,10 @@
 # GeoIP address list — CW
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: CW | Subnets: 40 (was 47, collapsed 7) | IPs: ~200,192
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CW&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: CW | Subnets: 44 (was 50, collapsed 6) | IPs: ~200,192
 #
 /ip firewall address-list
-remove [find list=GEO_CW comment!="WHITE"]
+remove [find list=GEO_CW]
 add address=45.71.156.0/22 list=GEO_CW comment=CW
 add address=45.234.112.0/22 list=GEO_CW comment=CW
 add address=81.29.0.0/20 list=GEO_CW comment=CW
@@ -27,7 +23,10 @@ add address=186.2.176.0/20 list=GEO_CW comment=CW
 add address=186.148.216.0/21 list=GEO_CW comment=CW
 add address=186.190.232.0/22 list=GEO_CW comment=CW
 add address=186.190.240.0/20 list=GEO_CW comment=CW
-add address=190.2.128.0/18 list=GEO_CW comment=CW
+add address=190.2.128.0/19 list=GEO_CW comment=CW
+add address=190.2.160.0/20 list=GEO_CW comment=CW
+add address=190.2.176.0/21 list=GEO_CW comment=CW
+add address=190.2.188.0/22 list=GEO_CW comment=CW
 add address=190.4.128.0/18 list=GEO_CW comment=CW
 add address=190.13.120.0/21 list=GEO_CW comment=CW
 add address=190.88.0.0/16 list=GEO_CW comment=CW
@@ -38,6 +37,7 @@ add address=190.121.240.0/20 list=GEO_CW comment=CW
 add address=190.123.20.0/22 list=GEO_CW comment=CW
 add address=190.185.0.0/18 list=GEO_CW comment=CW
 add address=193.23.16.0/22 list=GEO_CW comment=CW
+add address=194.169.132.0/22 list=GEO_CW comment=CW
 add address=196.3.16.0/20 list=GEO_CW comment=CW
 add address=200.0.20.0/23 list=GEO_CW comment=CW
 add address=200.6.56.0/21 list=GEO_CW comment=CW

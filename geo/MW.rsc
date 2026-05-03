@@ -1,14 +1,10 @@
 # GeoIP address list — MW
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MW | Subnets: 51 (was 51, collapsed 0) | IPs: ~556,544
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MW&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MW comment!="WHITE"]
+remove [find list=GEO_MW]
 add address=41.70.0.0/17 list=GEO_MW comment=MW
 add address=41.75.112.0/20 list=GEO_MW comment=MW
 add address=41.77.8.0/21 list=GEO_MW comment=MW

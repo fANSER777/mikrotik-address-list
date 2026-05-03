@@ -1,14 +1,10 @@
 # GeoIP address list — KR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: KR | Subnets: 994 (was 2422, collapsed 1428) | IPs: ~112,494,336
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KR&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: KR | Subnets: 997 (was 2425, collapsed 1428) | IPs: ~112,495,616
 #
 /ip firewall address-list
-remove [find list=GEO_KR comment!="WHITE"]
+remove [find list=GEO_KR]
 add address=1.11.0.0/16 list=GEO_KR comment=KR
 add address=1.16.0.0/14 list=GEO_KR comment=KR
 add address=1.96.0.0/12 list=GEO_KR comment=KR
@@ -726,10 +722,13 @@ add address=160.202.172.0/22 list=GEO_KR comment=KR
 add address=160.202.176.0/22 list=GEO_KR comment=KR
 add address=160.250.152.0/22 list=GEO_KR comment=KR
 add address=161.122.0.0/16 list=GEO_KR comment=KR
+add address=162.4.5.0/24 list=GEO_KR comment=KR
+add address=162.4.50.0/23 list=GEO_KR comment=KR
 add address=162.222.172.0/22 list=GEO_KR comment=KR
 add address=163.53.156.0/22 list=GEO_KR comment=KR
 add address=163.61.222.0/23 list=GEO_KR comment=KR
 add address=163.128.0.0/23 list=GEO_KR comment=KR
+add address=163.128.170.0/23 list=GEO_KR comment=KR
 add address=163.152.0.0/16 list=GEO_KR comment=KR
 add address=163.180.0.0/16 list=GEO_KR comment=KR
 add address=163.213.0.0/16 list=GEO_KR comment=KR

@@ -1,14 +1,10 @@
 # GeoIP address list — GM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GM | Subnets: 24 (was 24, collapsed 0) | IPs: ~274,944
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GM comment!="WHITE"]
+remove [find list=GEO_GM]
 add address=41.76.8.0/21 list=GEO_GM comment=GM
 add address=41.223.212.0/22 list=GEO_GM comment=GM
 add address=102.69.160.0/22 list=GEO_GM comment=GM

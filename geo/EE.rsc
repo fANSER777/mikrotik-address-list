@@ -1,14 +1,10 @@
 # GeoIP address list — EE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: EE | Subnets: 427 (was 460, collapsed 33) | IPs: ~1,325,352
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=EE&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: EE | Subnets: 433 (was 466, collapsed 33) | IPs: ~1,331,752
 #
 /ip firewall address-list
-remove [find list=GEO_EE comment!="WHITE"]
+remove [find list=GEO_EE]
 add address=2.57.220.0/22 list=GEO_EE comment=EE
 add address=2.59.164.0/22 list=GEO_EE comment=EE
 add address=5.42.199.0/24 list=GEO_EE comment=EE
@@ -34,6 +30,7 @@ add address=45.80.110.0/24 list=GEO_EE comment=EE
 add address=45.83.52.0/22 list=GEO_EE comment=EE
 add address=45.83.72.0/22 list=GEO_EE comment=EE
 add address=45.83.192.0/22 list=GEO_EE comment=EE
+add address=45.85.120.0/22 list=GEO_EE comment=EE
 add address=45.86.228.0/22 list=GEO_EE comment=EE
 add address=45.88.59.0/24 list=GEO_EE comment=EE
 add address=45.92.100.0/22 list=GEO_EE comment=EE
@@ -123,6 +120,7 @@ add address=89.191.234.0/24 list=GEO_EE comment=EE
 add address=89.221.64.0/20 list=GEO_EE comment=EE
 add address=89.235.192.0/18 list=GEO_EE comment=EE
 add address=90.190.0.0/15 list=GEO_EE comment=EE
+add address=91.102.122.0/24 list=GEO_EE comment=EE
 add address=91.146.64.0/19 list=GEO_EE comment=EE
 add address=91.184.248.0/22 list=GEO_EE comment=EE
 add address=91.193.252.0/22 list=GEO_EE comment=EE
@@ -177,14 +175,18 @@ add address=109.107.128.0/24 list=GEO_EE comment=EE
 add address=109.172.8.0/23 list=GEO_EE comment=EE
 add address=109.205.189.0/24 list=GEO_EE comment=EE
 add address=109.235.240.0/21 list=GEO_EE comment=EE
+add address=109.238.94.0/23 list=GEO_EE comment=EE
 add address=117.18.118.0/24 list=GEO_EE comment=EE
 add address=117.55.202.0/23 list=GEO_EE comment=EE
 add address=130.49.155.0/24 list=GEO_EE comment=EE
+add address=132.243.64.0/20 list=GEO_EE comment=EE
 add address=141.105.128.0/20 list=GEO_EE comment=EE
 add address=145.14.16.0/20 list=GEO_EE comment=EE
 add address=145.14.32.0/20 list=GEO_EE comment=EE
 add address=146.19.131.0/24 list=GEO_EE comment=EE
 add address=146.19.143.0/24 list=GEO_EE comment=EE
+add address=146.19.185.0/24 list=GEO_EE comment=EE
+add address=146.19.194.0/24 list=GEO_EE comment=EE
 add address=146.19.254.0/24 list=GEO_EE comment=EE
 add address=146.255.176.0/21 list=GEO_EE comment=EE
 add address=147.28.0.0/20 list=GEO_EE comment=EE

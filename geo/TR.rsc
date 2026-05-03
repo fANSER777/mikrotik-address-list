@@ -1,14 +1,10 @@
 # GeoIP address list — TR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: TR | Subnets: 1570 (was 1966, collapsed 396) | IPs: ~16,791,168
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TR&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: TR | Subnets: 1580 (was 1982, collapsed 402) | IPs: ~16,800,128
 #
 /ip firewall address-list
-remove [find list=GEO_TR comment!="WHITE"]
+remove [find list=GEO_TR]
 add address=2.56.60.0/22 list=GEO_TR comment=TR
 add address=2.56.152.0/22 list=GEO_TR comment=TR
 add address=2.57.188.0/22 list=GEO_TR comment=TR
@@ -118,6 +114,7 @@ add address=37.246.0.0/16 list=GEO_TR comment=TR
 add address=37.247.96.0/20 list=GEO_TR comment=TR
 add address=37.247.112.0/21 list=GEO_TR comment=TR
 add address=43.229.92.0/22 list=GEO_TR comment=TR
+add address=43.249.8.0/22 list=GEO_TR comment=TR
 add address=45.10.56.0/24 list=GEO_TR comment=TR
 add address=45.10.148.0/22 list=GEO_TR comment=TR
 add address=45.10.252.0/22 list=GEO_TR comment=TR
@@ -313,6 +310,7 @@ add address=85.95.224.0/19 list=GEO_TR comment=TR
 add address=85.96.0.0/12 list=GEO_TR comment=TR
 add address=85.119.32.0/21 list=GEO_TR comment=TR
 add address=85.119.64.0/21 list=GEO_TR comment=TR
+add address=85.136.208.0/23 list=GEO_TR comment=TR
 add address=85.153.128.0/17 list=GEO_TR comment=TR
 add address=85.158.96.0/21 list=GEO_TR comment=TR
 add address=85.159.64.0/20 list=GEO_TR comment=TR
@@ -404,6 +402,7 @@ add address=91.198.61.0/24 list=GEO_TR comment=TR
 add address=91.198.64.0/24 list=GEO_TR comment=TR
 add address=91.198.124.0/24 list=GEO_TR comment=TR
 add address=91.199.73.0/24 list=GEO_TR comment=TR
+add address=91.199.105.0/24 list=GEO_TR comment=TR
 add address=91.199.111.0/24 list=GEO_TR comment=TR
 add address=91.199.191.0/24 list=GEO_TR comment=TR
 add address=91.199.204.0/24 list=GEO_TR comment=TR
@@ -599,7 +598,11 @@ add address=130.255.173.0/24 list=GEO_TR comment=TR
 add address=131.222.128.0/24 list=GEO_TR comment=TR
 add address=131.222.130.0/23 list=GEO_TR comment=TR
 add address=131.222.132.0/24 list=GEO_TR comment=TR
-add address=131.222.198.0/23 list=GEO_TR comment=TR
+add address=131.222.192.0/23 list=GEO_TR comment=TR
+add address=131.222.196.0/22 list=GEO_TR comment=TR
+add address=131.222.208.0/21 list=GEO_TR comment=TR
+add address=131.222.216.0/22 list=GEO_TR comment=TR
+add address=131.222.220.0/23 list=GEO_TR comment=TR
 add address=131.222.224.0/19 list=GEO_TR comment=TR
 add address=134.19.200.0/21 list=GEO_TR comment=TR
 add address=134.255.199.0/24 list=GEO_TR comment=TR
@@ -634,6 +637,8 @@ add address=152.89.36.0/22 list=GEO_TR comment=TR
 add address=152.114.206.0/23 list=GEO_TR comment=TR
 add address=153.56.128.0/23 list=GEO_TR comment=TR
 add address=153.56.130.0/24 list=GEO_TR comment=TR
+add address=153.56.155.0/24 list=GEO_TR comment=TR
+add address=153.56.160.0/21 list=GEO_TR comment=TR
 add address=155.223.0.0/16 list=GEO_TR comment=TR
 add address=158.94.208.0/22 list=GEO_TR comment=TR
 add address=158.94.216.0/24 list=GEO_TR comment=TR
@@ -1187,6 +1192,7 @@ add address=193.9.51.0/24 list=GEO_TR comment=TR
 add address=193.17.4.0/22 list=GEO_TR comment=TR
 add address=193.22.12.0/24 list=GEO_TR comment=TR
 add address=193.22.163.0/24 list=GEO_TR comment=TR
+add address=193.23.136.0/24 list=GEO_TR comment=TR
 add address=193.23.156.0/24 list=GEO_TR comment=TR
 add address=193.24.99.0/24 list=GEO_TR comment=TR
 add address=193.24.117.0/24 list=GEO_TR comment=TR

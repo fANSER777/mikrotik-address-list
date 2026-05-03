@@ -1,14 +1,10 @@
 # GeoIP address list — BQ
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BQ | Subnets: 12 (was 12, collapsed 0) | IPs: ~24,832
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BQ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BQ comment!="WHITE"]
+remove [find list=GEO_BQ]
 add address=138.185.208.0/22 list=GEO_BQ comment=BQ
 add address=143.0.32.0/22 list=GEO_BQ comment=BQ
 add address=161.0.80.0/20 list=GEO_BQ comment=BQ

@@ -1,14 +1,10 @@
 # GeoIP address list — NP
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: NP | Subnets: 267 (was 277, collapsed 10) | IPs: ~583,168
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NP&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: NP | Subnets: 266 (was 276, collapsed 10) | IPs: ~582,656
 #
 /ip firewall address-list
-remove [find list=GEO_NP comment!="WHITE"]
+remove [find list=GEO_NP]
 add address=27.34.0.0/17 list=GEO_NP comment=NP
 add address=27.111.16.0/20 list=GEO_NP comment=NP
 add address=36.0.4.0/22 list=GEO_NP comment=NP
@@ -132,7 +128,6 @@ add address=103.157.44.0/23 list=GEO_NP comment=NP
 add address=103.157.90.0/23 list=GEO_NP comment=NP
 add address=103.158.110.0/24 list=GEO_NP comment=NP
 add address=103.158.198.0/23 list=GEO_NP comment=NP
-add address=103.160.22.0/23 list=GEO_NP comment=NP
 add address=103.160.82.0/23 list=GEO_NP comment=NP
 add address=103.162.2.0/23 list=GEO_NP comment=NP
 add address=103.162.6.0/24 list=GEO_NP comment=NP

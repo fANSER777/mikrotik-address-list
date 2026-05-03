@@ -1,14 +1,10 @@
 # GeoIP address list — JM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: JM | Subnets: 51 (was 52, collapsed 1) | IPs: ~224,000
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=JM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_JM comment!="WHITE"]
+remove [find list=GEO_JM]
 add address=23.156.32.0/24 list=GEO_JM comment=JM
 add address=63.143.64.0/18 list=GEO_JM comment=JM
 add address=64.112.16.0/22 list=GEO_JM comment=JM

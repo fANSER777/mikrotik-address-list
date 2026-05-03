@@ -1,14 +1,10 @@
 # GeoIP address list — PS
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: PS | Subnets: 243 (was 249, collapsed 6) | IPs: ~875,520
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PS&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_PS comment!="WHITE"]
+remove [find list=GEO_PS]
 add address=1.178.112.0/20 list=GEO_PS comment=PS
 add address=1.178.128.0/20 list=GEO_PS comment=PS
 add address=1.178.208.0/20 list=GEO_PS comment=PS

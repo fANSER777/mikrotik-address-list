@@ -1,14 +1,10 @@
 # GeoIP address list — SC
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: SC | Subnets: 793 (was 877, collapsed 84) | IPs: ~8,787,456
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SC&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: SC | Subnets: 789 (was 873, collapsed 84) | IPs: ~8,777,728
 #
 /ip firewall address-list
-remove [find list=GEO_SC comment!="WHITE"]
+remove [find list=GEO_SC]
 add address=2.56.10.0/24 list=GEO_SC comment=SC
 add address=2.56.100.0/22 list=GEO_SC comment=SC
 add address=2.56.112.0/22 list=GEO_SC comment=SC
@@ -30,6 +26,7 @@ add address=5.181.40.0/22 list=GEO_SC comment=SC
 add address=5.183.128.0/22 list=GEO_SC comment=SC
 add address=5.183.209.0/24 list=GEO_SC comment=SC
 add address=5.187.35.0/24 list=GEO_SC comment=SC
+add address=5.187.38.0/23 list=GEO_SC comment=SC
 add address=23.92.112.0/20 list=GEO_SC comment=SC
 add address=24.235.24.0/21 list=GEO_SC comment=SC
 add address=31.22.104.0/21 list=GEO_SC comment=SC
@@ -222,7 +219,6 @@ add address=62.233.60.0/24 list=GEO_SC comment=SC
 add address=64.226.54.0/23 list=GEO_SC comment=SC
 add address=64.226.156.0/22 list=GEO_SC comment=SC
 add address=66.133.80.0/20 list=GEO_SC comment=SC
-add address=69.5.189.0/24 list=GEO_SC comment=SC
 add address=77.83.84.0/24 list=GEO_SC comment=SC
 add address=77.83.184.0/22 list=GEO_SC comment=SC
 add address=77.87.120.0/24 list=GEO_SC comment=SC
@@ -254,7 +250,6 @@ add address=84.246.109.0/24 list=GEO_SC comment=SC
 add address=84.246.110.0/24 list=GEO_SC comment=SC
 add address=85.209.128.0/22 list=GEO_SC comment=SC
 add address=85.235.80.0/23 list=GEO_SC comment=SC
-add address=86.54.42.0/24 list=GEO_SC comment=SC
 add address=87.236.150.0/23 list=GEO_SC comment=SC
 add address=87.236.167.0/24 list=GEO_SC comment=SC
 add address=88.151.13.0/24 list=GEO_SC comment=SC
@@ -392,7 +387,12 @@ add address=135.106.134.0/23 list=GEO_SC comment=SC
 add address=136.234.127.0/24 list=GEO_SC comment=SC
 add address=136.234.128.0/17 list=GEO_SC comment=SC
 add address=137.63.0.0/17 list=GEO_SC comment=SC
-add address=138.16.0.0/16 list=GEO_SC comment=SC
+add address=138.16.0.0/17 list=GEO_SC comment=SC
+add address=138.16.128.0/18 list=GEO_SC comment=SC
+add address=138.16.192.0/19 list=GEO_SC comment=SC
+add address=138.16.228.0/22 list=GEO_SC comment=SC
+add address=138.16.232.0/21 list=GEO_SC comment=SC
+add address=138.16.240.0/20 list=GEO_SC comment=SC
 add address=141.133.0.0/16 list=GEO_SC comment=SC
 add address=141.193.20.0/24 list=GEO_SC comment=SC
 add address=146.19.10.0/24 list=GEO_SC comment=SC
@@ -414,21 +414,18 @@ add address=146.19.136.0/23 list=GEO_SC comment=SC
 add address=146.19.148.0/24 list=GEO_SC comment=SC
 add address=146.19.150.0/24 list=GEO_SC comment=SC
 add address=146.19.152.0/24 list=GEO_SC comment=SC
-add address=146.19.185.0/24 list=GEO_SC comment=SC
 add address=146.19.187.0/24 list=GEO_SC comment=SC
 add address=146.19.188.0/24 list=GEO_SC comment=SC
 add address=146.19.190.0/24 list=GEO_SC comment=SC
-add address=146.19.194.0/24 list=GEO_SC comment=SC
 add address=149.3.170.0/24 list=GEO_SC comment=SC
 add address=151.237.176.0/20 list=GEO_SC comment=SC
 add address=152.89.198.0/23 list=GEO_SC comment=SC
 add address=153.80.0.0/17 list=GEO_SC comment=SC
 add address=153.80.128.0/19 list=GEO_SC comment=SC
-add address=153.80.160.0/20 list=GEO_SC comment=SC
-add address=153.80.176.0/22 list=GEO_SC comment=SC
+add address=153.80.160.0/21 list=GEO_SC comment=SC
+add address=153.80.168.0/22 list=GEO_SC comment=SC
+add address=153.80.178.0/23 list=GEO_SC comment=SC
 add address=153.80.192.0/19 list=GEO_SC comment=SC
-add address=153.80.232.0/21 list=GEO_SC comment=SC
-add address=153.80.240.0/22 list=GEO_SC comment=SC
 add address=154.70.160.0/19 list=GEO_SC comment=SC
 add address=154.73.48.0/22 list=GEO_SC comment=SC
 add address=154.80.0.0/12 list=GEO_SC comment=SC
@@ -439,8 +436,7 @@ add address=155.254.192.0/22 list=GEO_SC comment=SC
 add address=156.0.200.0/22 list=GEO_SC comment=SC
 add address=156.224.0.0/11 list=GEO_SC comment=SC
 add address=157.22.0.0/17 list=GEO_SC comment=SC
-add address=157.22.156.0/22 list=GEO_SC comment=SC
-add address=157.22.252.0/23 list=GEO_SC comment=SC
+add address=157.22.156.0/23 list=GEO_SC comment=SC
 add address=157.22.255.0/24 list=GEO_SC comment=SC
 add address=158.222.0.0/20 list=GEO_SC comment=SC
 add address=159.194.0.0/17 list=GEO_SC comment=SC
@@ -523,6 +519,7 @@ add address=185.147.124.0/22 list=GEO_SC comment=SC
 add address=185.155.101.0/24 list=GEO_SC comment=SC
 add address=185.155.200.0/22 list=GEO_SC comment=SC
 add address=185.161.79.0/24 list=GEO_SC comment=SC
+add address=185.161.187.0/24 list=GEO_SC comment=SC
 add address=185.164.56.0/22 list=GEO_SC comment=SC
 add address=185.164.173.0/24 list=GEO_SC comment=SC
 add address=185.164.174.0/24 list=GEO_SC comment=SC
@@ -535,14 +532,11 @@ add address=185.188.31.0/24 list=GEO_SC comment=SC
 add address=185.188.41.0/24 list=GEO_SC comment=SC
 add address=185.191.124.0/22 list=GEO_SC comment=SC
 add address=185.192.0.0/22 list=GEO_SC comment=SC
-add address=185.196.8.0/22 list=GEO_SC comment=SC
 add address=185.196.46.0/24 list=GEO_SC comment=SC
-add address=185.198.153.0/24 list=GEO_SC comment=SC
 add address=185.200.208.0/22 list=GEO_SC comment=SC
 add address=185.202.106.0/23 list=GEO_SC comment=SC
 add address=185.207.213.0/24 list=GEO_SC comment=SC
 add address=185.207.214.0/24 list=GEO_SC comment=SC
-add address=185.208.156.0/22 list=GEO_SC comment=SC
 add address=185.212.112.0/24 list=GEO_SC comment=SC
 add address=185.214.72.0/24 list=GEO_SC comment=SC
 add address=185.214.74.0/23 list=GEO_SC comment=SC
@@ -704,7 +698,6 @@ add address=194.104.237.0/24 list=GEO_SC comment=SC
 add address=194.104.238.0/24 list=GEO_SC comment=SC
 add address=194.105.60.0/24 list=GEO_SC comment=SC
 add address=194.107.92.0/24 list=GEO_SC comment=SC
-add address=194.107.125.0/24 list=GEO_SC comment=SC
 add address=194.113.150.0/23 list=GEO_SC comment=SC
 add address=194.113.152.0/24 list=GEO_SC comment=SC
 add address=194.156.26.0/24 list=GEO_SC comment=SC
@@ -770,7 +763,6 @@ add address=202.50.166.0/24 list=GEO_SC comment=SC
 add address=205.201.0.0/20 list=GEO_SC comment=SC
 add address=208.87.166.0/23 list=GEO_SC comment=SC
 add address=209.35.158.0/24 list=GEO_SC comment=SC
-add address=212.11.64.0/24 list=GEO_SC comment=SC
 add address=212.18.96.0/24 list=GEO_SC comment=SC
 add address=212.18.100.0/24 list=GEO_SC comment=SC
 add address=212.18.103.0/24 list=GEO_SC comment=SC
@@ -782,6 +774,7 @@ add address=212.52.25.0/24 list=GEO_SC comment=SC
 add address=212.52.26.0/23 list=GEO_SC comment=SC
 add address=212.52.30.0/23 list=GEO_SC comment=SC
 add address=212.81.32.0/22 list=GEO_SC comment=SC
+add address=213.109.193.0/24 list=GEO_SC comment=SC
 add address=213.109.196.0/24 list=GEO_SC comment=SC
 add address=213.109.202.0/24 list=GEO_SC comment=SC
 add address=213.109.204.0/24 list=GEO_SC comment=SC
@@ -796,7 +789,6 @@ add address=217.114.32.0/24 list=GEO_SC comment=SC
 add address=217.114.41.0/24 list=GEO_SC comment=SC
 add address=217.114.42.0/24 list=GEO_SC comment=SC
 add address=217.119.130.0/24 list=GEO_SC comment=SC
-add address=217.119.139.0/24 list=GEO_SC comment=SC
 add address=217.198.176.0/24 list=GEO_SC comment=SC
 add address=217.198.178.0/23 list=GEO_SC comment=SC
 add address=217.198.180.0/23 list=GEO_SC comment=SC

@@ -1,14 +1,10 @@
 # GeoIP address list — AO
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AO | Subnets: 143 (was 149, collapsed 6) | IPs: ~1,284,608
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AO&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AO comment!="WHITE"]
+remove [find list=GEO_AO]
 add address=41.63.160.0/19 list=GEO_AO comment=AO
 add address=41.70.128.0/17 list=GEO_AO comment=AO
 add address=41.74.240.0/20 list=GEO_AO comment=AO

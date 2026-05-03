@@ -1,14 +1,10 @@
 # GeoIP address list — SB
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: SB | Subnets: 12 (was 12, collapsed 0) | IPs: ~14,336
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SB&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_SB comment!="WHITE"]
+remove [find list=GEO_SB]
 add address=103.2.88.0/22 list=GEO_SB comment=SB
 add address=103.9.50.0/24 list=GEO_SB comment=SB
 add address=103.21.230.0/23 list=GEO_SB comment=SB

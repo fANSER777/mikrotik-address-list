@@ -1,14 +1,10 @@
 # GeoIP address list — AZ
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AZ | Subnets: 181 (was 212, collapsed 31) | IPs: ~771,328
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AZ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AZ comment!="WHITE"]
+remove [find list=GEO_AZ]
 add address=5.10.240.0/20 list=GEO_AZ comment=AZ
 add address=5.44.32.0/21 list=GEO_AZ comment=AZ
 add address=5.133.224.0/20 list=GEO_AZ comment=AZ

@@ -1,14 +1,10 @@
 # GeoIP address list — CR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: CR | Subnets: 171 (was 184, collapsed 13) | IPs: ~2,334,464
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=CR&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_CR comment!="WHITE"]
+remove [find list=GEO_CR]
 add address=45.5.60.0/22 list=GEO_CR comment=CR
 add address=45.65.188.0/22 list=GEO_CR comment=CR
 add address=45.160.132.0/22 list=GEO_CR comment=CR

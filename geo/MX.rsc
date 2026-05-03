@@ -1,14 +1,11 @@
 # GeoIP address list — MX
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: MX | Subnets: 795 (was 1377, collapsed 582) | IPs: ~28,952,832
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MX&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: MX | Subnets: 796 (was 1382, collapsed 586) | IPs: ~28,953,856
 #
 /ip firewall address-list
-remove [find list=GEO_MX comment!="WHITE"]
+remove [find list=GEO_MX]
+add address=23.156.104.0/24 list=GEO_MX comment=MX
 add address=45.5.52.0/22 list=GEO_MX comment=MX
 add address=45.5.92.0/22 list=GEO_MX comment=MX
 add address=45.6.60.0/22 list=GEO_MX comment=MX
@@ -174,7 +171,6 @@ add address=148.224.30.0/24 list=GEO_MX comment=MX
 add address=148.224.32.0/20 list=GEO_MX comment=MX
 add address=148.224.52.0/22 list=GEO_MX comment=MX
 add address=148.224.56.0/22 list=GEO_MX comment=MX
-add address=148.224.61.0/24 list=GEO_MX comment=MX
 add address=148.224.64.0/18 list=GEO_MX comment=MX
 add address=148.224.128.0/17 list=GEO_MX comment=MX
 add address=148.225.0.0/16 list=GEO_MX comment=MX
@@ -396,6 +392,7 @@ add address=200.0.84.0/24 list=GEO_MX comment=MX
 add address=200.0.90.0/23 list=GEO_MX comment=MX
 add address=200.0.92.0/23 list=GEO_MX comment=MX
 add address=200.0.95.0/24 list=GEO_MX comment=MX
+add address=200.0.96.0/22 list=GEO_MX comment=MX
 add address=200.0.103.0/24 list=GEO_MX comment=MX
 add address=200.0.104.0/23 list=GEO_MX comment=MX
 add address=200.0.106.0/24 list=GEO_MX comment=MX

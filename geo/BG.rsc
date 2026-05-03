@@ -1,14 +1,10 @@
 # GeoIP address list — BG
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: BG | Subnets: 1335 (was 1825, collapsed 490) | IPs: ~4,338,496
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BG&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: BG | Subnets: 1340 (was 1831, collapsed 491) | IPs: ~4,340,800
 #
 /ip firewall address-list
-remove [find list=GEO_BG comment!="WHITE"]
+remove [find list=GEO_BG]
 add address=2.56.12.0/22 list=GEO_BG comment=BG
 add address=2.56.52.0/22 list=GEO_BG comment=BG
 add address=2.58.92.0/24 list=GEO_BG comment=BG
@@ -91,7 +87,8 @@ add address=45.88.88.0/24 list=GEO_BG comment=BG
 add address=45.88.90.0/23 list=GEO_BG comment=BG
 add address=45.89.244.0/22 list=GEO_BG comment=BG
 add address=45.90.88.0/22 list=GEO_BG comment=BG
-add address=45.91.192.0/22 list=GEO_BG comment=BG
+add address=45.91.192.0/23 list=GEO_BG comment=BG
+add address=45.91.194.0/24 list=GEO_BG comment=BG
 add address=45.95.0.0/22 list=GEO_BG comment=BG
 add address=45.128.4.0/22 list=GEO_BG comment=BG
 add address=45.128.88.0/22 list=GEO_BG comment=BG
@@ -371,7 +368,7 @@ add address=87.121.48.0/22 list=GEO_BG comment=BG
 add address=87.121.52.0/24 list=GEO_BG comment=BG
 add address=87.121.54.0/24 list=GEO_BG comment=BG
 add address=87.121.58.0/24 list=GEO_BG comment=BG
-add address=87.121.60.0/22 list=GEO_BG comment=BG
+add address=87.121.62.0/23 list=GEO_BG comment=BG
 add address=87.121.64.0/23 list=GEO_BG comment=BG
 add address=87.121.69.0/24 list=GEO_BG comment=BG
 add address=87.121.70.0/23 list=GEO_BG comment=BG
@@ -518,6 +515,7 @@ add address=91.216.174.0/24 list=GEO_BG comment=BG
 add address=91.216.253.0/24 list=GEO_BG comment=BG
 add address=91.217.148.0/24 list=GEO_BG comment=BG
 add address=91.217.205.0/24 list=GEO_BG comment=BG
+add address=91.217.241.0/24 list=GEO_BG comment=BG
 add address=91.218.80.0/22 list=GEO_BG comment=BG
 add address=91.220.8.0/24 list=GEO_BG comment=BG
 add address=91.220.189.0/24 list=GEO_BG comment=BG
@@ -707,6 +705,8 @@ add address=95.42.0.0/15 list=GEO_BG comment=BG
 add address=95.87.0.0/18 list=GEO_BG comment=BG
 add address=95.87.192.0/18 list=GEO_BG comment=BG
 add address=95.111.0.0/17 list=GEO_BG comment=BG
+add address=95.128.196.0/23 list=GEO_BG comment=BG
+add address=95.128.198.0/24 list=GEO_BG comment=BG
 add address=95.140.208.0/20 list=GEO_BG comment=BG
 add address=95.141.253.0/24 list=GEO_BG comment=BG
 add address=95.158.128.0/18 list=GEO_BG comment=BG
@@ -1271,6 +1271,7 @@ add address=195.246.240.0/23 list=GEO_BG comment=BG
 add address=195.250.60.0/24 list=GEO_BG comment=BG
 add address=198.60.193.0/24 list=GEO_BG comment=BG
 add address=204.137.13.0/24 list=GEO_BG comment=BG
+add address=212.2.32.0/21 list=GEO_BG comment=BG
 add address=212.5.32.0/19 list=GEO_BG comment=BG
 add address=212.5.128.0/19 list=GEO_BG comment=BG
 add address=212.21.128.0/19 list=GEO_BG comment=BG

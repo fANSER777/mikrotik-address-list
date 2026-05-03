@@ -1,14 +1,10 @@
 # GeoIP address list — TH
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: TH | Subnets: 646 (was 1175, collapsed 529) | IPs: ~9,221,376
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TH&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: TH | Subnets: 649 (was 1178, collapsed 529) | IPs: ~9,222,144
 #
 /ip firewall address-list
-remove [find list=GEO_TH comment!="WHITE"]
+remove [find list=GEO_TH]
 add address=1.0.128.0/17 list=GEO_TH comment=TH
 add address=1.1.128.0/17 list=GEO_TH comment=TH
 add address=1.2.128.0/17 list=GEO_TH comment=TH
@@ -23,6 +19,10 @@ add address=14.207.0.0/16 list=GEO_TH comment=TH
 add address=23.141.92.0/24 list=GEO_TH comment=TH
 add address=23.154.180.0/24 list=GEO_TH comment=TH
 add address=23.155.20.0/24 list=GEO_TH comment=TH
+add address=23.156.116.0/24 list=GEO_TH comment=TH
+add address=23.156.196.0/24 list=GEO_TH comment=TH
+add address=23.156.212.0/24 list=GEO_TH comment=TH
+add address=23.157.108.0/24 list=GEO_TH comment=TH
 add address=23.177.168.0/24 list=GEO_TH comment=TH
 add address=23.177.200.0/24 list=GEO_TH comment=TH
 add address=23.178.56.0/24 list=GEO_TH comment=TH
@@ -217,7 +217,6 @@ add address=103.104.179.0/24 list=GEO_TH comment=TH
 add address=103.105.73.0/24 list=GEO_TH comment=TH
 add address=103.106.8.0/22 list=GEO_TH comment=TH
 add address=103.107.52.0/22 list=GEO_TH comment=TH
-add address=103.107.70.0/24 list=GEO_TH comment=TH
 add address=103.108.49.0/24 list=GEO_TH comment=TH
 add address=103.109.60.0/22 list=GEO_TH comment=TH
 add address=103.113.44.0/22 list=GEO_TH comment=TH

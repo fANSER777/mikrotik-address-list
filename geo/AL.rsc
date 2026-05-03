@@ -1,14 +1,10 @@
 # GeoIP address list — AL
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: AL | Subnets: 230 (was 241, collapsed 11) | IPs: ~499,008
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AL&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: AL | Subnets: 232 (was 243, collapsed 11) | IPs: ~499,776
 #
 /ip firewall address-list
-remove [find list=GEO_AL comment!="WHITE"]
+remove [find list=GEO_AL]
 add address=5.206.232.0/21 list=GEO_AL comment=AL
 add address=31.22.48.0/20 list=GEO_AL comment=AL
 add address=31.41.33.0/24 list=GEO_AL comment=AL
@@ -61,9 +57,11 @@ add address=84.22.32.0/19 list=GEO_AL comment=AL
 add address=84.54.48.0/24 list=GEO_AL comment=AL
 add address=85.209.248.0/22 list=GEO_AL comment=AL
 add address=87.120.100.0/22 list=GEO_AL comment=AL
+add address=87.121.60.0/23 list=GEO_AL comment=AL
 add address=87.238.208.0/21 list=GEO_AL comment=AL
 add address=88.214.16.0/22 list=GEO_AL comment=AL
 add address=91.92.250.0/24 list=GEO_AL comment=AL
+add address=91.102.124.0/24 list=GEO_AL comment=AL
 add address=91.132.172.0/22 list=GEO_AL comment=AL
 add address=91.187.96.0/19 list=GEO_AL comment=AL
 add address=91.210.136.0/22 list=GEO_AL comment=AL

@@ -1,14 +1,10 @@
 # GeoIP address list — YE
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: YE | Subnets: 29 (was 30, collapsed 1) | IPs: ~233,472
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=YE&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_YE comment!="WHITE"]
+remove [find list=GEO_YE]
 add address=5.100.160.0/21 list=GEO_YE comment=YE
 add address=5.255.0.0/19 list=GEO_YE comment=YE
 add address=31.31.176.0/20 list=GEO_YE comment=YE

@@ -1,14 +1,10 @@
 # GeoIP address list — IQ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: IQ | Subnets: 288 (was 336, collapsed 48) | IPs: ~447,296
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IQ&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_IQ comment!="WHITE"]
+remove [find list=GEO_IQ]
 add address=5.1.104.0/21 list=GEO_IQ comment=IQ
 add address=5.8.240.0/21 list=GEO_IQ comment=IQ
 add address=5.10.224.0/21 list=GEO_IQ comment=IQ

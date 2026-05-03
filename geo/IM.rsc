@@ -1,14 +1,10 @@
 # GeoIP address list — IM
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: IM | Subnets: 72 (was 72, collapsed 0) | IPs: ~133,376
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=IM&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: IM | Subnets: 73 (was 73, collapsed 0) | IPs: ~134,400
 #
 /ip firewall address-list
-remove [find list=GEO_IM comment!="WHITE"]
+remove [find list=GEO_IM]
 add address=5.62.80.0/20 list=GEO_IM comment=IM
 add address=5.154.182.0/24 list=GEO_IM comment=IM
 add address=5.154.188.0/23 list=GEO_IM comment=IM
@@ -60,6 +56,7 @@ add address=185.63.184.0/22 list=GEO_IM comment=IM
 add address=185.64.144.0/22 list=GEO_IM comment=IM
 add address=185.74.56.0/22 list=GEO_IM comment=IM
 add address=185.84.67.0/24 list=GEO_IM comment=IM
+add address=185.86.44.0/22 list=GEO_IM comment=IM
 add address=185.90.216.0/22 list=GEO_IM comment=IM
 add address=185.128.248.0/22 list=GEO_IM comment=IM
 add address=185.162.228.0/22 list=GEO_IM comment=IM

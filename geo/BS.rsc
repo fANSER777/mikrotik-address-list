@@ -1,14 +1,10 @@
 # GeoIP address list — BS
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BS | Subnets: 26 (was 26, collapsed 0) | IPs: ~138,240
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BS&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BS comment!="WHITE"]
+remove [find list=GEO_BS]
 add address=23.128.212.0/24 list=GEO_BS comment=BS
 add address=23.185.48.0/24 list=GEO_BS comment=BS
 add address=23.190.112.0/24 list=GEO_BS comment=BS

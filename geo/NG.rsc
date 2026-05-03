@@ -1,14 +1,10 @@
 # GeoIP address list — NG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: NG | Subnets: 385 (was 400, collapsed 15) | IPs: ~3,197,696
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NG&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: NG | Subnets: 390 (was 405, collapsed 15) | IPs: ~3,201,536
 #
 /ip firewall address-list
-remove [find list=GEO_NG comment!="WHITE"]
+remove [find list=GEO_NG]
 add address=41.57.120.0/22 list=GEO_NG comment=NG
 add address=41.58.0.0/16 list=GEO_NG comment=NG
 add address=41.67.128.0/18 list=GEO_NG comment=NG
@@ -118,6 +114,11 @@ add address=102.164.44.0/22 list=GEO_NG comment=NG
 add address=102.165.124.0/22 list=GEO_NG comment=NG
 add address=102.165.184.0/22 list=GEO_NG comment=NG
 add address=102.176.240.0/21 list=GEO_NG comment=NG
+add address=102.202.164.0/23 list=GEO_NG comment=NG
+add address=102.202.184.0/22 list=GEO_NG comment=NG
+add address=102.202.212.0/22 list=GEO_NG comment=NG
+add address=102.202.216.0/22 list=GEO_NG comment=NG
+add address=102.202.220.0/24 list=GEO_NG comment=NG
 add address=102.202.240.0/22 list=GEO_NG comment=NG
 add address=102.203.32.0/22 list=GEO_NG comment=NG
 add address=102.203.60.0/22 list=GEO_NG comment=NG

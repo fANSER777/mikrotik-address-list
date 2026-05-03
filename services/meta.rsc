@@ -1,7 +1,7 @@
 # META IPv4 address list
-# Generated: 2026-04-06 20:59
+# Generated: 2026-05-04 00:19
 # Source: RIPE Stat API — ASN AS32934, AS63293
-# Subnets: 327 | IPs: ~564,736
+# Subnets: 329 | IPs: ~566,272
 #
 # MikroTik usage:
 #   /tool fetch url="http://YOUR_PANEL/rsc/meta.rsc"
@@ -64,12 +64,14 @@ add address=57.144.50.0/23 list=META
 add address=57.144.54.0/23 list=META
 add address=57.144.56.0/23 list=META
 add address=57.144.64.0/23 list=META
+add address=57.144.66.0/23 list=META
 add address=57.144.68.0/23 list=META
 add address=57.144.70.0/23 list=META
 add address=57.144.72.0/23 list=META
 add address=57.144.74.0/23 list=META
 add address=57.144.76.0/23 list=META
 add address=57.144.78.0/23 list=META
+add address=57.144.80.0/23 list=META
 add address=57.144.100.0/23 list=META
 add address=57.144.104.0/23 list=META
 add address=57.144.108.0/23 list=META
@@ -119,6 +121,7 @@ add address=57.144.218.0/23 list=META
 add address=57.144.220.0/23 list=META
 add address=57.144.222.0/23 list=META
 add address=57.144.228.0/23 list=META
+add address=57.144.232.0/23 list=META
 add address=57.144.234.0/23 list=META
 add address=57.144.236.0/23 list=META
 add address=57.144.238.0/23 list=META
@@ -134,6 +137,7 @@ add address=57.145.0.0/23 list=META
 add address=57.145.2.0/23 list=META
 add address=57.145.4.0/23 list=META
 add address=57.145.6.0/23 list=META
+add address=57.145.8.0/23 list=META
 add address=57.145.12.0/23 list=META
 add address=66.220.144.0/20 list=META
 add address=66.220.144.0/21 list=META
@@ -148,7 +152,6 @@ add address=69.171.250.0/24 list=META
 add address=74.119.76.0/22 list=META
 add address=102.132.96.0/20 list=META
 add address=102.132.99.0/24 list=META
-add address=102.132.101.0/24 list=META
 add address=102.132.104.0/24 list=META
 add address=102.132.112.0/24 list=META
 add address=102.132.115.0/24 list=META
@@ -227,6 +230,7 @@ add address=129.134.189.0/24 list=META
 add address=129.134.190.0/24 list=META
 add address=129.134.191.0/24 list=META
 add address=129.134.194.0/24 list=META
+add address=129.134.195.0/24 list=META
 add address=129.134.196.0/24 list=META
 add address=157.240.0.0/17 list=META
 add address=157.240.0.0/24 list=META
@@ -281,7 +285,6 @@ add address=157.240.191.0/24 list=META
 add address=157.240.192.0/18 list=META
 add address=157.240.196.0/24 list=META
 add address=157.240.197.0/24 list=META
-add address=157.240.199.0/24 list=META
 add address=157.240.200.0/24 list=META
 add address=157.240.202.0/24 list=META
 add address=157.240.203.0/24 list=META
@@ -292,7 +295,6 @@ add address=157.240.210.0/24 list=META
 add address=157.240.211.0/24 list=META
 add address=157.240.212.0/24 list=META
 add address=157.240.214.0/24 list=META
-add address=157.240.222.0/24 list=META
 add address=157.240.223.0/24 list=META
 add address=157.240.224.0/24 list=META
 add address=157.240.225.0/24 list=META

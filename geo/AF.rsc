@@ -1,14 +1,10 @@
 # GeoIP address list — AF
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AF | Subnets: 127 (was 133, collapsed 6) | IPs: ~178,176
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AF&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AF comment!="WHITE"]
+remove [find list=GEO_AF]
 add address=23.88.192.0/19 list=GEO_AF comment=AF
 add address=36.50.21.0/24 list=GEO_AF comment=AF
 add address=43.230.209.0/24 list=GEO_AF comment=AF

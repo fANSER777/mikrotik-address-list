@@ -1,14 +1,10 @@
 # GeoIP address list — FK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: FK | Subnets: 7 (was 11, collapsed 4) | IPs: ~7,168
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=FK&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_FK comment!="WHITE"]
+remove [find list=GEO_FK]
 add address=80.73.208.0/20 list=GEO_FK comment=FK
 add address=91.232.129.0/24 list=GEO_FK comment=FK
 add address=91.232.198.0/24 list=GEO_FK comment=FK

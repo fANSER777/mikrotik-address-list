@@ -1,14 +1,10 @@
 # GeoIP address list — MP
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: MP | Subnets: 5 (was 6, collapsed 1) | IPs: ~15,360
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MP&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_MP comment!="WHITE"]
+remove [find list=GEO_MP]
 add address=45.117.196.0/22 list=GEO_MP comment=MP
 add address=103.1.96.0/22 list=GEO_MP comment=MP
 add address=103.57.232.0/22 list=GEO_MP comment=MP

@@ -1,14 +1,10 @@
 # GeoIP address list — BF
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BF | Subnets: 50 (was 52, collapsed 2) | IPs: ~338,176
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BF&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BF comment!="WHITE"]
+remove [find list=GEO_BF]
 add address=41.78.48.0/21 list=GEO_BF comment=BF
 add address=41.138.96.0/19 list=GEO_BF comment=BF
 add address=41.203.224.0/20 list=GEO_BF comment=BF

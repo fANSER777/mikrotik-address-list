@@ -1,14 +1,10 @@
 # GeoIP address list — DK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: DK | Subnets: 1259 (was 1540, collapsed 281) | IPs: ~11,776,096
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=DK&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: DK | Subnets: 1276 (was 1561, collapsed 285) | IPs: ~12,080,736
 #
 /ip firewall address-list
-remove [find list=GEO_DK comment!="WHITE"]
+remove [find list=GEO_DK]
 add address=2.56.4.0/22 list=GEO_DK comment=DK
 add address=2.59.180.0/22 list=GEO_DK comment=DK
 add address=2.59.184.0/22 list=GEO_DK comment=DK
@@ -85,6 +81,7 @@ add address=46.183.136.0/21 list=GEO_DK comment=DK
 add address=62.12.32.0/20 list=GEO_DK comment=DK
 add address=62.12.48.0/21 list=GEO_DK comment=DK
 add address=62.44.32.0/19 list=GEO_DK comment=DK
+add address=62.44.128.0/18 list=GEO_DK comment=DK
 add address=62.61.128.0/19 list=GEO_DK comment=DK
 add address=62.66.0.0/16 list=GEO_DK comment=DK
 add address=62.69.152.0/21 list=GEO_DK comment=DK
@@ -98,6 +95,7 @@ add address=62.164.128.0/23 list=GEO_DK comment=DK
 add address=62.164.200.0/21 list=GEO_DK comment=DK
 add address=62.182.248.0/21 list=GEO_DK comment=DK
 add address=62.192.160.0/22 list=GEO_DK comment=DK
+add address=62.198.0.0/15 list=GEO_DK comment=DK
 add address=62.242.0.0/15 list=GEO_DK comment=DK
 add address=64.224.12.0/22 list=GEO_DK comment=DK
 add address=66.97.192.0/19 list=GEO_DK comment=DK
@@ -205,6 +203,7 @@ add address=85.204.194.0/23 list=GEO_DK comment=DK
 add address=85.209.116.0/22 list=GEO_DK comment=DK
 add address=85.218.128.0/17 list=GEO_DK comment=DK
 add address=85.233.224.0/19 list=GEO_DK comment=DK
+add address=85.235.224.0/19 list=GEO_DK comment=DK
 add address=85.236.64.0/18 list=GEO_DK comment=DK
 add address=86.48.32.0/21 list=GEO_DK comment=DK
 add address=86.48.40.0/22 list=GEO_DK comment=DK
@@ -252,6 +251,7 @@ add address=89.186.160.0/19 list=GEO_DK comment=DK
 add address=89.188.72.0/21 list=GEO_DK comment=DK
 add address=89.188.80.0/20 list=GEO_DK comment=DK
 add address=89.221.160.0/20 list=GEO_DK comment=DK
+add address=89.233.0.0/18 list=GEO_DK comment=DK
 add address=89.239.192.0/18 list=GEO_DK comment=DK
 add address=89.249.0.0/20 list=GEO_DK comment=DK
 add address=90.184.0.0/15 list=GEO_DK comment=DK
@@ -374,7 +374,12 @@ add address=92.246.0.0/19 list=GEO_DK comment=DK
 add address=93.90.0.0/20 list=GEO_DK comment=DK
 add address=93.90.112.0/20 list=GEO_DK comment=DK
 add address=93.157.204.0/24 list=GEO_DK comment=DK
-add address=93.160.0.0/13 list=GEO_DK comment=DK
+add address=93.160.0.0/14 list=GEO_DK comment=DK
+add address=93.164.0.0/17 list=GEO_DK comment=DK
+add address=93.164.160.0/19 list=GEO_DK comment=DK
+add address=93.164.192.0/18 list=GEO_DK comment=DK
+add address=93.165.0.0/16 list=GEO_DK comment=DK
+add address=93.166.0.0/15 list=GEO_DK comment=DK
 add address=93.175.252.0/22 list=GEO_DK comment=DK
 add address=93.176.64.0/18 list=GEO_DK comment=DK
 add address=93.178.128.0/18 list=GEO_DK comment=DK
@@ -496,7 +501,6 @@ add address=185.20.140.0/22 list=GEO_DK comment=DK
 add address=185.20.204.0/22 list=GEO_DK comment=DK
 add address=185.20.240.0/22 list=GEO_DK comment=DK
 add address=185.21.40.0/22 list=GEO_DK comment=DK
-add address=185.21.129.0/24 list=GEO_DK comment=DK
 add address=185.21.232.0/22 list=GEO_DK comment=DK
 add address=185.22.72.0/22 list=GEO_DK comment=DK
 add address=185.23.216.0/22 list=GEO_DK comment=DK
@@ -530,6 +534,7 @@ add address=185.49.252.0/22 list=GEO_DK comment=DK
 add address=185.50.192.0/22 list=GEO_DK comment=DK
 add address=185.51.76.0/22 list=GEO_DK comment=DK
 add address=185.55.196.0/22 list=GEO_DK comment=DK
+add address=185.56.56.0/22 list=GEO_DK comment=DK
 add address=185.56.100.0/22 list=GEO_DK comment=DK
 add address=185.56.140.0/22 list=GEO_DK comment=DK
 add address=185.56.164.0/22 list=GEO_DK comment=DK
@@ -617,7 +622,6 @@ add address=185.128.72.0/22 list=GEO_DK comment=DK
 add address=185.128.100.0/22 list=GEO_DK comment=DK
 add address=185.128.228.0/22 list=GEO_DK comment=DK
 add address=185.129.60.0/22 list=GEO_DK comment=DK
-add address=185.130.88.0/24 list=GEO_DK comment=DK
 add address=185.130.96.0/22 list=GEO_DK comment=DK
 add address=185.130.160.0/22 list=GEO_DK comment=DK
 add address=185.130.188.0/22 list=GEO_DK comment=DK
@@ -733,6 +737,7 @@ add address=185.221.28.0/22 list=GEO_DK comment=DK
 add address=185.221.36.0/22 list=GEO_DK comment=DK
 add address=185.221.100.0/22 list=GEO_DK comment=DK
 add address=185.221.244.0/22 list=GEO_DK comment=DK
+add address=185.223.12.0/22 list=GEO_DK comment=DK
 add address=185.223.24.0/22 list=GEO_DK comment=DK
 add address=185.224.16.0/22 list=GEO_DK comment=DK
 add address=185.228.68.0/22 list=GEO_DK comment=DK
@@ -1022,6 +1027,8 @@ add address=194.11.32.0/19 list=GEO_DK comment=DK
 add address=194.11.64.0/20 list=GEO_DK comment=DK
 add address=194.11.80.0/23 list=GEO_DK comment=DK
 add address=194.11.82.0/24 list=GEO_DK comment=DK
+add address=194.19.128.0/18 list=GEO_DK comment=DK
+add address=194.19.192.0/19 list=GEO_DK comment=DK
 add address=194.28.24.0/22 list=GEO_DK comment=DK
 add address=194.28.248.0/21 list=GEO_DK comment=DK
 add address=194.29.207.0/24 list=GEO_DK comment=DK
@@ -1089,6 +1096,7 @@ add address=194.247.43.0/24 list=GEO_DK comment=DK
 add address=194.247.58.0/24 list=GEO_DK comment=DK
 add address=194.247.61.0/24 list=GEO_DK comment=DK
 add address=194.247.188.0/23 list=GEO_DK comment=DK
+add address=194.255.0.0/16 list=GEO_DK comment=DK
 add address=195.5.100.0/23 list=GEO_DK comment=DK
 add address=195.5.160.0/24 list=GEO_DK comment=DK
 add address=195.7.20.0/22 list=GEO_DK comment=DK
@@ -1185,6 +1193,7 @@ add address=195.182.36.0/24 list=GEO_DK comment=DK
 add address=195.182.39.0/24 list=GEO_DK comment=DK
 add address=195.182.216.0/23 list=GEO_DK comment=DK
 add address=195.184.32.0/19 list=GEO_DK comment=DK
+add address=195.184.96.0/19 list=GEO_DK comment=DK
 add address=195.189.130.0/23 list=GEO_DK comment=DK
 add address=195.189.232.0/23 list=GEO_DK comment=DK
 add address=195.190.18.0/24 list=GEO_DK comment=DK
@@ -1227,6 +1236,7 @@ add address=212.70.2.0/24 list=GEO_DK comment=DK
 add address=212.88.64.0/19 list=GEO_DK comment=DK
 add address=212.93.32.0/19 list=GEO_DK comment=DK
 add address=212.97.128.0/19 list=GEO_DK comment=DK
+add address=212.97.192.0/18 list=GEO_DK comment=DK
 add address=212.98.64.0/18 list=GEO_DK comment=DK
 add address=212.99.224.0/19 list=GEO_DK comment=DK
 add address=212.112.128.0/19 list=GEO_DK comment=DK
@@ -1244,6 +1254,8 @@ add address=213.129.0.0/19 list=GEO_DK comment=DK
 add address=213.132.0.0/19 list=GEO_DK comment=DK
 add address=213.140.64.0/19 list=GEO_DK comment=DK
 add address=213.142.140.0/23 list=GEO_DK comment=DK
+add address=213.150.32.0/19 list=GEO_DK comment=DK
+add address=213.173.224.0/19 list=GEO_DK comment=DK
 add address=213.174.64.0/19 list=GEO_DK comment=DK
 add address=213.179.80.0/20 list=GEO_DK comment=DK
 add address=213.232.72.0/22 list=GEO_DK comment=DK
@@ -1261,6 +1273,7 @@ add address=217.61.236.0/22 list=GEO_DK comment=DK
 add address=217.61.250.0/23 list=GEO_DK comment=DK
 add address=217.63.96.0/19 list=GEO_DK comment=DK
 add address=217.71.0.0/20 list=GEO_DK comment=DK
+add address=217.74.128.0/19 list=GEO_DK comment=DK
 add address=217.74.208.0/20 list=GEO_DK comment=DK
 add address=217.116.208.0/20 list=GEO_DK comment=DK
 add address=217.116.224.0/19 list=GEO_DK comment=DK

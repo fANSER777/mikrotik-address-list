@@ -1,14 +1,10 @@
 # GeoIP address list — PK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: PK | Subnets: 717 (was 774, collapsed 57) | IPs: ~5,441,536
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=PK&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: PK | Subnets: 722 (was 780, collapsed 58) | IPs: ~5,524,224
 #
 /ip firewall address-list
-remove [find list=GEO_PK comment!="WHITE"]
+remove [find list=GEO_PK]
 add address=14.1.104.0/22 list=GEO_PK comment=PK
 add address=14.192.128.0/19 list=GEO_PK comment=PK
 add address=27.0.184.0/22 list=GEO_PK comment=PK
@@ -555,11 +551,14 @@ add address=144.79.152.0/23 list=GEO_PK comment=PK
 add address=144.79.156.0/23 list=GEO_PK comment=PK
 add address=144.79.234.0/23 list=GEO_PK comment=PK
 add address=150.129.4.0/22 list=GEO_PK comment=PK
+add address=151.123.128.0/19 list=GEO_PK comment=PK
+add address=151.123.224.0/19 list=GEO_PK comment=PK
 add address=151.158.46.0/23 list=GEO_PK comment=PK
 add address=151.158.174.0/23 list=GEO_PK comment=PK
 add address=151.158.200.0/23 list=GEO_PK comment=PK
 add address=151.158.212.0/22 list=GEO_PK comment=PK
 add address=151.158.252.0/23 list=GEO_PK comment=PK
+add address=153.117.0.0/16 list=GEO_PK comment=PK
 add address=157.10.6.0/23 list=GEO_PK comment=PK
 add address=157.10.30.0/23 list=GEO_PK comment=PK
 add address=157.10.226.0/23 list=GEO_PK comment=PK
@@ -588,6 +587,8 @@ add address=160.250.114.0/23 list=GEO_PK comment=PK
 add address=160.250.122.0/23 list=GEO_PK comment=PK
 add address=161.248.186.0/23 list=GEO_PK comment=PK
 add address=161.248.202.0/23 list=GEO_PK comment=PK
+add address=162.4.16.0/24 list=GEO_PK comment=PK
+add address=162.4.32.0/23 list=GEO_PK comment=PK
 add address=162.12.208.0/22 list=GEO_PK comment=PK
 add address=163.61.0.0/23 list=GEO_PK comment=PK
 add address=163.61.25.0/24 list=GEO_PK comment=PK

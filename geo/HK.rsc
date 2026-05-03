@@ -1,14 +1,10 @@
 # GeoIP address list — HK
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: HK | Subnets: 2956 (was 3306, collapsed 350) | IPs: ~14,717,504
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=HK&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: HK | Subnets: 2971 (was 3321, collapsed 350) | IPs: ~15,210,560
 #
 /ip firewall address-list
-remove [find list=GEO_HK comment!="WHITE"]
+remove [find list=GEO_HK]
 add address=1.36.0.0/16 list=GEO_HK comment=HK
 add address=1.64.0.0/15 list=GEO_HK comment=HK
 add address=2.59.100.0/22 list=GEO_HK comment=HK
@@ -497,6 +493,7 @@ add address=66.51.64.0/20 list=GEO_HK comment=HK
 add address=66.203.144.0/20 list=GEO_HK comment=HK
 add address=66.220.47.0/24 list=GEO_HK comment=HK
 add address=66.232.0.0/20 list=GEO_HK comment=HK
+add address=67.19.0.0/16 list=GEO_HK comment=HK
 add address=67.211.64.0/20 list=GEO_HK comment=HK
 add address=69.8.128.0/20 list=GEO_HK comment=HK
 add address=69.72.80.0/21 list=GEO_HK comment=HK
@@ -508,6 +505,7 @@ add address=72.4.80.0/21 list=GEO_HK comment=HK
 add address=72.35.252.0/23 list=GEO_HK comment=HK
 add address=72.57.128.0/17 list=GEO_HK comment=HK
 add address=72.255.224.0/19 list=GEO_HK comment=HK
+add address=74.52.0.0/15 list=GEO_HK comment=HK
 add address=74.114.168.0/22 list=GEO_HK comment=HK
 add address=74.121.152.0/21 list=GEO_HK comment=HK
 add address=77.72.83.0/24 list=GEO_HK comment=HK
@@ -683,7 +681,6 @@ add address=103.15.192.0/21 list=GEO_HK comment=HK
 add address=103.15.216.0/22 list=GEO_HK comment=HK
 add address=103.15.220.0/23 list=GEO_HK comment=HK
 add address=103.16.26.0/23 list=GEO_HK comment=HK
-add address=103.16.184.0/22 list=GEO_HK comment=HK
 add address=103.16.228.0/22 list=GEO_HK comment=HK
 add address=103.16.252.0/22 list=GEO_HK comment=HK
 add address=103.17.4.0/22 list=GEO_HK comment=HK
@@ -1265,6 +1262,7 @@ add address=103.152.34.0/23 list=GEO_HK comment=HK
 add address=103.152.82.0/23 list=GEO_HK comment=HK
 add address=103.152.98.0/23 list=GEO_HK comment=HK
 add address=103.152.174.0/23 list=GEO_HK comment=HK
+add address=103.152.190.0/23 list=GEO_HK comment=HK
 add address=103.152.206.0/24 list=GEO_HK comment=HK
 add address=103.152.210.0/23 list=GEO_HK comment=HK
 add address=103.152.226.0/23 list=GEO_HK comment=HK
@@ -1322,7 +1320,6 @@ add address=103.164.182.0/23 list=GEO_HK comment=HK
 add address=103.164.224.0/23 list=GEO_HK comment=HK
 add address=103.165.16.0/23 list=GEO_HK comment=HK
 add address=103.165.80.0/23 list=GEO_HK comment=HK
-add address=103.165.84.0/23 list=GEO_HK comment=HK
 add address=103.165.112.0/23 list=GEO_HK comment=HK
 add address=103.166.86.0/23 list=GEO_HK comment=HK
 add address=103.166.96.0/23 list=GEO_HK comment=HK
@@ -1677,6 +1674,7 @@ add address=103.254.208.0/22 list=GEO_HK comment=HK
 add address=103.255.44.0/22 list=GEO_HK comment=HK
 add address=103.255.127.0/24 list=GEO_HK comment=HK
 add address=103.255.252.0/22 list=GEO_HK comment=HK
+add address=104.171.128.0/20 list=GEO_HK comment=HK
 add address=104.250.32.0/19 list=GEO_HK comment=HK
 add address=109.205.56.0/24 list=GEO_HK comment=HK
 add address=109.205.58.0/24 list=GEO_HK comment=HK
@@ -1861,8 +1859,7 @@ add address=125.253.132.0/22 list=GEO_HK comment=HK
 add address=125.253.136.0/21 list=GEO_HK comment=HK
 add address=125.253.144.0/20 list=GEO_HK comment=HK
 add address=130.49.0.0/17 list=GEO_HK comment=HK
-add address=130.49.128.0/22 list=GEO_HK comment=HK
-add address=130.49.140.0/23 list=GEO_HK comment=HK
+add address=130.49.130.0/23 list=GEO_HK comment=HK
 add address=130.193.26.0/24 list=GEO_HK comment=HK
 add address=130.255.170.0/24 list=GEO_HK comment=HK
 add address=130.255.172.0/24 list=GEO_HK comment=HK
@@ -1870,6 +1867,7 @@ add address=130.255.175.0/24 list=GEO_HK comment=HK
 add address=134.42.224.0/24 list=GEO_HK comment=HK
 add address=134.42.232.0/21 list=GEO_HK comment=HK
 add address=134.159.0.0/16 list=GEO_HK comment=HK
+add address=134.168.0.0/16 list=GEO_HK comment=HK
 add address=136.143.224.0/20 list=GEO_HK comment=HK
 add address=137.59.20.0/22 list=GEO_HK comment=HK
 add address=137.59.100.0/22 list=GEO_HK comment=HK
@@ -1903,6 +1901,7 @@ add address=144.48.216.0/22 list=GEO_HK comment=HK
 add address=144.48.240.0/22 list=GEO_HK comment=HK
 add address=144.79.134.0/23 list=GEO_HK comment=HK
 add address=144.79.170.0/23 list=GEO_HK comment=HK
+add address=144.98.0.0/16 list=GEO_HK comment=HK
 add address=144.214.0.0/16 list=GEO_HK comment=HK
 add address=146.19.51.0/24 list=GEO_HK comment=HK
 add address=146.19.87.0/24 list=GEO_HK comment=HK
@@ -1996,6 +1995,7 @@ add address=160.250.12.0/23 list=GEO_HK comment=HK
 add address=160.250.164.0/23 list=GEO_HK comment=HK
 add address=160.250.201.0/24 list=GEO_HK comment=HK
 add address=161.81.0.0/16 list=GEO_HK comment=HK
+add address=162.4.40.0/23 list=GEO_HK comment=HK
 add address=162.219.32.0/21 list=GEO_HK comment=HK
 add address=162.219.80.0/21 list=GEO_HK comment=HK
 add address=162.245.124.0/22 list=GEO_HK comment=HK
@@ -2063,6 +2063,7 @@ add address=176.126.96.0/24 list=GEO_HK comment=HK
 add address=176.126.98.0/24 list=GEO_HK comment=HK
 add address=176.126.102.0/24 list=GEO_HK comment=HK
 add address=177.210.0.0/15 list=GEO_HK comment=HK
+add address=178.107.32.0/20 list=GEO_HK comment=HK
 add address=178.212.78.0/24 list=GEO_HK comment=HK
 add address=178.236.40.0/21 list=GEO_HK comment=HK
 add address=178.255.222.0/24 list=GEO_HK comment=HK
@@ -2126,6 +2127,7 @@ add address=185.128.41.0/24 list=GEO_HK comment=HK
 add address=185.128.42.0/23 list=GEO_HK comment=HK
 add address=185.128.224.0/24 list=GEO_HK comment=HK
 add address=185.135.72.0/21 list=GEO_HK comment=HK
+add address=185.142.28.0/22 list=GEO_HK comment=HK
 add address=185.143.238.0/24 list=GEO_HK comment=HK
 add address=185.145.54.0/23 list=GEO_HK comment=HK
 add address=185.149.120.0/24 list=GEO_HK comment=HK
@@ -2168,10 +2170,16 @@ add address=185.248.27.0/24 list=GEO_HK comment=HK
 add address=185.251.22.0/24 list=GEO_HK comment=HK
 add address=185.253.2.0/24 list=GEO_HK comment=HK
 add address=185.253.4.0/24 list=GEO_HK comment=HK
+add address=186.240.0.0/17 list=GEO_HK comment=HK
+add address=186.241.192.0/18 list=GEO_HK comment=HK
+add address=186.243.64.0/18 list=GEO_HK comment=HK
+add address=186.243.128.0/17 list=GEO_HK comment=HK
+add address=186.246.0.0/17 list=GEO_HK comment=HK
 add address=188.64.140.0/24 list=GEO_HK comment=HK
 add address=188.93.136.0/24 list=GEO_HK comment=HK
 add address=188.95.8.0/22 list=GEO_HK comment=HK
 add address=191.1.0.0/16 list=GEO_HK comment=HK
+add address=191.40.0.0/18 list=GEO_HK comment=HK
 add address=191.214.0.0/16 list=GEO_HK comment=HK
 add address=192.75.137.0/24 list=GEO_HK comment=HK
 add address=192.94.174.0/24 list=GEO_HK comment=HK
@@ -2306,6 +2314,7 @@ add address=195.211.166.0/24 list=GEO_HK comment=HK
 add address=195.216.152.0/22 list=GEO_HK comment=HK
 add address=195.242.189.0/24 list=GEO_HK comment=HK
 add address=195.248.90.0/24 list=GEO_HK comment=HK
+add address=195.253.236.0/22 list=GEO_HK comment=HK
 add address=198.15.31.0/24 list=GEO_HK comment=HK
 add address=198.59.162.0/23 list=GEO_HK comment=HK
 add address=199.9.24.0/21 list=GEO_HK comment=HK
@@ -2313,6 +2322,7 @@ add address=199.43.19.0/24 list=GEO_HK comment=HK
 add address=199.43.45.0/24 list=GEO_HK comment=HK
 add address=199.43.63.0/24 list=GEO_HK comment=HK
 add address=201.5.0.0/16 list=GEO_HK comment=HK
+add address=201.78.128.0/19 list=GEO_HK comment=HK
 add address=202.0.160.0/20 list=GEO_HK comment=HK
 add address=202.0.180.0/22 list=GEO_HK comment=HK
 add address=202.1.2.0/24 list=GEO_HK comment=HK
@@ -2794,6 +2804,7 @@ add address=204.110.8.0/21 list=GEO_HK comment=HK
 add address=204.152.224.0/21 list=GEO_HK comment=HK
 add address=205.177.0.0/16 list=GEO_HK comment=HK
 add address=205.252.0.0/16 list=GEO_HK comment=HK
+add address=206.109.68.0/22 list=GEO_HK comment=HK
 add address=206.109.72.0/22 list=GEO_HK comment=HK
 add address=206.161.0.0/16 list=GEO_HK comment=HK
 add address=206.220.132.0/22 list=GEO_HK comment=HK

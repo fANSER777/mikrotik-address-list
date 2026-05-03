@@ -1,14 +1,10 @@
 # GeoIP address list — BM
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: BM | Subnets: 47 (was 47, collapsed 0) | IPs: ~108,800
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=BM&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_BM comment!="WHITE"]
+remove [find list=GEO_BM]
 add address=31.47.88.0/21 list=GEO_BM comment=BM
 add address=45.42.144.0/22 list=GEO_BM comment=BM
 add address=64.89.168.0/22 list=GEO_BM comment=BM

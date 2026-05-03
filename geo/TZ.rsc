@@ -1,14 +1,10 @@
 # GeoIP address list — TZ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: TZ | Subnets: 189 (was 195, collapsed 6) | IPs: ~1,094,400
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TZ&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: TZ | Subnets: 191 (was 197, collapsed 6) | IPs: ~1,095,680
 #
 /ip firewall address-list
-remove [find list=GEO_TZ comment!="WHITE"]
+remove [find list=GEO_TZ]
 add address=41.59.0.0/16 list=GEO_TZ comment=TZ
 add address=41.73.160.0/19 list=GEO_TZ comment=TZ
 add address=41.73.192.0/19 list=GEO_TZ comment=TZ
@@ -43,6 +39,8 @@ add address=102.68.71.0/24 list=GEO_TZ comment=TZ
 add address=102.69.164.0/22 list=GEO_TZ comment=TZ
 add address=102.165.191.0/24 list=GEO_TZ comment=TZ
 add address=102.177.80.0/21 list=GEO_TZ comment=TZ
+add address=102.202.180.0/22 list=GEO_TZ comment=TZ
+add address=102.202.221.0/24 list=GEO_TZ comment=TZ
 add address=102.203.113.0/24 list=GEO_TZ comment=TZ
 add address=102.203.120.0/22 list=GEO_TZ comment=TZ
 add address=102.203.204.0/22 list=GEO_TZ comment=TZ

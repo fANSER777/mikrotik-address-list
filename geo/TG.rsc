@@ -1,14 +1,10 @@
 # GeoIP address list — TG
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: TG | Subnets: 17 (was 17, collapsed 0) | IPs: ~354,816
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=TG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_TG comment!="WHITE"]
+remove [find list=GEO_TG]
 add address=41.78.136.0/22 list=GEO_TG comment=TG
 add address=41.207.160.0/19 list=GEO_TG comment=TG
 add address=80.248.64.0/20 list=GEO_TG comment=TG

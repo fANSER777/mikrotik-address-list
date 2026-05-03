@@ -1,14 +1,10 @@
 # GeoIP address list — LB
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: LB | Subnets: 229 (was 253, collapsed 24) | IPs: ~569,728
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LB&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: LB | Subnets: 228 (was 252, collapsed 24) | IPs: ~568,704
 #
 /ip firewall address-list
-remove [find list=GEO_LB comment!="WHITE"]
+remove [find list=GEO_LB]
 add address=5.8.128.0/19 list=GEO_LB comment=LB
 add address=5.45.188.0/22 list=GEO_LB comment=LB
 add address=5.57.0.0/21 list=GEO_LB comment=LB
@@ -21,7 +17,6 @@ add address=45.129.136.0/22 list=GEO_LB comment=LB
 add address=45.131.20.0/22 list=GEO_LB comment=LB
 add address=45.142.84.0/22 list=GEO_LB comment=LB
 add address=45.142.136.0/22 list=GEO_LB comment=LB
-add address=45.145.60.0/22 list=GEO_LB comment=LB
 add address=45.155.132.0/22 list=GEO_LB comment=LB
 add address=45.159.184.0/22 list=GEO_LB comment=LB
 add address=46.19.192.0/21 list=GEO_LB comment=LB

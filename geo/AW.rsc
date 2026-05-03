@@ -1,14 +1,10 @@
 # GeoIP address list — AW
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AW | Subnets: 12 (was 13, collapsed 1) | IPs: ~111,872
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AW&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AW comment!="WHITE"]
+remove [find list=GEO_AW]
 add address=138.255.252.0/22 list=GEO_AW comment=AW
 add address=170.84.254.0/24 list=GEO_AW comment=AW
 add address=179.61.32.0/19 list=GEO_AW comment=AW

@@ -1,14 +1,10 @@
 # GeoIP address list — VG
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: VG | Subnets: 204 (was 204, collapsed 0) | IPs: ~255,232
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=VG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_VG comment!="WHITE"]
+remove [find list=GEO_VG]
 add address=2.56.144.0/22 list=GEO_VG comment=VG
 add address=5.35.168.0/21 list=GEO_VG comment=VG
 add address=5.180.136.0/22 list=GEO_VG comment=VG

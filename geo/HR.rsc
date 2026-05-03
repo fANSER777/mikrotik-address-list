@@ -1,14 +1,10 @@
 # GeoIP address list — HR
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: HR | Subnets: 261 (was 277, collapsed 16) | IPs: ~2,350,592
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=HR&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: HR | Subnets: 260 (was 276, collapsed 16) | IPs: ~2,349,568
 #
 /ip firewall address-list
-remove [find list=GEO_HR comment!="WHITE"]
+remove [find list=GEO_HR]
 add address=5.39.128.0/19 list=GEO_HR comment=HR
 add address=5.43.160.0/19 list=GEO_HR comment=HR
 add address=31.45.128.0/17 list=GEO_HR comment=HR
@@ -23,7 +19,6 @@ add address=37.72.133.0/24 list=GEO_HR comment=HR
 add address=37.205.96.0/20 list=GEO_HR comment=HR
 add address=37.244.128.0/17 list=GEO_HR comment=HR
 add address=45.8.106.0/24 list=GEO_HR comment=HR
-add address=45.85.120.0/22 list=GEO_HR comment=HR
 add address=45.87.24.0/22 list=GEO_HR comment=HR
 add address=45.95.168.0/22 list=GEO_HR comment=HR
 add address=45.136.142.0/23 list=GEO_HR comment=HR

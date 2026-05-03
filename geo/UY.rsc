@@ -1,14 +1,10 @@
 # GeoIP address list — UY
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: UY | Subnets: 58 (was 92, collapsed 34) | IPs: ~2,516,736
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=UY&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_UY comment!="WHITE"]
+remove [find list=GEO_UY]
 add address=45.6.248.0/21 list=GEO_UY comment=UY
 add address=45.228.64.0/23 list=GEO_UY comment=UY
 add address=69.164.80.0/24 list=GEO_UY comment=UY

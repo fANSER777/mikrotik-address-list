@@ -1,14 +1,10 @@
 # GeoIP address list — KN
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: KN | Subnets: 17 (was 17, collapsed 0) | IPs: ~19,968
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=KN&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: KN | Subnets: 18 (was 18, collapsed 0) | IPs: ~22,016
 #
 /ip firewall address-list
-remove [find list=GEO_KN comment!="WHITE"]
+remove [find list=GEO_KN]
 add address=23.131.208.0/24 list=GEO_KN comment=KN
 add address=23.137.40.0/24 list=GEO_KN comment=KN
 add address=45.42.252.0/22 list=GEO_KN comment=KN
@@ -25,4 +21,5 @@ add address=207.167.92.0/22 list=GEO_KN comment=KN
 add address=208.70.92.0/22 list=GEO_KN comment=KN
 add address=208.81.160.0/22 list=GEO_KN comment=KN
 add address=208.87.144.0/22 list=GEO_KN comment=KN
+add address=209.99.184.0/21 list=GEO_KN comment=KN
 add address=216.211.197.0/24 list=GEO_KN comment=KN

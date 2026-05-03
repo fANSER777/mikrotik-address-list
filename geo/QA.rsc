@@ -1,14 +1,10 @@
 # GeoIP address list — QA
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: QA | Subnets: 45 (was 49, collapsed 4) | IPs: ~846,464
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=QA&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: QA | Subnets: 46 (was 50, collapsed 4) | IPs: ~847,488
 #
 /ip firewall address-list
-remove [find list=GEO_QA comment!="WHITE"]
+remove [find list=GEO_QA]
 add address=5.180.36.0/22 list=GEO_QA comment=QA
 add address=31.11.48.0/21 list=GEO_QA comment=QA
 add address=37.186.32.0/19 list=GEO_QA comment=QA
@@ -18,6 +14,7 @@ add address=45.87.224.0/22 list=GEO_QA comment=QA
 add address=78.100.0.0/15 list=GEO_QA comment=QA
 add address=80.76.160.0/20 list=GEO_QA comment=QA
 add address=81.29.160.0/20 list=GEO_QA comment=QA
+add address=81.85.84.0/22 list=GEO_QA comment=QA
 add address=82.148.96.0/19 list=GEO_QA comment=QA
 add address=86.36.0.0/15 list=GEO_QA comment=QA
 add address=86.62.192.0/18 list=GEO_QA comment=QA

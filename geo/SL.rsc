@@ -1,14 +1,10 @@
 # GeoIP address list — SL
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: SL | Subnets: 30 (was 30, collapsed 0) | IPs: ~85,760
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=SL&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_SL comment!="WHITE"]
+remove [find list=GEO_SL]
 add address=41.78.84.0/22 list=GEO_SL comment=SL
 add address=41.191.248.0/22 list=GEO_SL comment=SL
 add address=41.223.132.0/22 list=GEO_SL comment=SL

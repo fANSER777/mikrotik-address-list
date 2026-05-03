@@ -1,14 +1,10 @@
 # GeoIP address list — WS
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: WS | Subnets: 15 (was 15, collapsed 0) | IPs: ~19,712
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=WS&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_WS comment!="WHITE"]
+remove [find list=GEO_WS]
 add address=43.241.164.0/22 list=GEO_WS comment=WS
 add address=103.9.228.0/22 list=GEO_WS comment=WS
 add address=103.55.178.0/24 list=GEO_WS comment=WS

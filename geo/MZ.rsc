@@ -1,14 +1,10 @@
 # GeoIP address list — MZ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: MZ | Subnets: 54 (was 54, collapsed 0) | IPs: ~446,720
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=MZ&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: MZ | Subnets: 55 (was 55, collapsed 0) | IPs: ~446,976
 #
 /ip firewall address-list
-remove [find list=GEO_MZ comment!="WHITE"]
+remove [find list=GEO_MZ]
 add address=41.76.0.0/21 list=GEO_MZ comment=MZ
 add address=41.76.144.0/21 list=GEO_MZ comment=MZ
 add address=41.77.32.0/21 list=GEO_MZ comment=MZ
@@ -26,6 +22,7 @@ add address=41.223.152.0/22 list=GEO_MZ comment=MZ
 add address=102.36.146.0/24 list=GEO_MZ comment=MZ
 add address=102.67.188.0/22 list=GEO_MZ comment=MZ
 add address=102.176.248.0/23 list=GEO_MZ comment=MZ
+add address=102.202.196.0/24 list=GEO_MZ comment=MZ
 add address=102.203.152.0/22 list=GEO_MZ comment=MZ
 add address=102.205.224.0/22 list=GEO_MZ comment=MZ
 add address=102.207.76.0/22 list=GEO_MZ comment=MZ

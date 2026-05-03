@@ -1,14 +1,10 @@
 # GeoIP address list — ET
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: ET | Subnets: 17 (was 17, collapsed 0) | IPs: ~370,176
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=ET&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_ET comment!="WHITE"]
+remove [find list=GEO_ET]
 add address=102.203.224.0/22 list=GEO_ET comment=ET
 add address=102.204.190.0/23 list=GEO_ET comment=ET
 add address=102.208.96.0/22 list=GEO_ET comment=ET

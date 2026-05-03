@@ -1,14 +1,10 @@
 # GeoIP address list — GF
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GF | Subnets: 6 (was 6, collapsed 0) | IPs: ~22,528
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GF&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GF comment!="WHITE"]
+remove [find list=GEO_GF]
 add address=45.169.164.0/22 list=GEO_GF comment=GF
 add address=128.201.88.0/22 list=GEO_GF comment=GF
 add address=161.22.64.0/18 list=GEO_GF comment=GF

@@ -1,14 +1,10 @@
 # GeoIP address list — NC
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: NC | Subnets: 42 (was 46, collapsed 4) | IPs: ~161,536
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NC&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_NC comment!="WHITE"]
+remove [find list=GEO_NC]
 add address=27.122.0.0/22 list=GEO_NC comment=NC
 add address=43.224.192.0/22 list=GEO_NC comment=NC
 add address=43.245.212.0/22 list=GEO_NC comment=NC

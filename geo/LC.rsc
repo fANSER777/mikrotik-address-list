@@ -1,14 +1,10 @@
 # GeoIP address list — LC
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: LC | Subnets: 21 (was 21, collapsed 0) | IPs: ~22,016
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=LC&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_LC comment!="WHITE"]
+remove [find list=GEO_LC]
 add address=24.92.144.0/20 list=GEO_LC comment=LC
 add address=66.212.62.0/23 list=GEO_LC comment=LC
 add address=72.14.98.0/23 list=GEO_LC comment=LC

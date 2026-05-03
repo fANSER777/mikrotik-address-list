@@ -1,14 +1,10 @@
 # GeoIP address list — AG
-# Generated: 2026-04-06 20:57
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: AG | Subnets: 45 (was 45, collapsed 0) | IPs: ~184,576
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=AG&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_AG comment!="WHITE"]
+remove [find list=GEO_AG]
 add address=23.132.144.0/24 list=GEO_AG comment=AG
 add address=23.176.240.0/24 list=GEO_AG comment=AG
 add address=46.19.184.0/21 list=GEO_AG comment=AG

@@ -1,14 +1,10 @@
 # GeoIP address list — FO
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: FO | Subnets: 14 (was 14, collapsed 0) | IPs: ~45,056
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=FO&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_FO comment!="WHITE"]
+remove [find list=GEO_FO]
 add address=46.227.112.0/21 list=GEO_FO comment=FO
 add address=80.77.128.0/20 list=GEO_FO comment=FO
 add address=81.18.224.0/20 list=GEO_FO comment=FO

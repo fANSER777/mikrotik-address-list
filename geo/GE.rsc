@@ -1,14 +1,10 @@
 # GeoIP address list — GE
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: GE | Subnets: 314 (was 334, collapsed 20) | IPs: ~1,311,040
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=GE&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_GE comment!="WHITE"]
+remove [find list=GEO_GE]
 add address=2.57.60.0/22 list=GEO_GE comment=GE
 add address=2.57.216.0/22 list=GEO_GE comment=GE
 add address=5.10.32.0/21 list=GEO_GE comment=GE

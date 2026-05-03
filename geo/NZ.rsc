@@ -1,14 +1,10 @@
 # GeoIP address list — NZ
-# Generated: 2026-04-06 20:58
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
-# Countries: NZ | Subnets: 1280 (was 1473, collapsed 193) | IPs: ~6,536,448
-#
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=NZ&white=yes"
-#   /import file-name=addresslist.rsc
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
+# Countries: NZ | Subnets: 1278 (was 1471, collapsed 193) | IPs: ~6,534,656
 #
 /ip firewall address-list
-remove [find list=GEO_NZ comment!="WHITE"]
+remove [find list=GEO_NZ]
 add address=14.1.32.0/19 list=GEO_NZ comment=NZ
 add address=14.102.98.0/23 list=GEO_NZ comment=NZ
 add address=14.128.4.0/22 list=GEO_NZ comment=NZ
@@ -53,6 +49,7 @@ add address=45.64.60.0/22 list=GEO_NZ comment=NZ
 add address=45.64.116.0/22 list=GEO_NZ comment=NZ
 add address=45.64.200.0/22 list=GEO_NZ comment=NZ
 add address=45.65.4.0/22 list=GEO_NZ comment=NZ
+add address=45.74.210.0/23 list=GEO_NZ comment=NZ
 add address=45.112.60.0/22 list=GEO_NZ comment=NZ
 add address=45.113.8.0/22 list=GEO_NZ comment=NZ
 add address=45.117.36.0/22 list=GEO_NZ comment=NZ
@@ -78,7 +75,6 @@ add address=58.84.224.0/20 list=GEO_NZ comment=NZ
 add address=59.153.20.0/22 list=GEO_NZ comment=NZ
 add address=60.234.0.0/16 list=GEO_NZ comment=NZ
 add address=64.246.80.0/20 list=GEO_NZ comment=NZ
-add address=66.203.124.0/22 list=GEO_NZ comment=NZ
 add address=66.235.120.0/21 list=GEO_NZ comment=NZ
 add address=67.215.112.0/20 list=GEO_NZ comment=NZ
 add address=69.30.89.0/24 list=GEO_NZ comment=NZ
@@ -88,7 +84,6 @@ add address=91.208.228.0/24 list=GEO_NZ comment=NZ
 add address=91.208.230.0/24 list=GEO_NZ comment=NZ
 add address=91.208.233.0/24 list=GEO_NZ comment=NZ
 add address=91.218.78.0/23 list=GEO_NZ comment=NZ
-add address=94.24.36.0/23 list=GEO_NZ comment=NZ
 add address=101.53.192.0/19 list=GEO_NZ comment=NZ
 add address=101.98.0.0/16 list=GEO_NZ comment=NZ
 add address=101.100.0.0/17 list=GEO_NZ comment=NZ
@@ -698,8 +693,8 @@ add address=160.250.138.0/23 list=GEO_NZ comment=NZ
 add address=161.29.0.0/16 list=GEO_NZ comment=NZ
 add address=161.65.0.0/16 list=GEO_NZ comment=NZ
 add address=161.248.127.0/24 list=GEO_NZ comment=NZ
+add address=162.4.18.0/23 list=GEO_NZ comment=NZ
 add address=162.112.0.0/16 list=GEO_NZ comment=NZ
-add address=162.208.16.0/24 list=GEO_NZ comment=NZ
 add address=163.7.128.0/19 list=GEO_NZ comment=NZ
 add address=163.47.109.0/24 list=GEO_NZ comment=NZ
 add address=163.47.112.0/22 list=GEO_NZ comment=NZ
@@ -720,6 +715,7 @@ add address=165.205.0.0/16 list=GEO_NZ comment=NZ
 add address=166.65.0.0/16 list=GEO_NZ comment=NZ
 add address=166.83.0.0/16 list=GEO_NZ comment=NZ
 add address=167.179.2.0/24 list=GEO_NZ comment=NZ
+add address=167.179.33.0/24 list=GEO_NZ comment=NZ
 add address=167.179.196.0/23 list=GEO_NZ comment=NZ
 add address=167.179.198.0/24 list=GEO_NZ comment=NZ
 add address=167.179.208.0/22 list=GEO_NZ comment=NZ
@@ -747,7 +743,6 @@ add address=185.17.252.0/22 list=GEO_NZ comment=NZ
 add address=185.71.228.0/22 list=GEO_NZ comment=NZ
 add address=185.125.84.0/22 list=GEO_NZ comment=NZ
 add address=185.176.132.0/24 list=GEO_NZ comment=NZ
-add address=185.206.24.0/22 list=GEO_NZ comment=NZ
 add address=188.125.176.0/20 list=GEO_NZ comment=NZ
 add address=192.51.254.0/24 list=GEO_NZ comment=NZ
 add address=192.54.130.0/24 list=GEO_NZ comment=NZ
@@ -1008,7 +1003,6 @@ add address=202.37.163.0/24 list=GEO_NZ comment=NZ
 add address=202.37.167.0/24 list=GEO_NZ comment=NZ
 add address=202.37.168.0/24 list=GEO_NZ comment=NZ
 add address=202.37.183.0/24 list=GEO_NZ comment=NZ
-add address=202.37.194.0/24 list=GEO_NZ comment=NZ
 add address=202.37.197.0/24 list=GEO_NZ comment=NZ
 add address=202.37.198.0/24 list=GEO_NZ comment=NZ
 add address=202.37.200.0/21 list=GEO_NZ comment=NZ

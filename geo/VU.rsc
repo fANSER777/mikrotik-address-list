@@ -1,16 +1,11 @@
 # GeoIP address list — VU
-# Generated: 2026-04-06 20:59
-# Source: RIPE Stat BGP+Geo (primary) + RIR delegated (fallback)
+# Generated: 2026-05-03 21:19 UTC
+# Source: RIR delegated (5 registries)
 # Countries: VU | Subnets: 20 (was 20, collapsed 0) | IPs: ~16,384
 #
-# MikroTik usage:
-#   /tool fetch url="http://YOUR_PANEL/rsc/addresslist.rsc?countries=VU&white=yes"
-#   /import file-name=addresslist.rsc
-#
 /ip firewall address-list
-remove [find list=GEO_VU comment!="WHITE"]
+remove [find list=GEO_VU]
 add address=103.7.197.0/24 list=GEO_VU comment=VU
-add address=103.16.15.0/24 list=GEO_VU comment=VU
 add address=103.20.232.0/23 list=GEO_VU comment=VU
 add address=103.25.228.0/23 list=GEO_VU comment=VU
 add address=103.36.144.0/22 list=GEO_VU comment=VU
@@ -23,6 +18,7 @@ add address=103.125.232.0/22 list=GEO_VU comment=VU
 add address=103.226.22.0/23 list=GEO_VU comment=VU
 add address=113.11.240.0/21 list=GEO_VU comment=VU
 add address=160.187.44.0/23 list=GEO_VU comment=VU
+add address=163.128.190.0/24 list=GEO_VU comment=VU
 add address=180.222.208.0/22 list=GEO_VU comment=VU
 add address=194.127.164.0/22 list=GEO_VU comment=VU
 add address=202.4.251.0/24 list=GEO_VU comment=VU
