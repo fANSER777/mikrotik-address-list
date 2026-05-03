@@ -1,5 +1,5 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-05-04 00:19
+# Generated: 2026-05-04 00:29
 # Source: https://openai.com/chatgpt-user.json
 # Subnets: 240 | IPs: ~3,840
 #
