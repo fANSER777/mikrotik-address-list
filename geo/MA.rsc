@@ -1,5 +1,5 @@
 # GeoIP address list — MA
-# Generated: 2026-05-03 21:48 UTC
+# Generated: 2026-05-04 03:48 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MA | Subnets: 77 (was 77, collapsed 0) | IPs: ~12,273,920
 #
