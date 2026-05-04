@@ -1,5 +1,5 @@
 # GeoIP address list — BF
-# Generated: 2026-05-04 15:49 UTC
+# Generated: 2026-05-04 21:50 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BF | Subnets: 50 (was 52, collapsed 2) | IPs: ~338,176
 #
