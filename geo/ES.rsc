@@ -1,5 +1,5 @@
 # GeoIP address list — ES
-# Generated: 2026-05-04 09:49 UTC
+# Generated: 2026-05-04 15:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ES | Subnets: 3410 (was 3778, collapsed 368) | IPs: ~32,112,256
 #
