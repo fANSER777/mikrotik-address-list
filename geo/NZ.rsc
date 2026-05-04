@@ -1,5 +1,5 @@
 # GeoIP address list — NZ
-# Generated: 2026-05-04 03:48 UTC
+# Generated: 2026-05-04 09:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NZ | Subnets: 1278 (was 1471, collapsed 193) | IPs: ~6,534,656
 #
