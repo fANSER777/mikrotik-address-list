@@ -1,5 +1,5 @@
 # GeoIP address list — MY
-# Generated: 2026-05-04 21:50 UTC
+# Generated: 2026-05-05 03:50 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MY | Subnets: 794 (was 916, collapsed 122) | IPs: ~6,704,640
 #

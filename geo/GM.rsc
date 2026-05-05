@@ -1,5 +1,5 @@
 # GeoIP address list — GM
-# Generated: 2026-05-04 21:50 UTC
+# Generated: 2026-05-05 03:50 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GM | Subnets: 24 (was 24, collapsed 0) | IPs: ~274,944
 #
