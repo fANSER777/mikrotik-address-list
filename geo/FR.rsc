@@ -1,5 +1,5 @@
 # GeoIP address list — FR
-# Generated: 2026-05-05 09:51 UTC
+# Generated: 2026-05-05 15:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FR | Subnets: 4114 (was 4700, collapsed 586) | IPs: ~81,737,552
 #
