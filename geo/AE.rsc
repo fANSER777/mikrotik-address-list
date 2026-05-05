@@ -1,5 +1,5 @@
 # GeoIP address list — AE
-# Generated: 2026-05-05 03:50 UTC
+# Generated: 2026-05-05 09:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AE | Subnets: 1142 (was 1220, collapsed 78) | IPs: ~6,878,976
 #

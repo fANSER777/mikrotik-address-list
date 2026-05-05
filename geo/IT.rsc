@@ -1,5 +1,5 @@
 # GeoIP address list — IT
-# Generated: 2026-05-05 03:50 UTC
+# Generated: 2026-05-05 09:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IT | Subnets: 3338 (was 3713, collapsed 375) | IPs: ~53,929,856
 #
