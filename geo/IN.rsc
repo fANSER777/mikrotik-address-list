@@ -1,5 +1,5 @@
 # GeoIP address list — IN
-# Generated: 2026-05-06 09:53 UTC
+# Generated: 2026-05-06 15:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IN | Subnets: 7126 (was 9205, collapsed 2079) | IPs: ~41,921,536
 #

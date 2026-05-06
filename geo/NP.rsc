@@ -1,5 +1,5 @@
 # GeoIP address list — NP
-# Generated: 2026-05-06 09:53 UTC
+# Generated: 2026-05-06 15:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NP | Subnets: 266 (was 276, collapsed 10) | IPs: ~582,656
 #
