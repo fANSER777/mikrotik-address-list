@@ -1,5 +1,5 @@
 # GeoIP address list — PS
-# Generated: 2026-05-06 15:53 UTC
+# Generated: 2026-05-06 21:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PS | Subnets: 243 (was 249, collapsed 6) | IPs: ~875,520
 #

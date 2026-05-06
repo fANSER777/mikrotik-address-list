@@ -1,5 +1,5 @@
 # GeoIP address list — EE
-# Generated: 2026-05-06 15:53 UTC
+# Generated: 2026-05-06 21:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EE | Subnets: 433 (was 466, collapsed 33) | IPs: ~1,331,752
 #
