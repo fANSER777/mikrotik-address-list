@@ -1,5 +1,5 @@
 # GeoIP address list — FK
-# Generated: 2026-05-06 03:52 UTC
+# Generated: 2026-05-06 09:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FK | Subnets: 7 (was 11, collapsed 4) | IPs: ~7,168
 #
