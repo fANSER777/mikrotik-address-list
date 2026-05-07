@@ -1,5 +1,5 @@
 # GeoIP address list — CZ
-# Generated: 2026-05-07 15:55 UTC
+# Generated: 2026-05-07 21:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CZ | Subnets: 1550 (was 1771, collapsed 221) | IPs: ~9,557,952
 #
