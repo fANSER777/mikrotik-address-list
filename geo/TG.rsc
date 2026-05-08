@@ -1,5 +1,5 @@
 # GeoIP address list — TG
-# Generated: 2026-05-07 21:56 UTC
+# Generated: 2026-05-08 03:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TG | Subnets: 17 (was 17, collapsed 0) | IPs: ~354,816
 #
