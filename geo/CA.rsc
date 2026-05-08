@@ -1,5 +1,5 @@
 # GeoIP address list — CA
-# Generated: 2026-05-08 09:56 UTC
+# Generated: 2026-05-08 15:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CA | Subnets: 6271 (was 9220, collapsed 2949) | IPs: ~67,600,896
 #

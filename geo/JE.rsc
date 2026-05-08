@@ -1,5 +1,5 @@
 # GeoIP address list — JE
-# Generated: 2026-05-08 09:56 UTC
+# Generated: 2026-05-08 15:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JE | Subnets: 44 (was 46, collapsed 2) | IPs: ~145,152
 #
