@@ -1,5 +1,5 @@
 # GeoIP address list — SE
-# Generated: 2026-05-09 16:00 UTC
+# Generated: 2026-05-09 22:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SE | Subnets: 1981 (was 2132, collapsed 151) | IPs: ~31,092,000
 #

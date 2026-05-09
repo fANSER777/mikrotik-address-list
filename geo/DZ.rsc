@@ -1,5 +1,5 @@
 # GeoIP address list — DZ
-# Generated: 2026-05-09 16:00 UTC
+# Generated: 2026-05-09 22:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DZ | Subnets: 34 (was 34, collapsed 0) | IPs: ~4,765,184
 #

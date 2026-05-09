@@ -1,5 +1,5 @@
 # GeoIP address list — HK
-# Generated: 2026-05-09 16:00 UTC
+# Generated: 2026-05-09 22:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HK | Subnets: 2971 (was 3321, collapsed 350) | IPs: ~15,210,560
 #
