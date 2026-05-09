@@ -1,5 +1,5 @@
 # GeoIP address list — BR
-# Generated: 2026-05-09 03:59 UTC
+# Generated: 2026-05-09 09:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BR | Subnets: 4909 (was 12864, collapsed 7955) | IPs: ~79,975,168
 #
