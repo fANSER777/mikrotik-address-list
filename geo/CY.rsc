@@ -1,5 +1,5 @@
 # GeoIP address list — CY
-# Generated: 2026-05-10 10:02 UTC
+# Generated: 2026-05-10 16:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CY | Subnets: 534 (was 584, collapsed 50) | IPs: ~1,291,840
 #
