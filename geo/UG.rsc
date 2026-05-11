@@ -1,5 +1,5 @@
 # GeoIP address list — UG
-# Generated: 2026-05-10 22:03 UTC
+# Generated: 2026-05-11 04:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UG | Subnets: 103 (was 105, collapsed 2) | IPs: ~1,422,848
 #
