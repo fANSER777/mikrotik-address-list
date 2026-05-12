@@ -1,7 +1,7 @@
 # GeoIP address list — JP
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JP | Subnets: 3175 (was 4736, collapsed 1561) | IPs: ~188,681,024
+# Countries: JP | Subnets: 3177 (was 4738, collapsed 1561) | IPs: ~188,681,792
 #
 /ip firewall address-list
 remove [find list=GEO_JP]
@@ -1887,6 +1887,8 @@ add address=161.248.40.0/23 list=GEO_JP comment=JP
 add address=162.4.26.0/23 list=GEO_JP comment=JP
 add address=162.4.28.0/23 list=GEO_JP comment=JP
 add address=162.4.52.0/23 list=GEO_JP comment=JP
+add address=162.4.79.0/24 list=GEO_JP comment=JP
+add address=162.4.98.0/23 list=GEO_JP comment=JP
 add address=162.43.0.0/17 list=GEO_JP comment=JP
 add address=163.42.0.0/15 list=GEO_JP comment=JP
 add address=163.44.0.0/17 list=GEO_JP comment=JP

@@ -1,7 +1,7 @@
 # GeoIP address list — KR
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KR | Subnets: 997 (was 2425, collapsed 1428) | IPs: ~112,495,616
+# Countries: KR | Subnets: 998 (was 2426, collapsed 1428) | IPs: ~112,497,664
 #
 /ip firewall address-list
 remove [find list=GEO_KR]
@@ -841,6 +841,7 @@ add address=192.245.249.0/24 list=GEO_KR comment=KR
 add address=192.245.250.0/23 list=GEO_KR comment=KR
 add address=192.249.16.0/20 list=GEO_KR comment=KR
 add address=198.148.192.0/22 list=GEO_KR comment=KR
+add address=199.241.120.0/21 list=GEO_KR comment=KR
 add address=202.3.16.0/20 list=GEO_KR comment=KR
 add address=202.6.95.0/24 list=GEO_KR comment=KR
 add address=202.8.160.0/19 list=GEO_KR comment=KR

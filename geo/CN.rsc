@@ -1,7 +1,7 @@
 # GeoIP address list — CN
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CN | Subnets: 5505 (was 8803, collapsed 3298) | IPs: ~342,952,192
+# Countries: CN | Subnets: 5504 (was 8802, collapsed 3298) | IPs: ~342,950,400
 #
 /ip firewall address-list
 remove [find list=GEO_CN]
@@ -474,7 +474,6 @@ add address=43.250.244.0/22 list=GEO_CN comment=CN
 add address=43.251.4.0/22 list=GEO_CN comment=CN
 add address=43.251.8.0/22 list=GEO_CN comment=CN
 add address=43.251.36.0/22 list=GEO_CN comment=CN
-add address=43.251.100.0/22 list=GEO_CN comment=CN
 add address=43.251.116.0/22 list=GEO_CN comment=CN
 add address=43.251.192.0/22 list=GEO_CN comment=CN
 add address=43.251.232.0/21 list=GEO_CN comment=CN
@@ -1597,7 +1596,6 @@ add address=103.81.183.0/24 list=GEO_CN comment=CN
 add address=103.81.184.0/22 list=GEO_CN comment=CN
 add address=103.81.200.0/22 list=GEO_CN comment=CN
 add address=103.81.232.0/22 list=GEO_CN comment=CN
-add address=103.82.52.0/22 list=GEO_CN comment=CN
 add address=103.82.60.0/22 list=GEO_CN comment=CN
 add address=103.82.68.0/22 list=GEO_CN comment=CN
 add address=103.82.84.0/22 list=GEO_CN comment=CN
@@ -2847,6 +2845,7 @@ add address=103.255.208.0/23 list=GEO_CN comment=CN
 add address=103.255.212.0/22 list=GEO_CN comment=CN
 add address=103.255.228.0/22 list=GEO_CN comment=CN
 add address=104.167.17.0/24 list=GEO_CN comment=CN
+add address=104.167.18.0/24 list=GEO_CN comment=CN
 add address=106.0.0.0/24 list=GEO_CN comment=CN
 add address=106.0.2.0/23 list=GEO_CN comment=CN
 add address=106.0.4.0/22 list=GEO_CN comment=CN

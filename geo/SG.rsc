@@ -1,7 +1,7 @@
 # GeoIP address list — SG
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SG | Subnets: 1715 (was 1866, collapsed 151) | IPs: ~27,760,896
+# Countries: SG | Subnets: 1718 (was 1869, collapsed 151) | IPs: ~27,762,176
 #
 /ip firewall address-list
 remove [find list=GEO_SG]
@@ -1055,6 +1055,8 @@ add address=161.117.0.0/16 list=GEO_SG comment=SG
 add address=161.126.0.0/16 list=GEO_SG comment=SG
 add address=161.229.0.0/16 list=GEO_SG comment=SG
 add address=161.248.214.0/23 list=GEO_SG comment=SG
+add address=162.4.56.0/23 list=GEO_SG comment=SG
+add address=162.4.76.0/23 list=GEO_SG comment=SG
 add address=162.62.0.0/16 list=GEO_SG comment=SG
 add address=162.128.0.0/16 list=GEO_SG comment=SG
 add address=163.7.0.0/17 list=GEO_SG comment=SG
@@ -1400,6 +1402,7 @@ add address=203.2.130.0/23 list=GEO_SG comment=SG
 add address=203.8.206.0/23 list=GEO_SG comment=SG
 add address=203.9.78.0/23 list=GEO_SG comment=SG
 add address=203.10.100.0/23 list=GEO_SG comment=SG
+add address=203.13.69.0/24 list=GEO_SG comment=SG
 add address=203.17.180.0/22 list=GEO_SG comment=SG
 add address=203.19.243.0/24 list=GEO_SG comment=SG
 add address=203.20.105.0/24 list=GEO_SG comment=SG

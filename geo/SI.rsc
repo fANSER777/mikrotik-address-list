@@ -1,7 +1,7 @@
 # GeoIP address list — SI
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SI | Subnets: 531 (was 547, collapsed 16) | IPs: ~2,680,576
+# Countries: SI | Subnets: 530 (was 546, collapsed 16) | IPs: ~2,679,552
 #
 /ip firewall address-list
 remove [find list=GEO_SI]
@@ -273,7 +273,6 @@ add address=185.71.172.0/22 list=GEO_SI comment=SI
 add address=185.72.60.0/22 list=GEO_SI comment=SI
 add address=185.72.104.0/22 list=GEO_SI comment=SI
 add address=185.73.4.0/22 list=GEO_SI comment=SI
-add address=185.74.44.0/22 list=GEO_SI comment=SI
 add address=185.78.240.0/22 list=GEO_SI comment=SI
 add address=185.79.228.0/22 list=GEO_SI comment=SI
 add address=185.81.28.0/22 list=GEO_SI comment=SI

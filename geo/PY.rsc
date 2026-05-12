@@ -1,7 +1,7 @@
 # GeoIP address list — PY
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PY | Subnets: 140 (was 150, collapsed 10) | IPs: ~1,153,536
+# Countries: PY | Subnets: 142 (was 152, collapsed 10) | IPs: ~1,154,048
 #
 /ip firewall address-list
 remove [find list=GEO_PY]
@@ -139,6 +139,8 @@ add address=200.85.32.0/19 list=GEO_PY comment=PY
 add address=200.108.128.0/20 list=GEO_PY comment=PY
 add address=200.115.16.0/23 list=GEO_PY comment=PY
 add address=200.123.36.0/23 list=GEO_PY comment=PY
+add address=200.123.59.0/24 list=GEO_PY comment=PY
+add address=200.123.61.0/24 list=GEO_PY comment=PY
 add address=200.124.120.0/24 list=GEO_PY comment=PY
 add address=201.131.51.0/24 list=GEO_PY comment=PY
 add address=201.217.0.0/18 list=GEO_PY comment=PY

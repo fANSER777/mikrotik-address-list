@@ -1,7 +1,7 @@
 # GeoIP address list — MU
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MU | Subnets: 104 (was 106, collapsed 2) | IPs: ~3,697,920
+# Countries: MU | Subnets: 105 (was 107, collapsed 2) | IPs: ~3,698,944
 #
 /ip firewall address-list
 remove [find list=GEO_MU]
@@ -46,6 +46,7 @@ add address=102.131.48.0/21 list=GEO_MU comment=MU
 add address=102.140.176.0/20 list=GEO_MU comment=MU
 add address=102.160.0.0/14 list=GEO_MU comment=MU
 add address=102.176.128.0/19 list=GEO_MU comment=MU
+add address=102.202.140.0/22 list=GEO_MU comment=MU
 add address=102.205.35.0/24 list=GEO_MU comment=MU
 add address=102.209.96.0/22 list=GEO_MU comment=MU
 add address=102.211.0.0/22 list=GEO_MU comment=MU

@@ -1,7 +1,7 @@
 # GeoIP address list — BG
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BG | Subnets: 1340 (was 1831, collapsed 491) | IPs: ~4,340,800
+# Countries: BG | Subnets: 1339 (was 1830, collapsed 491) | IPs: ~4,338,752
 #
 /ip firewall address-list
 remove [find list=GEO_BG]
@@ -1316,7 +1316,6 @@ add address=213.130.70.0/23 list=GEO_BG comment=BG
 add address=213.130.72.0/23 list=GEO_BG comment=BG
 add address=213.130.75.0/24 list=GEO_BG comment=BG
 add address=213.130.76.0/22 list=GEO_BG comment=BG
-add address=213.130.80.0/21 list=GEO_BG comment=BG
 add address=213.130.92.0/22 list=GEO_BG comment=BG
 add address=213.134.2.0/24 list=GEO_BG comment=BG
 add address=213.145.96.0/19 list=GEO_BG comment=BG

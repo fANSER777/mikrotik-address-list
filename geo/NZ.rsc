@@ -1,7 +1,7 @@
 # GeoIP address list — NZ
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NZ | Subnets: 1278 (was 1471, collapsed 193) | IPs: ~6,534,656
+# Countries: NZ | Subnets: 1276 (was 1469, collapsed 193) | IPs: ~6,533,888
 #
 /ip firewall address-list
 remove [find list=GEO_NZ]
@@ -77,13 +77,11 @@ add address=60.234.0.0/16 list=GEO_NZ comment=NZ
 add address=64.246.80.0/20 list=GEO_NZ comment=NZ
 add address=66.235.120.0/21 list=GEO_NZ comment=NZ
 add address=67.215.112.0/20 list=GEO_NZ comment=NZ
-add address=69.30.89.0/24 list=GEO_NZ comment=NZ
 add address=78.138.10.0/23 list=GEO_NZ comment=NZ
 add address=91.208.208.0/24 list=GEO_NZ comment=NZ
 add address=91.208.228.0/24 list=GEO_NZ comment=NZ
 add address=91.208.230.0/24 list=GEO_NZ comment=NZ
 add address=91.208.233.0/24 list=GEO_NZ comment=NZ
-add address=91.218.78.0/23 list=GEO_NZ comment=NZ
 add address=101.53.192.0/19 list=GEO_NZ comment=NZ
 add address=101.98.0.0/16 list=GEO_NZ comment=NZ
 add address=101.100.0.0/17 list=GEO_NZ comment=NZ

@@ -1,7 +1,7 @@
 # GeoIP address list — IE
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IE | Subnets: 730 (was 776, collapsed 46) | IPs: ~10,361,408
+# Countries: IE | Subnets: 727 (was 773, collapsed 46) | IPs: ~10,358,848
 #
 /ip firewall address-list
 remove [find list=GEO_IE]
@@ -213,12 +213,10 @@ add address=89.124.224.0/20 list=GEO_IE comment=IE
 add address=89.124.240.0/22 list=GEO_IE comment=IE
 add address=89.124.244.0/23 list=GEO_IE comment=IE
 add address=89.124.248.0/23 list=GEO_IE comment=IE
-add address=89.124.251.0/24 list=GEO_IE comment=IE
 add address=89.124.252.0/24 list=GEO_IE comment=IE
 add address=89.124.254.0/23 list=GEO_IE comment=IE
 add address=89.126.128.0/18 list=GEO_IE comment=IE
 add address=89.126.192.0/20 list=GEO_IE comment=IE
-add address=89.126.232.0/21 list=GEO_IE comment=IE
 add address=89.126.240.0/20 list=GEO_IE comment=IE
 add address=89.127.0.0/17 list=GEO_IE comment=IE
 add address=89.127.128.0/18 list=GEO_IE comment=IE
@@ -387,7 +385,6 @@ add address=185.2.64.0/22 list=GEO_IE comment=IE
 add address=185.4.192.0/22 list=GEO_IE comment=IE
 add address=185.5.240.0/22 list=GEO_IE comment=IE
 add address=185.6.36.0/22 list=GEO_IE comment=IE
-add address=185.7.173.0/24 list=GEO_IE comment=IE
 add address=185.7.184.0/22 list=GEO_IE comment=IE
 add address=185.8.112.0/22 list=GEO_IE comment=IE
 add address=185.8.192.0/22 list=GEO_IE comment=IE

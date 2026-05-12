@@ -1,7 +1,7 @@
 # GeoIP address list — ZZ
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZZ | Subnets: 558 (was 561, collapsed 3) | IPs: ~5,207,040
+# Countries: ZZ | Subnets: 560 (was 563, collapsed 3) | IPs: ~5,198,592
 #
 /ip firewall address-list
 remove [find list=GEO_ZZ]
@@ -164,10 +164,12 @@ add address=102.181.224.0/19 list=GEO_ZZ comment=ZZ
 add address=102.183.0.0/16 list=GEO_ZZ comment=ZZ
 add address=102.192.0.0/13 list=GEO_ZZ comment=ZZ
 add address=102.200.0.0/15 list=GEO_ZZ comment=ZZ
-add address=102.202.0.0/17 list=GEO_ZZ comment=ZZ
-add address=102.202.128.0/20 list=GEO_ZZ comment=ZZ
-add address=102.202.144.0/21 list=GEO_ZZ comment=ZZ
-add address=102.202.152.0/22 list=GEO_ZZ comment=ZZ
+add address=102.202.0.0/18 list=GEO_ZZ comment=ZZ
+add address=102.202.64.0/19 list=GEO_ZZ comment=ZZ
+add address=102.202.96.0/20 list=GEO_ZZ comment=ZZ
+add address=102.202.112.0/21 list=GEO_ZZ comment=ZZ
+add address=102.202.130.0/23 list=GEO_ZZ comment=ZZ
+add address=102.202.154.0/24 list=GEO_ZZ comment=ZZ
 add address=102.203.20.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.24.0/21 list=GEO_ZZ comment=ZZ
 add address=102.203.52.0/22 list=GEO_ZZ comment=ZZ

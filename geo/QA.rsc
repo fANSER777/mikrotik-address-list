@@ -1,7 +1,7 @@
 # GeoIP address list — QA
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: QA | Subnets: 46 (was 50, collapsed 4) | IPs: ~847,488
+# Countries: QA | Subnets: 47 (was 51, collapsed 4) | IPs: ~847,744
 #
 /ip firewall address-list
 remove [find list=GEO_QA]
@@ -42,6 +42,7 @@ add address=185.107.76.0/22 list=GEO_QA comment=QA
 add address=185.154.168.0/22 list=GEO_QA comment=QA
 add address=185.239.92.0/22 list=GEO_QA comment=QA
 add address=185.247.88.0/22 list=GEO_QA comment=QA
+add address=193.168.166.0/24 list=GEO_QA comment=QA
 add address=194.6.255.0/24 list=GEO_QA comment=QA
 add address=194.42.47.64/26 list=GEO_QA comment=QA
 add address=194.50.77.0/24 list=GEO_QA comment=QA

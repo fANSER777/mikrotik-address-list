@@ -1,7 +1,7 @@
 # GeoIP address list — DO
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DO | Subnets: 140 (was 159, collapsed 19) | IPs: ~1,618,944
+# Countries: DO | Subnets: 139 (was 158, collapsed 19) | IPs: ~1,617,920
 #
 /ip firewall address-list
 remove [find list=GEO_DO]
@@ -144,4 +144,3 @@ add address=201.131.107.0/24 list=GEO_DO comment=DO
 add address=201.221.126.0/24 list=GEO_DO comment=DO
 add address=201.229.128.0/17 list=GEO_DO comment=DO
 add address=204.126.128.0/23 list=GEO_DO comment=DO
-add address=205.233.76.0/22 list=GEO_DO comment=DO

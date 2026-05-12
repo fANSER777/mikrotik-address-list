@@ -1,7 +1,7 @@
 # GeoIP address list — FR
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: FR | Subnets: 4114 (was 4700, collapsed 586) | IPs: ~81,737,552
+# Countries: FR | Subnets: 4116 (was 4703, collapsed 587) | IPs: ~81,738,064
 #
 /ip firewall address-list
 remove [find list=GEO_FR]
@@ -393,6 +393,7 @@ add address=46.105.0.0/16 list=GEO_FR comment=FR
 add address=46.149.107.0/24 list=GEO_FR comment=FR
 add address=46.162.128.0/18 list=GEO_FR comment=FR
 add address=46.165.64.0/18 list=GEO_FR comment=FR
+add address=46.174.132.0/24 list=GEO_FR comment=FR
 add address=46.182.0.0/21 list=GEO_FR comment=FR
 add address=46.182.40.0/21 list=GEO_FR comment=FR
 add address=46.182.72.0/21 list=GEO_FR comment=FR
@@ -1494,7 +1495,6 @@ add address=151.91.0.0/16 list=GEO_FR comment=FR
 add address=151.92.0.0/16 list=GEO_FR comment=FR
 add address=151.115.0.0/16 list=GEO_FR comment=FR
 add address=151.127.0.0/16 list=GEO_FR comment=FR
-add address=151.216.47.0/24 list=GEO_FR comment=FR
 add address=152.77.0.0/16 list=GEO_FR comment=FR
 add address=152.81.0.0/16 list=GEO_FR comment=FR
 add address=152.89.96.0/22 list=GEO_FR comment=FR
@@ -1691,6 +1691,7 @@ add address=178.255.128.0/21 list=GEO_FR comment=FR
 add address=178.255.160.0/21 list=GEO_FR comment=FR
 add address=178.255.208.0/21 list=GEO_FR comment=FR
 add address=180.149.196.0/22 list=GEO_FR comment=FR
+add address=185.0.19.0/24 list=GEO_FR comment=FR
 add address=185.1.2.0/24 list=GEO_FR comment=FR
 add address=185.1.14.0/24 list=GEO_FR comment=FR
 add address=185.1.26.0/24 list=GEO_FR comment=FR
@@ -1895,6 +1896,7 @@ add address=185.42.188.0/22 list=GEO_FR comment=FR
 add address=185.42.232.0/22 list=GEO_FR comment=FR
 add address=185.43.28.0/24 list=GEO_FR comment=FR
 add address=185.43.32.0/24 list=GEO_FR comment=FR
+add address=185.43.35.0/24 list=GEO_FR comment=FR
 add address=185.43.36.0/22 list=GEO_FR comment=FR
 add address=185.43.44.0/22 list=GEO_FR comment=FR
 add address=185.43.60.0/22 list=GEO_FR comment=FR

@@ -1,7 +1,7 @@
 # GeoIP address list — DE
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DE | Subnets: 8673 (was 10995, collapsed 2322) | IPs: ~126,288,448
+# Countries: DE | Subnets: 8682 (was 11000, collapsed 2318) | IPs: ~126,317,376
 #
 /ip firewall address-list
 remove [find list=GEO_DE]
@@ -1848,6 +1848,7 @@ add address=89.107.64.0/21 list=GEO_DE comment=DE
 add address=89.107.160.0/21 list=GEO_DE comment=DE
 add address=89.107.184.0/21 list=GEO_DE comment=DE
 add address=89.110.128.0/18 list=GEO_DE comment=DE
+add address=89.124.251.0/24 list=GEO_DE comment=DE
 add address=89.144.0.0/18 list=GEO_DE comment=DE
 add address=89.145.0.0/18 list=GEO_DE comment=DE
 add address=89.146.192.0/18 list=GEO_DE comment=DE
@@ -2657,7 +2658,7 @@ add address=103.234.232.0/22 list=GEO_DE comment=DE
 add address=103.241.48.0/22 list=GEO_DE comment=DE
 add address=103.252.88.0/22 list=GEO_DE comment=DE
 add address=104.151.0.0/17 list=GEO_DE comment=DE
-add address=104.167.18.0/23 list=GEO_DE comment=DE
+add address=104.167.19.0/24 list=GEO_DE comment=DE
 add address=104.167.24.0/22 list=GEO_DE comment=DE
 add address=104.204.244.0/22 list=GEO_DE comment=DE
 add address=104.207.32.0/19 list=GEO_DE comment=DE
@@ -3133,6 +3134,8 @@ add address=151.106.0.0/17 list=GEO_DE comment=DE
 add address=151.123.176.0/21 list=GEO_DE comment=DE
 add address=151.136.0.0/16 list=GEO_DE comment=DE
 add address=151.189.0.0/16 list=GEO_DE comment=DE
+add address=151.216.48.0/20 list=GEO_DE comment=DE
+add address=151.216.192.0/18 list=GEO_DE comment=DE
 add address=151.237.248.0/21 list=GEO_DE comment=DE
 add address=151.248.24.0/21 list=GEO_DE comment=DE
 add address=151.252.40.0/21 list=GEO_DE comment=DE
@@ -3293,6 +3296,7 @@ add address=164.138.192.0/21 list=GEO_DE comment=DE
 add address=164.138.200.0/24 list=GEO_DE comment=DE
 add address=164.139.0.0/16 list=GEO_DE comment=DE
 add address=164.177.160.0/20 list=GEO_DE comment=DE
+add address=165.217.160.0/19 list=GEO_DE comment=DE
 add address=165.218.0.0/16 list=GEO_DE comment=DE
 add address=167.17.80.0/21 list=GEO_DE comment=DE
 add address=167.86.66.0/23 list=GEO_DE comment=DE
@@ -3568,6 +3572,7 @@ add address=185.9.216.0/22 list=GEO_DE comment=DE
 add address=185.9.224.0/22 list=GEO_DE comment=DE
 add address=185.10.36.0/22 list=GEO_DE comment=DE
 add address=185.10.70.0/24 list=GEO_DE comment=DE
+add address=185.10.92.0/24 list=GEO_DE comment=DE
 add address=185.10.148.0/22 list=GEO_DE comment=DE
 add address=185.10.192.0/22 list=GEO_DE comment=DE
 add address=185.10.244.0/22 list=GEO_DE comment=DE
@@ -5727,6 +5732,7 @@ add address=193.23.44.0/23 list=GEO_DE comment=DE
 add address=193.23.56.0/24 list=GEO_DE comment=DE
 add address=193.23.64.0/19 list=GEO_DE comment=DE
 add address=193.23.96.0/20 list=GEO_DE comment=DE
+add address=193.23.115.0/24 list=GEO_DE comment=DE
 add address=193.23.119.0/24 list=GEO_DE comment=DE
 add address=193.23.126.0/23 list=GEO_DE comment=DE
 add address=193.23.134.0/24 list=GEO_DE comment=DE
@@ -7554,6 +7560,7 @@ add address=194.233.192.0/19 list=GEO_DE comment=DE
 add address=194.233.240.0/20 list=GEO_DE comment=DE
 add address=194.238.16.0/20 list=GEO_DE comment=DE
 add address=194.238.56.0/22 list=GEO_DE comment=DE
+add address=194.238.79.0/24 list=GEO_DE comment=DE
 add address=194.242.12.0/23 list=GEO_DE comment=DE
 add address=194.242.20.0/23 list=GEO_DE comment=DE
 add address=194.242.48.0/23 list=GEO_DE comment=DE
@@ -8040,7 +8047,9 @@ add address=195.250.57.0/24 list=GEO_DE comment=DE
 add address=195.252.128.0/18 list=GEO_DE comment=DE
 add address=195.253.0.0/17 list=GEO_DE comment=DE
 add address=195.253.128.0/18 list=GEO_DE comment=DE
-add address=195.253.192.0/21 list=GEO_DE comment=DE
+add address=195.253.192.0/22 list=GEO_DE comment=DE
+add address=195.253.196.0/24 list=GEO_DE comment=DE
+add address=195.253.199.0/24 list=GEO_DE comment=DE
 add address=195.253.212.0/22 list=GEO_DE comment=DE
 add address=195.253.224.0/21 list=GEO_DE comment=DE
 add address=195.253.232.0/22 list=GEO_DE comment=DE

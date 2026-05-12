@@ -1,7 +1,7 @@
 # GeoIP address list — UG
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UG | Subnets: 103 (was 105, collapsed 2) | IPs: ~1,422,848
+# Countries: UG | Subnets: 104 (was 106, collapsed 2) | IPs: ~1,423,360
 #
 /ip firewall address-list
 remove [find list=GEO_UG]
@@ -27,6 +27,7 @@ add address=102.80.0.0/13 list=GEO_UG comment=UG
 add address=102.134.140.0/22 list=GEO_UG comment=UG
 add address=102.134.144.0/21 list=GEO_UG comment=UG
 add address=102.164.120.0/24 list=GEO_UG comment=UG
+add address=102.202.128.0/23 list=GEO_UG comment=UG
 add address=102.203.8.0/22 list=GEO_UG comment=UG
 add address=102.203.138.0/24 list=GEO_UG comment=UG
 add address=102.203.176.0/22 list=GEO_UG comment=UG

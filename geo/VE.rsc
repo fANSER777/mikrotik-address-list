@@ -1,7 +1,7 @@
 # GeoIP address list — VE
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VE | Subnets: 216 (was 258, collapsed 42) | IPs: ~6,706,688
+# Countries: VE | Subnets: 217 (was 259, collapsed 42) | IPs: ~6,706,944
 #
 /ip firewall address-list
 remove [find list=GEO_VE]
@@ -129,6 +129,7 @@ add address=190.8.164.0/22 list=GEO_VE comment=VE
 add address=190.8.168.0/22 list=GEO_VE comment=VE
 add address=190.9.128.0/19 list=GEO_VE comment=VE
 add address=190.15.160.0/19 list=GEO_VE comment=VE
+add address=190.15.250.0/24 list=GEO_VE comment=VE
 add address=190.36.0.0/14 list=GEO_VE comment=VE
 add address=190.52.96.0/20 list=GEO_VE comment=VE
 add address=190.72.0.0/13 list=GEO_VE comment=VE

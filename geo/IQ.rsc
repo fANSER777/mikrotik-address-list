@@ -1,7 +1,7 @@
 # GeoIP address list — IQ
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IQ | Subnets: 288 (was 336, collapsed 48) | IPs: ~447,296
+# Countries: IQ | Subnets: 288 (was 338, collapsed 50) | IPs: ~447,296
 #
 /ip firewall address-list
 remove [find list=GEO_IQ]

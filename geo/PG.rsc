@@ -1,7 +1,7 @@
 # GeoIP address list — PG
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PG | Subnets: 62 (was 62, collapsed 0) | IPs: ~66,560
+# Countries: PG | Subnets: 63 (was 63, collapsed 0) | IPs: ~67,072
 #
 /ip firewall address-list
 remove [find list=GEO_PG]
@@ -67,3 +67,4 @@ add address=202.95.192.0/20 list=GEO_PG comment=PG
 add address=202.165.192.0/20 list=GEO_PG comment=PG
 add address=202.171.240.0/21 list=GEO_PG comment=PG
 add address=203.83.16.0/21 list=GEO_PG comment=PG
+add address=207.241.186.0/23 list=GEO_PG comment=PG

@@ -1,7 +1,7 @@
 # GeoIP address list — TZ
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TZ | Subnets: 191 (was 197, collapsed 6) | IPs: ~1,095,680
+# Countries: TZ | Subnets: 192 (was 198, collapsed 6) | IPs: ~1,096,704
 #
 /ip firewall address-list
 remove [find list=GEO_TZ]
@@ -39,6 +39,7 @@ add address=102.68.71.0/24 list=GEO_TZ comment=TZ
 add address=102.69.164.0/22 list=GEO_TZ comment=TZ
 add address=102.165.191.0/24 list=GEO_TZ comment=TZ
 add address=102.177.80.0/21 list=GEO_TZ comment=TZ
+add address=102.202.136.0/22 list=GEO_TZ comment=TZ
 add address=102.202.180.0/22 list=GEO_TZ comment=TZ
 add address=102.202.221.0/24 list=GEO_TZ comment=TZ
 add address=102.203.113.0/24 list=GEO_TZ comment=TZ

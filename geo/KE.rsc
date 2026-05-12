@@ -1,7 +1,7 @@
 # GeoIP address list — KE
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KE | Subnets: 345 (was 369, collapsed 24) | IPs: ~6,233,344
+# Countries: KE | Subnets: 346 (was 370, collapsed 24) | IPs: ~6,234,368
 #
 /ip firewall address-list
 remove [find list=GEO_KE]
@@ -61,6 +61,7 @@ add address=102.164.52.0/22 list=GEO_KE comment=KE
 add address=102.164.56.0/21 list=GEO_KE comment=KE
 add address=102.166.0.0/15 list=GEO_KE comment=KE
 add address=102.176.180.0/22 list=GEO_KE comment=KE
+add address=102.202.148.0/22 list=GEO_KE comment=KE
 add address=102.202.189.0/24 list=GEO_KE comment=KE
 add address=102.203.2.0/23 list=GEO_KE comment=KE
 add address=102.203.44.0/22 list=GEO_KE comment=KE

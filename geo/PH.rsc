@@ -1,7 +1,7 @@
 # GeoIP address list — PH
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PH | Subnets: 807 (was 886, collapsed 79) | IPs: ~6,249,472
+# Countries: PH | Subnets: 811 (was 890, collapsed 79) | IPs: ~6,250,752
 #
 /ip firewall address-list
 remove [find list=GEO_PH]
@@ -579,6 +579,10 @@ add address=161.248.130.0/23 list=GEO_PH comment=PH
 add address=161.248.168.0/23 list=GEO_PH comment=PH
 add address=161.248.190.0/23 list=GEO_PH comment=PH
 add address=162.4.0.0/23 list=GEO_PH comment=PH
+add address=162.4.58.0/24 list=GEO_PH comment=PH
+add address=162.4.85.0/24 list=GEO_PH comment=PH
+add address=162.4.94.0/23 list=GEO_PH comment=PH
+add address=162.4.103.0/24 list=GEO_PH comment=PH
 add address=163.61.86.0/24 list=GEO_PH comment=PH
 add address=163.61.94.0/23 list=GEO_PH comment=PH
 add address=163.61.135.0/24 list=GEO_PH comment=PH

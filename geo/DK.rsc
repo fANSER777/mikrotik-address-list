@@ -1,7 +1,7 @@
 # GeoIP address list — DK
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DK | Subnets: 1276 (was 1561, collapsed 285) | IPs: ~12,080,736
+# Countries: DK | Subnets: 1276 (was 1561, collapsed 285) | IPs: ~12,056,160
 #
 /ip firewall address-list
 remove [find list=GEO_DK]
@@ -227,7 +227,8 @@ add address=87.56.32.0/19 list=GEO_DK comment=DK
 add address=87.56.128.0/17 list=GEO_DK comment=DK
 add address=87.57.0.0/16 list=GEO_DK comment=DK
 add address=87.58.0.0/18 list=GEO_DK comment=DK
-add address=87.58.128.0/17 list=GEO_DK comment=DK
+add address=87.58.128.0/18 list=GEO_DK comment=DK
+add address=87.58.224.0/19 list=GEO_DK comment=DK
 add address=87.59.0.0/16 list=GEO_DK comment=DK
 add address=87.60.0.0/14 list=GEO_DK comment=DK
 add address=87.72.0.0/15 list=GEO_DK comment=DK
@@ -441,7 +442,6 @@ add address=147.29.0.0/16 list=GEO_DK comment=DK
 add address=147.78.28.0/22 list=GEO_DK comment=DK
 add address=147.78.72.0/22 list=GEO_DK comment=DK
 add address=150.251.224.0/21 list=GEO_DK comment=DK
-add address=151.216.128.0/18 list=GEO_DK comment=DK
 add address=152.73.0.0/16 list=GEO_DK comment=DK
 add address=152.95.0.0/16 list=GEO_DK comment=DK
 add address=152.115.0.0/16 list=GEO_DK comment=DK

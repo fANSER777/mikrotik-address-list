@@ -1,7 +1,7 @@
 # GeoIP address list — NP
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NP | Subnets: 266 (was 276, collapsed 10) | IPs: ~582,656
+# Countries: NP | Subnets: 267 (was 277, collapsed 10) | IPs: ~582,912
 #
 /ip firewall address-list
 remove [find list=GEO_NP]
@@ -225,6 +225,7 @@ add address=160.30.180.0/23 list=GEO_NP comment=NP
 add address=160.250.254.0/23 list=GEO_NP comment=NP
 add address=161.248.156.0/23 list=GEO_NP comment=NP
 add address=161.248.216.0/23 list=GEO_NP comment=NP
+add address=162.4.106.0/24 list=GEO_NP comment=NP
 add address=163.47.148.0/22 list=GEO_NP comment=NP
 add address=163.53.24.0/23 list=GEO_NP comment=NP
 add address=163.61.40.0/23 list=GEO_NP comment=NP

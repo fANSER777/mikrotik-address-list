@@ -1,7 +1,7 @@
 # GeoIP address list — UA
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UA | Subnets: 2658 (was 2888, collapsed 230) | IPs: ~9,099,264
+# Countries: UA | Subnets: 2659 (was 2890, collapsed 231) | IPs: ~9,099,520
 #
 /ip firewall address-list
 remove [find list=GEO_UA]
@@ -2643,6 +2643,7 @@ add address=213.227.192.0/18 list=GEO_UA comment=UA
 add address=213.231.0.0/18 list=GEO_UA comment=UA
 add address=213.232.234.0/24 list=GEO_UA comment=UA
 add address=217.9.0.0/20 list=GEO_UA comment=UA
+add address=217.18.51.0/24 list=GEO_UA comment=UA
 add address=217.18.216.0/22 list=GEO_UA comment=UA
 add address=217.24.160.0/20 list=GEO_UA comment=UA
 add address=217.25.192.0/20 list=GEO_UA comment=UA

@@ -1,7 +1,7 @@
 # GeoIP address list — CZ
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CZ | Subnets: 1550 (was 1771, collapsed 221) | IPs: ~9,557,952
+# Countries: CZ | Subnets: 1551 (was 1772, collapsed 221) | IPs: ~9,563,072
 #
 /ip firewall address-list
 remove [find list=GEO_CZ]
@@ -417,7 +417,6 @@ add address=90.177.0.0/16 list=GEO_CZ comment=CZ
 add address=90.178.0.0/15 list=GEO_CZ comment=CZ
 add address=90.180.0.0/14 list=GEO_CZ comment=CZ
 add address=91.103.160.0/21 list=GEO_CZ comment=CZ
-add address=91.106.240.0/20 list=GEO_CZ comment=CZ
 add address=91.108.185.0/24 list=GEO_CZ comment=CZ
 add address=91.109.32.0/21 list=GEO_CZ comment=CZ
 add address=91.132.204.0/22 list=GEO_CZ comment=CZ
@@ -660,6 +659,7 @@ add address=151.249.104.0/21 list=GEO_CZ comment=CZ
 add address=151.249.128.0/17 list=GEO_CZ comment=CZ
 add address=152.89.168.0/23 list=GEO_CZ comment=CZ
 add address=152.114.200.0/23 list=GEO_CZ comment=CZ
+add address=153.76.160.0/19 list=GEO_CZ comment=CZ
 add address=156.137.0.0/16 list=GEO_CZ comment=CZ
 add address=158.194.0.0/16 list=GEO_CZ comment=CZ
 add address=158.196.0.0/16 list=GEO_CZ comment=CZ
@@ -1548,6 +1548,7 @@ add address=217.117.208.0/20 list=GEO_CZ comment=CZ
 add address=217.168.208.0/20 list=GEO_CZ comment=CZ
 add address=217.169.176.0/20 list=GEO_CZ comment=CZ
 add address=217.170.96.0/20 list=GEO_CZ comment=CZ
+add address=217.179.228.0/22 list=GEO_CZ comment=CZ
 add address=217.194.160.0/20 list=GEO_CZ comment=CZ
 add address=217.195.160.0/20 list=GEO_CZ comment=CZ
 add address=217.196.112.0/20 list=GEO_CZ comment=CZ

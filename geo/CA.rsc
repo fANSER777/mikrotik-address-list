@@ -1,7 +1,7 @@
 # GeoIP address list — CA
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CA | Subnets: 6271 (was 9220, collapsed 2949) | IPs: ~67,600,896
+# Countries: CA | Subnets: 6272 (was 9221, collapsed 2949) | IPs: ~67,601,408
 #
 /ip firewall address-list
 remove [find list=GEO_CA]
@@ -50,7 +50,6 @@ add address=23.131.32.0/24 list=GEO_CA comment=CA
 add address=23.131.40.0/24 list=GEO_CA comment=CA
 add address=23.131.112.0/24 list=GEO_CA comment=CA
 add address=23.131.120.0/24 list=GEO_CA comment=CA
-add address=23.131.148.0/24 list=GEO_CA comment=CA
 add address=23.132.28.0/24 list=GEO_CA comment=CA
 add address=23.132.108.0/24 list=GEO_CA comment=CA
 add address=23.132.148.0/24 list=GEO_CA comment=CA
@@ -191,6 +190,7 @@ add address=23.156.160.0/24 list=GEO_CA comment=CA
 add address=23.156.176.0/24 list=GEO_CA comment=CA
 add address=23.156.232.0/24 list=GEO_CA comment=CA
 add address=23.157.136.0/24 list=GEO_CA comment=CA
+add address=23.158.4.0/24 list=GEO_CA comment=CA
 add address=23.158.48.0/24 list=GEO_CA comment=CA
 add address=23.158.128.0/24 list=GEO_CA comment=CA
 add address=23.159.16.0/24 list=GEO_CA comment=CA
@@ -392,6 +392,7 @@ add address=24.244.192.0/18 list=GEO_CA comment=CA
 add address=24.245.224.0/20 list=GEO_CA comment=CA
 add address=24.246.0.0/18 list=GEO_CA comment=CA
 add address=24.246.64.0/19 list=GEO_CA comment=CA
+add address=31.207.2.0/23 list=GEO_CA comment=CA
 add address=37.143.128.0/22 list=GEO_CA comment=CA
 add address=43.243.84.0/22 list=GEO_CA comment=CA
 add address=45.2.0.0/16 list=GEO_CA comment=CA

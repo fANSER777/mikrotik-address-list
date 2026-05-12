@@ -1,5 +1,5 @@
 # GeoIP address list — CH
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CH | Subnets: 2670 (was 3050, collapsed 380) | IPs: ~23,390,064
 #
@@ -613,7 +613,6 @@ add address=91.236.220.0/24 list=GEO_CH comment=CH
 add address=91.238.144.0/24 list=GEO_CH comment=CH
 add address=91.238.226.0/24 list=GEO_CH comment=CH
 add address=91.239.52.0/24 list=GEO_CH comment=CH
-add address=91.239.75.0/24 list=GEO_CH comment=CH
 add address=91.240.18.0/23 list=GEO_CH comment=CH
 add address=91.245.160.0/20 list=GEO_CH comment=CH
 add address=91.245.218.0/24 list=GEO_CH comment=CH
@@ -1938,6 +1937,7 @@ add address=193.163.186.0/24 list=GEO_CH comment=CH
 add address=193.164.24.0/22 list=GEO_CH comment=CH
 add address=193.164.145.0/24 list=GEO_CH comment=CH
 add address=193.164.244.0/23 list=GEO_CH comment=CH
+add address=193.168.165.0/24 list=GEO_CH comment=CH
 add address=193.168.212.0/22 list=GEO_CH comment=CH
 add address=193.169.2.0/23 list=GEO_CH comment=CH
 add address=193.169.82.0/23 list=GEO_CH comment=CH

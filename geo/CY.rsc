@@ -1,7 +1,7 @@
 # GeoIP address list — CY
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CY | Subnets: 534 (was 584, collapsed 50) | IPs: ~1,291,840
+# Countries: CY | Subnets: 535 (was 585, collapsed 50) | IPs: ~1,293,888
 #
 /ip firewall address-list
 remove [find list=GEO_CY]
@@ -173,6 +173,7 @@ add address=88.218.232.0/22 list=GEO_CY comment=CY
 add address=89.38.128.0/22 list=GEO_CY comment=CY
 add address=89.38.135.0/24 list=GEO_CY comment=CY
 add address=89.43.33.0/24 list=GEO_CY comment=CY
+add address=89.126.232.0/21 list=GEO_CY comment=CY
 add address=89.232.172.0/22 list=GEO_CY comment=CY
 add address=89.248.71.0/24 list=GEO_CY comment=CY
 add address=91.92.108.0/24 list=GEO_CY comment=CY

@@ -1,7 +1,7 @@
 # GeoIP address list — JE
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JE | Subnets: 44 (was 46, collapsed 2) | IPs: ~145,152
+# Countries: JE | Subnets: 45 (was 47, collapsed 2) | IPs: ~147,200
 #
 /ip firewall address-list
 remove [find list=GEO_JE]
@@ -20,6 +20,7 @@ add address=95.172.89.0/24 list=GEO_JE comment=JE
 add address=103.105.148.0/22 list=GEO_JE comment=JE
 add address=109.68.192.0/22 list=GEO_JE comment=JE
 add address=146.19.127.0/24 list=GEO_JE comment=JE
+add address=159.255.208.0/21 list=GEO_JE comment=JE
 add address=165.250.0.0/16 list=GEO_JE comment=JE
 add address=173.255.144.0/22 list=GEO_JE comment=JE
 add address=173.255.149.0/24 list=GEO_JE comment=JE

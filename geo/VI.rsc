@@ -1,19 +1,17 @@
 # GeoIP address list — VI
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VI | Subnets: 26 (was 26, collapsed 0) | IPs: ~131,840
+# Countries: VI | Subnets: 24 (was 24, collapsed 0) | IPs: ~130,304
 #
 /ip firewall address-list
 remove [find list=GEO_VI]
 add address=23.143.120.0/24 list=GEO_VI comment=VI
-add address=23.177.184.0/23 list=GEO_VI comment=VI
 add address=66.59.216.0/24 list=GEO_VI comment=VI
 add address=66.185.32.0/20 list=GEO_VI comment=VI
 add address=66.248.160.0/19 list=GEO_VI comment=VI
 add address=67.211.240.0/20 list=GEO_VI comment=VI
 add address=98.142.160.0/20 list=GEO_VI comment=VI
 add address=104.192.184.0/21 list=GEO_VI comment=VI
-add address=130.12.44.0/22 list=GEO_VI comment=VI
 add address=131.143.68.0/22 list=GEO_VI comment=VI
 add address=132.147.224.0/20 list=GEO_VI comment=VI
 add address=136.143.195.0/24 list=GEO_VI comment=VI

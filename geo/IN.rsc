@@ -1,7 +1,7 @@
 # GeoIP address list — IN
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7126 (was 9205, collapsed 2079) | IPs: ~41,921,536
+# Countries: IN | Subnets: 7132 (was 9214, collapsed 2082) | IPs: ~41,924,864
 #
 /ip firewall address-list
 remove [find list=GEO_IN]
@@ -1158,7 +1158,6 @@ add address=103.35.120.0/23 list=GEO_IN comment=IN
 add address=103.35.123.0/24 list=GEO_IN comment=IN
 add address=103.35.132.0/22 list=GEO_IN comment=IN
 add address=103.35.142.0/24 list=GEO_IN comment=IN
-add address=103.35.164.0/23 list=GEO_IN comment=IN
 add address=103.35.192.0/21 list=GEO_IN comment=IN
 add address=103.35.217.0/24 list=GEO_IN comment=IN
 add address=103.35.232.0/22 list=GEO_IN comment=IN
@@ -1302,7 +1301,6 @@ add address=103.47.236.0/22 list=GEO_IN comment=IN
 add address=103.48.2.0/23 list=GEO_IN comment=IN
 add address=103.48.42.0/23 list=GEO_IN comment=IN
 add address=103.48.44.0/22 list=GEO_IN comment=IN
-add address=103.48.50.0/23 list=GEO_IN comment=IN
 add address=103.48.56.0/21 list=GEO_IN comment=IN
 add address=103.48.64.0/21 list=GEO_IN comment=IN
 add address=103.48.72.0/22 list=GEO_IN comment=IN
@@ -2893,7 +2891,6 @@ add address=103.140.2.0/24 list=GEO_IN comment=IN
 add address=103.140.16.0/22 list=GEO_IN comment=IN
 add address=103.140.23.0/24 list=GEO_IN comment=IN
 add address=103.140.26.0/23 list=GEO_IN comment=IN
-add address=103.140.37.0/24 list=GEO_IN comment=IN
 add address=103.140.46.0/23 list=GEO_IN comment=IN
 add address=103.140.50.0/23 list=GEO_IN comment=IN
 add address=103.140.52.0/24 list=GEO_IN comment=IN
@@ -6135,6 +6132,15 @@ add address=162.4.12.0/22 list=GEO_IN comment=IN
 add address=162.4.20.0/23 list=GEO_IN comment=IN
 add address=162.4.24.0/23 list=GEO_IN comment=IN
 add address=162.4.42.0/23 list=GEO_IN comment=IN
+add address=162.4.66.0/23 list=GEO_IN comment=IN
+add address=162.4.70.0/24 list=GEO_IN comment=IN
+add address=162.4.72.0/22 list=GEO_IN comment=IN
+add address=162.4.80.0/22 list=GEO_IN comment=IN
+add address=162.4.93.0/24 list=GEO_IN comment=IN
+add address=162.4.97.0/24 list=GEO_IN comment=IN
+add address=162.4.100.0/23 list=GEO_IN comment=IN
+add address=162.4.102.0/24 list=GEO_IN comment=IN
+add address=162.4.108.0/22 list=GEO_IN comment=IN
 add address=162.12.244.0/22 list=GEO_IN comment=IN
 add address=162.56.0.0/16 list=GEO_IN comment=IN
 add address=162.216.140.0/22 list=GEO_IN comment=IN
@@ -6588,6 +6594,7 @@ add address=194.76.120.0/23 list=GEO_IN comment=IN
 add address=194.88.142.0/23 list=GEO_IN comment=IN
 add address=194.104.104.0/22 list=GEO_IN comment=IN
 add address=194.110.48.0/22 list=GEO_IN comment=IN
+add address=194.113.80.0/23 list=GEO_IN comment=IN
 add address=194.116.208.0/24 list=GEO_IN comment=IN
 add address=194.124.239.0/24 list=GEO_IN comment=IN
 add address=194.124.240.0/24 list=GEO_IN comment=IN
@@ -6753,7 +6760,6 @@ add address=202.63.96.0/19 list=GEO_IN comment=IN
 add address=202.63.252.0/24 list=GEO_IN comment=IN
 add address=202.65.128.0/19 list=GEO_IN comment=IN
 add address=202.66.164.0/22 list=GEO_IN comment=IN
-add address=202.66.172.0/22 list=GEO_IN comment=IN
 add address=202.66.176.0/22 list=GEO_IN comment=IN
 add address=202.66.186.0/23 list=GEO_IN comment=IN
 add address=202.66.188.0/22 list=GEO_IN comment=IN

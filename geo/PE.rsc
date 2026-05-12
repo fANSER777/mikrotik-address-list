@@ -1,7 +1,7 @@
 # GeoIP address list — PE
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PE | Subnets: 231 (was 266, collapsed 35) | IPs: ~3,248,896
+# Countries: PE | Subnets: 232 (was 267, collapsed 35) | IPs: ~3,249,920
 #
 /ip firewall address-list
 remove [find list=GEO_PE]
@@ -11,6 +11,7 @@ add address=45.5.68.0/22 list=GEO_PE comment=PE
 add address=45.65.248.0/22 list=GEO_PE comment=PE
 add address=45.68.23.0/24 list=GEO_PE comment=PE
 add address=45.68.56.0/22 list=GEO_PE comment=PE
+add address=45.68.116.0/22 list=GEO_PE comment=PE
 add address=45.71.32.0/22 list=GEO_PE comment=PE
 add address=45.167.228.0/22 list=GEO_PE comment=PE
 add address=45.169.36.0/22 list=GEO_PE comment=PE

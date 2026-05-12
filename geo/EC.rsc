@@ -1,7 +1,7 @@
 # GeoIP address list — EC
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: EC | Subnets: 312 (was 433, collapsed 121) | IPs: ~2,724,096
+# Countries: EC | Subnets: 313 (was 434, collapsed 121) | IPs: ~2,725,120
 #
 /ip firewall address-list
 remove [find list=GEO_EC]
@@ -11,6 +11,7 @@ add address=45.4.200.0/22 list=GEO_EC comment=EC
 add address=45.6.224.0/22 list=GEO_EC comment=EC
 add address=45.65.203.0/24 list=GEO_EC comment=EC
 add address=45.68.96.0/22 list=GEO_EC comment=EC
+add address=45.68.120.0/22 list=GEO_EC comment=EC
 add address=45.70.12.0/22 list=GEO_EC comment=EC
 add address=45.70.56.0/22 list=GEO_EC comment=EC
 add address=45.70.196.0/22 list=GEO_EC comment=EC

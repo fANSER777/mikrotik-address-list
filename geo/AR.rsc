@@ -1,7 +1,7 @@
 # GeoIP address list — AR
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AR | Subnets: 1598 (was 1937, collapsed 339) | IPs: ~19,435,776
+# Countries: AR | Subnets: 1599 (was 1938, collapsed 339) | IPs: ~19,434,752
 #
 /ip firewall address-list
 remove [find list=GEO_AR]
@@ -1072,7 +1072,6 @@ add address=190.15.192.0/19 list=GEO_AR comment=AR
 add address=190.15.224.0/20 list=GEO_AR comment=AR
 add address=190.15.240.0/21 list=GEO_AR comment=AR
 add address=190.15.248.0/23 list=GEO_AR comment=AR
-add address=190.15.250.0/24 list=GEO_AR comment=AR
 add address=190.16.0.0/14 list=GEO_AR comment=AR
 add address=190.30.0.0/15 list=GEO_AR comment=AR
 add address=190.48.0.0/14 list=GEO_AR comment=AR
@@ -1517,12 +1516,14 @@ add address=200.117.0.0/16 list=GEO_AR comment=AR
 add address=200.122.0.0/17 list=GEO_AR comment=AR
 add address=200.123.32.0/22 list=GEO_AR comment=AR
 add address=200.123.38.0/23 list=GEO_AR comment=AR
-add address=200.123.40.0/22 list=GEO_AR comment=AR
+add address=200.123.40.0/23 list=GEO_AR comment=AR
+add address=200.123.43.0/24 list=GEO_AR comment=AR
 add address=200.123.45.0/24 list=GEO_AR comment=AR
 add address=200.123.46.0/23 list=GEO_AR comment=AR
 add address=200.123.48.0/21 list=GEO_AR comment=AR
-add address=200.123.56.0/22 list=GEO_AR comment=AR
-add address=200.123.60.0/23 list=GEO_AR comment=AR
+add address=200.123.56.0/23 list=GEO_AR comment=AR
+add address=200.123.58.0/24 list=GEO_AR comment=AR
+add address=200.123.60.0/24 list=GEO_AR comment=AR
 add address=200.123.63.0/24 list=GEO_AR comment=AR
 add address=200.123.64.0/18 list=GEO_AR comment=AR
 add address=200.123.128.0/18 list=GEO_AR comment=AR

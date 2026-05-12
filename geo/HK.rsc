@@ -1,7 +1,7 @@
 # GeoIP address list — HK
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: HK | Subnets: 2971 (was 3321, collapsed 350) | IPs: ~15,210,560
+# Countries: HK | Subnets: 2972 (was 3322, collapsed 350) | IPs: ~15,276,864
 #
 /ip firewall address-list
 remove [find list=GEO_HK]
@@ -22,6 +22,7 @@ add address=5.172.179.0/24 list=GEO_HK comment=HK
 add address=5.182.116.0/22 list=GEO_HK comment=HK
 add address=5.182.216.0/22 list=GEO_HK comment=HK
 add address=5.254.128.0/19 list=GEO_HK comment=HK
+add address=9.176.0.0/16 list=GEO_HK comment=HK
 add address=14.0.128.0/17 list=GEO_HK comment=HK
 add address=14.1.20.0/22 list=GEO_HK comment=HK
 add address=14.102.90.0/24 list=GEO_HK comment=HK
@@ -197,6 +198,7 @@ add address=43.251.24.0/22 list=GEO_HK comment=HK
 add address=43.251.32.0/22 list=GEO_HK comment=HK
 add address=43.251.44.0/22 list=GEO_HK comment=HK
 add address=43.251.76.0/22 list=GEO_HK comment=HK
+add address=43.251.100.0/22 list=GEO_HK comment=HK
 add address=43.251.104.0/22 list=GEO_HK comment=HK
 add address=43.251.132.0/22 list=GEO_HK comment=HK
 add address=43.251.140.0/22 list=GEO_HK comment=HK
@@ -531,7 +533,6 @@ add address=83.171.232.0/22 list=GEO_HK comment=HK
 add address=83.229.40.0/21 list=GEO_HK comment=HK
 add address=83.229.120.0/21 list=GEO_HK comment=HK
 add address=84.21.160.0/22 list=GEO_HK comment=HK
-add address=84.38.4.0/24 list=GEO_HK comment=HK
 add address=84.54.8.0/22 list=GEO_HK comment=HK
 add address=84.54.16.0/22 list=GEO_HK comment=HK
 add address=84.252.68.0/22 list=GEO_HK comment=HK
@@ -959,6 +960,7 @@ add address=103.80.252.0/23 list=GEO_HK comment=HK
 add address=103.81.247.0/24 list=GEO_HK comment=HK
 add address=103.82.4.0/23 list=GEO_HK comment=HK
 add address=103.82.16.0/22 list=GEO_HK comment=HK
+add address=103.82.52.0/22 list=GEO_HK comment=HK
 add address=103.82.168.0/22 list=GEO_HK comment=HK
 add address=103.82.212.0/22 list=GEO_HK comment=HK
 add address=103.82.216.0/22 list=GEO_HK comment=HK
@@ -2122,7 +2124,6 @@ add address=185.92.180.0/22 list=GEO_HK comment=HK
 add address=185.94.67.0/24 list=GEO_HK comment=HK
 add address=185.106.176.0/22 list=GEO_HK comment=HK
 add address=185.109.236.0/22 list=GEO_HK comment=HK
-add address=185.118.60.0/22 list=GEO_HK comment=HK
 add address=185.128.41.0/24 list=GEO_HK comment=HK
 add address=185.128.42.0/23 list=GEO_HK comment=HK
 add address=185.128.224.0/24 list=GEO_HK comment=HK

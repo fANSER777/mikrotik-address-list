@@ -1,7 +1,7 @@
 # GeoIP address list — ES
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ES | Subnets: 3410 (was 3778, collapsed 368) | IPs: ~32,112,256
+# Countries: ES | Subnets: 3408 (was 3776, collapsed 368) | IPs: ~32,106,112
 #
 /ip firewall address-list
 remove [find list=GEO_ES]
@@ -646,7 +646,7 @@ add address=82.130.128.0/17 list=GEO_ES comment=ES
 add address=82.144.0.0/19 list=GEO_ES comment=ES
 add address=82.144.96.0/19 list=GEO_ES comment=ES
 add address=82.158.160.0/19 list=GEO_ES comment=ES
-add address=82.158.192.0/19 list=GEO_ES comment=ES
+add address=82.158.192.0/20 list=GEO_ES comment=ES
 add address=82.159.0.0/16 list=GEO_ES comment=ES
 add address=82.194.64.0/19 list=GEO_ES comment=ES
 add address=82.198.48.0/20 list=GEO_ES comment=ES
@@ -711,8 +711,6 @@ add address=85.137.82.0/23 list=GEO_ES comment=ES
 add address=85.137.180.0/23 list=GEO_ES comment=ES
 add address=85.137.183.0/24 list=GEO_ES comment=ES
 add address=85.137.212.0/22 list=GEO_ES comment=ES
-add address=85.137.216.0/22 list=GEO_ES comment=ES
-add address=85.137.224.0/22 list=GEO_ES comment=ES
 add address=85.152.0.0/16 list=GEO_ES comment=ES
 add address=85.155.0.0/19 list=GEO_ES comment=ES
 add address=85.155.192.0/19 list=GEO_ES comment=ES

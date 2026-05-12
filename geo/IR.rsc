@@ -1,7 +1,7 @@
 # GeoIP address list — IR
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IR | Subnets: 1713 (was 1920, collapsed 207) | IPs: ~10,819,584
+# Countries: IR | Subnets: 1716 (was 1923, collapsed 207) | IPs: ~10,820,352
 #
 /ip firewall address-list
 remove [find list=GEO_IR]
@@ -555,6 +555,7 @@ add address=91.216.217.0/24 list=GEO_IR comment=IR
 add address=91.217.64.0/23 list=GEO_IR comment=IR
 add address=91.217.166.0/24 list=GEO_IR comment=IR
 add address=91.217.177.0/24 list=GEO_IR comment=IR
+add address=91.219.116.0/24 list=GEO_IR comment=IR
 add address=91.220.0.0/24 list=GEO_IR comment=IR
 add address=91.220.79.0/24 list=GEO_IR comment=IR
 add address=91.220.113.0/24 list=GEO_IR comment=IR
@@ -776,6 +777,7 @@ add address=158.58.184.0/21 list=GEO_IR comment=IR
 add address=158.255.74.0/24 list=GEO_IR comment=IR
 add address=158.255.78.0/24 list=GEO_IR comment=IR
 add address=159.20.96.0/20 list=GEO_IR comment=IR
+add address=164.40.233.0/24 list=GEO_IR comment=IR
 add address=164.138.16.0/21 list=GEO_IR comment=IR
 add address=164.138.128.0/18 list=GEO_IR comment=IR
 add address=164.138.202.0/23 list=GEO_IR comment=IR
@@ -1700,6 +1702,7 @@ add address=213.207.192.0/18 list=GEO_IR comment=IR
 add address=213.232.124.0/22 list=GEO_IR comment=IR
 add address=213.233.160.0/19 list=GEO_IR comment=IR
 add address=217.11.16.0/20 list=GEO_IR comment=IR
+add address=217.18.48.0/24 list=GEO_IR comment=IR
 add address=217.18.90.0/24 list=GEO_IR comment=IR
 add address=217.18.94.0/24 list=GEO_IR comment=IR
 add address=217.20.252.0/24 list=GEO_IR comment=IR

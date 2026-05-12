@@ -1,7 +1,7 @@
 # GeoIP address list — NO
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NO | Subnets: 1227 (was 1320, collapsed 93) | IPs: ~15,602,960
+# Countries: NO | Subnets: 1228 (was 1321, collapsed 93) | IPs: ~15,603,216
 #
 /ip firewall address-list
 remove [find list=GEO_NO]
@@ -1158,6 +1158,7 @@ add address=204.79.219.0/24 list=GEO_NO comment=NO
 add address=204.79.232.0/23 list=GEO_NO comment=NO
 add address=204.79.234.0/24 list=GEO_NO comment=NO
 add address=205.132.48.0/21 list=GEO_NO comment=NO
+add address=207.241.179.0/24 list=GEO_NO comment=NO
 add address=212.4.32.0/19 list=GEO_NO comment=NO
 add address=212.17.128.0/19 list=GEO_NO comment=NO
 add address=212.18.128.0/19 list=GEO_NO comment=NO

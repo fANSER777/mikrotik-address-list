@@ -1,7 +1,7 @@
 # GeoIP address list — NG
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NG | Subnets: 390 (was 405, collapsed 15) | IPs: ~3,201,536
+# Countries: NG | Subnets: 393 (was 408, collapsed 15) | IPs: ~3,203,328
 #
 /ip firewall address-list
 remove [find list=GEO_NG]
@@ -114,6 +114,9 @@ add address=102.164.44.0/22 list=GEO_NG comment=NG
 add address=102.165.124.0/22 list=GEO_NG comment=NG
 add address=102.165.184.0/22 list=GEO_NG comment=NG
 add address=102.176.240.0/21 list=GEO_NG comment=NG
+add address=102.202.144.0/22 list=GEO_NG comment=NG
+add address=102.202.152.0/23 list=GEO_NG comment=NG
+add address=102.202.155.0/24 list=GEO_NG comment=NG
 add address=102.202.164.0/23 list=GEO_NG comment=NG
 add address=102.202.184.0/22 list=GEO_NG comment=NG
 add address=102.202.212.0/22 list=GEO_NG comment=NG

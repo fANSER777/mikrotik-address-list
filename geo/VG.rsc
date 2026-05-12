@@ -1,7 +1,7 @@
 # GeoIP address list — VG
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VG | Subnets: 204 (was 204, collapsed 0) | IPs: ~255,232
+# Countries: VG | Subnets: 206 (was 206, collapsed 0) | IPs: ~255,744
 #
 /ip firewall address-list
 remove [find list=GEO_VG]
@@ -82,6 +82,7 @@ add address=103.144.140.0/23 list=GEO_VG comment=VG
 add address=104.254.96.0/23 list=GEO_VG comment=VG
 add address=104.254.124.0/22 list=GEO_VG comment=VG
 add address=109.206.224.0/22 list=GEO_VG comment=VG
+add address=131.143.28.0/24 list=GEO_VG comment=VG
 add address=137.220.1.0/24 list=GEO_VG comment=VG
 add address=138.99.216.0/22 list=GEO_VG comment=VG
 add address=139.28.220.0/22 list=GEO_VG comment=VG
@@ -205,6 +206,7 @@ add address=206.81.110.0/24 list=GEO_VG comment=VG
 add address=208.64.44.0/22 list=GEO_VG comment=VG
 add address=208.73.208.0/22 list=GEO_VG comment=VG
 add address=208.91.196.0/23 list=GEO_VG comment=VG
+add address=209.209.25.0/24 list=GEO_VG comment=VG
 add address=212.111.128.0/19 list=GEO_VG comment=VG
 add address=213.40.0.0/16 list=GEO_VG comment=VG
 add address=213.108.196.0/22 list=GEO_VG comment=VG

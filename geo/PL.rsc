@@ -1,7 +1,7 @@
 # GeoIP address list — PL
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PL | Subnets: 3933 (was 4305, collapsed 372) | IPs: ~19,991,304
+# Countries: PL | Subnets: 3938 (was 4310, collapsed 372) | IPs: ~19,994,632
 #
 /ip firewall address-list
 remove [find list=GEO_PL]
@@ -159,6 +159,7 @@ add address=45.11.199.0/24 list=GEO_PL comment=PL
 add address=45.13.27.0/24 list=GEO_PL comment=PL
 add address=45.66.20.0/22 list=GEO_PL comment=PL
 add address=45.66.140.0/22 list=GEO_PL comment=PL
+add address=45.74.214.0/23 list=GEO_PL comment=PL
 add address=45.82.144.0/22 list=GEO_PL comment=PL
 add address=45.85.8.0/22 list=GEO_PL comment=PL
 add address=45.85.184.0/22 list=GEO_PL comment=PL
@@ -1019,6 +1020,7 @@ add address=91.218.240.0/22 list=GEO_PL comment=PL
 add address=91.219.0.0/22 list=GEO_PL comment=PL
 add address=91.219.104.0/22 list=GEO_PL comment=PL
 add address=91.219.112.0/22 list=GEO_PL comment=PL
+add address=91.219.119.0/24 list=GEO_PL comment=PL
 add address=91.219.120.0/22 list=GEO_PL comment=PL
 add address=91.219.128.0/22 list=GEO_PL comment=PL
 add address=91.219.184.0/22 list=GEO_PL comment=PL
@@ -1410,6 +1412,7 @@ add address=91.239.28.0/22 list=GEO_PL comment=PL
 add address=91.239.36.0/24 list=GEO_PL comment=PL
 add address=91.239.61.0/24 list=GEO_PL comment=PL
 add address=91.239.66.0/23 list=GEO_PL comment=PL
+add address=91.239.75.0/24 list=GEO_PL comment=PL
 add address=91.239.76.0/22 list=GEO_PL comment=PL
 add address=91.239.90.0/24 list=GEO_PL comment=PL
 add address=91.239.113.0/24 list=GEO_PL comment=PL
@@ -1702,6 +1705,7 @@ add address=162.27.162.0/24 list=GEO_PL comment=PL
 add address=164.40.240.0/21 list=GEO_PL comment=PL
 add address=164.126.0.0/15 list=GEO_PL comment=PL
 add address=167.104.48.0/24 list=GEO_PL comment=PL
+add address=167.104.112.0/21 list=GEO_PL comment=PL
 add address=168.222.232.0/21 list=GEO_PL comment=PL
 add address=170.117.202.0/23 list=GEO_PL comment=PL
 add address=171.22.80.0/22 list=GEO_PL comment=PL
@@ -1858,6 +1862,7 @@ add address=178.250.40.0/21 list=GEO_PL comment=PL
 add address=178.251.120.0/22 list=GEO_PL comment=PL
 add address=178.252.0.0/18 list=GEO_PL comment=PL
 add address=178.255.40.0/21 list=GEO_PL comment=PL
+add address=185.0.2.0/24 list=GEO_PL comment=PL
 add address=185.0.16.0/24 list=GEO_PL comment=PL
 add address=185.0.42.0/23 list=GEO_PL comment=PL
 add address=185.1.4.0/22 list=GEO_PL comment=PL

@@ -1,7 +1,7 @@
 # GeoIP address list — IT
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IT | Subnets: 3338 (was 3713, collapsed 375) | IPs: ~53,929,856
+# Countries: IT | Subnets: 3343 (was 3718, collapsed 375) | IPs: ~53,996,416
 #
 /ip firewall address-list
 remove [find list=GEO_IT]
@@ -325,6 +325,7 @@ add address=45.144.140.0/22 list=GEO_IT comment=IT
 add address=45.144.152.0/23 list=GEO_IT comment=IT
 add address=45.145.24.0/22 list=GEO_IT comment=IT
 add address=45.145.200.0/21 list=GEO_IT comment=IT
+add address=45.146.5.0/24 list=GEO_IT comment=IT
 add address=45.147.236.0/22 list=GEO_IT comment=IT
 add address=45.148.20.0/22 list=GEO_IT comment=IT
 add address=45.148.212.0/22 list=GEO_IT comment=IT
@@ -1421,12 +1422,14 @@ add address=160.238.61.0/24 list=GEO_IT comment=IT
 add address=160.238.112.0/22 list=GEO_IT comment=IT
 add address=161.27.0.0/16 list=GEO_IT comment=IT
 add address=161.147.0.0/16 list=GEO_IT comment=IT
+add address=162.25.0.0/16 list=GEO_IT comment=IT
 add address=162.33.208.0/21 list=GEO_IT comment=IT
 add address=163.162.0.0/16 list=GEO_IT comment=IT
 add address=163.223.106.0/23 list=GEO_IT comment=IT
 add address=164.40.184.0/24 list=GEO_IT comment=IT
 add address=164.40.186.0/23 list=GEO_IT comment=IT
 add address=164.40.188.0/22 list=GEO_IT comment=IT
+add address=164.40.235.0/24 list=GEO_IT comment=IT
 add address=164.130.0.0/16 list=GEO_IT comment=IT
 add address=164.138.48.0/21 list=GEO_IT comment=IT
 add address=164.142.0.0/16 list=GEO_IT comment=IT
@@ -2763,6 +2766,7 @@ add address=193.168.52.0/23 list=GEO_IT comment=IT
 add address=193.168.56.0/23 list=GEO_IT comment=IT
 add address=193.168.132.0/22 list=GEO_IT comment=IT
 add address=193.168.160.0/22 list=GEO_IT comment=IT
+add address=193.168.164.0/24 list=GEO_IT comment=IT
 add address=193.168.216.0/24 list=GEO_IT comment=IT
 add address=193.169.20.0/24 list=GEO_IT comment=IT
 add address=193.169.56.0/23 list=GEO_IT comment=IT
@@ -2992,6 +2996,7 @@ add address=194.247.28.0/23 list=GEO_IT comment=IT
 add address=194.247.56.0/24 list=GEO_IT comment=IT
 add address=195.2.218.0/23 list=GEO_IT comment=IT
 add address=195.7.16.0/22 list=GEO_IT comment=IT
+add address=195.13.35.0/24 list=GEO_IT comment=IT
 add address=195.14.102.0/23 list=GEO_IT comment=IT
 add address=195.14.105.0/24 list=GEO_IT comment=IT
 add address=195.18.11.0/24 list=GEO_IT comment=IT

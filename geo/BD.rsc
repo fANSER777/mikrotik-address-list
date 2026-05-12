@@ -1,7 +1,7 @@
 # GeoIP address list — BD
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BD | Subnets: 2116 (was 2300, collapsed 184) | IPs: ~2,072,384
+# Countries: BD | Subnets: 2120 (was 2304, collapsed 184) | IPs: ~2,074,176
 #
 /ip firewall address-list
 remove [find list=GEO_BD]
@@ -1875,6 +1875,10 @@ add address=162.4.6.0/23 list=GEO_BD comment=BD
 add address=162.4.22.0/23 list=GEO_BD comment=BD
 add address=162.4.34.0/23 list=GEO_BD comment=BD
 add address=162.4.48.0/23 list=GEO_BD comment=BD
+add address=162.4.59.0/24 list=GEO_BD comment=BD
+add address=162.4.60.0/23 list=GEO_BD comment=BD
+add address=162.4.64.0/23 list=GEO_BD comment=BD
+add address=162.4.88.0/23 list=GEO_BD comment=BD
 add address=162.12.212.0/22 list=GEO_BD comment=BD
 add address=163.47.32.0/21 list=GEO_BD comment=BD
 add address=163.47.80.0/21 list=GEO_BD comment=BD

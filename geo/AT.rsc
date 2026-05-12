@@ -1,7 +1,7 @@
 # GeoIP address list — AT
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AT | Subnets: 1898 (was 2123, collapsed 225) | IPs: ~11,194,720
+# Countries: AT | Subnets: 1895 (was 2120, collapsed 225) | IPs: ~11,128,672
 #
 /ip firewall address-list
 remove [find list=GEO_AT]
@@ -397,7 +397,6 @@ add address=91.198.25.0/24 list=GEO_AT comment=AT
 add address=91.198.45.0/24 list=GEO_AT comment=AT
 add address=91.198.93.0/24 list=GEO_AT comment=AT
 add address=91.198.128.0/24 list=GEO_AT comment=AT
-add address=91.198.142.0/24 list=GEO_AT comment=AT
 add address=91.198.148.0/24 list=GEO_AT comment=AT
 add address=91.198.195.0/24 list=GEO_AT comment=AT
 add address=91.198.240.0/24 list=GEO_AT comment=AT
@@ -675,7 +674,6 @@ add address=160.20.100.0/22 list=GEO_AT comment=AT
 add address=161.5.0.0/16 list=GEO_AT comment=AT
 add address=161.108.210.0/24 list=GEO_AT comment=AT
 add address=161.110.0.0/16 list=GEO_AT comment=AT
-add address=162.25.0.0/16 list=GEO_AT comment=AT
 add address=162.211.104.0/22 list=GEO_AT comment=AT
 add address=162.213.160.0/22 list=GEO_AT comment=AT
 add address=164.3.0.0/16 list=GEO_AT comment=AT
@@ -1242,7 +1240,6 @@ add address=193.37.144.0/24 list=GEO_AT comment=AT
 add address=193.41.41.0/24 list=GEO_AT comment=AT
 add address=193.41.94.0/24 list=GEO_AT comment=AT
 add address=193.41.138.0/23 list=GEO_AT comment=AT
-add address=193.41.201.0/24 list=GEO_AT comment=AT
 add address=193.41.207.0/24 list=GEO_AT comment=AT
 add address=193.41.228.0/24 list=GEO_AT comment=AT
 add address=193.41.232.0/24 list=GEO_AT comment=AT

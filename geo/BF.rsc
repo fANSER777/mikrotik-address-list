@@ -1,7 +1,7 @@
 # GeoIP address list — BF
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BF | Subnets: 50 (was 52, collapsed 2) | IPs: ~338,176
+# Countries: BF | Subnets: 51 (was 53, collapsed 2) | IPs: ~339,200
 #
 /ip firewall address-list
 remove [find list=GEO_BF]
@@ -22,6 +22,7 @@ add address=102.69.152.0/22 list=GEO_BF comment=BF
 add address=102.176.176.0/22 list=GEO_BF comment=BF
 add address=102.178.0.0/15 list=GEO_BF comment=BF
 add address=102.180.0.0/16 list=GEO_BF comment=BF
+add address=102.202.132.0/22 list=GEO_BF comment=BF
 add address=102.204.24.0/22 list=GEO_BF comment=BF
 add address=102.204.125.0/24 list=GEO_BF comment=BF
 add address=102.207.224.0/22 list=GEO_BF comment=BF

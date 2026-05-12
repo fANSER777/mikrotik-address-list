@@ -1,7 +1,7 @@
 # GeoIP address list — EE
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: EE | Subnets: 433 (was 466, collapsed 33) | IPs: ~1,331,752
+# Countries: EE | Subnets: 434 (was 467, collapsed 33) | IPs: ~1,332,008
 #
 /ip firewall address-list
 remove [find list=GEO_EE]
@@ -205,6 +205,7 @@ add address=176.118.4.0/22 list=GEO_EE comment=EE
 add address=176.119.141.0/24 list=GEO_EE comment=EE
 add address=176.124.32.0/23 list=GEO_EE comment=EE
 add address=176.124.247.0/24 list=GEO_EE comment=EE
+add address=178.17.247.0/24 list=GEO_EE comment=EE
 add address=178.21.240.0/21 list=GEO_EE comment=EE
 add address=178.23.112.0/21 list=GEO_EE comment=EE
 add address=178.212.137.0/24 list=GEO_EE comment=EE

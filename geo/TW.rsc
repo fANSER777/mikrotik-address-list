@@ -1,7 +1,7 @@
 # GeoIP address list — TW
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TW | Subnets: 720 (was 1035, collapsed 315) | IPs: ~35,721,472
+# Countries: TW | Subnets: 722 (was 1054, collapsed 332) | IPs: ~35,738,112
 #
 /ip firewall address-list
 remove [find list=GEO_TW]
@@ -530,6 +530,7 @@ add address=161.248.128.0/23 list=GEO_TW comment=TW
 add address=161.248.132.0/22 list=GEO_TW comment=TW
 add address=161.248.144.0/23 list=GEO_TW comment=TW
 add address=161.248.160.0/23 list=GEO_TW comment=TW
+add address=162.4.92.0/24 list=GEO_TW comment=TW
 add address=163.13.0.0/16 list=GEO_TW comment=TW
 add address=163.14.0.0/15 list=GEO_TW comment=TW
 add address=163.16.0.0/12 list=GEO_TW comment=TW
@@ -570,6 +571,7 @@ add address=182.155.0.0/16 list=GEO_TW comment=TW
 add address=182.173.0.0/18 list=GEO_TW comment=TW
 add address=182.233.0.0/16 list=GEO_TW comment=TW
 add address=182.234.0.0/15 list=GEO_TW comment=TW
+add address=187.79.192.0/18 list=GEO_TW comment=TW
 add address=188.68.64.0/20 list=GEO_TW comment=TW
 add address=192.72.3.0/24 list=GEO_TW comment=TW
 add address=192.72.4.0/22 list=GEO_TW comment=TW

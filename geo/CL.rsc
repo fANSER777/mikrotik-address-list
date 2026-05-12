@@ -1,7 +1,7 @@
 # GeoIP address list — CL
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CL | Subnets: 633 (was 814, collapsed 181) | IPs: ~10,038,272
+# Countries: CL | Subnets: 634 (was 815, collapsed 181) | IPs: ~10,038,528
 #
 /ip firewall address-list
 remove [find list=GEO_CL]
@@ -593,6 +593,7 @@ add address=200.114.88.0/21 list=GEO_CL comment=CL
 add address=200.115.184.0/24 list=GEO_CL comment=CL
 add address=200.119.224.0/19 list=GEO_CL comment=CL
 add address=200.120.0.0/16 list=GEO_CL comment=CL
+add address=200.123.42.0/24 list=GEO_CL comment=CL
 add address=200.123.44.0/24 list=GEO_CL comment=CL
 add address=200.124.32.0/19 list=GEO_CL comment=CL
 add address=200.126.32.0/20 list=GEO_CL comment=CL

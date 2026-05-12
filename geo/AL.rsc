@@ -1,7 +1,7 @@
 # GeoIP address list — AL
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AL | Subnets: 232 (was 243, collapsed 11) | IPs: ~499,776
+# Countries: AL | Subnets: 231 (was 242, collapsed 11) | IPs: ~499,264
 #
 /ip firewall address-list
 remove [find list=GEO_AL]
@@ -214,7 +214,6 @@ add address=193.254.2.0/24 list=GEO_AL comment=AL
 add address=194.1.149.0/24 list=GEO_AL comment=AL
 add address=194.35.248.0/22 list=GEO_AL comment=AL
 add address=194.56.182.0/24 list=GEO_AL comment=AL
-add address=194.113.80.0/23 list=GEO_AL comment=AL
 add address=194.113.94.0/23 list=GEO_AL comment=AL
 add address=194.117.55.64/26 list=GEO_AL comment=AL
 add address=194.150.78.0/24 list=GEO_AL comment=AL

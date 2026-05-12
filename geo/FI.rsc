@@ -1,7 +1,7 @@
 # GeoIP address list — FI
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: FI | Subnets: 985 (was 1145, collapsed 160) | IPs: ~13,866,048
+# Countries: FI | Subnets: 981 (was 1141, collapsed 160) | IPs: ~13,852,992
 #
 /ip firewall address-list
 remove [find list=GEO_FI]
@@ -207,7 +207,6 @@ add address=85.136.176.0/22 list=GEO_FI comment=FI
 add address=85.156.0.0/15 list=GEO_FI comment=FI
 add address=85.188.0.0/18 list=GEO_FI comment=FI
 add address=85.194.192.0/22 list=GEO_FI comment=FI
-add address=85.194.204.0/22 list=GEO_FI comment=FI
 add address=85.194.208.0/20 list=GEO_FI comment=FI
 add address=85.194.224.0/21 list=GEO_FI comment=FI
 add address=85.194.232.0/24 list=GEO_FI comment=FI
@@ -324,7 +323,6 @@ add address=94.237.0.0/17 list=GEO_FI comment=FI
 add address=95.111.192.0/19 list=GEO_FI comment=FI
 add address=95.130.24.0/21 list=GEO_FI comment=FI
 add address=95.133.252.0/22 list=GEO_FI comment=FI
-add address=95.175.96.0/19 list=GEO_FI comment=FI
 add address=95.214.64.0/22 list=GEO_FI comment=FI
 add address=109.68.128.0/21 list=GEO_FI comment=FI
 add address=109.68.248.0/21 list=GEO_FI comment=FI
@@ -409,7 +407,6 @@ add address=164.5.224.0/20 list=GEO_FI comment=FI
 add address=164.13.0.0/16 list=GEO_FI comment=FI
 add address=164.138.0.0/20 list=GEO_FI comment=FI
 add address=164.141.0.0/16 list=GEO_FI comment=FI
-add address=164.215.32.0/21 list=GEO_FI comment=FI
 add address=171.22.241.0/24 list=GEO_FI comment=FI
 add address=176.72.0.0/16 list=GEO_FI comment=FI
 add address=176.93.0.0/16 list=GEO_FI comment=FI
@@ -434,7 +431,6 @@ add address=185.15.139.0/24 list=GEO_FI comment=FI
 add address=185.15.212.0/22 list=GEO_FI comment=FI
 add address=185.16.96.0/22 list=GEO_FI comment=FI
 add address=185.16.168.0/22 list=GEO_FI comment=FI
-add address=185.18.76.0/22 list=GEO_FI comment=FI
 add address=185.20.136.0/22 list=GEO_FI comment=FI
 add address=185.21.0.0/22 list=GEO_FI comment=FI
 add address=185.22.132.0/22 list=GEO_FI comment=FI
@@ -534,7 +530,6 @@ add address=185.151.248.0/22 list=GEO_FI comment=FI
 add address=185.153.232.0/24 list=GEO_FI comment=FI
 add address=185.158.72.0/22 list=GEO_FI comment=FI
 add address=185.159.236.0/22 list=GEO_FI comment=FI
-add address=185.162.156.0/22 list=GEO_FI comment=FI
 add address=185.163.12.0/22 list=GEO_FI comment=FI
 add address=185.163.56.0/22 list=GEO_FI comment=FI
 add address=185.163.152.0/22 list=GEO_FI comment=FI
@@ -887,6 +882,7 @@ add address=195.8.54.0/23 list=GEO_FI comment=FI
 add address=195.8.60.0/23 list=GEO_FI comment=FI
 add address=195.8.63.0/24 list=GEO_FI comment=FI
 add address=195.10.128.0/18 list=GEO_FI comment=FI
+add address=195.13.36.0/24 list=GEO_FI comment=FI
 add address=195.14.15.0/24 list=GEO_FI comment=FI
 add address=195.16.192.0/19 list=GEO_FI comment=FI
 add address=195.20.116.0/23 list=GEO_FI comment=FI

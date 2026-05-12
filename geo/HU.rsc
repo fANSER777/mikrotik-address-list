@@ -1,7 +1,7 @@
 # GeoIP address list — HU
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: HU | Subnets: 649 (was 913, collapsed 264) | IPs: ~5,924,096
+# Countries: HU | Subnets: 651 (was 915, collapsed 264) | IPs: ~5,924,864
 #
 /ip firewall address-list
 remove [find list=GEO_HU]
@@ -111,6 +111,7 @@ add address=62.112.208.0/21 list=GEO_HU comment=HU
 add address=62.165.192.0/18 list=GEO_HU comment=HU
 add address=62.201.64.0/18 list=GEO_HU comment=HU
 add address=66.203.124.0/22 list=GEO_HU comment=HU
+add address=69.30.89.0/24 list=GEO_HU comment=HU
 add address=77.74.204.0/22 list=GEO_HU comment=HU
 add address=77.110.128.0/18 list=GEO_HU comment=HU
 add address=77.111.88.0/21 list=GEO_HU comment=HU
@@ -229,6 +230,7 @@ add address=91.216.60.0/24 list=GEO_HU comment=HU
 add address=91.216.70.0/24 list=GEO_HU comment=HU
 add address=91.216.150.0/24 list=GEO_HU comment=HU
 add address=91.217.169.0/24 list=GEO_HU comment=HU
+add address=91.218.78.0/23 list=GEO_HU comment=HU
 add address=91.219.84.0/22 list=GEO_HU comment=HU
 add address=91.219.236.0/22 list=GEO_HU comment=HU
 add address=91.220.29.0/24 list=GEO_HU comment=HU

@@ -1,7 +1,7 @@
 # GeoIP address list — AU
-# Generated: 2026-05-12 10:05 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AU | Subnets: 5644 (was 6647, collapsed 1003) | IPs: ~46,115,584
+# Countries: AU | Subnets: 5647 (was 6647, collapsed 1000) | IPs: ~46,115,584
 #
 /ip firewall address-list
 remove [find list=GEO_AU]
@@ -2815,6 +2815,7 @@ add address=161.146.0.0/16 list=GEO_AU comment=AU
 add address=161.152.0.0/16 list=GEO_AU comment=AU
 add address=161.248.8.0/24 list=GEO_AU comment=AU
 add address=161.248.70.0/23 list=GEO_AU comment=AU
+add address=162.4.84.0/24 list=GEO_AU comment=AU
 add address=162.12.240.0/22 list=GEO_AU comment=AU
 add address=162.145.0.0/16 list=GEO_AU comment=AU
 add address=162.146.0.0/15 list=GEO_AU comment=AU
@@ -4119,7 +4120,9 @@ add address=203.13.36.0/23 list=GEO_AU comment=AU
 add address=203.13.38.0/24 list=GEO_AU comment=AU
 add address=203.13.41.0/24 list=GEO_AU comment=AU
 add address=203.13.43.0/24 list=GEO_AU comment=AU
-add address=203.13.64.0/21 list=GEO_AU comment=AU
+add address=203.13.64.0/22 list=GEO_AU comment=AU
+add address=203.13.68.0/24 list=GEO_AU comment=AU
+add address=203.13.70.0/23 list=GEO_AU comment=AU
 add address=203.13.74.0/23 list=GEO_AU comment=AU
 add address=203.13.76.0/23 list=GEO_AU comment=AU
 add address=203.13.90.0/23 list=GEO_AU comment=AU

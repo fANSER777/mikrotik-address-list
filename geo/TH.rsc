@@ -1,7 +1,7 @@
 # GeoIP address list — TH
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TH | Subnets: 649 (was 1178, collapsed 529) | IPs: ~9,222,144
+# Countries: TH | Subnets: 651 (was 1180, collapsed 529) | IPs: ~9,222,656
 #
 /ip firewall address-list
 remove [find list=GEO_TH]
@@ -23,6 +23,8 @@ add address=23.156.116.0/24 list=GEO_TH comment=TH
 add address=23.156.196.0/24 list=GEO_TH comment=TH
 add address=23.156.212.0/24 list=GEO_TH comment=TH
 add address=23.157.108.0/24 list=GEO_TH comment=TH
+add address=23.157.204.0/24 list=GEO_TH comment=TH
+add address=23.157.252.0/24 list=GEO_TH comment=TH
 add address=23.177.168.0/24 list=GEO_TH comment=TH
 add address=23.177.200.0/24 list=GEO_TH comment=TH
 add address=23.178.56.0/24 list=GEO_TH comment=TH

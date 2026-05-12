@@ -1,7 +1,7 @@
 # GeoIP address list — KZ
-# Generated: 2026-05-12 10:06 UTC
+# Generated: 2026-05-12 16:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KZ | Subnets: 583 (was 653, collapsed 70) | IPs: ~3,330,048
+# Countries: KZ | Subnets: 584 (was 655, collapsed 71) | IPs: ~3,330,560
 #
 /ip firewall address-list
 remove [find list=GEO_KZ]
@@ -124,7 +124,7 @@ add address=82.115.32.0/19 list=GEO_KZ comment=KZ
 add address=82.200.128.0/17 list=GEO_KZ comment=KZ
 add address=83.97.77.0/24 list=GEO_KZ comment=KZ
 add address=83.136.220.0/24 list=GEO_KZ comment=KZ
-add address=84.38.5.0/24 list=GEO_KZ comment=KZ
+add address=84.38.4.0/23 list=GEO_KZ comment=KZ
 add address=84.240.192.0/18 list=GEO_KZ comment=KZ
 add address=84.252.156.0/22 list=GEO_KZ comment=KZ
 add address=85.29.128.0/18 list=GEO_KZ comment=KZ
@@ -318,6 +318,7 @@ add address=158.94.223.0/24 list=GEO_KZ comment=KZ
 add address=162.255.196.0/22 list=GEO_KZ comment=KZ
 add address=164.0.0.0/16 list=GEO_KZ comment=KZ
 add address=164.40.0.0/17 list=GEO_KZ comment=KZ
+add address=164.40.234.0/24 list=GEO_KZ comment=KZ
 add address=164.138.40.0/21 list=GEO_KZ comment=KZ
 add address=173.244.144.0/20 list=GEO_KZ comment=KZ
 add address=176.64.0.0/16 list=GEO_KZ comment=KZ
