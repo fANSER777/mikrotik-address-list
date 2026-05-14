@@ -1,5 +1,5 @@
 # GeoIP address list — IR
-# Generated: 2026-05-13 22:08 UTC
+# Generated: 2026-05-14 04:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IR | Subnets: 1716 (was 1923, collapsed 207) | IPs: ~10,820,352
 #
