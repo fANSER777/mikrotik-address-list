@@ -1,5 +1,5 @@
 # GeoIP address list — MR
-# Generated: 2026-05-14 16:10 UTC
+# Generated: 2026-05-14 22:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MR | Subnets: 17 (was 17, collapsed 0) | IPs: ~50,432
 #
