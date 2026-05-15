@@ -1,5 +1,5 @@
 # GeoIP address list — BO
-# Generated: 2026-05-15 10:12 UTC
+# Generated: 2026-05-15 16:12 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BO | Subnets: 102 (was 122, collapsed 20) | IPs: ~1,170,176
 #
