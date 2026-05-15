@@ -1,5 +1,5 @@
 # GeoIP address list — SA
-# Generated: 2026-05-15 16:12 UTC
+# Generated: 2026-05-15 22:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SA | Subnets: 578 (was 618, collapsed 40) | IPs: ~10,964,800
 #

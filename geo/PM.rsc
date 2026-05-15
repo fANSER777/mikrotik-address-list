@@ -1,5 +1,5 @@
 # GeoIP address list — PM
-# Generated: 2026-05-15 16:12 UTC
+# Generated: 2026-05-15 22:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PM | Subnets: 2 (was 2, collapsed 0) | IPs: ~4,608
 #
