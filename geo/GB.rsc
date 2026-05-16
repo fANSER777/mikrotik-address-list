@@ -1,5 +1,5 @@
 # GeoIP address list — GB
-# Generated: 2026-05-16 16:14 UTC
+# Generated: 2026-05-16 22:14 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GB | Subnets: 8197 (was 9266, collapsed 1069) | IPs: ~139,735,808
 #
