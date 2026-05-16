@@ -1,5 +1,5 @@
 # GeoIP address list — GY
-# Generated: 2026-05-16 10:13 UTC
+# Generated: 2026-05-16 16:14 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GY | Subnets: 13 (was 14, collapsed 1) | IPs: ~68,864
 #
