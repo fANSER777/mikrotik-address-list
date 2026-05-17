@@ -1,5 +1,5 @@
 # GeoIP address list — MQ
-# Generated: 2026-05-16 22:14 UTC
+# Generated: 2026-05-17 04:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MQ | Subnets: 21 (was 22, collapsed 1) | IPs: ~134,656
 #
