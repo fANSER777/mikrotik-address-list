@@ -1,5 +1,5 @@
 # GeoIP address list — KP
-# Generated: 2026-05-18 14:38 UTC
+# Generated: 2026-05-18 14:50 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KP | Subnets: 1 (was 1, collapsed 0) | IPs: ~1,024
 #
