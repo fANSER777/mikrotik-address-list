@@ -1,5 +1,5 @@
 # GeoIP address list — BQ
-# Generated: 2026-05-18 15:04 UTC
+# Generated: 2026-05-18 21:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BQ | Subnets: 12 (was 12, collapsed 0) | IPs: ~24,832
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — GI
-# Generated: 2026-05-18 15:04 UTC
+# Generated: 2026-05-18 21:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GI | Subnets: 73 (was 73, collapsed 0) | IPs: ~133,376
 #
