@@ -1,5 +1,5 @@
 # GeoIP address list — GW
-# Generated: 2026-05-18 11:05 UTC
+# Generated: 2026-05-18 11:10 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GW | Subnets: 3 (was 3, collapsed 0) | IPs: ~5,632
 #
