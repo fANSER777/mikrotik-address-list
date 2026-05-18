@@ -1,5 +1,5 @@
 # GeoIP address list — GL
-# Generated: 2026-05-18 08:15 UTC
+# Generated: 2026-05-18 08:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GL | Subnets: 25 (was 25, collapsed 0) | IPs: ~34,304
 #
