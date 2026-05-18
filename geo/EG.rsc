@@ -1,5 +1,5 @@
 # GeoIP address list — EG
-# Generated: 2026-05-17 22:16 UTC
+# Generated: 2026-05-18 04:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EG | Subnets: 177 (was 185, collapsed 8) | IPs: ~24,151,296
 #

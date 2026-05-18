@@ -1,5 +1,5 @@
 # GeoIP address list — KG
-# Generated: 2026-05-17 22:16 UTC
+# Generated: 2026-05-18 04:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KG | Subnets: 111 (was 121, collapsed 10) | IPs: ~285,952
 #
