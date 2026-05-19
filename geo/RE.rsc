@@ -1,5 +1,5 @@
 # GeoIP address list — RE
-# Generated: 2026-05-19 10:57 UTC
+# Generated: 2026-05-19 12:37 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RE | Subnets: 24 (was 25, collapsed 1) | IPs: ~409,856
 #
