@@ -1,5 +1,5 @@
 # GeoIP address list — NL
-# Generated: 2026-05-19 18:38 UTC
+# Generated: 2026-05-20 00:38 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NL | Subnets: 5669 (was 6361, collapsed 692) | IPs: ~47,864,800
 #
