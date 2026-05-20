@@ -1,5 +1,5 @@
 # GeoIP address list — QA
-# Generated: 2026-05-20 12:06 UTC
+# Generated: 2026-05-20 18:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: QA | Subnets: 47 (was 51, collapsed 4) | IPs: ~847,744
 #
