@@ -1,5 +1,5 @@
 # GeoIP address list — MS
-# Generated: 2026-05-20 07:59 UTC
+# Generated: 2026-05-20 11:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MS | Subnets: 2 (was 2, collapsed 0) | IPs: ~1,280
 #
