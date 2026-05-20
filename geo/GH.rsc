@@ -1,5 +1,5 @@
 # GeoIP address list — GH
-# Generated: 2026-05-20 06:39 UTC
+# Generated: 2026-05-20 07:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GH | Subnets: 150 (was 153, collapsed 3) | IPs: ~2,202,368
 #
