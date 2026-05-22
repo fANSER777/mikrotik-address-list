@@ -1,5 +1,5 @@
 # GeoIP address list — ER
-# Generated: 2026-05-22 05:55 UTC
+# Generated: 2026-05-22 11:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ER | Subnets: 1 (was 1, collapsed 0) | IPs: ~4,096
 #
