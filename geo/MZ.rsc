@@ -1,5 +1,5 @@
 # GeoIP address list — MZ
-# Generated: 2026-05-22 17:56 UTC
+# Generated: 2026-05-22 23:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MZ | Subnets: 55 (was 55, collapsed 0) | IPs: ~446,976
 #
