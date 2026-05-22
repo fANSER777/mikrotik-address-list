@@ -1,5 +1,5 @@
 # GeoIP address list — SI
-# Generated: 2026-05-21 23:54 UTC
+# Generated: 2026-05-22 05:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SI | Subnets: 530 (was 546, collapsed 16) | IPs: ~2,679,552
 #
