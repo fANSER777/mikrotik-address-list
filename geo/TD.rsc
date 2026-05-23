@@ -1,5 +1,5 @@
 # GeoIP address list — TD
-# Generated: 2026-05-23 17:57 UTC
+# Generated: 2026-05-23 23:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TD | Subnets: 20 (was 20, collapsed 0) | IPs: ~25,856
 #
