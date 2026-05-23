@@ -1,5 +1,5 @@
 # GeoIP address list — MV
-# Generated: 2026-05-22 23:56 UTC
+# Generated: 2026-05-23 05:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MV | Subnets: 45 (was 47, collapsed 2) | IPs: ~93,952
 #
