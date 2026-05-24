@@ -1,5 +1,5 @@
 # GeoIP address list — UA
-# Generated: 2026-05-24 11:59 UTC
+# Generated: 2026-05-24 17:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UA | Subnets: 2659 (was 2890, collapsed 231) | IPs: ~9,099,520
 #
