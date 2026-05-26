@@ -1,5 +1,5 @@
 # GeoIP address list — KN
-# Generated: 2026-05-26 06:02 UTC
+# Generated: 2026-05-26 10:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KN | Subnets: 18 (was 18, collapsed 0) | IPs: ~22,016
 #
