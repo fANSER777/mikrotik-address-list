@@ -1,5 +1,5 @@
 # GeoIP address list — CD
-# Generated: 2026-05-26 22:25 UTC
+# Generated: 2026-05-27 04:26 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CD | Subnets: 84 (was 85, collapsed 1) | IPs: ~182,016
 #
