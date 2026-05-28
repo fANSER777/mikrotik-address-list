@@ -1,5 +1,5 @@
 # GeoIP address list — HR
-# Generated: 2026-05-28 13:00 UTC
+# Generated: 2026-05-28 19:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HR | Subnets: 260 (was 276, collapsed 16) | IPs: ~2,349,568
 #
