@@ -1,5 +1,5 @@
 # GeoIP address list — SC
-# Generated: 2026-05-27 18:58 UTC
+# Generated: 2026-05-28 00:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SC | Subnets: 780 (was 864, collapsed 84) | IPs: ~8,744,960
 #
