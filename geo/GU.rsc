@@ -1,5 +1,5 @@
 # GeoIP address list — GU
-# Generated: 2026-05-30 13:03 UTC
+# Generated: 2026-05-30 19:04 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GU | Subnets: 27 (was 29, collapsed 2) | IPs: ~219,392
 #
