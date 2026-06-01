@@ -1,5 +1,5 @@
 # GeoIP address list — SZ
-# Generated: 2026-06-01 01:06 UTC
+# Generated: 2026-06-01 07:07 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SZ | Subnets: 26 (was 26, collapsed 0) | IPs: ~55,040
 #
