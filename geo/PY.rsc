@@ -1,5 +1,5 @@
 # GeoIP address list — PY
-# Generated: 2026-06-02 19:10 UTC
+# Generated: 2026-06-03 01:10 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PY | Subnets: 142 (was 152, collapsed 10) | IPs: ~1,154,048
 #
