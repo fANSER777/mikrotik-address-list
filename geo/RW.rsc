@@ -1,5 +1,5 @@
 # GeoIP address list — RW
-# Generated: 2026-06-05 13:18 UTC
+# Generated: 2026-06-05 19:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RW | Subnets: 31 (was 31, collapsed 0) | IPs: ~282,112
 #

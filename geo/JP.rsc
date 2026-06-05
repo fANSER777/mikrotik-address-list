@@ -1,5 +1,5 @@
 # GeoIP address list — JP
-# Generated: 2026-06-05 13:18 UTC
+# Generated: 2026-06-05 19:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JP | Subnets: 3177 (was 4738, collapsed 1561) | IPs: ~188,681,792
 #
