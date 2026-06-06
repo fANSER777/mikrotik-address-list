@@ -1,5 +1,5 @@
 # GeoIP address list — TW
-# Generated: 2026-06-06 13:28 UTC
+# Generated: 2026-06-06 19:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TW | Subnets: 722 (was 1054, collapsed 332) | IPs: ~35,738,112
 #

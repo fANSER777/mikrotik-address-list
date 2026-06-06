@@ -1,5 +1,5 @@
 # GeoIP address list — KH
-# Generated: 2026-06-06 13:28 UTC
+# Generated: 2026-06-06 19:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KH | Subnets: 274 (was 285, collapsed 11) | IPs: ~499,456
 #
