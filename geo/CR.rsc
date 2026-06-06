@@ -1,5 +1,5 @@
 # GeoIP address list — CR
-# Generated: 2026-06-05 19:19 UTC
+# Generated: 2026-06-06 01:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CR | Subnets: 171 (was 184, collapsed 13) | IPs: ~2,334,464
 #
