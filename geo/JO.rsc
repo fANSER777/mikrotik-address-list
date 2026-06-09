@@ -1,5 +1,5 @@
 # GeoIP address list — JO
-# Generated: 2026-06-08 19:29 UTC
+# Generated: 2026-06-09 01:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JO | Subnets: 127 (was 128, collapsed 1) | IPs: ~647,936
 #
