@@ -1,5 +1,5 @@
 # GeoIP address list — AF
-# Generated: 2026-06-10 07:32 UTC
+# Generated: 2026-06-10 12:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AF | Subnets: 127 (was 133, collapsed 6) | IPs: ~178,176
 #
