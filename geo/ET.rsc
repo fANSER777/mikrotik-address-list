@@ -1,5 +1,5 @@
 # GeoIP address list — ET
-# Generated: 2026-06-11 11:39 UTC
+# Generated: 2026-06-11 17:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ET | Subnets: 17 (was 17, collapsed 0) | IPs: ~370,176
 #

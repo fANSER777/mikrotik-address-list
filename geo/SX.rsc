@@ -1,5 +1,5 @@
 # GeoIP address list — SX
-# Generated: 2026-06-11 11:39 UTC
+# Generated: 2026-06-11 17:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SX | Subnets: 10 (was 13, collapsed 3) | IPs: ~34,304
 #
