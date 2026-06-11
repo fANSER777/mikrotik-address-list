@@ -1,5 +1,5 @@
 # GeoIP address list — MG
-# Generated: 2026-06-11 06:34 UTC
+# Generated: 2026-06-11 11:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MG | Subnets: 27 (was 27, collapsed 0) | IPs: ~579,840
 #

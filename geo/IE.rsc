@@ -1,5 +1,5 @@
 # GeoIP address list — IE
-# Generated: 2026-06-11 06:34 UTC
+# Generated: 2026-06-11 11:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IE | Subnets: 727 (was 773, collapsed 46) | IPs: ~10,358,848
 #
