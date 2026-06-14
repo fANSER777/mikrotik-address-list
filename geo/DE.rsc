@@ -1,5 +1,5 @@
 # GeoIP address list — DE
-# Generated: 2026-06-13 23:43 UTC
+# Generated: 2026-06-14 05:44 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DE | Subnets: 8682 (was 11000, collapsed 2318) | IPs: ~126,317,376
 #

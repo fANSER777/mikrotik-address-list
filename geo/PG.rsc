@@ -1,5 +1,5 @@
 # GeoIP address list — PG
-# Generated: 2026-06-13 23:43 UTC
+# Generated: 2026-06-14 05:44 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PG | Subnets: 63 (was 63, collapsed 0) | IPs: ~67,072
 #
