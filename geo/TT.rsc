@@ -1,5 +1,5 @@
 # GeoIP address list — TT
-# Generated: 2026-06-14 05:44 UTC
+# Generated: 2026-06-14 11:44 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TT | Subnets: 51 (was 60, collapsed 9) | IPs: ~545,024
 #
