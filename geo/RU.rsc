@@ -1,5 +1,5 @@
 # GeoIP address list — RU
-# Generated: 2026-06-15 09:27 UTC
+# Generated: 2026-06-15 10:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RU | Subnets: 8606 (was 11325, collapsed 2719) | IPs: ~45,106,752
 #
