@@ -1,5 +1,5 @@
 # GeoIP address list — LC
-# Generated: 2026-06-15 12:34 UTC
+# Generated: 2026-06-15 18:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LC | Subnets: 21 (was 21, collapsed 0) | IPs: ~22,016
 #
