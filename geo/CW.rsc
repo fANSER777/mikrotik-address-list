@@ -1,5 +1,5 @@
 # GeoIP address list — CW
-# Generated: 2026-06-15 18:34 UTC
+# Generated: 2026-06-16 00:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CW | Subnets: 44 (was 50, collapsed 6) | IPs: ~200,192
 #

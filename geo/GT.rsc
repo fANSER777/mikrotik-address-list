@@ -1,5 +1,5 @@
 # GeoIP address list — GT
-# Generated: 2026-06-15 18:34 UTC
+# Generated: 2026-06-16 00:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GT | Subnets: 136 (was 151, collapsed 15) | IPs: ~651,008
 #
