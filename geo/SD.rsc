@@ -1,5 +1,5 @@
 # GeoIP address list — SD
-# Generated: 2026-06-17 12:38 UTC
+# Generated: 2026-06-17 18:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SD | Subnets: 34 (was 35, collapsed 1) | IPs: ~1,891,072
 #
