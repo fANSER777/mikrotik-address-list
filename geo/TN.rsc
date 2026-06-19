@@ -1,5 +1,5 @@
 # GeoIP address list — TN
-# Generated: 2026-06-18 20:51 UTC
+# Generated: 2026-06-19 03:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TN | Subnets: 43 (was 44, collapsed 1) | IPs: ~7,876,608
 #
