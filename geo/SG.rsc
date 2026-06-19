@@ -1,5 +1,5 @@
 # GeoIP address list — SG
-# Generated: 2026-06-19 13:52 UTC
+# Generated: 2026-06-19 14:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SG | Subnets: 1718 (was 1869, collapsed 151) | IPs: ~27,762,176
 #
