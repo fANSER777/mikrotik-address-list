@@ -1,5 +1,5 @@
 # GeoIP address list — CU
-# Generated: 2026-06-19 14:20 UTC
+# Generated: 2026-06-19 20:27 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CU | Subnets: 17 (was 21, collapsed 4) | IPs: ~257,024
 #
