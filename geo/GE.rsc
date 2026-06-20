@@ -1,5 +1,5 @@
 # GeoIP address list — GE
-# Generated: 2026-06-20 02:33 UTC
+# Generated: 2026-06-20 08:40 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GE | Subnets: 314 (was 334, collapsed 20) | IPs: ~1,311,040
 #

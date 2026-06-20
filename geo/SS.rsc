@@ -1,5 +1,5 @@
 # GeoIP address list — SS
-# Generated: 2026-06-20 02:33 UTC
+# Generated: 2026-06-20 08:40 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SS | Subnets: 29 (was 29, collapsed 0) | IPs: ~26,368
 #
