@@ -1,5 +1,5 @@
 # GeoIP address list — BJ
-# Generated: 2026-06-21 19:52 UTC
+# Generated: 2026-06-21 21:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BJ | Subnets: 37 (was 37, collapsed 0) | IPs: ~149,248
 #

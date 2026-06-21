@@ -1,5 +1,5 @@
 # GeoIP address list — CM
-# Generated: 2026-06-21 19:52 UTC
+# Generated: 2026-06-21 21:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CM | Subnets: 59 (was 61, collapsed 2) | IPs: ~601,856
 #
