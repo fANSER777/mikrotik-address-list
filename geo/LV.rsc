@@ -1,5 +1,5 @@
 # GeoIP address list — LV
-# Generated: 2026-06-21 09:09 UTC
+# Generated: 2026-06-21 15:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LV | Subnets: 431 (was 455, collapsed 24) | IPs: ~1,851,392
 #
