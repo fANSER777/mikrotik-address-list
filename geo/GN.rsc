@@ -1,5 +1,5 @@
 # GeoIP address list — GN
-# Generated: 2026-06-22 04:12 UTC
+# Generated: 2026-06-22 05:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GN | Subnets: 25 (was 25, collapsed 0) | IPs: ~39,168
 #

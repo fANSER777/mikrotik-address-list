@@ -1,5 +1,5 @@
 # GeoIP address list — VN
-# Generated: 2026-06-22 04:12 UTC
+# Generated: 2026-06-22 05:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VN | Subnets: 1252 (was 1648, collapsed 396) | IPs: ~16,490,240
 #
