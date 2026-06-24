@@ -1,5 +1,5 @@
 # GeoIP address list — TM
-# Generated: 2026-06-24 19:25 UTC
+# Generated: 2026-06-24 20:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TM | Subnets: 11 (was 11, collapsed 0) | IPs: ~22,336
 #
