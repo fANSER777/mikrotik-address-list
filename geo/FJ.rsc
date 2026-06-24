@@ -1,5 +1,5 @@
 # GeoIP address list — FJ
-# Generated: 2026-06-23 21:28 UTC
+# Generated: 2026-06-24 03:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FJ | Subnets: 38 (was 40, collapsed 2) | IPs: ~143,616
 #

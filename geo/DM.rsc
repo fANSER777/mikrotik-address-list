@@ -1,5 +1,5 @@
 # GeoIP address list — DM
-# Generated: 2026-06-23 21:27 UTC
+# Generated: 2026-06-24 03:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DM | Subnets: 13 (was 13, collapsed 0) | IPs: ~10,496
 #
