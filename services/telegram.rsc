@@ -1,5 +1,5 @@
 # Telegram IPv4 address list
-# Generated: 2026-06-25 05:46
+# Generated: 2026-06-25 11:52
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list
 # Subnets: 8 | IPs: ~15,104
 #
