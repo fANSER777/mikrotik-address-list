@@ -1,5 +1,5 @@
 # GeoIP address list — ST
-# Generated: 2026-06-25 08:52 UTC
+# Generated: 2026-06-25 10:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ST | Subnets: 3 (was 3, collapsed 0) | IPs: ~10,240
 #
