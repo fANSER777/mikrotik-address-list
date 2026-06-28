@@ -1,5 +1,5 @@
 # GeoIP address list — SB
-# Generated: 2026-06-28 10:15 UTC
+# Generated: 2026-06-28 16:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SB | Subnets: 12 (was 12, collapsed 0) | IPs: ~14,336
 #
