@@ -1,5 +1,5 @@
 # GeoIP address list — PW
-# Generated: 2026-06-28 04:15 UTC
+# Generated: 2026-06-28 10:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PW | Subnets: 4 (was 4, collapsed 0) | IPs: ~6,144
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — WS
-# Generated: 2026-06-28 04:15 UTC
+# Generated: 2026-06-28 10:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: WS | Subnets: 16 (was 16, collapsed 0) | IPs: ~19,968
 #
