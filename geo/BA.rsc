@@ -1,5 +1,5 @@
 # GeoIP address list — BA
-# Generated: 2026-06-30 04:19 UTC
+# Generated: 2026-06-30 10:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BA | Subnets: 158 (was 171, collapsed 13) | IPs: ~794,624
 #
