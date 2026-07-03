@@ -1,5 +1,5 @@
 # GeoIP address list — CG
-# Generated: 2026-07-03 07:24 UTC
+# Generated: 2026-07-03 13:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CG | Subnets: 21 (was 21, collapsed 0) | IPs: ~141,824
 #
