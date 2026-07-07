@@ -1,5 +1,5 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-07-06 22:50
+# Generated: 2026-07-07 04:57
 # Sources: https://openai.com/chatgpt-user.json, live DNS (chatgpt.com, chat.openai.com, auth.openai.com, api.openai.com, platform.openai.com, cdn.oaistatic.com, ab.chatgpt.com)
 # CIDR subnets: 254 | CIDR IPs: ~36,816 | DNS /32: 15
 #
@@ -88,6 +88,7 @@ add address=20.169.86.240/28 list=OPENAI
 add address=20.169.87.112/28 list=OPENAI
 add address=20.17.108.96/28 list=OPENAI
 add address=20.170.184.16/28 list=OPENAI
+add address=20.170.184.32/28 list=OPENAI
 add address=20.172.29.32/28 list=OPENAI
 add address=20.193.233.240/28 list=OPENAI
 add address=20.193.50.32/28 list=OPENAI
@@ -173,7 +174,6 @@ add address=40.84.221.208/28 list=OPENAI
 add address=40.84.221.224/28 list=OPENAI
 add address=48.193.44.32/28 list=OPENAI
 add address=51.107.70.192/28 list=OPENAI
-add address=51.116.2.64/28 list=OPENAI
 add address=51.116.2.80/28 list=OPENAI
 add address=51.8.155.48/28 list=OPENAI
 add address=51.8.155.64/28 list=OPENAI
