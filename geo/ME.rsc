@@ -1,5 +1,5 @@
 # GeoIP address list — ME
-# Generated: 2026-07-09 02:50 UTC
+# Generated: 2026-07-09 08:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ME | Subnets: 47 (was 47, collapsed 0) | IPs: ~198,144
 #
