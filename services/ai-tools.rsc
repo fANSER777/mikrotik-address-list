@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude
-# Generated: 2026-07-09 14:05
+# Generated: 2026-07-09 20:11
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 267 (OpenAI: 266, Claude: 1) | OpenAI DNS /32: 35
+# Subnets: 267 (OpenAI: 266, Claude: 1) | OpenAI DNS /32: 38
 #
 /ip firewall address-list
 remove [find list=AI_TOOLS]
@@ -275,6 +275,8 @@ add address=9.235.40.32/28 list=AI_TOOLS comment=OpenAI
 add address=8.6.112.0/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
+add address=13.107.226.67/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
+add address=13.107.253.67/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=104.18.2.136/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
 add address=104.18.3.136/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
 add address=104.18.32.42/32 list=AI_TOOLS comment=OpenAI-DNS-android.chat.openai.com
@@ -289,6 +291,7 @@ add address=104.18.42.153/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
 add address=104.18.43.204/32 list=AI_TOOLS comment=OpenAI-DNS-files.oaiusercontent.com
 add address=104.18.94.41/32 list=AI_TOOLS comment=OpenAI-DNS-challenges.cloudflare.com
 add address=104.18.95.41/32 list=AI_TOOLS comment=OpenAI-DNS-challenges.cloudflare.com
+add address=150.171.109.34/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.35/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.36/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=162.159.140.245/32 list=AI_TOOLS comment=OpenAI-DNS-api.openai.com

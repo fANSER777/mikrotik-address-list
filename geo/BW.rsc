@@ -1,5 +1,5 @@
 # GeoIP address list — BW
-# Generated: 2026-07-09 11:04 UTC
+# Generated: 2026-07-09 17:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BW | Subnets: 54 (was 55, collapsed 1) | IPs: ~164,608
 #
