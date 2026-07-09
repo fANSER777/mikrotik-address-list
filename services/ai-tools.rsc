@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude
-# Generated: 2026-07-09 11:56
+# Generated: 2026-07-09 14:05
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 267 (OpenAI: 266, Claude: 1) | OpenAI DNS /32: 15
+# Subnets: 267 (OpenAI: 266, Claude: 1) | OpenAI DNS /32: 35
 #
 /ip firewall address-list
 remove [find list=AI_TOOLS]
@@ -275,16 +275,36 @@ add address=9.235.40.32/28 list=AI_TOOLS comment=OpenAI
 add address=8.6.112.0/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
+add address=104.18.2.136/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
+add address=104.18.3.136/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
+add address=104.18.32.42/32 list=AI_TOOLS comment=OpenAI-DNS-android.chat.openai.com
 add address=104.18.32.47/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=104.18.33.45/32 list=AI_TOOLS comment=OpenAI-DNS-platform.openai.com
+add address=104.18.35.233/32 list=AI_TOOLS comment=OpenAI-DNS-setup.auth.openai.com
 add address=104.18.37.228/32 list=AI_TOOLS comment=OpenAI-DNS-chat.openai.com
+add address=104.18.39.85/32 list=AI_TOOLS comment=OpenAI-DNS-ios.chat.openai.com
 add address=104.18.41.158/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.oaistatic.com
 add address=104.18.41.241/32 list=AI_TOOLS comment=OpenAI-DNS-auth.openai.com
+add address=104.18.42.153/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
+add address=104.18.43.204/32 list=AI_TOOLS comment=OpenAI-DNS-files.oaiusercontent.com
+add address=104.18.94.41/32 list=AI_TOOLS comment=OpenAI-DNS-challenges.cloudflare.com
+add address=104.18.95.41/32 list=AI_TOOLS comment=OpenAI-DNS-challenges.cloudflare.com
+add address=150.171.109.35/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.109.36/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=162.159.140.245/32 list=AI_TOOLS comment=OpenAI-DNS-api.openai.com
+add address=172.64.144.52/32 list=AI_TOOLS comment=OpenAI-DNS-files.oaiusercontent.com
+add address=172.64.145.103/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
 add address=172.64.146.15/32 list=AI_TOOLS comment=OpenAI-DNS-auth.openai.com
 add address=172.64.146.98/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.oaistatic.com
+add address=172.64.148.171/32 list=AI_TOOLS comment=OpenAI-DNS-ios.chat.openai.com
 add address=172.64.150.28/32 list=AI_TOOLS comment=OpenAI-DNS-chat.openai.com
+add address=172.64.152.23/32 list=AI_TOOLS comment=OpenAI-DNS-setup.auth.openai.com
 add address=172.64.154.211/32 list=AI_TOOLS comment=OpenAI-DNS-platform.openai.com
 add address=172.64.155.209/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
+add address=172.64.155.214/32 list=AI_TOOLS comment=OpenAI-DNS-android.chat.openai.com
+add address=172.65.90.20/32 list=AI_TOOLS comment=OpenAI-DNS-auth0.openai.com
+add address=172.65.90.21/32 list=AI_TOOLS comment=OpenAI-DNS-auth0.openai.com
+add address=172.65.90.22/32 list=AI_TOOLS comment=OpenAI-DNS-auth0.openai.com
+add address=172.65.90.23/32 list=AI_TOOLS comment=OpenAI-DNS-auth0.openai.com
 add address=172.66.0.243/32 list=AI_TOOLS comment=OpenAI-DNS-api.openai.com
 add address=160.79.104.0/23 list=AI_TOOLS comment=Claude
