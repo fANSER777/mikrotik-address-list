@@ -1,5 +1,5 @@
 # GeoIP address list — YT
-# Generated: 2026-07-14 13:52 UTC
+# Generated: 2026-07-14 17:44 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YT | Subnets: 1 (was 1, collapsed 0) | IPs: ~1,024
 #
