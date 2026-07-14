@@ -1,5 +1,5 @@
 # GeoIP address list — ID
-# Generated: 2026-07-14 11:47 UTC
+# Generated: 2026-07-14 12:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ID | Subnets: 4649 (was 6082, collapsed 1433) | IPs: ~19,286,016
 #
