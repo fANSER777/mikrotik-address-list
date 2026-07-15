@@ -1,5 +1,5 @@
 # GeoIP address list — KZ
-# Generated: 2026-07-15 20:26 UTC
+# Generated: 2026-07-15 20:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KZ | Subnets: 584 (was 655, collapsed 71) | IPs: ~3,330,560
 #
