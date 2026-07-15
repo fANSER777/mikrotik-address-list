@@ -1,5 +1,5 @@
 # GeoIP address list — ZM
-# Generated: 2026-07-15 10:38 UTC
+# Generated: 2026-07-15 11:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZM | Subnets: 41 (was 42, collapsed 1) | IPs: ~1,650,944
 #
