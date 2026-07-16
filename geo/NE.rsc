@@ -1,5 +1,5 @@
 # GeoIP address list — NE
-# Generated: 2026-07-16 05:43 UTC
+# Generated: 2026-07-16 06:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NE | Subnets: 12 (was 12, collapsed 0) | IPs: ~45,056
 #
