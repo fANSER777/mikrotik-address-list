@@ -1,5 +1,5 @@
 # GeoIP address list — KI
-# Generated: 2026-07-16 10:37 UTC
+# Generated: 2026-07-16 10:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KI | Subnets: 5 (was 5, collapsed 0) | IPs: ~4,096
 #
