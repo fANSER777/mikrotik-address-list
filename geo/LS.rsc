@@ -1,5 +1,5 @@
 # GeoIP address list — LS
-# Generated: 2026-07-16 14:40 UTC
+# Generated: 2026-07-16 14:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LS | Subnets: 20 (was 20, collapsed 0) | IPs: ~121,344
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — AD
-# Generated: 2026-07-16 14:40 UTC
+# Generated: 2026-07-16 14:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AD | Subnets: 25 (was 26, collapsed 1) | IPs: ~60,416
 #

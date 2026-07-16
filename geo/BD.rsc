@@ -1,5 +1,5 @@
 # GeoIP address list — BD
-# Generated: 2026-07-16 14:40 UTC
+# Generated: 2026-07-16 14:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BD | Subnets: 2120 (was 2304, collapsed 184) | IPs: ~2,074,176
 #
