@@ -1,5 +1,5 @@
 # GeoIP address list — VA
-# Generated: 2026-07-16 14:17 UTC
+# Generated: 2026-07-16 14:40 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VA | Subnets: 4 (was 4, collapsed 0) | IPs: ~10,752
 #
