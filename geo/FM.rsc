@@ -1,5 +1,5 @@
 # GeoIP address list — FM
-# Generated: 2026-07-16 12:37 UTC
+# Generated: 2026-07-16 12:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FM | Subnets: 5 (was 5, collapsed 0) | IPs: ~8,704
 #
