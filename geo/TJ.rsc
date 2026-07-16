@@ -1,5 +1,5 @@
 # GeoIP address list — TJ
-# Generated: 2026-07-16 12:54 UTC
+# Generated: 2026-07-16 13:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TJ | Subnets: 56 (was 66, collapsed 10) | IPs: ~84,800
 #
