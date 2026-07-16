@@ -1,5 +1,5 @@
 # GeoIP address list — SK
-# Generated: 2026-07-16 03:05 UTC
+# Generated: 2026-07-16 04:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SK | Subnets: 413 (was 449, collapsed 36) | IPs: ~2,687,488
 #
