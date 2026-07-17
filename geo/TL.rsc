@@ -1,5 +1,5 @@
 # GeoIP address list — TL
-# Generated: 2026-07-17 02:08 UTC
+# Generated: 2026-07-17 05:43 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TL | Subnets: 38 (was 38, collapsed 0) | IPs: ~28,672
 #
