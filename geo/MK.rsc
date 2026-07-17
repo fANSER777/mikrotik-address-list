@@ -1,5 +1,5 @@
 # GeoIP address list — MK
-# Generated: 2026-07-17 07:38 UTC
+# Generated: 2026-07-17 09:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MK | Subnets: 105 (was 143, collapsed 38) | IPs: ~685,312
 #
