@@ -1,5 +1,5 @@
 # GeoIP address list — VE
-# Generated: 2026-07-18 22:43 UTC
+# Generated: 2026-07-18 23:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VE | Subnets: 217 (was 259, collapsed 42) | IPs: ~6,706,944
 #
