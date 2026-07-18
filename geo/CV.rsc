@@ -1,5 +1,5 @@
 # GeoIP address list — CV
-# Generated: 2026-07-18 11:01 UTC
+# Generated: 2026-07-18 17:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CV | Subnets: 23 (was 23, collapsed 0) | IPs: ~38,144
 #

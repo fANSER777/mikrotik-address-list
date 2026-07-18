@@ -1,5 +1,5 @@
 # GeoIP address list — MX
-# Generated: 2026-07-18 11:01 UTC
+# Generated: 2026-07-18 17:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MX | Subnets: 797 (was 1383, collapsed 586) | IPs: ~28,954,112
 #
