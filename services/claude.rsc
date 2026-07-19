@@ -1,5 +1,5 @@
 # Claude / Anthropic IPv4 address list
-# Generated: 2026-07-19 18:49
+# Generated: 2026-07-20 00:55
 # Source: docs.claude.com/en/api/ip-addresses
 # Subnets: 1 | IPs: ~512
 #

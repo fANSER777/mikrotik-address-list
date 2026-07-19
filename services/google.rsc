@@ -1,7 +1,7 @@
 # Google (YouTube, Search, Gmail, etc.) IPv4 address list
-# Generated: 2026-07-19 18:49
+# Generated: 2026-07-20 00:55
 # Source: https://www.gstatic.com/ipranges/goog.json
-# Subnets: 98 | IPs: ~22,179,584
+# Subnets: 99 | IPs: ~22,179,840
 #
 # MikroTik usage:
 #   /tool fetch url="http://YOUR_PANEL/rsc/google.rsc"
@@ -68,6 +68,7 @@ add address=136.22.160.0/20 list=GOOGLE
 add address=136.22.176.0/21 list=GOOGLE
 add address=136.22.184.0/23 list=GOOGLE
 add address=136.22.186.0/24 list=GOOGLE
+add address=136.23.39.0/24 list=GOOGLE
 add address=136.23.48.0/20 list=GOOGLE
 add address=136.23.64.0/18 list=GOOGLE
 add address=136.64.0.0/11 list=GOOGLE
