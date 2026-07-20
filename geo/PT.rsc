@@ -1,5 +1,5 @@
 # GeoIP address list — PT
-# Generated: 2026-07-20 11:03 UTC
+# Generated: 2026-07-20 11:30 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PT | Subnets: 403 (was 447, collapsed 44) | IPs: ~6,692,384
 #
