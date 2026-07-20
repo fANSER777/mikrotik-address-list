@@ -1,5 +1,5 @@
 # GeoIP address list — KY
-# Generated: 2026-07-20 10:43 UTC
+# Generated: 2026-07-20 11:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KY | Subnets: 32 (was 32, collapsed 0) | IPs: ~86,272
 #
