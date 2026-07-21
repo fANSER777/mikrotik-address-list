@@ -1,5 +1,5 @@
 # GeoIP address list — YE
-# Generated: 2026-07-20 21:42 UTC
+# Generated: 2026-07-21 03:42 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YE | Subnets: 29 (was 30, collapsed 1) | IPs: ~233,472
 #
