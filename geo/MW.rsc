@@ -1,5 +1,5 @@
 # GeoIP address list — MW
-# Generated: 2026-07-21 10:36 UTC
+# Generated: 2026-07-21 16:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MW | Subnets: 51 (was 51, collapsed 0) | IPs: ~556,544
 #
