@@ -1,5 +1,5 @@
 # GeoIP address list — IQ
-# Generated: 2026-07-22 20:51 UTC
+# Generated: 2026-07-23 00:42 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IQ | Subnets: 288 (was 338, collapsed 50) | IPs: ~447,296
 #

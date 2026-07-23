@@ -1,5 +1,5 @@
 # GeoIP address list — PR
-# Generated: 2026-07-22 20:51 UTC
+# Generated: 2026-07-23 00:42 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PR | Subnets: 208 (was 224, collapsed 16) | IPs: ~773,120
 #
