@@ -1,5 +1,5 @@
 # GeoIP address list — SM
-# Generated: 2026-07-24 08:18 UTC
+# Generated: 2026-07-24 08:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SM | Subnets: 24 (was 24, collapsed 0) | IPs: ~40,704
 #
