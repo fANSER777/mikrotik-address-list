@@ -1,5 +1,5 @@
 # GeoIP address list — AU
-# Generated: 2026-07-23 20:10 UTC
+# Generated: 2026-07-24 02:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AU | Subnets: 5647 (was 6647, collapsed 1000) | IPs: ~46,115,584
 #
