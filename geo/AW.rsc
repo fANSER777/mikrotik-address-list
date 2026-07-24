@@ -1,5 +1,5 @@
 # GeoIP address list — AW
-# Generated: 2026-07-24 20:14 UTC
+# Generated: 2026-07-24 20:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AW | Subnets: 12 (was 13, collapsed 1) | IPs: ~111,872
 #

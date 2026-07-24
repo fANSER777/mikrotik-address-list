@@ -1,5 +1,5 @@
 # GeoIP address list — MC
-# Generated: 2026-07-24 20:14 UTC
+# Generated: 2026-07-24 20:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MC | Subnets: 28 (was 28, collapsed 0) | IPs: ~65,792
 #

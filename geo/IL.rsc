@@ -1,5 +1,5 @@
 # GeoIP address list — IL
-# Generated: 2026-07-24 20:14 UTC
+# Generated: 2026-07-24 20:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IL | Subnets: 757 (was 1025, collapsed 268) | IPs: ~8,013,888
 #
