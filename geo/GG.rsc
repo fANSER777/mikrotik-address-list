@@ -1,5 +1,5 @@
 # GeoIP address list — GG
-# Generated: 2026-07-24 08:56 UTC
+# Generated: 2026-07-24 09:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GG | Subnets: 22 (was 22, collapsed 0) | IPs: ~31,488
 #
