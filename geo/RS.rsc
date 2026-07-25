@@ -1,5 +1,5 @@
 # GeoIP address list — RS
-# Generated: 2026-07-25 20:26 UTC
+# Generated: 2026-07-25 20:40 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RS | Subnets: 384 (was 435, collapsed 51) | IPs: ~2,307,584
 #
