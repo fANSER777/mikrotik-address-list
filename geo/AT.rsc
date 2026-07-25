@@ -1,5 +1,5 @@
 # GeoIP address list — AT
-# Generated: 2026-07-25 18:42 UTC
+# Generated: 2026-07-25 20:26 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AT | Subnets: 1895 (was 2120, collapsed 225) | IPs: ~11,128,672
 #

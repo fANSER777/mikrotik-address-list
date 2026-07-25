@@ -1,5 +1,5 @@
 # GeoIP address list — AM
-# Generated: 2026-07-25 18:42 UTC
+# Generated: 2026-07-25 20:26 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AM | Subnets: 187 (was 197, collapsed 10) | IPs: ~648,736
 #
