@@ -1,5 +1,5 @@
 # GeoIP address list — LB
-# Generated: 2026-07-26 11:19 UTC
+# Generated: 2026-07-26 11:31 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LB | Subnets: 228 (was 252, collapsed 24) | IPs: ~568,704
 #
