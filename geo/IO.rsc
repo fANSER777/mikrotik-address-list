@@ -1,5 +1,5 @@
 # GeoIP address list — IO
-# Generated: 2026-07-26 11:16 UTC
+# Generated: 2026-07-26 11:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IO | Subnets: 2 (was 2, collapsed 0) | IPs: ~3,072
 #
