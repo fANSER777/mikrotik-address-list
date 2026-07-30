@@ -1,5 +1,5 @@
 # GeoIP address list — LT
-# Generated: 2026-07-30 06:10 UTC
+# Generated: 2026-07-30 08:10 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LT | Subnets: 952 (was 1415, collapsed 463) | IPs: ~4,111,872
 #
