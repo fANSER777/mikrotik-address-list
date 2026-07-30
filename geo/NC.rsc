@@ -1,5 +1,5 @@
 # GeoIP address list — NC
-# Generated: 2026-07-30 09:00 UTC
+# Generated: 2026-07-30 09:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NC | Subnets: 42 (was 46, collapsed 4) | IPs: ~161,536
 #

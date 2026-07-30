@@ -1,5 +1,5 @@
 # GeoIP address list — CK
-# Generated: 2026-07-30 08:59 UTC
+# Generated: 2026-07-30 09:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CK | Subnets: 2 (was 2, collapsed 0) | IPs: ~8,704
 #
