@@ -1,5 +1,5 @@
 # GeoIP address list — GD
-# Generated: 2026-07-31 08:28 UTC
+# Generated: 2026-07-31 08:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GD | Subnets: 15 (was 15, collapsed 0) | IPs: ~11,264
 #
