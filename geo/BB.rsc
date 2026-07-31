@@ -1,5 +1,5 @@
 # GeoIP address list — BB
-# Generated: 2026-07-31 08:48 UTC
+# Generated: 2026-07-31 08:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BB | Subnets: 30 (was 30, collapsed 0) | IPs: ~168,704
 #
