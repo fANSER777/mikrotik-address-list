@@ -1,5 +1,5 @@
 # GeoIP address list — PE
-# Generated: 2026-07-31 13:17 UTC
+# Generated: 2026-07-31 13:37 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PE | Subnets: 232 (was 267, collapsed 35) | IPs: ~3,249,920
 #
