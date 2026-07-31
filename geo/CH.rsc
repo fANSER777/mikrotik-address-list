@@ -1,5 +1,5 @@
 # GeoIP address list — CH
-# Generated: 2026-07-31 21:14 UTC
+# Generated: 2026-07-31 21:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CH | Subnets: 2670 (was 3050, collapsed 380) | IPs: ~23,390,064
 #
