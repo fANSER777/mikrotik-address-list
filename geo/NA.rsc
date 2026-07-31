@@ -1,5 +1,5 @@
 # GeoIP address list — NA
-# Generated: 2026-07-31 12:19 UTC
+# Generated: 2026-07-31 13:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NA | Subnets: 43 (was 43, collapsed 0) | IPs: ~484,864
 #
