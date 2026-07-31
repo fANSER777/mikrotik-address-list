@@ -1,5 +1,5 @@
 # GeoIP address list — SL
-# Generated: 2026-07-31 09:05 UTC
+# Generated: 2026-07-31 09:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SL | Subnets: 30 (was 30, collapsed 0) | IPs: ~85,760
 #
