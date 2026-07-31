@@ -1,5 +1,5 @@
 # GeoIP address list — GR
-# Generated: 2026-07-31 08:59 UTC
+# Generated: 2026-07-31 09:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GR | Subnets: 439 (was 466, collapsed 27) | IPs: ~5,782,400
 #
