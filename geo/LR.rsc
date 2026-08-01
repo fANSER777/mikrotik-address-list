@@ -1,5 +1,5 @@
 # GeoIP address list — LR
-# Generated: 2026-08-01 03:47 UTC
+# Generated: 2026-08-01 04:43 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LR | Subnets: 20 (was 20, collapsed 0) | IPs: ~40,192
 #
