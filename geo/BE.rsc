@@ -1,5 +1,5 @@
 # GeoIP address list — BE
-# Generated: 2026-08-01 18:53 UTC
+# Generated: 2026-08-01 19:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BE | Subnets: 924 (was 983, collapsed 59) | IPs: ~12,340,352
 #
