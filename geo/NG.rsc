@@ -1,5 +1,5 @@
 # GeoIP address list — NG
-# Generated: 2026-07-31 21:47 UTC
+# Generated: 2026-08-01 03:47 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NG | Subnets: 393 (was 408, collapsed 15) | IPs: ~3,203,328
 #
