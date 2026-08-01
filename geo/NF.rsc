@@ -1,5 +1,5 @@
 # GeoIP address list — NF
-# Generated: 2026-08-01 21:38 UTC
+# Generated: 2026-08-01 21:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NF | Subnets: 2 (was 2, collapsed 0) | IPs: ~768
 #
