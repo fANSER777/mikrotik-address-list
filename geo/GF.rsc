@@ -1,5 +1,5 @@
 # GeoIP address list — GF
-# Generated: 2026-08-01 15:51 UTC
+# Generated: 2026-08-01 16:10 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GF | Subnets: 6 (was 6, collapsed 0) | IPs: ~22,528
 #
