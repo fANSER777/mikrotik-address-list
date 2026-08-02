@@ -1,5 +1,5 @@
 # GeoIP address list — MT
-# Generated: 2026-08-02 04:53 UTC
+# Generated: 2026-08-02 10:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MT | Subnets: 123 (was 124, collapsed 1) | IPs: ~679,552
 #
