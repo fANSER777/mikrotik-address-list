@@ -1,5 +1,5 @@
 # GeoIP address list — AZ
-# Generated: 2026-08-02 22:21 UTC
+# Generated: 2026-08-02 22:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AZ | Subnets: 181 (was 212, collapsed 31) | IPs: ~771,328
 #
