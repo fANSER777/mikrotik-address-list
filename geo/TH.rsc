@@ -1,5 +1,5 @@
 # GeoIP address list — TH
-# Generated: 2026-08-03 08:34 UTC
+# Generated: 2026-08-03 08:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TH | Subnets: 651 (was 1180, collapsed 529) | IPs: ~9,222,656
 #
