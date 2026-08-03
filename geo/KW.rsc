@@ -1,5 +1,5 @@
 # GeoIP address list — KW
-# Generated: 2026-08-03 12:18 UTC
+# Generated: 2026-08-03 18:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KW | Subnets: 132 (was 138, collapsed 6) | IPs: ~1,907,456
 #
