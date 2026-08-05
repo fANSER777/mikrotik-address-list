@@ -1,5 +1,5 @@
 # GeoIP address list — GA
-# Generated: 2026-08-05 00:22 UTC
+# Generated: 2026-08-05 06:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GA | Subnets: 25 (was 25, collapsed 0) | IPs: ~393,728
 #
