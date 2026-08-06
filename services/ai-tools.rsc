@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude
-# Generated: 2026-08-05 21:24
+# Generated: 2026-08-06 03:25
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 290 (OpenAI: 289, Claude: 1) | OpenAI DNS /32: 40
+# Subnets: 276 (OpenAI: 275, Claude: 1) | OpenAI DNS /32: 40
 #
 /ip firewall address-list
 remove [find list=AI_TOOLS]
@@ -22,7 +22,6 @@ add address=4.198.72.16/28 list=AI_TOOLS comment=OpenAI
 add address=4.198.96.112/28 list=AI_TOOLS comment=OpenAI
 add address=4.201.232.64/28 list=AI_TOOLS comment=OpenAI
 add address=4.201.232.80/28 list=AI_TOOLS comment=OpenAI
-add address=4.203.96.80/28 list=AI_TOOLS comment=OpenAI
 add address=4.205.128.176/28 list=AI_TOOLS comment=OpenAI
 add address=4.218.24.64/28 list=AI_TOOLS comment=OpenAI
 add address=4.226.200.16/28 list=AI_TOOLS comment=OpenAI
@@ -47,11 +46,8 @@ add address=9.223.181.208/28 list=AI_TOOLS comment=OpenAI
 add address=9.234.96.192/28 list=AI_TOOLS comment=OpenAI
 add address=9.234.97.96/28 list=AI_TOOLS comment=OpenAI
 add address=9.234.97.128/28 list=AI_TOOLS comment=OpenAI
-add address=9.235.40.32/28 list=AI_TOOLS comment=OpenAI
-add address=13.65.138.96/28 list=AI_TOOLS comment=OpenAI
 add address=13.65.138.112/28 list=AI_TOOLS comment=OpenAI
 add address=13.67.72.16/28 list=AI_TOOLS comment=OpenAI
-add address=13.70.107.160/28 list=AI_TOOLS comment=OpenAI
 add address=13.71.2.208/28 list=AI_TOOLS comment=OpenAI
 add address=13.76.32.208/28 list=AI_TOOLS comment=OpenAI
 add address=13.76.116.80/28 list=AI_TOOLS comment=OpenAI
@@ -88,10 +84,8 @@ add address=20.169.78.144/28 list=AI_TOOLS comment=OpenAI
 add address=20.169.78.160/28 list=AI_TOOLS comment=OpenAI
 add address=20.169.78.176/28 list=AI_TOOLS comment=OpenAI
 add address=20.169.78.192/28 list=AI_TOOLS comment=OpenAI
-add address=20.169.78.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.169.86.224/28 list=AI_TOOLS comment=OpenAI
 add address=20.169.86.240/28 list=AI_TOOLS comment=OpenAI
-add address=20.169.87.112/28 list=AI_TOOLS comment=OpenAI
 add address=20.170.184.16/28 list=AI_TOOLS comment=OpenAI
 add address=20.170.184.32/28 list=AI_TOOLS comment=OpenAI
 add address=20.170.184.48/28 list=AI_TOOLS comment=OpenAI
@@ -130,14 +124,12 @@ add address=20.249.63.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.250.6.128/28 list=AI_TOOLS comment=OpenAI
 add address=20.250.136.64/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.142.176/28 list=AI_TOOLS comment=OpenAI
-add address=23.98.179.16/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.64/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.96/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.176/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.192/28 list=AI_TOOLS comment=OpenAI
 add address=23.102.140.144/28 list=AI_TOOLS comment=OpenAI
 add address=23.102.141.32/28 list=AI_TOOLS comment=OpenAI
-add address=40.67.183.160/28 list=AI_TOOLS comment=OpenAI
 add address=40.67.183.176/28 list=AI_TOOLS comment=OpenAI
 add address=40.74.200.208/28 list=AI_TOOLS comment=OpenAI
 add address=40.78.161.48/28 list=AI_TOOLS comment=OpenAI
@@ -173,7 +165,6 @@ add address=52.159.227.32/28 list=AI_TOOLS comment=OpenAI
 add address=52.159.249.96/28 list=AI_TOOLS comment=OpenAI
 add address=52.161.49.96/28 list=AI_TOOLS comment=OpenAI
 add address=52.165.212.16/28 list=AI_TOOLS comment=OpenAI
-add address=52.165.212.32/28 list=AI_TOOLS comment=OpenAI
 add address=52.165.212.48/28 list=AI_TOOLS comment=OpenAI
 add address=52.172.129.160/28 list=AI_TOOLS comment=OpenAI
 add address=52.172.251.112/28 list=AI_TOOLS comment=OpenAI
@@ -186,7 +177,6 @@ add address=52.173.234.16/28 list=AI_TOOLS comment=OpenAI
 add address=52.173.234.80/28 list=AI_TOOLS comment=OpenAI
 add address=52.173.235.80/28 list=AI_TOOLS comment=OpenAI
 add address=52.183.217.240/28 list=AI_TOOLS comment=OpenAI
-add address=52.187.246.128/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.137.16/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.137.144/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.139.48/28 list=AI_TOOLS comment=OpenAI
@@ -273,9 +263,7 @@ add address=172.197.161.208/28 list=AI_TOOLS comment=OpenAI
 add address=172.197.170.80/28 list=AI_TOOLS comment=OpenAI
 add address=172.197.203.16/28 list=AI_TOOLS comment=OpenAI
 add address=172.199.137.80/28 list=AI_TOOLS comment=OpenAI
-add address=172.204.27.16/28 list=AI_TOOLS comment=OpenAI
 add address=172.204.28.224/28 list=AI_TOOLS comment=OpenAI
-add address=172.204.96.32/28 list=AI_TOOLS comment=OpenAI
 add address=172.204.96.48/28 list=AI_TOOLS comment=OpenAI
 add address=172.204.96.80/28 list=AI_TOOLS comment=OpenAI
 add address=172.205.189.192/28 list=AI_TOOLS comment=OpenAI
@@ -284,11 +272,9 @@ add address=172.208.128.32/28 list=AI_TOOLS comment=OpenAI
 add address=172.208.128.48/28 list=AI_TOOLS comment=OpenAI
 add address=172.212.159.64/28 list=AI_TOOLS comment=OpenAI
 add address=172.212.172.160/28 list=AI_TOOLS comment=OpenAI
-add address=172.213.21.16/28 list=AI_TOOLS comment=OpenAI
 add address=172.215.215.32/28 list=AI_TOOLS comment=OpenAI
 add address=172.215.218.96/28 list=AI_TOOLS comment=OpenAI
 add address=191.233.1.112/28 list=AI_TOOLS comment=OpenAI
-add address=191.233.194.32/28 list=AI_TOOLS comment=OpenAI
 add address=191.233.196.112/28 list=AI_TOOLS comment=OpenAI
 add address=191.233.199.160/28 list=AI_TOOLS comment=OpenAI
 add address=191.235.66.16/28 list=AI_TOOLS comment=OpenAI
