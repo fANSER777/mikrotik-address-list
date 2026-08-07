@@ -1,5 +1,5 @@
 # AI TOOLS address list — OpenAI + Claude
-# Generated: 2026-08-06 21:27
+# Generated: 2026-08-07 03:27
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
 # Subnets: 268 (OpenAI: 267, Claude: 1) | OpenAI DNS /32: 40
@@ -203,9 +203,9 @@ add address=57.154.187.32/28 list=AI_TOOLS comment=OpenAI
 add address=68.154.28.96/28 list=AI_TOOLS comment=OpenAI
 add address=68.218.30.112/28 list=AI_TOOLS comment=OpenAI
 add address=68.220.57.64/28 list=AI_TOOLS comment=OpenAI
+add address=70.153.32.16/28 list=AI_TOOLS comment=OpenAI
 add address=70.153.76.16/28 list=AI_TOOLS comment=OpenAI
 add address=70.153.87.224/28 list=AI_TOOLS comment=OpenAI
-add address=70.153.139.208/28 list=AI_TOOLS comment=OpenAI
 add address=70.153.189.192/28 list=AI_TOOLS comment=OpenAI
 add address=70.153.190.16/28 list=AI_TOOLS comment=OpenAI
 add address=70.156.152.96/28 list=AI_TOOLS comment=OpenAI
