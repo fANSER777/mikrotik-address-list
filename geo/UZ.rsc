@@ -1,5 +1,5 @@
 # GeoIP address list — UZ
-# Generated: 2026-08-07 18:30 UTC
+# Generated: 2026-08-08 00:30 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UZ | Subnets: 162 (was 205, collapsed 43) | IPs: ~322,816
 #
