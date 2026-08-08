@@ -1,5 +1,5 @@
 # GeoIP address list — TZ
-# Generated: 2026-08-08 12:32 UTC
+# Generated: 2026-08-08 18:32 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TZ | Subnets: 192 (was 198, collapsed 6) | IPs: ~1,096,704
 #
