@@ -1,5 +1,5 @@
 # GeoIP address list — TV
-# Generated: 2026-08-08 06:31 UTC
+# Generated: 2026-08-08 12:32 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TV | Subnets: 1 (was 2, collapsed 1) | IPs: ~8,192
 #
