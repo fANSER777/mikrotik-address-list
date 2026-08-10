@@ -1,5 +1,5 @@
 # GeoIP address list — MF
-# Generated: 2026-08-09 18:35 UTC
+# Generated: 2026-08-10 00:35 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MF | Subnets: 7 (was 7, collapsed 0) | IPs: ~3,584
 #
