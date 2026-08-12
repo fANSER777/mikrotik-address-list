@@ -1,5 +1,5 @@
 # GeoIP address list — HN
-# Generated: 2026-08-12 05:40 UTC
+# Generated: 2026-08-12 07:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HN | Subnets: 187 (was 192, collapsed 5) | IPs: ~536,064
 #

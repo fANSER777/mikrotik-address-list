@@ -1,5 +1,5 @@
 # GeoIP address list — BZ
-# Generated: 2026-08-12 05:40 UTC
+# Generated: 2026-08-12 07:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BZ | Subnets: 130 (was 132, collapsed 2) | IPs: ~163,584
 #
