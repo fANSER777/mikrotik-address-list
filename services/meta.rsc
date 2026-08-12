@@ -1,5 +1,5 @@
 # META IPv4 address list
-# Generated: 2026-08-12 11:39
+# Generated: 2026-08-12 12:05
 # Source: RIPE Stat API — ASN AS32934, AS63293
 # Subnets: 330 | IPs: ~569,600
 #
