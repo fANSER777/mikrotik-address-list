@@ -1,5 +1,5 @@
 # GeoIP address list — BL
-# Generated: 2026-08-13 17:30 UTC
+# Generated: 2026-08-13 19:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BL | Subnets: 3 (was 3, collapsed 0) | IPs: ~768
 #
