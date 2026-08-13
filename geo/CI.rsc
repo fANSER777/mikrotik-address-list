@@ -1,5 +1,5 @@
 # GeoIP address list — CI
-# Generated: 2026-08-13 06:17 UTC
+# Generated: 2026-08-13 06:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CI | Subnets: 232 (was 244, collapsed 12) | IPs: ~1,717,760
 #
