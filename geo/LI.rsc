@@ -1,5 +1,5 @@
 # GeoIP address list — LI
-# Generated: 2026-08-13 05:46 UTC
+# Generated: 2026-08-13 05:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LI | Subnets: 62 (was 63, collapsed 1) | IPs: ~104,704
 #
