@@ -1,5 +1,5 @@
 # GeoIP address list — MH
-# Generated: 2026-08-14 05:10 UTC
+# Generated: 2026-08-14 05:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MH | Subnets: 9 (was 9, collapsed 0) | IPs: ~15,104
 #
