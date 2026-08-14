@@ -1,5 +1,5 @@
 # GeoIP address list — VU
-# Generated: 2026-08-14 04:44 UTC
+# Generated: 2026-08-14 04:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VU | Subnets: 20 (was 20, collapsed 0) | IPs: ~16,384
 #
