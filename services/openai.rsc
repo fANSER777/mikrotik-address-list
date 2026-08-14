@@ -1,7 +1,7 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-08-14 20:55
+# Generated: 2026-08-15 02:56
 # Sources: https://openai.com/chatgpt-user.json, live DNS (chatgpt.com, chat.openai.com, auth.openai.com, auth0.openai.com, setup.auth.openai.com, api.openai.com, platform.openai.com, cdn.openai.com, cdn.oaistatic.com, persistent.oaistatic.com, files.oaiusercontent.com, ab.chatgpt.com, android.chat.openai.com, ios.chat.openai.com, tcr9i.chat.openai.com, cdn.openaimerge.com, challenges.cloudflare.com, oaistatsig.com)
-# CIDR subnets: 209 | CIDR IPs: ~36,096 | DNS /32: 42
+# CIDR subnets: 204 | CIDR IPs: ~36,016 | DNS /32: 42
 #
 /ip firewall address-list
 remove [find list=OPENAI]
@@ -59,12 +59,10 @@ add address=20.125.112.224/28 list=OPENAI
 add address=20.125.144.144/28 list=OPENAI
 add address=20.161.75.208/28 list=OPENAI
 add address=20.168.7.192/28 list=OPENAI
-add address=20.168.7.240/28 list=OPENAI
 add address=20.169.73.32/28 list=OPENAI
 add address=20.169.73.64/28 list=OPENAI
 add address=20.169.78.48/28 list=OPENAI
 add address=20.169.78.64/28 list=OPENAI
-add address=20.169.78.112/28 list=OPENAI
 add address=20.169.78.128/28 list=OPENAI
 add address=20.169.78.160/28 list=OPENAI
 add address=20.169.78.192/28 list=OPENAI
@@ -87,7 +85,6 @@ add address=20.215.219.208/28 list=OPENAI
 add address=20.218.30.240/28 list=OPENAI
 add address=20.219.71.192/28 list=OPENAI
 add address=20.222.36.192/28 list=OPENAI
-add address=20.226.32.80/28 list=OPENAI
 add address=20.227.140.32/28 list=OPENAI
 add address=20.228.106.176/28 list=OPENAI
 add address=20.235.87.224/28 list=OPENAI
@@ -112,11 +109,9 @@ add address=48.221.184.80/28 list=OPENAI
 add address=48.221.184.96/28 list=OPENAI
 add address=51.8.155.48/28 list=OPENAI
 add address=51.8.155.112/28 list=OPENAI
-add address=51.56.40.80/28 list=OPENAI
 add address=51.57.0.96/28 list=OPENAI
 add address=51.59.24.64/28 list=OPENAI
 add address=51.59.24.80/28 list=OPENAI
-add address=51.59.40.80/28 list=OPENAI
 add address=51.59.48.80/28 list=OPENAI
 add address=51.116.2.80/28 list=OPENAI
 add address=51.116.221.96/28 list=OPENAI
