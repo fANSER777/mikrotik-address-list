@@ -1,5 +1,5 @@
 # GeoIP address list — FO
-# Generated: 2026-08-15 05:56 UTC
+# Generated: 2026-08-15 11:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FO | Subnets: 14 (was 14, collapsed 0) | IPs: ~45,056
 #
