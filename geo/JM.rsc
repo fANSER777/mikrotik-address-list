@@ -1,5 +1,5 @@
 # GeoIP address list — JM
-# Generated: 2026-08-18 18:05 UTC
+# Generated: 2026-08-19 00:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JM | Subnets: 51 (was 52, collapsed 1) | IPs: ~224,000
 #

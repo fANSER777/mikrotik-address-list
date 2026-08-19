@@ -1,5 +1,5 @@
 # GeoIP address list — SR
-# Generated: 2026-08-18 18:05 UTC
+# Generated: 2026-08-19 00:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SR | Subnets: 11 (was 14, collapsed 3) | IPs: ~81,664
 #

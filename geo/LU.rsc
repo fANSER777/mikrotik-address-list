@@ -1,5 +1,5 @@
 # GeoIP address list — LU
-# Generated: 2026-08-18 18:05 UTC
+# Generated: 2026-08-19 00:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LU | Subnets: 541 (was 557, collapsed 16) | IPs: ~1,858,048
 #
