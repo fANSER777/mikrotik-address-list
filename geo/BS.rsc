@@ -1,5 +1,5 @@
 # GeoIP address list — BS
-# Generated: 2026-08-20 17:47 UTC
+# Generated: 2026-08-20 23:48 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BS | Subnets: 26 (was 26, collapsed 0) | IPs: ~138,240
 #
