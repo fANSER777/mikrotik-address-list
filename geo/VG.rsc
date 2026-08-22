@@ -1,5 +1,5 @@
 # GeoIP address list — VG
-# Generated: 2026-08-21 23:51 UTC
+# Generated: 2026-08-22 05:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VG | Subnets: 206 (was 206, collapsed 0) | IPs: ~255,744
 #
