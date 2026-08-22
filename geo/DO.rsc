@@ -1,5 +1,5 @@
 # GeoIP address list — DO
-# Generated: 2026-08-22 05:51 UTC
+# Generated: 2026-08-22 11:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DO | Subnets: 139 (was 158, collapsed 19) | IPs: ~1,617,920
 #
