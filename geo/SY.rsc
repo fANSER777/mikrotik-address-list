@@ -1,5 +1,5 @@
 # GeoIP address list — SY
-# Generated: 2026-08-23 10:54 UTC
+# Generated: 2026-08-23 13:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SY | Subnets: 196 (was 213, collapsed 17) | IPs: ~1,285,120
 #

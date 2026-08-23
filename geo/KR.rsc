@@ -1,5 +1,5 @@
 # GeoIP address list — KR
-# Generated: 2026-08-23 10:54 UTC
+# Generated: 2026-08-23 13:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KR | Subnets: 998 (was 2426, collapsed 1428) | IPs: ~112,497,664
 #
