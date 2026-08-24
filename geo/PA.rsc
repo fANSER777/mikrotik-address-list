@@ -1,5 +1,5 @@
 # GeoIP address list — PA
-# Generated: 2026-08-24 18:57 UTC
+# Generated: 2026-08-24 20:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PA | Subnets: 160 (was 187, collapsed 27) | IPs: ~2,129,408
 #
