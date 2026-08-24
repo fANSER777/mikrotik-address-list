@@ -1,5 +1,5 @@
 # GeoIP address list — WF
-# Generated: 2026-08-24 12:21 UTC
+# Generated: 2026-08-24 12:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: WF | Subnets: 3 (was 3, collapsed 0) | IPs: ~3,584
 #
