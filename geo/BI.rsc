@@ -1,5 +1,5 @@
 # GeoIP address list — BI
-# Generated: 2026-08-24 20:26 UTC
+# Generated: 2026-08-24 20:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BI | Subnets: 13 (was 13, collapsed 0) | IPs: ~36,864
 #
