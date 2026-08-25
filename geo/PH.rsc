@@ -1,5 +1,5 @@
 # GeoIP address list — PH
-# Generated: 2026-08-25 13:12 UTC
+# Generated: 2026-08-25 13:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PH | Subnets: 811 (was 890, collapsed 79) | IPs: ~6,250,752
 #
