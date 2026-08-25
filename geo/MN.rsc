@@ -1,5 +1,5 @@
 # GeoIP address list — MN
-# Generated: 2026-08-25 21:58 UTC
+# Generated: 2026-08-25 22:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MN | Subnets: 132 (was 135, collapsed 3) | IPs: ~182,528
 #
