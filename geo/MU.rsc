@@ -1,5 +1,5 @@
 # GeoIP address list — MU
-# Generated: 2026-08-25 22:49 UTC
+# Generated: 2026-08-25 23:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MU | Subnets: 105 (was 107, collapsed 2) | IPs: ~3,698,944
 #
