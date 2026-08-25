@@ -1,5 +1,5 @@
 # GeoIP address list — PL
-# Generated: 2026-08-25 04:18 UTC
+# Generated: 2026-08-25 05:47 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PL | Subnets: 3938 (was 4310, collapsed 372) | IPs: ~19,994,632
 #
