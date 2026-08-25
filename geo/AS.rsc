@@ -1,5 +1,5 @@
 # GeoIP address list — AS
-# Generated: 2026-08-25 14:40 UTC
+# Generated: 2026-08-25 14:48 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AS | Subnets: 2 (was 2, collapsed 0) | IPs: ~5,120
 #
