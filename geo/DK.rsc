@@ -1,5 +1,5 @@
 # GeoIP address list — DK
-# Generated: 2026-08-25 13:49 UTC
+# Generated: 2026-08-25 14:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DK | Subnets: 1276 (was 1561, collapsed 285) | IPs: ~12,056,160
 #

@@ -1,5 +1,5 @@
 # GeoIP address list — NI
-# Generated: 2026-08-25 13:49 UTC
+# Generated: 2026-08-25 14:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NI | Subnets: 49 (was 53, collapsed 4) | IPs: ~411,136
 #
