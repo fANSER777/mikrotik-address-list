@@ -1,5 +1,5 @@
 # GeoIP address list — CL
-# Generated: 2026-08-26 22:51 UTC
+# Generated: 2026-08-26 23:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CL | Subnets: 634 (was 815, collapsed 181) | IPs: ~10,038,528
 #
