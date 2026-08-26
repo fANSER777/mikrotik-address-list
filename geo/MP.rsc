@@ -1,5 +1,5 @@
 # GeoIP address list — MP
-# Generated: 2026-08-26 20:30 UTC
+# Generated: 2026-08-26 20:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MP | Subnets: 5 (was 6, collapsed 1) | IPs: ~15,360
 #
