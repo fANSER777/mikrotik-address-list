@@ -1,5 +1,5 @@
 # GeoIP address list — TC
-# Generated: 2026-08-27 11:49 UTC
+# Generated: 2026-08-27 12:04 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TC | Subnets: 7 (was 7, collapsed 0) | IPs: ~10,496
 #
