@@ -1,5 +1,5 @@
 # GeoIP address list — LY
-# Generated: 2026-08-27 08:41 UTC
+# Generated: 2026-08-27 08:43 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LY | Subnets: 70 (was 70, collapsed 0) | IPs: ~459,008
 #
