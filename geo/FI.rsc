@@ -1,5 +1,5 @@
 # GeoIP address list — FI
-# Generated: 2026-08-26 23:09 UTC
+# Generated: 2026-08-27 02:42 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FI | Subnets: 981 (was 1141, collapsed 160) | IPs: ~13,852,992
 #
