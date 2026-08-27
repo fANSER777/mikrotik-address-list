@@ -1,5 +1,5 @@
 # GeoIP address list — GP
-# Generated: 2026-08-27 20:03 UTC
+# Generated: 2026-08-27 20:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GP | Subnets: 16 (was 16, collapsed 0) | IPs: ~124,928
 #
