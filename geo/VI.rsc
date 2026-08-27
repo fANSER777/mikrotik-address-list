@@ -1,5 +1,5 @@
 # GeoIP address list — VI
-# Generated: 2026-08-27 08:27 UTC
+# Generated: 2026-08-27 08:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VI | Subnets: 24 (was 24, collapsed 0) | IPs: ~130,304
 #
