@@ -1,5 +1,5 @@
 # GeoIP address list — NO
-# Generated: 2026-08-27 08:56 UTC
+# Generated: 2026-08-27 10:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NO | Subnets: 1228 (was 1321, collapsed 93) | IPs: ~15,603,216
 #

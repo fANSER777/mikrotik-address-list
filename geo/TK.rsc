@@ -1,5 +1,5 @@
 # GeoIP address list — TK
-# Generated: 2026-08-27 08:56 UTC
+# Generated: 2026-08-27 10:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TK | Subnets: 3 (was 5, collapsed 2) | IPs: ~3,072
 #

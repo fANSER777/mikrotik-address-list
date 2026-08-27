@@ -1,5 +1,5 @@
 # GeoIP address list — OM
-# Generated: 2026-08-27 08:56 UTC
+# Generated: 2026-08-27 10:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: OM | Subnets: 76 (was 76, collapsed 0) | IPs: ~951,552
 #
