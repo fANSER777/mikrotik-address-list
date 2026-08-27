@@ -1,5 +1,5 @@
 # GeoIP address list — UY
-# Generated: 2026-08-27 12:15 UTC
+# Generated: 2026-08-27 12:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UY | Subnets: 58 (was 92, collapsed 34) | IPs: ~2,516,736
 #
