@@ -1,5 +1,5 @@
 # GeoIP address list — LK
-# Generated: 2026-08-27 16:07 UTC
+# Generated: 2026-08-27 16:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LK | Subnets: 68 (was 82, collapsed 14) | IPs: ~563,456
 #
