@@ -1,5 +1,5 @@
 # GeoIP address list — BN
-# Generated: 2026-08-28 08:40 UTC
+# Generated: 2026-08-28 08:46 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BN | Subnets: 35 (was 37, collapsed 2) | IPs: ~216,064
 #
