@@ -1,5 +1,5 @@
 # GeoIP address list — GQ
-# Generated: 2026-08-28 12:14 UTC
+# Generated: 2026-08-28 12:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GQ | Subnets: 10 (was 10, collapsed 0) | IPs: ~17,920
 #
