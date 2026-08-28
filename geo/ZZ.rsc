@@ -1,5 +1,5 @@
 # GeoIP address list — ZZ
-# Generated: 2026-08-28 08:46 UTC
+# Generated: 2026-08-28 09:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZZ | Subnets: 560 (was 563, collapsed 3) | IPs: ~5,198,592
 #
