@@ -1,5 +1,5 @@
 # GeoIP address list — MO
-# Generated: 2026-08-28 05:17 UTC
+# Generated: 2026-08-28 07:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MO | Subnets: 31 (was 39, collapsed 8) | IPs: ~339,712
 #
