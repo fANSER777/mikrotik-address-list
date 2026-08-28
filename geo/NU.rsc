@@ -1,5 +1,5 @@
 # GeoIP address list — NU
-# Generated: 2026-08-28 09:38 UTC
+# Generated: 2026-08-28 10:50 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NU | Subnets: 2 (was 2, collapsed 0) | IPs: ~2,048
 #
