@@ -1,5 +1,5 @@
 # GeoIP address list — CO
-# Generated: 2026-08-28 10:50 UTC
+# Generated: 2026-08-28 11:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CO | Subnets: 514 (was 641, collapsed 127) | IPs: ~17,511,680
 #

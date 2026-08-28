@@ -1,5 +1,5 @@
 # GeoIP address list — BT
-# Generated: 2026-08-28 10:50 UTC
+# Generated: 2026-08-28 11:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BT | Subnets: 45 (was 56, collapsed 11) | IPs: ~49,408
 #
