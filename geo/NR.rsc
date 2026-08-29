@@ -1,5 +1,5 @@
 # GeoIP address list — NR
-# Generated: 2026-08-29 10:13 UTC
+# Generated: 2026-08-29 11:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NR | Subnets: 7 (was 7, collapsed 0) | IPs: ~10,240
 #

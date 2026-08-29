@@ -1,5 +1,5 @@
 # GeoIP address list — US
-# Generated: 2026-08-29 10:13 UTC
+# Generated: 2026-08-29 11:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: US | Subnets: 29350 (was 69743, collapsed 40393) | IPs: ~1,607,270,560
 #
