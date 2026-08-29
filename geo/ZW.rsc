@@ -1,5 +1,5 @@
 # GeoIP address list — ZW
-# Generated: 2026-08-29 14:07 UTC
+# Generated: 2026-08-29 15:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZW | Subnets: 43 (was 43, collapsed 0) | IPs: ~105,472
 #
