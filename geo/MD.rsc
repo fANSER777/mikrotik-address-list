@@ -1,5 +1,5 @@
 # GeoIP address list — MD
-# Generated: 2026-08-29 07:31 UTC
+# Generated: 2026-08-29 08:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MD | Subnets: 412 (was 423, collapsed 11) | IPs: ~1,242,112
 #
