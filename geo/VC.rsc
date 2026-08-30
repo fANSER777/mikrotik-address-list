@@ -1,5 +1,5 @@
 # GeoIP address list — VC
-# Generated: 2026-08-30 03:15 UTC
+# Generated: 2026-08-30 04:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VC | Subnets: 12 (was 12, collapsed 0) | IPs: ~10,496
 #
