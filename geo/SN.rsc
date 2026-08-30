@@ -1,5 +1,5 @@
 # GeoIP address list — SN
-# Generated: 2026-08-30 08:59 UTC
+# Generated: 2026-08-30 09:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SN | Subnets: 34 (was 40, collapsed 6) | IPs: ~407,040
 #

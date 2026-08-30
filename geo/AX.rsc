@@ -1,5 +1,5 @@
 # GeoIP address list — AX
-# Generated: 2026-08-30 08:59 UTC
+# Generated: 2026-08-30 09:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AX | Subnets: 3 (was 3, collapsed 0) | IPs: ~4,864
 #
