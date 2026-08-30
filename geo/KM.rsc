@@ -1,5 +1,5 @@
 # GeoIP address list — KM
-# Generated: 2026-08-30 17:08 UTC
+# Generated: 2026-08-30 17:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KM | Subnets: 5 (was 5, collapsed 0) | IPs: ~7,424
 #
