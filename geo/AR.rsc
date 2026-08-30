@@ -1,5 +1,5 @@
 # GeoIP address list — AR
-# Generated: 2026-08-30 21:58 UTC
+# Generated: 2026-08-30 22:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AR | Subnets: 1599 (was 1938, collapsed 339) | IPs: ~19,434,752
 #
