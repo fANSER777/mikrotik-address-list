@@ -1,5 +1,5 @@
 # GeoIP address list — IM
-# Generated: 2026-08-30 17:21 UTC
+# Generated: 2026-08-30 18:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IM | Subnets: 73 (was 73, collapsed 0) | IPs: ~134,400
 #
