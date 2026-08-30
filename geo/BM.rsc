@@ -1,5 +1,5 @@
 # GeoIP address list — BM
-# Generated: 2026-08-30 15:56 UTC
+# Generated: 2026-08-30 16:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BM | Subnets: 47 (was 47, collapsed 0) | IPs: ~108,800
 #
