@@ -1,5 +1,5 @@
 # GeoIP address list — BH
-# Generated: 2026-08-30 14:49 UTC
+# Generated: 2026-08-30 15:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BH | Subnets: 56 (was 57, collapsed 1) | IPs: ~417,024
 #
