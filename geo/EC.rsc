@@ -1,5 +1,5 @@
 # GeoIP address list — EC
-# Generated: 2026-08-30 06:39 UTC
+# Generated: 2026-08-30 07:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EC | Subnets: 313 (was 434, collapsed 121) | IPs: ~2,725,120
 #

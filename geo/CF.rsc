@@ -1,5 +1,5 @@
 # GeoIP address list — CF
-# Generated: 2026-08-30 06:39 UTC
+# Generated: 2026-08-30 07:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CF | Subnets: 5 (was 5, collapsed 0) | IPs: ~5,632
 #
