@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok
-# Generated: 2026-08-31 19:27
+# Generated: 2026-09-01 01:27
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, official xAI/Grok DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 205 (OpenAI: 204, Claude: 1) | OpenAI DNS /32: 53 | Grok DNS /32: 4
+# Subnets: 205 (OpenAI: 204, Claude: 1) | OpenAI DNS /32: 54 | Grok DNS /32: 4
 #
 /ip firewall address-list
 remove [find list=AI_TOOLS]
@@ -238,6 +238,7 @@ add address=150.171.109.51/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.100/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.101/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.106/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.109.107/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.163/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.183/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.196/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
