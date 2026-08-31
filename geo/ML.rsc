@@ -1,5 +1,5 @@
 # GeoIP address list — ML
-# Generated: 2026-08-31 05:38 UTC
+# Generated: 2026-08-31 06:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ML | Subnets: 27 (was 27, collapsed 0) | IPs: ~92,672
 #
