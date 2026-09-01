@@ -1,5 +1,5 @@
 # GeoIP address list — HT
-# Generated: 2026-08-31 22:27 UTC
+# Generated: 2026-09-01 04:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HT | Subnets: 21 (was 25, collapsed 4) | IPs: ~154,880
 #
