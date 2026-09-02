@@ -1,5 +1,5 @@
 # GeoIP address list — KE
-# Generated: 2026-09-01 22:30 UTC
+# Generated: 2026-09-02 04:30 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KE | Subnets: 346 (was 370, collapsed 24) | IPs: ~6,234,368
 #
