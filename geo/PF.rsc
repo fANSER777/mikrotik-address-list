@@ -1,5 +1,5 @@
 # GeoIP address list — PF
-# Generated: 2026-09-02 04:30 UTC
+# Generated: 2026-09-02 10:31 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PF | Subnets: 19 (was 19, collapsed 0) | IPs: ~75,520
 #
