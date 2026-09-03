@@ -1,5 +1,5 @@
 # GeoIP address list — AO
-# Generated: 2026-09-02 20:50 UTC
+# Generated: 2026-09-03 02:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AO | Subnets: 143 (was 149, collapsed 6) | IPs: ~1,284,608
 #

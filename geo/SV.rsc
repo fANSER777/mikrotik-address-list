@@ -1,5 +1,5 @@
 # GeoIP address list — SV
-# Generated: 2026-09-02 20:51 UTC
+# Generated: 2026-09-03 02:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SV | Subnets: 75 (was 83, collapsed 8) | IPs: ~663,808
 #
