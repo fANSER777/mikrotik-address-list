@@ -1,5 +1,5 @@
 # GeoIP address list — DJ
-# Generated: 2026-09-03 10:14 UTC
+# Generated: 2026-09-03 11:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DJ | Subnets: 9 (was 9, collapsed 0) | IPs: ~47,616
 #
