@@ -1,5 +1,5 @@
 # GeoIP address list — EU
-# Generated: 2026-09-03 22:19 UTC
+# Generated: 2026-09-04 04:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EU | Subnets: 10 (was 11, collapsed 1) | IPs: ~333,056
 #

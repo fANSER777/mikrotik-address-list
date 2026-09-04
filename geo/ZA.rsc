@@ -1,5 +1,5 @@
 # GeoIP address list — ZA
-# Generated: 2026-09-03 22:19 UTC
+# Generated: 2026-09-04 04:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZA | Subnets: 1574 (was 2206, collapsed 632) | IPs: ~27,165,952
 #
