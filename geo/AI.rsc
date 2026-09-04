@@ -1,5 +1,5 @@
 # GeoIP address list — AI
-# Generated: 2026-09-04 10:20 UTC
+# Generated: 2026-09-04 12:06 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AI | Subnets: 9 (was 9, collapsed 0) | IPs: ~9,728
 #
