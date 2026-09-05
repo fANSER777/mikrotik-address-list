@@ -1,5 +1,5 @@
 # GeoIP address list — TR
-# Generated: 2026-09-05 15:38 UTC
+# Generated: 2026-09-05 16:14 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TR | Subnets: 1588 (was 1990, collapsed 402) | IPs: ~16,810,624
 #
