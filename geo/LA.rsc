@@ -1,5 +1,5 @@
 # GeoIP address list — LA
-# Generated: 2026-09-05 21:04 UTC
+# Generated: 2026-09-06 03:04 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LA | Subnets: 61 (was 61, collapsed 0) | IPs: ~90,688
 #
