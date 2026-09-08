@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CF
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CF | Subnets: 5 (was 5, collapsed 0) | IPs: ~5,632
 #
 /ip firewall address-list
-remove [find list=GEO_CF]
+remove [find where list=GEO_CF and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.78.120.0/22 list=GEO_CF comment=CF
 add address=41.223.184.0/22 list=GEO_CF comment=CF
 add address=102.205.60.0/23 list=GEO_CF comment=CF

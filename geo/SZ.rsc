@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SZ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SZ | Subnets: 26 (was 26, collapsed 0) | IPs: ~55,040
 #
 /ip firewall address-list
-remove [find list=GEO_SZ]
+remove [find where list=GEO_SZ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.77.232.0/21 list=GEO_SZ comment=SZ
 add address=41.84.224.0/19 list=GEO_SZ comment=SZ
 add address=41.204.0.0/19 list=GEO_SZ comment=SZ

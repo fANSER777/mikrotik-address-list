@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — IM
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IM | Subnets: 73 (was 73, collapsed 0) | IPs: ~134,400
 #
 /ip firewall address-list
-remove [find list=GEO_IM]
+remove [find where list=GEO_IM and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.62.80.0/20 list=GEO_IM comment=IM
 add address=5.154.182.0/24 list=GEO_IM comment=IM
 add address=5.154.188.0/23 list=GEO_IM comment=IM

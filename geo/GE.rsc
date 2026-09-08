@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GE | Subnets: 314 (was 334, collapsed 20) | IPs: ~1,311,040
 #
 /ip firewall address-list
-remove [find list=GEO_GE]
+remove [find where list=GEO_GE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.57.60.0/22 list=GEO_GE comment=GE
 add address=2.57.216.0/22 list=GEO_GE comment=GE
 add address=5.10.32.0/21 list=GEO_GE comment=GE

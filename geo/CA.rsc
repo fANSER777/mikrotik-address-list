@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CA | Subnets: 6272 (was 9221, collapsed 2949) | IPs: ~67,601,408
 #
 /ip firewall address-list
-remove [find list=GEO_CA]
+remove [find where list=GEO_CA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.59.21.0/24 list=GEO_CA comment=CA
 add address=2.59.22.0/24 list=GEO_CA comment=CA
 add address=5.23.0.0/19 list=GEO_CA comment=CA

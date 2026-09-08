@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — AL
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AL | Subnets: 231 (was 242, collapsed 11) | IPs: ~499,264
 #
 /ip firewall address-list
-remove [find list=GEO_AL]
+remove [find where list=GEO_AL and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.206.232.0/21 list=GEO_AL comment=AL
 add address=31.22.48.0/20 list=GEO_AL comment=AL
 add address=31.41.33.0/24 list=GEO_AL comment=AL

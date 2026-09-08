@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SB
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SB | Subnets: 12 (was 12, collapsed 0) | IPs: ~14,336
 #
 /ip firewall address-list
-remove [find list=GEO_SB]
+remove [find where list=GEO_SB and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=103.2.88.0/22 list=GEO_SB comment=SB
 add address=103.9.50.0/24 list=GEO_SB comment=SB
 add address=103.21.230.0/23 list=GEO_SB comment=SB

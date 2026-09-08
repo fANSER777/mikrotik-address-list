@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MA | Subnets: 77 (was 77, collapsed 0) | IPs: ~12,273,920
 #
 /ip firewall address-list
-remove [find list=GEO_MA]
+remove [find where list=GEO_MA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.77.112.0/21 list=GEO_MA comment=MA
 add address=41.87.128.0/19 list=GEO_MA comment=MA
 add address=41.92.0.0/17 list=GEO_MA comment=MA

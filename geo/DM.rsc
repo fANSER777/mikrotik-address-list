@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — DM
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DM | Subnets: 13 (was 13, collapsed 0) | IPs: ~10,496
 #
 /ip firewall address-list
-remove [find list=GEO_DM]
+remove [find where list=GEO_DM and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.186.240.0/24 list=GEO_DM comment=DM
 add address=45.9.148.0/22 list=GEO_DM comment=DM
 add address=66.118.36.0/22 list=GEO_DM comment=DM

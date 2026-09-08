@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — JE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JE | Subnets: 45 (was 47, collapsed 2) | IPs: ~147,200
 #
 /ip firewall address-list
-remove [find list=GEO_JE]
+remove [find where list=GEO_JE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.35.160.0/21 list=GEO_JE comment=JE
 add address=5.42.128.0/21 list=GEO_JE comment=JE
 add address=31.186.112.0/21 list=GEO_JE comment=JE

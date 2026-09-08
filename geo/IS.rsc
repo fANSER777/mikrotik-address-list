@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — IS
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IS | Subnets: 154 (was 164, collapsed 10) | IPs: ~914,688
 #
 /ip firewall address-list
-remove [find list=GEO_IS]
+remove [find where list=GEO_IS and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.23.64.0/19 list=GEO_IS comment=IS
 add address=31.15.112.0/21 list=GEO_IS comment=IS
 add address=31.43.172.0/23 list=GEO_IS comment=IS

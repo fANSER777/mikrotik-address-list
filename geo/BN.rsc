@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BN | Subnets: 35 (was 37, collapsed 2) | IPs: ~216,064
 #
 /ip firewall address-list
-remove [find list=GEO_BN]
+remove [find where list=GEO_BN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.225.40.0/22 list=GEO_BN comment=BN
 add address=43.225.136.0/22 list=GEO_BN comment=BN
 add address=43.251.128.0/22 list=GEO_BN comment=BN

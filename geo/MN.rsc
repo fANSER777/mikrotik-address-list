@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MN | Subnets: 132 (was 135, collapsed 3) | IPs: ~182,528
 #
 /ip firewall address-list
-remove [find list=GEO_MN]
+remove [find where list=GEO_MN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=14.1.124.0/22 list=GEO_MN comment=MN
 add address=27.123.212.0/22 list=GEO_MN comment=MN
 add address=36.50.6.0/23 list=GEO_MN comment=MN

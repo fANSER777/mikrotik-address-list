@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — EC
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EC | Subnets: 313 (was 434, collapsed 121) | IPs: ~2,725,120
 #
 /ip firewall address-list
-remove [find list=GEO_EC]
+remove [find where list=GEO_EC and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=27.50.12.0/22 list=GEO_EC comment=EC
 add address=45.4.88.0/22 list=GEO_EC comment=EC
 add address=45.4.200.0/22 list=GEO_EC comment=EC

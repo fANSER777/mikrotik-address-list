@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MD
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MD | Subnets: 412 (was 423, collapsed 11) | IPs: ~1,242,112
 #
 /ip firewall address-list
-remove [find list=GEO_MD]
+remove [find where list=GEO_MD and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.57.152.0/22 list=GEO_MD comment=MD
 add address=2.59.204.0/22 list=GEO_MD comment=MD
 add address=5.32.168.0/21 list=GEO_MD comment=MD

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — NP
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NP | Subnets: 267 (was 277, collapsed 10) | IPs: ~582,912
 #
 /ip firewall address-list
-remove [find list=GEO_NP]
+remove [find where list=GEO_NP and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=27.34.0.0/17 list=GEO_NP comment=NP
 add address=27.111.16.0/20 list=GEO_NP comment=NP
 add address=36.0.4.0/22 list=GEO_NP comment=NP

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — KY
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KY | Subnets: 32 (was 32, collapsed 0) | IPs: ~86,272
 #
 /ip firewall address-list
-remove [find list=GEO_KY]
+remove [find where list=GEO_KY and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.188.0.0/24 list=GEO_KY comment=KY
 add address=45.144.204.0/22 list=GEO_KY comment=KY
 add address=45.152.156.0/22 list=GEO_KY comment=KY

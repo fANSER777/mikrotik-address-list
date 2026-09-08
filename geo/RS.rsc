@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — RS
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RS | Subnets: 384 (was 435, collapsed 51) | IPs: ~2,307,584
 #
 /ip firewall address-list
-remove [find list=GEO_RS]
+remove [find where list=GEO_RS and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.22.160.0/19 list=GEO_RS comment=RS
 add address=5.57.72.0/21 list=GEO_RS comment=RS
 add address=5.134.104.0/21 list=GEO_RS comment=RS

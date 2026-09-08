@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — FI
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FI | Subnets: 981 (was 1141, collapsed 160) | IPs: ~13,852,992
 #
 /ip firewall address-list
-remove [find list=GEO_FI]
+remove [find where list=GEO_FI and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.58.88.0/22 list=GEO_FI comment=FI
 add address=2.58.220.0/22 list=GEO_FI comment=FI
 add address=5.22.208.0/20 list=GEO_FI comment=FI

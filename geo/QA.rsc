@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — QA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: QA | Subnets: 47 (was 51, collapsed 4) | IPs: ~847,744
 #
 /ip firewall address-list
-remove [find list=GEO_QA]
+remove [find where list=GEO_QA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.180.36.0/22 list=GEO_QA comment=QA
 add address=31.11.48.0/21 list=GEO_QA comment=QA
 add address=37.186.32.0/19 list=GEO_QA comment=QA

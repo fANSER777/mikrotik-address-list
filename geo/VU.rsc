@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — VU
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VU | Subnets: 20 (was 20, collapsed 0) | IPs: ~16,384
 #
 /ip firewall address-list
-remove [find list=GEO_VU]
+remove [find where list=GEO_VU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=103.7.197.0/24 list=GEO_VU comment=VU
 add address=103.20.232.0/23 list=GEO_VU comment=VU
 add address=103.25.228.0/23 list=GEO_VU comment=VU

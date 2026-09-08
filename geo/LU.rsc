@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — LU
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LU | Subnets: 541 (was 557, collapsed 16) | IPs: ~1,858,048
 #
 /ip firewall address-list
-remove [find list=GEO_LU]
+remove [find where list=GEO_LU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.56.104.0/22 list=GEO_LU comment=LU
 add address=2.56.220.0/22 list=GEO_LU comment=LU
 add address=2.57.172.0/22 list=GEO_LU comment=LU

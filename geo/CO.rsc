@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CO | Subnets: 514 (was 641, collapsed 127) | IPs: ~17,511,680
 #
 /ip firewall address-list
-remove [find list=GEO_CO]
+remove [find where list=GEO_CO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=24.152.56.0/24 list=GEO_CO comment=CO
 add address=24.152.58.0/23 list=GEO_CO comment=CO
 add address=37.10.70.0/24 list=GEO_CO comment=CO

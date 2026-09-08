@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — EU
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EU | Subnets: 10 (was 11, collapsed 1) | IPs: ~333,056
 #
 /ip firewall address-list
-remove [find list=GEO_EU]
+remove [find where list=GEO_EU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=138.199.64.0/20 list=GEO_EU comment=EU
 add address=139.191.0.0/16 list=GEO_EU comment=EU
 add address=144.44.0.0/16 list=GEO_EU comment=EU

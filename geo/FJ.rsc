@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — FJ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FJ | Subnets: 38 (was 40, collapsed 2) | IPs: ~143,616
 #
 /ip firewall address-list
-remove [find list=GEO_FJ]
+remove [find where list=GEO_FJ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=27.123.128.0/18 list=GEO_FJ comment=FJ
 add address=45.112.224.0/22 list=GEO_FJ comment=FJ
 add address=45.117.240.0/21 list=GEO_FJ comment=FJ

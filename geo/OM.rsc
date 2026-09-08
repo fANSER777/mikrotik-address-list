@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — OM
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: OM | Subnets: 76 (was 76, collapsed 0) | IPs: ~951,552
 #
 /ip firewall address-list
-remove [find list=GEO_OM]
+remove [find where list=GEO_OM and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.21.0.0/16 list=GEO_OM comment=OM
 add address=5.32.192.0/18 list=GEO_OM comment=OM
 add address=5.36.0.0/15 list=GEO_OM comment=OM

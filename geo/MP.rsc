@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MP
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MP | Subnets: 5 (was 6, collapsed 1) | IPs: ~15,360
 #
 /ip firewall address-list
-remove [find list=GEO_MP]
+remove [find where list=GEO_MP and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.117.196.0/22 list=GEO_MP comment=MP
 add address=103.1.96.0/22 list=GEO_MP comment=MP
 add address=103.57.232.0/22 list=GEO_MP comment=MP

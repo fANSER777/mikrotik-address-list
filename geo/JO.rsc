@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — JO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JO | Subnets: 127 (was 128, collapsed 1) | IPs: ~647,936
 #
 /ip firewall address-list
-remove [find list=GEO_JO]
+remove [find where list=GEO_JO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.59.52.0/22 list=GEO_JO comment=JO
 add address=5.45.128.0/20 list=GEO_JO comment=JO
 add address=5.198.240.0/21 list=GEO_JO comment=JO

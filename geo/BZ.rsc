@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BZ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BZ | Subnets: 130 (was 132, collapsed 2) | IPs: ~163,584
 #
 /ip firewall address-list
-remove [find list=GEO_BZ]
+remove [find where list=GEO_BZ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.56.44.0/22 list=GEO_BZ comment=BZ
 add address=2.59.10.0/23 list=GEO_BZ comment=BZ
 add address=5.253.160.0/22 list=GEO_BZ comment=BZ

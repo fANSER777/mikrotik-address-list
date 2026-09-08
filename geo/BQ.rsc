@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BQ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BQ | Subnets: 12 (was 12, collapsed 0) | IPs: ~24,832
 #
 /ip firewall address-list
-remove [find list=GEO_BQ]
+remove [find where list=GEO_BQ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=138.185.208.0/22 list=GEO_BQ comment=BQ
 add address=143.0.32.0/22 list=GEO_BQ comment=BQ
 add address=161.0.80.0/20 list=GEO_BQ comment=BQ

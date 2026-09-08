@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MQ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MQ | Subnets: 21 (was 22, collapsed 1) | IPs: ~134,656
 #
 /ip firewall address-list
-remove [find list=GEO_MQ]
+remove [find where list=GEO_MQ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.102.72.0/21 list=GEO_MQ comment=MQ
 add address=80.243.240.0/20 list=GEO_MQ comment=MQ
 add address=82.197.96.0/19 list=GEO_MQ comment=MQ

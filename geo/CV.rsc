@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CV
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CV | Subnets: 23 (was 23, collapsed 0) | IPs: ~38,144
 #
 /ip firewall address-list
-remove [find list=GEO_CV]
+remove [find where list=GEO_CV and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.74.128.0/20 list=GEO_CV comment=CV
 add address=41.79.124.0/22 list=GEO_CV comment=CV
 add address=41.215.208.0/20 list=GEO_CV comment=CV

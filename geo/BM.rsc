@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BM
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BM | Subnets: 47 (was 47, collapsed 0) | IPs: ~108,800
 #
 /ip firewall address-list
-remove [find list=GEO_BM]
+remove [find where list=GEO_BM and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=31.47.88.0/21 list=GEO_BM comment=BM
 add address=45.42.144.0/22 list=GEO_BM comment=BM
 add address=64.89.168.0/22 list=GEO_BM comment=BM

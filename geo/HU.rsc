@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — HU
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HU | Subnets: 651 (was 915, collapsed 264) | IPs: ~5,924,864
 #
 /ip firewall address-list
-remove [find list=GEO_HU]
+remove [find where list=GEO_HU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.58.168.0/22 list=GEO_HU comment=HU
 add address=2.59.196.0/22 list=GEO_HU comment=HU
 add address=5.28.0.0/21 list=GEO_HU comment=HU

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SK
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SK | Subnets: 413 (was 449, collapsed 36) | IPs: ~2,687,488
 #
 /ip firewall address-list
-remove [find list=GEO_SK]
+remove [find where list=GEO_SK and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.57.64.0/22 list=GEO_SK comment=SK
 add address=5.34.168.0/21 list=GEO_SK comment=SK
 add address=5.42.148.0/22 list=GEO_SK comment=SK

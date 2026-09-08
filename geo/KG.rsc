@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — KG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KG | Subnets: 111 (was 121, collapsed 10) | IPs: ~285,952
 #
 /ip firewall address-list
-remove [find list=GEO_KG]
+remove [find where list=GEO_KG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.57.8.0/21 list=GEO_KG comment=KG
 add address=31.3.216.0/24 list=GEO_KG comment=KG
 add address=31.29.0.0/19 list=GEO_KG comment=KG

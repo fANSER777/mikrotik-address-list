@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — HK
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HK | Subnets: 2972 (was 3322, collapsed 350) | IPs: ~15,276,864
 #
 /ip firewall address-list
-remove [find list=GEO_HK]
+remove [find where list=GEO_HK and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.36.0.0/16 list=GEO_HK comment=HK
 add address=1.64.0.0/15 list=GEO_HK comment=HK
 add address=2.59.100.0/22 list=GEO_HK comment=HK

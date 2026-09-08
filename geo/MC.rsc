@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MC
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MC | Subnets: 28 (was 28, collapsed 0) | IPs: ~65,792
 #
 /ip firewall address-list
-remove [find list=GEO_MC]
+remove [find where list=GEO_MC and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=37.44.224.0/22 list=GEO_MC comment=MC
 add address=80.94.96.0/20 list=GEO_MC comment=MC
 add address=82.113.0.0/19 list=GEO_MC comment=MC

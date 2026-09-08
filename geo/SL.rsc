@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SL
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SL | Subnets: 30 (was 30, collapsed 0) | IPs: ~85,760
 #
 /ip firewall address-list
-remove [find list=GEO_SL]
+remove [find where list=GEO_SL and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.78.84.0/22 list=GEO_SL comment=SL
 add address=41.191.248.0/22 list=GEO_SL comment=SL
 add address=41.223.132.0/22 list=GEO_SL comment=SL

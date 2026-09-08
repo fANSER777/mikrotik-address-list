@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BF
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BF | Subnets: 51 (was 53, collapsed 2) | IPs: ~339,200
 #
 /ip firewall address-list
-remove [find list=GEO_BF]
+remove [find where list=GEO_BF and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.78.48.0/21 list=GEO_BF comment=BF
 add address=41.138.96.0/19 list=GEO_BF comment=BF
 add address=41.203.224.0/20 list=GEO_BF comment=BF

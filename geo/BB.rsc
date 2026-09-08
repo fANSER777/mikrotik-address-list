@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BB
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BB | Subnets: 30 (was 30, collapsed 0) | IPs: ~168,704
 #
 /ip firewall address-list
-remove [find list=GEO_BB]
+remove [find where list=GEO_BB and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.236.0.0/20 list=GEO_BB comment=BB
 add address=64.119.192.0/20 list=GEO_BB comment=BB
 add address=65.48.128.0/17 list=GEO_BB comment=BB

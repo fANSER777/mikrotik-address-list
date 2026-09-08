@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — WS
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: WS | Subnets: 16 (was 16, collapsed 0) | IPs: ~19,968
 #
 /ip firewall address-list
-remove [find list=GEO_WS]
+remove [find where list=GEO_WS and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.241.164.0/22 list=GEO_WS comment=WS
 add address=103.9.228.0/22 list=GEO_WS comment=WS
 add address=103.55.178.0/24 list=GEO_WS comment=WS

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — TW
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TW | Subnets: 722 (was 1054, collapsed 332) | IPs: ~35,738,112
 #
 /ip firewall address-list
-remove [find list=GEO_TW]
+remove [find where list=GEO_TW and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.34.0.0/15 list=GEO_TW comment=TW
 add address=1.160.0.0/12 list=GEO_TW comment=TW
 add address=1.200.0.0/16 list=GEO_TW comment=TW

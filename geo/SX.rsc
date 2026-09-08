@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SX
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SX | Subnets: 10 (was 13, collapsed 3) | IPs: ~34,304
 #
 /ip firewall address-list
-remove [find list=GEO_SX]
+remove [find where list=GEO_SX and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=131.161.84.0/22 list=GEO_SX comment=SX
 add address=168.0.84.0/22 list=GEO_SX comment=SX
 add address=168.197.108.0/22 list=GEO_SX comment=SX

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — LK
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LK | Subnets: 68 (was 82, collapsed 14) | IPs: ~563,456
 #
 /ip firewall address-list
-remove [find list=GEO_LK]
+remove [find where list=GEO_LK and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.224.124.0/22 list=GEO_LK comment=LK
 add address=43.228.108.0/22 list=GEO_LK comment=LK
 add address=43.250.240.0/22 list=GEO_LK comment=LK

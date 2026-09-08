@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CU
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CU | Subnets: 17 (was 21, collapsed 4) | IPs: ~257,024
 #
 /ip firewall address-list
-remove [find list=GEO_CU]
+remove [find where list=GEO_CU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=152.206.0.0/15 list=GEO_CU comment=CU
 add address=169.158.0.0/16 list=GEO_CU comment=CU
 add address=181.225.224.0/19 list=GEO_CU comment=CU

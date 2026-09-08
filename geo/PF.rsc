@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — PF
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PF | Subnets: 19 (was 19, collapsed 0) | IPs: ~75,520
 #
 /ip firewall address-list
-remove [find list=GEO_PF]
+remove [find where list=GEO_PF and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.249.176.0/22 list=GEO_PF comment=PF
 add address=50.21.80.0/20 list=GEO_PF comment=PF
 add address=64.140.144.0/20 list=GEO_PF comment=PF

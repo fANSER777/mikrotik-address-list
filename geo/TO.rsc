@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — TO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TO | Subnets: 11 (was 11, collapsed 0) | IPs: ~11,520
 #
 /ip firewall address-list
-remove [find list=GEO_TO]
+remove [find where list=GEO_TO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.255.148.0/22 list=GEO_TO comment=TO
 add address=103.54.78.0/23 list=GEO_TO comment=TO
 add address=103.124.187.0/24 list=GEO_TO comment=TO

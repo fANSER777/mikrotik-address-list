@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — ZZ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZZ | Subnets: 560 (was 563, collapsed 3) | IPs: ~5,198,592
 #
 /ip firewall address-list
-remove [find list=GEO_ZZ]
+remove [find where list=GEO_ZZ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.57.112.0/21 list=GEO_ZZ comment=ZZ
 add address=41.57.124.0/22 list=GEO_ZZ comment=ZZ
 add address=41.57.192.0/18 list=GEO_ZZ comment=ZZ

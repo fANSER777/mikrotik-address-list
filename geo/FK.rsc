@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — FK
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FK | Subnets: 7 (was 11, collapsed 4) | IPs: ~7,168
 #
 /ip firewall address-list
-remove [find list=GEO_FK]
+remove [find where list=GEO_FK and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=80.73.208.0/20 list=GEO_FK comment=FK
 add address=91.232.129.0/24 list=GEO_FK comment=FK
 add address=91.232.198.0/24 list=GEO_FK comment=FK

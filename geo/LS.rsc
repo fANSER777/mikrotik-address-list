@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — LS
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LS | Subnets: 20 (was 20, collapsed 0) | IPs: ~121,344
 #
 /ip firewall address-list
-remove [find list=GEO_LS]
+remove [find where list=GEO_LS and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.76.16.0/21 list=GEO_LS comment=LS
 add address=41.191.200.0/21 list=GEO_LS comment=LS
 add address=41.203.176.0/20 list=GEO_LS comment=LS

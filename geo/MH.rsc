@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MH
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MH | Subnets: 9 (was 9, collapsed 0) | IPs: ~15,104
 #
 /ip firewall address-list
-remove [find list=GEO_MH]
+remove [find where list=GEO_MH and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.181.56.0/24 list=GEO_MH comment=MH
 add address=81.30.106.0/24 list=GEO_MH comment=MH
 add address=103.202.148.0/22 list=GEO_MH comment=MH

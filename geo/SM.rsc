@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SM
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SM | Subnets: 24 (was 24, collapsed 0) | IPs: ~40,704
 #
 /ip firewall address-list
-remove [find list=GEO_SM]
+remove [find where list=GEO_SM and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.183.163.0/24 list=GEO_SM comment=SM
 add address=31.193.32.0/21 list=GEO_SM comment=SM
 add address=45.65.80.0/22 list=GEO_SM comment=SM

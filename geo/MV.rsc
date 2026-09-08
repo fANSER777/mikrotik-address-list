@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MV
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MV | Subnets: 45 (was 47, collapsed 2) | IPs: ~93,952
 #
 /ip firewall address-list
-remove [find list=GEO_MV]
+remove [find where list=GEO_MV and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=27.114.128.0/18 list=GEO_MV comment=MV
 add address=36.255.104.0/23 list=GEO_MV comment=MV
 add address=43.226.220.0/22 list=GEO_MV comment=MV

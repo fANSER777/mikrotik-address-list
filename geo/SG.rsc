@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SG | Subnets: 1718 (was 1869, collapsed 151) | IPs: ~27,762,176
 #
 /ip firewall address-list
-remove [find list=GEO_SG]
+remove [find where list=GEO_SG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.21.224.0/19 list=GEO_SG comment=SG
 add address=1.32.128.0/17 list=GEO_SG comment=SG
 add address=1.178.32.0/19 list=GEO_SG comment=SG

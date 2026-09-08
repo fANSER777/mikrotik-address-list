@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CG | Subnets: 21 (was 21, collapsed 0) | IPs: ~141,824
 #
 /ip firewall address-list
-remove [find list=GEO_CG]
+remove [find where list=GEO_CG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.75.64.0/20 list=GEO_CG comment=CG
 add address=102.64.116.0/22 list=GEO_CG comment=CG
 add address=102.129.64.0/19 list=GEO_CG comment=CG

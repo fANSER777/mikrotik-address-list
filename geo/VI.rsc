@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — VI
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VI | Subnets: 24 (was 24, collapsed 0) | IPs: ~130,304
 #
 /ip firewall address-list
-remove [find list=GEO_VI]
+remove [find where list=GEO_VI and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.143.120.0/24 list=GEO_VI comment=VI
 add address=66.59.216.0/24 list=GEO_VI comment=VI
 add address=66.185.32.0/20 list=GEO_VI comment=VI

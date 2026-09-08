@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — ML
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ML | Subnets: 27 (was 27, collapsed 0) | IPs: ~92,672
 #
 /ip firewall address-list
-remove [find list=GEO_ML]
+remove [find where list=GEO_ML and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.73.96.0/19 list=GEO_ML comment=ML
 add address=41.203.192.0/20 list=GEO_ML comment=ML
 add address=41.221.176.0/20 list=GEO_ML comment=ML

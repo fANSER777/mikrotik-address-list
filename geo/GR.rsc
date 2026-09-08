@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GR
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GR | Subnets: 439 (was 466, collapsed 27) | IPs: ~5,782,400
 #
 /ip firewall address-list
-remove [find list=GEO_GR]
+remove [find where list=GEO_GR and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.84.0.0/14 list=GEO_GR comment=GR
 add address=5.54.0.0/15 list=GEO_GR comment=GR
 add address=5.144.192.0/18 list=GEO_GR comment=GR

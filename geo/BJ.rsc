@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BJ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BJ | Subnets: 37 (was 37, collapsed 0) | IPs: ~149,248
 #
 /ip firewall address-list
-remove [find list=GEO_BJ]
+remove [find where list=GEO_BJ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.74.0.0/20 list=GEO_BJ comment=BJ
 add address=41.79.216.0/22 list=GEO_BJ comment=BJ
 add address=41.85.160.0/19 list=GEO_BJ comment=BJ

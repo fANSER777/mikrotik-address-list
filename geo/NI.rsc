@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — NI
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NI | Subnets: 49 (was 53, collapsed 4) | IPs: ~411,136
 #
 /ip firewall address-list
-remove [find list=GEO_NI]
+remove [find where list=GEO_NI and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.5.216.0/22 list=GEO_NI comment=NI
 add address=45.170.224.0/22 list=GEO_NI comment=NI
 add address=45.182.142.0/24 list=GEO_NI comment=NI

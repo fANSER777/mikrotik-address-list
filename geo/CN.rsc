@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CN | Subnets: 5504 (was 8802, collapsed 3298) | IPs: ~342,950,400
 #
 /ip firewall address-list
-remove [find list=GEO_CN]
+remove [find where list=GEO_CN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.0.1.0/24 list=GEO_CN comment=CN
 add address=1.0.2.0/23 list=GEO_CN comment=CN
 add address=1.0.8.0/21 list=GEO_CN comment=CN

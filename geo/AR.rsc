@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — AR
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AR | Subnets: 1599 (was 1938, collapsed 339) | IPs: ~19,434,752
 #
 /ip firewall address-list
-remove [find list=GEO_AR]
+remove [find where list=GEO_AR and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=24.152.57.0/24 list=GEO_AR comment=AR
 add address=24.232.0.0/16 list=GEO_AR comment=AR
 add address=45.4.97.0/24 list=GEO_AR comment=AR

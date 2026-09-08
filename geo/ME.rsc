@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — ME
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ME | Subnets: 47 (was 47, collapsed 0) | IPs: ~198,144
 #
 /ip firewall address-list
-remove [find list=GEO_ME]
+remove [find where list=GEO_ME and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=31.204.192.0/18 list=GEO_ME comment=ME
 add address=37.0.64.0/21 list=GEO_ME comment=ME
 add address=37.122.160.0/19 list=GEO_ME comment=ME

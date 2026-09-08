@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — VG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VG | Subnets: 206 (was 206, collapsed 0) | IPs: ~255,744
 #
 /ip firewall address-list
-remove [find list=GEO_VG]
+remove [find where list=GEO_VG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.56.144.0/22 list=GEO_VG comment=VG
 add address=5.35.168.0/21 list=GEO_VG comment=VG
 add address=5.180.136.0/22 list=GEO_VG comment=VG

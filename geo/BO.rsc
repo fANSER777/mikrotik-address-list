@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BO | Subnets: 102 (was 122, collapsed 20) | IPs: ~1,170,176
 #
 /ip firewall address-list
-remove [find list=GEO_BO]
+remove [find where list=GEO_BO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.4.98.0/23 list=GEO_BO comment=BO
 add address=45.5.13.0/24 list=GEO_BO comment=BO
 add address=45.68.0.0/22 list=GEO_BO comment=BO

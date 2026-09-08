@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — LY
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LY | Subnets: 70 (was 70, collapsed 0) | IPs: ~459,008
 #
 /ip firewall address-list
-remove [find list=GEO_LY]
+remove [find where list=GEO_LY and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.63.0.0/21 list=GEO_LY comment=LY
 add address=41.74.64.0/20 list=GEO_LY comment=LY
 add address=41.208.64.0/18 list=GEO_LY comment=LY

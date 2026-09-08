@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — VE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VE | Subnets: 217 (was 259, collapsed 42) | IPs: ~6,706,944
 #
 /ip firewall address-list
-remove [find list=GEO_VE]
+remove [find where list=GEO_VE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.7.140.0/22 list=GEO_VE comment=VE
 add address=45.68.88.0/22 list=GEO_VE comment=VE
 add address=45.68.100.0/22 list=GEO_VE comment=VE

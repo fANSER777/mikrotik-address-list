@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GN | Subnets: 25 (was 25, collapsed 0) | IPs: ~39,168
 #
 /ip firewall address-list
-remove [find list=GEO_GN]
+remove [find where list=GEO_GN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.77.184.0/21 list=GEO_GN comment=GN
 add address=41.79.200.0/22 list=GEO_GN comment=GN
 add address=41.79.236.0/22 list=GEO_GN comment=GN

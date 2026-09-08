@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — YE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YE | Subnets: 29 (was 30, collapsed 1) | IPs: ~233,472
 #
 /ip firewall address-list
-remove [find list=GEO_YE]
+remove [find where list=GEO_YE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.100.160.0/21 list=GEO_YE comment=YE
 add address=5.255.0.0/19 list=GEO_YE comment=YE
 add address=31.31.176.0/20 list=GEO_YE comment=YE

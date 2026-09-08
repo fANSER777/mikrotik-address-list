@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — LI
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LI | Subnets: 62 (was 63, collapsed 1) | IPs: ~104,704
 #
 /ip firewall address-list
-remove [find list=GEO_LI]
+remove [find where list=GEO_LI and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.34.248.0/21 list=GEO_LI comment=LI
 add address=31.10.16.0/20 list=GEO_LI comment=LI
 add address=45.80.175.0/24 list=GEO_LI comment=LI

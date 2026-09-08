@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BA | Subnets: 158 (was 171, collapsed 13) | IPs: ~794,624
 #
 /ip firewall address-list
-remove [find list=GEO_BA]
+remove [find where list=GEO_BA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.43.64.0/18 list=GEO_BA comment=BA
 add address=5.133.0.0/21 list=GEO_BA comment=BA
 add address=5.133.128.0/19 list=GEO_BA comment=BA

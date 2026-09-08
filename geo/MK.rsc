@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MK
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MK | Subnets: 105 (was 143, collapsed 38) | IPs: ~685,312
 #
 /ip firewall address-list
-remove [find list=GEO_MK]
+remove [find where list=GEO_MK and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.32.176.0/21 list=GEO_MK comment=MK
 add address=31.3.88.0/21 list=GEO_MK comment=MK
 add address=31.7.168.0/21 list=GEO_MK comment=MK

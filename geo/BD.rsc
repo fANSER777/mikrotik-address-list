@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — BD
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BD | Subnets: 2120 (was 2304, collapsed 184) | IPs: ~2,074,176
 #
 /ip firewall address-list
-remove [find list=GEO_BD]
+remove [find where list=GEO_BD and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=14.1.100.0/22 list=GEO_BD comment=BD
 add address=14.128.12.0/22 list=GEO_BD comment=BD
 add address=27.54.144.0/21 list=GEO_BD comment=BD

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — AI
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AI | Subnets: 9 (was 9, collapsed 0) | IPs: ~9,728
 #
 /ip firewall address-list
-remove [find list=GEO_AI]
+remove [find where list=GEO_AI and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=104.192.92.0/22 list=GEO_AI comment=AI
 add address=104.193.196.0/22 list=GEO_AI comment=AI
 add address=104.255.176.0/22 list=GEO_AI comment=AI

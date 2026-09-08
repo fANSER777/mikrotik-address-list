@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — TN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TN | Subnets: 43 (was 44, collapsed 1) | IPs: ~7,876,608
 #
 /ip firewall address-list
-remove [find list=GEO_TN]
+remove [find where list=GEO_TN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.62.0.0/16 list=GEO_TN comment=TN
 add address=41.224.0.0/13 list=GEO_TN comment=TN
 add address=102.24.0.0/13 list=GEO_TN comment=TN

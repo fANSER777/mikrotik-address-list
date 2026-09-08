@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — NZ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NZ | Subnets: 1276 (was 1469, collapsed 193) | IPs: ~6,533,888
 #
 /ip firewall address-list
-remove [find list=GEO_NZ]
+remove [find where list=GEO_NZ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=14.1.32.0/19 list=GEO_NZ comment=NZ
 add address=14.102.98.0/23 list=GEO_NZ comment=NZ
 add address=14.128.4.0/22 list=GEO_NZ comment=NZ

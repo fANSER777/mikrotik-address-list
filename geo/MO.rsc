@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MO | Subnets: 31 (was 39, collapsed 8) | IPs: ~339,712
 #
 /ip firewall address-list
-remove [find list=GEO_MO]
+remove [find where list=GEO_MO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.148.24.0/24 list=GEO_MO comment=MO
 add address=27.109.128.0/17 list=GEO_MO comment=MO
 add address=43.247.24.0/22 list=GEO_MO comment=MO

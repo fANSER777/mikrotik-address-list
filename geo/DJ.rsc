@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — DJ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DJ | Subnets: 9 (was 9, collapsed 0) | IPs: ~47,616
 #
 /ip firewall address-list
-remove [find list=GEO_DJ]
+remove [find where list=GEO_DJ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.189.224.0/19 list=GEO_DJ comment=DJ
 add address=91.209.83.0/24 list=GEO_DJ comment=DJ
 add address=102.202.232.0/22 list=GEO_DJ comment=DJ

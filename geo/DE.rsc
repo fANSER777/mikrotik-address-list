@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DE | Subnets: 8682 (was 11000, collapsed 2318) | IPs: ~126,317,376
 #
 /ip firewall address-list
-remove [find list=GEO_DE]
+remove [find where list=GEO_DE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.28.0.0/14 list=GEO_DE comment=DE
 add address=2.56.11.0/24 list=GEO_DE comment=DE
 add address=2.56.20.0/22 list=GEO_DE comment=DE

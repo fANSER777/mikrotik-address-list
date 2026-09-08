@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — NC
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NC | Subnets: 42 (was 46, collapsed 4) | IPs: ~161,536
 #
 /ip firewall address-list
-remove [find list=GEO_NC]
+remove [find where list=GEO_NC and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=27.122.0.0/22 list=GEO_NC comment=NC
 add address=43.224.192.0/22 list=GEO_NC comment=NC
 add address=43.245.212.0/22 list=GEO_NC comment=NC

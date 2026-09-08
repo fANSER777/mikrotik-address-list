@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SO | Subnets: 30 (was 30, collapsed 0) | IPs: ~51,968
 #
 /ip firewall address-list
-remove [find list=GEO_SO]
+remove [find where list=GEO_SO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.78.72.0/22 list=GEO_SO comment=SO
 add address=41.79.196.0/22 list=GEO_SO comment=SO
 add address=41.223.108.0/22 list=GEO_SO comment=SO

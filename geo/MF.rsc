@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MF
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MF | Subnets: 7 (was 7, collapsed 0) | IPs: ~3,584
 #
 /ip firewall address-list
-remove [find list=GEO_MF]
+remove [find where list=GEO_MF and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.138.120.0/24 list=GEO_MF comment=MF
 add address=148.64.60.0/23 list=GEO_MF comment=MF
 add address=149.112.46.0/23 list=GEO_MF comment=MF

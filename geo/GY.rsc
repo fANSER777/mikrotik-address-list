@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GY
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GY | Subnets: 13 (was 14, collapsed 1) | IPs: ~68,864
 #
 /ip firewall address-list
-remove [find list=GEO_GY]
+remove [find where list=GEO_GY and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=138.94.248.0/22 list=GEO_GY comment=GY
 add address=168.232.144.0/22 list=GEO_GY comment=GY
 add address=179.51.205.0/24 list=GEO_GY comment=GY

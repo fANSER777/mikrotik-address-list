@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — PR
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PR | Subnets: 208 (was 224, collapsed 16) | IPs: ~773,120
 #
 /ip firewall address-list
-remove [find list=GEO_PR]
+remove [find where list=GEO_PR and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.128.16.0/24 list=GEO_PR comment=PR
 add address=23.128.168.0/24 list=GEO_PR comment=PR
 add address=23.129.176.0/24 list=GEO_PR comment=PR

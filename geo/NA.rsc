@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — NA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NA | Subnets: 43 (was 43, collapsed 0) | IPs: ~484,864
 #
 /ip firewall address-list
-remove [find list=GEO_NA]
+remove [find where list=GEO_NA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.63.192.0/18 list=GEO_NA comment=NA
 add address=41.182.0.0/16 list=GEO_NA comment=NA
 add address=41.190.84.0/22 list=GEO_NA comment=NA

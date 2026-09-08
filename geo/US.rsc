@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: US | Subnets: 29350 (was 69743, collapsed 40393) | IPs: ~1,607,270,560
 #
 /ip firewall address-list
-remove [find list=GEO_US]
+remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.178.0.0/23 list=GEO_US comment=US
 add address=1.178.4.0/22 list=GEO_US comment=US
 add address=1.178.8.0/21 list=GEO_US comment=US

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GP
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GP | Subnets: 16 (was 16, collapsed 0) | IPs: ~124,928
 #
 /ip firewall address-list
-remove [find list=GEO_GP]
+remove [find where list=GEO_GP and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.187.96.0/19 list=GEO_GP comment=GP
 add address=46.238.128.0/18 list=GEO_GP comment=GP
 add address=93.121.128.0/17 list=GEO_GP comment=GP

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — HN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HN | Subnets: 187 (was 192, collapsed 5) | IPs: ~536,064
 #
 /ip firewall address-list
-remove [find list=GEO_HN]
+remove [find where list=GEO_HN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.4.84.0/22 list=GEO_HN comment=HN
 add address=45.4.136.0/22 list=GEO_HN comment=HN
 add address=45.4.204.0/22 list=GEO_HN comment=HN

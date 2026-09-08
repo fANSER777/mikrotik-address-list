@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — TH
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TH | Subnets: 651 (was 1180, collapsed 529) | IPs: ~9,222,656
 #
 /ip firewall address-list
-remove [find list=GEO_TH]
+remove [find where list=GEO_TH and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.0.128.0/17 list=GEO_TH comment=TH
 add address=1.1.128.0/17 list=GEO_TH comment=TH
 add address=1.2.128.0/17 list=GEO_TH comment=TH

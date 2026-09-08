@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — SD
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SD | Subnets: 34 (was 35, collapsed 1) | IPs: ~1,891,072
 #
 /ip firewall address-list
-remove [find list=GEO_SD]
+remove [find where list=GEO_SD and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.67.0.0/18 list=GEO_SD comment=SD
 add address=41.78.108.0/22 list=GEO_SD comment=SD
 add address=41.95.0.0/16 list=GEO_SD comment=SD

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — UA
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UA | Subnets: 2659 (was 2890, collapsed 231) | IPs: ~9,099,520
 #
 /ip firewall address-list
-remove [find list=GEO_UA]
+remove [find where list=GEO_UA and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.56.108.0/22 list=GEO_UA comment=UA
 add address=2.56.168.0/24 list=GEO_UA comment=UA
 add address=2.57.204.0/22 list=GEO_UA comment=UA

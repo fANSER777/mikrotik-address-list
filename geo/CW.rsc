@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — CW
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CW | Subnets: 44 (was 50, collapsed 6) | IPs: ~200,192
 #
 /ip firewall address-list
-remove [find list=GEO_CW]
+remove [find where list=GEO_CW and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=45.71.156.0/22 list=GEO_CW comment=CW
 add address=45.234.112.0/22 list=GEO_CW comment=CW
 add address=81.29.0.0/20 list=GEO_CW comment=CW

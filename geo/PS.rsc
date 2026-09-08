@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — PS
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PS | Subnets: 243 (was 249, collapsed 6) | IPs: ~875,520
 #
 /ip firewall address-list
-remove [find list=GEO_PS]
+remove [find where list=GEO_PS and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.178.112.0/20 list=GEO_PS comment=PS
 add address=1.178.128.0/20 list=GEO_PS comment=PS
 add address=1.178.208.0/20 list=GEO_PS comment=PS

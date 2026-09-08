@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — IT
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IT | Subnets: 3343 (was 3718, collapsed 375) | IPs: ~53,996,416
 #
 /ip firewall address-list
-remove [find list=GEO_IT]
+remove [find where list=GEO_IT and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.32.0.0/12 list=GEO_IT comment=IT
 add address=2.56.92.0/22 list=GEO_IT comment=IT
 add address=2.56.128.0/22 list=GEO_IT comment=IT

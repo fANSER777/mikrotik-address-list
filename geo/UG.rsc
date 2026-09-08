@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — UG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UG | Subnets: 104 (was 106, collapsed 2) | IPs: ~1,423,360
 #
 /ip firewall address-list
-remove [find list=GEO_UG]
+remove [find where list=GEO_UG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.75.160.0/19 list=GEO_UG comment=UG
 add address=41.77.72.0/21 list=GEO_UG comment=UG
 add address=41.84.192.0/19 list=GEO_UG comment=UG

@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MW
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MW | Subnets: 51 (was 51, collapsed 0) | IPs: ~556,544
 #
 /ip firewall address-list
-remove [find list=GEO_MW]
+remove [find where list=GEO_MW and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.70.0.0/17 list=GEO_MW comment=MW
 add address=41.75.112.0/20 list=GEO_MW comment=MW
 add address=41.77.8.0/21 list=GEO_MW comment=MW

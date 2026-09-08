@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — IE
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IE | Subnets: 727 (was 773, collapsed 46) | IPs: ~10,358,848
 #
 /ip firewall address-list
-remove [find list=GEO_IE]
+remove [find where list=GEO_IE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=2.57.24.0/22 list=GEO_IE comment=IE
 add address=2.58.180.0/22 list=GEO_IE comment=IE
 add address=2.59.104.0/22 list=GEO_IE comment=IE

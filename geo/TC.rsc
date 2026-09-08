@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — TC
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TC | Subnets: 7 (was 7, collapsed 0) | IPs: ~10,496
 #
 /ip firewall address-list
-remove [find list=GEO_TC]
+remove [find where list=GEO_TC and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=65.255.48.0/20 list=GEO_TC comment=TC
 add address=142.54.204.0/22 list=GEO_TC comment=TC
 add address=192.203.37.0/24 list=GEO_TC comment=TC

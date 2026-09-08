@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — AO
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AO | Subnets: 143 (was 149, collapsed 6) | IPs: ~1,284,608
 #
 /ip firewall address-list
-remove [find list=GEO_AO]
+remove [find where list=GEO_AO and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.63.160.0/19 list=GEO_AO comment=AO
 add address=41.70.128.0/17 list=GEO_AO comment=AO
 add address=41.74.240.0/20 list=GEO_AO comment=AO

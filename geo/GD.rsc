@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — GD
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GD | Subnets: 15 (was 15, collapsed 0) | IPs: ~11,264
 #
 /ip firewall address-list
-remove [find list=GEO_GD]
+remove [find where list=GEO_GD and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.128.4.0/24 list=GEO_GD comment=GD
 add address=23.130.168.0/24 list=GEO_GD comment=GD
 add address=23.141.216.0/24 list=GEO_GD comment=GD

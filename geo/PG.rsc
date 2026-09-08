@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — PG
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PG | Subnets: 63 (was 63, collapsed 0) | IPs: ~67,072
 #
 /ip firewall address-list
-remove [find list=GEO_PG]
+remove [find where list=GEO_PG and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=14.192.72.0/22 list=GEO_PG comment=PG
 add address=27.122.16.0/20 list=GEO_PG comment=PG
 add address=43.245.56.0/22 list=GEO_PG comment=PG

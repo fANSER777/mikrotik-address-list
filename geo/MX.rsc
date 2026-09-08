@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — MX
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MX | Subnets: 797 (was 1383, collapsed 586) | IPs: ~28,954,112
 #
 /ip firewall address-list
-remove [find list=GEO_MX]
+remove [find where list=GEO_MX and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.156.104.0/24 list=GEO_MX comment=MX
 add address=23.157.236.0/24 list=GEO_MX comment=MX
 add address=45.5.52.0/22 list=GEO_MX comment=MX

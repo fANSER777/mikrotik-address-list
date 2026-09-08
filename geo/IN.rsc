@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IN | Subnets: 7132 (was 9214, collapsed 2082) | IPs: ~41,924,864
 #
 /ip firewall address-list
-remove [find list=GEO_IN]
+remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=1.6.0.0/15 list=GEO_IN comment=IN
 add address=1.10.10.0/24 list=GEO_IN comment=IN
 add address=1.22.0.0/15 list=GEO_IN comment=IN

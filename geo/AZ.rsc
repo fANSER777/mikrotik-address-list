@@ -1,10 +1,11 @@
+# Temporary GEO entries preserved v1
 # GeoIP address list — AZ
-# Generated: 2026-09-08 22:07 UTC
+# Generated: 2026-09-08 22:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AZ | Subnets: 181 (was 212, collapsed 31) | IPs: ~771,328
 #
 /ip firewall address-list
-remove [find list=GEO_AZ]
+remove [find where list=GEO_AZ and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=5.10.240.0/20 list=GEO_AZ comment=AZ
 add address=5.44.32.0/21 list=GEO_AZ comment=AZ
 add address=5.133.224.0/20 list=GEO_AZ comment=AZ
