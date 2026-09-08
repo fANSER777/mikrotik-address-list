@@ -1,5 +1,5 @@
 # GeoIP address list — AG
-# Generated: 2026-09-08 07:44 UTC
+# Generated: 2026-09-08 07:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AG | Subnets: 45 (was 45, collapsed 0) | IPs: ~184,576
 #

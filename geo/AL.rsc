@@ -1,5 +1,5 @@
 # GeoIP address list — AL
-# Generated: 2026-09-08 07:44 UTC
+# Generated: 2026-09-08 07:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AL | Subnets: 231 (was 242, collapsed 11) | IPs: ~499,264
 #
