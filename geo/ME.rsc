@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ME
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ME | Subnets: 47 (was 47, collapsed 0) | IPs: ~198,144
+# Countries: ME | Subnets: 43 (was 43, collapsed 0) | IPs: ~193,280
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_ME and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -12,7 +13,7 @@ add address=37.122.160.0/19 list=GEO_ME comment=ME
 add address=46.33.192.0/19 list=GEO_ME comment=ME
 add address=46.161.64.0/18 list=GEO_ME comment=ME
 add address=62.4.32.0/19 list=GEO_ME comment=ME
-add address=77.91.80.0/20 list=GEO_ME comment=ME
+add address=77.91.80.0/22 list=GEO_ME comment=ME
 add address=77.222.0.0/19 list=GEO_ME comment=ME
 add address=78.155.32.0/19 list=GEO_ME comment=ME
 add address=79.140.144.0/20 list=GEO_ME comment=ME
@@ -22,7 +23,6 @@ add address=85.94.96.0/19 list=GEO_ME comment=ME
 add address=89.188.32.0/19 list=GEO_ME comment=ME
 add address=91.217.138.0/24 list=GEO_ME comment=ME
 add address=91.220.187.0/24 list=GEO_ME comment=ME
-add address=92.42.96.0/24 list=GEO_ME comment=ME
 add address=94.102.224.0/20 list=GEO_ME comment=ME
 add address=94.141.120.0/22 list=GEO_ME comment=ME
 add address=95.155.0.0/18 list=GEO_ME comment=ME
@@ -38,15 +38,12 @@ add address=185.68.48.0/22 list=GEO_ME comment=ME
 add address=185.80.96.0/22 list=GEO_ME comment=ME
 add address=185.132.160.0/22 list=GEO_ME comment=ME
 add address=185.147.200.0/22 list=GEO_ME comment=ME
-add address=185.149.144.0/22 list=GEO_ME comment=ME
-add address=185.157.120.0/24 list=GEO_ME comment=ME
 add address=185.163.224.0/22 list=GEO_ME comment=ME
 add address=185.179.52.0/22 list=GEO_ME comment=ME
 add address=185.179.92.0/22 list=GEO_ME comment=ME
 add address=185.215.88.0/22 list=GEO_ME comment=ME
 add address=185.255.228.0/22 list=GEO_ME comment=ME
 add address=193.32.112.0/23 list=GEO_ME comment=ME
-add address=195.10.205.0/24 list=GEO_ME comment=ME
 add address=195.66.160.0/19 list=GEO_ME comment=ME
 add address=195.140.164.0/22 list=GEO_ME comment=ME
 add address=195.242.169.0/24 list=GEO_ME comment=ME

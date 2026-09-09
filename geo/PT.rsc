@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PT
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PT | Subnets: 403 (was 447, collapsed 44) | IPs: ~6,692,384
+# Countries: PT | Subnets: 405 (was 449, collapsed 44) | IPs: ~6,692,384
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PT and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -57,6 +58,7 @@ add address=83.240.128.0/17 list=GEO_PT comment=PT
 add address=84.23.192.0/19 list=GEO_PT comment=PT
 add address=84.90.0.0/15 list=GEO_PT comment=PT
 add address=84.252.88.0/22 list=GEO_PT comment=PT
+add address=85.8.226.0/24 list=GEO_PT comment=PT
 add address=85.138.0.0/15 list=GEO_PT comment=PT
 add address=85.240.0.0/13 list=GEO_PT comment=PT
 add address=87.103.0.0/17 list=GEO_PT comment=PT
@@ -77,7 +79,6 @@ add address=91.194.182.0/23 list=GEO_PT comment=PT
 add address=91.198.47.0/24 list=GEO_PT comment=PT
 add address=91.198.90.0/24 list=GEO_PT comment=PT
 add address=91.198.182.0/24 list=GEO_PT comment=PT
-add address=91.198.239.0/24 list=GEO_PT comment=PT
 add address=91.199.116.0/24 list=GEO_PT comment=PT
 add address=91.205.112.0/22 list=GEO_PT comment=PT
 add address=91.209.16.0/24 list=GEO_PT comment=PT
@@ -131,6 +132,7 @@ add address=148.63.0.0/16 list=GEO_PT comment=PT
 add address=148.69.0.0/16 list=GEO_PT comment=PT
 add address=148.71.0.0/16 list=GEO_PT comment=PT
 add address=149.90.0.0/16 list=GEO_PT comment=PT
+add address=150.237.126.0/23 list=GEO_PT comment=PT
 add address=158.162.0.0/16 list=GEO_PT comment=PT
 add address=159.255.48.0/20 list=GEO_PT comment=PT
 add address=161.230.0.0/16 list=GEO_PT comment=PT
@@ -208,7 +210,8 @@ add address=185.208.203.0/24 list=GEO_PT comment=PT
 add address=185.210.156.0/24 list=GEO_PT comment=PT
 add address=185.214.32.0/22 list=GEO_PT comment=PT
 add address=185.218.12.0/22 list=GEO_PT comment=PT
-add address=185.219.128.0/22 list=GEO_PT comment=PT
+add address=185.219.129.0/24 list=GEO_PT comment=PT
+add address=185.219.131.0/24 list=GEO_PT comment=PT
 add address=185.222.8.0/22 list=GEO_PT comment=PT
 add address=185.222.200.0/22 list=GEO_PT comment=PT
 add address=185.224.164.0/22 list=GEO_PT comment=PT

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NO
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NO | Subnets: 1228 (was 1321, collapsed 93) | IPs: ~15,603,216
+# Countries: NO | Subnets: 1239 (was 1335, collapsed 96) | IPs: ~15,619,600
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_NO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -121,6 +122,7 @@ add address=62.209.64.0/18 list=GEO_NO comment=NO
 add address=62.241.32.0/20 list=GEO_NO comment=NO
 add address=62.249.160.0/19 list=GEO_NO comment=NO
 add address=64.28.0.0/19 list=GEO_NO comment=NO
+add address=64.39.80.0/20 list=GEO_NO comment=NO
 add address=64.239.19.0/24 list=GEO_NO comment=NO
 add address=64.239.56.0/23 list=GEO_NO comment=NO
 add address=77.16.0.0/14 list=GEO_NO comment=NO
@@ -168,6 +170,7 @@ add address=80.91.32.0/20 list=GEO_NO comment=NO
 add address=80.173.230.0/23 list=GEO_NO comment=NO
 add address=80.202.0.0/16 list=GEO_NO comment=NO
 add address=80.203.0.0/17 list=GEO_NO comment=NO
+add address=80.210.80.0/20 list=GEO_NO comment=NO
 add address=80.212.0.0/15 list=GEO_NO comment=NO
 add address=80.232.0.0/17 list=GEO_NO comment=NO
 add address=80.239.0.0/17 list=GEO_NO comment=NO
@@ -232,6 +235,7 @@ add address=85.137.182.0/24 list=GEO_NO comment=NO
 add address=85.137.228.0/22 list=GEO_NO comment=NO
 add address=85.158.80.0/21 list=GEO_NO comment=NO
 add address=85.164.0.0/14 list=GEO_NO comment=NO
+add address=85.194.254.0/23 list=GEO_NO comment=NO
 add address=85.196.64.0/18 list=GEO_NO comment=NO
 add address=85.200.0.0/16 list=GEO_NO comment=NO
 add address=85.208.88.0/22 list=GEO_NO comment=NO
@@ -291,7 +295,6 @@ add address=91.189.168.0/21 list=GEO_NO comment=NO
 add address=91.189.176.0/21 list=GEO_NO comment=NO
 add address=91.192.220.0/22 list=GEO_NO comment=NO
 add address=91.193.0.0/22 list=GEO_NO comment=NO
-add address=91.195.8.0/23 list=GEO_NO comment=NO
 add address=91.198.176.0/24 list=GEO_NO comment=NO
 add address=91.198.201.0/24 list=GEO_NO comment=NO
 add address=91.199.63.0/24 list=GEO_NO comment=NO
@@ -418,6 +421,7 @@ add address=130.193.28.0/24 list=GEO_NO comment=NO
 add address=132.150.0.0/16 list=GEO_NO comment=NO
 add address=134.47.0.0/16 list=GEO_NO comment=NO
 add address=134.90.144.0/21 list=GEO_NO comment=NO
+add address=136.148.132.0/22 list=GEO_NO comment=NO
 add address=136.164.0.0/16 list=GEO_NO comment=NO
 add address=137.47.0.0/16 list=GEO_NO comment=NO
 add address=137.93.0.0/16 list=GEO_NO comment=NO
@@ -470,6 +474,7 @@ add address=148.118.0.0/15 list=GEO_NO comment=NO
 add address=148.120.0.0/14 list=GEO_NO comment=NO
 add address=148.140.0.0/16 list=GEO_NO comment=NO
 add address=148.252.64.0/18 list=GEO_NO comment=NO
+add address=149.170.200.0/21 list=GEO_NO comment=NO
 add address=149.209.0.0/16 list=GEO_NO comment=NO
 add address=150.106.0.0/16 list=GEO_NO comment=NO
 add address=151.157.0.0/16 list=GEO_NO comment=NO
@@ -507,6 +512,7 @@ add address=159.171.0.0/16 list=GEO_NO comment=NO
 add address=159.216.0.0/16 list=GEO_NO comment=NO
 add address=159.253.8.0/21 list=GEO_NO comment=NO
 add address=159.253.122.0/24 list=GEO_NO comment=NO
+add address=160.5.224.0/20 list=GEO_NO comment=NO
 add address=160.67.0.0/16 list=GEO_NO comment=NO
 add address=160.68.0.0/16 list=GEO_NO comment=NO
 add address=161.4.0.0/16 list=GEO_NO comment=NO
@@ -683,6 +689,8 @@ add address=185.101.32.0/22 list=GEO_NO comment=NO
 add address=185.102.28.0/22 list=GEO_NO comment=NO
 add address=185.102.52.0/22 list=GEO_NO comment=NO
 add address=185.102.108.0/22 list=GEO_NO comment=NO
+add address=185.105.9.0/24 list=GEO_NO comment=NO
+add address=185.108.44.0/23 list=GEO_NO comment=NO
 add address=185.110.148.0/22 list=GEO_NO comment=NO
 add address=185.112.24.0/22 list=GEO_NO comment=NO
 add address=185.114.56.0/22 list=GEO_NO comment=NO
@@ -728,7 +736,8 @@ add address=185.142.240.0/22 list=GEO_NO comment=NO
 add address=185.143.208.0/22 list=GEO_NO comment=NO
 add address=185.143.216.0/22 list=GEO_NO comment=NO
 add address=185.144.128.0/22 list=GEO_NO comment=NO
-add address=185.145.188.0/22 list=GEO_NO comment=NO
+add address=185.145.189.0/24 list=GEO_NO comment=NO
+add address=185.145.191.0/24 list=GEO_NO comment=NO
 add address=185.146.100.0/22 list=GEO_NO comment=NO
 add address=185.146.200.0/22 list=GEO_NO comment=NO
 add address=185.148.16.0/22 list=GEO_NO comment=NO
@@ -1088,6 +1097,7 @@ add address=194.143.0.0/17 list=GEO_NO comment=NO
 add address=194.146.8.0/22 list=GEO_NO comment=NO
 add address=194.146.244.0/22 list=GEO_NO comment=NO
 add address=194.150.212.0/23 list=GEO_NO comment=NO
+add address=194.153.130.0/24 list=GEO_NO comment=NO
 add address=194.153.154.128/25 list=GEO_NO comment=NO
 add address=194.156.192.0/22 list=GEO_NO comment=NO
 add address=194.164.236.0/24 list=GEO_NO comment=NO
@@ -1215,6 +1225,8 @@ add address=217.14.0.0/20 list=GEO_NO comment=NO
 add address=217.17.0.0/20 list=GEO_NO comment=NO
 add address=217.17.208.0/20 list=GEO_NO comment=NO
 add address=217.18.192.0/20 list=GEO_NO comment=NO
+add address=217.22.1.0/24 list=GEO_NO comment=NO
+add address=217.22.2.0/24 list=GEO_NO comment=NO
 add address=217.22.32.0/20 list=GEO_NO comment=NO
 add address=217.31.96.0/20 list=GEO_NO comment=NO
 add address=217.65.224.0/20 list=GEO_NO comment=NO

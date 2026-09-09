@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IE
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IE | Subnets: 727 (was 773, collapsed 46) | IPs: ~10,358,848
+# Countries: IE | Subnets: 715 (was 757, collapsed 42) | IPs: ~10,087,744
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_IE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -59,7 +60,6 @@ add address=45.156.120.0/22 list=GEO_IE comment=IE
 add address=45.158.112.0/22 list=GEO_IE comment=IE
 add address=45.158.144.0/22 list=GEO_IE comment=IE
 add address=45.158.176.0/22 list=GEO_IE comment=IE
-add address=45.159.172.0/22 list=GEO_IE comment=IE
 add address=46.7.0.0/16 list=GEO_IE comment=IE
 add address=46.17.32.0/21 list=GEO_IE comment=IE
 add address=46.19.208.0/21 list=GEO_IE comment=IE
@@ -80,14 +80,14 @@ add address=57.68.0.0/15 list=GEO_IE comment=IE
 add address=57.70.0.0/16 list=GEO_IE comment=IE
 add address=57.72.0.0/15 list=GEO_IE comment=IE
 add address=57.74.0.0/16 list=GEO_IE comment=IE
-add address=57.76.0.0/14 list=GEO_IE comment=IE
+add address=57.77.0.0/16 list=GEO_IE comment=IE
+add address=57.78.0.0/15 list=GEO_IE comment=IE
 add address=57.82.0.0/15 list=GEO_IE comment=IE
 add address=57.86.0.0/16 list=GEO_IE comment=IE
 add address=57.90.0.0/16 list=GEO_IE comment=IE
 add address=57.92.0.0/16 list=GEO_IE comment=IE
 add address=57.96.0.0/15 list=GEO_IE comment=IE
 add address=57.98.0.0/16 list=GEO_IE comment=IE
-add address=57.100.0.0/16 list=GEO_IE comment=IE
 add address=57.136.0.0/15 list=GEO_IE comment=IE
 add address=57.141.0.0/16 list=GEO_IE comment=IE
 add address=57.142.0.0/15 list=GEO_IE comment=IE
@@ -171,6 +171,7 @@ add address=84.51.236.0/22 list=GEO_IE comment=IE
 add address=84.51.240.0/20 list=GEO_IE comment=IE
 add address=84.203.0.0/16 list=GEO_IE comment=IE
 add address=84.252.108.0/22 list=GEO_IE comment=IE
+add address=85.8.195.0/24 list=GEO_IE comment=IE
 add address=85.91.0.0/19 list=GEO_IE comment=IE
 add address=85.134.128.0/17 list=GEO_IE comment=IE
 add address=85.159.16.0/21 list=GEO_IE comment=IE
@@ -181,10 +182,10 @@ add address=87.32.0.0/12 list=GEO_IE comment=IE
 add address=87.120.240.0/22 list=GEO_IE comment=IE
 add address=87.120.248.0/22 list=GEO_IE comment=IE
 add address=87.121.252.0/22 list=GEO_IE comment=IE
-add address=87.192.0.0/18 list=GEO_IE comment=IE
 add address=87.192.64.0/20 list=GEO_IE comment=IE
-add address=87.192.80.0/21 list=GEO_IE comment=IE
-add address=87.192.200.0/21 list=GEO_IE comment=IE
+add address=87.192.80.0/24 list=GEO_IE comment=IE
+add address=87.192.82.0/23 list=GEO_IE comment=IE
+add address=87.192.84.0/22 list=GEO_IE comment=IE
 add address=87.192.216.0/21 list=GEO_IE comment=IE
 add address=87.198.0.0/16 list=GEO_IE comment=IE
 add address=87.232.0.0/18 list=GEO_IE comment=IE
@@ -202,25 +203,17 @@ add address=88.151.24.0/21 list=GEO_IE comment=IE
 add address=88.151.80.0/21 list=GEO_IE comment=IE
 add address=88.218.36.0/22 list=GEO_IE comment=IE
 add address=89.16.64.0/19 list=GEO_IE comment=IE
-add address=89.18.64.0/19 list=GEO_IE comment=IE
+add address=89.18.64.0/20 list=GEO_IE comment=IE
+add address=89.18.80.0/21 list=GEO_IE comment=IE
 add address=89.19.64.0/19 list=GEO_IE comment=IE
 add address=89.31.168.0/21 list=GEO_IE comment=IE
 add address=89.35.118.0/24 list=GEO_IE comment=IE
 add address=89.100.0.0/15 list=GEO_IE comment=IE
 add address=89.106.136.0/21 list=GEO_IE comment=IE
 add address=89.124.0.0/21 list=GEO_IE comment=IE
-add address=89.124.16.0/20 list=GEO_IE comment=IE
-add address=89.124.224.0/20 list=GEO_IE comment=IE
 add address=89.124.240.0/22 list=GEO_IE comment=IE
-add address=89.124.244.0/23 list=GEO_IE comment=IE
-add address=89.124.248.0/23 list=GEO_IE comment=IE
-add address=89.124.252.0/24 list=GEO_IE comment=IE
-add address=89.124.254.0/23 list=GEO_IE comment=IE
-add address=89.126.128.0/18 list=GEO_IE comment=IE
-add address=89.126.192.0/20 list=GEO_IE comment=IE
-add address=89.126.240.0/20 list=GEO_IE comment=IE
+add address=89.124.244.0/24 list=GEO_IE comment=IE
 add address=89.127.0.0/17 list=GEO_IE comment=IE
-add address=89.127.128.0/18 list=GEO_IE comment=IE
 add address=89.127.248.0/22 list=GEO_IE comment=IE
 add address=89.127.254.0/23 list=GEO_IE comment=IE
 add address=89.184.32.0/19 list=GEO_IE comment=IE
@@ -265,7 +258,6 @@ add address=91.216.236.0/24 list=GEO_IE comment=IE
 add address=91.216.241.0/24 list=GEO_IE comment=IE
 add address=91.217.88.0/23 list=GEO_IE comment=IE
 add address=91.220.45.0/24 list=GEO_IE comment=IE
-add address=91.220.193.0/24 list=GEO_IE comment=IE
 add address=91.220.224.0/24 list=GEO_IE comment=IE
 add address=91.223.9.0/24 list=GEO_IE comment=IE
 add address=91.223.87.0/24 list=GEO_IE comment=IE
@@ -307,7 +299,6 @@ add address=94.230.96.0/20 list=GEO_IE comment=IE
 add address=94.247.48.0/21 list=GEO_IE comment=IE
 add address=95.44.0.0/15 list=GEO_IE comment=IE
 add address=95.83.192.0/18 list=GEO_IE comment=IE
-add address=103.214.192.0/22 list=GEO_IE comment=IE
 add address=107.191.68.0/24 list=GEO_IE comment=IE
 add address=109.68.56.0/21 list=GEO_IE comment=IE
 add address=109.70.208.0/21 list=GEO_IE comment=IE
@@ -337,7 +328,6 @@ add address=137.191.0.0/16 list=GEO_IE comment=IE
 add address=139.45.128.0/18 list=GEO_IE comment=IE
 add address=140.203.0.0/16 list=GEO_IE comment=IE
 add address=141.105.112.0/21 list=GEO_IE comment=IE
-add address=143.47.0.0/16 list=GEO_IE comment=IE
 add address=143.239.0.0/16 list=GEO_IE comment=IE
 add address=144.2.240.0/21 list=GEO_IE comment=IE
 add address=144.48.140.0/22 list=GEO_IE comment=IE
@@ -352,6 +342,7 @@ add address=148.252.8.0/21 list=GEO_IE comment=IE
 add address=149.62.34.0/24 list=GEO_IE comment=IE
 add address=149.153.0.0/16 list=GEO_IE comment=IE
 add address=149.157.0.0/16 list=GEO_IE comment=IE
+add address=149.170.59.0/24 list=GEO_IE comment=IE
 add address=157.190.0.0/16 list=GEO_IE comment=IE
 add address=158.146.128.0/20 list=GEO_IE comment=IE
 add address=159.100.160.0/20 list=GEO_IE comment=IE
@@ -524,7 +515,6 @@ add address=185.191.156.0/22 list=GEO_IE comment=IE
 add address=185.192.88.0/22 list=GEO_IE comment=IE
 add address=185.192.152.0/22 list=GEO_IE comment=IE
 add address=185.195.164.0/22 list=GEO_IE comment=IE
-add address=185.200.84.0/22 list=GEO_IE comment=IE
 add address=185.202.16.0/22 list=GEO_IE comment=IE
 add address=185.202.68.0/22 list=GEO_IE comment=IE
 add address=185.204.136.0/22 list=GEO_IE comment=IE
@@ -636,7 +626,6 @@ add address=193.242.111.0/24 list=GEO_IE comment=IE
 add address=194.0.156.0/24 list=GEO_IE comment=IE
 add address=194.0.196.0/24 list=GEO_IE comment=IE
 add address=194.0.226.0/24 list=GEO_IE comment=IE
-add address=194.0.241.0/24 list=GEO_IE comment=IE
 add address=194.8.48.0/24 list=GEO_IE comment=IE
 add address=194.8.59.0/24 list=GEO_IE comment=IE
 add address=194.9.174.0/24 list=GEO_IE comment=IE

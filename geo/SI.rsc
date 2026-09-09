@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SI
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SI | Subnets: 530 (was 546, collapsed 16) | IPs: ~2,679,552
+# Countries: SI | Subnets: 535 (was 547, collapsed 12) | IPs: ~2,683,136
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_SI and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -215,6 +216,7 @@ add address=103.69.224.0/22 list=GEO_SI comment=SI
 add address=103.72.184.0/22 list=GEO_SI comment=SI
 add address=103.180.114.0/23 list=GEO_SI comment=SI
 add address=107.150.176.0/24 list=GEO_SI comment=SI
+add address=109.68.220.0/24 list=GEO_SI comment=SI
 add address=109.104.146.0/23 list=GEO_SI comment=SI
 add address=109.123.0.0/18 list=GEO_SI comment=SI
 add address=109.127.192.0/18 list=GEO_SI comment=SI
@@ -225,6 +227,8 @@ add address=109.239.176.0/20 list=GEO_SI comment=SI
 add address=119.12.128.0/20 list=GEO_SI comment=SI
 add address=141.255.192.0/18 list=GEO_SI comment=SI
 add address=145.14.4.0/22 list=GEO_SI comment=SI
+add address=145.14.8.0/21 list=GEO_SI comment=SI
+add address=145.14.48.0/21 list=GEO_SI comment=SI
 add address=146.19.34.0/23 list=GEO_SI comment=SI
 add address=146.212.0.0/16 list=GEO_SI comment=SI
 add address=146.247.24.0/21 list=GEO_SI comment=SI
@@ -232,6 +236,7 @@ add address=147.78.216.0/22 list=GEO_SI comment=SI
 add address=148.222.240.0/21 list=GEO_SI comment=SI
 add address=149.62.64.0/18 list=GEO_SI comment=SI
 add address=149.126.128.0/19 list=GEO_SI comment=SI
+add address=149.170.58.0/24 list=GEO_SI comment=SI
 add address=152.89.232.0/22 list=GEO_SI comment=SI
 add address=153.5.0.0/16 list=GEO_SI comment=SI
 add address=158.41.0.0/20 list=GEO_SI comment=SI
@@ -318,14 +323,14 @@ add address=188.230.128.0/17 list=GEO_SI comment=SI
 add address=188.240.209.0/24 list=GEO_SI comment=SI
 add address=188.241.86.0/24 list=GEO_SI comment=SI
 add address=192.84.90.0/24 list=GEO_SI comment=SI
-add address=192.84.93.0/24 list=GEO_SI comment=SI
-add address=192.84.94.0/23 list=GEO_SI comment=SI
-add address=192.84.96.0/22 list=GEO_SI comment=SI
+add address=192.84.95.0/24 list=GEO_SI comment=SI
+add address=192.84.97.0/24 list=GEO_SI comment=SI
+add address=192.84.99.0/24 list=GEO_SI comment=SI
 add address=192.84.101.0/24 list=GEO_SI comment=SI
 add address=192.84.102.0/23 list=GEO_SI comment=SI
 add address=192.84.104.0/24 list=GEO_SI comment=SI
 add address=192.84.107.0/24 list=GEO_SI comment=SI
-add address=192.84.108.0/23 list=GEO_SI comment=SI
+add address=192.84.109.0/24 list=GEO_SI comment=SI
 add address=192.109.172.0/24 list=GEO_SI comment=SI
 add address=192.109.196.0/24 list=GEO_SI comment=SI
 add address=192.109.203.0/24 list=GEO_SI comment=SI
@@ -503,6 +508,7 @@ add address=195.248.68.0/24 list=GEO_SI comment=SI
 add address=195.250.49.0/24 list=GEO_SI comment=SI
 add address=195.250.58.0/24 list=GEO_SI comment=SI
 add address=195.250.192.0/19 list=GEO_SI comment=SI
+add address=198.60.216.0/24 list=GEO_SI comment=SI
 add address=198.203.198.0/23 list=GEO_SI comment=SI
 add address=202.92.212.0/24 list=GEO_SI comment=SI
 add address=203.19.252.0/24 list=GEO_SI comment=SI

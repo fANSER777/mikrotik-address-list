@@ -1,13 +1,14 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PA
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PA | Subnets: 160 (was 187, collapsed 27) | IPs: ~2,129,408
+# Countries: PA | Subnets: 158 (was 185, collapsed 27) | IPs: ~2,188,544
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PA and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.252.0/22 list=GEO_PA comment=PA
 add address=5.252.152.0/22 list=GEO_PA comment=PA
-add address=23.137.100.0/24 list=GEO_PA comment=PA
 add address=31.7.56.0/21 list=GEO_PA comment=PA
 add address=45.65.254.0/23 list=GEO_PA comment=PA
 add address=45.68.104.0/24 list=GEO_PA comment=PA
@@ -26,10 +27,9 @@ add address=45.229.196.0/22 list=GEO_PA comment=PA
 add address=45.235.227.0/24 list=GEO_PA comment=PA
 add address=45.237.184.0/22 list=GEO_PA comment=PA
 add address=46.19.136.0/21 list=GEO_PA comment=PA
-add address=77.73.184.0/21 list=GEO_PA comment=PA
 add address=81.17.16.0/20 list=GEO_PA comment=PA
-add address=92.62.208.0/20 list=GEO_PA comment=PA
 add address=92.249.36.0/22 list=GEO_PA comment=PA
+add address=94.131.53.0/24 list=GEO_PA comment=PA
 add address=103.86.96.0/22 list=GEO_PA comment=PA
 add address=103.173.150.0/23 list=GEO_PA comment=PA
 add address=116.204.192.0/22 list=GEO_PA comment=PA
@@ -45,6 +45,7 @@ add address=138.186.12.0/22 list=GEO_PA comment=PA
 add address=138.186.88.0/22 list=GEO_PA comment=PA
 add address=138.204.108.0/22 list=GEO_PA comment=PA
 add address=141.98.80.0/22 list=GEO_PA comment=PA
+add address=141.171.0.0/16 list=GEO_PA comment=PA
 add address=141.255.160.0/21 list=GEO_PA comment=PA
 add address=143.202.152.0/22 list=GEO_PA comment=PA
 add address=143.255.156.0/22 list=GEO_PA comment=PA
@@ -79,8 +80,6 @@ add address=181.197.128.0/18 list=GEO_PA comment=PA
 add address=185.12.44.0/22 list=GEO_PA comment=PA
 add address=185.72.148.0/22 list=GEO_PA comment=PA
 add address=185.135.45.0/24 list=GEO_PA comment=PA
-add address=185.143.220.0/22 list=GEO_PA comment=PA
-add address=185.190.24.0/24 list=GEO_PA comment=PA
 add address=186.5.128.0/19 list=GEO_PA comment=PA
 add address=186.72.0.0/14 list=GEO_PA comment=PA
 add address=186.148.96.0/20 list=GEO_PA comment=PA

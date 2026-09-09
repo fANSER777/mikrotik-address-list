@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KR | Subnets: 998 (was 2426, collapsed 1428) | IPs: ~112,497,664
+# Countries: KR | Subnets: 999 (was 2427, collapsed 1428) | IPs: ~112,497,920
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -693,6 +694,7 @@ add address=146.88.84.0/22 list=GEO_KR comment=KR
 add address=147.6.0.0/16 list=GEO_KR comment=KR
 add address=147.43.0.0/16 list=GEO_KR comment=KR
 add address=147.46.0.0/15 list=GEO_KR comment=KR
+add address=149.170.60.0/23 list=GEO_KR comment=KR
 add address=150.107.68.0/22 list=GEO_KR comment=KR
 add address=150.107.80.0/21 list=GEO_KR comment=KR
 add address=150.129.224.0/22 list=GEO_KR comment=KR
@@ -721,6 +723,7 @@ add address=160.187.186.0/23 list=GEO_KR comment=KR
 add address=160.202.160.0/22 list=GEO_KR comment=KR
 add address=160.202.172.0/22 list=GEO_KR comment=KR
 add address=160.202.176.0/22 list=GEO_KR comment=KR
+add address=160.236.41.0/24 list=GEO_KR comment=KR
 add address=160.250.152.0/22 list=GEO_KR comment=KR
 add address=161.122.0.0/16 list=GEO_KR comment=KR
 add address=162.4.5.0/24 list=GEO_KR comment=KR
@@ -735,7 +738,6 @@ add address=163.180.0.0/16 list=GEO_KR comment=KR
 add address=163.213.0.0/16 list=GEO_KR comment=KR
 add address=163.222.0.0/16 list=GEO_KR comment=KR
 add address=163.223.94.0/23 list=GEO_KR comment=KR
-add address=163.223.162.0/23 list=GEO_KR comment=KR
 add address=163.229.0.0/16 list=GEO_KR comment=KR
 add address=163.239.0.0/16 list=GEO_KR comment=KR
 add address=163.255.0.0/16 list=GEO_KR comment=KR

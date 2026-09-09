@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UA
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UA | Subnets: 2659 (was 2890, collapsed 231) | IPs: ~9,099,520
+# Countries: UA | Subnets: 2660 (was 2902, collapsed 242) | IPs: ~9,092,352
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_UA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -54,7 +55,7 @@ add address=31.42.184.0/21 list=GEO_UA comment=UA
 add address=31.43.0.0/17 list=GEO_UA comment=UA
 add address=31.43.128.0/19 list=GEO_UA comment=UA
 add address=31.43.163.0/24 list=GEO_UA comment=UA
-add address=31.43.164.0/22 list=GEO_UA comment=UA
+add address=31.43.164.0/23 list=GEO_UA comment=UA
 add address=31.43.168.0/22 list=GEO_UA comment=UA
 add address=31.43.178.0/24 list=GEO_UA comment=UA
 add address=31.43.180.0/22 list=GEO_UA comment=UA
@@ -289,6 +290,7 @@ add address=78.111.208.0/20 list=GEO_UA comment=UA
 add address=78.152.160.0/19 list=GEO_UA comment=UA
 add address=78.154.160.0/19 list=GEO_UA comment=UA
 add address=78.159.32.0/19 list=GEO_UA comment=UA
+add address=79.108.119.0/24 list=GEO_UA comment=UA
 add address=79.110.16.0/20 list=GEO_UA comment=UA
 add address=79.110.64.0/20 list=GEO_UA comment=UA
 add address=79.110.96.0/20 list=GEO_UA comment=UA
@@ -334,6 +336,7 @@ add address=82.117.240.0/24 list=GEO_UA comment=UA
 add address=82.117.246.0/23 list=GEO_UA comment=UA
 add address=82.117.248.0/22 list=GEO_UA comment=UA
 add address=82.144.192.0/19 list=GEO_UA comment=UA
+add address=82.158.192.0/20 list=GEO_UA comment=UA
 add address=82.207.0.0/17 list=GEO_UA comment=UA
 add address=83.97.76.0/24 list=GEO_UA comment=UA
 add address=83.137.88.0/21 list=GEO_UA comment=UA
@@ -637,7 +640,6 @@ add address=91.211.116.0/22 list=GEO_UA comment=UA
 add address=91.211.120.0/22 list=GEO_UA comment=UA
 add address=91.211.132.0/22 list=GEO_UA comment=UA
 add address=91.211.176.0/22 list=GEO_UA comment=UA
-add address=91.211.204.0/22 list=GEO_UA comment=UA
 add address=91.212.22.0/24 list=GEO_UA comment=UA
 add address=91.212.34.0/24 list=GEO_UA comment=UA
 add address=91.212.56.0/24 list=GEO_UA comment=UA
@@ -797,7 +799,6 @@ add address=91.223.214.0/24 list=GEO_UA comment=UA
 add address=91.223.216.0/24 list=GEO_UA comment=UA
 add address=91.223.223.0/24 list=GEO_UA comment=UA
 add address=91.223.227.0/24 list=GEO_UA comment=UA
-add address=91.223.234.0/24 list=GEO_UA comment=UA
 add address=91.223.255.0/24 list=GEO_UA comment=UA
 add address=91.224.8.0/22 list=GEO_UA comment=UA
 add address=91.224.16.0/23 list=GEO_UA comment=UA
@@ -951,7 +952,6 @@ add address=91.237.126.0/23 list=GEO_UA comment=UA
 add address=91.237.128.0/24 list=GEO_UA comment=UA
 add address=91.237.142.0/24 list=GEO_UA comment=UA
 add address=91.237.152.0/24 list=GEO_UA comment=UA
-add address=91.237.164.0/22 list=GEO_UA comment=UA
 add address=91.237.204.0/22 list=GEO_UA comment=UA
 add address=91.237.232.0/22 list=GEO_UA comment=UA
 add address=91.237.240.0/21 list=GEO_UA comment=UA
@@ -1067,14 +1067,11 @@ add address=95.109.128.0/17 list=GEO_UA comment=UA
 add address=95.128.195.0/24 list=GEO_UA comment=UA
 add address=95.132.0.0/16 list=GEO_UA comment=UA
 add address=95.133.0.0/17 list=GEO_UA comment=UA
-add address=95.133.132.0/22 list=GEO_UA comment=UA
 add address=95.133.144.0/20 list=GEO_UA comment=UA
-add address=95.133.162.0/23 list=GEO_UA comment=UA
-add address=95.133.164.0/22 list=GEO_UA comment=UA
-add address=95.133.168.0/21 list=GEO_UA comment=UA
+add address=95.133.170.0/23 list=GEO_UA comment=UA
+add address=95.133.172.0/22 list=GEO_UA comment=UA
 add address=95.133.176.0/20 list=GEO_UA comment=UA
 add address=95.133.208.0/20 list=GEO_UA comment=UA
-add address=95.133.236.0/23 list=GEO_UA comment=UA
 add address=95.134.0.0/15 list=GEO_UA comment=UA
 add address=95.141.245.0/24 list=GEO_UA comment=UA
 add address=95.158.0.0/18 list=GEO_UA comment=UA
@@ -1123,6 +1120,8 @@ add address=130.0.32.0/19 list=GEO_UA comment=UA
 add address=131.222.195.0/24 list=GEO_UA comment=UA
 add address=134.249.0.0/16 list=GEO_UA comment=UA
 add address=139.28.36.0/22 list=GEO_UA comment=UA
+add address=139.100.0.0/23 list=GEO_UA comment=UA
+add address=139.100.16.0/22 list=GEO_UA comment=UA
 add address=141.98.104.0/21 list=GEO_UA comment=UA
 add address=141.98.148.0/22 list=GEO_UA comment=UA
 add address=141.101.0.0/19 list=GEO_UA comment=UA
@@ -1149,6 +1148,10 @@ add address=152.89.192.0/22 list=GEO_UA comment=UA
 add address=156.67.48.0/22 list=GEO_UA comment=UA
 add address=159.146.128.0/17 list=GEO_UA comment=UA
 add address=159.160.0.0/16 list=GEO_UA comment=UA
+add address=159.200.232.0/23 list=GEO_UA comment=UA
+add address=159.200.236.0/23 list=GEO_UA comment=UA
+add address=159.200.239.0/24 list=GEO_UA comment=UA
+add address=159.200.244.0/22 list=GEO_UA comment=UA
 add address=159.224.0.0/16 list=GEO_UA comment=UA
 add address=171.25.168.0/22 list=GEO_UA comment=UA
 add address=171.25.204.0/22 list=GEO_UA comment=UA
@@ -1240,7 +1243,6 @@ add address=176.121.12.0/23 list=GEO_UA comment=UA
 add address=176.121.15.0/24 list=GEO_UA comment=UA
 add address=176.121.72.0/21 list=GEO_UA comment=UA
 add address=176.121.252.0/23 list=GEO_UA comment=UA
-add address=176.121.254.0/24 list=GEO_UA comment=UA
 add address=176.122.0.0/20 list=GEO_UA comment=UA
 add address=176.122.88.0/21 list=GEO_UA comment=UA
 add address=176.122.96.0/19 list=GEO_UA comment=UA
@@ -1301,6 +1303,7 @@ add address=178.219.80.0/20 list=GEO_UA comment=UA
 add address=178.251.104.0/21 list=GEO_UA comment=UA
 add address=178.255.176.0/21 list=GEO_UA comment=UA
 add address=185.0.29.0/24 list=GEO_UA comment=UA
+add address=185.0.48.0/22 list=GEO_UA comment=UA
 add address=185.1.16.0/24 list=GEO_UA comment=UA
 add address=185.1.39.0/24 list=GEO_UA comment=UA
 add address=185.1.50.0/23 list=GEO_UA comment=UA
@@ -1593,7 +1596,6 @@ add address=185.252.24.0/22 list=GEO_UA comment=UA
 add address=185.252.92.0/22 list=GEO_UA comment=UA
 add address=185.253.74.0/24 list=GEO_UA comment=UA
 add address=185.254.192.0/21 list=GEO_UA comment=UA
-add address=185.255.4.0/22 list=GEO_UA comment=UA
 add address=185.255.48.0/22 list=GEO_UA comment=UA
 add address=185.255.196.0/22 list=GEO_UA comment=UA
 add address=188.0.64.0/19 list=GEO_UA comment=UA
@@ -1977,7 +1979,6 @@ add address=193.201.83.0/24 list=GEO_UA comment=UA
 add address=193.201.100.0/24 list=GEO_UA comment=UA
 add address=193.201.105.0/24 list=GEO_UA comment=UA
 add address=193.201.116.0/23 list=GEO_UA comment=UA
-add address=193.201.140.0/22 list=GEO_UA comment=UA
 add address=193.201.152.128/25 list=GEO_UA comment=UA
 add address=193.201.175.0/24 list=GEO_UA comment=UA
 add address=193.201.198.0/23 list=GEO_UA comment=UA
@@ -2487,6 +2488,7 @@ add address=195.189.240.0/23 list=GEO_UA comment=UA
 add address=195.189.246.0/23 list=GEO_UA comment=UA
 add address=195.189.248.0/23 list=GEO_UA comment=UA
 add address=195.190.152.0/24 list=GEO_UA comment=UA
+add address=195.191.6.0/24 list=GEO_UA comment=UA
 add address=195.191.12.0/23 list=GEO_UA comment=UA
 add address=195.191.24.0/23 list=GEO_UA comment=UA
 add address=195.191.38.0/23 list=GEO_UA comment=UA
@@ -2600,7 +2602,6 @@ add address=212.86.113.0/24 list=GEO_UA comment=UA
 add address=212.86.116.0/22 list=GEO_UA comment=UA
 add address=212.86.120.0/21 list=GEO_UA comment=UA
 add address=212.86.224.0/19 list=GEO_UA comment=UA
-add address=212.87.160.0/19 list=GEO_UA comment=UA
 add address=212.90.32.0/19 list=GEO_UA comment=UA
 add address=212.90.124.0/22 list=GEO_UA comment=UA
 add address=212.90.160.0/19 list=GEO_UA comment=UA
@@ -2646,6 +2647,7 @@ add address=213.232.234.0/24 list=GEO_UA comment=UA
 add address=217.9.0.0/20 list=GEO_UA comment=UA
 add address=217.18.51.0/24 list=GEO_UA comment=UA
 add address=217.18.216.0/22 list=GEO_UA comment=UA
+add address=217.22.6.0/24 list=GEO_UA comment=UA
 add address=217.24.160.0/20 list=GEO_UA comment=UA
 add address=217.25.192.0/20 list=GEO_UA comment=UA
 add address=217.27.144.0/20 list=GEO_UA comment=UA

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PH
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PH | Subnets: 811 (was 890, collapsed 79) | IPs: ~6,250,752
+# Countries: PH | Subnets: 831 (was 910, collapsed 79) | IPs: ~6,266,432
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -11,6 +12,10 @@ add address=2.58.228.0/22 list=GEO_PH comment=PH
 add address=14.102.168.0/22 list=GEO_PH comment=PH
 add address=23.155.4.0/24 list=GEO_PH comment=PH
 add address=23.156.204.0/24 list=GEO_PH comment=PH
+add address=23.159.28.0/24 list=GEO_PH comment=PH
+add address=23.159.116.0/24 list=GEO_PH comment=PH
+add address=23.161.92.0/24 list=GEO_PH comment=PH
+add address=23.162.116.0/24 list=GEO_PH comment=PH
 add address=23.187.40.0/24 list=GEO_PH comment=PH
 add address=27.49.0.0/16 list=GEO_PH comment=PH
 add address=27.50.0.0/22 list=GEO_PH comment=PH
@@ -79,7 +84,6 @@ add address=103.6.96.0/22 list=GEO_PH comment=PH
 add address=103.6.104.0/24 list=GEO_PH comment=PH
 add address=103.6.181.0/24 list=GEO_PH comment=PH
 add address=103.7.224.0/24 list=GEO_PH comment=PH
-add address=103.10.152.0/22 list=GEO_PH comment=PH
 add address=103.10.176.0/22 list=GEO_PH comment=PH
 add address=103.10.200.0/22 list=GEO_PH comment=PH
 add address=103.11.40.0/22 list=GEO_PH comment=PH
@@ -263,7 +267,6 @@ add address=103.146.59.0/24 list=GEO_PH comment=PH
 add address=103.146.75.0/24 list=GEO_PH comment=PH
 add address=103.146.206.0/23 list=GEO_PH comment=PH
 add address=103.148.60.0/24 list=GEO_PH comment=PH
-add address=103.148.106.0/23 list=GEO_PH comment=PH
 add address=103.148.224.0/23 list=GEO_PH comment=PH
 add address=103.148.246.0/23 list=GEO_PH comment=PH
 add address=103.149.36.0/23 list=GEO_PH comment=PH
@@ -302,7 +305,6 @@ add address=103.166.248.0/23 list=GEO_PH comment=PH
 add address=103.167.66.0/24 list=GEO_PH comment=PH
 add address=103.167.116.0/24 list=GEO_PH comment=PH
 add address=103.167.160.0/23 list=GEO_PH comment=PH
-add address=103.167.252.0/23 list=GEO_PH comment=PH
 add address=103.168.10.0/23 list=GEO_PH comment=PH
 add address=103.168.17.0/24 list=GEO_PH comment=PH
 add address=103.168.38.0/23 list=GEO_PH comment=PH
@@ -348,6 +350,7 @@ add address=103.190.138.0/23 list=GEO_PH comment=PH
 add address=103.191.106.0/23 list=GEO_PH comment=PH
 add address=103.191.110.0/23 list=GEO_PH comment=PH
 add address=103.192.124.0/22 list=GEO_PH comment=PH
+add address=103.192.184.0/22 list=GEO_PH comment=PH
 add address=103.196.104.0/22 list=GEO_PH comment=PH
 add address=103.196.128.0/22 list=GEO_PH comment=PH
 add address=103.196.136.0/22 list=GEO_PH comment=PH
@@ -356,7 +359,6 @@ add address=103.197.84.0/22 list=GEO_PH comment=PH
 add address=103.197.200.0/22 list=GEO_PH comment=PH
 add address=103.200.32.0/22 list=GEO_PH comment=PH
 add address=103.203.52.0/22 list=GEO_PH comment=PH
-add address=103.204.12.0/24 list=GEO_PH comment=PH
 add address=103.206.80.0/22 list=GEO_PH comment=PH
 add address=103.206.158.0/24 list=GEO_PH comment=PH
 add address=103.207.158.0/24 list=GEO_PH comment=PH
@@ -487,6 +489,7 @@ add address=125.5.0.0/16 list=GEO_PH comment=PH
 add address=125.60.128.0/17 list=GEO_PH comment=PH
 add address=125.212.0.0/17 list=GEO_PH comment=PH
 add address=125.253.128.0/22 list=GEO_PH comment=PH
+add address=126.52.128.0/19 list=GEO_PH comment=PH
 add address=126.209.0.0/17 list=GEO_PH comment=PH
 add address=130.12.80.0/22 list=GEO_PH comment=PH
 add address=130.105.0.0/16 list=GEO_PH comment=PH
@@ -533,7 +536,6 @@ add address=157.20.142.0/23 list=GEO_PH comment=PH
 add address=157.119.68.0/23 list=GEO_PH comment=PH
 add address=158.62.0.0/17 list=GEO_PH comment=PH
 add address=160.20.40.0/22 list=GEO_PH comment=PH
-add address=160.20.118.0/23 list=GEO_PH comment=PH
 add address=160.20.126.0/23 list=GEO_PH comment=PH
 add address=160.22.130.0/24 list=GEO_PH comment=PH
 add address=160.22.139.0/24 list=GEO_PH comment=PH
@@ -558,6 +560,14 @@ add address=160.187.215.0/24 list=GEO_PH comment=PH
 add address=160.187.220.0/23 list=GEO_PH comment=PH
 add address=160.191.24.0/23 list=GEO_PH comment=PH
 add address=160.191.38.0/23 list=GEO_PH comment=PH
+add address=160.236.30.0/24 list=GEO_PH comment=PH
+add address=160.236.74.0/23 list=GEO_PH comment=PH
+add address=160.236.90.0/23 list=GEO_PH comment=PH
+add address=160.236.98.0/23 list=GEO_PH comment=PH
+add address=160.236.126.0/23 list=GEO_PH comment=PH
+add address=160.236.136.0/23 list=GEO_PH comment=PH
+add address=160.236.182.0/23 list=GEO_PH comment=PH
+add address=160.236.240.0/23 list=GEO_PH comment=PH
 add address=160.250.6.0/23 list=GEO_PH comment=PH
 add address=160.250.20.0/23 list=GEO_PH comment=PH
 add address=160.250.44.0/23 list=GEO_PH comment=PH
@@ -584,9 +594,21 @@ add address=162.4.58.0/24 list=GEO_PH comment=PH
 add address=162.4.85.0/24 list=GEO_PH comment=PH
 add address=162.4.94.0/23 list=GEO_PH comment=PH
 add address=162.4.103.0/24 list=GEO_PH comment=PH
+add address=162.4.170.0/23 list=GEO_PH comment=PH
+add address=162.4.184.0/23 list=GEO_PH comment=PH
+add address=162.4.191.0/24 list=GEO_PH comment=PH
+add address=162.4.246.0/23 list=GEO_PH comment=PH
+add address=162.4.248.0/23 list=GEO_PH comment=PH
+add address=162.4.254.0/23 list=GEO_PH comment=PH
+add address=163.52.13.0/24 list=GEO_PH comment=PH
+add address=163.52.18.0/24 list=GEO_PH comment=PH
+add address=163.52.39.0/24 list=GEO_PH comment=PH
+add address=163.52.100.0/24 list=GEO_PH comment=PH
+add address=163.52.102.0/23 list=GEO_PH comment=PH
 add address=163.61.86.0/24 list=GEO_PH comment=PH
 add address=163.61.94.0/23 list=GEO_PH comment=PH
 add address=163.61.135.0/24 list=GEO_PH comment=PH
+add address=163.61.161.64/26 list=GEO_PH comment=PH
 add address=163.61.255.0/24 list=GEO_PH comment=PH
 add address=163.128.40.0/23 list=GEO_PH comment=PH
 add address=163.128.116.0/23 list=GEO_PH comment=PH
@@ -594,7 +616,6 @@ add address=163.128.182.0/24 list=GEO_PH comment=PH
 add address=163.128.186.0/23 list=GEO_PH comment=PH
 add address=163.128.214.0/23 list=GEO_PH comment=PH
 add address=163.128.252.0/24 list=GEO_PH comment=PH
-add address=163.223.30.0/23 list=GEO_PH comment=PH
 add address=163.223.76.0/24 list=GEO_PH comment=PH
 add address=163.223.80.0/23 list=GEO_PH comment=PH
 add address=163.223.90.0/23 list=GEO_PH comment=PH
@@ -619,7 +640,6 @@ add address=165.99.250.0/23 list=GEO_PH comment=PH
 add address=165.101.14.0/23 list=GEO_PH comment=PH
 add address=165.101.54.0/23 list=GEO_PH comment=PH
 add address=165.101.58.0/24 list=GEO_PH comment=PH
-add address=165.101.62.0/23 list=GEO_PH comment=PH
 add address=165.101.102.0/24 list=GEO_PH comment=PH
 add address=165.101.154.0/23 list=GEO_PH comment=PH
 add address=165.101.166.0/23 list=GEO_PH comment=PH
@@ -650,6 +670,7 @@ add address=192.42.86.0/24 list=GEO_PH comment=PH
 add address=192.58.99.0/24 list=GEO_PH comment=PH
 add address=192.82.52.0/22 list=GEO_PH comment=PH
 add address=192.112.243.0/24 list=GEO_PH comment=PH
+add address=192.133.66.0/24 list=GEO_PH comment=PH
 add address=192.153.221.0/24 list=GEO_PH comment=PH
 add address=192.153.222.0/23 list=GEO_PH comment=PH
 add address=192.153.224.0/22 list=GEO_PH comment=PH
@@ -679,7 +700,6 @@ add address=202.8.100.0/22 list=GEO_PH comment=PH
 add address=202.8.224.0/19 list=GEO_PH comment=PH
 add address=202.14.85.0/24 list=GEO_PH comment=PH
 add address=202.14.86.0/23 list=GEO_PH comment=PH
-add address=202.36.28.0/24 list=GEO_PH comment=PH
 add address=202.37.133.0/24 list=GEO_PH comment=PH
 add address=202.40.172.0/22 list=GEO_PH comment=PH
 add address=202.41.147.0/24 list=GEO_PH comment=PH
@@ -758,6 +778,7 @@ add address=203.119.4.0/22 list=GEO_PH comment=PH
 add address=203.129.4.0/23 list=GEO_PH comment=PH
 add address=203.131.64.0/18 list=GEO_PH comment=PH
 add address=203.131.128.0/18 list=GEO_PH comment=PH
+add address=203.144.0.0/22 list=GEO_PH comment=PH
 add address=203.148.92.0/24 list=GEO_PH comment=PH
 add address=203.153.6.0/23 list=GEO_PH comment=PH
 add address=203.153.8.0/21 list=GEO_PH comment=PH

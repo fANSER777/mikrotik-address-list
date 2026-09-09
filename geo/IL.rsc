@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IL
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IL | Subnets: 757 (was 1025, collapsed 268) | IPs: ~8,013,888
+# Countries: IL | Subnets: 778 (was 1051, collapsed 273) | IPs: ~8,048,512
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_IL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -64,6 +65,7 @@ add address=45.155.164.0/22 list=GEO_IL comment=IL
 add address=45.158.24.0/22 list=GEO_IL comment=IL
 add address=45.159.128.0/22 list=GEO_IL comment=IL
 add address=45.248.36.0/23 list=GEO_IL comment=IL
+add address=46.16.136.0/21 list=GEO_IL comment=IL
 add address=46.19.80.0/21 list=GEO_IL comment=IL
 add address=46.31.96.0/21 list=GEO_IL comment=IL
 add address=46.116.0.0/15 list=GEO_IL comment=IL
@@ -72,6 +74,7 @@ add address=46.149.160.0/22 list=GEO_IL comment=IL
 add address=46.210.0.0/16 list=GEO_IL comment=IL
 add address=46.232.208.0/23 list=GEO_IL comment=IL
 add address=46.243.144.0/22 list=GEO_IL comment=IL
+add address=46.255.74.0/23 list=GEO_IL comment=IL
 add address=50.21.28.0/22 list=GEO_IL comment=IL
 add address=62.0.0.0/16 list=GEO_IL comment=IL
 add address=62.3.59.0/24 list=GEO_IL comment=IL
@@ -103,8 +106,10 @@ add address=78.138.56.0/23 list=GEO_IL comment=IL
 add address=78.138.59.0/24 list=GEO_IL comment=IL
 add address=78.138.60.0/24 list=GEO_IL comment=IL
 add address=78.138.63.0/24 list=GEO_IL comment=IL
+add address=78.153.96.0/19 list=GEO_IL comment=IL
 add address=79.108.160.0/21 list=GEO_IL comment=IL
 add address=79.176.0.0/13 list=GEO_IL comment=IL
+add address=80.47.208.0/20 list=GEO_IL comment=IL
 add address=80.70.128.0/20 list=GEO_IL comment=IL
 add address=80.74.96.0/19 list=GEO_IL comment=IL
 add address=80.178.0.0/15 list=GEO_IL comment=IL
@@ -244,9 +249,11 @@ add address=91.208.218.0/24 list=GEO_IL comment=IL
 add address=91.209.113.0/24 list=GEO_IL comment=IL
 add address=91.209.238.0/24 list=GEO_IL comment=IL
 add address=91.211.145.0/24 list=GEO_IL comment=IL
+add address=91.211.204.0/22 list=GEO_IL comment=IL
 add address=91.212.76.0/24 list=GEO_IL comment=IL
 add address=91.212.114.0/24 list=GEO_IL comment=IL
 add address=91.212.189.0/24 list=GEO_IL comment=IL
+add address=91.213.211.64/26 list=GEO_IL comment=IL
 add address=91.214.100.0/22 list=GEO_IL comment=IL
 add address=91.216.222.0/24 list=GEO_IL comment=IL
 add address=91.216.252.0/24 list=GEO_IL comment=IL
@@ -323,9 +330,14 @@ add address=132.64.0.0/13 list=GEO_IL comment=IL
 add address=132.72.0.0/14 list=GEO_IL comment=IL
 add address=132.76.0.0/15 list=GEO_IL comment=IL
 add address=132.78.0.0/16 list=GEO_IL comment=IL
+add address=136.148.0.0/19 list=GEO_IL comment=IL
+add address=136.148.136.0/22 list=GEO_IL comment=IL
 add address=138.134.0.0/16 list=GEO_IL comment=IL
 add address=141.226.0.0/18 list=GEO_IL comment=IL
-add address=141.226.64.0/19 list=GEO_IL comment=IL
+add address=141.226.64.0/20 list=GEO_IL comment=IL
+add address=141.226.80.0/22 list=GEO_IL comment=IL
+add address=141.226.87.0/24 list=GEO_IL comment=IL
+add address=141.226.88.0/21 list=GEO_IL comment=IL
 add address=141.226.96.0/20 list=GEO_IL comment=IL
 add address=141.226.118.0/23 list=GEO_IL comment=IL
 add address=141.226.120.0/21 list=GEO_IL comment=IL
@@ -336,6 +348,8 @@ add address=141.226.139.0/24 list=GEO_IL comment=IL
 add address=141.226.144.0/20 list=GEO_IL comment=IL
 add address=141.226.160.0/19 list=GEO_IL comment=IL
 add address=141.226.192.0/18 list=GEO_IL comment=IL
+add address=143.246.168.0/21 list=GEO_IL comment=IL
+add address=143.246.248.0/21 list=GEO_IL comment=IL
 add address=144.249.128.0/18 list=GEO_IL comment=IL
 add address=146.19.240.0/24 list=GEO_IL comment=IL
 add address=146.185.56.0/21 list=GEO_IL comment=IL
@@ -366,6 +380,9 @@ add address=147.236.0.0/15 list=GEO_IL comment=IL
 add address=149.49.0.0/16 list=GEO_IL comment=IL
 add address=149.106.128.0/19 list=GEO_IL comment=IL
 add address=149.106.224.0/19 list=GEO_IL comment=IL
+add address=149.170.56.0/23 list=GEO_IL comment=IL
+add address=150.251.72.0/22 list=GEO_IL comment=IL
+add address=150.251.232.0/21 list=GEO_IL comment=IL
 add address=159.117.224.0/19 list=GEO_IL comment=IL
 add address=159.253.121.0/24 list=GEO_IL comment=IL
 add address=164.138.112.0/20 list=GEO_IL comment=IL
@@ -401,6 +418,7 @@ add address=185.24.204.0/22 list=GEO_IL comment=IL
 add address=185.27.104.0/22 list=GEO_IL comment=IL
 add address=185.28.152.0/22 list=GEO_IL comment=IL
 add address=185.32.176.0/22 list=GEO_IL comment=IL
+add address=185.36.22.0/24 list=GEO_IL comment=IL
 add address=185.37.148.0/22 list=GEO_IL comment=IL
 add address=185.38.200.0/22 list=GEO_IL comment=IL
 add address=185.46.76.0/22 list=GEO_IL comment=IL
@@ -521,6 +539,7 @@ add address=185.246.252.0/22 list=GEO_IL comment=IL
 add address=185.247.116.0/22 list=GEO_IL comment=IL
 add address=185.248.160.0/22 list=GEO_IL comment=IL
 add address=185.248.226.0/24 list=GEO_IL comment=IL
+add address=185.249.152.0/22 list=GEO_IL comment=IL
 add address=185.253.72.0/23 list=GEO_IL comment=IL
 add address=185.253.75.0/24 list=GEO_IL comment=IL
 add address=185.254.104.0/22 list=GEO_IL comment=IL
@@ -575,7 +594,6 @@ add address=193.47.165.0/24 list=GEO_IL comment=IL
 add address=193.47.248.0/24 list=GEO_IL comment=IL
 add address=193.84.87.0/24 list=GEO_IL comment=IL
 add address=193.93.96.0/22 list=GEO_IL comment=IL
-add address=193.104.62.0/24 list=GEO_IL comment=IL
 add address=193.104.77.0/24 list=GEO_IL comment=IL
 add address=193.104.115.0/24 list=GEO_IL comment=IL
 add address=193.104.117.0/24 list=GEO_IL comment=IL
@@ -652,7 +670,7 @@ add address=194.180.243.0/24 list=GEO_IL comment=IL
 add address=194.187.36.0/22 list=GEO_IL comment=IL
 add address=194.187.84.0/22 list=GEO_IL comment=IL
 add address=194.213.4.0/24 list=GEO_IL comment=IL
-add address=194.238.72.0/23 list=GEO_IL comment=IL
+add address=194.238.72.0/22 list=GEO_IL comment=IL
 add address=194.242.24.0/23 list=GEO_IL comment=IL
 add address=194.247.166.0/23 list=GEO_IL comment=IL
 add address=195.3.136.0/22 list=GEO_IL comment=IL
@@ -707,12 +725,15 @@ add address=204.57.218.0/24 list=GEO_IL comment=IL
 add address=207.232.0.0/18 list=GEO_IL comment=IL
 add address=209.35.197.0/24 list=GEO_IL comment=IL
 add address=209.35.224.0/19 list=GEO_IL comment=IL
+add address=209.135.152.0/24 list=GEO_IL comment=IL
+add address=209.204.117.0/24 list=GEO_IL comment=IL
 add address=209.206.0.0/19 list=GEO_IL comment=IL
 add address=212.18.252.0/22 list=GEO_IL comment=IL
 add address=212.25.64.0/18 list=GEO_IL comment=IL
 add address=212.29.192.0/18 list=GEO_IL comment=IL
 add address=212.32.54.0/24 list=GEO_IL comment=IL
 add address=212.46.40.0/24 list=GEO_IL comment=IL
+add address=212.47.56.0/24 list=GEO_IL comment=IL
 add address=212.55.184.0/21 list=GEO_IL comment=IL
 add address=212.59.64.0/21 list=GEO_IL comment=IL
 add address=212.68.128.0/19 list=GEO_IL comment=IL
@@ -746,6 +767,7 @@ add address=213.255.220.0/22 list=GEO_IL comment=IL
 add address=213.255.232.0/21 list=GEO_IL comment=IL
 add address=213.255.240.0/22 list=GEO_IL comment=IL
 add address=213.255.248.0/21 list=GEO_IL comment=IL
+add address=216.52.245.0/24 list=GEO_IL comment=IL
 add address=216.150.30.0/23 list=GEO_IL comment=IL
 add address=216.203.59.0/24 list=GEO_IL comment=IL
 add address=216.252.176.0/20 list=GEO_IL comment=IL

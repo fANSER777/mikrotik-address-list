@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CL
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CL | Subnets: 634 (was 815, collapsed 181) | IPs: ~10,038,528
+# Countries: CL | Subnets: 639 (was 822, collapsed 183) | IPs: ~9,646,848
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_CL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -14,6 +15,7 @@ add address=45.65.240.0/22 list=GEO_CL comment=CL
 add address=45.68.16.0/22 list=GEO_CL comment=CL
 add address=45.68.44.0/22 list=GEO_CL comment=CL
 add address=45.68.114.0/23 list=GEO_CL comment=CL
+add address=45.68.124.0/22 list=GEO_CL comment=CL
 add address=45.71.8.0/22 list=GEO_CL comment=CL
 add address=45.71.44.0/22 list=GEO_CL comment=CL
 add address=45.160.4.0/22 list=GEO_CL comment=CL
@@ -46,7 +48,6 @@ add address=45.171.220.0/22 list=GEO_CL comment=CL
 add address=45.172.136.0/22 list=GEO_CL comment=CL
 add address=45.173.120.0/22 list=GEO_CL comment=CL
 add address=45.173.128.0/22 list=GEO_CL comment=CL
-add address=45.174.104.0/22 list=GEO_CL comment=CL
 add address=45.174.204.0/22 list=GEO_CL comment=CL
 add address=45.175.21.0/24 list=GEO_CL comment=CL
 add address=45.176.116.0/22 list=GEO_CL comment=CL
@@ -160,7 +161,8 @@ add address=148.230.0.0/22 list=GEO_CL comment=CL
 add address=149.19.160.0/20 list=GEO_CL comment=CL
 add address=152.74.0.0/16 list=GEO_CL comment=CL
 add address=152.139.0.0/16 list=GEO_CL comment=CL
-add address=152.172.0.0/14 list=GEO_CL comment=CL
+add address=152.172.0.0/15 list=GEO_CL comment=CL
+add address=152.174.0.0/16 list=GEO_CL comment=CL
 add address=152.230.0.0/16 list=GEO_CL comment=CL
 add address=152.231.64.0/18 list=GEO_CL comment=CL
 add address=156.97.0.0/16 list=GEO_CL comment=CL
@@ -184,7 +186,6 @@ add address=164.98.0.0/16 list=GEO_CL comment=CL
 add address=164.163.80.0/22 list=GEO_CL comment=CL
 add address=164.163.88.0/22 list=GEO_CL comment=CL
 add address=165.182.0.0/15 list=GEO_CL comment=CL
-add address=166.75.0.0/16 list=GEO_CL comment=CL
 add address=166.110.0.0/16 list=GEO_CL comment=CL
 add address=167.28.0.0/16 list=GEO_CL comment=CL
 add address=167.249.28.0/22 list=GEO_CL comment=CL
@@ -260,6 +261,7 @@ add address=179.63.232.0/22 list=GEO_CL comment=CL
 add address=179.63.244.0/22 list=GEO_CL comment=CL
 add address=179.189.216.0/23 list=GEO_CL comment=CL
 add address=179.189.220.0/23 list=GEO_CL comment=CL
+add address=179.238.0.0/16 list=GEO_CL comment=CL
 add address=181.42.0.0/15 list=GEO_CL comment=CL
 add address=181.72.0.0/14 list=GEO_CL comment=CL
 add address=181.114.232.0/21 list=GEO_CL comment=CL
@@ -269,7 +271,6 @@ add address=181.172.0.0/15 list=GEO_CL comment=CL
 add address=181.177.220.0/22 list=GEO_CL comment=CL
 add address=181.189.20.0/22 list=GEO_CL comment=CL
 add address=181.190.0.0/16 list=GEO_CL comment=CL
-add address=181.200.0.0/14 list=GEO_CL comment=CL
 add address=181.212.0.0/16 list=GEO_CL comment=CL
 add address=181.224.64.0/22 list=GEO_CL comment=CL
 add address=181.225.112.0/20 list=GEO_CL comment=CL
@@ -354,6 +355,7 @@ add address=190.112.48.0/22 list=GEO_CL comment=CL
 add address=190.113.0.0/19 list=GEO_CL comment=CL
 add address=190.113.244.0/22 list=GEO_CL comment=CL
 add address=190.114.32.0/19 list=GEO_CL comment=CL
+add address=190.114.103.0/24 list=GEO_CL comment=CL
 add address=190.114.252.0/22 list=GEO_CL comment=CL
 add address=190.120.160.0/20 list=GEO_CL comment=CL
 add address=190.121.0.0/17 list=GEO_CL comment=CL
@@ -379,7 +381,8 @@ add address=191.37.252.0/24 list=GEO_CL comment=CL
 add address=191.98.200.0/21 list=GEO_CL comment=CL
 add address=191.102.32.0/22 list=GEO_CL comment=CL
 add address=191.112.0.0/13 list=GEO_CL comment=CL
-add address=191.124.0.0/14 list=GEO_CL comment=CL
+add address=191.125.0.0/16 list=GEO_CL comment=CL
+add address=191.126.0.0/15 list=GEO_CL comment=CL
 add address=192.12.118.0/24 list=GEO_CL comment=CL
 add address=192.80.24.0/24 list=GEO_CL comment=CL
 add address=192.140.56.0/22 list=GEO_CL comment=CL
@@ -594,8 +597,11 @@ add address=200.114.88.0/21 list=GEO_CL comment=CL
 add address=200.115.184.0/24 list=GEO_CL comment=CL
 add address=200.119.224.0/19 list=GEO_CL comment=CL
 add address=200.120.0.0/16 list=GEO_CL comment=CL
-add address=200.123.42.0/24 list=GEO_CL comment=CL
+add address=200.123.38.0/23 list=GEO_CL comment=CL
+add address=200.123.40.0/24 list=GEO_CL comment=CL
+add address=200.123.42.0/23 list=GEO_CL comment=CL
 add address=200.123.44.0/24 list=GEO_CL comment=CL
+add address=200.123.63.0/24 list=GEO_CL comment=CL
 add address=200.124.32.0/19 list=GEO_CL comment=CL
 add address=200.126.32.0/20 list=GEO_CL comment=CL
 add address=200.126.49.0/24 list=GEO_CL comment=CL

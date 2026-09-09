@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NP
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NP | Subnets: 267 (was 277, collapsed 10) | IPs: ~582,912
+# Countries: NP | Subnets: 270 (was 282, collapsed 12) | IPs: ~584,192
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_NP and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -129,9 +130,9 @@ add address=103.157.44.0/23 list=GEO_NP comment=NP
 add address=103.157.90.0/23 list=GEO_NP comment=NP
 add address=103.158.110.0/24 list=GEO_NP comment=NP
 add address=103.158.198.0/23 list=GEO_NP comment=NP
+add address=103.160.22.0/23 list=GEO_NP comment=NP
 add address=103.160.82.0/23 list=GEO_NP comment=NP
 add address=103.162.2.0/23 list=GEO_NP comment=NP
-add address=103.162.6.0/24 list=GEO_NP comment=NP
 add address=103.162.12.0/23 list=GEO_NP comment=NP
 add address=103.162.234.0/23 list=GEO_NP comment=NP
 add address=103.162.242.0/23 list=GEO_NP comment=NP
@@ -140,7 +141,6 @@ add address=103.163.137.0/24 list=GEO_NP comment=NP
 add address=103.163.182.0/23 list=GEO_NP comment=NP
 add address=103.164.158.0/24 list=GEO_NP comment=NP
 add address=103.165.184.0/23 list=GEO_NP comment=NP
-add address=103.165.242.0/24 list=GEO_NP comment=NP
 add address=103.166.18.0/23 list=GEO_NP comment=NP
 add address=103.166.100.0/23 list=GEO_NP comment=NP
 add address=103.166.172.0/23 list=GEO_NP comment=NP
@@ -223,11 +223,16 @@ add address=160.22.164.0/23 list=GEO_NP comment=NP
 add address=160.30.32.0/23 list=GEO_NP comment=NP
 add address=160.30.132.0/24 list=GEO_NP comment=NP
 add address=160.30.180.0/23 list=GEO_NP comment=NP
+add address=160.236.178.0/24 list=GEO_NP comment=NP
 add address=160.250.254.0/23 list=GEO_NP comment=NP
 add address=161.248.156.0/23 list=GEO_NP comment=NP
 add address=161.248.216.0/23 list=GEO_NP comment=NP
 add address=162.4.106.0/24 list=GEO_NP comment=NP
+add address=162.4.196.0/24 list=GEO_NP comment=NP
+add address=162.4.232.0/23 list=GEO_NP comment=NP
 add address=163.47.148.0/22 list=GEO_NP comment=NP
+add address=163.52.4.0/23 list=GEO_NP comment=NP
+add address=163.52.44.0/24 list=GEO_NP comment=NP
 add address=163.53.24.0/23 list=GEO_NP comment=NP
 add address=163.61.40.0/23 list=GEO_NP comment=NP
 add address=163.61.118.0/23 list=GEO_NP comment=NP
@@ -236,7 +241,6 @@ add address=163.128.44.0/23 list=GEO_NP comment=NP
 add address=163.128.128.0/24 list=GEO_NP comment=NP
 add address=163.223.98.0/23 list=GEO_NP comment=NP
 add address=163.223.234.0/23 list=GEO_NP comment=NP
-add address=163.227.8.0/23 list=GEO_NP comment=NP
 add address=163.227.170.0/23 list=GEO_NP comment=NP
 add address=165.99.2.0/23 list=GEO_NP comment=NP
 add address=165.99.60.0/23 list=GEO_NP comment=NP

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MK
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MK | Subnets: 105 (was 143, collapsed 38) | IPs: ~685,312
+# Countries: MK | Subnets: 106 (was 144, collapsed 38) | IPs: ~684,800
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -26,6 +27,7 @@ add address=79.125.128.0/17 list=GEO_MK comment=MK
 add address=79.126.128.0/17 list=GEO_MK comment=MK
 add address=79.141.112.0/20 list=GEO_MK comment=MK
 add address=80.77.144.0/20 list=GEO_MK comment=MK
+add address=85.8.244.0/24 list=GEO_MK comment=MK
 add address=85.30.64.0/18 list=GEO_MK comment=MK
 add address=88.85.96.0/19 list=GEO_MK comment=MK
 add address=89.31.152.0/21 list=GEO_MK comment=MK
@@ -65,7 +67,6 @@ add address=185.47.56.0/22 list=GEO_MK comment=MK
 add address=185.56.248.0/22 list=GEO_MK comment=MK
 add address=185.64.84.0/22 list=GEO_MK comment=MK
 add address=185.80.164.0/22 list=GEO_MK comment=MK
-add address=185.83.68.0/22 list=GEO_MK comment=MK
 add address=185.83.252.0/22 list=GEO_MK comment=MK
 add address=185.86.236.0/22 list=GEO_MK comment=MK
 add address=185.89.244.0/22 list=GEO_MK comment=MK
@@ -104,6 +105,7 @@ add address=195.26.128.0/19 list=GEO_MK comment=MK
 add address=195.88.122.0/23 list=GEO_MK comment=MK
 add address=195.189.206.0/23 list=GEO_MK comment=MK
 add address=195.200.246.0/23 list=GEO_MK comment=MK
+add address=202.27.83.0/24 list=GEO_MK comment=MK
 add address=212.13.64.0/19 list=GEO_MK comment=MK
 add address=212.110.64.0/19 list=GEO_MK comment=MK
 add address=212.158.176.0/20 list=GEO_MK comment=MK

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AL
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AL | Subnets: 231 (was 242, collapsed 11) | IPs: ~499,264
+# Countries: AL | Subnets: 232 (was 242, collapsed 10) | IPs: ~505,152
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -18,6 +19,7 @@ add address=37.35.64.0/21 list=GEO_AL comment=AL
 add address=37.139.112.0/21 list=GEO_AL comment=AL
 add address=37.252.221.0/24 list=GEO_AL comment=AL
 add address=45.66.252.0/22 list=GEO_AL comment=AL
+add address=45.74.144.0/21 list=GEO_AL comment=AL
 add address=45.80.48.0/22 list=GEO_AL comment=AL
 add address=45.84.116.0/22 list=GEO_AL comment=AL
 add address=45.84.236.0/22 list=GEO_AL comment=AL
@@ -56,6 +58,7 @@ add address=82.198.32.0/22 list=GEO_AL comment=AL
 add address=84.20.64.0/19 list=GEO_AL comment=AL
 add address=84.22.32.0/19 list=GEO_AL comment=AL
 add address=84.54.48.0/24 list=GEO_AL comment=AL
+add address=85.137.214.0/24 list=GEO_AL comment=AL
 add address=85.209.248.0/22 list=GEO_AL comment=AL
 add address=87.120.100.0/22 list=GEO_AL comment=AL
 add address=87.121.60.0/23 list=GEO_AL comment=AL
@@ -67,7 +70,6 @@ add address=91.132.172.0/22 list=GEO_AL comment=AL
 add address=91.187.96.0/19 list=GEO_AL comment=AL
 add address=91.210.136.0/22 list=GEO_AL comment=AL
 add address=91.212.96.0/24 list=GEO_AL comment=AL
-add address=91.217.6.0/23 list=GEO_AL comment=AL
 add address=91.226.220.0/24 list=GEO_AL comment=AL
 add address=91.230.254.0/23 list=GEO_AL comment=AL
 add address=91.239.6.0/23 list=GEO_AL comment=AL
@@ -89,6 +91,7 @@ add address=94.154.152.0/22 list=GEO_AL comment=AL
 add address=95.86.40.0/22 list=GEO_AL comment=AL
 add address=95.86.56.0/22 list=GEO_AL comment=AL
 add address=95.107.128.0/17 list=GEO_AL comment=AL
+add address=95.133.132.0/22 list=GEO_AL comment=AL
 add address=95.143.103.0/24 list=GEO_AL comment=AL
 add address=103.69.32.0/22 list=GEO_AL comment=AL
 add address=103.93.40.0/22 list=GEO_AL comment=AL
@@ -105,12 +108,11 @@ add address=109.104.132.0/23 list=GEO_AL comment=AL
 add address=109.104.134.0/24 list=GEO_AL comment=AL
 add address=109.104.140.0/23 list=GEO_AL comment=AL
 add address=109.104.144.0/23 list=GEO_AL comment=AL
-add address=109.104.156.0/24 list=GEO_AL comment=AL
-add address=109.104.158.0/23 list=GEO_AL comment=AL
 add address=109.234.232.0/21 list=GEO_AL comment=AL
 add address=109.236.32.0/20 list=GEO_AL comment=AL
 add address=130.0.24.0/21 list=GEO_AL comment=AL
 add address=134.0.32.0/19 list=GEO_AL comment=AL
+add address=136.148.192.0/20 list=GEO_AL comment=AL
 add address=139.28.24.0/22 list=GEO_AL comment=AL
 add address=141.8.200.0/21 list=GEO_AL comment=AL
 add address=141.98.140.0/22 list=GEO_AL comment=AL
@@ -215,7 +217,6 @@ add address=193.254.2.0/24 list=GEO_AL comment=AL
 add address=194.1.149.0/24 list=GEO_AL comment=AL
 add address=194.35.248.0/22 list=GEO_AL comment=AL
 add address=194.56.182.0/24 list=GEO_AL comment=AL
-add address=194.113.94.0/23 list=GEO_AL comment=AL
 add address=194.117.55.64/26 list=GEO_AL comment=AL
 add address=194.150.78.0/24 list=GEO_AL comment=AL
 add address=194.156.252.0/22 list=GEO_AL comment=AL
@@ -226,6 +227,7 @@ add address=195.146.16.0/20 list=GEO_AL comment=AL
 add address=195.178.99.0/24 list=GEO_AL comment=AL
 add address=195.200.234.0/24 list=GEO_AL comment=AL
 add address=199.168.120.0/22 list=GEO_AL comment=AL
+add address=203.12.28.0/24 list=GEO_AL comment=AL
 add address=203.30.219.0/24 list=GEO_AL comment=AL
 add address=209.23.32.0/20 list=GEO_AL comment=AL
 add address=212.6.49.0/24 list=GEO_AL comment=AL

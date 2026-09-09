@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PR | Subnets: 208 (was 224, collapsed 16) | IPs: ~773,120
+# Countries: PR | Subnets: 210 (was 224, collapsed 14) | IPs: ~770,304
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -31,6 +32,7 @@ add address=23.150.240.0/24 list=GEO_PR comment=PR
 add address=23.152.36.0/24 list=GEO_PR comment=PR
 add address=23.161.16.0/24 list=GEO_PR comment=PR
 add address=23.162.64.0/24 list=GEO_PR comment=PR
+add address=23.164.4.0/24 list=GEO_PR comment=PR
 add address=23.167.48.0/24 list=GEO_PR comment=PR
 add address=23.167.80.0/23 list=GEO_PR comment=PR
 add address=23.171.144.0/24 list=GEO_PR comment=PR
@@ -82,7 +84,6 @@ add address=72.50.0.0/17 list=GEO_PR comment=PR
 add address=72.249.208.0/21 list=GEO_PR comment=PR
 add address=74.85.156.0/23 list=GEO_PR comment=PR
 add address=74.119.24.0/22 list=GEO_PR comment=PR
-add address=74.120.24.0/21 list=GEO_PR comment=PR
 add address=76.72.240.0/20 list=GEO_PR comment=PR
 add address=76.76.192.0/20 list=GEO_PR comment=PR
 add address=103.44.72.0/22 list=GEO_PR comment=PR
@@ -174,7 +175,7 @@ add address=199.7.208.0/22 list=GEO_PR comment=PR
 add address=199.71.93.0/24 list=GEO_PR comment=PR
 add address=199.85.204.0/22 list=GEO_PR comment=PR
 add address=199.91.76.0/22 list=GEO_PR comment=PR
-add address=199.116.56.0/21 list=GEO_PR comment=PR
+add address=199.116.62.0/23 list=GEO_PR comment=PR
 add address=199.119.248.0/22 list=GEO_PR comment=PR
 add address=199.193.160.0/22 list=GEO_PR comment=PR
 add address=199.247.80.0/22 list=GEO_PR comment=PR
@@ -187,6 +188,7 @@ add address=200.5.16.0/20 list=GEO_PR comment=PR
 add address=200.50.0.0/19 list=GEO_PR comment=PR
 add address=204.15.144.0/21 list=GEO_PR comment=PR
 add address=204.27.224.0/24 list=GEO_PR comment=PR
+add address=204.52.222.0/24 list=GEO_PR comment=PR
 add address=204.77.10.0/23 list=GEO_PR comment=PR
 add address=204.124.99.0/24 list=GEO_PR comment=PR
 add address=204.138.0.0/24 list=GEO_PR comment=PR
@@ -197,6 +199,7 @@ add address=206.51.0.0/24 list=GEO_PR comment=PR
 add address=206.166.204.0/22 list=GEO_PR comment=PR
 add address=206.168.250.0/23 list=GEO_PR comment=PR
 add address=206.190.216.0/22 list=GEO_PR comment=PR
+add address=206.198.180.0/24 list=GEO_PR comment=PR
 add address=207.150.240.0/20 list=GEO_PR comment=PR
 add address=207.166.112.0/20 list=GEO_PR comment=PR
 add address=207.167.84.0/22 list=GEO_PR comment=PR

@@ -1,12 +1,14 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BT
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BT | Subnets: 45 (was 56, collapsed 11) | IPs: ~49,408
+# Countries: BT | Subnets: 49 (was 60, collapsed 11) | IPs: ~51,456
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_BT and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=36.50.37.0/24 list=GEO_BT comment=BT
+add address=43.226.8.0/22 list=GEO_BT comment=BT
 add address=43.229.124.0/22 list=GEO_BT comment=BT
 add address=43.230.208.0/24 list=GEO_BT comment=BT
 add address=43.241.136.0/22 list=GEO_BT comment=BT
@@ -40,6 +42,9 @@ add address=157.10.136.0/21 list=GEO_BT comment=BT
 add address=157.10.144.0/22 list=GEO_BT comment=BT
 add address=160.30.184.0/23 list=GEO_BT comment=BT
 add address=160.191.60.0/23 list=GEO_BT comment=BT
+add address=160.236.194.0/24 list=GEO_BT comment=BT
+add address=162.4.252.0/24 list=GEO_BT comment=BT
+add address=163.52.32.0/23 list=GEO_BT comment=BT
 add address=163.128.96.0/24 list=GEO_BT comment=BT
 add address=163.128.114.0/24 list=GEO_BT comment=BT
 add address=163.223.203.0/24 list=GEO_BT comment=BT

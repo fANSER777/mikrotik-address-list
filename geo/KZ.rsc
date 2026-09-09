@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KZ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KZ | Subnets: 584 (was 655, collapsed 71) | IPs: ~3,330,560
+# Countries: KZ | Subnets: 601 (was 677, collapsed 76) | IPs: ~3,366,400
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -105,6 +106,8 @@ add address=79.142.93.0/24 list=GEO_KZ comment=KZ
 add address=79.142.94.0/23 list=GEO_KZ comment=KZ
 add address=79.143.20.0/22 list=GEO_KZ comment=KZ
 add address=80.92.192.0/21 list=GEO_KZ comment=KZ
+add address=80.173.160.0/21 list=GEO_KZ comment=KZ
+add address=80.173.168.0/22 list=GEO_KZ comment=KZ
 add address=80.241.0.0/20 list=GEO_KZ comment=KZ
 add address=80.241.32.0/20 list=GEO_KZ comment=KZ
 add address=80.242.208.0/20 list=GEO_KZ comment=KZ
@@ -125,9 +128,11 @@ add address=82.115.32.0/19 list=GEO_KZ comment=KZ
 add address=82.200.128.0/17 list=GEO_KZ comment=KZ
 add address=83.97.77.0/24 list=GEO_KZ comment=KZ
 add address=83.136.220.0/24 list=GEO_KZ comment=KZ
+add address=84.38.1.0/24 list=GEO_KZ comment=KZ
 add address=84.38.4.0/23 list=GEO_KZ comment=KZ
 add address=84.240.192.0/18 list=GEO_KZ comment=KZ
 add address=84.252.156.0/22 list=GEO_KZ comment=KZ
+add address=85.8.229.0/24 list=GEO_KZ comment=KZ
 add address=85.29.128.0/18 list=GEO_KZ comment=KZ
 add address=85.92.120.0/22 list=GEO_KZ comment=KZ
 add address=85.116.176.0/20 list=GEO_KZ comment=KZ
@@ -143,6 +148,7 @@ add address=86.107.44.0/23 list=GEO_KZ comment=KZ
 add address=86.107.128.0/20 list=GEO_KZ comment=KZ
 add address=86.107.198.0/23 list=GEO_KZ comment=KZ
 add address=87.76.32.0/19 list=GEO_KZ comment=KZ
+add address=87.199.128.0/21 list=GEO_KZ comment=KZ
 add address=87.239.160.0/21 list=GEO_KZ comment=KZ
 add address=87.243.8.0/21 list=GEO_KZ comment=KZ
 add address=87.243.16.0/20 list=GEO_KZ comment=KZ
@@ -176,6 +182,7 @@ add address=89.46.33.0/24 list=GEO_KZ comment=KZ
 add address=89.46.34.0/24 list=GEO_KZ comment=KZ
 add address=89.106.232.0/21 list=GEO_KZ comment=KZ
 add address=89.107.96.0/21 list=GEO_KZ comment=KZ
+add address=89.126.192.0/20 list=GEO_KZ comment=KZ
 add address=89.207.248.0/21 list=GEO_KZ comment=KZ
 add address=89.208.123.0/24 list=GEO_KZ comment=KZ
 add address=89.218.0.0/16 list=GEO_KZ comment=KZ
@@ -247,6 +254,7 @@ add address=92.240.243.0/24 list=GEO_KZ comment=KZ
 add address=93.95.240.0/21 list=GEO_KZ comment=KZ
 add address=93.115.14.0/24 list=GEO_KZ comment=KZ
 add address=93.157.176.0/21 list=GEO_KZ comment=KZ
+add address=93.180.129.0/24 list=GEO_KZ comment=KZ
 add address=93.180.131.0/24 list=GEO_KZ comment=KZ
 add address=93.183.84.0/22 list=GEO_KZ comment=KZ
 add address=93.183.96.0/22 list=GEO_KZ comment=KZ
@@ -309,10 +317,12 @@ add address=147.30.0.0/16 list=GEO_KZ comment=KZ
 add address=149.3.192.0/18 list=GEO_KZ comment=KZ
 add address=149.27.0.0/16 list=GEO_KZ comment=KZ
 add address=149.154.188.0/22 list=GEO_KZ comment=KZ
+add address=149.170.62.0/23 list=GEO_KZ comment=KZ
 add address=151.236.192.0/21 list=GEO_KZ comment=KZ
 add address=151.237.144.0/20 list=GEO_KZ comment=KZ
 add address=153.56.200.0/22 list=GEO_KZ comment=KZ
 add address=153.56.204.0/23 list=GEO_KZ comment=KZ
+add address=153.80.192.0/19 list=GEO_KZ comment=KZ
 add address=157.22.222.0/23 list=GEO_KZ comment=KZ
 add address=157.22.232.0/21 list=GEO_KZ comment=KZ
 add address=158.94.223.0/24 list=GEO_KZ comment=KZ
@@ -425,6 +435,7 @@ add address=185.190.248.0/24 list=GEO_KZ comment=KZ
 add address=185.191.28.0/22 list=GEO_KZ comment=KZ
 add address=185.191.212.0/24 list=GEO_KZ comment=KZ
 add address=185.198.153.0/24 list=GEO_KZ comment=KZ
+add address=185.200.84.0/22 list=GEO_KZ comment=KZ
 add address=185.206.32.0/22 list=GEO_KZ comment=KZ
 add address=185.209.88.0/22 list=GEO_KZ comment=KZ
 add address=185.210.139.0/24 list=GEO_KZ comment=KZ
@@ -466,11 +477,13 @@ add address=192.159.38.0/23 list=GEO_KZ comment=KZ
 add address=192.162.156.0/22 list=GEO_KZ comment=KZ
 add address=192.175.14.0/23 list=GEO_KZ comment=KZ
 add address=193.8.12.0/22 list=GEO_KZ comment=KZ
+add address=193.24.98.0/24 list=GEO_KZ comment=KZ
 add address=193.29.53.0/24 list=GEO_KZ comment=KZ
 add address=193.31.200.0/21 list=GEO_KZ comment=KZ
 add address=193.39.68.0/24 list=GEO_KZ comment=KZ
 add address=193.41.130.0/23 list=GEO_KZ comment=KZ
 add address=193.43.250.0/23 list=GEO_KZ comment=KZ
+add address=193.56.120.0/24 list=GEO_KZ comment=KZ
 add address=193.93.56.0/22 list=GEO_KZ comment=KZ
 add address=193.93.212.0/22 list=GEO_KZ comment=KZ
 add address=193.104.74.0/24 list=GEO_KZ comment=KZ
@@ -482,6 +495,7 @@ add address=193.111.47.0/24 list=GEO_KZ comment=KZ
 add address=193.111.175.0/24 list=GEO_KZ comment=KZ
 add address=193.148.60.0/24 list=GEO_KZ comment=KZ
 add address=193.151.224.0/24 list=GEO_KZ comment=KZ
+add address=193.151.247.0/24 list=GEO_KZ comment=KZ
 add address=193.162.28.0/24 list=GEO_KZ comment=KZ
 add address=193.189.102.0/24 list=GEO_KZ comment=KZ
 add address=193.193.224.0/19 list=GEO_KZ comment=KZ
@@ -518,6 +532,7 @@ add address=194.164.115.0/24 list=GEO_KZ comment=KZ
 add address=194.165.63.0/24 list=GEO_KZ comment=KZ
 add address=194.187.136.0/22 list=GEO_KZ comment=KZ
 add address=194.187.244.0/22 list=GEO_KZ comment=KZ
+add address=194.238.40.0/22 list=GEO_KZ comment=KZ
 add address=195.2.230.0/23 list=GEO_KZ comment=KZ
 add address=195.5.162.0/24 list=GEO_KZ comment=KZ
 add address=195.12.96.0/19 list=GEO_KZ comment=KZ
@@ -530,7 +545,6 @@ add address=195.82.0.0/19 list=GEO_KZ comment=KZ
 add address=195.88.2.0/23 list=GEO_KZ comment=KZ
 add address=195.88.197.0/24 list=GEO_KZ comment=KZ
 add address=195.93.152.0/23 list=GEO_KZ comment=KZ
-add address=195.137.177.0/24 list=GEO_KZ comment=KZ
 add address=195.162.14.0/23 list=GEO_KZ comment=KZ
 add address=195.162.26.0/23 list=GEO_KZ comment=KZ
 add address=195.189.28.0/22 list=GEO_KZ comment=KZ
@@ -545,6 +559,9 @@ add address=195.245.221.0/24 list=GEO_KZ comment=KZ
 add address=198.13.184.0/21 list=GEO_KZ comment=KZ
 add address=198.45.116.0/22 list=GEO_KZ comment=KZ
 add address=198.89.88.0/21 list=GEO_KZ comment=KZ
+add address=199.189.248.0/21 list=GEO_KZ comment=KZ
+add address=206.210.32.0/19 list=GEO_KZ comment=KZ
+add address=206.223.240.0/20 list=GEO_KZ comment=KZ
 add address=207.174.216.0/22 list=GEO_KZ comment=KZ
 add address=212.13.128.0/18 list=GEO_KZ comment=KZ
 add address=212.19.128.0/19 list=GEO_KZ comment=KZ
@@ -576,6 +593,7 @@ add address=213.184.64.0/22 list=GEO_KZ comment=KZ
 add address=213.211.64.0/18 list=GEO_KZ comment=KZ
 add address=213.232.196.0/23 list=GEO_KZ comment=KZ
 add address=213.232.201.0/24 list=GEO_KZ comment=KZ
+add address=213.232.206.0/24 list=GEO_KZ comment=KZ
 add address=213.232.218.0/23 list=GEO_KZ comment=KZ
 add address=213.232.220.0/22 list=GEO_KZ comment=KZ
 add address=213.232.224.0/24 list=GEO_KZ comment=KZ

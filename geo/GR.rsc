@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GR | Subnets: 439 (was 466, collapsed 27) | IPs: ~5,782,400
+# Countries: GR | Subnets: 444 (was 471, collapsed 27) | IPs: ~5,722,240
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_GR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -75,6 +76,7 @@ add address=83.174.148.0/22 list=GEO_GR comment=GR
 add address=83.174.152.0/21 list=GEO_GR comment=GR
 add address=83.212.0.0/16 list=GEO_GR comment=GR
 add address=83.235.0.0/16 list=GEO_GR comment=GR
+add address=84.54.49.0/24 list=GEO_GR comment=GR
 add address=84.205.192.0/18 list=GEO_GR comment=GR
 add address=84.254.0.0/18 list=GEO_GR comment=GR
 add address=85.72.0.0/14 list=GEO_GR comment=GR
@@ -102,6 +104,7 @@ add address=89.44.216.0/21 list=GEO_GR comment=GR
 add address=89.45.120.0/22 list=GEO_GR comment=GR
 add address=89.46.252.0/22 list=GEO_GR comment=GR
 add address=89.47.44.0/22 list=GEO_GR comment=GR
+add address=89.124.16.0/20 list=GEO_GR comment=GR
 add address=89.210.0.0/16 list=GEO_GR comment=GR
 add address=91.132.16.0/22 list=GEO_GR comment=GR
 add address=91.138.128.0/17 list=GEO_GR comment=GR
@@ -148,6 +151,7 @@ add address=93.113.216.0/22 list=GEO_GR comment=GR
 add address=93.114.196.0/22 list=GEO_GR comment=GR
 add address=93.174.120.0/21 list=GEO_GR comment=GR
 add address=94.64.0.0/13 list=GEO_GR comment=GR
+add address=94.131.54.0/24 list=GEO_GR comment=GR
 add address=94.143.176.0/21 list=GEO_GR comment=GR
 add address=94.154.132.0/22 list=GEO_GR comment=GR
 add address=94.156.67.0/24 list=GEO_GR comment=GR
@@ -166,7 +170,6 @@ add address=139.91.0.0/16 list=GEO_GR comment=GR
 add address=141.237.0.0/16 list=GEO_GR comment=GR
 add address=141.255.0.0/17 list=GEO_GR comment=GR
 add address=143.233.0.0/16 list=GEO_GR comment=GR
-add address=144.24.0.0/16 list=GEO_GR comment=GR
 add address=146.19.17.0/24 list=GEO_GR comment=GR
 add address=146.124.0.0/16 list=GEO_GR comment=GR
 add address=147.27.0.0/16 list=GEO_GR comment=GR
@@ -174,11 +177,13 @@ add address=147.52.0.0/16 list=GEO_GR comment=GR
 add address=147.95.0.0/16 list=GEO_GR comment=GR
 add address=147.102.0.0/16 list=GEO_GR comment=GR
 add address=147.189.216.0/21 list=GEO_GR comment=GR
+add address=149.170.145.0/24 list=GEO_GR comment=GR
 add address=149.210.0.0/17 list=GEO_GR comment=GR
 add address=150.140.0.0/16 list=GEO_GR comment=GR
 add address=152.89.116.0/22 list=GEO_GR comment=GR
 add address=155.207.0.0/16 list=GEO_GR comment=GR
 add address=160.40.0.0/16 list=GEO_GR comment=GR
+add address=164.40.237.0/24 list=GEO_GR comment=GR
 add address=172.93.4.0/23 list=GEO_GR comment=GR
 add address=176.58.128.0/17 list=GEO_GR comment=GR
 add address=176.92.0.0/17 list=GEO_GR comment=GR
@@ -434,6 +439,7 @@ add address=199.195.130.0/23 list=GEO_GR comment=GR
 add address=212.54.192.0/19 list=GEO_GR comment=GR
 add address=212.70.192.0/19 list=GEO_GR comment=GR
 add address=212.102.96.0/24 list=GEO_GR comment=GR
+add address=212.108.106.0/24 list=GEO_GR comment=GR
 add address=212.152.64.0/18 list=GEO_GR comment=GR
 add address=212.205.0.0/16 list=GEO_GR comment=GR
 add address=212.251.0.0/17 list=GEO_GR comment=GR

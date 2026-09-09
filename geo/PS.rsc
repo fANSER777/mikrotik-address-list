@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PS
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PS | Subnets: 243 (was 249, collapsed 6) | IPs: ~875,520
+# Countries: PS | Subnets: 246 (was 253, collapsed 7) | IPs: ~876,288
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PS and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -166,6 +167,7 @@ add address=185.21.120.0/22 list=GEO_PS comment=PS
 add address=185.33.168.0/22 list=GEO_PS comment=PS
 add address=185.37.12.0/22 list=GEO_PS comment=PS
 add address=185.40.192.0/22 list=GEO_PS comment=PS
+add address=185.50.165.0/24 list=GEO_PS comment=PS
 add address=185.61.20.0/22 list=GEO_PS comment=PS
 add address=185.61.200.0/22 list=GEO_PS comment=PS
 add address=185.71.140.0/22 list=GEO_PS comment=PS
@@ -238,6 +240,8 @@ add address=203.28.19.0/24 list=GEO_PS comment=PS
 add address=203.30.104.0/22 list=GEO_PS comment=PS
 add address=203.89.108.0/22 list=GEO_PS comment=PS
 add address=203.189.236.0/22 list=GEO_PS comment=PS
+add address=209.135.131.0/24 list=GEO_PS comment=PS
+add address=209.135.142.0/24 list=GEO_PS comment=PS
 add address=212.11.92.0/24 list=GEO_PS comment=PS
 add address=212.14.224.0/19 list=GEO_PS comment=PS
 add address=212.33.96.0/19 list=GEO_PS comment=PS

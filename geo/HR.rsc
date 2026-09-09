@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: HR | Subnets: 260 (was 276, collapsed 16) | IPs: ~2,349,568
+# Countries: HR | Subnets: 270 (was 289, collapsed 19) | IPs: ~2,355,968
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_HR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -20,6 +21,7 @@ add address=37.72.133.0/24 list=GEO_HR comment=HR
 add address=37.205.96.0/20 list=GEO_HR comment=HR
 add address=37.244.128.0/17 list=GEO_HR comment=HR
 add address=45.8.106.0/24 list=GEO_HR comment=HR
+add address=45.9.156.0/24 list=GEO_HR comment=HR
 add address=45.87.24.0/22 list=GEO_HR comment=HR
 add address=45.95.168.0/22 list=GEO_HR comment=HR
 add address=45.136.142.0/23 list=GEO_HR comment=HR
@@ -38,8 +40,10 @@ add address=77.237.96.0/19 list=GEO_HR comment=HR
 add address=78.0.0.0/14 list=GEO_HR comment=HR
 add address=78.134.128.0/17 list=GEO_HR comment=HR
 add address=80.80.48.0/20 list=GEO_HR comment=HR
+add address=80.173.128.0/21 list=GEO_HR comment=HR
 add address=80.253.160.0/20 list=GEO_HR comment=HR
 add address=82.132.0.0/17 list=GEO_HR comment=HR
+add address=82.158.184.0/21 list=GEO_HR comment=HR
 add address=82.193.192.0/19 list=GEO_HR comment=HR
 add address=83.131.0.0/16 list=GEO_HR comment=HR
 add address=83.139.64.0/18 list=GEO_HR comment=HR
@@ -76,6 +80,7 @@ add address=91.208.100.0/24 list=GEO_HR comment=HR
 add address=91.208.113.0/24 list=GEO_HR comment=HR
 add address=91.208.128.0/24 list=GEO_HR comment=HR
 add address=91.208.137.0/24 list=GEO_HR comment=HR
+add address=91.208.146.0/24 list=GEO_HR comment=HR
 add address=91.208.151.0/24 list=GEO_HR comment=HR
 add address=91.209.4.0/24 list=GEO_HR comment=HR
 add address=91.209.32.0/24 list=GEO_HR comment=HR
@@ -99,12 +104,12 @@ add address=91.233.36.0/23 list=GEO_HR comment=HR
 add address=91.234.46.0/24 list=GEO_HR comment=HR
 add address=91.236.37.0/24 list=GEO_HR comment=HR
 add address=91.241.53.0/24 list=GEO_HR comment=HR
-add address=91.243.76.0/24 list=GEO_HR comment=HR
 add address=92.242.224.0/19 list=GEO_HR comment=HR
 add address=92.243.80.0/24 list=GEO_HR comment=HR
 add address=93.136.0.0/13 list=GEO_HR comment=HR
 add address=93.159.64.0/19 list=GEO_HR comment=HR
 add address=94.103.176.0/24 list=GEO_HR comment=HR
+add address=94.127.23.0/24 list=GEO_HR comment=HR
 add address=94.250.128.0/18 list=GEO_HR comment=HR
 add address=94.253.128.0/17 list=GEO_HR comment=HR
 add address=95.128.232.0/21 list=GEO_HR comment=HR
@@ -205,10 +210,15 @@ add address=188.214.157.0/24 list=GEO_HR comment=HR
 add address=188.252.128.0/17 list=GEO_HR comment=HR
 add address=192.40.70.0/23 list=GEO_HR comment=HR
 add address=192.84.91.0/24 list=GEO_HR comment=HR
-add address=192.84.92.0/24 list=GEO_HR comment=HR
+add address=192.84.92.0/23 list=GEO_HR comment=HR
+add address=192.84.94.0/24 list=GEO_HR comment=HR
+add address=192.84.96.0/24 list=GEO_HR comment=HR
+add address=192.84.98.0/24 list=GEO_HR comment=HR
 add address=192.84.105.0/24 list=GEO_HR comment=HR
 add address=192.84.106.0/24 list=GEO_HR comment=HR
+add address=192.84.108.0/24 list=GEO_HR comment=HR
 add address=192.144.60.0/22 list=GEO_HR comment=HR
+add address=193.3.158.0/24 list=GEO_HR comment=HR
 add address=193.19.220.0/22 list=GEO_HR comment=HR
 add address=193.22.31.0/24 list=GEO_HR comment=HR
 add address=193.23.182.0/24 list=GEO_HR comment=HR
@@ -229,6 +239,7 @@ add address=194.1.255.0/24 list=GEO_HR comment=HR
 add address=194.5.68.0/22 list=GEO_HR comment=HR
 add address=194.5.87.0/24 list=GEO_HR comment=HR
 add address=194.24.231.0/24 list=GEO_HR comment=HR
+add address=194.31.63.0/24 list=GEO_HR comment=HR
 add address=194.36.44.0/22 list=GEO_HR comment=HR
 add address=194.56.72.0/22 list=GEO_HR comment=HR
 add address=194.126.213.0/24 list=GEO_HR comment=HR

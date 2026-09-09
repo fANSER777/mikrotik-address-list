@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RS
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RS | Subnets: 384 (was 435, collapsed 51) | IPs: ~2,307,584
+# Countries: RS | Subnets: 388 (was 439, collapsed 51) | IPs: ~2,315,776
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_RS and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -46,6 +47,7 @@ add address=62.108.96.0/19 list=GEO_RS comment=RS
 add address=62.182.152.0/22 list=GEO_RS comment=RS
 add address=62.193.128.0/19 list=GEO_RS comment=RS
 add address=62.240.0.0/19 list=GEO_RS comment=RS
+add address=64.17.244.0/22 list=GEO_RS comment=RS
 add address=77.46.128.0/17 list=GEO_RS comment=RS
 add address=77.73.115.0/24 list=GEO_RS comment=RS
 add address=77.105.0.0/18 list=GEO_RS comment=RS
@@ -58,6 +60,7 @@ add address=78.109.96.0/20 list=GEO_RS comment=RS
 add address=79.101.0.0/16 list=GEO_RS comment=RS
 add address=79.110.144.0/20 list=GEO_RS comment=RS
 add address=79.170.112.0/21 list=GEO_RS comment=RS
+add address=79.170.194.0/24 list=GEO_RS comment=RS
 add address=79.175.64.0/18 list=GEO_RS comment=RS
 add address=80.70.240.0/20 list=GEO_RS comment=RS
 add address=80.74.160.0/20 list=GEO_RS comment=RS
@@ -122,7 +125,6 @@ add address=91.228.16.0/22 list=GEO_RS comment=RS
 add address=91.228.20.0/23 list=GEO_RS comment=RS
 add address=91.228.252.0/23 list=GEO_RS comment=RS
 add address=91.228.254.0/24 list=GEO_RS comment=RS
-add address=91.231.88.0/24 list=GEO_RS comment=RS
 add address=91.231.158.0/23 list=GEO_RS comment=RS
 add address=91.232.106.0/23 list=GEO_RS comment=RS
 add address=91.232.200.0/23 list=GEO_RS comment=RS
@@ -191,8 +193,11 @@ add address=109.233.184.0/21 list=GEO_RS comment=RS
 add address=109.245.0.0/16 list=GEO_RS comment=RS
 add address=130.180.224.0/19 list=GEO_RS comment=RS
 add address=130.193.76.0/24 list=GEO_RS comment=RS
+add address=132.243.80.0/20 list=GEO_RS comment=RS
 add address=139.28.12.0/22 list=GEO_RS comment=RS
 add address=147.91.0.0/16 list=GEO_RS comment=RS
+add address=152.117.16.0/21 list=GEO_RS comment=RS
+add address=159.200.216.0/22 list=GEO_RS comment=RS
 add address=160.99.0.0/16 list=GEO_RS comment=RS
 add address=160.238.60.0/24 list=GEO_RS comment=RS
 add address=176.67.192.0/19 list=GEO_RS comment=RS

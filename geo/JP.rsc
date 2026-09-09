@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JP
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JP | Subnets: 3177 (was 4738, collapsed 1561) | IPs: ~188,681,792
+# Countries: JP | Subnets: 3197 (was 4796, collapsed 1599) | IPs: ~188,703,296
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_JP and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -36,6 +37,7 @@ add address=14.193.0.0/16 list=GEO_JP comment=JP
 add address=23.81.40.0/21 list=GEO_JP comment=JP
 add address=23.106.224.0/21 list=GEO_JP comment=JP
 add address=23.129.12.0/24 list=GEO_JP comment=JP
+add address=23.129.140.0/24 list=GEO_JP comment=JP
 add address=23.130.44.0/24 list=GEO_JP comment=JP
 add address=23.131.108.0/24 list=GEO_JP comment=JP
 add address=23.131.136.0/24 list=GEO_JP comment=JP
@@ -218,6 +220,7 @@ add address=45.148.172.0/22 list=GEO_JP comment=JP
 add address=45.251.67.0/24 list=GEO_JP comment=JP
 add address=45.251.132.0/22 list=GEO_JP comment=JP
 add address=49.0.16.0/21 list=GEO_JP comment=JP
+add address=49.0.176.0/21 list=GEO_JP comment=JP
 add address=49.50.6.0/23 list=GEO_JP comment=JP
 add address=49.96.0.0/12 list=GEO_JP comment=JP
 add address=49.128.16.0/20 list=GEO_JP comment=JP
@@ -353,9 +356,11 @@ add address=66.11.48.0/20 list=GEO_JP comment=JP
 add address=69.6.64.0/20 list=GEO_JP comment=JP
 add address=74.113.96.0/22 list=GEO_JP comment=JP
 add address=76.77.48.0/20 list=GEO_JP comment=JP
+add address=80.47.64.0/19 list=GEO_JP comment=JP
 add address=80.208.192.0/20 list=GEO_JP comment=JP
 add address=81.23.208.0/20 list=GEO_JP comment=JP
 add address=81.203.0.0/16 list=GEO_JP comment=JP
+add address=85.8.225.0/24 list=GEO_JP comment=JP
 add address=85.131.192.0/18 list=GEO_JP comment=JP
 add address=87.101.96.0/20 list=GEO_JP comment=JP
 add address=90.149.0.0/16 list=GEO_JP comment=JP
@@ -764,7 +769,6 @@ add address=103.137.232.0/22 list=GEO_JP comment=JP
 add address=103.137.240.0/22 list=GEO_JP comment=JP
 add address=103.138.100.0/22 list=GEO_JP comment=JP
 add address=103.138.238.0/24 list=GEO_JP comment=JP
-add address=103.139.86.0/23 list=GEO_JP comment=JP
 add address=103.139.106.0/24 list=GEO_JP comment=JP
 add address=103.139.110.0/23 list=GEO_JP comment=JP
 add address=103.139.238.0/23 list=GEO_JP comment=JP
@@ -1026,6 +1030,7 @@ add address=103.254.144.0/22 list=GEO_JP comment=JP
 add address=103.255.20.0/22 list=GEO_JP comment=JP
 add address=103.255.244.0/22 list=GEO_JP comment=JP
 add address=104.200.112.0/20 list=GEO_JP comment=JP
+add address=104.222.192.0/19 list=GEO_JP comment=JP
 add address=104.251.144.0/20 list=GEO_JP comment=JP
 add address=106.72.0.0/15 list=GEO_JP comment=JP
 add address=106.128.0.0/10 list=GEO_JP comment=JP
@@ -1583,7 +1588,16 @@ add address=125.215.64.0/18 list=GEO_JP comment=JP
 add address=125.252.64.0/18 list=GEO_JP comment=JP
 add address=125.252.128.0/18 list=GEO_JP comment=JP
 add address=125.254.56.0/22 list=GEO_JP comment=JP
-add address=126.0.0.0/9 list=GEO_JP comment=JP
+add address=126.0.0.0/11 list=GEO_JP comment=JP
+add address=126.32.0.0/12 list=GEO_JP comment=JP
+add address=126.48.0.0/14 list=GEO_JP comment=JP
+add address=126.52.0.0/17 list=GEO_JP comment=JP
+add address=126.52.160.0/19 list=GEO_JP comment=JP
+add address=126.52.192.0/18 list=GEO_JP comment=JP
+add address=126.53.0.0/16 list=GEO_JP comment=JP
+add address=126.54.0.0/15 list=GEO_JP comment=JP
+add address=126.56.0.0/13 list=GEO_JP comment=JP
+add address=126.64.0.0/10 list=GEO_JP comment=JP
 add address=126.128.0.0/11 list=GEO_JP comment=JP
 add address=126.160.0.0/12 list=GEO_JP comment=JP
 add address=126.176.0.0/13 list=GEO_JP comment=JP
@@ -1736,6 +1750,7 @@ add address=150.249.0.0/16 list=GEO_JP comment=JP
 add address=151.158.220.0/22 list=GEO_JP comment=JP
 add address=152.117.128.0/17 list=GEO_JP comment=JP
 add address=152.165.0.0/16 list=GEO_JP comment=JP
+add address=153.79.80.0/20 list=GEO_JP comment=JP
 add address=153.115.0.0/16 list=GEO_JP comment=JP
 add address=153.120.0.0/14 list=GEO_JP comment=JP
 add address=153.124.0.0/17 list=GEO_JP comment=JP
@@ -1856,6 +1871,10 @@ add address=160.204.0.0/16 list=GEO_JP comment=JP
 add address=160.215.0.0/16 list=GEO_JP comment=JP
 add address=160.222.192.0/23 list=GEO_JP comment=JP
 add address=160.233.0.0/16 list=GEO_JP comment=JP
+add address=160.236.22.0/23 list=GEO_JP comment=JP
+add address=160.236.48.0/23 list=GEO_JP comment=JP
+add address=160.236.70.0/23 list=GEO_JP comment=JP
+add address=160.236.116.0/23 list=GEO_JP comment=JP
 add address=160.237.0.0/16 list=GEO_JP comment=JP
 add address=160.238.1.0/24 list=GEO_JP comment=JP
 add address=160.238.2.0/23 list=GEO_JP comment=JP
@@ -1890,6 +1909,9 @@ add address=162.4.28.0/23 list=GEO_JP comment=JP
 add address=162.4.52.0/23 list=GEO_JP comment=JP
 add address=162.4.79.0/24 list=GEO_JP comment=JP
 add address=162.4.98.0/23 list=GEO_JP comment=JP
+add address=162.4.180.0/23 list=GEO_JP comment=JP
+add address=162.4.194.0/23 list=GEO_JP comment=JP
+add address=162.4.238.0/24 list=GEO_JP comment=JP
 add address=162.43.0.0/17 list=GEO_JP comment=JP
 add address=163.42.0.0/15 list=GEO_JP comment=JP
 add address=163.44.0.0/17 list=GEO_JP comment=JP
@@ -1984,6 +2006,7 @@ add address=170.249.64.0/21 list=GEO_JP comment=JP
 add address=170.249.96.0/19 list=GEO_JP comment=JP
 add address=171.2.0.0/15 list=GEO_JP comment=JP
 add address=172.86.208.0/20 list=GEO_JP comment=JP
+add address=172.97.80.0/20 list=GEO_JP comment=JP
 add address=172.122.0.0/15 list=GEO_JP comment=JP
 add address=173.234.64.0/22 list=GEO_JP comment=JP
 add address=175.28.4.0/22 list=GEO_JP comment=JP
@@ -2280,7 +2303,6 @@ add address=198.180.142.0/24 list=GEO_JP comment=JP
 add address=198.204.78.0/24 list=GEO_JP comment=JP
 add address=199.43.18.0/24 list=GEO_JP comment=JP
 add address=199.67.71.0/24 list=GEO_JP comment=JP
-add address=199.103.103.0/24 list=GEO_JP comment=JP
 add address=199.230.100.0/22 list=GEO_JP comment=JP
 add address=202.0.65.0/24 list=GEO_JP comment=JP
 add address=202.0.66.0/24 list=GEO_JP comment=JP
@@ -2314,7 +2336,7 @@ add address=202.9.208.0/20 list=GEO_JP comment=JP
 add address=202.10.96.0/20 list=GEO_JP comment=JP
 add address=202.11.0.0/16 list=GEO_JP comment=JP
 add address=202.12.8.0/21 list=GEO_JP comment=JP
-add address=202.12.27.0/24 list=GEO_JP comment=JP
+add address=202.12.26.0/23 list=GEO_JP comment=JP
 add address=202.12.30.0/24 list=GEO_JP comment=JP
 add address=202.12.64.0/22 list=GEO_JP comment=JP
 add address=202.12.244.0/22 list=GEO_JP comment=JP
@@ -2440,7 +2462,6 @@ add address=202.61.16.0/20 list=GEO_JP comment=JP
 add address=202.62.160.0/19 list=GEO_JP comment=JP
 add address=202.62.253.0/24 list=GEO_JP comment=JP
 add address=202.64.25.0/24 list=GEO_JP comment=JP
-add address=202.64.56.0/24 list=GEO_JP comment=JP
 add address=202.64.63.0/24 list=GEO_JP comment=JP
 add address=202.64.64.0/23 list=GEO_JP comment=JP
 add address=202.64.87.0/24 list=GEO_JP comment=JP

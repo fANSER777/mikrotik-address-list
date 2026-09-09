@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BZ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BZ | Subnets: 130 (was 132, collapsed 2) | IPs: ~163,584
+# Countries: BZ | Subnets: 82 (was 84, collapsed 2) | IPs: ~149,248
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_BZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -20,52 +21,14 @@ add address=45.180.120.0/22 list=GEO_BZ comment=BZ
 add address=45.225.42.0/24 list=GEO_BZ comment=BZ
 add address=45.228.156.0/24 list=GEO_BZ comment=BZ
 add address=45.234.88.0/22 list=GEO_BZ comment=BZ
-add address=46.102.152.0/24 list=GEO_BZ comment=BZ
-add address=46.102.252.0/23 list=GEO_BZ comment=BZ
 add address=82.115.15.0/24 list=GEO_BZ comment=BZ
 add address=83.150.236.0/22 list=GEO_BZ comment=BZ
-add address=85.204.74.0/24 list=GEO_BZ comment=BZ
 add address=85.209.136.0/22 list=GEO_BZ comment=BZ
-add address=86.104.15.0/24 list=GEO_BZ comment=BZ
-add address=86.104.28.0/23 list=GEO_BZ comment=BZ
-add address=86.105.1.0/24 list=GEO_BZ comment=BZ
-add address=86.105.5.0/24 list=GEO_BZ comment=BZ
-add address=86.105.18.0/24 list=GEO_BZ comment=BZ
-add address=86.105.227.0/24 list=GEO_BZ comment=BZ
-add address=86.105.235.0/24 list=GEO_BZ comment=BZ
-add address=86.106.93.0/24 list=GEO_BZ comment=BZ
-add address=86.106.102.0/24 list=GEO_BZ comment=BZ
-add address=86.106.131.0/24 list=GEO_BZ comment=BZ
-add address=86.107.42.0/24 list=GEO_BZ comment=BZ
-add address=86.107.170.0/23 list=GEO_BZ comment=BZ
-add address=89.32.40.0/24 list=GEO_BZ comment=BZ
-add address=89.33.64.0/24 list=GEO_BZ comment=BZ
-add address=89.34.111.0/24 list=GEO_BZ comment=BZ
-add address=89.35.32.0/24 list=GEO_BZ comment=BZ
-add address=89.35.56.0/24 list=GEO_BZ comment=BZ
-add address=89.35.178.0/24 list=GEO_BZ comment=BZ
-add address=89.37.226.0/24 list=GEO_BZ comment=BZ
-add address=89.42.212.0/24 list=GEO_BZ comment=BZ
-add address=89.43.60.0/24 list=GEO_BZ comment=BZ
-add address=89.43.202.0/23 list=GEO_BZ comment=BZ
-add address=89.44.103.0/24 list=GEO_BZ comment=BZ
-add address=89.45.67.0/24 list=GEO_BZ comment=BZ
 add address=91.90.162.0/24 list=GEO_BZ comment=BZ
 add address=91.209.70.0/24 list=GEO_BZ comment=BZ
 add address=91.226.97.0/24 list=GEO_BZ comment=BZ
 add address=91.245.232.0/23 list=GEO_BZ comment=BZ
-add address=92.114.35.0/24 list=GEO_BZ comment=BZ
-add address=92.114.92.0/24 list=GEO_BZ comment=BZ
-add address=93.113.45.0/24 list=GEO_BZ comment=BZ
-add address=93.113.131.0/24 list=GEO_BZ comment=BZ
-add address=93.115.38.0/24 list=GEO_BZ comment=BZ
 add address=93.115.60.0/23 list=GEO_BZ comment=BZ
-add address=93.115.201.0/24 list=GEO_BZ comment=BZ
-add address=93.117.137.0/24 list=GEO_BZ comment=BZ
-add address=93.119.123.0/24 list=GEO_BZ comment=BZ
-add address=94.177.12.0/24 list=GEO_BZ comment=BZ
-add address=94.177.112.0/24 list=GEO_BZ comment=BZ
-add address=94.177.123.0/24 list=GEO_BZ comment=BZ
 add address=121.127.33.0/24 list=GEO_BZ comment=BZ
 add address=131.161.148.0/22 list=GEO_BZ comment=BZ
 add address=131.255.40.0/22 list=GEO_BZ comment=BZ
@@ -86,16 +49,12 @@ add address=170.0.180.0/22 list=GEO_BZ comment=BZ
 add address=170.247.220.0/22 list=GEO_BZ comment=BZ
 add address=170.254.16.0/22 list=GEO_BZ comment=BZ
 add address=171.22.36.0/22 list=GEO_BZ comment=BZ
-add address=176.223.111.0/24 list=GEO_BZ comment=BZ
-add address=176.223.112.0/23 list=GEO_BZ comment=BZ
-add address=176.223.165.0/24 list=GEO_BZ comment=BZ
 add address=179.42.192.0/18 list=GEO_BZ comment=BZ
 add address=179.51.252.0/22 list=GEO_BZ comment=BZ
 add address=179.60.144.0/21 list=GEO_BZ comment=BZ
 add address=179.63.216.0/21 list=GEO_BZ comment=BZ
 add address=181.177.64.0/18 list=GEO_BZ comment=BZ
 add address=181.233.124.0/22 list=GEO_BZ comment=BZ
-add address=185.77.128.0/22 list=GEO_BZ comment=BZ
 add address=185.130.44.0/22 list=GEO_BZ comment=BZ
 add address=185.131.222.0/23 list=GEO_BZ comment=BZ
 add address=185.142.217.0/24 list=GEO_BZ comment=BZ
@@ -106,13 +65,7 @@ add address=185.221.220.0/24 list=GEO_BZ comment=BZ
 add address=185.240.253.0/24 list=GEO_BZ comment=BZ
 add address=186.65.88.0/22 list=GEO_BZ comment=BZ
 add address=188.119.88.0/22 list=GEO_BZ comment=BZ
-add address=188.211.168.0/24 list=GEO_BZ comment=BZ
-add address=188.213.204.0/24 list=GEO_BZ comment=BZ
-add address=188.215.1.0/24 list=GEO_BZ comment=BZ
-add address=188.215.92.0/24 list=GEO_BZ comment=BZ
-add address=188.240.234.0/24 list=GEO_BZ comment=BZ
-add address=188.241.39.0/24 list=GEO_BZ comment=BZ
-add address=188.241.68.0/24 list=GEO_BZ comment=BZ
+add address=190.97.98.0/24 list=GEO_BZ comment=BZ
 add address=190.102.96.0/22 list=GEO_BZ comment=BZ
 add address=190.102.112.0/21 list=GEO_BZ comment=BZ
 add address=190.124.40.0/22 list=GEO_BZ comment=BZ

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AR | Subnets: 1599 (was 1938, collapsed 339) | IPs: ~19,434,752
+# Countries: AR | Subnets: 1601 (was 1934, collapsed 333) | IPs: ~19,433,728
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -34,6 +35,7 @@ add address=45.65.202.0/24 list=GEO_AR comment=AR
 add address=45.65.224.0/22 list=GEO_AR comment=AR
 add address=45.65.252.0/24 list=GEO_AR comment=AR
 add address=45.68.8.0/21 list=GEO_AR comment=AR
+add address=45.68.132.0/22 list=GEO_AR comment=AR
 add address=45.70.8.0/22 list=GEO_AR comment=AR
 add address=45.70.88.0/22 list=GEO_AR comment=AR
 add address=45.70.116.0/22 list=GEO_AR comment=AR
@@ -783,7 +785,6 @@ add address=179.0.151.0/24 list=GEO_AR comment=AR
 add address=179.0.180.0/22 list=GEO_AR comment=AR
 add address=179.0.184.0/22 list=GEO_AR comment=AR
 add address=179.0.193.0/24 list=GEO_AR comment=AR
-add address=179.0.203.0/24 list=GEO_AR comment=AR
 add address=179.0.224.0/19 list=GEO_AR comment=AR
 add address=179.1.160.0/20 list=GEO_AR comment=AR
 add address=179.36.0.0/14 list=GEO_AR comment=AR
@@ -985,8 +986,8 @@ add address=186.65.108.0/22 list=GEO_AR comment=AR
 add address=186.96.192.0/21 list=GEO_AR comment=AR
 add address=186.100.0.0/16 list=GEO_AR comment=AR
 add address=186.108.0.0/14 list=GEO_AR comment=AR
-add address=186.121.146.0/23 list=GEO_AR comment=AR
-add address=186.121.152.0/21 list=GEO_AR comment=AR
+add address=186.121.154.0/23 list=GEO_AR comment=AR
+add address=186.121.156.0/22 list=GEO_AR comment=AR
 add address=186.121.168.0/21 list=GEO_AR comment=AR
 add address=186.121.176.0/20 list=GEO_AR comment=AR
 add address=186.122.0.0/15 list=GEO_AR comment=AR
@@ -1021,6 +1022,7 @@ add address=187.62.92.0/22 list=GEO_AR comment=AR
 add address=187.62.110.0/23 list=GEO_AR comment=AR
 add address=187.102.196.0/23 list=GEO_AR comment=AR
 add address=187.102.216.0/22 list=GEO_AR comment=AR
+add address=187.102.232.0/22 list=GEO_AR comment=AR
 add address=187.102.240.0/22 list=GEO_AR comment=AR
 add address=189.8.112.0/21 list=GEO_AR comment=AR
 add address=189.45.176.0/22 list=GEO_AR comment=AR
@@ -1165,7 +1167,12 @@ add address=190.113.48.0/22 list=GEO_AR comment=AR
 add address=190.113.56.0/22 list=GEO_AR comment=AR
 add address=190.113.128.0/18 list=GEO_AR comment=AR
 add address=190.113.224.0/20 list=GEO_AR comment=AR
-add address=190.114.64.0/18 list=GEO_AR comment=AR
+add address=190.114.64.0/19 list=GEO_AR comment=AR
+add address=190.114.96.0/22 list=GEO_AR comment=AR
+add address=190.114.100.0/23 list=GEO_AR comment=AR
+add address=190.114.102.0/24 list=GEO_AR comment=AR
+add address=190.114.104.0/21 list=GEO_AR comment=AR
+add address=190.114.112.0/20 list=GEO_AR comment=AR
 add address=190.114.128.0/18 list=GEO_AR comment=AR
 add address=190.114.192.0/19 list=GEO_AR comment=AR
 add address=190.114.232.0/21 list=GEO_AR comment=AR
@@ -1341,7 +1348,6 @@ add address=200.10.139.0/24 list=GEO_AR comment=AR
 add address=200.10.140.0/24 list=GEO_AR comment=AR
 add address=200.10.161.0/24 list=GEO_AR comment=AR
 add address=200.10.180.0/23 list=GEO_AR comment=AR
-add address=200.10.186.0/24 list=GEO_AR comment=AR
 add address=200.10.191.0/24 list=GEO_AR comment=AR
 add address=200.10.196.0/24 list=GEO_AR comment=AR
 add address=200.10.199.0/24 list=GEO_AR comment=AR
@@ -1516,16 +1522,13 @@ add address=200.115.192.0/18 list=GEO_AR comment=AR
 add address=200.117.0.0/16 list=GEO_AR comment=AR
 add address=200.122.0.0/17 list=GEO_AR comment=AR
 add address=200.123.32.0/22 list=GEO_AR comment=AR
-add address=200.123.38.0/23 list=GEO_AR comment=AR
-add address=200.123.40.0/23 list=GEO_AR comment=AR
-add address=200.123.43.0/24 list=GEO_AR comment=AR
+add address=200.123.41.0/24 list=GEO_AR comment=AR
 add address=200.123.45.0/24 list=GEO_AR comment=AR
 add address=200.123.46.0/23 list=GEO_AR comment=AR
 add address=200.123.48.0/21 list=GEO_AR comment=AR
 add address=200.123.56.0/23 list=GEO_AR comment=AR
 add address=200.123.58.0/24 list=GEO_AR comment=AR
 add address=200.123.60.0/24 list=GEO_AR comment=AR
-add address=200.123.63.0/24 list=GEO_AR comment=AR
 add address=200.123.64.0/18 list=GEO_AR comment=AR
 add address=200.123.128.0/18 list=GEO_AR comment=AR
 add address=200.123.192.0/20 list=GEO_AR comment=AR

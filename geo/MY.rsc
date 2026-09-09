@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MY
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MY | Subnets: 794 (was 916, collapsed 122) | IPs: ~6,704,640
+# Countries: MY | Subnets: 790 (was 912, collapsed 122) | IPs: ~6,700,544
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -15,8 +16,8 @@ add address=14.192.64.0/21 list=GEO_MY comment=MY
 add address=14.192.192.0/18 list=GEO_MY comment=MY
 add address=23.155.52.0/24 list=GEO_MY comment=MY
 add address=23.155.92.0/24 list=GEO_MY comment=MY
-add address=23.156.132.0/24 list=GEO_MY comment=MY
-add address=23.156.148.0/24 list=GEO_MY comment=MY
+add address=23.160.68.0/24 list=GEO_MY comment=MY
+add address=23.162.76.0/24 list=GEO_MY comment=MY
 add address=23.177.232.0/24 list=GEO_MY comment=MY
 add address=23.187.104.0/24 list=GEO_MY comment=MY
 add address=27.0.4.0/22 list=GEO_MY comment=MY
@@ -44,7 +45,6 @@ add address=43.231.224.0/22 list=GEO_MY comment=MY
 add address=43.239.204.0/23 list=GEO_MY comment=MY
 add address=43.239.233.0/24 list=GEO_MY comment=MY
 add address=43.239.234.0/23 list=GEO_MY comment=MY
-add address=43.239.252.0/22 list=GEO_MY comment=MY
 add address=43.240.20.0/22 list=GEO_MY comment=MY
 add address=43.241.96.0/22 list=GEO_MY comment=MY
 add address=43.242.108.0/22 list=GEO_MY comment=MY
@@ -67,7 +67,6 @@ add address=43.255.172.0/22 list=GEO_MY comment=MY
 add address=45.64.168.0/22 list=GEO_MY comment=MY
 add address=45.112.196.0/22 list=GEO_MY comment=MY
 add address=45.114.28.0/22 list=GEO_MY comment=MY
-add address=45.114.100.0/22 list=GEO_MY comment=MY
 add address=45.115.220.0/22 list=GEO_MY comment=MY
 add address=45.116.160.0/22 list=GEO_MY comment=MY
 add address=45.116.172.0/22 list=GEO_MY comment=MY
@@ -79,16 +78,13 @@ add address=45.117.228.0/22 list=GEO_MY comment=MY
 add address=45.117.236.0/22 list=GEO_MY comment=MY
 add address=45.119.160.0/22 list=GEO_MY comment=MY
 add address=45.120.52.0/22 list=GEO_MY comment=MY
-add address=45.120.128.0/22 list=GEO_MY comment=MY
 add address=45.121.20.0/22 list=GEO_MY comment=MY
 add address=45.121.36.0/22 list=GEO_MY comment=MY
-add address=45.121.144.0/22 list=GEO_MY comment=MY
 add address=45.123.100.0/22 list=GEO_MY comment=MY
 add address=45.123.124.0/22 list=GEO_MY comment=MY
 add address=45.124.98.0/23 list=GEO_MY comment=MY
 add address=45.126.88.0/22 list=GEO_MY comment=MY
 add address=45.127.4.0/22 list=GEO_MY comment=MY
-add address=45.248.38.0/23 list=GEO_MY comment=MY
 add address=45.255.252.0/22 list=GEO_MY comment=MY
 add address=49.0.160.0/21 list=GEO_MY comment=MY
 add address=49.50.12.0/22 list=GEO_MY comment=MY
@@ -102,7 +98,6 @@ add address=58.84.8.0/22 list=GEO_MY comment=MY
 add address=58.84.16.0/22 list=GEO_MY comment=MY
 add address=58.84.40.0/22 list=GEO_MY comment=MY
 add address=58.139.0.0/16 list=GEO_MY comment=MY
-add address=59.153.26.0/23 list=GEO_MY comment=MY
 add address=60.48.0.0/14 list=GEO_MY comment=MY
 add address=60.52.0.0/15 list=GEO_MY comment=MY
 add address=60.54.0.0/16 list=GEO_MY comment=MY
@@ -113,6 +108,7 @@ add address=61.11.208.0/20 list=GEO_MY comment=MY
 add address=66.23.160.0/19 list=GEO_MY comment=MY
 add address=72.35.248.0/22 list=GEO_MY comment=MY
 add address=74.114.48.0/22 list=GEO_MY comment=MY
+add address=85.137.16.0/23 list=GEO_MY comment=MY
 add address=91.218.183.0/24 list=GEO_MY comment=MY
 add address=101.78.16.0/20 list=GEO_MY comment=MY
 add address=101.99.64.0/19 list=GEO_MY comment=MY
@@ -170,7 +166,6 @@ add address=103.18.0.0/22 list=GEO_MY comment=MY
 add address=103.18.88.0/21 list=GEO_MY comment=MY
 add address=103.18.244.0/22 list=GEO_MY comment=MY
 add address=103.19.219.0/24 list=GEO_MY comment=MY
-add address=103.20.224.0/22 list=GEO_MY comment=MY
 add address=103.20.240.0/23 list=GEO_MY comment=MY
 add address=103.21.32.0/22 list=GEO_MY comment=MY
 add address=103.21.44.0/22 list=GEO_MY comment=MY
@@ -193,7 +188,6 @@ add address=103.26.248.0/22 list=GEO_MY comment=MY
 add address=103.27.72.0/22 list=GEO_MY comment=MY
 add address=103.27.104.0/22 list=GEO_MY comment=MY
 add address=103.27.112.0/22 list=GEO_MY comment=MY
-add address=103.27.204.0/23 list=GEO_MY comment=MY
 add address=103.27.255.0/24 list=GEO_MY comment=MY
 add address=103.28.90.0/23 list=GEO_MY comment=MY
 add address=103.28.162.0/24 list=GEO_MY comment=MY
@@ -227,7 +221,6 @@ add address=103.52.56.0/22 list=GEO_MY comment=MY
 add address=103.52.192.0/24 list=GEO_MY comment=MY
 add address=103.53.32.0/22 list=GEO_MY comment=MY
 add address=103.53.186.0/24 list=GEO_MY comment=MY
-add address=103.54.52.0/22 list=GEO_MY comment=MY
 add address=103.54.110.0/24 list=GEO_MY comment=MY
 add address=103.57.188.0/22 list=GEO_MY comment=MY
 add address=103.58.16.0/22 list=GEO_MY comment=MY
@@ -423,7 +416,6 @@ add address=103.195.143.0/24 list=GEO_MY comment=MY
 add address=103.196.195.0/24 list=GEO_MY comment=MY
 add address=103.197.20.0/22 list=GEO_MY comment=MY
 add address=103.197.56.0/22 list=GEO_MY comment=MY
-add address=103.198.16.0/23 list=GEO_MY comment=MY
 add address=103.198.26.0/23 list=GEO_MY comment=MY
 add address=103.198.52.0/23 list=GEO_MY comment=MY
 add address=103.198.68.0/22 list=GEO_MY comment=MY
@@ -461,7 +453,6 @@ add address=103.228.52.0/22 list=GEO_MY comment=MY
 add address=103.228.56.0/22 list=GEO_MY comment=MY
 add address=103.229.32.0/22 list=GEO_MY comment=MY
 add address=103.229.56.0/22 list=GEO_MY comment=MY
-add address=103.229.112.0/22 list=GEO_MY comment=MY
 add address=103.229.196.0/22 list=GEO_MY comment=MY
 add address=103.229.232.0/24 list=GEO_MY comment=MY
 add address=103.229.234.0/23 list=GEO_MY comment=MY
@@ -474,7 +465,6 @@ add address=103.232.219.0/24 list=GEO_MY comment=MY
 add address=103.233.0.0/22 list=GEO_MY comment=MY
 add address=103.233.160.0/23 list=GEO_MY comment=MY
 add address=103.233.180.0/23 list=GEO_MY comment=MY
-add address=103.234.100.0/22 list=GEO_MY comment=MY
 add address=103.235.28.0/22 list=GEO_MY comment=MY
 add address=103.236.228.0/22 list=GEO_MY comment=MY
 add address=103.238.124.0/22 list=GEO_MY comment=MY
@@ -496,7 +486,6 @@ add address=103.246.112.0/22 list=GEO_MY comment=MY
 add address=103.246.204.0/22 list=GEO_MY comment=MY
 add address=103.246.217.0/24 list=GEO_MY comment=MY
 add address=103.248.108.0/22 list=GEO_MY comment=MY
-add address=103.249.84.0/22 list=GEO_MY comment=MY
 add address=103.249.92.0/22 list=GEO_MY comment=MY
 add address=103.249.208.0/23 list=GEO_MY comment=MY
 add address=103.250.4.0/22 list=GEO_MY comment=MY
@@ -507,6 +496,7 @@ add address=103.253.100.0/23 list=GEO_MY comment=MY
 add address=103.253.105.0/24 list=GEO_MY comment=MY
 add address=103.253.108.0/22 list=GEO_MY comment=MY
 add address=103.255.170.0/23 list=GEO_MY comment=MY
+add address=104.204.48.0/21 list=GEO_MY comment=MY
 add address=110.4.40.0/21 list=GEO_MY comment=MY
 add address=110.74.128.0/18 list=GEO_MY comment=MY
 add address=110.159.0.0/16 list=GEO_MY comment=MY
@@ -568,6 +558,7 @@ add address=124.197.224.0/19 list=GEO_MY comment=MY
 add address=124.217.224.0/19 list=GEO_MY comment=MY
 add address=130.12.56.0/22 list=GEO_MY comment=MY
 add address=131.143.128.0/22 list=GEO_MY comment=MY
+add address=134.65.126.0/23 list=GEO_MY comment=MY
 add address=135.84.232.0/21 list=GEO_MY comment=MY
 add address=137.59.80.0/22 list=GEO_MY comment=MY
 add address=137.59.108.0/22 list=GEO_MY comment=MY
@@ -594,6 +585,7 @@ add address=150.129.184.0/22 list=GEO_MY comment=MY
 add address=150.242.180.0/22 list=GEO_MY comment=MY
 add address=151.158.0.0/23 list=GEO_MY comment=MY
 add address=151.158.198.0/23 list=GEO_MY comment=MY
+add address=153.76.232.0/21 list=GEO_MY comment=MY
 add address=157.10.54.0/23 list=GEO_MY comment=MY
 add address=157.15.30.0/23 list=GEO_MY comment=MY
 add address=159.117.132.0/22 list=GEO_MY comment=MY
@@ -612,6 +604,10 @@ add address=160.187.96.0/23 list=GEO_MY comment=MY
 add address=160.187.133.0/24 list=GEO_MY comment=MY
 add address=160.191.18.0/23 list=GEO_MY comment=MY
 add address=160.191.194.0/23 list=GEO_MY comment=MY
+add address=160.236.38.0/23 list=GEO_MY comment=MY
+add address=160.236.109.0/24 list=GEO_MY comment=MY
+add address=160.236.120.0/23 list=GEO_MY comment=MY
+add address=160.236.143.0/24 list=GEO_MY comment=MY
 add address=160.250.92.0/23 list=GEO_MY comment=MY
 add address=161.139.0.0/16 list=GEO_MY comment=MY
 add address=161.142.0.0/16 list=GEO_MY comment=MY
@@ -623,6 +619,7 @@ add address=163.47.26.0/23 list=GEO_MY comment=MY
 add address=163.47.88.0/22 list=GEO_MY comment=MY
 add address=163.47.192.0/22 list=GEO_MY comment=MY
 add address=163.47.200.0/22 list=GEO_MY comment=MY
+add address=163.52.66.0/23 list=GEO_MY comment=MY
 add address=163.53.152.0/22 list=GEO_MY comment=MY
 add address=163.53.224.0/22 list=GEO_MY comment=MY
 add address=163.61.18.0/24 list=GEO_MY comment=MY

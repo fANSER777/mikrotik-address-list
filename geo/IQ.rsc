@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IQ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IQ | Subnets: 288 (was 338, collapsed 50) | IPs: ~447,296
+# Countries: IQ | Subnets: 284 (was 338, collapsed 54) | IPs: ~451,136
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_IQ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -57,9 +58,9 @@ add address=80.173.228.0/23 list=GEO_IQ comment=IQ
 add address=81.22.32.0/22 list=GEO_IQ comment=IQ
 add address=81.90.16.0/20 list=GEO_IQ comment=IQ
 add address=82.199.208.0/20 list=GEO_IQ comment=IQ
-add address=84.38.253.0/24 list=GEO_IQ comment=IQ
 add address=85.31.40.0/22 list=GEO_IQ comment=IQ
 add address=85.113.90.0/23 list=GEO_IQ comment=IQ
+add address=85.155.192.0/20 list=GEO_IQ comment=IQ
 add address=85.194.196.0/22 list=GEO_IQ comment=IQ
 add address=85.194.248.0/22 list=GEO_IQ comment=IQ
 add address=85.208.228.0/22 list=GEO_IQ comment=IQ
@@ -73,7 +74,6 @@ add address=89.46.200.0/21 list=GEO_IQ comment=IQ
 add address=91.106.32.0/19 list=GEO_IQ comment=IQ
 add address=91.192.4.0/22 list=GEO_IQ comment=IQ
 add address=91.205.42.0/24 list=GEO_IQ comment=IQ
-add address=91.205.229.0/24 list=GEO_IQ comment=IQ
 add address=91.212.8.0/24 list=GEO_IQ comment=IQ
 add address=91.213.191.0/24 list=GEO_IQ comment=IQ
 add address=91.217.133.0/24 list=GEO_IQ comment=IQ
@@ -92,6 +92,7 @@ add address=93.191.112.0/22 list=GEO_IQ comment=IQ
 add address=94.176.40.0/24 list=GEO_IQ comment=IQ
 add address=94.231.199.0/24 list=GEO_IQ comment=IQ
 add address=95.128.156.0/24 list=GEO_IQ comment=IQ
+add address=95.142.144.0/22 list=GEO_IQ comment=IQ
 add address=95.159.64.0/18 list=GEO_IQ comment=IQ
 add address=95.170.192.0/19 list=GEO_IQ comment=IQ
 add address=103.229.80.0/24 list=GEO_IQ comment=IQ
@@ -108,12 +109,13 @@ add address=131.117.224.0/19 list=GEO_IQ comment=IQ
 add address=138.124.156.0/22 list=GEO_IQ comment=IQ
 add address=144.86.228.0/22 list=GEO_IQ comment=IQ
 add address=150.251.112.0/22 list=GEO_IQ comment=IQ
+add address=150.251.176.0/20 list=GEO_IQ comment=IQ
 add address=151.236.160.0/19 list=GEO_IQ comment=IQ
 add address=159.255.160.0/21 list=GEO_IQ comment=IQ
 add address=164.138.232.0/21 list=GEO_IQ comment=IQ
 add address=167.160.5.0/24 list=GEO_IQ comment=IQ
+add address=171.33.160.0/22 list=GEO_IQ comment=IQ
 add address=176.28.72.0/21 list=GEO_IQ comment=IQ
-add address=176.32.248.0/21 list=GEO_IQ comment=IQ
 add address=176.105.236.0/22 list=GEO_IQ comment=IQ
 add address=176.222.60.0/22 list=GEO_IQ comment=IQ
 add address=176.241.80.0/20 list=GEO_IQ comment=IQ
@@ -130,7 +132,6 @@ add address=185.18.224.0/23 list=GEO_IQ comment=IQ
 add address=185.20.24.0/22 list=GEO_IQ comment=IQ
 add address=185.20.196.0/22 list=GEO_IQ comment=IQ
 add address=185.21.136.0/22 list=GEO_IQ comment=IQ
-add address=185.23.240.0/22 list=GEO_IQ comment=IQ
 add address=185.24.60.0/22 list=GEO_IQ comment=IQ
 add address=185.27.216.0/22 list=GEO_IQ comment=IQ
 add address=185.33.45.0/24 list=GEO_IQ comment=IQ
@@ -149,7 +150,6 @@ add address=185.54.164.0/22 list=GEO_IQ comment=IQ
 add address=185.55.184.0/22 list=GEO_IQ comment=IQ
 add address=185.56.192.0/22 list=GEO_IQ comment=IQ
 add address=185.58.12.0/22 list=GEO_IQ comment=IQ
-add address=185.63.85.0/24 list=GEO_IQ comment=IQ
 add address=185.65.252.0/22 list=GEO_IQ comment=IQ
 add address=185.69.4.0/22 list=GEO_IQ comment=IQ
 add address=185.72.252.0/22 list=GEO_IQ comment=IQ
@@ -161,7 +161,6 @@ add address=185.88.24.0/22 list=GEO_IQ comment=IQ
 add address=185.89.88.0/22 list=GEO_IQ comment=IQ
 add address=185.89.98.0/24 list=GEO_IQ comment=IQ
 add address=185.90.104.0/22 list=GEO_IQ comment=IQ
-add address=185.90.252.0/22 list=GEO_IQ comment=IQ
 add address=185.91.16.0/22 list=GEO_IQ comment=IQ
 add address=185.95.184.0/22 list=GEO_IQ comment=IQ
 add address=185.95.204.0/22 list=GEO_IQ comment=IQ
@@ -193,7 +192,6 @@ add address=185.136.148.0/22 list=GEO_IQ comment=IQ
 add address=185.138.120.0/22 list=GEO_IQ comment=IQ
 add address=185.140.192.0/22 list=GEO_IQ comment=IQ
 add address=185.141.8.0/22 list=GEO_IQ comment=IQ
-add address=185.143.40.0/22 list=GEO_IQ comment=IQ
 add address=185.144.15.0/24 list=GEO_IQ comment=IQ
 add address=185.155.156.0/22 list=GEO_IQ comment=IQ
 add address=185.157.180.0/22 list=GEO_IQ comment=IQ
@@ -218,7 +216,6 @@ add address=185.206.124.0/22 list=GEO_IQ comment=IQ
 add address=185.206.172.0/22 list=GEO_IQ comment=IQ
 add address=185.210.228.0/24 list=GEO_IQ comment=IQ
 add address=185.212.33.0/24 list=GEO_IQ comment=IQ
-add address=185.213.47.0/24 list=GEO_IQ comment=IQ
 add address=185.217.61.0/24 list=GEO_IQ comment=IQ
 add address=185.217.76.0/22 list=GEO_IQ comment=IQ
 add address=185.217.88.0/22 list=GEO_IQ comment=IQ
@@ -227,7 +224,7 @@ add address=185.222.20.0/24 list=GEO_IQ comment=IQ
 add address=185.227.236.0/22 list=GEO_IQ comment=IQ
 add address=185.230.40.0/22 list=GEO_IQ comment=IQ
 add address=185.230.105.0/24 list=GEO_IQ comment=IQ
-add address=185.234.244.0/23 list=GEO_IQ comment=IQ
+add address=185.234.245.0/24 list=GEO_IQ comment=IQ
 add address=185.235.141.0/24 list=GEO_IQ comment=IQ
 add address=185.239.52.0/22 list=GEO_IQ comment=IQ
 add address=185.239.176.0/22 list=GEO_IQ comment=IQ
@@ -245,7 +242,6 @@ add address=185.254.84.0/22 list=GEO_IQ comment=IQ
 add address=185.254.200.0/22 list=GEO_IQ comment=IQ
 add address=185.255.44.0/22 list=GEO_IQ comment=IQ
 add address=188.72.0.0/18 list=GEO_IQ comment=IQ
-add address=188.95.194.0/24 list=GEO_IQ comment=IQ
 add address=192.161.6.0/23 list=GEO_IQ comment=IQ
 add address=193.3.137.0/24 list=GEO_IQ comment=IQ
 add address=193.8.95.0/24 list=GEO_IQ comment=IQ
@@ -287,6 +283,7 @@ add address=199.74.188.0/22 list=GEO_IQ comment=IQ
 add address=202.164.192.0/20 list=GEO_IQ comment=IQ
 add address=204.154.200.0/21 list=GEO_IQ comment=IQ
 add address=212.23.217.0/24 list=GEO_IQ comment=IQ
+add address=212.47.61.0/24 list=GEO_IQ comment=IQ
 add address=212.95.128.0/19 list=GEO_IQ comment=IQ
 add address=212.126.96.0/19 list=GEO_IQ comment=IQ
 add address=212.237.112.0/20 list=GEO_IQ comment=IQ

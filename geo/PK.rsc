@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PK
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PK | Subnets: 722 (was 780, collapsed 58) | IPs: ~5,524,224
+# Countries: PK | Subnets: 742 (was 800, collapsed 58) | IPs: ~5,522,688
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -59,6 +60,7 @@ add address=59.103.0.0/16 list=GEO_PK comment=PK
 add address=61.5.128.0/19 list=GEO_PK comment=PK
 add address=72.255.0.0/18 list=GEO_PK comment=PK
 add address=78.41.63.0/24 list=GEO_PK comment=PK
+add address=89.126.240.0/21 list=GEO_PK comment=PK
 add address=101.50.64.0/18 list=GEO_PK comment=PK
 add address=101.53.224.0/19 list=GEO_PK comment=PK
 add address=103.4.92.0/22 list=GEO_PK comment=PK
@@ -150,7 +152,6 @@ add address=103.75.244.0/22 list=GEO_PK comment=PK
 add address=103.76.3.0/24 list=GEO_PK comment=PK
 add address=103.76.28.0/23 list=GEO_PK comment=PK
 add address=103.76.110.0/23 list=GEO_PK comment=PK
-add address=103.77.8.0/22 list=GEO_PK comment=PK
 add address=103.78.134.0/23 list=GEO_PK comment=PK
 add address=103.79.16.0/22 list=GEO_PK comment=PK
 add address=103.82.120.0/22 list=GEO_PK comment=PK
@@ -377,7 +378,6 @@ add address=103.184.92.0/23 list=GEO_PK comment=PK
 add address=103.186.22.0/23 list=GEO_PK comment=PK
 add address=103.186.76.0/22 list=GEO_PK comment=PK
 add address=103.186.114.0/23 list=GEO_PK comment=PK
-add address=103.186.134.0/23 list=GEO_PK comment=PK
 add address=103.188.92.0/23 list=GEO_PK comment=PK
 add address=103.189.2.0/24 list=GEO_PK comment=PK
 add address=103.189.68.0/23 list=GEO_PK comment=PK
@@ -457,7 +457,7 @@ add address=110.34.39.0/24 list=GEO_PK comment=PK
 add address=110.36.0.0/19 list=GEO_PK comment=PK
 add address=110.36.32.0/20 list=GEO_PK comment=PK
 add address=110.36.48.0/21 list=GEO_PK comment=PK
-add address=110.36.56.0/23 list=GEO_PK comment=PK
+add address=110.36.56.0/24 list=GEO_PK comment=PK
 add address=110.36.64.0/18 list=GEO_PK comment=PK
 add address=110.36.128.0/18 list=GEO_PK comment=PK
 add address=110.36.192.0/19 list=GEO_PK comment=PK
@@ -471,7 +471,12 @@ add address=110.93.192.0/18 list=GEO_PK comment=PK
 add address=110.232.188.0/22 list=GEO_PK comment=PK
 add address=111.68.96.0/20 list=GEO_PK comment=PK
 add address=111.88.0.0/18 list=GEO_PK comment=PK
-add address=111.88.64.0/19 list=GEO_PK comment=PK
+add address=111.88.64.0/21 list=GEO_PK comment=PK
+add address=111.88.72.0/23 list=GEO_PK comment=PK
+add address=111.88.75.0/24 list=GEO_PK comment=PK
+add address=111.88.76.0/23 list=GEO_PK comment=PK
+add address=111.88.79.0/24 list=GEO_PK comment=PK
+add address=111.88.80.0/20 list=GEO_PK comment=PK
 add address=111.88.136.0/22 list=GEO_PK comment=PK
 add address=111.88.168.0/22 list=GEO_PK comment=PK
 add address=111.88.184.0/21 list=GEO_PK comment=PK
@@ -498,7 +503,6 @@ add address=116.204.167.0/24 list=GEO_PK comment=PK
 add address=116.206.64.0/22 list=GEO_PK comment=PK
 add address=116.206.84.0/22 list=GEO_PK comment=PK
 add address=116.206.140.0/22 list=GEO_PK comment=PK
-add address=116.206.164.0/22 list=GEO_PK comment=PK
 add address=116.213.32.0/22 list=GEO_PK comment=PK
 add address=117.18.240.0/20 list=GEO_PK comment=PK
 add address=117.20.16.0/20 list=GEO_PK comment=PK
@@ -537,7 +541,8 @@ add address=138.252.174.0/23 list=GEO_PK comment=PK
 add address=138.252.236.0/24 list=GEO_PK comment=PK
 add address=139.5.116.0/22 list=GEO_PK comment=PK
 add address=139.135.32.0/19 list=GEO_PK comment=PK
-add address=139.190.0.0/17 list=GEO_PK comment=PK
+add address=139.190.0.0/18 list=GEO_PK comment=PK
+add address=139.190.64.0/19 list=GEO_PK comment=PK
 add address=139.190.192.0/18 list=GEO_PK comment=PK
 add address=144.48.0.0/22 list=GEO_PK comment=PK
 add address=144.48.120.0/22 list=GEO_PK comment=PK
@@ -582,6 +587,12 @@ add address=160.187.180.0/23 list=GEO_PK comment=PK
 add address=160.191.158.0/23 list=GEO_PK comment=PK
 add address=160.191.208.0/23 list=GEO_PK comment=PK
 add address=160.191.228.0/23 list=GEO_PK comment=PK
+add address=160.236.86.0/23 list=GEO_PK comment=PK
+add address=160.236.102.0/23 list=GEO_PK comment=PK
+add address=160.236.112.0/23 list=GEO_PK comment=PK
+add address=160.236.166.0/23 list=GEO_PK comment=PK
+add address=160.236.188.0/23 list=GEO_PK comment=PK
+add address=160.236.242.0/24 list=GEO_PK comment=PK
 add address=160.250.50.0/23 list=GEO_PK comment=PK
 add address=160.250.96.0/23 list=GEO_PK comment=PK
 add address=160.250.114.0/23 list=GEO_PK comment=PK
@@ -590,7 +601,17 @@ add address=161.248.186.0/23 list=GEO_PK comment=PK
 add address=161.248.202.0/23 list=GEO_PK comment=PK
 add address=162.4.16.0/24 list=GEO_PK comment=PK
 add address=162.4.32.0/23 list=GEO_PK comment=PK
+add address=162.4.150.0/23 list=GEO_PK comment=PK
+add address=162.4.162.0/23 list=GEO_PK comment=PK
+add address=162.4.192.0/23 list=GEO_PK comment=PK
 add address=162.12.208.0/22 list=GEO_PK comment=PK
+add address=163.52.8.0/23 list=GEO_PK comment=PK
+add address=163.52.16.0/23 list=GEO_PK comment=PK
+add address=163.52.26.0/23 list=GEO_PK comment=PK
+add address=163.52.54.0/23 list=GEO_PK comment=PK
+add address=163.52.68.0/23 list=GEO_PK comment=PK
+add address=163.52.118.0/23 list=GEO_PK comment=PK
+add address=163.52.146.0/23 list=GEO_PK comment=PK
 add address=163.61.0.0/23 list=GEO_PK comment=PK
 add address=163.61.25.0/24 list=GEO_PK comment=PK
 add address=163.61.91.0/24 list=GEO_PK comment=PK

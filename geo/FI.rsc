@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FI
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: FI | Subnets: 981 (was 1141, collapsed 160) | IPs: ~13,852,992
+# Countries: FI | Subnets: 989 (was 1149, collapsed 160) | IPs: ~13,922,624
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_FI and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -31,6 +32,7 @@ add address=37.33.0.0/16 list=GEO_FI comment=FI
 add address=37.35.16.0/20 list=GEO_FI comment=FI
 add address=37.35.80.0/21 list=GEO_FI comment=FI
 add address=37.44.48.0/21 list=GEO_FI comment=FI
+add address=37.72.109.0/24 list=GEO_FI comment=FI
 add address=37.98.128.0/20 list=GEO_FI comment=FI
 add address=37.114.80.0/21 list=GEO_FI comment=FI
 add address=37.130.160.0/19 list=GEO_FI comment=FI
@@ -114,7 +116,6 @@ add address=77.72.56.0/21 list=GEO_FI comment=FI
 add address=77.86.128.0/17 list=GEO_FI comment=FI
 add address=77.91.209.0/24 list=GEO_FI comment=FI
 add address=77.91.210.0/23 list=GEO_FI comment=FI
-add address=77.91.212.0/22 list=GEO_FI comment=FI
 add address=77.95.16.0/22 list=GEO_FI comment=FI
 add address=77.95.144.0/21 list=GEO_FI comment=FI
 add address=77.95.240.0/21 list=GEO_FI comment=FI
@@ -126,6 +127,7 @@ add address=77.240.16.0/20 list=GEO_FI comment=FI
 add address=77.246.192.0/20 list=GEO_FI comment=FI
 add address=77.247.196.0/24 list=GEO_FI comment=FI
 add address=78.27.64.0/18 list=GEO_FI comment=FI
+add address=78.108.118.0/24 list=GEO_FI comment=FI
 add address=79.99.152.0/21 list=GEO_FI comment=FI
 add address=79.133.0.0/19 list=GEO_FI comment=FI
 add address=79.134.96.0/19 list=GEO_FI comment=FI
@@ -198,6 +200,7 @@ add address=84.239.128.0/17 list=GEO_FI comment=FI
 add address=84.240.64.0/18 list=GEO_FI comment=FI
 add address=84.248.0.0/14 list=GEO_FI comment=FI
 add address=84.253.192.0/18 list=GEO_FI comment=FI
+add address=85.8.238.0/24 list=GEO_FI comment=FI
 add address=85.9.192.0/19 list=GEO_FI comment=FI
 add address=85.23.0.0/16 list=GEO_FI comment=FI
 add address=85.29.64.0/18 list=GEO_FI comment=FI
@@ -223,6 +226,7 @@ add address=86.50.0.0/16 list=GEO_FI comment=FI
 add address=86.60.128.0/17 list=GEO_FI comment=FI
 add address=86.111.212.0/24 list=GEO_FI comment=FI
 add address=86.114.0.0/15 list=GEO_FI comment=FI
+add address=87.58.144.0/20 list=GEO_FI comment=FI
 add address=87.92.0.0/14 list=GEO_FI comment=FI
 add address=87.100.128.0/17 list=GEO_FI comment=FI
 add address=87.108.0.0/16 list=GEO_FI comment=FI
@@ -369,6 +373,7 @@ add address=141.98.192.0/22 list=GEO_FI comment=FI
 add address=141.172.0.0/16 list=GEO_FI comment=FI
 add address=141.192.0.0/16 list=GEO_FI comment=FI
 add address=141.208.0.0/16 list=GEO_FI comment=FI
+add address=142.228.52.0/22 list=GEO_FI comment=FI
 add address=143.51.0.0/16 list=GEO_FI comment=FI
 add address=144.4.0.0/16 list=GEO_FI comment=FI
 add address=145.247.0.0/16 list=GEO_FI comment=FI
@@ -378,6 +383,7 @@ add address=146.81.0.0/16 list=GEO_FI comment=FI
 add address=146.119.0.0/16 list=GEO_FI comment=FI
 add address=146.161.0.0/16 list=GEO_FI comment=FI
 add address=146.211.0.0/16 list=GEO_FI comment=FI
+add address=147.44.0.0/16 list=GEO_FI comment=FI
 add address=147.78.80.0/22 list=GEO_FI comment=FI
 add address=149.126.176.0/21 list=GEO_FI comment=FI
 add address=149.154.120.0/21 list=GEO_FI comment=FI
@@ -556,7 +562,6 @@ add address=185.188.30.0/24 list=GEO_FI comment=FI
 add address=185.191.192.0/22 list=GEO_FI comment=FI
 add address=185.192.12.0/22 list=GEO_FI comment=FI
 add address=185.192.24.0/22 list=GEO_FI comment=FI
-add address=185.192.128.0/22 list=GEO_FI comment=FI
 add address=185.192.196.0/22 list=GEO_FI comment=FI
 add address=185.193.76.0/22 list=GEO_FI comment=FI
 add address=185.195.149.0/24 list=GEO_FI comment=FI
@@ -712,6 +717,7 @@ add address=193.27.216.0/23 list=GEO_FI comment=FI
 add address=193.28.89.0/24 list=GEO_FI comment=FI
 add address=193.28.203.0/24 list=GEO_FI comment=FI
 add address=193.29.176.0/24 list=GEO_FI comment=FI
+add address=193.56.123.0/24 list=GEO_FI comment=FI
 add address=193.56.196.0/22 list=GEO_FI comment=FI
 add address=193.57.6.0/24 list=GEO_FI comment=FI
 add address=193.64.0.0/15 list=GEO_FI comment=FI
@@ -824,7 +830,6 @@ add address=193.254.23.128/25 list=GEO_FI comment=FI
 add address=194.0.80.0/22 list=GEO_FI comment=FI
 add address=194.8.226.0/23 list=GEO_FI comment=FI
 add address=194.28.0.0/22 list=GEO_FI comment=FI
-add address=194.29.192.0/21 list=GEO_FI comment=FI
 add address=194.34.56.0/22 list=GEO_FI comment=FI
 add address=194.34.60.0/23 list=GEO_FI comment=FI
 add address=194.34.132.0/22 list=GEO_FI comment=FI
@@ -876,6 +881,7 @@ add address=194.188.0.0/16 list=GEO_FI comment=FI
 add address=194.197.0.0/16 list=GEO_FI comment=FI
 add address=194.211.0.0/16 list=GEO_FI comment=FI
 add address=194.215.0.0/16 list=GEO_FI comment=FI
+add address=194.238.44.0/24 list=GEO_FI comment=FI
 add address=194.240.0.0/15 list=GEO_FI comment=FI
 add address=194.251.0.0/16 list=GEO_FI comment=FI
 add address=194.252.0.0/16 list=GEO_FI comment=FI
@@ -922,6 +928,8 @@ add address=195.238.192.0/19 list=GEO_FI comment=FI
 add address=195.244.64.0/19 list=GEO_FI comment=FI
 add address=195.248.86.0/24 list=GEO_FI comment=FI
 add address=195.255.0.0/16 list=GEO_FI comment=FI
+add address=198.34.226.0/23 list=GEO_FI comment=FI
+add address=198.34.228.0/22 list=GEO_FI comment=FI
 add address=204.80.150.0/24 list=GEO_FI comment=FI
 add address=212.6.54.0/24 list=GEO_FI comment=FI
 add address=212.16.96.0/20 list=GEO_FI comment=FI
@@ -969,6 +977,7 @@ add address=213.216.192.0/18 list=GEO_FI comment=FI
 add address=213.243.128.0/18 list=GEO_FI comment=FI
 add address=213.250.64.0/18 list=GEO_FI comment=FI
 add address=213.255.160.0/19 list=GEO_FI comment=FI
+add address=217.22.10.0/24 list=GEO_FI comment=FI
 add address=217.24.96.0/20 list=GEO_FI comment=FI
 add address=217.25.96.0/20 list=GEO_FI comment=FI
 add address=217.30.176.0/20 list=GEO_FI comment=FI

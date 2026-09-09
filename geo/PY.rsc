@@ -1,11 +1,13 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PY
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PY | Subnets: 142 (was 152, collapsed 10) | IPs: ~1,154,048
+# Countries: PY | Subnets: 143 (was 153, collapsed 10) | IPs: ~1,154,560
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_PY and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.248.0/23 list=GEO_PY comment=PY
 add address=24.152.40.0/22 list=GEO_PY comment=PY
 add address=45.68.52.0/22 list=GEO_PY comment=PY
 add address=45.68.94.0/23 list=GEO_PY comment=PY

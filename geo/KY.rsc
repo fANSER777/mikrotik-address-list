@@ -1,20 +1,26 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KY
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KY | Subnets: 32 (was 32, collapsed 0) | IPs: ~86,272
+# Countries: KY | Subnets: 37 (was 37, collapsed 0) | IPs: ~91,136
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KY and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=23.188.0.0/24 list=GEO_KY comment=KY
 add address=45.144.204.0/22 list=GEO_KY comment=KY
 add address=45.152.156.0/22 list=GEO_KY comment=KY
+add address=62.182.168.0/21 list=GEO_KY comment=KY
 add address=63.136.112.0/21 list=GEO_KY comment=KY
 add address=64.239.32.0/22 list=GEO_KY comment=KY
 add address=64.239.116.0/22 list=GEO_KY comment=KY
 add address=74.117.216.0/21 list=GEO_KY comment=KY
 add address=74.222.64.0/19 list=GEO_KY comment=KY
 add address=76.76.15.0/24 list=GEO_KY comment=KY
+add address=83.97.96.0/21 list=GEO_KY comment=KY
+add address=89.47.52.0/24 list=GEO_KY comment=KY
+add address=89.47.252.0/24 list=GEO_KY comment=KY
+add address=91.202.211.0/24 list=GEO_KY comment=KY
 add address=138.43.115.0/24 list=GEO_KY comment=KY
 add address=138.43.248.0/22 list=GEO_KY comment=KY
 add address=148.51.0.0/17 list=GEO_KY comment=KY

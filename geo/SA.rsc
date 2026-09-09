@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SA
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SA | Subnets: 578 (was 618, collapsed 40) | IPs: ~10,964,800
+# Countries: SA | Subnets: 591 (was 629, collapsed 38) | IPs: ~11,237,184
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_SA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -17,7 +18,10 @@ add address=5.156.0.0/16 list=GEO_SA comment=SA
 add address=5.163.0.0/16 list=GEO_SA comment=SA
 add address=5.244.0.0/14 list=GEO_SA comment=SA
 add address=5.253.80.0/22 list=GEO_SA comment=SA
+add address=9.162.0.0/16 list=GEO_SA comment=SA
 add address=9.165.0.0/16 list=GEO_SA comment=SA
+add address=9.212.0.0/16 list=GEO_SA comment=SA
+add address=9.250.0.0/15 list=GEO_SA comment=SA
 add address=31.166.0.0/15 list=GEO_SA comment=SA
 add address=31.193.190.0/24 list=GEO_SA comment=SA
 add address=37.16.32.0/19 list=GEO_SA comment=SA
@@ -82,9 +86,11 @@ add address=77.64.0.0/17 list=GEO_SA comment=SA
 add address=77.73.192.0/21 list=GEO_SA comment=SA
 add address=77.75.224.0/24 list=GEO_SA comment=SA
 add address=77.79.64.0/18 list=GEO_SA comment=SA
+add address=77.83.88.0/22 list=GEO_SA comment=SA
 add address=77.87.16.0/21 list=GEO_SA comment=SA
 add address=77.90.192.0/18 list=GEO_SA comment=SA
 add address=77.92.160.0/21 list=GEO_SA comment=SA
+add address=77.92.180.0/22 list=GEO_SA comment=SA
 add address=77.220.116.0/22 list=GEO_SA comment=SA
 add address=77.221.96.0/19 list=GEO_SA comment=SA
 add address=77.223.224.0/19 list=GEO_SA comment=SA
@@ -95,6 +101,7 @@ add address=77.236.128.0/19 list=GEO_SA comment=SA
 add address=77.240.80.0/20 list=GEO_SA comment=SA
 add address=77.240.128.0/20 list=GEO_SA comment=SA
 add address=77.247.32.0/19 list=GEO_SA comment=SA
+add address=78.40.16.0/21 list=GEO_SA comment=SA
 add address=78.93.0.0/16 list=GEO_SA comment=SA
 add address=78.95.0.0/16 list=GEO_SA comment=SA
 add address=78.110.0.0/20 list=GEO_SA comment=SA
@@ -123,6 +130,8 @@ add address=83.229.65.0/24 list=GEO_SA comment=SA
 add address=84.22.224.0/19 list=GEO_SA comment=SA
 add address=84.23.96.0/19 list=GEO_SA comment=SA
 add address=84.235.0.0/17 list=GEO_SA comment=SA
+add address=85.8.235.0/24 list=GEO_SA comment=SA
+add address=85.8.240.0/24 list=GEO_SA comment=SA
 add address=85.129.128.0/17 list=GEO_SA comment=SA
 add address=85.184.232.0/21 list=GEO_SA comment=SA
 add address=85.194.64.0/18 list=GEO_SA comment=SA
@@ -177,6 +186,7 @@ add address=91.213.18.0/24 list=GEO_SA comment=SA
 add address=91.213.205.0/24 list=GEO_SA comment=SA
 add address=91.217.212.0/24 list=GEO_SA comment=SA
 add address=91.219.92.0/22 list=GEO_SA comment=SA
+add address=91.220.94.0/24 list=GEO_SA comment=SA
 add address=91.221.22.0/23 list=GEO_SA comment=SA
 add address=91.221.41.0/24 list=GEO_SA comment=SA
 add address=91.221.184.0/23 list=GEO_SA comment=SA
@@ -267,6 +277,8 @@ add address=151.173.0.0/16 list=GEO_SA comment=SA
 add address=151.254.0.0/15 list=GEO_SA comment=SA
 add address=152.36.224.0/19 list=GEO_SA comment=SA
 add address=152.114.228.0/22 list=GEO_SA comment=SA
+add address=153.56.173.0/24 list=GEO_SA comment=SA
+add address=153.56.174.0/23 list=GEO_SA comment=SA
 add address=153.94.64.0/18 list=GEO_SA comment=SA
 add address=155.138.64.0/18 list=GEO_SA comment=SA
 add address=158.80.128.0/18 list=GEO_SA comment=SA
@@ -339,6 +351,7 @@ add address=185.59.188.0/22 list=GEO_SA comment=SA
 add address=185.62.176.0/22 list=GEO_SA comment=SA
 add address=185.63.232.0/22 list=GEO_SA comment=SA
 add address=185.69.208.0/22 list=GEO_SA comment=SA
+add address=185.70.160.0/23 list=GEO_SA comment=SA
 add address=185.72.102.0/24 list=GEO_SA comment=SA
 add address=185.75.16.0/22 list=GEO_SA comment=SA
 add address=185.76.136.0/22 list=GEO_SA comment=SA
@@ -355,7 +368,6 @@ add address=185.106.244.0/22 list=GEO_SA comment=SA
 add address=185.108.240.0/22 list=GEO_SA comment=SA
 add address=185.109.176.0/22 list=GEO_SA comment=SA
 add address=185.110.232.0/22 list=GEO_SA comment=SA
-add address=185.112.72.0/24 list=GEO_SA comment=SA
 add address=185.114.68.0/22 list=GEO_SA comment=SA
 add address=185.116.224.0/22 list=GEO_SA comment=SA
 add address=185.117.128.0/22 list=GEO_SA comment=SA
@@ -416,6 +428,7 @@ add address=185.217.8.0/22 list=GEO_SA comment=SA
 add address=185.217.100.0/22 list=GEO_SA comment=SA
 add address=185.217.217.0/24 list=GEO_SA comment=SA
 add address=185.217.218.0/23 list=GEO_SA comment=SA
+add address=185.219.130.0/24 list=GEO_SA comment=SA
 add address=185.222.40.0/24 list=GEO_SA comment=SA
 add address=185.224.252.0/22 list=GEO_SA comment=SA
 add address=185.225.56.0/22 list=GEO_SA comment=SA
@@ -541,6 +554,7 @@ add address=212.24.224.0/19 list=GEO_SA comment=SA
 add address=212.26.0.0/17 list=GEO_SA comment=SA
 add address=212.33.160.0/19 list=GEO_SA comment=SA
 add address=212.38.128.0/19 list=GEO_SA comment=SA
+add address=212.43.128.0/20 list=GEO_SA comment=SA
 add address=212.46.63.0/24 list=GEO_SA comment=SA
 add address=212.47.47.0/24 list=GEO_SA comment=SA
 add address=212.57.192.0/19 list=GEO_SA comment=SA

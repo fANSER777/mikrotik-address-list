@@ -1,13 +1,16 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MX
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MX | Subnets: 797 (was 1383, collapsed 586) | IPs: ~28,954,112
+# Countries: MX | Subnets: 805 (was 1393, collapsed 588) | IPs: ~28,963,840
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MX and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=23.137.188.0/24 list=GEO_MX comment=MX
 add address=23.156.104.0/24 list=GEO_MX comment=MX
 add address=23.157.236.0/24 list=GEO_MX comment=MX
+add address=23.164.12.0/24 list=GEO_MX comment=MX
 add address=45.5.52.0/22 list=GEO_MX comment=MX
 add address=45.5.92.0/22 list=GEO_MX comment=MX
 add address=45.6.60.0/22 list=GEO_MX comment=MX
@@ -18,6 +21,7 @@ add address=45.7.64.0/22 list=GEO_MX comment=MX
 add address=45.7.136.0/22 list=GEO_MX comment=MX
 add address=45.65.152.0/22 list=GEO_MX comment=MX
 add address=45.68.64.0/21 list=GEO_MX comment=MX
+add address=45.68.136.0/24 list=GEO_MX comment=MX
 add address=45.163.120.0/21 list=GEO_MX comment=MX
 add address=45.164.20.0/22 list=GEO_MX comment=MX
 add address=45.164.108.0/22 list=GEO_MX comment=MX
@@ -143,6 +147,7 @@ add address=138.219.36.0/22 list=GEO_MX comment=MX
 add address=138.255.60.0/22 list=GEO_MX comment=MX
 add address=138.255.116.0/22 list=GEO_MX comment=MX
 add address=140.148.0.0/16 list=GEO_MX comment=MX
+add address=140.232.91.0/24 list=GEO_MX comment=MX
 add address=143.137.108.0/22 list=GEO_MX comment=MX
 add address=143.202.76.0/22 list=GEO_MX comment=MX
 add address=143.202.156.0/22 list=GEO_MX comment=MX
@@ -196,6 +201,7 @@ add address=148.232.0.0/13 list=GEO_MX comment=MX
 add address=148.240.0.0/13 list=GEO_MX comment=MX
 add address=148.248.0.0/15 list=GEO_MX comment=MX
 add address=148.250.0.0/16 list=GEO_MX comment=MX
+add address=152.55.160.0/20 list=GEO_MX comment=MX
 add address=158.97.0.0/16 list=GEO_MX comment=MX
 add address=159.16.0.0/16 list=GEO_MX comment=MX
 add address=160.20.172.0/22 list=GEO_MX comment=MX
@@ -272,6 +278,7 @@ add address=181.224.16.0/22 list=GEO_MX comment=MX
 add address=181.224.44.0/22 list=GEO_MX comment=MX
 add address=181.232.172.0/22 list=GEO_MX comment=MX
 add address=181.233.96.0/22 list=GEO_MX comment=MX
+add address=185.12.7.0/24 list=GEO_MX comment=MX
 add address=186.26.72.0/22 list=GEO_MX comment=MX
 add address=186.96.0.0/18 list=GEO_MX comment=MX
 add address=186.96.128.0/18 list=GEO_MX comment=MX
@@ -322,6 +329,7 @@ add address=189.202.0.0/15 list=GEO_MX comment=MX
 add address=189.204.0.0/14 list=GEO_MX comment=MX
 add address=189.208.0.0/12 list=GEO_MX comment=MX
 add address=189.224.0.0/11 list=GEO_MX comment=MX
+add address=190.2.191.0/24 list=GEO_MX comment=MX
 add address=190.9.48.0/21 list=GEO_MX comment=MX
 add address=190.9.108.0/22 list=GEO_MX comment=MX
 add address=190.12.140.0/22 list=GEO_MX comment=MX
@@ -329,6 +337,7 @@ add address=190.12.144.0/22 list=GEO_MX comment=MX
 add address=190.83.80.0/22 list=GEO_MX comment=MX
 add address=190.99.84.0/22 list=GEO_MX comment=MX
 add address=190.102.32.0/21 list=GEO_MX comment=MX
+add address=190.103.32.0/20 list=GEO_MX comment=MX
 add address=190.110.0.0/19 list=GEO_MX comment=MX
 add address=190.112.160.0/22 list=GEO_MX comment=MX
 add address=190.113.52.0/22 list=GEO_MX comment=MX

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NZ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NZ | Subnets: 1276 (was 1469, collapsed 193) | IPs: ~6,533,888
+# Countries: NZ | Subnets: 1274 (was 1465, collapsed 191) | IPs: ~6,531,328
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_NZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -21,7 +22,6 @@ add address=36.50.206.0/23 list=GEO_NZ comment=NZ
 add address=43.224.120.0/22 list=GEO_NZ comment=NZ
 add address=43.224.250.0/23 list=GEO_NZ comment=NZ
 add address=43.225.200.0/22 list=GEO_NZ comment=NZ
-add address=43.226.8.0/22 list=GEO_NZ comment=NZ
 add address=43.226.216.0/22 list=GEO_NZ comment=NZ
 add address=43.228.184.0/22 list=GEO_NZ comment=NZ
 add address=43.231.192.0/22 list=GEO_NZ comment=NZ
@@ -418,7 +418,6 @@ add address=103.204.248.0/22 list=GEO_NZ comment=NZ
 add address=103.205.38.0/24 list=GEO_NZ comment=NZ
 add address=103.206.32.0/22 list=GEO_NZ comment=NZ
 add address=103.207.76.0/22 list=GEO_NZ comment=NZ
-add address=103.208.84.0/22 list=GEO_NZ comment=NZ
 add address=103.208.140.0/22 list=GEO_NZ comment=NZ
 add address=103.209.192.0/22 list=GEO_NZ comment=NZ
 add address=103.209.224.0/22 list=GEO_NZ comment=NZ
@@ -520,7 +519,6 @@ add address=103.254.0.0/22 list=GEO_NZ comment=NZ
 add address=103.254.132.0/22 list=GEO_NZ comment=NZ
 add address=103.254.156.0/22 list=GEO_NZ comment=NZ
 add address=103.254.194.0/23 list=GEO_NZ comment=NZ
-add address=103.254.228.0/23 list=GEO_NZ comment=NZ
 add address=103.255.24.0/22 list=GEO_NZ comment=NZ
 add address=110.34.48.0/22 list=GEO_NZ comment=NZ
 add address=110.44.16.0/22 list=GEO_NZ comment=NZ
@@ -687,6 +685,7 @@ add address=160.191.68.0/23 list=GEO_NZ comment=NZ
 add address=160.191.196.0/23 list=GEO_NZ comment=NZ
 add address=160.191.247.0/24 list=GEO_NZ comment=NZ
 add address=160.202.164.0/22 list=GEO_NZ comment=NZ
+add address=160.236.222.0/23 list=GEO_NZ comment=NZ
 add address=160.238.80.0/22 list=GEO_NZ comment=NZ
 add address=160.250.138.0/23 list=GEO_NZ comment=NZ
 add address=161.29.0.0/16 list=GEO_NZ comment=NZ
@@ -864,7 +863,6 @@ add address=202.27.64.0/23 list=GEO_NZ comment=NZ
 add address=202.27.67.0/24 list=GEO_NZ comment=NZ
 add address=202.27.69.0/24 list=GEO_NZ comment=NZ
 add address=202.27.72.0/21 list=GEO_NZ comment=NZ
-add address=202.27.83.0/24 list=GEO_NZ comment=NZ
 add address=202.27.85.0/24 list=GEO_NZ comment=NZ
 add address=202.27.86.0/23 list=GEO_NZ comment=NZ
 add address=202.27.91.0/24 list=GEO_NZ comment=NZ
@@ -934,7 +932,8 @@ add address=202.36.137.0/24 list=GEO_NZ comment=NZ
 add address=202.36.141.0/24 list=GEO_NZ comment=NZ
 add address=202.36.149.0/24 list=GEO_NZ comment=NZ
 add address=202.36.150.0/23 list=GEO_NZ comment=NZ
-add address=202.36.152.0/22 list=GEO_NZ comment=NZ
+add address=202.36.152.0/23 list=GEO_NZ comment=NZ
+add address=202.36.155.0/24 list=GEO_NZ comment=NZ
 add address=202.36.158.0/23 list=GEO_NZ comment=NZ
 add address=202.36.162.0/23 list=GEO_NZ comment=NZ
 add address=202.36.168.0/23 list=GEO_NZ comment=NZ
@@ -1119,7 +1118,6 @@ add address=202.53.176.0/20 list=GEO_NZ comment=NZ
 add address=202.55.96.0/20 list=GEO_NZ comment=NZ
 add address=202.56.32.0/20 list=GEO_NZ comment=NZ
 add address=202.56.48.0/21 list=GEO_NZ comment=NZ
-add address=202.58.100.0/24 list=GEO_NZ comment=NZ
 add address=202.58.227.0/24 list=GEO_NZ comment=NZ
 add address=202.59.224.0/24 list=GEO_NZ comment=NZ
 add address=202.61.2.0/23 list=GEO_NZ comment=NZ
@@ -1189,6 +1187,7 @@ add address=203.13.231.0/24 list=GEO_NZ comment=NZ
 add address=203.14.20.0/24 list=GEO_NZ comment=NZ
 add address=203.18.59.0/24 list=GEO_NZ comment=NZ
 add address=203.20.241.0/24 list=GEO_NZ comment=NZ
+add address=203.25.23.0/24 list=GEO_NZ comment=NZ
 add address=203.25.187.0/24 list=GEO_NZ comment=NZ
 add address=203.26.160.0/21 list=GEO_NZ comment=NZ
 add address=203.27.18.0/24 list=GEO_NZ comment=NZ

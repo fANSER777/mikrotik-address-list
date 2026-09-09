@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SK
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SK | Subnets: 413 (was 449, collapsed 36) | IPs: ~2,687,488
+# Countries: SK | Subnets: 413 (was 449, collapsed 36) | IPs: ~2,684,672
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_SK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -85,7 +86,6 @@ add address=87.239.56.0/21 list=GEO_SK comment=SK
 add address=87.244.192.0/18 list=GEO_SK comment=SK
 add address=88.80.224.0/19 list=GEO_SK comment=SK
 add address=88.212.0.0/18 list=GEO_SK comment=SK
-add address=89.107.144.0/21 list=GEO_SK comment=SK
 add address=89.173.0.0/16 list=GEO_SK comment=SK
 add address=90.176.0.0/19 list=GEO_SK comment=SK
 add address=91.127.0.0/16 list=GEO_SK comment=SK
@@ -166,6 +166,7 @@ add address=147.78.168.0/22 list=GEO_SK comment=SK
 add address=147.175.0.0/16 list=GEO_SK comment=SK
 add address=147.213.0.0/16 list=GEO_SK comment=SK
 add address=147.232.0.0/16 list=GEO_SK comment=SK
+add address=151.216.4.0/24 list=GEO_SK comment=SK
 add address=151.236.224.0/20 list=GEO_SK comment=SK
 add address=152.89.16.0/22 list=GEO_SK comment=SK
 add address=158.193.0.0/16 list=GEO_SK comment=SK
@@ -339,7 +340,7 @@ add address=193.200.9.0/24 list=GEO_SK comment=SK
 add address=193.200.143.0/24 list=GEO_SK comment=SK
 add address=194.0.45.0/24 list=GEO_SK comment=SK
 add address=194.1.0.0/17 list=GEO_SK comment=SK
-add address=194.1.128.0/21 list=GEO_SK comment=SK
+add address=194.1.128.0/22 list=GEO_SK comment=SK
 add address=194.1.157.0/24 list=GEO_SK comment=SK
 add address=194.1.172.0/22 list=GEO_SK comment=SK
 add address=194.1.185.0/24 list=GEO_SK comment=SK

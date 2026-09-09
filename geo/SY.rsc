@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SY
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SY | Subnets: 196 (was 213, collapsed 17) | IPs: ~1,285,120
+# Countries: SY | Subnets: 189 (was 206, collapsed 17) | IPs: ~1,276,160
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_SY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -63,6 +64,7 @@ add address=109.224.208.0/21 list=GEO_SY comment=SY
 add address=109.238.144.0/20 list=GEO_SY comment=SY
 add address=130.0.240.0/20 list=GEO_SY comment=SY
 add address=130.180.128.0/18 list=GEO_SY comment=SY
+add address=153.56.181.0/24 list=GEO_SY comment=SY
 add address=178.52.0.0/16 list=GEO_SY comment=SY
 add address=178.169.0.0/19 list=GEO_SY comment=SY
 add address=178.171.128.0/17 list=GEO_SY comment=SY
@@ -100,13 +102,11 @@ add address=185.155.160.0/22 list=GEO_SY comment=SY
 add address=185.158.32.0/22 list=GEO_SY comment=SY
 add address=185.158.92.0/22 list=GEO_SY comment=SY
 add address=185.162.164.0/22 list=GEO_SY comment=SY
-add address=185.163.216.0/22 list=GEO_SY comment=SY
 add address=185.164.132.0/22 list=GEO_SY comment=SY
 add address=185.164.200.0/22 list=GEO_SY comment=SY
 add address=185.164.248.0/22 list=GEO_SY comment=SY
 add address=185.169.160.0/22 list=GEO_SY comment=SY
 add address=185.171.72.0/22 list=GEO_SY comment=SY
-add address=185.172.72.0/22 list=GEO_SY comment=SY
 add address=185.172.236.0/22 list=GEO_SY comment=SY
 add address=185.173.172.0/22 list=GEO_SY comment=SY
 add address=185.174.228.0/22 list=GEO_SY comment=SY
@@ -118,31 +118,24 @@ add address=185.185.72.0/22 list=GEO_SY comment=SY
 add address=185.185.220.0/22 list=GEO_SY comment=SY
 add address=185.187.192.0/22 list=GEO_SY comment=SY
 add address=185.194.72.0/22 list=GEO_SY comment=SY
-add address=185.194.124.0/22 list=GEO_SY comment=SY
 add address=185.196.140.0/22 list=GEO_SY comment=SY
 add address=185.196.144.0/22 list=GEO_SY comment=SY
 add address=185.198.172.0/22 list=GEO_SY comment=SY
 add address=185.199.244.0/22 list=GEO_SY comment=SY
 add address=185.203.68.0/22 list=GEO_SY comment=SY
-add address=185.204.80.0/22 list=GEO_SY comment=SY
 add address=185.204.88.0/22 list=GEO_SY comment=SY
 add address=185.209.32.0/22 list=GEO_SY comment=SY
 add address=185.209.200.0/22 list=GEO_SY comment=SY
 add address=185.216.132.0/22 list=GEO_SY comment=SY
 add address=185.216.196.0/22 list=GEO_SY comment=SY
-add address=185.217.172.0/22 list=GEO_SY comment=SY
-add address=185.220.168.0/22 list=GEO_SY comment=SY
+add address=185.220.170.0/23 list=GEO_SY comment=SY
 add address=185.224.124.0/22 list=GEO_SY comment=SY
 add address=185.225.40.0/22 list=GEO_SY comment=SY
 add address=185.227.140.0/22 list=GEO_SY comment=SY
-add address=185.228.12.0/22 list=GEO_SY comment=SY
-add address=185.231.44.0/22 list=GEO_SY comment=SY
 add address=185.235.16.0/22 list=GEO_SY comment=SY
 add address=185.235.24.0/22 list=GEO_SY comment=SY
 add address=185.236.100.0/22 list=GEO_SY comment=SY
 add address=185.244.204.0/22 list=GEO_SY comment=SY
-add address=185.246.76.0/22 list=GEO_SY comment=SY
-add address=185.254.108.0/22 list=GEO_SY comment=SY
 add address=185.254.180.0/22 list=GEO_SY comment=SY
 add address=188.133.0.0/17 list=GEO_SY comment=SY
 add address=188.139.128.0/17 list=GEO_SY comment=SY
@@ -196,6 +189,7 @@ add address=196.2.4.0/22 list=GEO_SY comment=SY
 add address=198.51.143.0/24 list=GEO_SY comment=SY
 add address=198.51.144.0/23 list=GEO_SY comment=SY
 add address=198.51.146.0/24 list=GEO_SY comment=SY
+add address=199.217.102.0/23 list=GEO_SY comment=SY
 add address=205.209.64.0/19 list=GEO_SY comment=SY
 add address=212.11.192.0/19 list=GEO_SY comment=SY
 add address=213.177.185.0/24 list=GEO_SY comment=SY

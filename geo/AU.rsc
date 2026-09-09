@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AU
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AU | Subnets: 5647 (was 6647, collapsed 1000) | IPs: ~46,115,584
+# Countries: AU | Subnets: 5670 (was 9960, collapsed 4290) | IPs: ~46,093,056
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -72,6 +73,7 @@ add address=27.116.36.0/22 list=GEO_AU comment=AU
 add address=27.121.64.0/21 list=GEO_AU comment=AU
 add address=27.122.112.0/20 list=GEO_AU comment=AU
 add address=27.123.24.0/21 list=GEO_AU comment=AU
+add address=27.123.226.0/24 list=GEO_AU comment=AU
 add address=27.124.96.0/19 list=GEO_AU comment=AU
 add address=27.125.208.0/20 list=GEO_AU comment=AU
 add address=27.126.144.0/21 list=GEO_AU comment=AU
@@ -192,6 +194,7 @@ add address=45.64.68.0/22 list=GEO_AU comment=AU
 add address=45.64.148.0/22 list=GEO_AU comment=AU
 add address=45.65.12.0/22 list=GEO_AU comment=AU
 add address=45.65.60.0/22 list=GEO_AU comment=AU
+add address=45.74.128.0/20 list=GEO_AU comment=AU
 add address=45.86.87.0/24 list=GEO_AU comment=AU
 add address=45.92.80.0/22 list=GEO_AU comment=AU
 add address=45.92.96.0/22 list=GEO_AU comment=AU
@@ -244,6 +247,8 @@ add address=45.248.48.0/22 list=GEO_AU comment=AU
 add address=45.248.76.0/22 list=GEO_AU comment=AU
 add address=45.248.140.0/22 list=GEO_AU comment=AU
 add address=45.248.196.0/22 list=GEO_AU comment=AU
+add address=45.249.60.0/23 list=GEO_AU comment=AU
+add address=45.249.62.0/24 list=GEO_AU comment=AU
 add address=45.249.116.0/22 list=GEO_AU comment=AU
 add address=45.252.184.0/22 list=GEO_AU comment=AU
 add address=45.252.252.0/22 list=GEO_AU comment=AU
@@ -315,6 +320,7 @@ add address=82.115.0.0/21 list=GEO_AU comment=AU
 add address=82.115.8.0/22 list=GEO_AU comment=AU
 add address=82.115.12.0/23 list=GEO_AU comment=AU
 add address=82.115.16.0/20 list=GEO_AU comment=AU
+add address=85.204.106.0/24 list=GEO_AU comment=AU
 add address=86.54.202.0/23 list=GEO_AU comment=AU
 add address=87.121.72.0/22 list=GEO_AU comment=AU
 add address=87.121.92.0/22 list=GEO_AU comment=AU
@@ -361,7 +367,6 @@ add address=103.2.176.0/22 list=GEO_AU comment=AU
 add address=103.2.192.0/21 list=GEO_AU comment=AU
 add address=103.2.240.0/22 list=GEO_AU comment=AU
 add address=103.3.144.0/22 list=GEO_AU comment=AU
-add address=103.3.160.0/22 list=GEO_AU comment=AU
 add address=103.3.196.0/22 list=GEO_AU comment=AU
 add address=103.3.216.0/22 list=GEO_AU comment=AU
 add address=103.3.236.0/22 list=GEO_AU comment=AU
@@ -389,7 +394,6 @@ add address=103.5.214.0/24 list=GEO_AU comment=AU
 add address=103.6.3.0/24 list=GEO_AU comment=AU
 add address=103.6.12.0/22 list=GEO_AU comment=AU
 add address=103.6.24.0/23 list=GEO_AU comment=AU
-add address=103.6.35.0/24 list=GEO_AU comment=AU
 add address=103.6.105.0/24 list=GEO_AU comment=AU
 add address=103.6.116.0/24 list=GEO_AU comment=AU
 add address=103.6.188.0/22 list=GEO_AU comment=AU
@@ -542,7 +546,6 @@ add address=103.21.4.0/23 list=GEO_AU comment=AU
 add address=103.21.17.0/24 list=GEO_AU comment=AU
 add address=103.21.20.0/22 list=GEO_AU comment=AU
 add address=103.21.48.0/22 list=GEO_AU comment=AU
-add address=103.21.56.0/23 list=GEO_AU comment=AU
 add address=103.21.108.0/22 list=GEO_AU comment=AU
 add address=103.21.128.0/21 list=GEO_AU comment=AU
 add address=103.21.144.0/22 list=GEO_AU comment=AU
@@ -634,7 +637,7 @@ add address=103.31.112.0/22 list=GEO_AU comment=AU
 add address=103.35.80.0/22 list=GEO_AU comment=AU
 add address=103.35.92.0/22 list=GEO_AU comment=AU
 add address=103.35.112.0/23 list=GEO_AU comment=AU
-add address=103.35.128.0/22 list=GEO_AU comment=AU
+add address=103.35.130.0/23 list=GEO_AU comment=AU
 add address=103.35.224.0/21 list=GEO_AU comment=AU
 add address=103.36.0.0/21 list=GEO_AU comment=AU
 add address=103.36.12.0/23 list=GEO_AU comment=AU
@@ -684,7 +687,6 @@ add address=103.42.224.0/22 list=GEO_AU comment=AU
 add address=103.42.236.0/22 list=GEO_AU comment=AU
 add address=103.43.38.0/23 list=GEO_AU comment=AU
 add address=103.43.88.0/22 list=GEO_AU comment=AU
-add address=103.43.92.0/24 list=GEO_AU comment=AU
 add address=103.43.116.0/22 list=GEO_AU comment=AU
 add address=103.43.137.0/24 list=GEO_AU comment=AU
 add address=103.43.176.0/22 list=GEO_AU comment=AU
@@ -832,12 +834,13 @@ add address=103.67.164.0/24 list=GEO_AU comment=AU
 add address=103.67.167.0/24 list=GEO_AU comment=AU
 add address=103.67.177.0/24 list=GEO_AU comment=AU
 add address=103.67.249.0/24 list=GEO_AU comment=AU
-add address=103.67.250.0/23 list=GEO_AU comment=AU
+add address=103.67.250.0/24 list=GEO_AU comment=AU
 add address=103.68.92.0/24 list=GEO_AU comment=AU
 add address=103.68.105.0/24 list=GEO_AU comment=AU
 add address=103.68.124.0/24 list=GEO_AU comment=AU
 add address=103.68.160.0/22 list=GEO_AU comment=AU
 add address=103.68.178.0/23 list=GEO_AU comment=AU
+add address=103.68.188.0/22 list=GEO_AU comment=AU
 add address=103.68.202.0/23 list=GEO_AU comment=AU
 add address=103.68.204.0/23 list=GEO_AU comment=AU
 add address=103.68.208.0/22 list=GEO_AU comment=AU
@@ -1063,7 +1066,6 @@ add address=103.96.249.0/24 list=GEO_AU comment=AU
 add address=103.97.52.0/22 list=GEO_AU comment=AU
 add address=103.97.155.0/24 list=GEO_AU comment=AU
 add address=103.97.170.0/23 list=GEO_AU comment=AU
-add address=103.97.173.0/24 list=GEO_AU comment=AU
 add address=103.97.217.0/24 list=GEO_AU comment=AU
 add address=103.97.218.0/23 list=GEO_AU comment=AU
 add address=103.97.220.0/22 list=GEO_AU comment=AU
@@ -1127,7 +1129,6 @@ add address=103.104.32.0/23 list=GEO_AU comment=AU
 add address=103.104.80.0/22 list=GEO_AU comment=AU
 add address=103.104.156.0/22 list=GEO_AU comment=AU
 add address=103.104.164.0/22 list=GEO_AU comment=AU
-add address=103.104.200.0/23 list=GEO_AU comment=AU
 add address=103.104.222.0/23 list=GEO_AU comment=AU
 add address=103.104.230.0/24 list=GEO_AU comment=AU
 add address=103.104.236.0/22 list=GEO_AU comment=AU
@@ -1181,7 +1182,6 @@ add address=103.110.176.0/22 list=GEO_AU comment=AU
 add address=103.110.194.0/24 list=GEO_AU comment=AU
 add address=103.111.16.0/22 list=GEO_AU comment=AU
 add address=103.111.24.0/22 list=GEO_AU comment=AU
-add address=103.111.78.0/24 list=GEO_AU comment=AU
 add address=103.111.87.0/24 list=GEO_AU comment=AU
 add address=103.111.127.0/24 list=GEO_AU comment=AU
 add address=103.111.163.0/24 list=GEO_AU comment=AU
@@ -1342,7 +1342,7 @@ add address=103.136.10.0/24 list=GEO_AU comment=AU
 add address=103.136.86.0/24 list=GEO_AU comment=AU
 add address=103.136.100.0/22 list=GEO_AU comment=AU
 add address=103.136.120.0/22 list=GEO_AU comment=AU
-add address=103.136.140.0/22 list=GEO_AU comment=AU
+add address=103.136.140.0/24 list=GEO_AU comment=AU
 add address=103.136.144.0/22 list=GEO_AU comment=AU
 add address=103.136.190.0/23 list=GEO_AU comment=AU
 add address=103.136.214.0/23 list=GEO_AU comment=AU
@@ -1373,7 +1373,7 @@ add address=103.139.104.0/23 list=GEO_AU comment=AU
 add address=103.139.123.0/24 list=GEO_AU comment=AU
 add address=103.139.153.0/24 list=GEO_AU comment=AU
 add address=103.139.218.0/24 list=GEO_AU comment=AU
-add address=103.139.228.0/22 list=GEO_AU comment=AU
+add address=103.139.230.0/23 list=GEO_AU comment=AU
 add address=103.139.249.0/24 list=GEO_AU comment=AU
 add address=103.139.252.0/24 list=GEO_AU comment=AU
 add address=103.140.32.0/23 list=GEO_AU comment=AU
@@ -1387,7 +1387,7 @@ add address=103.140.162.0/24 list=GEO_AU comment=AU
 add address=103.140.172.0/23 list=GEO_AU comment=AU
 add address=103.140.198.0/24 list=GEO_AU comment=AU
 add address=103.140.202.0/23 list=GEO_AU comment=AU
-add address=103.140.214.0/23 list=GEO_AU comment=AU
+add address=103.140.215.0/24 list=GEO_AU comment=AU
 add address=103.140.218.0/24 list=GEO_AU comment=AU
 add address=103.140.222.0/23 list=GEO_AU comment=AU
 add address=103.141.14.0/23 list=GEO_AU comment=AU
@@ -1450,6 +1450,7 @@ add address=103.146.194.0/23 list=GEO_AU comment=AU
 add address=103.146.214.0/24 list=GEO_AU comment=AU
 add address=103.146.248.0/24 list=GEO_AU comment=AU
 add address=103.147.44.0/24 list=GEO_AU comment=AU
+add address=103.147.48.0/23 list=GEO_AU comment=AU
 add address=103.147.61.0/24 list=GEO_AU comment=AU
 add address=103.147.71.0/24 list=GEO_AU comment=AU
 add address=103.147.152.0/24 list=GEO_AU comment=AU
@@ -1483,7 +1484,6 @@ add address=103.150.59.0/24 list=GEO_AU comment=AU
 add address=103.150.71.0/24 list=GEO_AU comment=AU
 add address=103.150.77.0/24 list=GEO_AU comment=AU
 add address=103.150.134.0/23 list=GEO_AU comment=AU
-add address=103.150.144.0/23 list=GEO_AU comment=AU
 add address=103.150.171.0/24 list=GEO_AU comment=AU
 add address=103.150.176.0/23 list=GEO_AU comment=AU
 add address=103.150.198.0/24 list=GEO_AU comment=AU
@@ -1604,7 +1604,6 @@ add address=103.165.18.0/23 list=GEO_AU comment=AU
 add address=103.165.47.0/24 list=GEO_AU comment=AU
 add address=103.165.97.0/24 list=GEO_AU comment=AU
 add address=103.165.180.0/24 list=GEO_AU comment=AU
-add address=103.165.182.0/23 list=GEO_AU comment=AU
 add address=103.166.3.0/24 list=GEO_AU comment=AU
 add address=103.166.16.0/23 list=GEO_AU comment=AU
 add address=103.166.56.0/23 list=GEO_AU comment=AU
@@ -1948,7 +1947,6 @@ add address=103.227.180.0/22 list=GEO_AU comment=AU
 add address=103.227.200.0/22 list=GEO_AU comment=AU
 add address=103.227.232.0/24 list=GEO_AU comment=AU
 add address=103.227.234.0/23 list=GEO_AU comment=AU
-add address=103.228.16.0/24 list=GEO_AU comment=AU
 add address=103.228.104.0/22 list=GEO_AU comment=AU
 add address=103.228.133.0/24 list=GEO_AU comment=AU
 add address=103.228.164.0/22 list=GEO_AU comment=AU
@@ -2000,7 +1998,6 @@ add address=103.234.108.0/22 list=GEO_AU comment=AU
 add address=103.234.112.0/23 list=GEO_AU comment=AU
 add address=103.234.163.0/24 list=GEO_AU comment=AU
 add address=103.234.194.0/24 list=GEO_AU comment=AU
-add address=103.234.248.0/22 list=GEO_AU comment=AU
 add address=103.235.20.0/24 list=GEO_AU comment=AU
 add address=103.235.22.0/24 list=GEO_AU comment=AU
 add address=103.235.36.0/22 list=GEO_AU comment=AU
@@ -2178,6 +2175,7 @@ add address=110.5.116.0/22 list=GEO_AU comment=AU
 add address=110.20.0.0/14 list=GEO_AU comment=AU
 add address=110.32.0.0/15 list=GEO_AU comment=AU
 add address=110.34.52.0/22 list=GEO_AU comment=AU
+add address=110.36.57.0/24 list=GEO_AU comment=AU
 add address=110.36.232.0/23 list=GEO_AU comment=AU
 add address=110.44.24.0/21 list=GEO_AU comment=AU
 add address=110.50.16.0/21 list=GEO_AU comment=AU
@@ -2236,7 +2234,6 @@ add address=113.11.184.0/22 list=GEO_AU comment=AU
 add address=113.11.232.0/22 list=GEO_AU comment=AU
 add address=113.20.0.0/20 list=GEO_AU comment=AU
 add address=113.20.24.0/22 list=GEO_AU comment=AU
-add address=113.20.128.0/22 list=GEO_AU comment=AU
 add address=113.21.32.0/20 list=GEO_AU comment=AU
 add address=113.29.208.0/21 list=GEO_AU comment=AU
 add address=113.29.240.0/21 list=GEO_AU comment=AU
@@ -2339,7 +2336,7 @@ add address=118.139.128.0/19 list=GEO_AU comment=AU
 add address=118.151.216.0/22 list=GEO_AU comment=AU
 add address=118.208.0.0/14 list=GEO_AU comment=AU
 add address=119.2.56.0/21 list=GEO_AU comment=AU
-add address=119.10.128.0/20 list=GEO_AU comment=AU
+add address=119.10.128.0/21 list=GEO_AU comment=AU
 add address=119.11.0.0/17 list=GEO_AU comment=AU
 add address=119.12.80.0/21 list=GEO_AU comment=AU
 add address=119.12.208.0/20 list=GEO_AU comment=AU
@@ -2726,7 +2723,6 @@ add address=157.15.242.0/23 list=GEO_AU comment=AU
 add address=157.20.102.0/23 list=GEO_AU comment=AU
 add address=157.20.112.0/23 list=GEO_AU comment=AU
 add address=157.20.140.0/23 list=GEO_AU comment=AU
-add address=157.85.32.0/19 list=GEO_AU comment=AU
 add address=157.85.72.0/21 list=GEO_AU comment=AU
 add address=157.85.80.0/20 list=GEO_AU comment=AU
 add address=157.85.128.0/18 list=GEO_AU comment=AU
@@ -2787,13 +2783,26 @@ add address=160.191.170.0/24 list=GEO_AU comment=AU
 add address=160.191.226.0/23 list=GEO_AU comment=AU
 add address=160.202.140.0/22 list=GEO_AU comment=AU
 add address=160.206.0.0/16 list=GEO_AU comment=AU
-add address=160.222.0.0/17 list=GEO_AU comment=AU
+add address=160.222.64.0/18 list=GEO_AU comment=AU
 add address=160.222.128.0/18 list=GEO_AU comment=AU
 add address=160.222.196.0/22 list=GEO_AU comment=AU
 add address=160.222.200.0/21 list=GEO_AU comment=AU
 add address=160.222.208.0/20 list=GEO_AU comment=AU
 add address=160.222.224.0/19 list=GEO_AU comment=AU
 add address=160.231.128.0/18 list=GEO_AU comment=AU
+add address=160.236.12.0/23 list=GEO_AU comment=AU
+add address=160.236.50.0/23 list=GEO_AU comment=AU
+add address=160.236.56.0/23 list=GEO_AU comment=AU
+add address=160.236.63.0/24 list=GEO_AU comment=AU
+add address=160.236.69.0/24 list=GEO_AU comment=AU
+add address=160.236.107.0/24 list=GEO_AU comment=AU
+add address=160.236.108.0/24 list=GEO_AU comment=AU
+add address=160.236.124.0/24 list=GEO_AU comment=AU
+add address=160.236.160.0/23 list=GEO_AU comment=AU
+add address=160.236.164.0/24 list=GEO_AU comment=AU
+add address=160.236.212.0/23 list=GEO_AU comment=AU
+add address=160.236.217.0/24 list=GEO_AU comment=AU
+add address=160.236.236.0/24 list=GEO_AU comment=AU
 add address=160.250.34.0/24 list=GEO_AU comment=AU
 add address=160.250.70.0/23 list=GEO_AU comment=AU
 add address=160.250.72.0/24 list=GEO_AU comment=AU
@@ -2817,6 +2826,12 @@ add address=161.152.0.0/16 list=GEO_AU comment=AU
 add address=161.248.8.0/24 list=GEO_AU comment=AU
 add address=161.248.70.0/23 list=GEO_AU comment=AU
 add address=162.4.84.0/24 list=GEO_AU comment=AU
+add address=162.4.122.0/23 list=GEO_AU comment=AU
+add address=162.4.155.0/24 list=GEO_AU comment=AU
+add address=162.4.206.0/23 list=GEO_AU comment=AU
+add address=162.4.210.0/23 list=GEO_AU comment=AU
+add address=162.4.220.0/23 list=GEO_AU comment=AU
+add address=162.4.250.0/23 list=GEO_AU comment=AU
 add address=162.12.240.0/22 list=GEO_AU comment=AU
 add address=162.145.0.0/16 list=GEO_AU comment=AU
 add address=162.146.0.0/15 list=GEO_AU comment=AU
@@ -2844,6 +2859,15 @@ add address=163.47.168.0/22 list=GEO_AU comment=AU
 add address=163.47.196.0/22 list=GEO_AU comment=AU
 add address=163.47.216.0/22 list=GEO_AU comment=AU
 add address=163.47.252.0/22 list=GEO_AU comment=AU
+add address=163.52.19.0/24 list=GEO_AU comment=AU
+add address=163.52.20.0/23 list=GEO_AU comment=AU
+add address=163.52.34.0/24 list=GEO_AU comment=AU
+add address=163.52.52.0/23 list=GEO_AU comment=AU
+add address=163.52.65.0/24 list=GEO_AU comment=AU
+add address=163.52.79.0/24 list=GEO_AU comment=AU
+add address=163.52.83.0/24 list=GEO_AU comment=AU
+add address=163.52.88.0/22 list=GEO_AU comment=AU
+add address=163.52.110.0/23 list=GEO_AU comment=AU
 add address=163.53.20.0/22 list=GEO_AU comment=AU
 add address=163.53.32.0/22 list=GEO_AU comment=AU
 add address=163.53.68.0/22 list=GEO_AU comment=AU
@@ -2943,6 +2967,7 @@ add address=168.140.200.0/21 list=GEO_AU comment=AU
 add address=168.140.208.0/20 list=GEO_AU comment=AU
 add address=168.140.224.0/20 list=GEO_AU comment=AU
 add address=168.151.40.0/23 list=GEO_AU comment=AU
+add address=168.151.232.0/21 list=GEO_AU comment=AU
 add address=168.152.0.0/15 list=GEO_AU comment=AU
 add address=168.186.0.0/16 list=GEO_AU comment=AU
 add address=168.198.0.0/16 list=GEO_AU comment=AU
@@ -2950,6 +2975,7 @@ add address=168.217.0.0/16 list=GEO_AU comment=AU
 add address=168.252.0.0/16 list=GEO_AU comment=AU
 add address=169.201.0.0/16 list=GEO_AU comment=AU
 add address=170.157.0.0/16 list=GEO_AU comment=AU
+add address=172.255.214.0/23 list=GEO_AU comment=AU
 add address=173.234.104.0/21 list=GEO_AU comment=AU
 add address=175.32.0.0/13 list=GEO_AU comment=AU
 add address=175.41.40.0/22 list=GEO_AU comment=AU
@@ -3003,7 +3029,7 @@ add address=180.214.64.0/19 list=GEO_AU comment=AU
 add address=180.216.0.0/16 list=GEO_AU comment=AU
 add address=180.222.0.0/19 list=GEO_AU comment=AU
 add address=180.222.160.0/20 list=GEO_AU comment=AU
-add address=180.222.192.0/21 list=GEO_AU comment=AU
+add address=180.222.192.0/22 list=GEO_AU comment=AU
 add address=180.233.124.0/22 list=GEO_AU comment=AU
 add address=180.233.128.0/22 list=GEO_AU comment=AU
 add address=180.235.108.0/22 list=GEO_AU comment=AU
@@ -3047,6 +3073,7 @@ add address=185.248.184.0/22 list=GEO_AU comment=AU
 add address=185.254.56.0/22 list=GEO_AU comment=AU
 add address=188.209.155.0/24 list=GEO_AU comment=AU
 add address=188.209.156.0/22 list=GEO_AU comment=AU
+add address=188.241.220.0/24 list=GEO_AU comment=AU
 add address=188.253.0.0/19 list=GEO_AU comment=AU
 add address=188.253.96.0/19 list=GEO_AU comment=AU
 add address=192.12.76.0/24 list=GEO_AU comment=AU
@@ -3096,6 +3123,7 @@ add address=192.65.250.0/24 list=GEO_AU comment=AU
 add address=192.67.12.0/24 list=GEO_AU comment=AU
 add address=192.67.84.0/24 list=GEO_AU comment=AU
 add address=192.67.171.0/24 list=GEO_AU comment=AU
+add address=192.67.217.0/24 list=GEO_AU comment=AU
 add address=192.68.132.0/24 list=GEO_AU comment=AU
 add address=192.69.116.0/24 list=GEO_AU comment=AU
 add address=192.70.135.0/24 list=GEO_AU comment=AU
@@ -3560,7 +3588,9 @@ add address=202.65.64.0/19 list=GEO_AU comment=AU
 add address=202.66.160.0/22 list=GEO_AU comment=AU
 add address=202.67.64.0/18 list=GEO_AU comment=AU
 add address=202.68.64.0/20 list=GEO_AU comment=AU
-add address=202.68.96.0/19 list=GEO_AU comment=AU
+add address=202.68.96.0/20 list=GEO_AU comment=AU
+add address=202.68.112.0/21 list=GEO_AU comment=AU
+add address=202.68.124.0/22 list=GEO_AU comment=AU
 add address=202.68.160.0/20 list=GEO_AU comment=AU
 add address=202.69.132.0/22 list=GEO_AU comment=AU
 add address=202.69.208.0/20 list=GEO_AU comment=AU
@@ -3578,7 +3608,6 @@ add address=202.74.34.0/24 list=GEO_AU comment=AU
 add address=202.74.44.0/24 list=GEO_AU comment=AU
 add address=202.74.46.0/24 list=GEO_AU comment=AU
 add address=202.74.49.0/24 list=GEO_AU comment=AU
-add address=202.74.57.0/24 list=GEO_AU comment=AU
 add address=202.74.61.0/24 list=GEO_AU comment=AU
 add address=202.74.64.0/21 list=GEO_AU comment=AU
 add address=202.74.128.0/18 list=GEO_AU comment=AU
@@ -3624,7 +3653,6 @@ add address=202.92.32.0/20 list=GEO_AU comment=AU
 add address=202.92.64.0/18 list=GEO_AU comment=AU
 add address=202.92.208.0/22 list=GEO_AU comment=AU
 add address=202.92.240.0/21 list=GEO_AU comment=AU
-add address=202.92.248.0/22 list=GEO_AU comment=AU
 add address=202.93.4.0/23 list=GEO_AU comment=AU
 add address=202.93.96.0/20 list=GEO_AU comment=AU
 add address=202.93.152.0/24 list=GEO_AU comment=AU
@@ -3650,7 +3678,6 @@ add address=202.125.96.0/22 list=GEO_AU comment=AU
 add address=202.125.104.0/23 list=GEO_AU comment=AU
 add address=202.125.160.0/20 list=GEO_AU comment=AU
 add address=202.126.96.0/20 list=GEO_AU comment=AU
-add address=202.127.210.0/23 list=GEO_AU comment=AU
 add address=202.128.96.0/23 list=GEO_AU comment=AU
 add address=202.128.102.0/23 list=GEO_AU comment=AU
 add address=202.128.106.0/24 list=GEO_AU comment=AU
@@ -4071,7 +4098,7 @@ add address=203.11.218.0/24 list=GEO_AU comment=AU
 add address=203.11.220.0/24 list=GEO_AU comment=AU
 add address=203.11.224.0/19 list=GEO_AU comment=AU
 add address=203.12.0.0/20 list=GEO_AU comment=AU
-add address=203.12.28.0/23 list=GEO_AU comment=AU
+add address=203.12.29.0/24 list=GEO_AU comment=AU
 add address=203.12.36.0/24 list=GEO_AU comment=AU
 add address=203.12.38.0/23 list=GEO_AU comment=AU
 add address=203.12.40.0/23 list=GEO_AU comment=AU
@@ -4539,7 +4566,6 @@ add address=203.23.120.0/22 list=GEO_AU comment=AU
 add address=203.23.125.0/24 list=GEO_AU comment=AU
 add address=203.23.127.0/24 list=GEO_AU comment=AU
 add address=203.23.129.0/24 list=GEO_AU comment=AU
-add address=203.23.131.0/24 list=GEO_AU comment=AU
 add address=203.23.136.0/24 list=GEO_AU comment=AU
 add address=203.23.138.0/23 list=GEO_AU comment=AU
 add address=203.23.142.0/24 list=GEO_AU comment=AU
@@ -4557,7 +4583,6 @@ add address=203.23.225.0/24 list=GEO_AU comment=AU
 add address=203.23.232.0/23 list=GEO_AU comment=AU
 add address=203.23.236.0/22 list=GEO_AU comment=AU
 add address=203.23.245.0/24 list=GEO_AU comment=AU
-add address=203.23.246.0/23 list=GEO_AU comment=AU
 add address=203.23.250.0/24 list=GEO_AU comment=AU
 add address=203.23.252.0/23 list=GEO_AU comment=AU
 add address=203.24.0.0/21 list=GEO_AU comment=AU
@@ -4603,12 +4628,13 @@ add address=203.24.190.0/24 list=GEO_AU comment=AU
 add address=203.24.194.0/24 list=GEO_AU comment=AU
 add address=203.24.201.0/24 list=GEO_AU comment=AU
 add address=203.24.206.0/23 list=GEO_AU comment=AU
-add address=203.24.208.0/22 list=GEO_AU comment=AU
+add address=203.24.208.0/24 list=GEO_AU comment=AU
+add address=203.24.210.0/23 list=GEO_AU comment=AU
 add address=203.24.240.0/24 list=GEO_AU comment=AU
 add address=203.24.242.0/23 list=GEO_AU comment=AU
 add address=203.25.0.0/20 list=GEO_AU comment=AU
 add address=203.25.17.0/24 list=GEO_AU comment=AU
-add address=203.25.22.0/23 list=GEO_AU comment=AU
+add address=203.25.22.0/24 list=GEO_AU comment=AU
 add address=203.25.24.0/22 list=GEO_AU comment=AU
 add address=203.25.31.0/24 list=GEO_AU comment=AU
 add address=203.25.32.0/22 list=GEO_AU comment=AU
@@ -4677,7 +4703,7 @@ add address=203.26.98.0/24 list=GEO_AU comment=AU
 add address=203.26.100.0/24 list=GEO_AU comment=AU
 add address=203.26.107.0/24 list=GEO_AU comment=AU
 add address=203.26.110.0/24 list=GEO_AU comment=AU
-add address=203.26.112.0/23 list=GEO_AU comment=AU
+add address=203.26.112.0/24 list=GEO_AU comment=AU
 add address=203.26.118.0/24 list=GEO_AU comment=AU
 add address=203.26.120.0/22 list=GEO_AU comment=AU
 add address=203.26.124.0/23 list=GEO_AU comment=AU
@@ -4708,6 +4734,7 @@ add address=203.26.245.0/24 list=GEO_AU comment=AU
 add address=203.26.248.0/21 list=GEO_AU comment=AU
 add address=203.27.5.0/24 list=GEO_AU comment=AU
 add address=203.27.11.0/24 list=GEO_AU comment=AU
+add address=203.27.19.0/24 list=GEO_AU comment=AU
 add address=203.27.21.0/24 list=GEO_AU comment=AU
 add address=203.27.24.0/23 list=GEO_AU comment=AU
 add address=203.27.30.0/24 list=GEO_AU comment=AU
@@ -4771,9 +4798,7 @@ add address=203.28.45.0/24 list=GEO_AU comment=AU
 add address=203.28.46.0/23 list=GEO_AU comment=AU
 add address=203.28.48.0/22 list=GEO_AU comment=AU
 add address=203.28.52.0/24 list=GEO_AU comment=AU
-add address=203.28.58.0/23 list=GEO_AU comment=AU
 add address=203.28.63.0/24 list=GEO_AU comment=AU
-add address=203.28.70.0/23 list=GEO_AU comment=AU
 add address=203.28.75.0/24 list=GEO_AU comment=AU
 add address=203.28.79.0/24 list=GEO_AU comment=AU
 add address=203.28.80.0/22 list=GEO_AU comment=AU
@@ -4865,7 +4890,6 @@ add address=203.29.253.0/24 list=GEO_AU comment=AU
 add address=203.30.0.0/20 list=GEO_AU comment=AU
 add address=203.30.18.0/23 list=GEO_AU comment=AU
 add address=203.30.24.0/24 list=GEO_AU comment=AU
-add address=203.30.33.0/24 list=GEO_AU comment=AU
 add address=203.30.34.0/23 list=GEO_AU comment=AU
 add address=203.30.44.0/22 list=GEO_AU comment=AU
 add address=203.30.56.0/24 list=GEO_AU comment=AU
@@ -4955,7 +4979,6 @@ add address=203.31.202.0/23 list=GEO_AU comment=AU
 add address=203.31.205.0/24 list=GEO_AU comment=AU
 add address=203.31.206.0/23 list=GEO_AU comment=AU
 add address=203.31.216.0/24 list=GEO_AU comment=AU
-add address=203.31.218.0/24 list=GEO_AU comment=AU
 add address=203.31.227.0/24 list=GEO_AU comment=AU
 add address=203.31.230.0/23 list=GEO_AU comment=AU
 add address=203.31.232.0/23 list=GEO_AU comment=AU
@@ -5084,7 +5107,6 @@ add address=203.34.72.0/24 list=GEO_AU comment=AU
 add address=203.34.75.0/24 list=GEO_AU comment=AU
 add address=203.34.78.0/23 list=GEO_AU comment=AU
 add address=203.34.88.0/24 list=GEO_AU comment=AU
-add address=203.34.97.0/24 list=GEO_AU comment=AU
 add address=203.34.100.0/23 list=GEO_AU comment=AU
 add address=203.34.104.0/24 list=GEO_AU comment=AU
 add address=203.34.109.0/24 list=GEO_AU comment=AU
@@ -5104,7 +5126,6 @@ add address=203.34.186.0/24 list=GEO_AU comment=AU
 add address=203.34.190.0/24 list=GEO_AU comment=AU
 add address=203.34.212.0/24 list=GEO_AU comment=AU
 add address=203.34.218.0/24 list=GEO_AU comment=AU
-add address=203.34.220.0/23 list=GEO_AU comment=AU
 add address=203.34.223.0/24 list=GEO_AU comment=AU
 add address=203.34.224.0/21 list=GEO_AU comment=AU
 add address=203.34.235.0/24 list=GEO_AU comment=AU
@@ -5156,7 +5177,8 @@ add address=203.55.120.0/23 list=GEO_AU comment=AU
 add address=203.55.122.0/24 list=GEO_AU comment=AU
 add address=203.55.124.0/22 list=GEO_AU comment=AU
 add address=203.55.130.0/24 list=GEO_AU comment=AU
-add address=203.55.132.0/22 list=GEO_AU comment=AU
+add address=203.55.132.0/24 list=GEO_AU comment=AU
+add address=203.55.134.0/23 list=GEO_AU comment=AU
 add address=203.55.138.0/24 list=GEO_AU comment=AU
 add address=203.55.142.0/23 list=GEO_AU comment=AU
 add address=203.55.144.0/24 list=GEO_AU comment=AU
@@ -5413,7 +5435,9 @@ add address=203.142.222.0/23 list=GEO_AU comment=AU
 add address=203.143.64.0/19 list=GEO_AU comment=AU
 add address=203.143.160.0/20 list=GEO_AU comment=AU
 add address=203.143.192.0/18 list=GEO_AU comment=AU
-add address=203.144.0.0/19 list=GEO_AU comment=AU
+add address=203.144.4.0/22 list=GEO_AU comment=AU
+add address=203.144.8.0/21 list=GEO_AU comment=AU
+add address=203.144.16.0/20 list=GEO_AU comment=AU
 add address=203.147.92.0/22 list=GEO_AU comment=AU
 add address=203.147.96.0/21 list=GEO_AU comment=AU
 add address=203.147.108.0/23 list=GEO_AU comment=AU
@@ -5488,7 +5512,7 @@ add address=203.191.192.0/20 list=GEO_AU comment=AU
 add address=203.192.64.0/19 list=GEO_AU comment=AU
 add address=203.193.192.0/19 list=GEO_AU comment=AU
 add address=203.194.0.0/18 list=GEO_AU comment=AU
-add address=203.195.127.0/24 list=GEO_AU comment=AU
+add address=203.195.126.0/23 list=GEO_AU comment=AU
 add address=203.196.32.0/19 list=GEO_AU comment=AU
 add address=203.196.92.0/22 list=GEO_AU comment=AU
 add address=203.201.0.0/19 list=GEO_AU comment=AU

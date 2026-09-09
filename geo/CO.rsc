@@ -1,11 +1,14 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CO
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CO | Subnets: 514 (was 641, collapsed 127) | IPs: ~17,511,680
+# Countries: CO | Subnets: 520 (was 648, collapsed 128) | IPs: ~17,518,080
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_CO and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.8.0/21 list=GEO_CO comment=CO
+add address=2.152.33.0/24 list=GEO_CO comment=CO
 add address=24.152.56.0/24 list=GEO_CO comment=CO
 add address=24.152.58.0/23 list=GEO_CO comment=CO
 add address=37.10.70.0/24 list=GEO_CO comment=CO
@@ -21,6 +24,7 @@ add address=45.65.232.0/22 list=GEO_CO comment=CO
 add address=45.68.24.0/21 list=GEO_CO comment=CO
 add address=45.68.32.0/24 list=GEO_CO comment=CO
 add address=45.68.36.0/22 list=GEO_CO comment=CO
+add address=45.68.128.0/22 list=GEO_CO comment=CO
 add address=45.70.168.0/22 list=GEO_CO comment=CO
 add address=45.71.7.0/24 list=GEO_CO comment=CO
 add address=45.71.180.0/22 list=GEO_CO comment=CO
@@ -263,6 +267,8 @@ add address=181.240.0.0/12 list=GEO_CO comment=CO
 add address=185.28.216.0/22 list=GEO_CO comment=CO
 add address=185.42.20.0/22 list=GEO_CO comment=CO
 add address=185.74.16.0/22 list=GEO_CO comment=CO
+add address=185.91.192.0/22 list=GEO_CO comment=CO
+add address=185.104.164.0/22 list=GEO_CO comment=CO
 add address=185.122.240.0/22 list=GEO_CO comment=CO
 add address=185.197.128.0/22 list=GEO_CO comment=CO
 add address=186.0.0.0/17 list=GEO_CO comment=CO
@@ -280,7 +286,8 @@ add address=186.103.0.0/17 list=GEO_CO comment=CO
 add address=186.112.0.0/13 list=GEO_CO comment=CO
 add address=186.121.0.0/17 list=GEO_CO comment=CO
 add address=186.121.136.0/21 list=GEO_CO comment=CO
-add address=186.121.144.0/23 list=GEO_CO comment=CO
+add address=186.121.144.0/22 list=GEO_CO comment=CO
+add address=186.121.152.0/23 list=GEO_CO comment=CO
 add address=186.144.0.0/14 list=GEO_CO comment=CO
 add address=186.148.160.0/19 list=GEO_CO comment=CO
 add address=186.154.0.0/15 list=GEO_CO comment=CO

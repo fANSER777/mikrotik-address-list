@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TW
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TW | Subnets: 722 (was 1054, collapsed 332) | IPs: ~35,738,112
+# Countries: TW | Subnets: 728 (was 1076, collapsed 348) | IPs: ~35,739,648
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_TW and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -10,6 +11,10 @@ add address=1.34.0.0/15 list=GEO_TW comment=TW
 add address=1.160.0.0/12 list=GEO_TW comment=TW
 add address=1.200.0.0/16 list=GEO_TW comment=TW
 add address=2.58.240.0/22 list=GEO_TW comment=TW
+add address=23.139.92.0/24 list=GEO_TW comment=TW
+add address=23.139.100.0/24 list=GEO_TW comment=TW
+add address=23.160.132.0/24 list=GEO_TW comment=TW
+add address=23.163.36.0/24 list=GEO_TW comment=TW
 add address=27.0.152.0/22 list=GEO_TW comment=TW
 add address=27.51.0.0/16 list=GEO_TW comment=TW
 add address=27.52.0.0/15 list=GEO_TW comment=TW
@@ -35,6 +40,7 @@ add address=43.240.104.0/21 list=GEO_TW comment=TW
 add address=43.240.152.0/22 list=GEO_TW comment=TW
 add address=43.241.32.0/22 list=GEO_TW comment=TW
 add address=43.241.160.0/22 list=GEO_TW comment=TW
+add address=43.242.6.0/23 list=GEO_TW comment=TW
 add address=43.243.252.0/22 list=GEO_TW comment=TW
 add address=43.246.216.0/22 list=GEO_TW comment=TW
 add address=43.248.16.0/22 list=GEO_TW comment=TW
@@ -121,7 +127,6 @@ add address=103.36.116.0/22 list=GEO_TW comment=TW
 add address=103.37.4.0/23 list=GEO_TW comment=TW
 add address=103.37.36.0/22 list=GEO_TW comment=TW
 add address=103.38.146.0/23 list=GEO_TW comment=TW
-add address=103.39.34.0/23 list=GEO_TW comment=TW
 add address=103.42.112.0/23 list=GEO_TW comment=TW
 add address=103.42.144.0/21 list=GEO_TW comment=TW
 add address=103.43.48.0/22 list=GEO_TW comment=TW
@@ -282,14 +287,12 @@ add address=103.161.90.0/23 list=GEO_TW comment=TW
 add address=103.162.84.0/23 list=GEO_TW comment=TW
 add address=103.164.130.0/23 list=GEO_TW comment=TW
 add address=103.166.81.0/24 list=GEO_TW comment=TW
-add address=103.167.50.0/23 list=GEO_TW comment=TW
 add address=103.167.250.0/23 list=GEO_TW comment=TW
 add address=103.168.154.0/23 list=GEO_TW comment=TW
 add address=103.168.156.0/23 list=GEO_TW comment=TW
 add address=103.169.46.0/23 list=GEO_TW comment=TW
 add address=103.169.106.0/23 list=GEO_TW comment=TW
 add address=103.169.126.0/23 list=GEO_TW comment=TW
-add address=103.169.212.0/23 list=GEO_TW comment=TW
 add address=103.172.126.0/23 list=GEO_TW comment=TW
 add address=103.172.128.0/23 list=GEO_TW comment=TW
 add address=103.173.94.0/23 list=GEO_TW comment=TW
@@ -310,7 +313,6 @@ add address=103.183.154.0/23 list=GEO_TW comment=TW
 add address=103.183.198.0/23 list=GEO_TW comment=TW
 add address=103.185.28.0/23 list=GEO_TW comment=TW
 add address=103.186.118.0/23 list=GEO_TW comment=TW
-add address=103.186.142.0/23 list=GEO_TW comment=TW
 add address=103.186.186.0/23 list=GEO_TW comment=TW
 add address=103.188.120.0/23 list=GEO_TW comment=TW
 add address=103.189.108.0/23 list=GEO_TW comment=TW
@@ -525,17 +527,23 @@ add address=160.191.4.0/23 list=GEO_TW comment=TW
 add address=160.191.8.0/23 list=GEO_TW comment=TW
 add address=160.191.168.0/23 list=GEO_TW comment=TW
 add address=160.191.202.0/23 list=GEO_TW comment=TW
+add address=160.236.254.0/23 list=GEO_TW comment=TW
 add address=160.250.98.0/23 list=GEO_TW comment=TW
 add address=161.248.44.0/23 list=GEO_TW comment=TW
 add address=161.248.128.0/23 list=GEO_TW comment=TW
-add address=161.248.132.0/22 list=GEO_TW comment=TW
+add address=161.248.134.0/23 list=GEO_TW comment=TW
 add address=161.248.144.0/23 list=GEO_TW comment=TW
 add address=161.248.160.0/23 list=GEO_TW comment=TW
 add address=162.4.92.0/24 list=GEO_TW comment=TW
+add address=162.4.116.0/23 list=GEO_TW comment=TW
+add address=162.4.120.0/23 list=GEO_TW comment=TW
+add address=162.4.236.0/23 list=GEO_TW comment=TW
 add address=163.13.0.0/16 list=GEO_TW comment=TW
 add address=163.14.0.0/15 list=GEO_TW comment=TW
 add address=163.16.0.0/12 list=GEO_TW comment=TW
 add address=163.32.0.0/16 list=GEO_TW comment=TW
+add address=163.52.48.0/23 list=GEO_TW comment=TW
+add address=163.52.140.0/23 list=GEO_TW comment=TW
 add address=163.61.60.0/23 list=GEO_TW comment=TW
 add address=163.61.124.0/23 list=GEO_TW comment=TW
 add address=163.61.184.0/23 list=GEO_TW comment=TW
@@ -543,7 +551,6 @@ add address=163.128.76.0/23 list=GEO_TW comment=TW
 add address=163.128.120.0/23 list=GEO_TW comment=TW
 add address=163.128.172.0/23 list=GEO_TW comment=TW
 add address=163.128.192.0/23 list=GEO_TW comment=TW
-add address=163.223.206.0/23 list=GEO_TW comment=TW
 add address=163.223.248.0/23 list=GEO_TW comment=TW
 add address=163.227.172.0/23 list=GEO_TW comment=TW
 add address=165.99.64.0/22 list=GEO_TW comment=TW

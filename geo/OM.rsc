@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — OM
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: OM | Subnets: 76 (was 76, collapsed 0) | IPs: ~951,552
+# Countries: OM | Subnets: 78 (was 78, collapsed 0) | IPs: ~951,872
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_OM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -41,6 +42,7 @@ add address=84.242.32.0/20 list=GEO_OM comment=OM
 add address=85.154.0.0/16 list=GEO_OM comment=OM
 add address=87.121.168.0/21 list=GEO_OM comment=OM
 add address=91.132.64.0/22 list=GEO_OM comment=OM
+add address=91.213.211.192/26 list=GEO_OM comment=OM
 add address=94.176.16.0/20 list=GEO_OM comment=OM
 add address=94.185.0.0/18 list=GEO_OM comment=OM
 add address=96.9.128.0/19 list=GEO_OM comment=OM
@@ -75,6 +77,7 @@ add address=193.3.37.0/24 list=GEO_OM comment=OM
 add address=193.203.254.0/24 list=GEO_OM comment=OM
 add address=194.26.102.0/24 list=GEO_OM comment=OM
 add address=194.169.128.0/22 list=GEO_OM comment=OM
+add address=195.140.219.0/24 list=GEO_OM comment=OM
 add address=195.245.85.0/24 list=GEO_OM comment=OM
 add address=199.48.224.0/24 list=GEO_OM comment=OM
 add address=206.167.33.0/24 list=GEO_OM comment=OM

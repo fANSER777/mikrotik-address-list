@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DZ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DZ | Subnets: 34 (was 34, collapsed 0) | IPs: ~4,765,184
+# Countries: DZ | Subnets: 36 (was 36, collapsed 0) | IPs: ~4,767,232
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_DZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -14,6 +15,8 @@ add address=41.223.236.0/22 list=GEO_DZ comment=DZ
 add address=80.88.12.0/22 list=GEO_DZ comment=DZ
 add address=80.246.0.0/20 list=GEO_DZ comment=DZ
 add address=80.249.64.0/20 list=GEO_DZ comment=DZ
+add address=102.201.180.0/22 list=GEO_DZ comment=DZ
+add address=102.201.204.0/22 list=GEO_DZ comment=DZ
 add address=102.204.112.0/22 list=GEO_DZ comment=DZ
 add address=102.206.40.0/22 list=GEO_DZ comment=DZ
 add address=102.207.216.0/22 list=GEO_DZ comment=DZ

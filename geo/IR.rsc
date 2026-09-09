@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IR
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IR | Subnets: 1716 (was 1923, collapsed 207) | IPs: ~10,820,352
+# Countries: IR | Subnets: 1740 (was 1958, collapsed 218) | IPs: ~10,832,128
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_IR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -253,6 +254,7 @@ add address=78.38.0.0/15 list=GEO_IR comment=IR
 add address=78.41.61.0/24 list=GEO_IR comment=IR
 add address=78.41.62.0/24 list=GEO_IR comment=IR
 add address=78.41.137.0/24 list=GEO_IR comment=IR
+add address=78.108.123.0/24 list=GEO_IR comment=IR
 add address=78.109.192.0/20 list=GEO_IR comment=IR
 add address=78.110.112.0/20 list=GEO_IR comment=IR
 add address=78.111.0.0/20 list=GEO_IR comment=IR
@@ -302,6 +304,10 @@ add address=83.120.0.0/14 list=GEO_IR comment=IR
 add address=83.150.192.0/22 list=GEO_IR comment=IR
 add address=84.47.192.0/18 list=GEO_IR comment=IR
 add address=84.241.0.0/18 list=GEO_IR comment=IR
+add address=85.8.230.0/23 list=GEO_IR comment=IR
+add address=85.8.232.0/24 list=GEO_IR comment=IR
+add address=85.8.236.0/24 list=GEO_IR comment=IR
+add address=85.8.242.0/23 list=GEO_IR comment=IR
 add address=85.9.64.0/18 list=GEO_IR comment=IR
 add address=85.15.0.0/18 list=GEO_IR comment=IR
 add address=85.133.128.0/17 list=GEO_IR comment=IR
@@ -516,10 +522,11 @@ add address=91.192.160.0/24 list=GEO_IR comment=IR
 add address=91.194.6.0/24 list=GEO_IR comment=IR
 add address=91.195.37.0/24 list=GEO_IR comment=IR
 add address=91.197.242.0/24 list=GEO_IR comment=IR
+add address=91.198.29.0/24 list=GEO_IR comment=IR
 add address=91.198.110.0/24 list=GEO_IR comment=IR
 add address=91.199.9.0/24 list=GEO_IR comment=IR
 add address=91.199.14.0/24 list=GEO_IR comment=IR
-add address=91.199.18.0/24 list=GEO_IR comment=IR
+add address=91.199.18.0/23 list=GEO_IR comment=IR
 add address=91.199.27.0/24 list=GEO_IR comment=IR
 add address=91.199.30.0/24 list=GEO_IR comment=IR
 add address=91.199.43.0/24 list=GEO_IR comment=IR
@@ -621,7 +628,7 @@ add address=91.243.160.0/20 list=GEO_IR comment=IR
 add address=91.244.120.0/22 list=GEO_IR comment=IR
 add address=91.245.228.0/22 list=GEO_IR comment=IR
 add address=91.246.31.0/24 list=GEO_IR comment=IR
-add address=91.246.44.0/24 list=GEO_IR comment=IR
+add address=91.246.44.0/23 list=GEO_IR comment=IR
 add address=91.247.66.0/23 list=GEO_IR comment=IR
 add address=91.247.171.0/24 list=GEO_IR comment=IR
 add address=91.247.174.0/24 list=GEO_IR comment=IR
@@ -633,6 +640,7 @@ add address=92.42.202.0/23 list=GEO_IR comment=IR
 add address=92.42.205.0/24 list=GEO_IR comment=IR
 add address=92.42.207.0/24 list=GEO_IR comment=IR
 add address=92.43.160.0/22 list=GEO_IR comment=IR
+add address=92.51.56.0/21 list=GEO_IR comment=IR
 add address=92.61.176.0/20 list=GEO_IR comment=IR
 add address=92.114.16.0/20 list=GEO_IR comment=IR
 add address=92.114.48.0/22 list=GEO_IR comment=IR
@@ -676,6 +684,7 @@ add address=94.74.128.0/18 list=GEO_IR comment=IR
 add address=94.101.128.0/20 list=GEO_IR comment=IR
 add address=94.101.176.0/20 list=GEO_IR comment=IR
 add address=94.101.240.0/20 list=GEO_IR comment=IR
+add address=94.127.17.0/24 list=GEO_IR comment=IR
 add address=94.139.160.0/19 list=GEO_IR comment=IR
 add address=94.176.8.0/21 list=GEO_IR comment=IR
 add address=94.176.32.0/21 list=GEO_IR comment=IR
@@ -717,6 +726,7 @@ add address=103.215.220.0/22 list=GEO_IR comment=IR
 add address=103.216.60.0/22 list=GEO_IR comment=IR
 add address=103.217.124.0/22 list=GEO_IR comment=IR
 add address=103.231.136.0/22 list=GEO_IR comment=IR
+add address=109.68.217.0/24 list=GEO_IR comment=IR
 add address=109.70.73.0/24 list=GEO_IR comment=IR
 add address=109.70.74.0/24 list=GEO_IR comment=IR
 add address=109.70.76.0/23 list=GEO_IR comment=IR
@@ -1184,6 +1194,7 @@ add address=185.155.8.0/21 list=GEO_IR comment=IR
 add address=185.155.72.0/23 list=GEO_IR comment=IR
 add address=185.155.229.0/24 list=GEO_IR comment=IR
 add address=185.155.236.0/22 list=GEO_IR comment=IR
+add address=185.156.51.0/24 list=GEO_IR comment=IR
 add address=185.157.8.0/22 list=GEO_IR comment=IR
 add address=185.158.172.0/22 list=GEO_IR comment=IR
 add address=185.159.152.0/22 list=GEO_IR comment=IR
@@ -1198,12 +1209,14 @@ add address=185.161.121.0/24 list=GEO_IR comment=IR
 add address=185.161.250.0/24 list=GEO_IR comment=IR
 add address=185.162.40.0/22 list=GEO_IR comment=IR
 add address=185.162.216.0/22 list=GEO_IR comment=IR
+add address=185.163.216.0/22 list=GEO_IR comment=IR
 add address=185.164.72.0/22 list=GEO_IR comment=IR
 add address=185.164.252.0/22 list=GEO_IR comment=IR
 add address=185.165.28.0/22 list=GEO_IR comment=IR
 add address=185.165.40.0/22 list=GEO_IR comment=IR
 add address=185.165.116.0/22 list=GEO_IR comment=IR
 add address=185.165.204.0/22 list=GEO_IR comment=IR
+add address=185.166.3.0/24 list=GEO_IR comment=IR
 add address=185.166.60.0/22 list=GEO_IR comment=IR
 add address=185.166.92.0/24 list=GEO_IR comment=IR
 add address=185.166.104.0/22 list=GEO_IR comment=IR
@@ -1219,6 +1232,7 @@ add address=185.170.236.0/22 list=GEO_IR comment=IR
 add address=185.171.52.0/22 list=GEO_IR comment=IR
 add address=185.172.0.0/22 list=GEO_IR comment=IR
 add address=185.172.68.0/22 list=GEO_IR comment=IR
+add address=185.172.72.0/22 list=GEO_IR comment=IR
 add address=185.172.212.0/22 list=GEO_IR comment=IR
 add address=185.173.104.0/22 list=GEO_IR comment=IR
 add address=185.173.129.0/24 list=GEO_IR comment=IR
@@ -1274,6 +1288,8 @@ add address=185.199.64.0/22 list=GEO_IR comment=IR
 add address=185.199.208.0/24 list=GEO_IR comment=IR
 add address=185.199.210.0/23 list=GEO_IR comment=IR
 add address=185.201.48.0/22 list=GEO_IR comment=IR
+add address=185.201.221.0/24 list=GEO_IR comment=IR
+add address=185.201.223.0/24 list=GEO_IR comment=IR
 add address=185.202.56.0/22 list=GEO_IR comment=IR
 add address=185.203.160.0/22 list=GEO_IR comment=IR
 add address=185.204.180.0/22 list=GEO_IR comment=IR
@@ -1299,6 +1315,7 @@ add address=185.212.192.0/22 list=GEO_IR comment=IR
 add address=185.213.8.0/22 list=GEO_IR comment=IR
 add address=185.213.164.0/22 list=GEO_IR comment=IR
 add address=185.213.195.0/24 list=GEO_IR comment=IR
+add address=185.213.200.0/22 list=GEO_IR comment=IR
 add address=185.214.36.0/22 list=GEO_IR comment=IR
 add address=185.215.124.0/22 list=GEO_IR comment=IR
 add address=185.215.152.0/22 list=GEO_IR comment=IR
@@ -1374,6 +1391,7 @@ add address=185.252.28.0/22 list=GEO_IR comment=IR
 add address=185.252.84.0/23 list=GEO_IR comment=IR
 add address=185.252.86.0/24 list=GEO_IR comment=IR
 add address=185.252.200.0/24 list=GEO_IR comment=IR
+add address=185.254.108.0/22 list=GEO_IR comment=IR
 add address=185.254.165.0/24 list=GEO_IR comment=IR
 add address=185.254.166.0/24 list=GEO_IR comment=IR
 add address=185.255.88.0/22 list=GEO_IR comment=IR
@@ -1471,7 +1489,7 @@ add address=193.22.20.0/24 list=GEO_IR comment=IR
 add address=193.24.103.0/24 list=GEO_IR comment=IR
 add address=193.24.105.0/24 list=GEO_IR comment=IR
 add address=193.24.118.0/24 list=GEO_IR comment=IR
-add address=193.24.120.0/23 list=GEO_IR comment=IR
+add address=193.24.120.0/24 list=GEO_IR comment=IR
 add address=193.27.9.0/24 list=GEO_IR comment=IR
 add address=193.28.181.0/24 list=GEO_IR comment=IR
 add address=193.29.50.0/24 list=GEO_IR comment=IR
@@ -1501,7 +1519,9 @@ add address=193.104.29.0/24 list=GEO_IR comment=IR
 add address=193.104.212.0/24 list=GEO_IR comment=IR
 add address=193.105.2.0/24 list=GEO_IR comment=IR
 add address=193.105.6.0/24 list=GEO_IR comment=IR
+add address=193.105.153.0/24 list=GEO_IR comment=IR
 add address=193.105.234.0/24 list=GEO_IR comment=IR
+add address=193.105.253.0/24 list=GEO_IR comment=IR
 add address=193.106.190.0/24 list=GEO_IR comment=IR
 add address=193.107.44.0/24 list=GEO_IR comment=IR
 add address=193.107.48.0/24 list=GEO_IR comment=IR
@@ -1518,6 +1538,7 @@ add address=193.148.64.0/22 list=GEO_IR comment=IR
 add address=193.150.66.0/24 list=GEO_IR comment=IR
 add address=193.151.128.0/19 list=GEO_IR comment=IR
 add address=193.162.129.0/24 list=GEO_IR comment=IR
+add address=193.163.73.0/24 list=GEO_IR comment=IR
 add address=193.176.97.0/24 list=GEO_IR comment=IR
 add address=193.176.240.0/22 list=GEO_IR comment=IR
 add address=193.177.242.0/24 list=GEO_IR comment=IR
@@ -1573,6 +1594,7 @@ add address=194.39.36.0/22 list=GEO_IR comment=IR
 add address=194.39.248.0/24 list=GEO_IR comment=IR
 add address=194.39.254.0/24 list=GEO_IR comment=IR
 add address=194.41.48.0/22 list=GEO_IR comment=IR
+add address=194.48.197.0/24 list=GEO_IR comment=IR
 add address=194.48.198.0/24 list=GEO_IR comment=IR
 add address=194.50.42.0/24 list=GEO_IR comment=IR
 add address=194.50.204.0/24 list=GEO_IR comment=IR
@@ -1593,6 +1615,7 @@ add address=194.88.232.0/24 list=GEO_IR comment=IR
 add address=194.107.116.0/24 list=GEO_IR comment=IR
 add address=194.110.24.0/24 list=GEO_IR comment=IR
 add address=194.110.118.0/24 list=GEO_IR comment=IR
+add address=194.113.116.0/24 list=GEO_IR comment=IR
 add address=194.117.64.0/24 list=GEO_IR comment=IR
 add address=194.117.82.0/24 list=GEO_IR comment=IR
 add address=194.143.140.0/23 list=GEO_IR comment=IR
@@ -1642,6 +1665,7 @@ add address=195.110.38.0/23 list=GEO_IR comment=IR
 add address=195.114.4.0/23 list=GEO_IR comment=IR
 add address=195.114.8.0/23 list=GEO_IR comment=IR
 add address=195.137.167.0/24 list=GEO_IR comment=IR
+add address=195.140.218.0/24 list=GEO_IR comment=IR
 add address=195.146.32.0/19 list=GEO_IR comment=IR
 add address=195.149.127.0/24 list=GEO_IR comment=IR
 add address=195.158.230.0/24 list=GEO_IR comment=IR
@@ -1675,6 +1699,7 @@ add address=195.254.165.0/24 list=GEO_IR comment=IR
 add address=196.3.91.0/24 list=GEO_IR comment=IR
 add address=204.18.0.0/16 list=GEO_IR comment=IR
 add address=212.1.192.0/21 list=GEO_IR comment=IR
+add address=212.6.33.0/24 list=GEO_IR comment=IR
 add address=212.16.64.0/19 list=GEO_IR comment=IR
 add address=212.23.201.0/24 list=GEO_IR comment=IR
 add address=212.23.214.0/24 list=GEO_IR comment=IR

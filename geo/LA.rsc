@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LA
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: LA | Subnets: 61 (was 61, collapsed 0) | IPs: ~90,688
+# Countries: LA | Subnets: 62 (was 62, collapsed 0) | IPs: ~98,880
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_LA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -44,6 +45,7 @@ add address=115.84.64.0/18 list=GEO_LA comment=LA
 add address=139.5.156.0/22 list=GEO_LA comment=LA
 add address=141.164.96.0/20 list=GEO_LA comment=LA
 add address=157.15.126.0/23 list=GEO_LA comment=LA
+add address=157.85.32.0/19 list=GEO_LA comment=LA
 add address=157.119.180.0/22 list=GEO_LA comment=LA
 add address=160.22.40.0/23 list=GEO_LA comment=LA
 add address=160.187.128.0/23 list=GEO_LA comment=LA

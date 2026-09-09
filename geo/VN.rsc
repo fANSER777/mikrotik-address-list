@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VN
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VN | Subnets: 1252 (was 1648, collapsed 396) | IPs: ~16,490,240
+# Countries: VN | Subnets: 1268 (was 1664, collapsed 396) | IPs: ~16,501,760
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_VN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -11,7 +12,6 @@ add address=14.0.16.0/20 list=GEO_VN comment=VN
 add address=14.160.0.0/11 list=GEO_VN comment=VN
 add address=14.224.0.0/11 list=GEO_VN comment=VN
 add address=23.128.180.0/24 list=GEO_VN comment=VN
-add address=23.129.148.0/24 list=GEO_VN comment=VN
 add address=23.129.172.0/24 list=GEO_VN comment=VN
 add address=23.129.204.0/24 list=GEO_VN comment=VN
 add address=23.132.36.0/24 list=GEO_VN comment=VN
@@ -92,6 +92,7 @@ add address=61.14.232.0/21 list=GEO_VN comment=VN
 add address=61.28.224.0/19 list=GEO_VN comment=VN
 add address=64.239.24.0/22 list=GEO_VN comment=VN
 add address=79.108.216.0/21 list=GEO_VN comment=VN
+add address=85.155.16.0/20 list=GEO_VN comment=VN
 add address=101.53.0.0/18 list=GEO_VN comment=VN
 add address=101.96.12.0/22 list=GEO_VN comment=VN
 add address=101.96.64.0/18 list=GEO_VN comment=VN
@@ -1046,6 +1047,12 @@ add address=160.191.236.0/23 list=GEO_VN comment=VN
 add address=160.191.240.0/22 list=GEO_VN comment=VN
 add address=160.191.244.0/23 list=GEO_VN comment=VN
 add address=160.191.248.0/21 list=GEO_VN comment=VN
+add address=160.236.130.0/23 list=GEO_VN comment=VN
+add address=160.236.140.0/23 list=GEO_VN comment=VN
+add address=160.236.190.0/23 list=GEO_VN comment=VN
+add address=160.236.192.0/23 list=GEO_VN comment=VN
+add address=160.236.196.0/23 list=GEO_VN comment=VN
+add address=160.236.244.0/23 list=GEO_VN comment=VN
 add address=160.250.0.0/22 list=GEO_VN comment=VN
 add address=160.250.4.0/23 list=GEO_VN comment=VN
 add address=160.250.26.0/23 list=GEO_VN comment=VN
@@ -1086,10 +1093,20 @@ add address=161.248.208.0/22 list=GEO_VN comment=VN
 add address=161.248.212.0/23 list=GEO_VN comment=VN
 add address=161.248.236.0/22 list=GEO_VN comment=VN
 add address=162.4.8.0/23 list=GEO_VN comment=VN
+add address=162.4.138.0/23 list=GEO_VN comment=VN
+add address=162.4.160.0/23 list=GEO_VN comment=VN
+add address=162.4.176.0/23 list=GEO_VN comment=VN
+add address=162.4.200.0/23 list=GEO_VN comment=VN
 add address=163.44.192.0/22 list=GEO_VN comment=VN
 add address=163.44.200.0/24 list=GEO_VN comment=VN
 add address=163.44.204.0/22 list=GEO_VN comment=VN
 add address=163.47.30.0/23 list=GEO_VN comment=VN
+add address=163.52.6.0/23 list=GEO_VN comment=VN
+add address=163.52.14.0/23 list=GEO_VN comment=VN
+add address=163.52.58.0/23 list=GEO_VN comment=VN
+add address=163.52.114.0/23 list=GEO_VN comment=VN
+add address=163.52.139.0/24 list=GEO_VN comment=VN
+add address=163.52.144.0/24 list=GEO_VN comment=VN
 add address=163.61.68.0/22 list=GEO_VN comment=VN
 add address=163.61.72.0/22 list=GEO_VN comment=VN
 add address=163.61.108.0/22 list=GEO_VN comment=VN

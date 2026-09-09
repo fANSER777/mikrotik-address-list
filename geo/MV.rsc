@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MV
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MV | Subnets: 45 (was 47, collapsed 2) | IPs: ~93,952
+# Countries: MV | Subnets: 44 (was 46, collapsed 2) | IPs: ~93,952
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MV and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -19,7 +20,6 @@ add address=103.19.224.0/22 list=GEO_MV comment=MV
 add address=103.31.84.0/22 list=GEO_MV comment=MV
 add address=103.50.104.0/22 list=GEO_MV comment=MV
 add address=103.55.161.0/24 list=GEO_MV comment=MV
-add address=103.67.26.0/24 list=GEO_MV comment=MV
 add address=103.71.57.0/24 list=GEO_MV comment=MV
 add address=103.76.2.0/24 list=GEO_MV comment=MV
 add address=103.84.132.0/24 list=GEO_MV comment=MV
@@ -29,7 +29,6 @@ add address=103.110.40.0/24 list=GEO_MV comment=MV
 add address=103.110.109.0/24 list=GEO_MV comment=MV
 add address=103.110.110.0/23 list=GEO_MV comment=MV
 add address=103.119.75.0/24 list=GEO_MV comment=MV
-add address=103.141.98.0/24 list=GEO_MV comment=MV
 add address=103.143.252.0/24 list=GEO_MV comment=MV
 add address=103.172.31.0/24 list=GEO_MV comment=MV
 add address=103.173.79.0/24 list=GEO_MV comment=MV
@@ -42,6 +41,7 @@ add address=123.176.0.0/19 list=GEO_MV comment=MV
 add address=124.195.192.0/19 list=GEO_MV comment=MV
 add address=150.107.196.0/22 list=GEO_MV comment=MV
 add address=151.158.209.0/24 list=GEO_MV comment=MV
+add address=160.236.208.0/23 list=GEO_MV comment=MV
 add address=185.215.32.0/22 list=GEO_MV comment=MV
 add address=202.1.192.0/20 list=GEO_MV comment=MV
 add address=202.21.176.0/20 list=GEO_MV comment=MV

@@ -1,14 +1,15 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GU
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GU | Subnets: 27 (was 29, collapsed 2) | IPs: ~219,392
+# Countries: GU | Subnets: 27 (was 29, collapsed 2) | IPs: ~218,624
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_GU and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.240.88.0/22 list=GEO_GU comment=GU
 add address=43.247.60.0/22 list=GEO_GU comment=GU
-add address=49.128.104.0/22 list=GEO_GU comment=GU
+add address=49.128.107.0/24 list=GEO_GU comment=GU
 add address=101.99.128.0/17 list=GEO_GU comment=GU
 add address=103.3.240.0/22 list=GEO_GU comment=GU
 add address=103.7.100.0/22 list=GEO_GU comment=GU

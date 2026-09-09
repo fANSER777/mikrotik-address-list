@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LU
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: LU | Subnets: 541 (was 557, collapsed 16) | IPs: ~1,858,048
+# Countries: LU | Subnets: 540 (was 556, collapsed 16) | IPs: ~1,848,320
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_LU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -17,7 +18,6 @@ add address=5.8.68.0/24 list=GEO_LU comment=LU
 add address=5.8.70.0/23 list=GEO_LU comment=LU
 add address=5.8.92.0/22 list=GEO_LU comment=LU
 add address=5.45.184.0/22 list=GEO_LU comment=LU
-add address=5.63.128.0/21 list=GEO_LU comment=LU
 add address=5.101.216.0/23 list=GEO_LU comment=LU
 add address=5.101.219.0/24 list=GEO_LU comment=LU
 add address=5.101.220.0/22 list=GEO_LU comment=LU
@@ -87,6 +87,7 @@ add address=45.146.96.0/22 list=GEO_LU comment=LU
 add address=45.147.160.0/23 list=GEO_LU comment=LU
 add address=45.158.140.0/22 list=GEO_LU comment=LU
 add address=46.29.176.0/21 list=GEO_LU comment=LU
+add address=46.174.130.0/23 list=GEO_LU comment=LU
 add address=62.62.0.0/17 list=GEO_LU comment=LU
 add address=62.112.216.0/21 list=GEO_LU comment=LU
 add address=62.182.176.0/21 list=GEO_LU comment=LU
@@ -302,7 +303,6 @@ add address=109.61.32.0/20 list=GEO_LU comment=LU
 add address=109.61.120.0/21 list=GEO_LU comment=LU
 add address=109.69.240.0/21 list=GEO_LU comment=LU
 add address=109.71.160.0/21 list=GEO_LU comment=LU
-add address=109.105.128.0/19 list=GEO_LU comment=LU
 add address=109.107.159.0/24 list=GEO_LU comment=LU
 add address=109.110.192.0/19 list=GEO_LU comment=LU
 add address=109.120.64.0/18 list=GEO_LU comment=LU
@@ -417,6 +417,7 @@ add address=185.188.144.0/22 list=GEO_LU comment=LU
 add address=185.194.92.0/22 list=GEO_LU comment=LU
 add address=185.197.96.0/22 list=GEO_LU comment=LU
 add address=185.199.248.0/22 list=GEO_LU comment=LU
+add address=185.201.220.0/24 list=GEO_LU comment=LU
 add address=185.202.92.0/22 list=GEO_LU comment=LU
 add address=185.202.248.0/22 list=GEO_LU comment=LU
 add address=185.211.232.0/22 list=GEO_LU comment=LU
@@ -462,7 +463,6 @@ add address=193.109.130.0/23 list=GEO_LU comment=LU
 add address=193.109.208.0/24 list=GEO_LU comment=LU
 add address=193.110.190.0/23 list=GEO_LU comment=LU
 add address=193.138.111.0/24 list=GEO_LU comment=LU
-add address=193.142.34.0/24 list=GEO_LU comment=LU
 add address=193.142.214.0/24 list=GEO_LU comment=LU
 add address=193.168.1.0/24 list=GEO_LU comment=LU
 add address=193.168.2.0/24 list=GEO_LU comment=LU

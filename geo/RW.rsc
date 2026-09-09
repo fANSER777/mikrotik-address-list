@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RW
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RW | Subnets: 31 (was 31, collapsed 0) | IPs: ~282,112
+# Countries: RW | Subnets: 33 (was 33, collapsed 0) | IPs: ~283,392
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_RW and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -14,6 +15,8 @@ add address=41.222.244.0/22 list=GEO_RW comment=RW
 add address=41.242.140.0/22 list=GEO_RW comment=RW
 add address=102.22.128.0/18 list=GEO_RW comment=RW
 add address=102.130.32.0/21 list=GEO_RW comment=RW
+add address=102.202.79.0/24 list=GEO_RW comment=RW
+add address=102.202.96.0/22 list=GEO_RW comment=RW
 add address=102.202.188.0/24 list=GEO_RW comment=RW
 add address=102.202.208.0/22 list=GEO_RW comment=RW
 add address=102.207.48.0/24 list=GEO_RW comment=RW

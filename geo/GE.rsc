@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GE
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GE | Subnets: 314 (was 334, collapsed 20) | IPs: ~1,311,040
+# Countries: GE | Subnets: 316 (was 336, collapsed 20) | IPs: ~1,307,200
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_GE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -42,7 +43,6 @@ add address=45.8.36.0/22 list=GEO_GE comment=GE
 add address=45.9.32.0/22 list=GEO_GE comment=GE
 add address=45.9.44.0/22 list=GEO_GE comment=GE
 add address=45.11.188.0/22 list=GEO_GE comment=GE
-add address=45.13.40.0/22 list=GEO_GE comment=GE
 add address=45.65.112.0/22 list=GEO_GE comment=GE
 add address=45.67.14.0/24 list=GEO_GE comment=GE
 add address=45.81.28.0/22 list=GEO_GE comment=GE
@@ -67,7 +67,7 @@ add address=62.168.160.0/19 list=GEO_GE comment=GE
 add address=62.212.32.0/19 list=GEO_GE comment=GE
 add address=62.233.61.0/24 list=GEO_GE comment=GE
 add address=77.74.40.0/21 list=GEO_GE comment=GE
-add address=77.91.64.0/20 list=GEO_GE comment=GE
+add address=77.91.76.0/23 list=GEO_GE comment=GE
 add address=77.91.96.0/19 list=GEO_GE comment=GE
 add address=77.92.224.0/19 list=GEO_GE comment=GE
 add address=77.242.48.0/20 list=GEO_GE comment=GE
@@ -85,9 +85,11 @@ add address=81.16.240.0/20 list=GEO_GE comment=GE
 add address=81.95.160.0/20 list=GEO_GE comment=GE
 add address=82.211.128.0/18 list=GEO_GE comment=GE
 add address=84.38.245.0/24 list=GEO_GE comment=GE
+add address=85.8.213.0/24 list=GEO_GE comment=GE
 add address=85.114.224.0/19 list=GEO_GE comment=GE
 add address=85.117.32.0/19 list=GEO_GE comment=GE
 add address=85.118.96.0/19 list=GEO_GE comment=GE
+add address=85.137.81.0/24 list=GEO_GE comment=GE
 add address=85.209.80.0/22 list=GEO_GE comment=GE
 add address=85.238.32.0/19 list=GEO_GE comment=GE
 add address=87.253.32.0/19 list=GEO_GE comment=GE
@@ -152,6 +154,7 @@ add address=107.150.164.0/24 list=GEO_GE comment=GE
 add address=107.150.171.0/24 list=GEO_GE comment=GE
 add address=107.150.175.0/24 list=GEO_GE comment=GE
 add address=107.150.177.0/24 list=GEO_GE comment=GE
+add address=109.68.223.0/24 list=GEO_GE comment=GE
 add address=109.172.128.0/17 list=GEO_GE comment=GE
 add address=109.205.40.0/21 list=GEO_GE comment=GE
 add address=109.234.112.0/21 list=GEO_GE comment=GE

@@ -1,11 +1,16 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DO
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DO | Subnets: 139 (was 158, collapsed 19) | IPs: ~1,617,920
+# Countries: DO | Subnets: 148 (was 167, collapsed 19) | IPs: ~1,623,296
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_DO and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.6.0/23 list=GEO_DO comment=DO
+add address=2.152.32.0/24 list=GEO_DO comment=DO
+add address=2.152.58.0/23 list=GEO_DO comment=DO
+add address=2.152.60.0/22 list=GEO_DO comment=DO
 add address=5.183.80.0/22 list=GEO_DO comment=DO
 add address=24.152.48.0/22 list=GEO_DO comment=DO
 add address=45.5.8.0/22 list=GEO_DO comment=DO
@@ -24,6 +29,8 @@ add address=45.176.84.0/23 list=GEO_DO comment=DO
 add address=45.176.92.0/22 list=GEO_DO comment=DO
 add address=45.176.96.0/22 list=GEO_DO comment=DO
 add address=45.177.0.0/22 list=GEO_DO comment=DO
+add address=45.182.190.0/23 list=GEO_DO comment=DO
+add address=45.183.40.0/24 list=GEO_DO comment=DO
 add address=45.183.120.0/23 list=GEO_DO comment=DO
 add address=45.184.132.0/22 list=GEO_DO comment=DO
 add address=45.186.12.0/22 list=GEO_DO comment=DO
@@ -49,6 +56,7 @@ add address=131.221.4.0/22 list=GEO_DO comment=DO
 add address=138.36.24.0/22 list=GEO_DO comment=DO
 add address=138.97.248.0/22 list=GEO_DO comment=DO
 add address=138.99.236.0/22 list=GEO_DO comment=DO
+add address=138.185.28.0/22 list=GEO_DO comment=DO
 add address=138.255.248.0/22 list=GEO_DO comment=DO
 add address=143.137.80.0/22 list=GEO_DO comment=DO
 add address=143.208.164.0/22 list=GEO_DO comment=DO
@@ -142,6 +150,8 @@ add address=201.46.116.0/22 list=GEO_DO comment=DO
 add address=201.49.186.0/23 list=GEO_DO comment=DO
 add address=201.131.50.0/24 list=GEO_DO comment=DO
 add address=201.131.107.0/24 list=GEO_DO comment=DO
+add address=201.131.112.0/24 list=GEO_DO comment=DO
 add address=201.221.126.0/24 list=GEO_DO comment=DO
 add address=201.229.128.0/17 list=GEO_DO comment=DO
 add address=204.126.128.0/23 list=GEO_DO comment=DO
+add address=205.233.76.0/22 list=GEO_DO comment=DO

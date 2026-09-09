@@ -1,11 +1,13 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KM
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KM | Subnets: 5 (was 5, collapsed 0) | IPs: ~7,424
+# Countries: KM | Subnets: 6 (was 6, collapsed 0) | IPs: ~8,448
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KM and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=102.202.32.0/22 list=GEO_KM comment=KM
 add address=102.204.47.0/24 list=GEO_KM comment=KM
 add address=102.207.176.0/22 list=GEO_KM comment=KM
 add address=102.223.120.0/22 list=GEO_KM comment=KM

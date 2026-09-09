@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BI
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BI | Subnets: 13 (was 13, collapsed 0) | IPs: ~36,864
+# Countries: BI | Subnets: 12 (was 12, collapsed 0) | IPs: ~36,608
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_BI and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -16,6 +17,5 @@ add address=154.119.0.0/19 list=GEO_BI comment=BI
 add address=196.2.8.0/21 list=GEO_BI comment=BI
 add address=196.13.223.0/24 list=GEO_BI comment=BI
 add address=196.49.3.0/24 list=GEO_BI comment=BI
-add address=196.223.3.0/24 list=GEO_BI comment=BI
 add address=196.223.36.0/24 list=GEO_BI comment=BI
 add address=197.157.192.0/22 list=GEO_BI comment=BI

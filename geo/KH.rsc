@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KH
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KH | Subnets: 274 (was 285, collapsed 11) | IPs: ~499,456
+# Countries: KH | Subnets: 271 (was 282, collapsed 11) | IPs: ~439,808
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -40,7 +41,8 @@ add address=49.156.32.0/20 list=GEO_KH comment=KH
 add address=58.97.192.0/19 list=GEO_KH comment=KH
 add address=58.97.224.0/21 list=GEO_KH comment=KH
 add address=69.194.192.0/20 list=GEO_KH comment=KH
-add address=79.109.0.0/16 list=GEO_KH comment=KH
+add address=79.109.1.0/24 list=GEO_KH comment=KH
+add address=79.109.224.0/19 list=GEO_KH comment=KH
 add address=87.247.160.0/21 list=GEO_KH comment=KH
 add address=96.9.64.0/19 list=GEO_KH comment=KH
 add address=103.3.28.0/22 list=GEO_KH comment=KH
@@ -72,7 +74,6 @@ add address=103.37.236.0/22 list=GEO_KH comment=KH
 add address=103.48.117.0/24 list=GEO_KH comment=KH
 add address=103.49.40.0/22 list=GEO_KH comment=KH
 add address=103.54.112.0/22 list=GEO_KH comment=KH
-add address=103.56.174.0/24 list=GEO_KH comment=KH
 add address=103.63.190.0/24 list=GEO_KH comment=KH
 add address=103.67.60.0/23 list=GEO_KH comment=KH
 add address=103.68.44.0/22 list=GEO_KH comment=KH
@@ -115,7 +116,6 @@ add address=103.136.176.0/22 list=GEO_KH comment=KH
 add address=103.138.52.0/24 list=GEO_KH comment=KH
 add address=103.138.84.0/23 list=GEO_KH comment=KH
 add address=103.138.192.0/23 list=GEO_KH comment=KH
-add address=103.138.225.0/24 list=GEO_KH comment=KH
 add address=103.139.16.0/23 list=GEO_KH comment=KH
 add address=103.139.20.0/23 list=GEO_KH comment=KH
 add address=103.140.236.0/23 list=GEO_KH comment=KH
@@ -131,7 +131,6 @@ add address=103.151.116.0/23 list=GEO_KH comment=KH
 add address=103.152.194.0/23 list=GEO_KH comment=KH
 add address=103.154.20.0/23 list=GEO_KH comment=KH
 add address=103.157.173.0/24 list=GEO_KH comment=KH
-add address=103.163.162.0/23 list=GEO_KH comment=KH
 add address=103.164.52.0/23 list=GEO_KH comment=KH
 add address=103.165.54.0/23 list=GEO_KH comment=KH
 add address=103.166.94.0/24 list=GEO_KH comment=KH
@@ -167,12 +166,10 @@ add address=103.241.100.0/22 list=GEO_KH comment=KH
 add address=103.242.56.0/22 list=GEO_KH comment=KH
 add address=103.244.248.0/22 list=GEO_KH comment=KH
 add address=103.245.76.0/22 list=GEO_KH comment=KH
-add address=103.246.228.0/22 list=GEO_KH comment=KH
 add address=103.248.40.0/22 list=GEO_KH comment=KH
 add address=103.249.69.0/24 list=GEO_KH comment=KH
 add address=103.250.122.0/23 list=GEO_KH comment=KH
 add address=103.253.180.0/22 list=GEO_KH comment=KH
-add address=103.255.116.0/22 list=GEO_KH comment=KH
 add address=110.74.192.0/19 list=GEO_KH comment=KH
 add address=110.235.220.0/22 list=GEO_KH comment=KH
 add address=110.235.240.0/20 list=GEO_KH comment=KH
@@ -218,6 +215,7 @@ add address=160.22.76.0/23 list=GEO_KH comment=KH
 add address=160.30.9.0/24 list=GEO_KH comment=KH
 add address=160.202.32.0/22 list=GEO_KH comment=KH
 add address=160.250.86.0/24 list=GEO_KH comment=KH
+add address=162.4.174.0/23 list=GEO_KH comment=KH
 add address=163.47.12.0/22 list=GEO_KH comment=KH
 add address=163.47.172.0/22 list=GEO_KH comment=KH
 add address=163.53.28.0/22 list=GEO_KH comment=KH

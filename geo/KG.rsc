@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KG
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KG | Subnets: 111 (was 121, collapsed 10) | IPs: ~285,952
+# Countries: KG | Subnets: 122 (was 132, collapsed 10) | IPs: ~300,032
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -20,6 +21,7 @@ add address=77.220.204.0/23 list=GEO_KG comment=KG
 add address=77.235.0.0/19 list=GEO_KG comment=KG
 add address=78.136.254.0/23 list=GEO_KG comment=KG
 add address=80.72.176.0/20 list=GEO_KG comment=KG
+add address=80.173.144.0/22 list=GEO_KG comment=KG
 add address=81.20.16.0/20 list=GEO_KG comment=KG
 add address=81.85.72.0/22 list=GEO_KG comment=KG
 add address=81.88.192.0/20 list=GEO_KG comment=KG
@@ -48,9 +50,17 @@ add address=109.71.224.0/21 list=GEO_KG comment=KG
 add address=109.201.160.0/19 list=GEO_KG comment=KG
 add address=131.222.133.0/24 list=GEO_KG comment=KG
 add address=139.28.28.0/22 list=GEO_KG comment=KG
+add address=141.133.134.0/23 list=GEO_KG comment=KG
+add address=141.133.142.0/23 list=GEO_KG comment=KG
+add address=141.133.144.0/20 list=GEO_KG comment=KG
+add address=141.133.160.0/21 list=GEO_KG comment=KG
+add address=141.133.168.0/22 list=GEO_KG comment=KG
 add address=146.19.220.0/24 list=GEO_KG comment=KG
 add address=158.181.0.0/19 list=GEO_KG comment=KG
 add address=158.181.128.0/17 list=GEO_KG comment=KG
+add address=168.113.216.0/21 list=GEO_KG comment=KG
+add address=168.113.228.0/23 list=GEO_KG comment=KG
+add address=168.113.230.0/24 list=GEO_KG comment=KG
 add address=176.123.224.0/19 list=GEO_KG comment=KG
 add address=176.126.164.0/22 list=GEO_KG comment=KG
 add address=178.216.208.0/21 list=GEO_KG comment=KG
@@ -78,6 +88,7 @@ add address=185.138.100.0/22 list=GEO_KG comment=KG
 add address=185.138.184.0/22 list=GEO_KG comment=KG
 add address=185.161.48.0/22 list=GEO_KG comment=KG
 add address=185.211.228.0/22 list=GEO_KG comment=KG
+add address=185.224.208.0/22 list=GEO_KG comment=KG
 add address=185.229.36.0/22 list=GEO_KG comment=KG
 add address=185.248.26.0/24 list=GEO_KG comment=KG
 add address=188.244.124.0/24 list=GEO_KG comment=KG
@@ -86,6 +97,7 @@ add address=193.36.95.0/24 list=GEO_KG comment=KG
 add address=193.106.48.0/22 list=GEO_KG comment=KG
 add address=193.151.226.0/24 list=GEO_KG comment=KG
 add address=193.176.239.0/24 list=GEO_KG comment=KG
+add address=194.1.132.0/22 list=GEO_KG comment=KG
 add address=194.56.214.0/24 list=GEO_KG comment=KG
 add address=194.76.192.0/24 list=GEO_KG comment=KG
 add address=194.76.217.0/24 list=GEO_KG comment=KG

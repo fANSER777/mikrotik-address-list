@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MD
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MD | Subnets: 412 (was 423, collapsed 11) | IPs: ~1,242,112
+# Countries: MD | Subnets: 412 (was 424, collapsed 12) | IPs: ~1,257,472
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MD and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -165,7 +166,6 @@ add address=91.242.64.0/18 list=GEO_MD comment=MD
 add address=91.242.229.0/24 list=GEO_MD comment=MD
 add address=91.250.245.0/24 list=GEO_MD comment=MD
 add address=92.43.164.0/23 list=GEO_MD comment=MD
-add address=92.51.56.0/21 list=GEO_MD comment=MD
 add address=92.114.128.0/17 list=GEO_MD comment=MD
 add address=92.115.0.0/16 list=GEO_MD comment=MD
 add address=92.249.25.0/24 list=GEO_MD comment=MD
@@ -219,12 +219,13 @@ add address=95.214.152.0/22 list=GEO_MD comment=MD
 add address=103.35.188.0/22 list=GEO_MD comment=MD
 add address=103.106.0.0/22 list=GEO_MD comment=MD
 add address=103.113.68.0/22 list=GEO_MD comment=MD
-add address=103.197.148.0/22 list=GEO_MD comment=MD
 add address=103.231.72.0/22 list=GEO_MD comment=MD
 add address=109.185.0.0/16 list=GEO_MD comment=MD
 add address=109.205.191.0/24 list=GEO_MD comment=MD
 add address=109.233.192.0/21 list=GEO_MD comment=MD
 add address=130.193.3.0/24 list=GEO_MD comment=MD
+add address=131.123.0.0/18 list=GEO_MD comment=MD
+add address=143.246.192.0/19 list=GEO_MD comment=MD
 add address=146.19.50.0/24 list=GEO_MD comment=MD
 add address=146.19.75.0/24 list=GEO_MD comment=MD
 add address=146.19.80.0/24 list=GEO_MD comment=MD
@@ -233,7 +234,6 @@ add address=146.19.228.0/24 list=GEO_MD comment=MD
 add address=147.78.20.0/22 list=GEO_MD comment=MD
 add address=149.3.184.0/21 list=GEO_MD comment=MD
 add address=149.154.184.0/22 list=GEO_MD comment=MD
-add address=153.51.160.0/19 list=GEO_MD comment=MD
 add address=159.253.124.0/22 list=GEO_MD comment=MD
 add address=171.22.52.0/22 list=GEO_MD comment=MD
 add address=176.120.64.0/22 list=GEO_MD comment=MD
@@ -249,7 +249,7 @@ add address=178.132.112.0/20 list=GEO_MD comment=MD
 add address=178.132.128.0/18 list=GEO_MD comment=MD
 add address=178.168.0.0/17 list=GEO_MD comment=MD
 add address=178.175.128.0/19 list=GEO_MD comment=MD
-add address=178.175.160.0/20 list=GEO_MD comment=MD
+add address=178.175.160.0/21 list=GEO_MD comment=MD
 add address=178.175.176.0/22 list=GEO_MD comment=MD
 add address=185.1.45.0/24 list=GEO_MD comment=MD
 add address=185.1.78.0/24 list=GEO_MD comment=MD
@@ -407,6 +407,7 @@ add address=195.211.48.0/24 list=GEO_MD comment=MD
 add address=195.216.156.0/22 list=GEO_MD comment=MD
 add address=195.216.248.0/24 list=GEO_MD comment=MD
 add address=195.226.210.0/24 list=GEO_MD comment=MD
+add address=206.15.48.0/20 list=GEO_MD comment=MD
 add address=212.0.192.0/19 list=GEO_MD comment=MD
 add address=212.6.48.0/24 list=GEO_MD comment=MD
 add address=212.28.64.0/19 list=GEO_MD comment=MD

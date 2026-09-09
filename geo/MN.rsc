@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MN
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MN | Subnets: 132 (was 135, collapsed 3) | IPs: ~182,528
+# Countries: MN | Subnets: 133 (was 136, collapsed 3) | IPs: ~181,504
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_MN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -16,7 +17,6 @@ add address=43.250.124.0/22 list=GEO_MN comment=MN
 add address=45.117.32.0/22 list=GEO_MN comment=MN
 add address=49.0.128.0/19 list=GEO_MN comment=MN
 add address=49.0.168.0/21 list=GEO_MN comment=MN
-add address=49.0.176.0/21 list=GEO_MN comment=MN
 add address=59.153.84.0/22 list=GEO_MN comment=MN
 add address=59.153.112.0/22 list=GEO_MN comment=MN
 add address=64.119.16.0/20 list=GEO_MN comment=MN
@@ -98,11 +98,13 @@ add address=157.10.38.0/23 list=GEO_MN comment=MN
 add address=157.15.6.0/23 list=GEO_MN comment=MN
 add address=160.22.210.0/23 list=GEO_MN comment=MN
 add address=160.187.40.0/23 list=GEO_MN comment=MN
+add address=160.236.248.0/23 list=GEO_MN comment=MN
 add address=160.250.66.0/24 list=GEO_MN comment=MN
 add address=161.248.104.0/24 list=GEO_MN comment=MN
 add address=161.248.142.0/23 list=GEO_MN comment=MN
 add address=161.248.150.0/23 list=GEO_MN comment=MN
 add address=161.248.252.0/23 list=GEO_MN comment=MN
+add address=162.4.128.0/23 list=GEO_MN comment=MN
 add address=163.128.4.0/23 list=GEO_MN comment=MN
 add address=165.101.83.0/24 list=GEO_MN comment=MN
 add address=180.149.64.0/18 list=GEO_MN comment=MN

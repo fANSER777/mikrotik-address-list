@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HU
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: HU | Subnets: 651 (was 915, collapsed 264) | IPs: ~5,924,864
+# Countries: HU | Subnets: 656 (was 920, collapsed 264) | IPs: ~5,922,048
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_HU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -89,6 +90,7 @@ add address=45.140.232.0/22 list=GEO_HU comment=HU
 add address=45.141.160.0/22 list=GEO_HU comment=HU
 add address=45.144.192.0/22 list=GEO_HU comment=HU
 add address=45.146.0.0/22 list=GEO_HU comment=HU
+add address=45.146.6.0/24 list=GEO_HU comment=HU
 add address=45.147.156.0/22 list=GEO_HU comment=HU
 add address=45.153.148.0/22 list=GEO_HU comment=HU
 add address=45.158.104.0/22 list=GEO_HU comment=HU
@@ -131,13 +133,13 @@ add address=78.108.16.0/20 list=GEO_HU comment=HU
 add address=78.131.0.0/17 list=GEO_HU comment=HU
 add address=78.139.0.0/18 list=GEO_HU comment=HU
 add address=78.142.204.0/22 list=GEO_HU comment=HU
-add address=78.153.96.0/19 list=GEO_HU comment=HU
 add address=79.120.128.0/17 list=GEO_HU comment=HU
 add address=79.121.0.0/17 list=GEO_HU comment=HU
 add address=79.122.0.0/17 list=GEO_HU comment=HU
 add address=79.139.56.0/21 list=GEO_HU comment=HU
 add address=79.171.128.0/20 list=GEO_HU comment=HU
 add address=79.172.192.0/18 list=GEO_HU comment=HU
+add address=80.47.192.0/20 list=GEO_HU comment=HU
 add address=80.64.64.0/20 list=GEO_HU comment=HU
 add address=80.68.151.0/24 list=GEO_HU comment=HU
 add address=80.77.112.0/20 list=GEO_HU comment=HU
@@ -169,6 +171,8 @@ add address=84.38.244.0/24 list=GEO_HU comment=HU
 add address=84.206.0.0/16 list=GEO_HU comment=HU
 add address=84.224.0.0/15 list=GEO_HU comment=HU
 add address=84.236.0.0/17 list=GEO_HU comment=HU
+add address=85.8.208.0/24 list=GEO_HU comment=HU
+add address=85.8.211.0/24 list=GEO_HU comment=HU
 add address=85.66.0.0/15 list=GEO_HU comment=HU
 add address=85.90.160.0/19 list=GEO_HU comment=HU
 add address=85.119.8.0/21 list=GEO_HU comment=HU
@@ -257,7 +261,7 @@ add address=92.249.128.0/17 list=GEO_HU comment=HU
 add address=93.88.192.0/21 list=GEO_HU comment=HU
 add address=93.89.160.0/20 list=GEO_HU comment=HU
 add address=93.92.56.0/21 list=GEO_HU comment=HU
-add address=93.180.128.0/23 list=GEO_HU comment=HU
+add address=93.180.128.0/24 list=GEO_HU comment=HU
 add address=93.180.130.0/24 list=GEO_HU comment=HU
 add address=93.189.112.0/21 list=GEO_HU comment=HU
 add address=93.190.0.0/21 list=GEO_HU comment=HU
@@ -367,6 +371,7 @@ add address=185.51.188.0/22 list=GEO_HU comment=HU
 add address=185.55.12.0/22 list=GEO_HU comment=HU
 add address=185.60.68.0/22 list=GEO_HU comment=HU
 add address=185.60.100.0/22 list=GEO_HU comment=HU
+add address=185.60.221.0/24 list=GEO_HU comment=HU
 add address=185.62.128.0/22 list=GEO_HU comment=HU
 add address=185.63.44.0/22 list=GEO_HU comment=HU
 add address=185.65.8.0/22 list=GEO_HU comment=HU
@@ -656,4 +661,5 @@ add address=217.144.54.0/23 list=GEO_HU comment=HU
 add address=217.144.56.0/21 list=GEO_HU comment=HU
 add address=217.150.128.0/20 list=GEO_HU comment=HU
 add address=217.173.32.0/20 list=GEO_HU comment=HU
+add address=217.180.20.0/23 list=GEO_HU comment=HU
 add address=217.197.176.0/20 list=GEO_HU comment=HU

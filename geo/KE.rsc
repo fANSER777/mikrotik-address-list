@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KE
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KE | Subnets: 346 (was 370, collapsed 24) | IPs: ~6,234,368
+# Countries: KE | Subnets: 370 (was 395, collapsed 25) | IPs: ~6,254,592
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_KE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -62,11 +63,36 @@ add address=102.164.52.0/22 list=GEO_KE comment=KE
 add address=102.164.56.0/21 list=GEO_KE comment=KE
 add address=102.166.0.0/15 list=GEO_KE comment=KE
 add address=102.176.180.0/22 list=GEO_KE comment=KE
+add address=102.201.84.0/22 list=GEO_KE comment=KE
+add address=102.201.92.0/22 list=GEO_KE comment=KE
+add address=102.201.98.0/24 list=GEO_KE comment=KE
+add address=102.201.104.0/22 list=GEO_KE comment=KE
+add address=102.201.110.0/24 list=GEO_KE comment=KE
+add address=102.201.124.0/22 list=GEO_KE comment=KE
+add address=102.201.132.0/22 list=GEO_KE comment=KE
+add address=102.201.136.0/22 list=GEO_KE comment=KE
+add address=102.201.144.0/21 list=GEO_KE comment=KE
+add address=102.201.152.0/22 list=GEO_KE comment=KE
+add address=102.201.168.0/23 list=GEO_KE comment=KE
+add address=102.201.194.0/23 list=GEO_KE comment=KE
+add address=102.201.196.0/22 list=GEO_KE comment=KE
+add address=102.201.211.0/24 list=GEO_KE comment=KE
+add address=102.201.240.0/22 list=GEO_KE comment=KE
+add address=102.201.248.0/22 list=GEO_KE comment=KE
+add address=102.202.6.0/24 list=GEO_KE comment=KE
+add address=102.202.12.0/22 list=GEO_KE comment=KE
+add address=102.202.40.0/22 list=GEO_KE comment=KE
+add address=102.202.48.0/22 list=GEO_KE comment=KE
+add address=102.202.68.0/23 list=GEO_KE comment=KE
+add address=102.202.77.0/24 list=GEO_KE comment=KE
+add address=102.202.116.0/22 list=GEO_KE comment=KE
 add address=102.202.148.0/22 list=GEO_KE comment=KE
+add address=102.202.154.0/24 list=GEO_KE comment=KE
 add address=102.202.189.0/24 list=GEO_KE comment=KE
 add address=102.203.2.0/23 list=GEO_KE comment=KE
 add address=102.203.44.0/22 list=GEO_KE comment=KE
 add address=102.203.64.0/21 list=GEO_KE comment=KE
+add address=102.203.72.0/22 list=GEO_KE comment=KE
 add address=102.203.84.0/23 list=GEO_KE comment=KE
 add address=102.203.100.0/22 list=GEO_KE comment=KE
 add address=102.203.112.0/24 list=GEO_KE comment=KE
@@ -247,7 +273,6 @@ add address=102.222.144.0/22 list=GEO_KE comment=KE
 add address=102.222.220.0/22 list=GEO_KE comment=KE
 add address=102.223.32.0/22 list=GEO_KE comment=KE
 add address=102.223.84.0/22 list=GEO_KE comment=KE
-add address=102.223.204.0/23 list=GEO_KE comment=KE
 add address=105.48.0.0/12 list=GEO_KE comment=KE
 add address=105.160.0.0/13 list=GEO_KE comment=KE
 add address=105.230.0.0/15 list=GEO_KE comment=KE
@@ -270,7 +295,6 @@ add address=194.9.82.0/23 list=GEO_KE comment=KE
 add address=195.202.64.0/19 list=GEO_KE comment=KE
 add address=196.1.4.0/24 list=GEO_KE comment=KE
 add address=196.1.116.0/23 list=GEO_KE comment=KE
-add address=196.1.131.0/24 list=GEO_KE comment=KE
 add address=196.1.132.0/24 list=GEO_KE comment=KE
 add address=196.3.58.0/23 list=GEO_KE comment=KE
 add address=196.6.202.0/23 list=GEO_KE comment=KE
@@ -315,6 +339,7 @@ add address=196.60.80.0/24 list=GEO_KE comment=KE
 add address=196.60.114.0/24 list=GEO_KE comment=KE
 add address=196.60.124.0/24 list=GEO_KE comment=KE
 add address=196.60.162.0/23 list=GEO_KE comment=KE
+add address=196.60.168.0/23 list=GEO_KE comment=KE
 add address=196.61.52.0/22 list=GEO_KE comment=KE
 add address=196.96.0.0/12 list=GEO_KE comment=KE
 add address=196.192.124.0/24 list=GEO_KE comment=KE

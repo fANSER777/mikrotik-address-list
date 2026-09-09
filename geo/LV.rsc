@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LV
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: LV | Subnets: 431 (was 455, collapsed 24) | IPs: ~1,851,392
+# Countries: LV | Subnets: 432 (was 456, collapsed 24) | IPs: ~1,850,624
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_LV and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -24,7 +25,6 @@ add address=37.148.168.0/21 list=GEO_LV comment=LV
 add address=37.203.32.0/21 list=GEO_LV comment=LV
 add address=45.11.192.0/22 list=GEO_LV comment=LV
 add address=45.13.96.0/22 list=GEO_LV comment=LV
-add address=45.65.124.0/22 list=GEO_LV comment=LV
 add address=45.80.52.0/22 list=GEO_LV comment=LV
 add address=45.93.23.0/24 list=GEO_LV comment=LV
 add address=45.95.80.0/22 list=GEO_LV comment=LV
@@ -103,6 +103,7 @@ add address=88.135.128.0/19 list=GEO_LV comment=LV
 add address=89.18.192.0/19 list=GEO_LV comment=LV
 add address=89.107.10.0/24 list=GEO_LV comment=LV
 add address=89.111.0.0/18 list=GEO_LV comment=LV
+add address=89.124.254.0/23 list=GEO_LV comment=LV
 add address=89.191.96.0/19 list=GEO_LV comment=LV
 add address=89.200.232.0/21 list=GEO_LV comment=LV
 add address=89.201.0.0/17 list=GEO_LV comment=LV
@@ -134,6 +135,7 @@ add address=91.200.178.0/24 list=GEO_LV comment=LV
 add address=91.201.12.0/22 list=GEO_LV comment=LV
 add address=91.203.68.0/22 list=GEO_LV comment=LV
 add address=91.204.64.0/22 list=GEO_LV comment=LV
+add address=91.209.14.0/24 list=GEO_LV comment=LV
 add address=91.211.136.0/22 list=GEO_LV comment=LV
 add address=91.212.63.0/24 list=GEO_LV comment=LV
 add address=91.213.105.0/24 list=GEO_LV comment=LV
@@ -217,6 +219,7 @@ add address=178.216.16.0/21 list=GEO_LV comment=LV
 add address=178.236.192.0/22 list=GEO_LV comment=LV
 add address=178.249.32.0/21 list=GEO_LV comment=LV
 add address=178.250.184.0/21 list=GEO_LV comment=LV
+add address=185.1.202.0/23 list=GEO_LV comment=LV
 add address=185.1.236.0/24 list=GEO_LV comment=LV
 add address=185.3.148.0/22 list=GEO_LV comment=LV
 add address=185.7.236.0/22 list=GEO_LV comment=LV
@@ -277,7 +280,6 @@ add address=185.208.112.0/22 list=GEO_LV comment=LV
 add address=185.209.0.0/22 list=GEO_LV comment=LV
 add address=185.209.144.0/22 list=GEO_LV comment=LV
 add address=185.211.96.0/22 list=GEO_LV comment=LV
-add address=185.213.200.0/22 list=GEO_LV comment=LV
 add address=185.219.156.0/22 list=GEO_LV comment=LV
 add address=185.220.92.0/22 list=GEO_LV comment=LV
 add address=185.220.116.0/22 list=GEO_LV comment=LV

@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AM
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AM | Subnets: 187 (was 197, collapsed 10) | IPs: ~648,736
+# Countries: AM | Subnets: 198 (was 208, collapsed 10) | IPs: ~667,936
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -47,6 +48,8 @@ add address=78.109.64.0/20 list=GEO_AM comment=AM
 add address=80.72.16.0/21 list=GEO_AM comment=AM
 add address=80.72.24.0/22 list=GEO_AM comment=AM
 add address=80.86.224.0/20 list=GEO_AM comment=AM
+add address=80.173.118.0/23 list=GEO_AM comment=AM
+add address=80.173.175.0/24 list=GEO_AM comment=AM
 add address=81.16.0.0/20 list=GEO_AM comment=AM
 add address=81.89.208.0/20 list=GEO_AM comment=AM
 add address=82.199.192.0/20 list=GEO_AM comment=AM
@@ -60,7 +63,6 @@ add address=89.249.192.0/20 list=GEO_AM comment=AM
 add address=91.103.24.0/21 list=GEO_AM comment=AM
 add address=91.103.56.0/21 list=GEO_AM comment=AM
 add address=91.103.248.0/22 list=GEO_AM comment=AM
-add address=91.108.187.0/24 list=GEO_AM comment=AM
 add address=91.193.43.0/24 list=GEO_AM comment=AM
 add address=91.195.110.0/23 list=GEO_AM comment=AM
 add address=91.195.254.0/23 list=GEO_AM comment=AM
@@ -106,9 +108,18 @@ add address=109.68.120.0/21 list=GEO_AM comment=AM
 add address=109.75.32.0/20 list=GEO_AM comment=AM
 add address=130.193.27.0/24 list=GEO_AM comment=AM
 add address=130.193.120.0/21 list=GEO_AM comment=AM
-add address=132.243.176.0/20 list=GEO_AM comment=AM
+add address=132.243.185.0/24 list=GEO_AM comment=AM
+add address=132.243.186.0/23 list=GEO_AM comment=AM
+add address=132.243.188.0/22 list=GEO_AM comment=AM
 add address=141.136.64.0/19 list=GEO_AM comment=AM
 add address=146.19.140.0/24 list=GEO_AM comment=AM
+add address=148.52.128.0/19 list=GEO_AM comment=AM
+add address=150.251.46.0/23 list=GEO_AM comment=AM
+add address=157.228.64.0/19 list=GEO_AM comment=AM
+add address=157.228.97.0/24 list=GEO_AM comment=AM
+add address=157.228.98.0/23 list=GEO_AM comment=AM
+add address=157.228.100.0/22 list=GEO_AM comment=AM
+add address=157.228.104.0/21 list=GEO_AM comment=AM
 add address=176.32.192.0/21 list=GEO_AM comment=AM
 add address=176.113.118.0/24 list=GEO_AM comment=AM
 add address=176.120.24.0/21 list=GEO_AM comment=AM
@@ -153,6 +164,7 @@ add address=188.92.28.0/24 list=GEO_AM comment=AM
 add address=188.115.192.0/18 list=GEO_AM comment=AM
 add address=188.164.152.0/21 list=GEO_AM comment=AM
 add address=193.29.226.0/24 list=GEO_AM comment=AM
+add address=193.32.54.0/24 list=GEO_AM comment=AM
 add address=193.57.28.0/22 list=GEO_AM comment=AM
 add address=193.104.56.0/24 list=GEO_AM comment=AM
 add address=193.104.198.0/24 list=GEO_AM comment=AM

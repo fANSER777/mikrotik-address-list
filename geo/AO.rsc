@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AO
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AO | Subnets: 143 (was 149, collapsed 6) | IPs: ~1,284,608
+# Countries: AO | Subnets: 147 (was 155, collapsed 8) | IPs: ~1,289,984
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -26,12 +27,16 @@ add address=102.36.224.0/22 list=GEO_AO comment=AO
 add address=102.64.60.0/22 list=GEO_AO comment=AO
 add address=102.130.64.0/21 list=GEO_AO comment=AO
 add address=102.130.192.0/19 list=GEO_AO comment=AO
+add address=102.201.200.0/22 list=GEO_AO comment=AO
+add address=102.201.212.0/22 list=GEO_AO comment=AO
+add address=102.202.0.0/22 list=GEO_AO comment=AO
+add address=102.202.4.0/24 list=GEO_AO comment=AO
 add address=102.202.244.0/22 list=GEO_AO comment=AO
 add address=102.203.1.0/24 list=GEO_AO comment=AO
 add address=102.203.128.0/22 list=GEO_AO comment=AO
 add address=102.203.139.0/24 list=GEO_AO comment=AO
 add address=102.203.164.0/22 list=GEO_AO comment=AO
-add address=102.203.240.0/21 list=GEO_AO comment=AO
+add address=102.203.240.0/20 list=GEO_AO comment=AO
 add address=102.204.164.0/22 list=GEO_AO comment=AO
 add address=102.204.192.0/22 list=GEO_AO comment=AO
 add address=102.205.75.0/24 list=GEO_AO comment=AO

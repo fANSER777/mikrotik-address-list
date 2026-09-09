@@ -1,11 +1,13 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VE
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VE | Subnets: 217 (was 259, collapsed 42) | IPs: ~6,706,944
+# Countries: VE | Subnets: 218 (was 259, collapsed 41) | IPs: ~6,703,104
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_VE and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.251.0/24 list=GEO_VE comment=VE
 add address=45.7.140.0/22 list=GEO_VE comment=VE
 add address=45.68.88.0/22 list=GEO_VE comment=VE
 add address=45.68.100.0/22 list=GEO_VE comment=VE
@@ -44,13 +46,13 @@ add address=45.190.124.0/22 list=GEO_VE comment=VE
 add address=45.190.168.0/23 list=GEO_VE comment=VE
 add address=45.226.190.0/23 list=GEO_VE comment=VE
 add address=45.230.44.0/22 list=GEO_VE comment=VE
-add address=45.230.86.0/24 list=GEO_VE comment=VE
 add address=45.230.168.0/22 list=GEO_VE comment=VE
 add address=45.234.60.0/23 list=GEO_VE comment=VE
 add address=45.234.62.0/24 list=GEO_VE comment=VE
 add address=45.236.28.0/22 list=GEO_VE comment=VE
 add address=45.236.120.0/24 list=GEO_VE comment=VE
 add address=74.123.48.0/22 list=GEO_VE comment=VE
+add address=85.136.83.0/24 list=GEO_VE comment=VE
 add address=129.90.0.0/16 list=GEO_VE comment=VE
 add address=131.72.168.0/22 list=GEO_VE comment=VE
 add address=131.221.112.0/22 list=GEO_VE comment=VE
@@ -140,7 +142,7 @@ add address=190.93.44.0/22 list=GEO_VE comment=VE
 add address=190.94.192.0/18 list=GEO_VE comment=VE
 add address=190.97.224.0/19 list=GEO_VE comment=VE
 add address=190.103.28.0/22 list=GEO_VE comment=VE
-add address=190.103.32.0/19 list=GEO_VE comment=VE
+add address=190.103.48.0/20 list=GEO_VE comment=VE
 add address=190.111.120.0/22 list=GEO_VE comment=VE
 add address=190.114.240.0/21 list=GEO_VE comment=VE
 add address=190.120.248.0/21 list=GEO_VE comment=VE

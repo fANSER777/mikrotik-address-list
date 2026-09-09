@@ -1,11 +1,15 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GT
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GT | Subnets: 136 (was 151, collapsed 15) | IPs: ~651,008
+# Countries: GT | Subnets: 139 (was 154, collapsed 15) | IPs: ~654,848
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_GT and (comment~"^PANEL-TEMP-GEO:")=false]
+add address=2.152.0.0/22 list=GEO_GT comment=GT
+add address=2.152.4.0/23 list=GEO_GT comment=GT
+add address=2.152.40.0/23 list=GEO_GT comment=GT
 add address=24.152.52.0/22 list=GEO_GT comment=GT
 add address=45.4.128.0/22 list=GEO_GT comment=GT
 add address=45.5.116.0/22 list=GEO_GT comment=GT
@@ -115,7 +119,6 @@ add address=200.1.153.0/24 list=GEO_GT comment=GT
 add address=200.3.146.0/24 list=GEO_GT comment=GT
 add address=200.6.192.0/18 list=GEO_GT comment=GT
 add address=200.9.74.0/24 list=GEO_GT comment=GT
-add address=200.9.255.0/24 list=GEO_GT comment=GT
 add address=200.10.173.0/24 list=GEO_GT comment=GT
 add address=200.10.241.0/24 list=GEO_GT comment=GT
 add address=200.12.32.0/19 list=GEO_GT comment=GT
@@ -141,4 +144,5 @@ add address=201.222.60.0/22 list=GEO_GT comment=GT
 add address=205.159.31.0/24 list=GEO_GT comment=GT
 add address=207.248.101.0/24 list=GEO_GT comment=GT
 add address=213.173.52.0/22 list=GEO_GT comment=GT
+add address=213.239.144.0/21 list=GEO_GT comment=GT
 add address=216.230.128.0/19 list=GEO_GT comment=GT

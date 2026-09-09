@@ -1,8 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AZ
-# Generated: 2026-09-09 21:18 UTC
+# Generated: 2026-09-09 22:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AZ | Subnets: 181 (was 212, collapsed 31) | IPs: ~771,328
+# Countries: AZ | Subnets: 186 (was 225, collapsed 39) | IPs: ~772,864
+# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_AZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -53,6 +54,7 @@ add address=89.37.16.0/21 list=GEO_AZ comment=AZ
 add address=89.37.32.0/21 list=GEO_AZ comment=AZ
 add address=89.40.30.0/24 list=GEO_AZ comment=AZ
 add address=89.41.0.0/21 list=GEO_AZ comment=AZ
+add address=89.124.248.0/23 list=GEO_AZ comment=AZ
 add address=89.147.192.0/18 list=GEO_AZ comment=AZ
 add address=89.219.36.0/22 list=GEO_AZ comment=AZ
 add address=89.219.40.0/21 list=GEO_AZ comment=AZ
@@ -85,9 +87,10 @@ add address=93.114.130.0/24 list=GEO_AZ comment=AZ
 add address=93.184.224.0/20 list=GEO_AZ comment=AZ
 add address=94.20.0.0/16 list=GEO_AZ comment=AZ
 add address=95.86.128.0/18 list=GEO_AZ comment=AZ
+add address=95.142.150.0/24 list=GEO_AZ comment=AZ
+add address=109.68.222.0/24 list=GEO_AZ comment=AZ
 add address=109.104.102.0/23 list=GEO_AZ comment=AZ
 add address=109.127.0.0/18 list=GEO_AZ comment=AZ
-add address=109.175.133.0/24 list=GEO_AZ comment=AZ
 add address=109.205.160.0/21 list=GEO_AZ comment=AZ
 add address=109.205.208.0/21 list=GEO_AZ comment=AZ
 add address=109.235.192.0/21 list=GEO_AZ comment=AZ
@@ -99,8 +102,10 @@ add address=131.117.128.0/20 list=GEO_AZ comment=AZ
 add address=134.19.208.0/20 list=GEO_AZ comment=AZ
 add address=149.126.112.0/20 list=GEO_AZ comment=AZ
 add address=149.255.144.0/20 list=GEO_AZ comment=AZ
+add address=153.56.144.0/24 list=GEO_AZ comment=AZ
 add address=158.181.32.0/20 list=GEO_AZ comment=AZ
 add address=160.202.24.0/22 list=GEO_AZ comment=AZ
+add address=164.40.238.0/24 list=GEO_AZ comment=AZ
 add address=164.215.96.0/21 list=GEO_AZ comment=AZ
 add address=167.150.216.0/24 list=GEO_AZ comment=AZ
 add address=176.28.80.0/21 list=GEO_AZ comment=AZ
@@ -145,6 +150,7 @@ add address=185.146.112.0/22 list=GEO_AZ comment=AZ
 add address=185.161.224.0/22 list=GEO_AZ comment=AZ
 add address=185.163.131.0/24 list=GEO_AZ comment=AZ
 add address=185.193.132.0/22 list=GEO_AZ comment=AZ
+add address=185.213.123.0/24 list=GEO_AZ comment=AZ
 add address=185.220.180.0/22 list=GEO_AZ comment=AZ
 add address=185.222.92.0/22 list=GEO_AZ comment=AZ
 add address=185.230.199.0/24 list=GEO_AZ comment=AZ
