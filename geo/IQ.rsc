@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IQ
-# Generated: 2026-09-09 06:39 UTC
+# Generated: 2026-09-09 06:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IQ | Subnets: 288 (was 338, collapsed 50) | IPs: ~447,296
 #
