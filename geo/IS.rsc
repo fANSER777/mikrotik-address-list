@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IS
-# Generated: 2026-09-09 00:38 UTC
+# Generated: 2026-09-09 06:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IS | Subnets: 154 (was 164, collapsed 10) | IPs: ~914,688
 #
