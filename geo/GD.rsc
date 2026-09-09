@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GD
-# Generated: 2026-09-09 09:16 UTC
+# Generated: 2026-09-09 15:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GD | Subnets: 15 (was 15, collapsed 0) | IPs: ~11,264
 #

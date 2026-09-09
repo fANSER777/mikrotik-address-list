@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ES
-# Generated: 2026-09-09 09:16 UTC
+# Generated: 2026-09-09 15:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ES | Subnets: 3408 (was 3776, collapsed 368) | IPs: ~32,106,112
 #

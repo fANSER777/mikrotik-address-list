@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MS
-# Generated: 2026-09-09 09:16 UTC
+# Generated: 2026-09-09 15:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MS | Subnets: 2 (was 2, collapsed 0) | IPs: ~1,280
 #

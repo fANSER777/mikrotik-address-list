@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GL
-# Generated: 2026-09-09 09:16 UTC
+# Generated: 2026-09-09 15:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GL | Subnets: 25 (was 25, collapsed 0) | IPs: ~34,304
 #
