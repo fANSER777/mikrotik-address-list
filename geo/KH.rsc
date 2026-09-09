@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KH
-# Generated: 2026-09-09 22:36 UTC
+# Generated: 2026-09-09 22:46 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KH | Subnets: 271 (was 282, collapsed 11) | IPs: ~439,808
 # RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
