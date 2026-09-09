@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NC
-# Generated: 2026-09-09 15:17 UTC
+# Generated: 2026-09-09 21:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NC | Subnets: 42 (was 46, collapsed 4) | IPs: ~161,536
 #

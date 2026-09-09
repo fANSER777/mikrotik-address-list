@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MG
-# Generated: 2026-09-09 15:17 UTC
+# Generated: 2026-09-09 21:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MG | Subnets: 27 (was 27, collapsed 0) | IPs: ~579,840
 #

@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LU
-# Generated: 2026-09-09 15:17 UTC
+# Generated: 2026-09-09 21:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LU | Subnets: 541 (was 557, collapsed 16) | IPs: ~1,858,048
 #

@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FO
-# Generated: 2026-09-09 15:17 UTC
+# Generated: 2026-09-09 21:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FO | Subnets: 14 (was 14, collapsed 0) | IPs: ~45,056
 #
