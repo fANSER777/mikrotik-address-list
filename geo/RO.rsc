@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RO
-# Generated: 2026-09-09 07:03 UTC
+# Generated: 2026-09-09 07:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RO | Subnets: 2429 (was 2835, collapsed 406) | IPs: ~7,835,264
 #
