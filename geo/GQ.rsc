@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GQ
-# Generated: 2026-09-10 04:38 UTC
+# Generated: 2026-09-10 08:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GQ | Subnets: 10 (was 10, collapsed 0) | IPs: ~17,920
-# RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
 remove [find where list=GEO_GQ and (comment~"^PANEL-TEMP-GEO:")=false]
