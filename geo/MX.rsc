@@ -1,8 +1,8 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MX
-# Generated: 2026-09-09 22:46 UTC
+# Generated: 2026-09-10 04:38 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MX | Subnets: 805 (was 1393, collapsed 588) | IPs: ~28,963,840
+# Countries: MX | Subnets: 805 (was 1392, collapsed 587) | IPs: ~28,963,584
 # RIR data dates: afrinic=2026-09-09, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
 #
 /ip firewall address-list
@@ -488,7 +488,7 @@ add address=200.23.128.0/22 list=GEO_MX comment=MX
 add address=200.23.132.0/23 list=GEO_MX comment=MX
 add address=200.23.136.0/22 list=GEO_MX comment=MX
 add address=200.23.141.0/24 list=GEO_MX comment=MX
-add address=200.23.142.0/23 list=GEO_MX comment=MX
+add address=200.23.142.0/24 list=GEO_MX comment=MX
 add address=200.23.144.0/22 list=GEO_MX comment=MX
 add address=200.23.149.0/24 list=GEO_MX comment=MX
 add address=200.23.150.0/23 list=GEO_MX comment=MX
