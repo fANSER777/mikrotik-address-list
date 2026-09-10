@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LU
-# Generated: 2026-09-10 08:17 UTC
+# Generated: 2026-09-10 08:32 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LU | Subnets: 540 (was 556, collapsed 16) | IPs: ~1,848,320
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
