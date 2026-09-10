@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MA
-# Generated: 2026-09-10 08:32 UTC
+# Generated: 2026-09-10 09:30 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MA | Subnets: 78 (was 78, collapsed 0) | IPs: ~12,274,176
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-09, arin=2026-09-09, lacnic=2026-09-08, ripencc=2026-09-09
