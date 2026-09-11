@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VN
-# Generated: 2026-09-11 06:49 UTC
+# Generated: 2026-09-11 07:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VN | Subnets: 1268 (was 1664, collapsed 396) | IPs: ~16,501,760
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-10, ripencc=2026-09-10
