@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DJ
-# Generated: 2026-09-11 20:44 UTC
+# Generated: 2026-09-11 20:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DJ | Subnets: 8 (was 8, collapsed 0) | IPs: ~47,360
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-11, lacnic=2026-09-10, ripencc=2026-09-10
