@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JO
-# Generated: 2026-09-11 04:02 UTC
+# Generated: 2026-09-11 06:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JO | Subnets: 127 (was 128, collapsed 1) | IPs: ~647,936
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-10, ripencc=2026-09-10
