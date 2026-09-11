@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FJ
-# Generated: 2026-09-11 06:16 UTC
+# Generated: 2026-09-11 06:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FJ | Subnets: 38 (was 40, collapsed 2) | IPs: ~143,616
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-10, ripencc=2026-09-10
