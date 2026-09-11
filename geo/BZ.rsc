@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BZ
-# Generated: 2026-09-11 21:08 UTC
+# Generated: 2026-09-11 21:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BZ | Subnets: 82 (was 84, collapsed 2) | IPs: ~149,248
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-11, lacnic=2026-09-10, ripencc=2026-09-10
