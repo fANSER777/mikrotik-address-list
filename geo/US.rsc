@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-09-11 08:08 UTC
+# Generated: 2026-09-11 20:45 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29580 (was 70076, collapsed 40496) | IPs: ~1,606,251,424
-# RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-10, ripencc=2026-09-10
+# Countries: US | Subnets: 29580 (was 70078, collapsed 40498) | IPs: ~1,606,251,936
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-11, lacnic=2026-09-10, ripencc=2026-09-10
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1210,7 +1210,6 @@ add address=23.147.112.0/24 list=GEO_US comment=US
 add address=23.147.116.0/24 list=GEO_US comment=US
 add address=23.147.120.0/24 list=GEO_US comment=US
 add address=23.147.124.0/24 list=GEO_US comment=US
-add address=23.147.132.0/24 list=GEO_US comment=US
 add address=23.147.136.0/24 list=GEO_US comment=US
 add address=23.147.140.0/24 list=GEO_US comment=US
 add address=23.147.144.0/24 list=GEO_US comment=US
@@ -25926,7 +25925,9 @@ add address=205.166.69.0/24 list=GEO_US comment=US
 add address=205.166.70.0/23 list=GEO_US comment=US
 add address=205.166.72.0/21 list=GEO_US comment=US
 add address=205.166.80.0/20 list=GEO_US comment=US
-add address=205.166.96.0/21 list=GEO_US comment=US
+add address=205.166.96.0/23 list=GEO_US comment=US
+add address=205.166.98.0/24 list=GEO_US comment=US
+add address=205.166.100.0/22 list=GEO_US comment=US
 add address=205.166.104.0/22 list=GEO_US comment=US
 add address=205.166.108.0/24 list=GEO_US comment=US
 add address=205.166.110.0/23 list=GEO_US comment=US
@@ -27327,8 +27328,7 @@ add address=208.68.192.0/21 list=GEO_US comment=US
 add address=208.68.208.0/20 list=GEO_US comment=US
 add address=208.68.224.0/19 list=GEO_US comment=US
 add address=208.69.0.0/21 list=GEO_US comment=US
-add address=208.69.16.0/21 list=GEO_US comment=US
-add address=208.69.28.0/22 list=GEO_US comment=US
+add address=208.69.16.0/20 list=GEO_US comment=US
 add address=208.69.32.0/20 list=GEO_US comment=US
 add address=208.69.48.0/21 list=GEO_US comment=US
 add address=208.69.60.0/22 list=GEO_US comment=US
