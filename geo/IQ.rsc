@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IQ
-# Generated: 2026-09-10 22:00 UTC
+# Generated: 2026-09-11 04:02 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IQ | Subnets: 284 (was 338, collapsed 54) | IPs: ~451,136
-# RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-08, ripencc=2026-09-09
+# Countries: IQ | Subnets: 283 (was 337, collapsed 54) | IPs: ~449,088
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-10, arin=2026-09-10, lacnic=2026-09-10, ripencc=2026-09-10
 #
 /ip firewall address-list
 remove [find where list=GEO_IQ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -43,7 +43,6 @@ add address=45.157.148.0/22 list=GEO_IQ comment=IQ
 add address=46.18.109.0/24 list=GEO_IQ comment=IQ
 add address=46.21.251.0/24 list=GEO_IQ comment=IQ
 add address=46.30.224.0/21 list=GEO_IQ comment=IQ
-add address=46.161.192.0/21 list=GEO_IQ comment=IQ
 add address=46.161.200.0/23 list=GEO_IQ comment=IQ
 add address=46.183.23.0/24 list=GEO_IQ comment=IQ
 add address=46.243.16.0/21 list=GEO_IQ comment=IQ
