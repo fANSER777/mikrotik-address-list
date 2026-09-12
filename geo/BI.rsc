@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BI
-# Generated: 2026-09-12 20:23 UTC
+# Generated: 2026-09-12 21:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BI | Subnets: 12 (was 12, collapsed 0) | IPs: ~36,608
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-12, lacnic=2026-09-11, ripencc=2026-09-11
