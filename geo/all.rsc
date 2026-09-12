@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ
-# Generated: 2026-09-11 21:22 UTC
+# Generated: 2026-09-12 03:23 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ | Subnets: 178852 (was 263310, collapsed 84458) | IPs: ~3,692,890,208
-# RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-11, lacnic=2026-09-10, ripencc=2026-09-10
+# Countries: AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ | Subnets: 178853 (was 263319, collapsed 84466) | IPs: ~3,692,890,208
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-11, lacnic=2026-09-11, ripencc=2026-09-11
 #
 /ip firewall address-list
 remove [find where list=GEO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -47873,8 +47873,6 @@ add address=195.95.137.0/24 list=GEO comment=DE
 add address=195.95.146.0/24 list=GEO comment=DE
 add address=195.95.190.0/24 list=GEO comment=DE
 add address=195.95.220.0/23 list=GEO comment=DE
-add address=195.96.32.0/21 list=GEO comment=DE
-add address=195.96.48.0/20 list=GEO comment=DE
 add address=195.96.142.0/24 list=GEO comment=DE
 add address=195.98.192.0/19 list=GEO comment=DE
 add address=195.110.14.0/23 list=GEO comment=DE
@@ -51269,7 +51267,7 @@ add address=2.152.44.0/22 list=GEO comment=ES
 add address=2.152.48.0/21 list=GEO comment=ES
 add address=2.152.56.0/23 list=GEO comment=ES
 add address=2.152.75.0/24 list=GEO comment=ES
-add address=2.152.76.0/23 list=GEO comment=ES
+add address=2.152.77.0/24 list=GEO comment=ES
 add address=2.152.80.0/21 list=GEO comment=ES
 add address=2.152.89.0/24 list=GEO comment=ES
 add address=2.152.90.0/23 list=GEO comment=ES
@@ -71502,13 +71500,11 @@ add address=159.117.96.0/21 list=GEO comment=HK
 add address=159.200.0.0/17 list=GEO comment=HK
 add address=159.200.128.0/18 list=GEO comment=HK
 add address=159.200.192.0/21 list=GEO comment=HK
-add address=159.200.201.0/24 list=GEO comment=HK
 add address=159.200.202.0/23 list=GEO comment=HK
 add address=159.200.204.0/23 list=GEO comment=HK
 add address=159.200.208.0/21 list=GEO comment=HK
 add address=159.200.220.0/22 list=GEO comment=HK
 add address=159.200.224.0/22 list=GEO comment=HK
-add address=159.200.234.0/23 list=GEO comment=HK
 add address=159.200.238.0/24 list=GEO comment=HK
 add address=159.200.248.0/21 list=GEO comment=HK
 add address=160.19.48.0/22 list=GEO comment=HK
@@ -89168,6 +89164,8 @@ add address=195.62.4.0/24 list=GEO comment=IR
 add address=195.78.115.0/24 list=GEO comment=IR
 add address=195.88.188.0/23 list=GEO comment=IR
 add address=195.88.208.0/24 list=GEO comment=IR
+add address=195.96.32.0/21 list=GEO comment=IR
+add address=195.96.48.0/20 list=GEO comment=IR
 add address=195.96.128.0/24 list=GEO comment=IR
 add address=195.96.153.0/24 list=GEO comment=IR
 add address=195.110.38.0/23 list=GEO comment=IR
@@ -133556,6 +133554,7 @@ add address=2.57.244.0/22 list=GEO comment=SE
 add address=2.58.0.0/22 list=GEO comment=SE
 add address=2.59.208.0/22 list=GEO comment=SE
 add address=2.64.0.0/13 list=GEO comment=SE
+add address=2.152.76.0/24 list=GEO comment=SE
 add address=2.248.0.0/13 list=GEO comment=SE
 add address=5.22.232.0/21 list=GEO comment=SE
 add address=5.23.56.0/21 list=GEO comment=SE
@@ -138595,6 +138594,7 @@ add address=109.238.144.0/20 list=GEO comment=SY
 add address=130.0.240.0/20 list=GEO comment=SY
 add address=130.180.128.0/18 list=GEO comment=SY
 add address=153.56.181.0/24 list=GEO comment=SY
+add address=159.200.234.0/23 list=GEO comment=SY
 add address=178.52.0.0/16 list=GEO comment=SY
 add address=178.169.0.0/19 list=GEO comment=SY
 add address=178.171.128.0/17 list=GEO comment=SY
@@ -157388,6 +157388,7 @@ add address=159.188.0.0/15 list=GEO comment=US
 add address=159.191.0.0/16 list=GEO comment=US
 add address=159.197.128.0/17 list=GEO comment=US
 add address=159.198.0.0/15 list=GEO comment=US
+add address=159.200.201.0/24 list=GEO comment=US
 add address=159.201.0.0/16 list=GEO comment=US
 add address=159.202.0.0/15 list=GEO comment=US
 add address=159.204.0.0/16 list=GEO comment=US
