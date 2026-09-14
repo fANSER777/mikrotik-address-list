@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HR
-# Generated: 2026-09-13 22:51 UTC
+# Generated: 2026-09-14 04:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HR | Subnets: 270 (was 289, collapsed 19) | IPs: ~2,355,968
 # RIR data dates: afrinic=2026-09-10, apnic=2026-09-11, arin=2026-09-13, lacnic=2026-09-11, ripencc=2026-09-13
