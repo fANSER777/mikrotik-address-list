@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-09-15 14:58 UTC
+# Generated: 2026-09-15 20:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7188 (was 9290, collapsed 2102) | IPs: ~42,004,224
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-14, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: IN | Subnets: 7190 (was 9292, collapsed 2102) | IPs: ~42,004,992
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
 #
 /ip firewall address-list
 remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -6195,6 +6195,8 @@ add address=163.52.142.0/23 list=GEO_IN comment=IN
 add address=163.52.170.0/23 list=GEO_IN comment=IN
 add address=163.52.176.0/23 list=GEO_IN comment=IN
 add address=163.52.182.0/23 list=GEO_IN comment=IN
+add address=163.52.184.0/24 list=GEO_IN comment=IN
+add address=163.52.186.0/23 list=GEO_IN comment=IN
 add address=163.53.72.0/21 list=GEO_IN comment=IN
 add address=163.53.80.0/21 list=GEO_IN comment=IN
 add address=163.53.176.0/22 list=GEO_IN comment=IN
