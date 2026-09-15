@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SX
-# Generated: 2026-09-15 08:56 UTC
+# Generated: 2026-09-15 14:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SX | Subnets: 10 (was 13, collapsed 3) | IPs: ~34,304
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-14, arin=2026-09-14, lacnic=2026-09-14, ripencc=2026-09-14
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-14, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
 #
 /ip firewall address-list
 remove [find where list=GEO_SX and (comment~"^PANEL-TEMP-GEO:")=false]
