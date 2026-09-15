@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CH
-# Generated: 2026-09-14 20:54 UTC
+# Generated: 2026-09-15 02:55 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CH | Subnets: 2681 (was 3063, collapsed 382) | IPs: ~23,269,488
-# RIR data dates: afrinic=2026-09-10, apnic=2026-09-14, arin=2026-09-14, lacnic=2026-09-11, ripencc=2026-09-13
+# Countries: CH | Subnets: 2681 (was 3063, collapsed 382) | IPs: ~23,270,256
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-14, arin=2026-09-14, lacnic=2026-09-11, ripencc=2026-09-14
 #
 /ip firewall address-list
 remove [find where list=GEO_CH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -157,7 +157,6 @@ add address=45.149.236.0/22 list=GEO_CH comment=CH
 add address=45.150.248.0/22 list=GEO_CH comment=CH
 add address=45.151.84.0/23 list=GEO_CH comment=CH
 add address=45.151.212.0/23 list=GEO_CH comment=CH
-add address=45.151.214.0/24 list=GEO_CH comment=CH
 add address=45.153.89.0/24 list=GEO_CH comment=CH
 add address=45.153.136.0/22 list=GEO_CH comment=CH
 add address=45.154.200.0/22 list=GEO_CH comment=CH
@@ -2530,6 +2529,7 @@ add address=195.250.44.0/23 list=GEO_CH comment=CH
 add address=195.250.46.0/24 list=GEO_CH comment=CH
 add address=195.250.52.0/24 list=GEO_CH comment=CH
 add address=195.253.224.0/22 list=GEO_CH comment=CH
+add address=195.253.252.0/22 list=GEO_CH comment=CH
 add address=195.254.144.0/23 list=GEO_CH comment=CH
 add address=195.254.186.0/23 list=GEO_CH comment=CH
 add address=198.99.148.0/24 list=GEO_CH comment=CH

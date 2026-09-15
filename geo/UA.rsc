@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UA
-# Generated: 2026-09-14 20:54 UTC
+# Generated: 2026-09-15 02:55 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UA | Subnets: 2660 (was 2902, collapsed 242) | IPs: ~9,092,352
-# RIR data dates: afrinic=2026-09-10, apnic=2026-09-14, arin=2026-09-14, lacnic=2026-09-11, ripencc=2026-09-13
+# Countries: UA | Subnets: 2659 (was 2901, collapsed 242) | IPs: ~9,092,096
+# RIR data dates: afrinic=2026-09-10, apnic=2026-09-14, arin=2026-09-14, lacnic=2026-09-11, ripencc=2026-09-14
 #
 /ip firewall address-list
 remove [find where list=GEO_UA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1980,7 +1980,6 @@ add address=193.201.100.0/24 list=GEO_UA comment=UA
 add address=193.201.105.0/24 list=GEO_UA comment=UA
 add address=193.201.116.0/23 list=GEO_UA comment=UA
 add address=193.201.152.128/25 list=GEO_UA comment=UA
-add address=193.201.175.0/24 list=GEO_UA comment=UA
 add address=193.201.198.0/23 list=GEO_UA comment=UA
 add address=193.201.216.0/22 list=GEO_UA comment=UA
 add address=193.201.224.0/22 list=GEO_UA comment=UA
