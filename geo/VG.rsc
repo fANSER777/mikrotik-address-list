@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VG
-# Generated: 2026-09-15 20:59 UTC
+# Generated: 2026-09-16 03:00 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VG | Subnets: 213 (was 213, collapsed 0) | IPs: ~589,824
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: VG | Subnets: 195 (was 195, collapsed 0) | IPs: ~582,912
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-15, ripencc=2026-09-15
 #
 /ip firewall address-list
 remove [find where list=GEO_VG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -18,7 +18,6 @@ add address=23.140.68.0/24 list=GEO_VG comment=VG
 add address=23.145.172.0/24 list=GEO_VG comment=VG
 add address=23.166.232.0/24 list=GEO_VG comment=VG
 add address=23.189.176.0/24 list=GEO_VG comment=VG
-add address=31.14.25.0/24 list=GEO_VG comment=VG
 add address=37.77.80.0/21 list=GEO_VG comment=VG
 add address=45.8.176.0/22 list=GEO_VG comment=VG
 add address=45.8.208.0/22 list=GEO_VG comment=VG
@@ -55,18 +54,6 @@ add address=82.115.220.0/22 list=GEO_VG comment=VG
 add address=84.252.72.0/22 list=GEO_VG comment=VG
 add address=85.149.224.0/20 list=GEO_VG comment=VG
 add address=85.209.0.0/22 list=GEO_VG comment=VG
-add address=89.36.173.0/24 list=GEO_VG comment=VG
-add address=89.36.174.0/24 list=GEO_VG comment=VG
-add address=89.38.232.0/23 list=GEO_VG comment=VG
-add address=89.40.96.0/22 list=GEO_VG comment=VG
-add address=89.42.160.0/23 list=GEO_VG comment=VG
-add address=89.42.163.0/24 list=GEO_VG comment=VG
-add address=89.44.83.0/24 list=GEO_VG comment=VG
-add address=89.46.240.0/23 list=GEO_VG comment=VG
-add address=89.46.243.0/24 list=GEO_VG comment=VG
-add address=89.46.244.0/23 list=GEO_VG comment=VG
-add address=89.46.246.0/24 list=GEO_VG comment=VG
-add address=89.47.171.0/24 list=GEO_VG comment=VG
 add address=91.103.252.0/22 list=GEO_VG comment=VG
 add address=91.105.192.0/23 list=GEO_VG comment=VG
 add address=91.206.220.0/23 list=GEO_VG comment=VG
@@ -74,8 +61,6 @@ add address=91.217.76.0/23 list=GEO_VG comment=VG
 add address=91.217.80.0/23 list=GEO_VG comment=VG
 add address=94.142.136.0/21 list=GEO_VG comment=VG
 add address=94.154.178.0/24 list=GEO_VG comment=VG
-add address=94.177.129.0/24 list=GEO_VG comment=VG
-add address=94.177.132.0/24 list=GEO_VG comment=VG
 add address=95.214.8.0/22 list=GEO_VG comment=VG
 add address=98.158.96.0/20 list=GEO_VG comment=VG
 add address=103.143.178.0/23 list=GEO_VG comment=VG
@@ -159,9 +144,6 @@ add address=185.238.0.0/22 list=GEO_VG comment=VG
 add address=185.244.172.0/22 list=GEO_VG comment=VG
 add address=185.252.144.0/22 list=GEO_VG comment=VG
 add address=185.255.132.0/22 list=GEO_VG comment=VG
-add address=188.241.24.0/23 list=GEO_VG comment=VG
-add address=188.241.29.0/24 list=GEO_VG comment=VG
-add address=188.241.30.0/23 list=GEO_VG comment=VG
 add address=192.162.100.0/22 list=GEO_VG comment=VG
 add address=192.198.184.0/23 list=GEO_VG comment=VG
 add address=193.0.200.0/22 list=GEO_VG comment=VG

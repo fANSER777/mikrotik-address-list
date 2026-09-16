@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — EE
-# Generated: 2026-09-15 20:59 UTC
+# Generated: 2026-09-16 02:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: EE | Subnets: 457 (was 490, collapsed 33) | IPs: ~1,362,984
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: EE | Subnets: 461 (was 494, collapsed 33) | IPs: ~1,365,544
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-15, ripencc=2026-09-15
 #
 /ip firewall address-list
 remove [find where list=GEO_EE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -136,11 +136,13 @@ add address=91.192.116.0/22 list=GEO_EE comment=EE
 add address=91.193.252.0/22 list=GEO_EE comment=EE
 add address=91.195.246.0/23 list=GEO_EE comment=EE
 add address=91.195.252.0/23 list=GEO_EE comment=EE
+add address=91.198.127.0/24 list=GEO_EE comment=EE
 add address=91.198.206.0/24 list=GEO_EE comment=EE
 add address=91.199.137.0/24 list=GEO_EE comment=EE
 add address=91.199.147.0/24 list=GEO_EE comment=EE
 add address=91.199.154.0/24 list=GEO_EE comment=EE
 add address=91.199.160.0/24 list=GEO_EE comment=EE
+add address=91.200.164.0/22 list=GEO_EE comment=EE
 add address=91.203.29.0/24 list=GEO_EE comment=EE
 add address=91.205.96.0/22 list=GEO_EE comment=EE
 add address=91.208.15.0/24 list=GEO_EE comment=EE
@@ -150,6 +152,7 @@ add address=91.211.27.0/24 list=GEO_EE comment=EE
 add address=91.212.244.0/24 list=GEO_EE comment=EE
 add address=91.213.43.0/24 list=GEO_EE comment=EE
 add address=91.213.126.0/24 list=GEO_EE comment=EE
+add address=91.216.3.0/24 list=GEO_EE comment=EE
 add address=91.216.86.0/24 list=GEO_EE comment=EE
 add address=91.217.50.0/24 list=GEO_EE comment=EE
 add address=91.217.240.0/24 list=GEO_EE comment=EE
@@ -254,6 +257,7 @@ add address=185.42.168.0/22 list=GEO_EE comment=EE
 add address=185.43.104.0/22 list=GEO_EE comment=EE
 add address=185.45.140.0/22 list=GEO_EE comment=EE
 add address=185.46.20.0/22 list=GEO_EE comment=EE
+add address=185.46.84.0/22 list=GEO_EE comment=EE
 add address=185.50.96.0/22 list=GEO_EE comment=EE
 add address=185.53.88.0/22 list=GEO_EE comment=EE
 add address=185.55.48.0/22 list=GEO_EE comment=EE

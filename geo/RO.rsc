@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RO
-# Generated: 2026-09-15 20:59 UTC
+# Generated: 2026-09-16 03:00 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RO | Subnets: 2423 (was 2828, collapsed 405) | IPs: ~7,831,424
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: RO | Subnets: 2439 (was 2845, collapsed 406) | IPs: ~7,837,824
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-15, ripencc=2026-09-15
 #
 /ip firewall address-list
 remove [find where list=GEO_RO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -36,6 +36,7 @@ add address=31.14.12.0/22 list=GEO_RO comment=RO
 add address=31.14.16.0/24 list=GEO_RO comment=RO
 add address=31.14.18.0/23 list=GEO_RO comment=RO
 add address=31.14.20.0/22 list=GEO_RO comment=RO
+add address=31.14.25.0/24 list=GEO_RO comment=RO
 add address=31.14.34.0/23 list=GEO_RO comment=RO
 add address=31.14.40.0/22 list=GEO_RO comment=RO
 add address=31.14.49.0/24 list=GEO_RO comment=RO
@@ -575,6 +576,8 @@ add address=89.36.143.0/24 list=GEO_RO comment=RO
 add address=89.36.144.0/21 list=GEO_RO comment=RO
 add address=89.36.152.0/23 list=GEO_RO comment=RO
 add address=89.36.154.0/24 list=GEO_RO comment=RO
+add address=89.36.173.0/24 list=GEO_RO comment=RO
+add address=89.36.174.0/24 list=GEO_RO comment=RO
 add address=89.36.192.0/23 list=GEO_RO comment=RO
 add address=89.36.196.0/24 list=GEO_RO comment=RO
 add address=89.36.198.0/24 list=GEO_RO comment=RO
@@ -612,6 +615,7 @@ add address=89.38.140.0/22 list=GEO_RO comment=RO
 add address=89.38.156.0/22 list=GEO_RO comment=RO
 add address=89.38.208.0/22 list=GEO_RO comment=RO
 add address=89.38.224.0/21 list=GEO_RO comment=RO
+add address=89.38.232.0/23 list=GEO_RO comment=RO
 add address=89.38.236.0/23 list=GEO_RO comment=RO
 add address=89.38.241.0/24 list=GEO_RO comment=RO
 add address=89.38.248.0/21 list=GEO_RO comment=RO
@@ -657,7 +661,7 @@ add address=89.40.82.0/23 list=GEO_RO comment=RO
 add address=89.40.88.0/23 list=GEO_RO comment=RO
 add address=89.40.93.0/24 list=GEO_RO comment=RO
 add address=89.40.94.0/23 list=GEO_RO comment=RO
-add address=89.40.100.0/22 list=GEO_RO comment=RO
+add address=89.40.96.0/21 list=GEO_RO comment=RO
 add address=89.40.130.0/24 list=GEO_RO comment=RO
 add address=89.40.132.0/23 list=GEO_RO comment=RO
 add address=89.40.136.0/23 list=GEO_RO comment=RO
@@ -710,6 +714,8 @@ add address=89.42.135.0/24 list=GEO_RO comment=RO
 add address=89.42.142.0/23 list=GEO_RO comment=RO
 add address=89.42.148.0/23 list=GEO_RO comment=RO
 add address=89.42.156.0/23 list=GEO_RO comment=RO
+add address=89.42.160.0/23 list=GEO_RO comment=RO
+add address=89.42.163.0/24 list=GEO_RO comment=RO
 add address=89.42.176.0/23 list=GEO_RO comment=RO
 add address=89.42.192.0/22 list=GEO_RO comment=RO
 add address=89.42.200.0/22 list=GEO_RO comment=RO
@@ -743,6 +749,7 @@ add address=89.44.10.0/23 list=GEO_RO comment=RO
 add address=89.44.44.0/22 list=GEO_RO comment=RO
 add address=89.44.78.0/23 list=GEO_RO comment=RO
 add address=89.44.81.0/24 list=GEO_RO comment=RO
+add address=89.44.83.0/24 list=GEO_RO comment=RO
 add address=89.44.88.0/22 list=GEO_RO comment=RO
 add address=89.44.100.0/23 list=GEO_RO comment=RO
 add address=89.44.104.0/23 list=GEO_RO comment=RO
@@ -801,6 +808,10 @@ add address=89.46.160.0/22 list=GEO_RO comment=RO
 add address=89.46.168.0/21 list=GEO_RO comment=RO
 add address=89.46.208.0/21 list=GEO_RO comment=RO
 add address=89.46.220.0/23 list=GEO_RO comment=RO
+add address=89.46.240.0/23 list=GEO_RO comment=RO
+add address=89.46.243.0/24 list=GEO_RO comment=RO
+add address=89.46.244.0/23 list=GEO_RO comment=RO
+add address=89.46.246.0/24 list=GEO_RO comment=RO
 add address=89.47.0.0/24 list=GEO_RO comment=RO
 add address=89.47.3.0/24 list=GEO_RO comment=RO
 add address=89.47.10.0/24 list=GEO_RO comment=RO
@@ -815,6 +826,7 @@ add address=89.47.88.0/24 list=GEO_RO comment=RO
 add address=89.47.91.0/24 list=GEO_RO comment=RO
 add address=89.47.92.0/23 list=GEO_RO comment=RO
 add address=89.47.96.0/19 list=GEO_RO comment=RO
+add address=89.47.171.0/24 list=GEO_RO comment=RO
 add address=89.47.179.0/24 list=GEO_RO comment=RO
 add address=89.47.192.0/22 list=GEO_RO comment=RO
 add address=89.47.208.0/20 list=GEO_RO comment=RO
@@ -1335,6 +1347,8 @@ add address=94.177.107.0/24 list=GEO_RO comment=RO
 add address=94.177.108.0/22 list=GEO_RO comment=RO
 add address=94.177.120.0/23 list=GEO_RO comment=RO
 add address=94.177.124.0/23 list=GEO_RO comment=RO
+add address=94.177.129.0/24 list=GEO_RO comment=RO
+add address=94.177.132.0/24 list=GEO_RO comment=RO
 add address=94.177.136.0/23 list=GEO_RO comment=RO
 add address=94.177.146.0/24 list=GEO_RO comment=RO
 add address=94.177.148.0/23 list=GEO_RO comment=RO
@@ -1826,6 +1840,9 @@ add address=188.241.2.0/23 list=GEO_RO comment=RO
 add address=188.241.10.0/23 list=GEO_RO comment=RO
 add address=188.241.13.0/24 list=GEO_RO comment=RO
 add address=188.241.18.0/23 list=GEO_RO comment=RO
+add address=188.241.24.0/23 list=GEO_RO comment=RO
+add address=188.241.29.0/24 list=GEO_RO comment=RO
+add address=188.241.30.0/23 list=GEO_RO comment=RO
 add address=188.241.32.0/22 list=GEO_RO comment=RO
 add address=188.241.36.0/23 list=GEO_RO comment=RO
 add address=188.241.48.0/22 list=GEO_RO comment=RO
@@ -2318,7 +2335,6 @@ add address=195.189.155.0/24 list=GEO_RO comment=RO
 add address=195.189.156.0/24 list=GEO_RO comment=RO
 add address=195.189.194.0/23 list=GEO_RO comment=RO
 add address=195.190.159.0/24 list=GEO_RO comment=RO
-add address=195.191.46.0/23 list=GEO_RO comment=RO
 add address=195.191.124.0/23 list=GEO_RO comment=RO
 add address=195.191.160.0/23 list=GEO_RO comment=RO
 add address=195.200.86.0/23 list=GEO_RO comment=RO

@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-09-15 20:59 UTC
+# Generated: 2026-09-16 03:00 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RU | Subnets: 8652 (was 11444, collapsed 2792) | IPs: ~45,212,736
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: RU | Subnets: 8649 (was 11443, collapsed 2794) | IPs: ~45,210,176
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-15, ripencc=2026-09-15
 #
 /ip firewall address-list
 remove [find where list=GEO_RU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2446,7 +2446,6 @@ add address=91.198.75.0/24 list=GEO_RU comment=RU
 add address=91.198.85.0/24 list=GEO_RU comment=RU
 add address=91.198.98.0/24 list=GEO_RU comment=RU
 add address=91.198.104.0/24 list=GEO_RU comment=RU
-add address=91.198.127.0/24 list=GEO_RU comment=RU
 add address=91.198.130.0/24 list=GEO_RU comment=RU
 add address=91.198.149.0/24 list=GEO_RU comment=RU
 add address=91.198.153.0/24 list=GEO_RU comment=RU
@@ -2495,7 +2494,7 @@ add address=91.200.44.0/22 list=GEO_RU comment=RU
 add address=91.200.62.0/24 list=GEO_RU comment=RU
 add address=91.200.84.0/22 list=GEO_RU comment=RU
 add address=91.200.148.0/22 list=GEO_RU comment=RU
-add address=91.200.160.0/21 list=GEO_RU comment=RU
+add address=91.200.160.0/22 list=GEO_RU comment=RU
 add address=91.200.224.0/21 list=GEO_RU comment=RU
 add address=91.201.0.0/22 list=GEO_RU comment=RU
 add address=91.201.8.0/23 list=GEO_RU comment=RU
@@ -2841,7 +2840,6 @@ add address=91.215.224.0/22 list=GEO_RU comment=RU
 add address=91.215.232.0/22 list=GEO_RU comment=RU
 add address=91.215.244.0/22 list=GEO_RU comment=RU
 add address=91.215.248.0/21 list=GEO_RU comment=RU
-add address=91.216.3.0/24 list=GEO_RU comment=RU
 add address=91.216.46.0/24 list=GEO_RU comment=RU
 add address=91.216.48.0/23 list=GEO_RU comment=RU
 add address=91.216.50.0/24 list=GEO_RU comment=RU
@@ -5418,7 +5416,6 @@ add address=185.46.8.0/21 list=GEO_RU comment=RU
 add address=185.46.16.0/22 list=GEO_RU comment=RU
 add address=185.46.44.0/22 list=GEO_RU comment=RU
 add address=185.46.48.0/22 list=GEO_RU comment=RU
-add address=185.46.84.0/22 list=GEO_RU comment=RU
 add address=185.46.96.0/22 list=GEO_RU comment=RU
 add address=185.46.152.0/22 list=GEO_RU comment=RU
 add address=185.46.196.0/22 list=GEO_RU comment=RU

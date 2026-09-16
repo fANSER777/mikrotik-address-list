@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PR
-# Generated: 2026-09-15 20:59 UTC
+# Generated: 2026-09-16 03:00 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PR | Subnets: 210 (was 224, collapsed 14) | IPs: ~770,304
-# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-14, ripencc=2026-09-14
+# Countries: PR | Subnets: 284 (was 298, collapsed 14) | IPs: ~872,192
+# RIR data dates: afrinic=2026-09-15, apnic=2026-09-15, arin=2026-09-15, lacnic=2026-09-15, ripencc=2026-09-15
 #
 /ip firewall address-list
 remove [find where list=GEO_PR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -101,6 +101,46 @@ add address=136.175.224.0/22 list=GEO_PR comment=PR
 add address=139.60.176.0/20 list=GEO_PR comment=PR
 add address=140.235.220.0/22 list=GEO_PR comment=PR
 add address=141.193.44.0/22 list=GEO_PR comment=PR
+add address=142.228.4.0/22 list=GEO_PR comment=PR
+add address=142.228.8.0/23 list=GEO_PR comment=PR
+add address=142.228.14.0/23 list=GEO_PR comment=PR
+add address=142.228.16.0/21 list=GEO_PR comment=PR
+add address=142.228.34.0/24 list=GEO_PR comment=PR
+add address=142.228.40.0/22 list=GEO_PR comment=PR
+add address=142.228.45.0/24 list=GEO_PR comment=PR
+add address=142.228.56.0/23 list=GEO_PR comment=PR
+add address=142.228.64.0/23 list=GEO_PR comment=PR
+add address=142.228.67.0/24 list=GEO_PR comment=PR
+add address=142.228.68.0/22 list=GEO_PR comment=PR
+add address=142.228.72.0/24 list=GEO_PR comment=PR
+add address=142.228.74.0/23 list=GEO_PR comment=PR
+add address=142.228.76.0/22 list=GEO_PR comment=PR
+add address=142.228.80.0/21 list=GEO_PR comment=PR
+add address=142.228.90.0/23 list=GEO_PR comment=PR
+add address=142.228.92.0/22 list=GEO_PR comment=PR
+add address=142.228.96.0/20 list=GEO_PR comment=PR
+add address=142.228.112.0/21 list=GEO_PR comment=PR
+add address=142.228.120.0/22 list=GEO_PR comment=PR
+add address=142.228.124.0/23 list=GEO_PR comment=PR
+add address=142.228.126.0/24 list=GEO_PR comment=PR
+add address=142.228.128.0/23 list=GEO_PR comment=PR
+add address=142.228.131.0/24 list=GEO_PR comment=PR
+add address=142.228.132.0/24 list=GEO_PR comment=PR
+add address=142.228.134.0/24 list=GEO_PR comment=PR
+add address=142.228.136.0/21 list=GEO_PR comment=PR
+add address=142.228.144.0/22 list=GEO_PR comment=PR
+add address=142.228.148.0/23 list=GEO_PR comment=PR
+add address=142.228.151.0/24 list=GEO_PR comment=PR
+add address=142.228.152.0/24 list=GEO_PR comment=PR
+add address=142.228.154.0/23 list=GEO_PR comment=PR
+add address=142.228.156.0/22 list=GEO_PR comment=PR
+add address=142.228.160.0/21 list=GEO_PR comment=PR
+add address=142.228.168.0/23 list=GEO_PR comment=PR
+add address=142.228.172.0/22 list=GEO_PR comment=PR
+add address=142.228.176.0/22 list=GEO_PR comment=PR
+add address=142.228.182.0/23 list=GEO_PR comment=PR
+add address=142.228.184.0/21 list=GEO_PR comment=PR
+add address=142.228.192.0/18 list=GEO_PR comment=PR
 add address=142.248.176.0/22 list=GEO_PR comment=PR
 add address=147.92.80.0/21 list=GEO_PR comment=PR
 add address=161.38.240.0/22 list=GEO_PR comment=PR
@@ -161,6 +201,40 @@ add address=196.12.160.0/19 list=GEO_PR comment=PR
 add address=196.28.48.0/20 list=GEO_PR comment=PR
 add address=196.32.128.0/19 list=GEO_PR comment=PR
 add address=196.42.0.0/18 list=GEO_PR comment=PR
+add address=198.33.8.0/23 list=GEO_PR comment=PR
+add address=198.33.12.0/23 list=GEO_PR comment=PR
+add address=198.33.16.0/23 list=GEO_PR comment=PR
+add address=198.33.24.0/23 list=GEO_PR comment=PR
+add address=198.33.38.0/23 list=GEO_PR comment=PR
+add address=198.33.42.0/23 list=GEO_PR comment=PR
+add address=198.33.48.0/23 list=GEO_PR comment=PR
+add address=198.33.54.0/23 list=GEO_PR comment=PR
+add address=198.33.56.0/23 list=GEO_PR comment=PR
+add address=198.33.60.0/23 list=GEO_PR comment=PR
+add address=198.33.64.0/23 list=GEO_PR comment=PR
+add address=198.33.70.0/23 list=GEO_PR comment=PR
+add address=198.33.80.0/20 list=GEO_PR comment=PR
+add address=198.33.100.0/22 list=GEO_PR comment=PR
+add address=198.33.108.0/22 list=GEO_PR comment=PR
+add address=198.33.124.0/22 list=GEO_PR comment=PR
+add address=198.33.132.0/22 list=GEO_PR comment=PR
+add address=198.33.136.0/21 list=GEO_PR comment=PR
+add address=198.33.144.0/21 list=GEO_PR comment=PR
+add address=198.33.152.0/22 list=GEO_PR comment=PR
+add address=198.33.176.0/21 list=GEO_PR comment=PR
+add address=198.33.188.0/22 list=GEO_PR comment=PR
+add address=198.33.212.0/22 list=GEO_PR comment=PR
+add address=198.33.216.0/21 list=GEO_PR comment=PR
+add address=198.33.224.0/20 list=GEO_PR comment=PR
+add address=198.33.240.0/22 list=GEO_PR comment=PR
+add address=198.33.248.0/21 list=GEO_PR comment=PR
+add address=198.34.64.0/19 list=GEO_PR comment=PR
+add address=198.34.112.0/21 list=GEO_PR comment=PR
+add address=198.34.120.0/22 list=GEO_PR comment=PR
+add address=198.34.176.0/21 list=GEO_PR comment=PR
+add address=198.34.188.0/22 list=GEO_PR comment=PR
+add address=198.34.200.0/22 list=GEO_PR comment=PR
+add address=198.34.216.0/21 list=GEO_PR comment=PR
 add address=198.52.240.0/22 list=GEO_PR comment=PR
 add address=198.55.16.0/21 list=GEO_PR comment=PR
 add address=198.55.24.0/23 list=GEO_PR comment=PR
