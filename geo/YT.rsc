@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — YT
-# Generated: 2026-09-17 15:08 UTC
+# Generated: 2026-09-17 21:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YT | Subnets: 1 (was 1, collapsed 0) | IPs: ~1,024
-# RIR data dates: afrinic=2026-09-17, apnic=2026-09-16, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-16
+# RIR data dates: afrinic=2026-09-17, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-16
 #
 /ip firewall address-list
 remove [find where list=GEO_YT and (comment~"^PANEL-TEMP-GEO:")=false]
