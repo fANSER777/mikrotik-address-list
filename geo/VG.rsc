@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VG
-# Generated: 2026-09-16 21:03 UTC
+# Generated: 2026-09-17 09:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VG | Subnets: 195 (was 195, collapsed 0) | IPs: ~582,912
-# RIR data dates: afrinic=2026-09-16, apnic=2026-09-16, arin=2026-09-16, lacnic=2026-09-15, ripencc=2026-09-15
+# Countries: VG | Subnets: 199 (was 199, collapsed 0) | IPs: ~910,592
+# RIR data dates: afrinic=2026-09-17, apnic=2026-09-16, arin=2026-09-16, lacnic=2026-09-16, ripencc=2026-09-16
 #
 /ip firewall address-list
 remove [find where list=GEO_VG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -94,6 +94,7 @@ add address=177.28.0.0/15 list=GEO_VG comment=VG
 add address=177.111.0.0/16 list=GEO_VG comment=VG
 add address=177.122.0.0/16 list=GEO_VG comment=VG
 add address=177.166.0.0/16 list=GEO_VG comment=VG
+add address=179.77.0.0/16 list=GEO_VG comment=VG
 add address=185.5.248.0/22 list=GEO_VG comment=VG
 add address=185.17.0.0/22 list=GEO_VG comment=VG
 add address=185.23.152.0/22 list=GEO_VG comment=VG
@@ -144,6 +145,9 @@ add address=185.238.0.0/22 list=GEO_VG comment=VG
 add address=185.244.172.0/22 list=GEO_VG comment=VG
 add address=185.252.144.0/22 list=GEO_VG comment=VG
 add address=185.255.132.0/22 list=GEO_VG comment=VG
+add address=187.96.0.0/15 list=GEO_VG comment=VG
+add address=187.98.0.0/16 list=GEO_VG comment=VG
+add address=191.133.0.0/16 list=GEO_VG comment=VG
 add address=192.162.100.0/22 list=GEO_VG comment=VG
 add address=192.198.184.0/23 list=GEO_VG comment=VG
 add address=193.0.200.0/22 list=GEO_VG comment=VG

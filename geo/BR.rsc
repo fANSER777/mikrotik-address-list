@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BR
-# Generated: 2026-09-16 21:03 UTC
+# Generated: 2026-09-17 09:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BR | Subnets: 4920 (was 13053, collapsed 8133) | IPs: ~79,645,184
-# RIR data dates: afrinic=2026-09-16, apnic=2026-09-16, arin=2026-09-16, lacnic=2026-09-15, ripencc=2026-09-15
+# Countries: BR | Subnets: 4926 (was 13056, collapsed 8130) | IPs: ~79,317,760
+# RIR data dates: afrinic=2026-09-17, apnic=2026-09-16, arin=2026-09-16, lacnic=2026-09-16, ripencc=2026-09-16
 #
 /ip firewall address-list
 remove [find where list=GEO_BR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -635,6 +635,7 @@ add address=45.179.144.0/21 list=GEO_BR comment=BR
 add address=45.179.156.0/22 list=GEO_BR comment=BR
 add address=45.179.168.0/21 list=GEO_BR comment=BR
 add address=45.179.176.0/20 list=GEO_BR comment=BR
+add address=45.179.199.0/24 list=GEO_BR comment=BR
 add address=45.179.204.0/22 list=GEO_BR comment=BR
 add address=45.179.208.0/20 list=GEO_BR comment=BR
 add address=45.179.224.0/20 list=GEO_BR comment=BR
@@ -3286,7 +3287,9 @@ add address=179.66.160.0/20 list=GEO_BR comment=BR
 add address=179.67.240.0/20 list=GEO_BR comment=BR
 add address=179.68.0.0/16 list=GEO_BR comment=BR
 add address=179.69.0.0/18 list=GEO_BR comment=BR
-add address=179.72.0.0/13 list=GEO_BR comment=BR
+add address=179.72.0.0/14 list=GEO_BR comment=BR
+add address=179.76.0.0/16 list=GEO_BR comment=BR
+add address=179.78.0.0/15 list=GEO_BR comment=BR
 add address=179.80.0.0/12 list=GEO_BR comment=BR
 add address=179.96.0.0/13 list=GEO_BR comment=BR
 add address=179.104.0.0/14 list=GEO_BR comment=BR
@@ -3681,7 +3684,7 @@ add address=187.87.32.0/19 list=GEO_BR comment=BR
 add address=187.87.64.0/18 list=GEO_BR comment=BR
 add address=187.87.128.0/17 list=GEO_BR comment=BR
 add address=187.88.0.0/13 list=GEO_BR comment=BR
-add address=187.96.0.0/14 list=GEO_BR comment=BR
+add address=187.99.0.0/16 list=GEO_BR comment=BR
 add address=187.100.0.0/15 list=GEO_BR comment=BR
 add address=187.102.0.0/17 list=GEO_BR comment=BR
 add address=187.102.128.0/18 list=GEO_BR comment=BR
@@ -4044,7 +4047,10 @@ add address=191.56.0.0/13 list=GEO_BR comment=BR
 add address=191.86.0.0/15 list=GEO_BR comment=BR
 add address=191.98.239.0/24 list=GEO_BR comment=BR
 add address=191.120.0.0/14 list=GEO_BR comment=BR
-add address=191.128.0.0/12 list=GEO_BR comment=BR
+add address=191.128.0.0/14 list=GEO_BR comment=BR
+add address=191.132.0.0/16 list=GEO_BR comment=BR
+add address=191.134.0.0/15 list=GEO_BR comment=BR
+add address=191.136.0.0/13 list=GEO_BR comment=BR
 add address=191.160.0.0/14 list=GEO_BR comment=BR
 add address=191.164.0.0/15 list=GEO_BR comment=BR
 add address=191.167.0.0/16 list=GEO_BR comment=BR
