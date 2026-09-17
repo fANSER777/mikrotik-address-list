@@ -1,7 +1,7 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-09-17 12:06
+# Generated: 2026-09-17 18:08
 # Sources: https://openai.com/chatgpt-user.json, live DNS (chatgpt.com, chat.openai.com, auth.openai.com, auth0.openai.com, setup.auth.openai.com, api.openai.com, platform.openai.com, cdn.openai.com, cdn.oaistatic.com, persistent.oaistatic.com, files.oaiusercontent.com, ab.chatgpt.com, android.chat.openai.com, ios.chat.openai.com, tcr9i.chat.openai.com, cdn.openaimerge.com, challenges.cloudflare.com, oaistatsig.com)
-# CIDR subnets: 215 | CIDR IPs: ~36,192 | DNS /32: 60
+# CIDR subnets: 217 | CIDR IPs: ~36,224 | DNS /32: 62
 #
 /ip firewall address-list
 remove [find list=OPENAI]
@@ -206,6 +206,8 @@ add address=172.192.112.208/28 list=OPENAI
 add address=172.197.160.192/28 list=OPENAI
 add address=172.197.203.16/28 list=OPENAI
 add address=172.198.58.176/28 list=OPENAI
+add address=172.198.78.192/28 list=OPENAI
+add address=172.198.79.112/28 list=OPENAI
 add address=172.198.161.128/28 list=OPENAI
 add address=172.199.137.80/28 list=OPENAI
 add address=172.204.28.224/28 list=OPENAI
@@ -255,6 +257,8 @@ add address=150.171.109.163/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.182/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.183/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.196/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.109.209/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.109.210/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.213/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.242/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.244/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com

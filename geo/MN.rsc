@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MN
-# Generated: 2026-09-17 09:06 UTC
+# Generated: 2026-09-17 15:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MN | Subnets: 133 (was 136, collapsed 3) | IPs: ~181,504
-# RIR data dates: afrinic=2026-09-17, apnic=2026-09-16, arin=2026-09-16, lacnic=2026-09-16, ripencc=2026-09-16
+# RIR data dates: afrinic=2026-09-17, apnic=2026-09-16, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-16
 #
 /ip firewall address-list
 remove [find where list=GEO_MN and (comment~"^PANEL-TEMP-GEO:")=false]
