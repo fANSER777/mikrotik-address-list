@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZA
-# Generated: 2026-09-17 21:09 UTC
+# Generated: 2026-09-18 09:13 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZA | Subnets: 1595 (was 2225, collapsed 630) | IPs: ~27,182,848
-# RIR data dates: afrinic=2026-09-17, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-16
+# Countries: ZA | Subnets: 1596 (was 2226, collapsed 630) | IPs: ~27,183,872
+# RIR data dates: afrinic=2026-09-18, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-17
 #
 /ip firewall address-list
 remove [find where list=GEO_ZA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -322,6 +322,7 @@ add address=102.177.64.0/21 list=GEO_ZA comment=ZA
 add address=102.177.112.0/20 list=GEO_ZA comment=ZA
 add address=102.177.128.0/18 list=GEO_ZA comment=ZA
 add address=102.182.0.0/16 list=GEO_ZA comment=ZA
+add address=102.201.40.0/22 list=GEO_ZA comment=ZA
 add address=102.201.48.0/22 list=GEO_ZA comment=ZA
 add address=102.201.88.0/22 list=GEO_ZA comment=ZA
 add address=102.201.100.0/22 list=GEO_ZA comment=ZA

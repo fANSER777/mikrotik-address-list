@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-09-17 21:09 UTC
+# Generated: 2026-09-18 09:13 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DE | Subnets: 8728 (was 11061, collapsed 2333) | IPs: ~126,372,480
-# RIR data dates: afrinic=2026-09-17, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-16
+# Countries: DE | Subnets: 8733 (was 11066, collapsed 2333) | IPs: ~126,381,440
+# RIR data dates: afrinic=2026-09-18, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-17
 #
 /ip firewall address-list
 remove [find where list=GEO_DE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1255,7 +1255,10 @@ add address=78.94.0.0/16 list=GEO_DE comment=DE
 add address=78.108.112.0/24 list=GEO_DE comment=DE
 add address=78.108.220.0/22 list=GEO_DE comment=DE
 add address=78.109.56.0/21 list=GEO_DE comment=DE
-add address=78.110.224.0/20 list=GEO_DE comment=DE
+add address=78.110.224.0/21 list=GEO_DE comment=DE
+add address=78.110.232.0/24 list=GEO_DE comment=DE
+add address=78.110.234.0/23 list=GEO_DE comment=DE
+add address=78.110.236.0/22 list=GEO_DE comment=DE
 add address=78.111.64.0/20 list=GEO_DE comment=DE
 add address=78.111.96.0/24 list=GEO_DE comment=DE
 add address=78.137.96.0/21 list=GEO_DE comment=DE
@@ -2625,6 +2628,7 @@ add address=95.130.248.0/21 list=GEO_DE comment=DE
 add address=95.131.64.0/21 list=GEO_DE comment=DE
 add address=95.131.96.0/21 list=GEO_DE comment=DE
 add address=95.131.120.0/21 list=GEO_DE comment=DE
+add address=95.133.152.0/22 list=GEO_DE comment=DE
 add address=95.133.162.0/23 list=GEO_DE comment=DE
 add address=95.133.168.0/23 list=GEO_DE comment=DE
 add address=95.133.228.0/22 list=GEO_DE comment=DE
@@ -3326,6 +3330,7 @@ add address=162.254.200.0/21 list=GEO_DE comment=DE
 add address=163.114.192.0/18 list=GEO_DE comment=DE
 add address=163.165.192.0/18 list=GEO_DE comment=DE
 add address=163.242.0.0/16 list=GEO_DE comment=DE
+add address=163.245.32.0/19 list=GEO_DE comment=DE
 add address=164.5.240.0/20 list=GEO_DE comment=DE
 add address=164.16.0.0/12 list=GEO_DE comment=DE
 add address=164.32.0.0/15 list=GEO_DE comment=DE
