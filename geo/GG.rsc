@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GG
-# Generated: 2026-09-18 15:32 UTC
+# Generated: 2026-09-18 21:34 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GG | Subnets: 59 (was 59, collapsed 0) | IPs: ~83,712
 # RIR data dates: afrinic=2026-09-18, apnic=2026-09-18, arin=2026-09-18, lacnic=2026-09-16, ripencc=2026-09-17
