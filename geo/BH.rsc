@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BH
-# Generated: 2026-09-18 09:12 UTC
+# Generated: 2026-09-18 12:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BH | Subnets: 56 (was 61, collapsed 5) | IPs: ~414,976
 # RIR data dates: afrinic=2026-09-18, apnic=2026-09-17, arin=2026-09-17, lacnic=2026-09-16, ripencc=2026-09-17

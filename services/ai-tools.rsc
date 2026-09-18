@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-09-18 12:13
+# Generated: 2026-09-18 15:59
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 220 (OpenAI: 219, Claude: 1) | OpenAI DNS /32: 62 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 601 DNS /32 + 15 FQDN
+# Subnets: 220 (OpenAI: 219, Claude: 1) | OpenAI DNS /32: 62 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 607 DNS /32 + 15 FQDN
 # Upstream FQDN wildcard policy: *.x.ai, *.grok.com, grok.x.com, *.cursor.sh, *.gcpp.cursor.sh, *.cursorvm.com, *.*.cursorvm.com, *.cursor-cdn.com, *.cursorapi.com, downloads.cursor.com, cursor.com
 # Disable TLS inspection for these hosts; it can break HTTP/2 streaming
 #
@@ -426,6 +426,7 @@ add address=23.22.81.136/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=23.23.91.125/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=23.23.204.232/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=32.192.10.43/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=32.192.220.151/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=32.193.58.85/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=32.193.60.145/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=32.193.116.23/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
@@ -539,6 +540,7 @@ add address=44.196.5.211/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.196.38.102/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.196.205.48/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.197.98.244/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=44.197.210.189/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.197.225.197/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.197.225.214/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=44.198.89.159/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
@@ -621,6 +623,7 @@ add address=52.22.206.31/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.22.240.68/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.23.47.179/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.23.100.81/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=52.44.0.38/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.44.11.94/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.44.128.105/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=52.54.150.132/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
@@ -682,6 +685,7 @@ add address=54.88.222.107/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.88.244.163/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.90.224.87/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.92.136.218/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=54.144.3.25/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.144.24.78/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.144.140.77/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.144.232.156/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
@@ -733,6 +737,7 @@ add address=54.211.185.103/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.221.142.41/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.221.221.104/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.224.53.35/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=54.224.175.244/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.224.196.141/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.225.15.28/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.225.233.5/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
@@ -791,6 +796,7 @@ add address=98.94.117.185/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.94.124.217/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.94.160.103/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.94.201.221/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=98.94.215.93/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.95.63.118/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.95.192.203/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=98.95.210.225/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
