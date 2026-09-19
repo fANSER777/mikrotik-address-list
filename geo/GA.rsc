@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GA
-# Generated: 2026-09-19 21:14 UTC
+# Generated: 2026-09-19 22:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GA | Subnets: 25 (was 25, collapsed 0) | IPs: ~393,728
-# RIR data dates: afrinic=2026-09-19, apnic=2026-09-19, arin=2026-09-19, lacnic=2026-09-18, ripencc=2026-09-18
+# RIR data dates: afrinic=2026-09-19, apnic=2026-09-19, arin=2026-09-19, lacnic=2026-09-18, ripencc=2026-09-19
 #
 /ip firewall address-list
 remove [find where list=GEO_GA and (comment~"^PANEL-TEMP-GEO:")=false]

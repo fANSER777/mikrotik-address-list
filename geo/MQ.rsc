@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MQ
-# Generated: 2026-09-19 21:14 UTC
+# Generated: 2026-09-19 22:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MQ | Subnets: 21 (was 22, collapsed 1) | IPs: ~134,656
-# RIR data dates: afrinic=2026-09-19, apnic=2026-09-19, arin=2026-09-19, lacnic=2026-09-18, ripencc=2026-09-18
+# RIR data dates: afrinic=2026-09-19, apnic=2026-09-19, arin=2026-09-19, lacnic=2026-09-18, ripencc=2026-09-19
 #
 /ip firewall address-list
 remove [find where list=GEO_MQ and (comment~"^PANEL-TEMP-GEO:")=false]
