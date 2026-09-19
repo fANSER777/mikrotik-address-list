@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-09-19 06:35
+# Generated: 2026-09-19 12:36
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 220 (OpenAI: 219, Claude: 1) | OpenAI DNS /32: 62 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 618 DNS /32 + 15 FQDN
+# Subnets: 220 (OpenAI: 219, Claude: 1) | OpenAI DNS /32: 62 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 619 DNS /32 + 15 FQDN
 # Upstream FQDN wildcard policy: *.x.ai, *.grok.com, grok.x.com, *.cursor.sh, *.gcpp.cursor.sh, *.cursorvm.com, *.*.cursorvm.com, *.cursor-cdn.com, *.cursorapi.com, downloads.cursor.com, cursor.com
 # Disable TLS inspection for these hosts; it can break HTTP/2 streaming
 #
@@ -703,6 +703,7 @@ add address=54.146.53.102/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.146.245.77/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.147.12.13/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.147.194.71/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
+add address=54.156.150.109/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.156.160.223/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.156.212.71/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
 add address=54.157.24.85/32 list=AI_TOOLS comment=Cursor-DNS-api2.cursor.sh
