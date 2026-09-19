@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SC
-# Generated: 2026-09-18 21:34 UTC
+# Generated: 2026-09-19 03:35 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SC | Subnets: 799 (was 881, collapsed 82) | IPs: ~8,969,984
-# RIR data dates: afrinic=2026-09-18, apnic=2026-09-18, arin=2026-09-18, lacnic=2026-09-16, ripencc=2026-09-17
+# Countries: SC | Subnets: 798 (was 880, collapsed 82) | IPs: ~8,961,792
+# RIR data dates: afrinic=2026-09-18, apnic=2026-09-18, arin=2026-09-18, lacnic=2026-09-18, ripencc=2026-09-18
 #
 /ip firewall address-list
 remove [find where list=GEO_SC and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -443,7 +443,7 @@ add address=159.194.192.0/24 list=GEO_SC comment=SC
 add address=159.194.194.0/23 list=GEO_SC comment=SC
 add address=160.5.0.0/17 list=GEO_SC comment=SC
 add address=160.5.128.0/18 list=GEO_SC comment=SC
-add address=160.5.192.0/19 list=GEO_SC comment=SC
+add address=160.5.192.0/20 list=GEO_SC comment=SC
 add address=160.119.64.0/20 list=GEO_SC comment=SC
 add address=160.119.88.0/21 list=GEO_SC comment=SC
 add address=160.119.200.0/22 list=GEO_SC comment=SC
@@ -453,7 +453,6 @@ add address=167.94.162.0/23 list=GEO_SC comment=SC
 add address=167.94.164.0/23 list=GEO_SC comment=SC
 add address=168.80.0.0/15 list=GEO_SC comment=SC
 add address=168.113.0.0/17 list=GEO_SC comment=SC
-add address=168.113.128.0/20 list=GEO_SC comment=SC
 add address=169.239.20.0/22 list=GEO_SC comment=SC
 add address=169.239.128.0/22 list=GEO_SC comment=SC
 add address=169.239.200.0/21 list=GEO_SC comment=SC
