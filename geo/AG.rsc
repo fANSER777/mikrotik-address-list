@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AG
-# Generated: 2026-09-20 14:56 UTC
+# Generated: 2026-09-20 22:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AG | Subnets: 47 (was 47, collapsed 0) | IPs: ~250,368
 # RIR data dates: afrinic=2026-09-20, apnic=2026-09-19, arin=2026-09-20, lacnic=2026-09-18, ripencc=2026-09-19

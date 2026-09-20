@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LT
-# Generated: 2026-09-20 14:56 UTC
+# Generated: 2026-09-20 22:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LT | Subnets: 948 (was 1411, collapsed 463) | IPs: ~4,100,608
 # RIR data dates: afrinic=2026-09-20, apnic=2026-09-19, arin=2026-09-20, lacnic=2026-09-18, ripencc=2026-09-19
