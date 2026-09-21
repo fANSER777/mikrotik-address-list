@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FK
-# Generated: 2026-09-21 11:30 UTC
+# Generated: 2026-09-21 11:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FK | Subnets: 7 (was 11, collapsed 4) | IPs: ~7,168
 # RIR data dates: afrinic=2026-09-21, apnic=2026-09-19, arin=2026-09-20, lacnic=2026-09-18, ripencc=2026-09-20
