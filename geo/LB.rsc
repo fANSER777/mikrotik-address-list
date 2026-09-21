@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LB
-# Generated: 2026-09-21 11:26 UTC
+# Generated: 2026-09-21 11:30 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LB | Subnets: 231 (was 255, collapsed 24) | IPs: ~569,472
 # RIR data dates: afrinic=2026-09-21, apnic=2026-09-19, arin=2026-09-20, lacnic=2026-09-18, ripencc=2026-09-20
