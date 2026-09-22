@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-09-22 12:04 UTC
+# Generated: 2026-09-22 18:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7197 (was 9299, collapsed 2102) | IPs: ~42,008,320
-# RIR data dates: afrinic=2026-09-22, apnic=2026-09-21, arin=2026-09-21, lacnic=2026-09-21, ripencc=2026-09-21
+# Countries: IN | Subnets: 7194 (was 9296, collapsed 2102) | IPs: ~42,007,296
+# RIR data dates: afrinic=2026-09-22, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-21, ripencc=2026-09-21
 #
 /ip firewall address-list
 remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1533,8 +1533,6 @@ add address=103.60.196.0/22 list=GEO_IN comment=IN
 add address=103.60.208.0/21 list=GEO_IN comment=IN
 add address=103.60.218.0/23 list=GEO_IN comment=IN
 add address=103.60.244.0/22 list=GEO_IN comment=IN
-add address=103.61.12.0/24 list=GEO_IN comment=IN
-add address=103.61.15.0/24 list=GEO_IN comment=IN
 add address=103.61.32.0/22 list=GEO_IN comment=IN
 add address=103.61.52.0/22 list=GEO_IN comment=IN
 add address=103.61.56.0/22 list=GEO_IN comment=IN
@@ -4273,7 +4271,6 @@ add address=103.187.166.0/23 list=GEO_IN comment=IN
 add address=103.187.170.0/23 list=GEO_IN comment=IN
 add address=103.187.178.0/23 list=GEO_IN comment=IN
 add address=103.187.182.0/23 list=GEO_IN comment=IN
-add address=103.187.190.0/23 list=GEO_IN comment=IN
 add address=103.187.194.0/23 list=GEO_IN comment=IN
 add address=103.187.196.0/22 list=GEO_IN comment=IN
 add address=103.187.200.0/23 list=GEO_IN comment=IN
@@ -4839,7 +4836,6 @@ add address=103.219.215.0/24 list=GEO_IN comment=IN
 add address=103.219.216.0/22 list=GEO_IN comment=IN
 add address=103.219.228.0/22 list=GEO_IN comment=IN
 add address=103.219.238.0/23 list=GEO_IN comment=IN
-add address=103.219.242.0/23 list=GEO_IN comment=IN
 add address=103.219.244.0/22 list=GEO_IN comment=IN
 add address=103.219.253.0/24 list=GEO_IN comment=IN
 add address=103.220.12.0/22 list=GEO_IN comment=IN
@@ -6203,6 +6199,7 @@ add address=163.52.192.0/24 list=GEO_IN comment=IN
 add address=163.52.194.0/23 list=GEO_IN comment=IN
 add address=163.52.208.0/23 list=GEO_IN comment=IN
 add address=163.52.222.0/23 list=GEO_IN comment=IN
+add address=163.52.234.0/23 list=GEO_IN comment=IN
 add address=163.53.72.0/21 list=GEO_IN comment=IN
 add address=163.53.80.0/21 list=GEO_IN comment=IN
 add address=163.53.176.0/22 list=GEO_IN comment=IN

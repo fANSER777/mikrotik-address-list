@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BD
-# Generated: 2026-09-22 12:04 UTC
+# Generated: 2026-09-22 18:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BD | Subnets: 2148 (was 2333, collapsed 185) | IPs: ~2,081,344
-# RIR data dates: afrinic=2026-09-22, apnic=2026-09-21, arin=2026-09-21, lacnic=2026-09-21, ripencc=2026-09-21
+# Countries: BD | Subnets: 2146 (was 2331, collapsed 185) | IPs: ~2,079,808
+# RIR data dates: afrinic=2026-09-22, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-21, ripencc=2026-09-21
 #
 /ip firewall address-list
 remove [find where list=GEO_BD and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -99,7 +99,6 @@ add address=45.250.20.0/22 list=GEO_BD comment=BD
 add address=45.250.228.0/22 list=GEO_BD comment=BD
 add address=45.251.56.0/22 list=GEO_BD comment=BD
 add address=45.251.128.0/22 list=GEO_BD comment=BD
-add address=45.251.228.0/22 list=GEO_BD comment=BD
 add address=45.252.56.0/22 list=GEO_BD comment=BD
 add address=49.0.4.0/22 list=GEO_BD comment=BD
 add address=49.0.32.0/20 list=GEO_BD comment=BD
@@ -474,7 +473,6 @@ add address=103.92.234.0/24 list=GEO_BD comment=BD
 add address=103.93.18.0/24 list=GEO_BD comment=BD
 add address=103.93.32.0/22 list=GEO_BD comment=BD
 add address=103.93.90.0/24 list=GEO_BD comment=BD
-add address=103.93.120.0/24 list=GEO_BD comment=BD
 add address=103.93.140.0/23 list=GEO_BD comment=BD
 add address=103.94.128.0/22 list=GEO_BD comment=BD
 add address=103.94.134.0/23 list=GEO_BD comment=BD
@@ -1466,7 +1464,6 @@ add address=103.214.178.0/23 list=GEO_BD comment=BD
 add address=103.214.200.0/22 list=GEO_BD comment=BD
 add address=103.214.216.0/22 list=GEO_BD comment=BD
 add address=103.215.113.0/24 list=GEO_BD comment=BD
-add address=103.215.186.0/24 list=GEO_BD comment=BD
 add address=103.216.56.0/22 list=GEO_BD comment=BD
 add address=103.217.98.0/23 list=GEO_BD comment=BD
 add address=103.217.108.0/22 list=GEO_BD comment=BD
@@ -1481,7 +1478,6 @@ add address=103.219.147.0/24 list=GEO_BD comment=BD
 add address=103.219.160.0/22 list=GEO_BD comment=BD
 add address=103.219.224.0/23 list=GEO_BD comment=BD
 add address=103.219.232.0/23 list=GEO_BD comment=BD
-add address=103.220.204.0/22 list=GEO_BD comment=BD
 add address=103.221.56.0/22 list=GEO_BD comment=BD
 add address=103.221.66.0/23 list=GEO_BD comment=BD
 add address=103.221.252.0/22 list=GEO_BD comment=BD
@@ -1915,6 +1911,8 @@ add address=163.52.152.0/23 list=GEO_BD comment=BD
 add address=163.52.167.0/24 list=GEO_BD comment=BD
 add address=163.52.168.0/23 list=GEO_BD comment=BD
 add address=163.52.172.0/23 list=GEO_BD comment=BD
+add address=163.52.236.0/23 list=GEO_BD comment=BD
+add address=163.52.240.0/23 list=GEO_BD comment=BD
 add address=163.53.140.0/22 list=GEO_BD comment=BD
 add address=163.53.148.0/22 list=GEO_BD comment=BD
 add address=163.53.180.0/22 list=GEO_BD comment=BD
