@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — EG
-# Generated: 2026-09-22 06:02 UTC
+# Generated: 2026-09-22 12:04 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EG | Subnets: 180 (was 188, collapsed 8) | IPs: ~24,152,832
 # RIR data dates: afrinic=2026-09-22, apnic=2026-09-21, arin=2026-09-21, lacnic=2026-09-21, ripencc=2026-09-21
