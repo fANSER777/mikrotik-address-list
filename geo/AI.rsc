@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AI
-# Generated: 2026-09-22 00:01 UTC
+# Generated: 2026-09-22 06:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AI | Subnets: 9 (was 9, collapsed 0) | IPs: ~9,728
-# RIR data dates: afrinic=2026-09-21, apnic=2026-09-21, arin=2026-09-21, lacnic=2026-09-18, ripencc=2026-09-21
+# RIR data dates: afrinic=2026-09-22, apnic=2026-09-21, arin=2026-09-21, lacnic=2026-09-21, ripencc=2026-09-21
 #
 /ip firewall address-list
 remove [find where list=GEO_AI and (comment~"^PANEL-TEMP-GEO:")=false]
