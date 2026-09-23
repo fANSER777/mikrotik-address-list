@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BJ
-# Generated: 2026-09-23 18:14 UTC
+# Generated: 2026-09-23 21:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BJ | Subnets: 39 (was 39, collapsed 0) | IPs: ~151,296
 # RIR data dates: afrinic=2026-09-23, apnic=2026-09-23, arin=2026-09-23, lacnic=2026-09-22, ripencc=2026-09-22
