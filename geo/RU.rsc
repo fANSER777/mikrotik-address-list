@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-09-22 18:06 UTC
+# Generated: 2026-09-23 00:09 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RU | Subnets: 8649 (was 11447, collapsed 2798) | IPs: ~45,218,624
-# RIR data dates: afrinic=2026-09-22, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-21, ripencc=2026-09-21
+# Countries: RU | Subnets: 8650 (was 11450, collapsed 2800) | IPs: ~45,220,160
+# RIR data dates: afrinic=2026-09-22, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-21, ripencc=2026-09-22
 #
 /ip firewall address-list
 remove [find where list=GEO_RU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3925,8 +3925,7 @@ add address=94.140.128.0/19 list=GEO_RU comment=RU
 add address=94.140.192.0/18 list=GEO_RU comment=RU
 add address=94.141.32.0/19 list=GEO_RU comment=RU
 add address=94.141.104.0/21 list=GEO_RU comment=RU
-add address=94.141.112.0/21 list=GEO_RU comment=RU
-add address=94.141.124.0/22 list=GEO_RU comment=RU
+add address=94.141.112.0/20 list=GEO_RU comment=RU
 add address=94.141.160.0/19 list=GEO_RU comment=RU
 add address=94.141.244.0/22 list=GEO_RU comment=RU
 add address=94.141.252.0/22 list=GEO_RU comment=RU
@@ -4594,6 +4593,7 @@ add address=158.255.75.0/24 list=GEO_RU comment=RU
 add address=158.255.80.0/21 list=GEO_RU comment=RU
 add address=158.255.128.0/18 list=GEO_RU comment=RU
 add address=159.93.0.0/16 list=GEO_RU comment=RU
+add address=159.194.192.0/24 list=GEO_RU comment=RU
 add address=159.194.196.0/22 list=GEO_RU comment=RU
 add address=159.194.200.0/21 list=GEO_RU comment=RU
 add address=159.194.208.0/20 list=GEO_RU comment=RU
@@ -5393,6 +5393,7 @@ add address=185.42.108.0/22 list=GEO_RU comment=RU
 add address=185.42.124.0/22 list=GEO_RU comment=RU
 add address=185.42.144.0/22 list=GEO_RU comment=RU
 add address=185.42.156.0/22 list=GEO_RU comment=RU
+add address=185.42.163.0/24 list=GEO_RU comment=RU
 add address=185.42.164.0/22 list=GEO_RU comment=RU
 add address=185.42.180.0/22 list=GEO_RU comment=RU
 add address=185.42.228.0/22 list=GEO_RU comment=RU
