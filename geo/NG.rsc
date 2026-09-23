@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NG
-# Generated: 2026-09-23 06:11 UTC
+# Generated: 2026-09-23 12:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NG | Subnets: 404 (was 419, collapsed 15) | IPs: ~3,218,944
 # RIR data dates: afrinic=2026-09-23, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-22, ripencc=2026-09-22

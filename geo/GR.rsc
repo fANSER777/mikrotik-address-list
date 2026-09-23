@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GR
-# Generated: 2026-09-23 06:10 UTC
+# Generated: 2026-09-23 12:13 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GR | Subnets: 445 (was 472, collapsed 27) | IPs: ~5,722,496
 # RIR data dates: afrinic=2026-09-23, apnic=2026-09-22, arin=2026-09-22, lacnic=2026-09-22, ripencc=2026-09-22
