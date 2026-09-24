@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ID
-# Generated: 2026-09-24 21:25 UTC
+# Generated: 2026-09-24 21:38 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ID | Subnets: 4761 (was 6243, collapsed 1482) | IPs: ~19,367,168
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-23, ripencc=2026-09-23
