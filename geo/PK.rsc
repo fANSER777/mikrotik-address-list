@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PK
-# Generated: 2026-09-24 21:09 UTC
+# Generated: 2026-09-24 21:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PK | Subnets: 761 (was 819, collapsed 58) | IPs: ~5,619,968
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-23, ripencc=2026-09-23

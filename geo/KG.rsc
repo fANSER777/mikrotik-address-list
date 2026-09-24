@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KG
-# Generated: 2026-09-24 21:09 UTC
+# Generated: 2026-09-24 21:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KG | Subnets: 117 (was 129, collapsed 12) | IPs: ~295,424
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-23, ripencc=2026-09-23
