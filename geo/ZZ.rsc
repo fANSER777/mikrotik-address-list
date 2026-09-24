@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZZ
-# Generated: 2026-09-24 05:14 UTC
+# Generated: 2026-09-24 11:16 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZZ | Subnets: 560 (was 561, collapsed 1) | IPs: ~5,101,824
-# RIR data dates: afrinic=2026-09-23, apnic=2026-09-23, arin=2026-09-23, lacnic=2026-09-23, ripencc=2026-09-23
+# Countries: ZZ | Subnets: 570 (was 571, collapsed 1) | IPs: ~5,101,056
+# RIR data dates: afrinic=2026-09-24, apnic=2026-09-23, arin=2026-09-23, lacnic=2026-09-23, ripencc=2026-09-23
 #
 /ip firewall address-list
 remove [find where list=GEO_ZZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -165,7 +165,11 @@ add address=102.181.224.0/19 list=GEO_ZZ comment=ZZ
 add address=102.183.0.0/16 list=GEO_ZZ comment=ZZ
 add address=102.192.0.0/13 list=GEO_ZZ comment=ZZ
 add address=102.200.0.0/16 list=GEO_ZZ comment=ZZ
-add address=102.201.0.0/19 list=GEO_ZZ comment=ZZ
+add address=102.201.0.0/20 list=GEO_ZZ comment=ZZ
+add address=102.201.16.0/21 list=GEO_ZZ comment=ZZ
+add address=102.201.24.0/22 list=GEO_ZZ comment=ZZ
+add address=102.201.28.0/23 list=GEO_ZZ comment=ZZ
+add address=102.201.30.0/24 list=GEO_ZZ comment=ZZ
 add address=102.201.220.0/22 list=GEO_ZZ comment=ZZ
 add address=102.201.224.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.20.0/22 list=GEO_ZZ comment=ZZ
@@ -452,7 +456,13 @@ add address=196.49.117.0/24 list=GEO_ZZ comment=ZZ
 add address=196.49.119.0/24 list=GEO_ZZ comment=ZZ
 add address=196.49.123.0/24 list=GEO_ZZ comment=ZZ
 add address=196.49.125.0/24 list=GEO_ZZ comment=ZZ
-add address=196.49.128.0/17 list=GEO_ZZ comment=ZZ
+add address=196.49.129.0/24 list=GEO_ZZ comment=ZZ
+add address=196.49.130.0/23 list=GEO_ZZ comment=ZZ
+add address=196.49.132.0/22 list=GEO_ZZ comment=ZZ
+add address=196.49.136.0/21 list=GEO_ZZ comment=ZZ
+add address=196.49.144.0/20 list=GEO_ZZ comment=ZZ
+add address=196.49.160.0/19 list=GEO_ZZ comment=ZZ
+add address=196.49.192.0/18 list=GEO_ZZ comment=ZZ
 add address=196.50.21.0/24 list=GEO_ZZ comment=ZZ
 add address=196.50.34.0/23 list=GEO_ZZ comment=ZZ
 add address=196.50.36.0/22 list=GEO_ZZ comment=ZZ
@@ -513,7 +523,7 @@ add address=196.60.128.0/19 list=GEO_ZZ comment=ZZ
 add address=196.60.161.0/24 list=GEO_ZZ comment=ZZ
 add address=196.60.165.0/24 list=GEO_ZZ comment=ZZ
 add address=196.60.167.0/24 list=GEO_ZZ comment=ZZ
-add address=196.60.170.0/23 list=GEO_ZZ comment=ZZ
+add address=196.60.171.0/24 list=GEO_ZZ comment=ZZ
 add address=196.60.172.0/22 list=GEO_ZZ comment=ZZ
 add address=196.60.176.0/20 list=GEO_ZZ comment=ZZ
 add address=196.60.192.0/19 list=GEO_ZZ comment=ZZ
