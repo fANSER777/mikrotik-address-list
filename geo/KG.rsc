@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KG
-# Generated: 2026-09-23 21:20 UTC
+# Generated: 2026-09-24 04:29 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KG | Subnets: 117 (was 130, collapsed 13) | IPs: ~295,680
-# RIR data dates: afrinic=2026-09-23, apnic=2026-09-23, arin=2026-09-23, lacnic=2026-09-22, ripencc=2026-09-22
+# Countries: KG | Subnets: 117 (was 129, collapsed 12) | IPs: ~295,424
+# RIR data dates: afrinic=2026-09-23, apnic=2026-09-23, arin=2026-09-23, lacnic=2026-09-23, ripencc=2026-09-23
 #
 /ip firewall address-list
 remove [find where list=GEO_KG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -55,7 +55,7 @@ add address=146.19.220.0/24 list=GEO_KG comment=KG
 add address=158.181.0.0/19 list=GEO_KG comment=KG
 add address=158.181.128.0/17 list=GEO_KG comment=KG
 add address=168.113.216.0/21 list=GEO_KG comment=KG
-add address=168.113.228.0/23 list=GEO_KG comment=KG
+add address=168.113.228.0/24 list=GEO_KG comment=KG
 add address=176.123.224.0/19 list=GEO_KG comment=KG
 add address=176.126.164.0/22 list=GEO_KG comment=KG
 add address=178.216.208.0/21 list=GEO_KG comment=KG
