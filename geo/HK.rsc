@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HK
-# Generated: 2026-09-24 18:29 UTC
+# Generated: 2026-09-24 21:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HK | Subnets: 3077 (was 3441, collapsed 364) | IPs: ~16,001,088
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-23, ripencc=2026-09-23
