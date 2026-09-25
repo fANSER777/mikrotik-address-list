@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CA
-# Generated: 2026-09-25 05:10 UTC
+# Generated: 2026-09-25 17:13 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CA | Subnets: 6411 (was 9338, collapsed 2927) | IPs: ~67,856,896
-# RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-24, ripencc=2026-09-24
+# Countries: CA | Subnets: 6410 (was 9337, collapsed 2927) | IPs: ~67,855,872
+# RIR data dates: afrinic=2026-09-24, apnic=2026-09-25, arin=2026-09-25, lacnic=2026-09-24, ripencc=2026-09-24
 #
 /ip firewall address-list
 remove [find where list=GEO_CA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2048,10 +2048,9 @@ add address=142.224.0.0/14 list=GEO_CA comment=CA
 add address=142.228.0.0/22 list=GEO_CA comment=CA
 add address=142.228.11.0/24 list=GEO_CA comment=CA
 add address=142.228.12.0/23 list=GEO_CA comment=CA
-add address=142.228.24.0/22 list=GEO_CA comment=CA
+add address=142.228.24.0/23 list=GEO_CA comment=CA
 add address=142.228.28.0/23 list=GEO_CA comment=CA
 add address=142.228.31.0/24 list=GEO_CA comment=CA
-add address=142.228.32.0/23 list=GEO_CA comment=CA
 add address=142.228.35.0/24 list=GEO_CA comment=CA
 add address=142.228.44.0/24 list=GEO_CA comment=CA
 add address=142.228.46.0/23 list=GEO_CA comment=CA
