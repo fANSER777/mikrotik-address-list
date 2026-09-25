@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NL
-# Generated: 2026-09-25 17:13 UTC
+# Generated: 2026-09-25 23:14 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NL | Subnets: 5707 (was 6365, collapsed 658) | IPs: ~47,830,304
-# RIR data dates: afrinic=2026-09-24, apnic=2026-09-25, arin=2026-09-25, lacnic=2026-09-24, ripencc=2026-09-24
+# Countries: NL | Subnets: 5706 (was 6364, collapsed 658) | IPs: ~47,825,440
+# RIR data dates: afrinic=2026-09-24, apnic=2026-09-25, arin=2026-09-25, lacnic=2026-09-24, ripencc=2026-09-25
 #
 /ip firewall address-list
 remove [find where list=GEO_NL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2188,7 +2188,6 @@ add address=128.204.192.0/20 list=GEO_NL comment=NL
 add address=129.125.0.0/16 list=GEO_NL comment=NL
 add address=130.37.0.0/16 list=GEO_NL comment=NL
 add address=130.78.0.0/21 list=GEO_NL comment=NL
-add address=130.78.16.0/20 list=GEO_NL comment=NL
 add address=130.78.120.0/21 list=GEO_NL comment=NL
 add address=130.78.128.0/19 list=GEO_NL comment=NL
 add address=130.78.160.0/20 list=GEO_NL comment=NL
@@ -2462,7 +2461,7 @@ add address=150.129.8.0/22 list=GEO_NL comment=NL
 add address=150.237.64.0/19 list=GEO_NL comment=NL
 add address=150.237.96.0/20 list=GEO_NL comment=NL
 add address=150.237.112.0/21 list=GEO_NL comment=NL
-add address=150.237.120.0/22 list=GEO_NL comment=NL
+add address=150.237.120.0/24 list=GEO_NL comment=NL
 add address=150.251.32.0/21 list=GEO_NL comment=NL
 add address=150.251.40.0/22 list=GEO_NL comment=NL
 add address=150.251.44.0/23 list=GEO_NL comment=NL
@@ -2517,6 +2516,7 @@ add address=159.46.0.0/16 list=GEO_NL comment=NL
 add address=159.100.52.0/22 list=GEO_NL comment=NL
 add address=159.100.56.0/22 list=GEO_NL comment=NL
 add address=159.100.64.0/18 list=GEO_NL comment=NL
+add address=159.200.221.0/24 list=GEO_NL comment=NL
 add address=159.242.8.0/21 list=GEO_NL comment=NL
 add address=159.253.0.0/21 list=GEO_NL comment=NL
 add address=159.253.128.0/19 list=GEO_NL comment=NL
@@ -4553,7 +4553,6 @@ add address=194.0.28.0/22 list=GEO_NL comment=NL
 add address=194.0.197.0/24 list=GEO_NL comment=NL
 add address=194.0.215.0/24 list=GEO_NL comment=NL
 add address=194.0.250.0/24 list=GEO_NL comment=NL
-add address=194.1.204.0/24 list=GEO_NL comment=NL
 add address=194.4.14.0/23 list=GEO_NL comment=NL
 add address=194.4.154.0/23 list=GEO_NL comment=NL
 add address=194.5.48.0/23 list=GEO_NL comment=NL
