@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AL
-# Generated: 2026-09-25 03:39 UTC
+# Generated: 2026-09-25 04:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AL | Subnets: 234 (was 244, collapsed 10) | IPs: ~505,920
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-24, ripencc=2026-09-24

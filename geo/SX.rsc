@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SX
-# Generated: 2026-09-25 03:39 UTC
+# Generated: 2026-09-25 04:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SX | Subnets: 10 (was 13, collapsed 3) | IPs: ~34,304
 # RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-24, ripencc=2026-09-24
