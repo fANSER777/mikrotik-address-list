@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — QA
-# Generated: 2026-09-24 21:38 UTC
+# Generated: 2026-09-25 03:39 UTC
 # Source: RIR delegated (5 registries)
-# Countries: QA | Subnets: 47 (was 51, collapsed 4) | IPs: ~847,744
-# RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-23, ripencc=2026-09-23
+# Countries: QA | Subnets: 48 (was 52, collapsed 4) | IPs: ~848,000
+# RIR data dates: afrinic=2026-09-24, apnic=2026-09-24, arin=2026-09-24, lacnic=2026-09-24, ripencc=2026-09-24
 #
 /ip firewall address-list
 remove [find where list=GEO_QA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -30,6 +30,7 @@ add address=103.17.0.0/22 list=GEO_QA comment=QA
 add address=103.23.124.0/22 list=GEO_QA comment=QA
 add address=103.199.88.0/22 list=GEO_QA comment=QA
 add address=103.225.72.0/22 list=GEO_QA comment=QA
+add address=149.170.151.0/24 list=GEO_QA comment=QA
 add address=176.202.0.0/15 list=GEO_QA comment=QA
 add address=178.23.16.0/21 list=GEO_QA comment=QA
 add address=178.152.0.0/15 list=GEO_QA comment=QA
