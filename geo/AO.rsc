@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AO
-# Generated: 2026-09-26 11:15 UTC
+# Generated: 2026-09-26 17:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AO | Subnets: 149 (was 157, collapsed 8) | IPs: ~1,292,032
-# RIR data dates: afrinic=2026-09-26, apnic=2026-09-25, arin=2026-09-25, lacnic=2026-09-25, ripencc=2026-09-25
+# RIR data dates: afrinic=2026-09-26, apnic=2026-09-25, arin=2026-09-26, lacnic=2026-09-25, ripencc=2026-09-25
 #
 /ip firewall address-list
 remove [find where list=GEO_AO and (comment~"^PANEL-TEMP-GEO:")=false]
