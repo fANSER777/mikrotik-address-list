@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NZ
-# Generated: 2026-09-26 23:18 UTC
+# Generated: 2026-09-27 05:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NZ | Subnets: 1274 (was 1465, collapsed 191) | IPs: ~6,531,328
 # RIR data dates: afrinic=2026-09-26, apnic=2026-09-25, arin=2026-09-26, lacnic=2026-09-25, ripencc=2026-09-26
