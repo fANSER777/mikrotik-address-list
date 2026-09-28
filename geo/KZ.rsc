@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KZ
-# Generated: 2026-09-28 17:50 UTC
+# Generated: 2026-09-28 23:51 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KZ | Subnets: 605 (was 681, collapsed 76) | IPs: ~3,370,496
-# RIR data dates: afrinic=2026-09-28, apnic=2026-09-28, arin=2026-09-28, lacnic=2026-09-25, ripencc=2026-09-27
+# Countries: KZ | Subnets: 606 (was 685, collapsed 79) | IPs: ~3,371,520
+# RIR data dates: afrinic=2026-09-28, apnic=2026-09-28, arin=2026-09-28, lacnic=2026-09-25, ripencc=2026-09-28
 #
 /ip firewall address-list
 remove [find where list=GEO_KZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -310,6 +310,7 @@ add address=128.127.96.0/21 list=GEO_KZ comment=KZ
 add address=130.193.6.0/24 list=GEO_KZ comment=KZ
 add address=141.133.134.0/23 list=GEO_KZ comment=KZ
 add address=141.133.142.0/23 list=GEO_KZ comment=KZ
+add address=141.133.144.0/22 list=GEO_KZ comment=KZ
 add address=141.133.160.0/21 list=GEO_KZ comment=KZ
 add address=141.133.168.0/22 list=GEO_KZ comment=KZ
 add address=145.255.160.0/19 list=GEO_KZ comment=KZ
