@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-09-29 17:54 UTC
+# Generated: 2026-09-29 23:55 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DE | Subnets: 8739 (was 11071, collapsed 2332) | IPs: ~126,391,680
-# RIR data dates: afrinic=2026-09-29, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-28, ripencc=2026-09-28
+# Countries: DE | Subnets: 8740 (was 11072, collapsed 2332) | IPs: ~126,395,776
+# RIR data dates: afrinic=2026-09-29, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-28, ripencc=2026-09-29
 #
 /ip firewall address-list
 remove [find where list=GEO_DE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3115,6 +3115,7 @@ add address=147.185.206.0/23 list=GEO_DE comment=DE
 add address=147.189.32.0/19 list=GEO_DE comment=DE
 add address=147.189.96.0/19 list=GEO_DE comment=DE
 add address=147.189.168.0/21 list=GEO_DE comment=DE
+add address=147.189.192.0/20 list=GEO_DE comment=DE
 add address=147.204.0.0/16 list=GEO_DE comment=DE
 add address=148.54.0.0/16 list=GEO_DE comment=DE
 add address=148.72.128.0/24 list=GEO_DE comment=DE
@@ -3175,6 +3176,7 @@ add address=149.244.0.0/14 list=GEO_DE comment=DE
 add address=149.249.0.0/16 list=GEO_DE comment=DE
 add address=149.250.0.0/16 list=GEO_DE comment=DE
 add address=150.5.0.0/18 list=GEO_DE comment=DE
+add address=150.237.64.0/23 list=GEO_DE comment=DE
 add address=150.251.96.0/20 list=GEO_DE comment=DE
 add address=151.106.0.0/17 list=GEO_DE comment=DE
 add address=151.123.176.0/21 list=GEO_DE comment=DE
@@ -6895,7 +6897,6 @@ add address=194.42.55.0/27 list=GEO_DE comment=DE
 add address=194.42.55.192/27 list=GEO_DE comment=DE
 add address=194.42.96.0/23 list=GEO_DE comment=DE
 add address=194.42.104.0/23 list=GEO_DE comment=DE
-add address=194.42.108.0/23 list=GEO_DE comment=DE
 add address=194.42.114.0/23 list=GEO_DE comment=DE
 add address=194.42.176.0/20 list=GEO_DE comment=DE
 add address=194.45.0.0/22 list=GEO_DE comment=DE
