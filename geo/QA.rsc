@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — QA
-# Generated: 2026-09-29 05:52 UTC
+# Generated: 2026-09-29 11:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: QA | Subnets: 48 (was 52, collapsed 4) | IPs: ~848,000
 # RIR data dates: afrinic=2026-09-29, apnic=2026-09-28, arin=2026-09-28, lacnic=2026-09-28, ripencc=2026-09-28
