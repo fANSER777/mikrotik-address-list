@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NL
-# Generated: 2026-09-28 23:51 UTC
+# Generated: 2026-09-29 05:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NL | Subnets: 5707 (was 6366, collapsed 659) | IPs: ~47,824,416
-# RIR data dates: afrinic=2026-09-28, apnic=2026-09-28, arin=2026-09-28, lacnic=2026-09-25, ripencc=2026-09-28
+# RIR data dates: afrinic=2026-09-29, apnic=2026-09-28, arin=2026-09-28, lacnic=2026-09-28, ripencc=2026-09-28
 #
 /ip firewall address-list
 remove [find where list=GEO_NL and (comment~"^PANEL-TEMP-GEO:")=false]
