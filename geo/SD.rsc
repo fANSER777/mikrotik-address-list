@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SD
-# Generated: 2026-09-29 23:55 UTC
+# Generated: 2026-09-30 05:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SD | Subnets: 34 (was 35, collapsed 1) | IPs: ~1,891,072
-# RIR data dates: afrinic=2026-09-29, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-28, ripencc=2026-09-29
+# RIR data dates: afrinic=2026-09-30, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-29, ripencc=2026-09-29
 #
 /ip firewall address-list
 remove [find where list=GEO_SD and (comment~"^PANEL-TEMP-GEO:")=false]
