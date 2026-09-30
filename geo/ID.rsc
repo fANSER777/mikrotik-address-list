@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ID
-# Generated: 2026-09-30 14:54 UTC
+# Generated: 2026-09-30 20:55 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ID | Subnets: 4769 (was 6253, collapsed 1484) | IPs: ~19,371,264
-# RIR data dates: afrinic=2026-09-30, apnic=2026-09-29, arin=2026-09-30, lacnic=2026-09-29, ripencc=2026-09-29
+# Countries: ID | Subnets: 4773 (was 6257, collapsed 1484) | IPs: ~19,372,544
+# RIR data dates: afrinic=2026-09-30, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-29, ripencc=2026-09-29
 #
 /ip firewall address-list
 remove [find where list=GEO_ID and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -93,6 +93,7 @@ add address=43.241.148.0/22 list=GEO_ID comment=ID
 add address=43.241.244.0/24 list=GEO_ID comment=ID
 add address=43.241.246.0/23 list=GEO_ID comment=ID
 add address=43.242.132.0/23 list=GEO_ID comment=ID
+add address=43.242.232.0/23 list=GEO_ID comment=ID
 add address=43.243.140.0/22 list=GEO_ID comment=ID
 add address=43.243.152.0/22 list=GEO_ID comment=ID
 add address=43.243.184.0/22 list=GEO_ID comment=ID
@@ -4317,7 +4318,9 @@ add address=192.82.230.0/24 list=GEO_ID comment=ID
 add address=192.86.132.0/24 list=GEO_ID comment=ID
 add address=192.88.101.0/24 list=GEO_ID comment=ID
 add address=192.92.15.0/24 list=GEO_ID comment=ID
+add address=192.94.238.0/24 list=GEO_ID comment=ID
 add address=192.103.46.0/24 list=GEO_ID comment=ID
+add address=192.103.132.0/24 list=GEO_ID comment=ID
 add address=192.122.210.0/24 list=GEO_ID comment=ID
 add address=192.133.14.0/24 list=GEO_ID comment=ID
 add address=192.135.97.0/24 list=GEO_ID comment=ID
@@ -4327,6 +4330,7 @@ add address=192.140.224.0/23 list=GEO_ID comment=ID
 add address=192.144.92.0/22 list=GEO_ID comment=ID
 add address=192.145.228.0/23 list=GEO_ID comment=ID
 add address=192.147.114.0/24 list=GEO_ID comment=ID
+add address=192.152.146.0/24 list=GEO_ID comment=ID
 add address=192.156.142.0/24 list=GEO_ID comment=ID
 add address=192.172.246.0/24 list=GEO_ID comment=ID
 add address=192.188.80.0/24 list=GEO_ID comment=ID
