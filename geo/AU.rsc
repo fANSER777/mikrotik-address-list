@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AU
-# Generated: 2026-09-30 05:56 UTC
+# Generated: 2026-09-30 11:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AU | Subnets: 5674 (was 9966, collapsed 4292) | IPs: ~46,089,472
 # RIR data dates: afrinic=2026-09-30, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-29, ripencc=2026-09-29

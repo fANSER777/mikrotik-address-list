@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MT
-# Generated: 2026-09-30 05:56 UTC
+# Generated: 2026-09-30 11:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MT | Subnets: 122 (was 123, collapsed 1) | IPs: ~676,224
 # RIR data dates: afrinic=2026-09-30, apnic=2026-09-29, arin=2026-09-29, lacnic=2026-09-29, ripencc=2026-09-29
