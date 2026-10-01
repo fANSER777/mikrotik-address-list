@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-10-01 12:58 UTC
+# Generated: 2026-10-01 19:00 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29674 (was 70096, collapsed 40422) | IPs: ~1,606,102,432
-# RIR data dates: afrinic=2026-10-01, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30
+# Countries: US | Subnets: 29677 (was 70095, collapsed 40418) | IPs: ~1,606,036,896
+# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-09-30, ripencc=2026-09-30
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -9057,7 +9057,7 @@ add address=129.14.0.0/15 list=GEO_US comment=US
 add address=129.17.0.0/16 list=GEO_US comment=US
 add address=129.19.0.0/16 list=GEO_US comment=US
 add address=129.21.0.0/16 list=GEO_US comment=US
-add address=129.22.0.0/15 list=GEO_US comment=US
+add address=129.22.0.0/16 list=GEO_US comment=US
 add address=129.24.0.0/15 list=GEO_US comment=US
 add address=129.29.0.0/16 list=GEO_US comment=US
 add address=129.30.0.0/16 list=GEO_US comment=US
@@ -9923,8 +9923,7 @@ add address=137.80.0.0/15 list=GEO_US comment=US
 add address=137.83.1.0/24 list=GEO_US comment=US
 add address=137.83.2.0/23 list=GEO_US comment=US
 add address=137.83.4.0/22 list=GEO_US comment=US
-add address=137.83.8.0/23 list=GEO_US comment=US
-add address=137.83.11.0/24 list=GEO_US comment=US
+add address=137.83.8.0/22 list=GEO_US comment=US
 add address=137.83.13.0/24 list=GEO_US comment=US
 add address=137.83.16.0/21 list=GEO_US comment=US
 add address=137.83.24.0/22 list=GEO_US comment=US
@@ -22233,7 +22232,11 @@ add address=198.199.252.0/22 list=GEO_US comment=US
 add address=198.200.10.0/23 list=GEO_US comment=US
 add address=198.200.12.0/22 list=GEO_US comment=US
 add address=198.200.32.0/19 list=GEO_US comment=US
-add address=198.200.128.0/19 list=GEO_US comment=US
+add address=198.200.128.0/20 list=GEO_US comment=US
+add address=198.200.144.0/22 list=GEO_US comment=US
+add address=198.200.149.0/24 list=GEO_US comment=US
+add address=198.200.150.0/23 list=GEO_US comment=US
+add address=198.200.152.0/21 list=GEO_US comment=US
 add address=198.200.160.0/20 list=GEO_US comment=US
 add address=198.200.176.0/22 list=GEO_US comment=US
 add address=198.200.180.0/23 list=GEO_US comment=US

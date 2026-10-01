@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-10-01 12:58 UTC
+# Generated: 2026-10-01 18:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7200 (was 9303, collapsed 2103) | IPs: ~42,008,832
-# RIR data dates: afrinic=2026-10-01, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30
+# Countries: IN | Subnets: 7205 (was 9308, collapsed 2103) | IPs: ~42,011,392
+# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-09-30, ripencc=2026-09-30
 #
 /ip firewall address-list
 remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -92,6 +92,7 @@ add address=27.100.24.0/22 list=GEO_IN comment=IN
 add address=27.107.0.0/16 list=GEO_IN comment=IN
 add address=27.109.0.0/19 list=GEO_IN comment=IN
 add address=27.111.72.0/22 list=GEO_IN comment=IN
+add address=27.112.96.0/23 list=GEO_IN comment=IN
 add address=27.112.120.0/22 list=GEO_IN comment=IN
 add address=27.113.252.0/22 list=GEO_IN comment=IN
 add address=27.116.16.0/21 list=GEO_IN comment=IN
@@ -535,6 +536,7 @@ add address=45.120.136.0/22 list=GEO_IN comment=IN
 add address=45.120.144.0/22 list=GEO_IN comment=IN
 add address=45.120.160.0/22 list=GEO_IN comment=IN
 add address=45.120.172.0/22 list=GEO_IN comment=IN
+add address=45.120.194.0/23 list=GEO_IN comment=IN
 add address=45.120.212.0/22 list=GEO_IN comment=IN
 add address=45.120.232.0/21 list=GEO_IN comment=IN
 add address=45.120.248.0/21 list=GEO_IN comment=IN
@@ -6747,6 +6749,7 @@ add address=202.12.103.0/24 list=GEO_IN comment=IN
 add address=202.14.72.0/24 list=GEO_IN comment=IN
 add address=202.14.120.0/22 list=GEO_IN comment=IN
 add address=202.14.160.0/22 list=GEO_IN comment=IN
+add address=202.14.200.0/23 list=GEO_IN comment=IN
 add address=202.21.32.0/20 list=GEO_IN comment=IN
 add address=202.21.134.0/23 list=GEO_IN comment=IN
 add address=202.27.9.0/24 list=GEO_IN comment=IN
@@ -6847,6 +6850,7 @@ add address=202.72.224.0/22 list=GEO_IN comment=IN
 add address=202.72.248.0/22 list=GEO_IN comment=IN
 add address=202.74.53.0/24 list=GEO_IN comment=IN
 add address=202.74.54.0/24 list=GEO_IN comment=IN
+add address=202.74.232.0/23 list=GEO_IN comment=IN
 add address=202.75.192.0/20 list=GEO_IN comment=IN
 add address=202.77.137.0/24 list=GEO_IN comment=IN
 add address=202.78.232.0/21 list=GEO_IN comment=IN
@@ -6950,6 +6954,7 @@ add address=202.168.84.0/22 list=GEO_IN comment=IN
 add address=202.168.88.0/22 list=GEO_IN comment=IN
 add address=202.168.94.0/24 list=GEO_IN comment=IN
 add address=202.168.144.0/22 list=GEO_IN comment=IN
+add address=202.168.148.0/23 list=GEO_IN comment=IN
 add address=202.168.156.0/22 list=GEO_IN comment=IN
 add address=202.170.200.0/21 list=GEO_IN comment=IN
 add address=202.171.239.0/24 list=GEO_IN comment=IN
