@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BQ
-# Generated: 2026-10-01 04:50 UTC
+# Generated: 2026-10-01 04:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BQ | Subnets: 13 (was 13, collapsed 0) | IPs: ~25,856
 # RIR data dates: afrinic=2026-09-30, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30

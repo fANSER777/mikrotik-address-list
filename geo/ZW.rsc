@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZW
-# Generated: 2026-10-01 04:50 UTC
+# Generated: 2026-10-01 04:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZW | Subnets: 43 (was 43, collapsed 0) | IPs: ~105,472
 # RIR data dates: afrinic=2026-09-30, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30
