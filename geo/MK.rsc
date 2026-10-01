@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MK
-# Generated: 2026-09-30 20:55 UTC
+# Generated: 2026-10-01 02:56 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MK | Subnets: 106 (was 144, collapsed 38) | IPs: ~684,800
-# RIR data dates: afrinic=2026-09-30, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-29, ripencc=2026-09-29
+# Countries: MK | Subnets: 107 (was 145, collapsed 38) | IPs: ~685,056
+# RIR data dates: afrinic=2026-09-30, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-29, ripencc=2026-09-30
 #
 /ip firewall address-list
 remove [find where list=GEO_MK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -53,6 +53,7 @@ add address=95.180.128.0/17 list=GEO_MK comment=MK
 add address=109.69.40.0/21 list=GEO_MK comment=MK
 add address=141.136.8.0/21 list=GEO_MK comment=MK
 add address=146.255.64.0/19 list=GEO_MK comment=MK
+add address=150.251.51.0/24 list=GEO_MK comment=MK
 add address=151.236.240.0/20 list=GEO_MK comment=MK
 add address=164.40.248.0/21 list=GEO_MK comment=MK
 add address=178.249.112.0/21 list=GEO_MK comment=MK
