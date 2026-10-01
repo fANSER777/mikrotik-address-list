@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IE
-# Generated: 2026-10-01 11:32 UTC
+# Generated: 2026-10-01 12:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IE | Subnets: 713 (was 758, collapsed 45) | IPs: ~10,022,208
 # RIR data dates: afrinic=2026-10-01, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30

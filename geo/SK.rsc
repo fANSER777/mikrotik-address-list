@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SK
-# Generated: 2026-10-01 11:32 UTC
+# Generated: 2026-10-01 12:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SK | Subnets: 414 (was 450, collapsed 36) | IPs: ~2,684,928
 # RIR data dates: afrinic=2026-10-01, apnic=2026-09-30, arin=2026-09-30, lacnic=2026-09-30, ripencc=2026-09-30
