@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ID
-# Generated: 2026-10-02 11:14 UTC
+# Generated: 2026-10-02 17:14 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ID | Subnets: 4777 (was 6263, collapsed 1486) | IPs: ~19,374,592
-# RIR data dates: afrinic=2026-10-02, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
+# Countries: ID | Subnets: 4783 (was 6269, collapsed 1486) | IPs: ~19,376,384
+# RIR data dates: afrinic=2026-10-02, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-01, ripencc=2026-10-01
 #
 /ip firewall address-list
 remove [find where list=GEO_ID and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3193,6 +3193,7 @@ add address=103.241.4.0/23 list=GEO_ID comment=ID
 add address=103.241.24.0/24 list=GEO_ID comment=ID
 add address=103.241.178.0/23 list=GEO_ID comment=ID
 add address=103.241.192.0/24 list=GEO_ID comment=ID
+add address=103.241.197.0/24 list=GEO_ID comment=ID
 add address=103.241.204.0/22 list=GEO_ID comment=ID
 add address=103.242.10.0/23 list=GEO_ID comment=ID
 add address=103.242.76.0/22 list=GEO_ID comment=ID
@@ -3486,6 +3487,7 @@ add address=120.89.88.0/21 list=GEO_ID comment=ID
 add address=120.160.0.0/11 list=GEO_ID comment=ID
 add address=121.50.32.0/21 list=GEO_ID comment=ID
 add address=121.50.128.0/20 list=GEO_ID comment=ID
+add address=121.50.168.0/23 list=GEO_ID comment=ID
 add address=121.52.0.0/17 list=GEO_ID comment=ID
 add address=121.52.128.0/20 list=GEO_ID comment=ID
 add address=121.58.184.0/21 list=GEO_ID comment=ID
@@ -4387,6 +4389,7 @@ add address=202.9.85.0/24 list=GEO_ID comment=ID
 add address=202.10.32.0/19 list=GEO_ID comment=ID
 add address=202.12.75.0/24 list=GEO_ID comment=ID
 add address=202.14.92.0/23 list=GEO_ID comment=ID
+add address=202.14.202.0/24 list=GEO_ID comment=ID
 add address=202.20.106.0/23 list=GEO_ID comment=ID
 add address=202.20.108.0/23 list=GEO_ID comment=ID
 add address=202.22.31.0/24 list=GEO_ID comment=ID
@@ -4611,8 +4614,10 @@ add address=203.18.39.0/24 list=GEO_ID comment=ID
 add address=203.18.104.0/24 list=GEO_ID comment=ID
 add address=203.18.197.0/24 list=GEO_ID comment=ID
 add address=203.19.4.0/24 list=GEO_ID comment=ID
+add address=203.20.71.0/24 list=GEO_ID comment=ID
 add address=203.21.74.0/23 list=GEO_ID comment=ID
 add address=203.23.52.0/24 list=GEO_ID comment=ID
+add address=203.23.54.0/24 list=GEO_ID comment=ID
 add address=203.23.70.0/24 list=GEO_ID comment=ID
 add address=203.24.50.0/23 list=GEO_ID comment=ID
 add address=203.24.76.0/23 list=GEO_ID comment=ID
@@ -4638,6 +4643,7 @@ add address=203.57.24.0/23 list=GEO_ID comment=ID
 add address=203.62.165.0/24 list=GEO_ID comment=ID
 add address=203.77.208.0/20 list=GEO_ID comment=ID
 add address=203.77.224.0/19 list=GEO_ID comment=ID
+add address=203.78.4.0/24 list=GEO_ID comment=ID
 add address=203.78.112.0/20 list=GEO_ID comment=ID
 add address=203.79.26.0/23 list=GEO_ID comment=ID
 add address=203.79.29.0/24 list=GEO_ID comment=ID
