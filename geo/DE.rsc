@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-10-01 22:07 UTC
+# Generated: 2026-10-02 04:47 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DE | Subnets: 8740 (was 11072, collapsed 2332) | IPs: ~126,395,776
-# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-09-30, ripencc=2026-09-30
+# Countries: DE | Subnets: 8741 (was 11073, collapsed 2332) | IPs: ~126,398,080
+# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
 #
 /ip firewall address-list
 remove [find where list=GEO_DE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2084,7 +2084,6 @@ add address=91.206.152.0/23 list=GEO_DE comment=DE
 add address=91.206.184.0/23 list=GEO_DE comment=DE
 add address=91.206.188.0/23 list=GEO_DE comment=DE
 add address=91.206.214.0/23 list=GEO_DE comment=DE
-add address=91.206.254.0/24 list=GEO_DE comment=DE
 add address=91.207.13.0/24 list=GEO_DE comment=DE
 add address=91.207.16.0/23 list=GEO_DE comment=DE
 add address=91.207.72.0/23 list=GEO_DE comment=DE
@@ -3205,6 +3204,7 @@ add address=153.76.32.0/19 list=GEO_DE comment=DE
 add address=153.76.144.0/20 list=GEO_DE comment=DE
 add address=153.76.224.0/21 list=GEO_DE comment=DE
 add address=153.76.252.0/22 list=GEO_DE comment=DE
+add address=153.79.72.0/21 list=GEO_DE comment=DE
 add address=153.92.28.0/22 list=GEO_DE comment=DE
 add address=153.92.32.0/21 list=GEO_DE comment=DE
 add address=153.92.40.0/24 list=GEO_DE comment=DE
@@ -3294,6 +3294,7 @@ add address=159.100.0.0/19 list=GEO_DE comment=DE
 add address=159.135.128.0/19 list=GEO_DE comment=DE
 add address=159.154.0.0/16 list=GEO_DE comment=DE
 add address=159.195.0.0/16 list=GEO_DE comment=DE
+add address=159.200.202.0/24 list=GEO_DE comment=DE
 add address=159.200.228.0/22 list=GEO_DE comment=DE
 add address=159.253.112.0/21 list=GEO_DE comment=DE
 add address=159.253.192.0/20 list=GEO_DE comment=DE
@@ -4885,7 +4886,6 @@ add address=185.208.160.0/22 list=GEO_DE comment=DE
 add address=185.208.204.0/22 list=GEO_DE comment=DE
 add address=185.208.236.0/22 list=GEO_DE comment=DE
 add address=185.209.14.0/24 list=GEO_DE comment=DE
-add address=185.209.43.0/24 list=GEO_DE comment=DE
 add address=185.209.64.0/22 list=GEO_DE comment=DE
 add address=185.209.92.0/22 list=GEO_DE comment=DE
 add address=185.209.104.0/22 list=GEO_DE comment=DE
@@ -8561,6 +8561,7 @@ add address=217.27.0.0/20 list=GEO_DE comment=DE
 add address=217.27.192.0/20 list=GEO_DE comment=DE
 add address=217.28.96.0/20 list=GEO_DE comment=DE
 add address=217.29.32.0/20 list=GEO_DE comment=DE
+add address=217.30.22.0/23 list=GEO_DE comment=DE
 add address=217.30.48.0/20 list=GEO_DE comment=DE
 add address=217.30.224.0/20 list=GEO_DE comment=DE
 add address=217.31.16.0/20 list=GEO_DE comment=DE

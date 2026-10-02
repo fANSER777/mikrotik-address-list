@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DK
-# Generated: 2026-10-01 22:07 UTC
+# Generated: 2026-10-02 04:47 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DK | Subnets: 1290 (was 1573, collapsed 283) | IPs: ~12,016,672
-# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-09-30, ripencc=2026-09-30
+# Countries: DK | Subnets: 1294 (was 1577, collapsed 283) | IPs: ~12,008,480
+# RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
 #
 /ip firewall address-list
 remove [find where list=GEO_DK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -240,7 +240,11 @@ add address=87.58.32.0/19 list=GEO_DK comment=DK
 add address=87.58.160.0/19 list=GEO_DK comment=DK
 add address=87.58.224.0/19 list=GEO_DK comment=DK
 add address=87.59.0.0/16 list=GEO_DK comment=DK
-add address=87.60.0.0/14 list=GEO_DK comment=DK
+add address=87.60.0.0/16 list=GEO_DK comment=DK
+add address=87.61.0.0/17 list=GEO_DK comment=DK
+add address=87.61.128.0/18 list=GEO_DK comment=DK
+add address=87.61.224.0/19 list=GEO_DK comment=DK
+add address=87.62.0.0/15 list=GEO_DK comment=DK
 add address=87.72.0.0/15 list=GEO_DK comment=DK
 add address=87.104.0.0/16 list=GEO_DK comment=DK
 add address=87.116.0.0/18 list=GEO_DK comment=DK
