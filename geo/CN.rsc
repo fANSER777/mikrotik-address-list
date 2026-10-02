@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CN
-# Generated: 2026-10-02 17:14 UTC
+# Generated: 2026-10-02 23:16 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CN | Subnets: 5513 (was 8811, collapsed 3298) | IPs: ~342,983,424
-# RIR data dates: afrinic=2026-10-02, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-01, ripencc=2026-10-01
+# Countries: CN | Subnets: 5520 (was 8818, collapsed 3298) | IPs: ~343,006,720
+# RIR data dates: afrinic=2026-10-02, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-01, ripencc=2026-10-02
 #
 /ip firewall address-list
 remove [find where list=GEO_CN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -525,6 +525,9 @@ add address=43.255.208.0/21 list=GEO_CN comment=CN
 add address=43.255.224.0/21 list=GEO_CN comment=CN
 add address=43.255.232.0/22 list=GEO_CN comment=CN
 add address=43.255.244.0/22 list=GEO_CN comment=CN
+add address=45.3.32.0/20 list=GEO_CN comment=CN
+add address=45.3.48.0/21 list=GEO_CN comment=CN
+add address=45.3.62.0/24 list=GEO_CN comment=CN
 add address=45.40.192.0/18 list=GEO_CN comment=CN
 add address=45.65.16.0/20 list=GEO_CN comment=CN
 add address=45.82.236.0/22 list=GEO_CN comment=CN
@@ -873,6 +876,7 @@ add address=61.232.0.0/14 list=GEO_CN comment=CN
 add address=61.236.0.0/15 list=GEO_CN comment=CN
 add address=61.240.0.0/14 list=GEO_CN comment=CN
 add address=62.234.0.0/16 list=GEO_CN comment=CN
+add address=65.111.0.0/19 list=GEO_CN comment=CN
 add address=68.79.0.0/18 list=GEO_CN comment=CN
 add address=69.230.192.0/18 list=GEO_CN comment=CN
 add address=69.231.128.0/18 list=GEO_CN comment=CN
@@ -2839,6 +2843,9 @@ add address=103.255.200.0/22 list=GEO_CN comment=CN
 add address=103.255.208.0/23 list=GEO_CN comment=CN
 add address=103.255.212.0/22 list=GEO_CN comment=CN
 add address=103.255.228.0/22 list=GEO_CN comment=CN
+add address=104.167.19.0/24 list=GEO_CN comment=CN
+add address=104.167.25.0/24 list=GEO_CN comment=CN
+add address=104.207.32.0/19 list=GEO_CN comment=CN
 add address=106.0.0.0/24 list=GEO_CN comment=CN
 add address=106.0.2.0/23 list=GEO_CN comment=CN
 add address=106.0.4.0/22 list=GEO_CN comment=CN
