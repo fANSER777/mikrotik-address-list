@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GH
-# Generated: 2026-10-02 04:47 UTC
+# Generated: 2026-10-02 05:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GH | Subnets: 153 (was 156, collapsed 3) | IPs: ~2,203,904
 # RIR data dates: afrinic=2026-10-01, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
