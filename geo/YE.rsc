@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — YE
-# Generated: 2026-10-02 09:20 UTC
+# Generated: 2026-10-02 10:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YE | Subnets: 29 (was 30, collapsed 1) | IPs: ~233,472
 # RIR data dates: afrinic=2026-10-02, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01

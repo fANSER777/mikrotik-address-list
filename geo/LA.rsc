@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LA
-# Generated: 2026-10-02 09:20 UTC
+# Generated: 2026-10-02 10:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LA | Subnets: 62 (was 62, collapsed 0) | IPs: ~98,880
 # RIR data dates: afrinic=2026-10-02, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
