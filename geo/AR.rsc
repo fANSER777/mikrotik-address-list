@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AR
-# Generated: 2026-10-02 10:55 UTC
+# Generated: 2026-10-02 11:14 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AR | Subnets: 1601 (was 1934, collapsed 333) | IPs: ~19,433,728
 # RIR data dates: afrinic=2026-10-02, apnic=2026-10-01, arin=2026-10-01, lacnic=2026-10-01, ripencc=2026-10-01
