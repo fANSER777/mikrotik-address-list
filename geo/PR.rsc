@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PR
-# Generated: 2026-10-03 11:28 UTC
+# Generated: 2026-10-03 19:32 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PR | Subnets: 285 (was 299, collapsed 14) | IPs: ~873,216
-# RIR data dates: afrinic=2026-10-03, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-02, ripencc=2026-10-02
+# Countries: PR | Subnets: 287 (was 301, collapsed 14) | IPs: ~875,264
+# RIR data dates: afrinic=2026-10-03, apnic=2026-10-02, arin=2026-10-03, lacnic=2026-10-02, ripencc=2026-10-02
 #
 /ip firewall address-list
 remove [find where list=GEO_PR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -74,6 +74,7 @@ add address=67.206.192.0/18 list=GEO_PR comment=PR
 add address=67.215.96.0/21 list=GEO_PR comment=PR
 add address=67.215.104.0/22 list=GEO_PR comment=PR
 add address=67.224.128.0/17 list=GEO_PR comment=PR
+add address=69.36.36.0/22 list=GEO_PR comment=PR
 add address=69.89.32.0/20 list=GEO_PR comment=PR
 add address=70.35.128.0/20 list=GEO_PR comment=PR
 add address=70.45.96.0/22 list=GEO_PR comment=PR
@@ -142,6 +143,7 @@ add address=142.228.182.0/23 list=GEO_PR comment=PR
 add address=142.228.184.0/21 list=GEO_PR comment=PR
 add address=142.228.192.0/18 list=GEO_PR comment=PR
 add address=142.248.176.0/22 list=GEO_PR comment=PR
+add address=143.203.180.0/22 list=GEO_PR comment=PR
 add address=147.92.80.0/21 list=GEO_PR comment=PR
 add address=161.38.240.0/22 list=GEO_PR comment=PR
 add address=162.12.224.0/21 list=GEO_PR comment=PR
