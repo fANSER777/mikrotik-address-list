@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KN
-# Generated: 2026-10-02 23:27 UTC
+# Generated: 2026-10-03 05:27 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KN | Subnets: 21 (was 21, collapsed 0) | IPs: ~23,552
-# RIR data dates: afrinic=2026-10-02, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-01, ripencc=2026-10-02
+# RIR data dates: afrinic=2026-10-02, apnic=2026-10-02, arin=2026-10-02, lacnic=2026-10-02, ripencc=2026-10-02
 #
 /ip firewall address-list
 remove [find where list=GEO_KN and (comment~"^PANEL-TEMP-GEO:")=false]
