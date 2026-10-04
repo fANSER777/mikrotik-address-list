@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ML
-# Generated: 2026-10-04 14:53 UTC
+# Generated: 2026-10-04 20:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ML | Subnets: 27 (was 27, collapsed 0) | IPs: ~92,672
 # RIR data dates: afrinic=2026-10-04, apnic=2026-10-02, arin=2026-10-04, lacnic=2026-10-02, ripencc=2026-10-03
