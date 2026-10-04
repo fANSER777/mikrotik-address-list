@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HU
-# Generated: 2026-10-04 07:34 UTC
+# Generated: 2026-10-04 08:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HU | Subnets: 656 (was 920, collapsed 264) | IPs: ~5,922,048
 # RIR data dates: afrinic=2026-10-04, apnic=2026-10-02, arin=2026-10-03, lacnic=2026-10-02, ripencc=2026-10-03

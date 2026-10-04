@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MN
-# Generated: 2026-10-04 07:34 UTC
+# Generated: 2026-10-04 08:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MN | Subnets: 133 (was 136, collapsed 3) | IPs: ~181,504
 # RIR data dates: afrinic=2026-10-04, apnic=2026-10-02, arin=2026-10-03, lacnic=2026-10-02, ripencc=2026-10-03
