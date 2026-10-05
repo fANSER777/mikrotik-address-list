@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KN
-# Generated: 2026-10-05 08:16 UTC
+# Generated: 2026-10-05 10:02 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KN | Subnets: 21 (was 21, collapsed 0) | IPs: ~23,552
 # RIR data dates: afrinic=2026-10-05, apnic=2026-10-02, arin=2026-10-04, lacnic=2026-10-02, ripencc=2026-10-04
