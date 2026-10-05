@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IQ
-# Generated: 2026-10-05 02:55 UTC
+# Generated: 2026-10-05 05:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IQ | Subnets: 285 (was 340, collapsed 55) | IPs: ~450,624
 # RIR data dates: afrinic=2026-10-04, apnic=2026-10-02, arin=2026-10-04, lacnic=2026-10-02, ripencc=2026-10-04

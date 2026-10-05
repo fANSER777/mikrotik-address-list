@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PL
-# Generated: 2026-10-05 02:55 UTC
+# Generated: 2026-10-05 05:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PL | Subnets: 3952 (was 4324, collapsed 372) | IPs: ~20,033,992
 # RIR data dates: afrinic=2026-10-04, apnic=2026-10-02, arin=2026-10-04, lacnic=2026-10-02, ripencc=2026-10-04
