@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LY
-# Generated: 2026-10-06 04:18 UTC
+# Generated: 2026-10-06 08:17 UTC
 # Source: RIR delegated (5 registries)
-# Countries: LY | Subnets: 73 (was 73, collapsed 0) | IPs: ~462,080
-# RIR data dates: afrinic=2026-10-05, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
+# Countries: LY | Subnets: 74 (was 74, collapsed 0) | IPs: ~463,104
+# RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
 #
 /ip firewall address-list
 remove [find where list=GEO_LY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -19,6 +19,7 @@ add address=102.38.0.0/19 list=GEO_LY comment=LY
 add address=102.68.128.0/21 list=GEO_LY comment=LY
 add address=102.69.0.0/17 list=GEO_LY comment=LY
 add address=102.164.96.0/21 list=GEO_LY comment=LY
+add address=102.201.0.0/22 list=GEO_LY comment=LY
 add address=102.201.44.0/22 list=GEO_LY comment=LY
 add address=102.201.116.0/22 list=GEO_LY comment=LY
 add address=102.202.56.0/22 list=GEO_LY comment=LY

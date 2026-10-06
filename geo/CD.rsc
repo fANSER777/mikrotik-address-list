@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CD
-# Generated: 2026-10-06 04:18 UTC
+# Generated: 2026-10-06 08:17 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CD | Subnets: 84 (was 85, collapsed 1) | IPs: ~182,016
-# RIR data dates: afrinic=2026-10-05, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
+# Countries: CD | Subnets: 85 (was 86, collapsed 1) | IPs: ~183,040
+# RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
 #
 /ip firewall address-list
 remove [find where list=GEO_CD and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -29,6 +29,7 @@ add address=102.68.56.0/21 list=GEO_CD comment=CD
 add address=102.68.152.0/22 list=GEO_CD comment=CD
 add address=102.69.180.0/22 list=GEO_CD comment=CD
 add address=102.135.176.0/21 list=GEO_CD comment=CD
+add address=102.201.4.0/22 list=GEO_CD comment=CD
 add address=102.202.248.0/22 list=GEO_CD comment=CD
 add address=102.203.4.0/22 list=GEO_CD comment=CD
 add address=102.204.126.0/24 list=GEO_CD comment=CD
