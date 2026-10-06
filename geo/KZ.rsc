@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KZ
-# Generated: 2026-10-06 11:14 UTC
+# Generated: 2026-10-06 11:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KZ | Subnets: 607 (was 686, collapsed 79) | IPs: ~3,371,776
 # RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
