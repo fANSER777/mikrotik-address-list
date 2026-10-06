@@ -1,5 +1,5 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-10-06 18:01
+# Generated: 2026-10-06 22:56
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
 # Subnets: 231 (OpenAI: 230, Claude: 1) | OpenAI DNS /32: 74 | Grok: 8 DNS /32 + 9 FQDN | Cursor: 947 DNS /32 + 15 FQDN
@@ -239,11 +239,11 @@ add address=191.234.167.144/28 list=AI_TOOLS comment=OpenAI
 add address=191.235.99.160/28 list=AI_TOOLS comment=OpenAI
 add address=191.237.249.64/28 list=AI_TOOLS comment=OpenAI
 add address=8.6.112.0/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
-add address=8.6.112.5/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
+add address=8.6.112.5/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.9/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.0/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
-add address=8.47.69.5/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
+add address=8.47.69.5/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.9/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=13.107.213.53/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
@@ -322,8 +322,8 @@ add address=cli-chat-proxy.grok.com list=AI_TOOLS comment=Grok-FQDN-cli-chat-pro
 add address=code.grok.com list=AI_TOOLS comment=Grok-FQDN-code.grok.com
 add address=assets.grok.com list=AI_TOOLS comment=Grok-FQDN-assets.grok.com
 add address=x.ai list=AI_TOOLS comment=Grok-FQDN-x.ai
-add address=8.6.112.8/32 list=AI_TOOLS comment=Grok-DNS-console.x.ai
-add address=8.47.69.8/32 list=AI_TOOLS comment=Grok-DNS-console.x.ai
+add address=8.6.112.8/32 list=AI_TOOLS comment=Grok-DNS-code.grok.com
+add address=8.47.69.8/32 list=AI_TOOLS comment=Grok-DNS-code.grok.com
 add address=104.18.18.80/32 list=AI_TOOLS comment=Grok-DNS-api.x.ai
 add address=104.18.19.80/32 list=AI_TOOLS comment=Grok-DNS-api.x.ai
 add address=104.18.28.234/32 list=AI_TOOLS comment=Grok-DNS-assets.grok.com
