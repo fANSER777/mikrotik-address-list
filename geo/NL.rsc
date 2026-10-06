@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NL
-# Generated: 2026-10-06 14:00 UTC
+# Generated: 2026-10-06 14:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NL | Subnets: 5712 (was 6375, collapsed 663) | IPs: ~47,890,208
 # RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-06, lacnic=2026-10-05, ripencc=2026-10-05
