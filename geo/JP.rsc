@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JP
-# Generated: 2026-10-06 11:28 UTC
+# Generated: 2026-10-06 13:38 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JP | Subnets: 3197 (was 4796, collapsed 1599) | IPs: ~188,701,760
-# RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-05, lacnic=2026-10-05, ripencc=2026-10-05
+# Countries: JP | Subnets: 3198 (was 4797, collapsed 1599) | IPs: ~188,702,784
+# RIR data dates: afrinic=2026-10-06, apnic=2026-10-05, arin=2026-10-06, lacnic=2026-10-05, ripencc=2026-10-05
 #
 /ip firewall address-list
 remove [find where list=GEO_JP and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1676,6 +1676,7 @@ add address=143.94.0.0/16 list=GEO_JP comment=JP
 add address=143.125.0.0/16 list=GEO_JP comment=JP
 add address=143.189.0.0/16 list=GEO_JP comment=JP
 add address=143.201.0.0/16 list=GEO_JP comment=JP
+add address=143.203.228.0/22 list=GEO_JP comment=JP
 add address=144.1.0.0/16 list=GEO_JP comment=JP
 add address=144.48.8.0/22 list=GEO_JP comment=JP
 add address=144.79.51.0/24 list=GEO_JP comment=JP
