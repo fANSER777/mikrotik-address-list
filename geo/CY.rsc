@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CY
-# Generated: 2026-10-07 19:57 UTC
+# Generated: 2026-10-07 23:23 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CY | Subnets: 538 (was 589, collapsed 51) | IPs: ~1,364,032
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
+# Countries: CY | Subnets: 537 (was 588, collapsed 51) | IPs: ~1,363,776
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-07
 #
 /ip firewall address-list
 remove [find where list=GEO_CY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -276,6 +276,7 @@ add address=153.92.208.0/20 list=GEO_CY comment=CY
 add address=156.67.64.0/20 list=GEO_CY comment=CY
 add address=156.67.208.0/20 list=GEO_CY comment=CY
 add address=157.173.36.0/23 list=GEO_CY comment=CY
+add address=159.200.210.0/24 list=GEO_CY comment=CY
 add address=159.200.220.0/24 list=GEO_CY comment=CY
 add address=159.255.40.0/21 list=GEO_CY comment=CY
 add address=161.108.120.0/24 list=GEO_CY comment=CY
@@ -287,7 +288,6 @@ add address=171.22.108.0/22 list=GEO_CY comment=CY
 add address=171.22.112.0/20 list=GEO_CY comment=CY
 add address=171.22.128.0/21 list=GEO_CY comment=CY
 add address=171.22.136.0/22 list=GEO_CY comment=CY
-add address=176.53.144.0/24 list=GEO_CY comment=CY
 add address=176.92.200.0/21 list=GEO_CY comment=CY
 add address=176.92.208.0/20 list=GEO_CY comment=CY
 add address=176.92.224.0/19 list=GEO_CY comment=CY
@@ -394,7 +394,6 @@ add address=188.244.113.0/24 list=GEO_CY comment=CY
 add address=192.144.48.0/22 list=GEO_CY comment=CY
 add address=193.22.30.0/24 list=GEO_CY comment=CY
 add address=193.24.232.0/22 list=GEO_CY comment=CY
-add address=193.33.87.0/24 list=GEO_CY comment=CY
 add address=193.37.212.0/22 list=GEO_CY comment=CY
 add address=193.43.0.64/27 list=GEO_CY comment=CY
 add address=193.58.0.0/27 list=GEO_CY comment=CY

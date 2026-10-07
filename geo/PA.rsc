@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PA
-# Generated: 2026-10-07 19:57 UTC
+# Generated: 2026-10-07 23:23 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PA | Subnets: 158 (was 185, collapsed 27) | IPs: ~2,188,544
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-07
 #
 /ip firewall address-list
 remove [find where list=GEO_PA and (comment~"^PANEL-TEMP-GEO:")=false]
