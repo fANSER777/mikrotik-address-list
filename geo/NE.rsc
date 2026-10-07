@@ -1,15 +1,16 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NE
-# Generated: 2026-10-07 01:57 UTC
+# Generated: 2026-10-07 08:02 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NE | Subnets: 14 (was 14, collapsed 0) | IPs: ~47,104
-# RIR data dates: afrinic=2026-10-06, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-05, ripencc=2026-10-06
+# Countries: NE | Subnets: 15 (was 15, collapsed 0) | IPs: ~48,128
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-06, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO_NE and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=41.78.116.0/22 list=GEO_NE comment=NE
 add address=41.138.32.0/19 list=GEO_NE comment=NE
 add address=41.203.128.0/19 list=GEO_NE comment=NE
+add address=102.200.244.0/22 list=GEO_NE comment=NE
 add address=102.201.36.0/22 list=GEO_NE comment=NE
 add address=102.201.72.0/22 list=GEO_NE comment=NE
 add address=102.213.60.0/22 list=GEO_NE comment=NE
