@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TH
-# Generated: 2026-10-07 13:56 UTC
+# Generated: 2026-10-07 19:57 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TH | Subnets: 674 (was 1203, collapsed 529) | IPs: ~9,336,576
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
+# Countries: TH | Subnets: 666 (was 1195, collapsed 529) | IPs: ~8,933,120
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO_TH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -102,7 +102,6 @@ add address=58.64.0.0/17 list=GEO_TH comment=TH
 add address=58.82.128.0/18 list=GEO_TH comment=TH
 add address=58.97.0.0/17 list=GEO_TH comment=TH
 add address=58.136.0.0/15 list=GEO_TH comment=TH
-add address=58.147.0.0/17 list=GEO_TH comment=TH
 add address=58.181.128.0/17 list=GEO_TH comment=TH
 add address=59.153.208.0/22 list=GEO_TH comment=TH
 add address=61.7.128.0/17 list=GEO_TH comment=TH
@@ -372,11 +371,9 @@ add address=110.168.0.0/14 list=GEO_TH comment=TH
 add address=111.84.0.0/16 list=GEO_TH comment=TH
 add address=111.223.32.0/19 list=GEO_TH comment=TH
 add address=112.121.128.0/19 list=GEO_TH comment=TH
-add address=112.142.0.0/15 list=GEO_TH comment=TH
 add address=113.21.240.0/21 list=GEO_TH comment=TH
 add address=113.53.0.0/16 list=GEO_TH comment=TH
 add address=114.109.0.0/16 list=GEO_TH comment=TH
-add address=114.128.0.0/16 list=GEO_TH comment=TH
 add address=114.131.0.0/16 list=GEO_TH comment=TH
 add address=115.31.128.0/18 list=GEO_TH comment=TH
 add address=115.67.0.0/16 list=GEO_TH comment=TH
@@ -390,7 +387,6 @@ add address=116.204.180.0/22 list=GEO_TH comment=TH
 add address=116.206.112.0/22 list=GEO_TH comment=TH
 add address=116.206.124.0/22 list=GEO_TH comment=TH
 add address=117.18.124.0/22 list=GEO_TH comment=TH
-add address=117.47.0.0/16 list=GEO_TH comment=TH
 add address=117.121.208.0/20 list=GEO_TH comment=TH
 add address=118.172.0.0/14 list=GEO_TH comment=TH
 add address=119.10.136.0/21 list=GEO_TH comment=TH
@@ -416,7 +412,6 @@ add address=124.109.0.0/22 list=GEO_TH comment=TH
 add address=124.109.24.0/21 list=GEO_TH comment=TH
 add address=124.120.0.0/15 list=GEO_TH comment=TH
 add address=124.122.0.0/16 list=GEO_TH comment=TH
-add address=124.157.128.0/17 list=GEO_TH comment=TH
 add address=124.197.48.0/21 list=GEO_TH comment=TH
 add address=125.24.0.0/14 list=GEO_TH comment=TH
 add address=125.213.224.0/19 list=GEO_TH comment=TH
@@ -563,7 +558,6 @@ add address=202.57.128.0/18 list=GEO_TH comment=TH
 add address=202.58.126.0/24 list=GEO_TH comment=TH
 add address=202.58.244.0/24 list=GEO_TH comment=TH
 add address=202.60.192.0/20 list=GEO_TH comment=TH
-add address=202.69.136.0/21 list=GEO_TH comment=TH
 add address=202.71.112.0/20 list=GEO_TH comment=TH
 add address=202.80.224.0/19 list=GEO_TH comment=TH
 add address=202.90.4.0/22 list=GEO_TH comment=TH
@@ -676,8 +670,6 @@ add address=210.246.64.0/18 list=GEO_TH comment=TH
 add address=210.246.128.0/17 list=GEO_TH comment=TH
 add address=218.100.38.0/24 list=GEO_TH comment=TH
 add address=218.100.66.0/24 list=GEO_TH comment=TH
-add address=222.123.0.0/16 list=GEO_TH comment=TH
 add address=223.24.0.0/16 list=GEO_TH comment=TH
-add address=223.25.192.0/19 list=GEO_TH comment=TH
 add address=223.27.192.0/18 list=GEO_TH comment=TH
 add address=223.204.0.0/14 list=GEO_TH comment=TH

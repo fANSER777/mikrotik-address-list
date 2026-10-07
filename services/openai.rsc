@@ -1,7 +1,7 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-10-07 16:56
+# Generated: 2026-10-07 22:57
 # Sources: https://openai.com/chatgpt-user.json, live DNS (chatgpt.com, chat.openai.com, auth.openai.com, auth0.openai.com, setup.auth.openai.com, api.openai.com, platform.openai.com, cdn.openai.com, cdn.oaistatic.com, persistent.oaistatic.com, files.oaiusercontent.com, ab.chatgpt.com, android.chat.openai.com, ios.chat.openai.com, tcr9i.chat.openai.com, cdn.openaimerge.com, challenges.cloudflare.com, oaistatsig.com)
-# CIDR subnets: 235 | CIDR IPs: ~36,512 | DNS /32: 77
+# CIDR subnets: 234 | CIDR IPs: ~36,496 | DNS /32: 77
 #
 /ip firewall address-list
 remove [find list=OPENAI]
@@ -218,7 +218,6 @@ add address=172.178.141.112/28 list=OPENAI
 add address=172.178.141.128/28 list=OPENAI
 add address=172.183.143.224/28 list=OPENAI
 add address=172.183.222.128/28 list=OPENAI
-add address=172.185.193.176/28 list=OPENAI
 add address=172.192.112.208/28 list=OPENAI
 add address=172.197.160.192/28 list=OPENAI
 add address=172.197.203.16/28 list=OPENAI
@@ -243,12 +242,12 @@ add address=191.237.249.64/28 list=OPENAI
 add address=8.6.112.0/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.5/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
-add address=8.6.112.8/32 list=OPENAI comment=OpenAI-DNS-files.oaiusercontent.com
+add address=8.6.112.8/32 list=OPENAI comment=OpenAI-DNS-cdn.oaistatic.com
 add address=8.6.112.9/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.0/32 list=OPENAI comment=OpenAI-DNS-cdn.openaimerge.com
 add address=8.47.69.5/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
-add address=8.47.69.8/32 list=OPENAI comment=OpenAI-DNS-files.oaiusercontent.com
+add address=8.47.69.8/32 list=OPENAI comment=OpenAI-DNS-cdn.oaistatic.com
 add address=8.47.69.9/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=13.107.213.53/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
 add address=13.107.226.38/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com

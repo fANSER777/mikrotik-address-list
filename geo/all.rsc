@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ
-# Generated: 2026-10-07 13:56 UTC
+# Generated: 2026-10-07 19:57 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ | Subnets: 179399 (was 264193, collapsed 84794) | IPs: ~3,693,053,152
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
+# Countries: AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ | Subnets: 179398 (was 264192, collapsed 84794) | IPs: ~3,692,653,024
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -5733,6 +5733,7 @@ add address=45.116.220.0/22 list=GEO comment=AU
 add address=45.117.24.0/22 list=GEO comment=AU
 add address=45.117.100.0/22 list=GEO comment=AU
 add address=45.118.64.0/22 list=GEO comment=AU
+add address=45.118.252.0/23 list=GEO comment=AU
 add address=45.119.220.0/22 list=GEO comment=AU
 add address=45.120.36.0/24 list=GEO comment=AU
 add address=45.120.200.0/22 list=GEO comment=AU
@@ -73961,6 +73962,7 @@ add address=43.230.152.0/22 list=GEO comment=ID
 add address=43.230.172.0/23 list=GEO comment=ID
 add address=43.231.128.0/23 list=GEO comment=ID
 add address=43.231.131.0/24 list=GEO comment=ID
+add address=43.237.196.0/23 list=GEO comment=ID
 add address=43.240.80.0/22 list=GEO comment=ID
 add address=43.240.118.0/23 list=GEO comment=ID
 add address=43.240.224.0/21 list=GEO comment=ID
@@ -74010,6 +74012,7 @@ add address=45.115.136.0/22 list=GEO comment=ID
 add address=45.116.156.0/22 list=GEO comment=ID
 add address=45.117.132.0/22 list=GEO comment=ID
 add address=45.118.112.0/22 list=GEO comment=ID
+add address=45.118.254.0/24 list=GEO comment=ID
 add address=45.120.192.0/23 list=GEO comment=ID
 add address=45.120.244.0/22 list=GEO comment=ID
 add address=45.121.40.0/22 list=GEO comment=ID
@@ -78512,6 +78515,7 @@ add address=203.31.76.0/24 list=GEO comment=ID
 add address=203.31.164.0/23 list=GEO comment=ID
 add address=203.32.188.0/24 list=GEO comment=ID
 add address=203.33.35.0/24 list=GEO comment=ID
+add address=203.33.98.0/24 list=GEO comment=ID
 add address=203.34.118.0/23 list=GEO comment=ID
 add address=203.34.125.0/24 list=GEO comment=ID
 add address=203.57.24.0/23 list=GEO comment=ID
@@ -85808,6 +85812,7 @@ add address=123.242.240.0/20 list=GEO comment=IN
 add address=123.252.128.0/17 list=GEO comment=IN
 add address=123.253.8.0/21 list=GEO comment=IN
 add address=123.253.69.0/24 list=GEO comment=IN
+add address=123.253.70.0/23 list=GEO comment=IN
 add address=123.253.116.0/23 list=GEO comment=IN
 add address=123.253.124.0/22 list=GEO comment=IN
 add address=123.253.143.0/24 list=GEO comment=IN
@@ -87235,6 +87240,8 @@ add address=203.31.125.0/24 list=GEO comment=IN
 add address=203.31.210.0/24 list=GEO comment=IN
 add address=203.32.4.0/23 list=GEO comment=IN
 add address=203.33.57.0/24 list=GEO comment=IN
+add address=203.33.96.0/23 list=GEO comment=IN
+add address=203.33.99.0/24 list=GEO comment=IN
 add address=203.33.198.0/23 list=GEO comment=IN
 add address=203.34.117.0/24 list=GEO comment=IN
 add address=203.55.102.0/23 list=GEO comment=IN
@@ -112599,7 +112606,6 @@ add address=103.27.88.0/22 list=GEO comment=NZ
 add address=103.27.216.0/22 list=GEO comment=NZ
 add address=103.29.30.0/23 list=GEO comment=NZ
 add address=103.29.244.0/22 list=GEO comment=NZ
-add address=103.35.88.0/23 list=GEO comment=NZ
 add address=103.36.128.0/24 list=GEO comment=NZ
 add address=103.37.204.0/22 list=GEO comment=NZ
 add address=103.38.164.0/22 list=GEO comment=NZ
@@ -136983,6 +136989,7 @@ add address=146.174.128.0/18 list=GEO comment=SG
 add address=147.124.12.0/22 list=GEO comment=SG
 add address=147.136.128.0/18 list=GEO comment=SG
 add address=147.145.0.0/16 list=GEO comment=SG
+add address=147.185.28.0/22 list=GEO comment=SG
 add address=148.7.0.0/16 list=GEO comment=SG
 add address=148.66.128.0/19 list=GEO comment=SG
 add address=148.145.128.0/17 list=GEO comment=SG
@@ -139310,7 +139317,6 @@ add address=58.64.0.0/17 list=GEO comment=TH
 add address=58.82.128.0/18 list=GEO comment=TH
 add address=58.97.0.0/17 list=GEO comment=TH
 add address=58.136.0.0/15 list=GEO comment=TH
-add address=58.147.0.0/17 list=GEO comment=TH
 add address=58.181.128.0/17 list=GEO comment=TH
 add address=59.153.208.0/22 list=GEO comment=TH
 add address=61.7.128.0/17 list=GEO comment=TH
@@ -139580,11 +139586,9 @@ add address=110.168.0.0/14 list=GEO comment=TH
 add address=111.84.0.0/16 list=GEO comment=TH
 add address=111.223.32.0/19 list=GEO comment=TH
 add address=112.121.128.0/19 list=GEO comment=TH
-add address=112.142.0.0/15 list=GEO comment=TH
 add address=113.21.240.0/21 list=GEO comment=TH
 add address=113.53.0.0/16 list=GEO comment=TH
 add address=114.109.0.0/16 list=GEO comment=TH
-add address=114.128.0.0/16 list=GEO comment=TH
 add address=114.131.0.0/16 list=GEO comment=TH
 add address=115.31.128.0/18 list=GEO comment=TH
 add address=115.67.0.0/16 list=GEO comment=TH
@@ -139598,7 +139602,6 @@ add address=116.204.180.0/22 list=GEO comment=TH
 add address=116.206.112.0/22 list=GEO comment=TH
 add address=116.206.124.0/22 list=GEO comment=TH
 add address=117.18.124.0/22 list=GEO comment=TH
-add address=117.47.0.0/16 list=GEO comment=TH
 add address=117.121.208.0/20 list=GEO comment=TH
 add address=118.172.0.0/14 list=GEO comment=TH
 add address=119.10.136.0/21 list=GEO comment=TH
@@ -139624,7 +139627,6 @@ add address=124.109.0.0/22 list=GEO comment=TH
 add address=124.109.24.0/21 list=GEO comment=TH
 add address=124.120.0.0/15 list=GEO comment=TH
 add address=124.122.0.0/16 list=GEO comment=TH
-add address=124.157.128.0/17 list=GEO comment=TH
 add address=124.197.48.0/21 list=GEO comment=TH
 add address=125.24.0.0/14 list=GEO comment=TH
 add address=125.213.224.0/19 list=GEO comment=TH
@@ -139771,7 +139773,6 @@ add address=202.57.128.0/18 list=GEO comment=TH
 add address=202.58.126.0/24 list=GEO comment=TH
 add address=202.58.244.0/24 list=GEO comment=TH
 add address=202.60.192.0/20 list=GEO comment=TH
-add address=202.69.136.0/21 list=GEO comment=TH
 add address=202.71.112.0/20 list=GEO comment=TH
 add address=202.80.224.0/19 list=GEO comment=TH
 add address=202.90.4.0/22 list=GEO comment=TH
@@ -139884,9 +139885,7 @@ add address=210.246.64.0/18 list=GEO comment=TH
 add address=210.246.128.0/17 list=GEO comment=TH
 add address=218.100.38.0/24 list=GEO comment=TH
 add address=218.100.66.0/24 list=GEO comment=TH
-add address=222.123.0.0/16 list=GEO comment=TH
 add address=223.24.0.0/16 list=GEO comment=TH
-add address=223.25.192.0/19 list=GEO comment=TH
 add address=223.27.192.0/18 list=GEO comment=TH
 add address=223.204.0.0/14 list=GEO comment=TH
 add address=37.98.152.0/21 list=GEO comment=TJ
