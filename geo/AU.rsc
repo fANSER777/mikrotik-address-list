@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AU
-# Generated: 2026-10-07 08:02 UTC
+# Generated: 2026-10-07 13:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AU | Subnets: 5676 (was 9968, collapsed 4292) | IPs: ~46,089,792
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-06, ripencc=2026-10-06
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO_AU and (comment~"^PANEL-TEMP-GEO:")=false]

@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JM
-# Generated: 2026-10-07 08:02 UTC
+# Generated: 2026-10-07 13:56 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JM | Subnets: 52 (was 53, collapsed 1) | IPs: ~224,256
-# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-06, ripencc=2026-10-06
+# Countries: JM | Subnets: 53 (was 54, collapsed 1) | IPs: ~225,280
+# RIR data dates: afrinic=2026-10-07, apnic=2026-10-06, arin=2026-10-07, lacnic=2026-10-06, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO_JM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -26,6 +26,7 @@ add address=104.152.236.0/22 list=GEO_JM comment=JM
 add address=104.244.224.0/21 list=GEO_JM comment=JM
 add address=142.0.224.0/20 list=GEO_JM comment=JM
 add address=149.112.196.0/24 list=GEO_JM comment=JM
+add address=156.9.128.0/22 list=GEO_JM comment=JM
 add address=162.216.160.0/21 list=GEO_JM comment=JM
 add address=162.246.0.0/22 list=GEO_JM comment=JM
 add address=170.62.168.0/22 list=GEO_JM comment=JM
