@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-10-06 22:56
+# Generated: 2026-10-07 04:57
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 231 (OpenAI: 230, Claude: 1) | OpenAI DNS /32: 74 | Grok: 8 DNS /32 + 9 FQDN | Cursor: 947 DNS /32 + 15 FQDN
+# Subnets: 236 (OpenAI: 235, Claude: 1) | OpenAI DNS /32: 74 | Grok: 8 DNS /32 + 9 FQDN | Cursor: 947 DNS /32 + 15 FQDN
 # Upstream FQDN wildcard policy: *.x.ai, *.grok.com, grok.x.com, *.cursor.sh, *.gcpp.cursor.sh, *.cursorvm.com, *.*.cursorvm.com, *.cursor-cdn.com, *.cursorapi.com, downloads.cursor.com, cursor.com
 # Disable TLS inspection for these hosts; it can break HTTP/2 streaming
 #
@@ -84,12 +84,14 @@ add address=20.199.242.0/28 list=AI_TOOLS comment=OpenAI
 add address=20.200.212.240/28 list=AI_TOOLS comment=OpenAI
 add address=20.206.101.192/28 list=AI_TOOLS comment=OpenAI
 add address=20.210.211.192/28 list=AI_TOOLS comment=OpenAI
+add address=20.212.62.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.215.187.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.215.219.128/28 list=AI_TOOLS comment=OpenAI
 add address=20.215.219.160/28 list=AI_TOOLS comment=OpenAI
 add address=20.215.219.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.218.30.240/28 list=AI_TOOLS comment=OpenAI
 add address=20.219.71.192/28 list=AI_TOOLS comment=OpenAI
+add address=20.219.161.192/28 list=AI_TOOLS comment=OpenAI
 add address=20.219.184.96/28 list=AI_TOOLS comment=OpenAI
 add address=20.222.36.192/28 list=AI_TOOLS comment=OpenAI
 add address=20.227.140.32/28 list=AI_TOOLS comment=OpenAI
@@ -98,6 +100,7 @@ add address=20.235.87.224/28 list=AI_TOOLS comment=OpenAI
 add address=20.249.63.208/28 list=AI_TOOLS comment=OpenAI
 add address=20.250.6.128/28 list=AI_TOOLS comment=OpenAI
 add address=20.250.136.64/28 list=AI_TOOLS comment=OpenAI
+add address=20.254.201.208/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.142.176/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.64/28 list=AI_TOOLS comment=OpenAI
 add address=23.98.186.96/28 list=AI_TOOLS comment=OpenAI
@@ -112,6 +115,7 @@ add address=40.81.234.144/28 list=AI_TOOLS comment=OpenAI
 add address=40.84.221.208/28 list=AI_TOOLS comment=OpenAI
 add address=40.84.221.224/28 list=AI_TOOLS comment=OpenAI
 add address=40.116.73.208/28 list=AI_TOOLS comment=OpenAI
+add address=40.119.36.240/28 list=AI_TOOLS comment=OpenAI
 add address=40.124.161.0/28 list=AI_TOOLS comment=OpenAI
 add address=48.221.40.176/28 list=AI_TOOLS comment=OpenAI
 add address=48.221.184.80/28 list=AI_TOOLS comment=OpenAI
@@ -144,6 +148,7 @@ add address=52.190.137.144/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.139.48/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.142.64/28 list=AI_TOOLS comment=OpenAI
 add address=52.190.190.16/28 list=AI_TOOLS comment=OpenAI
+add address=52.190.251.112/28 list=AI_TOOLS comment=OpenAI
 add address=52.225.75.208/28 list=AI_TOOLS comment=OpenAI
 add address=52.231.30.48/28 list=AI_TOOLS comment=OpenAI
 add address=52.231.34.176/28 list=AI_TOOLS comment=OpenAI
@@ -322,8 +327,8 @@ add address=cli-chat-proxy.grok.com list=AI_TOOLS comment=Grok-FQDN-cli-chat-pro
 add address=code.grok.com list=AI_TOOLS comment=Grok-FQDN-code.grok.com
 add address=assets.grok.com list=AI_TOOLS comment=Grok-FQDN-assets.grok.com
 add address=x.ai list=AI_TOOLS comment=Grok-FQDN-x.ai
-add address=8.6.112.8/32 list=AI_TOOLS comment=Grok-DNS-code.grok.com
-add address=8.47.69.8/32 list=AI_TOOLS comment=Grok-DNS-code.grok.com
+add address=8.6.112.8/32 list=AI_TOOLS comment=Grok-DNS-assets.grok.com
+add address=8.47.69.8/32 list=AI_TOOLS comment=Grok-DNS-assets.grok.com
 add address=104.18.18.80/32 list=AI_TOOLS comment=Grok-DNS-api.x.ai
 add address=104.18.19.80/32 list=AI_TOOLS comment=Grok-DNS-api.x.ai
 add address=104.18.28.234/32 list=AI_TOOLS comment=Grok-DNS-assets.grok.com

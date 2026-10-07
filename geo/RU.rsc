@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-10-06 19:56 UTC
+# Generated: 2026-10-07 01:57 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RU | Subnets: 8652 (was 11459, collapsed 2807) | IPs: ~45,221,440
-# RIR data dates: afrinic=2026-10-06, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-05, ripencc=2026-10-05
+# Countries: RU | Subnets: 8655 (was 11460, collapsed 2805) | IPs: ~45,220,160
+# RIR data dates: afrinic=2026-10-06, apnic=2026-10-06, arin=2026-10-06, lacnic=2026-10-05, ripencc=2026-10-06
 #
 /ip firewall address-list
 remove [find where list=GEO_RU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -949,7 +949,7 @@ add address=46.173.208.0/20 list=GEO_RU comment=RU
 add address=46.174.8.0/21 list=GEO_RU comment=RU
 add address=46.174.40.0/21 list=GEO_RU comment=RU
 add address=46.174.48.0/21 list=GEO_RU comment=RU
-add address=46.174.80.0/20 list=GEO_RU comment=RU
+add address=46.174.80.0/21 list=GEO_RU comment=RU
 add address=46.174.104.0/21 list=GEO_RU comment=RU
 add address=46.174.112.0/21 list=GEO_RU comment=RU
 add address=46.174.248.0/21 list=GEO_RU comment=RU
@@ -6200,6 +6200,7 @@ add address=185.207.64.0/22 list=GEO_RU comment=RU
 add address=185.207.88.0/22 list=GEO_RU comment=RU
 add address=185.207.252.0/22 list=GEO_RU comment=RU
 add address=185.208.72.0/22 list=GEO_RU comment=RU
+add address=185.208.157.0/24 list=GEO_RU comment=RU
 add address=185.208.192.0/22 list=GEO_RU comment=RU
 add address=185.209.24.0/21 list=GEO_RU comment=RU
 add address=185.209.44.0/22 list=GEO_RU comment=RU
@@ -6218,6 +6219,7 @@ add address=185.211.240.0/21 list=GEO_RU comment=RU
 add address=185.212.0.0/22 list=GEO_RU comment=RU
 add address=185.212.28.0/22 list=GEO_RU comment=RU
 add address=185.212.88.0/22 list=GEO_RU comment=RU
+add address=185.212.112.0/24 list=GEO_RU comment=RU
 add address=185.212.116.0/23 list=GEO_RU comment=RU
 add address=185.213.28.0/22 list=GEO_RU comment=RU
 add address=185.213.136.0/22 list=GEO_RU comment=RU
@@ -8084,6 +8086,7 @@ add address=195.218.128.0/17 list=GEO_RU comment=RU
 add address=195.222.128.0/18 list=GEO_RU comment=RU
 add address=195.225.38.0/23 list=GEO_RU comment=RU
 add address=195.225.56.0/23 list=GEO_RU comment=RU
+add address=195.225.96.0/24 list=GEO_RU comment=RU
 add address=195.225.108.0/22 list=GEO_RU comment=RU
 add address=195.225.160.0/22 list=GEO_RU comment=RU
 add address=195.225.233.0/24 list=GEO_RU comment=RU
