@@ -1,7 +1,7 @@
 # META IPv4 address list
-# Generated: 2026-10-08 02:23
+# Generated: 2026-10-08 07:36
 # Source: RIPE Stat API — ASN AS32934, AS63293
-# Subnets: 336 | IPs: ~577,024
+# Subnets: 337 | IPs: ~577,536
 #
 # MikroTik usage:
 #   /tool fetch url="http://YOUR_PANEL/rsc/meta.rsc"
@@ -56,6 +56,7 @@ add address=57.144.18.0/23 list=META
 add address=57.144.20.0/23 list=META
 add address=57.144.22.0/23 list=META
 add address=57.144.24.0/23 list=META
+add address=57.144.32.0/23 list=META
 add address=57.144.36.0/23 list=META
 add address=57.144.38.0/23 list=META
 add address=57.144.42.0/23 list=META
