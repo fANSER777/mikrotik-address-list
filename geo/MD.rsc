@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MD
-# Generated: 2026-10-08 10:43 UTC
+# Generated: 2026-10-08 21:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MD | Subnets: 412 (was 424, collapsed 12) | IPs: ~1,257,472
-# RIR data dates: afrinic=2026-10-08, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-07, ripencc=2026-10-07
+# RIR data dates: afrinic=2026-10-08, apnic=2026-10-08, arin=2026-10-08, lacnic=2026-10-07, ripencc=2026-10-07
 #
 /ip firewall address-list
 remove [find where list=GEO_MD and (comment~"^PANEL-TEMP-GEO:")=false]
