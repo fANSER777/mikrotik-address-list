@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BW
-# Generated: 2026-10-08 04:35 UTC
+# Generated: 2026-10-08 04:42 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BW | Subnets: 56 (was 57, collapsed 1) | IPs: ~166,144
 # RIR data dates: afrinic=2026-10-07, apnic=2026-10-07, arin=2026-10-07, lacnic=2026-10-07, ripencc=2026-10-07
