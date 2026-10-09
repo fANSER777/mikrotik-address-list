@@ -1,15 +1,16 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BN
-# Generated: 2026-10-09 09:23 UTC
+# Generated: 2026-10-09 21:25 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BN | Subnets: 35 (was 37, collapsed 2) | IPs: ~216,064
-# RIR data dates: afrinic=2026-10-09, apnic=2026-10-08, arin=2026-10-08, lacnic=2026-10-08, ripencc=2026-10-08
+# Countries: BN | Subnets: 36 (was 38, collapsed 2) | IPs: ~216,576
+# RIR data dates: afrinic=2026-10-09, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-08, ripencc=2026-10-08
 #
 /ip firewall address-list
 remove [find where list=GEO_BN and (comment~"^PANEL-TEMP-GEO:")=false]
 add address=43.225.40.0/22 list=GEO_BN comment=BN
 add address=43.225.136.0/22 list=GEO_BN comment=BN
 add address=43.251.128.0/22 list=GEO_BN comment=BN
+add address=45.125.226.0/23 list=GEO_BN comment=BN
 add address=45.126.140.0/22 list=GEO_BN comment=BN
 add address=45.127.140.0/22 list=GEO_BN comment=BN
 add address=58.97.144.0/20 list=GEO_BN comment=BN
