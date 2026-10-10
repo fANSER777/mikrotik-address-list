@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BO
-# Generated: 2026-10-10 12:14 UTC
+# Generated: 2026-10-10 12:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BO | Subnets: 102 (was 122, collapsed 20) | IPs: ~1,170,176
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-09, ripencc=2026-10-09
