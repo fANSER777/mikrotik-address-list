@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-10-10 12:35 UTC
+# Generated: 2026-10-10 13:10 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29691 (was 70495, collapsed 40804) | IPs: ~1,606,208,928
-# RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-09, ripencc=2026-10-09
+# Countries: US | Subnets: 29688 (was 70501, collapsed 40813) | IPs: ~1,606,215,072
+# RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-09
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -5235,9 +5235,7 @@ add address=66.180.0.0/18 list=GEO_US comment=US
 add address=66.180.64.0/22 list=GEO_US comment=US
 add address=66.180.72.0/21 list=GEO_US comment=US
 add address=66.180.80.0/20 list=GEO_US comment=US
-add address=66.180.128.0/18 list=GEO_US comment=US
-add address=66.180.192.0/20 list=GEO_US comment=US
-add address=66.180.224.0/19 list=GEO_US comment=US
+add address=66.180.128.0/17 list=GEO_US comment=US
 add address=66.181.0.0/17 list=GEO_US comment=US
 add address=66.181.128.0/19 list=GEO_US comment=US
 add address=66.181.192.0/18 list=GEO_US comment=US
@@ -12050,12 +12048,11 @@ add address=156.9.116.0/22 list=GEO_US comment=US
 add address=156.9.120.0/21 list=GEO_US comment=US
 add address=156.9.132.0/22 list=GEO_US comment=US
 add address=156.9.136.0/21 list=GEO_US comment=US
-add address=156.9.144.0/22 list=GEO_US comment=US
-add address=156.9.152.0/21 list=GEO_US comment=US
+add address=156.9.144.0/20 list=GEO_US comment=US
 add address=156.9.160.0/21 list=GEO_US comment=US
 add address=156.9.172.0/22 list=GEO_US comment=US
 add address=156.9.180.0/22 list=GEO_US comment=US
-add address=156.9.184.0/22 list=GEO_US comment=US
+add address=156.9.184.0/21 list=GEO_US comment=US
 add address=156.9.192.0/22 list=GEO_US comment=US
 add address=156.9.204.0/22 list=GEO_US comment=US
 add address=156.9.208.0/20 list=GEO_US comment=US
