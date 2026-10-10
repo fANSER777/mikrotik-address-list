@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SN
-# Generated: 2026-10-10 12:22 UTC
+# Generated: 2026-10-10 12:35 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SN | Subnets: 35 (was 41, collapsed 6) | IPs: ~407,296
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-09, ripencc=2026-10-09
