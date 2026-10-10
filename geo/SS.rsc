@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SS
-# Generated: 2026-10-10 13:10 UTC
+# Generated: 2026-10-10 14:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SS | Subnets: 31 (was 31, collapsed 0) | IPs: ~26,880
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-09
