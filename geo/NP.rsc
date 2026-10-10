@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NP
-# Generated: 2026-10-10 14:51 UTC
+# Generated: 2026-10-10 16:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NP | Subnets: 270 (was 282, collapsed 12) | IPs: ~584,192
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-09

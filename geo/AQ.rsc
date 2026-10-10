@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AQ
-# Generated: 2026-10-10 14:50 UTC
+# Generated: 2026-10-10 16:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AQ | Subnets: 3 (was 3, collapsed 0) | IPs: ~1,024
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-09
