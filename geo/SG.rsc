@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SG
-# Generated: 2026-10-10 16:15 UTC
+# Generated: 2026-10-10 17:26 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SG | Subnets: 1754 (was 1904, collapsed 150) | IPs: ~27,909,184
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-09
