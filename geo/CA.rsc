@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CA
-# Generated: 2026-10-10 09:38 UTC
+# Generated: 2026-10-10 10:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CA | Subnets: 6456 (was 9376, collapsed 2920) | IPs: ~67,885,824
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-09, ripencc=2026-10-09

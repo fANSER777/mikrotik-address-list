@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BM
-# Generated: 2026-10-10 09:37 UTC
+# Generated: 2026-10-10 10:29 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BM | Subnets: 47 (was 47, collapsed 0) | IPs: ~108,800
 # RIR data dates: afrinic=2026-10-10, apnic=2026-10-09, arin=2026-10-09, lacnic=2026-10-09, ripencc=2026-10-09
