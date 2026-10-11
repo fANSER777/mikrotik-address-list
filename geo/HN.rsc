@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HN
-# Generated: 2026-10-11 07:22 UTC
+# Generated: 2026-10-11 08:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: HN | Subnets: 188 (was 193, collapsed 5) | IPs: ~537,088
 # RIR data dates: afrinic=2026-10-11, apnic=2026-10-09, arin=2026-10-10, lacnic=2026-10-09, ripencc=2026-10-10
