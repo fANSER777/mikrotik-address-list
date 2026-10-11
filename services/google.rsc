@@ -1,5 +1,5 @@
 # Google (YouTube, Search, Gmail, etc.) IPv4 address list
-# Generated: 2026-10-11 18:00
+# Generated: 2026-10-12 00:01
 # Source: https://www.gstatic.com/ipranges/goog.json
 # Subnets: 130 | IPs: ~24,211,456
 #
