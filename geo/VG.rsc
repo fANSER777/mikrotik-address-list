@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VG
-# Generated: 2026-10-11 14:13 UTC
+# Generated: 2026-10-11 15:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VG | Subnets: 200 (was 200, collapsed 0) | IPs: ~910,848
 # RIR data dates: afrinic=2026-10-11, apnic=2026-10-09, arin=2026-10-11, lacnic=2026-10-09, ripencc=2026-10-10

@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PS
-# Generated: 2026-10-11 14:13 UTC
+# Generated: 2026-10-11 15:00 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PS | Subnets: 244 (was 250, collapsed 6) | IPs: ~873,728
 # RIR data dates: afrinic=2026-10-11, apnic=2026-10-09, arin=2026-10-11, lacnic=2026-10-09, ripencc=2026-10-10
