@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZA
-# Generated: 2026-10-12 14:59 UTC
+# Generated: 2026-10-12 15:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZA | Subnets: 1598 (was 2227, collapsed 629) | IPs: ~27,184,896
 # RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
