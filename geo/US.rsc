@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-10-12 09:03 UTC
+# Generated: 2026-10-12 14:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29688 (was 70501, collapsed 40813) | IPs: ~1,606,215,072
-# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-11, lacnic=2026-10-09, ripencc=2026-10-11
+# Countries: US | Subnets: 29690 (was 70503, collapsed 40813) | IPs: ~1,606,215,584
+# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2005,7 +2005,6 @@ add address=23.165.20.0/24 list=GEO_US comment=US
 add address=23.165.24.0/24 list=GEO_US comment=US
 add address=23.165.28.0/24 list=GEO_US comment=US
 add address=23.165.32.0/24 list=GEO_US comment=US
-add address=23.165.36.0/24 list=GEO_US comment=US
 add address=23.165.40.0/24 list=GEO_US comment=US
 add address=23.165.44.0/24 list=GEO_US comment=US
 add address=23.165.48.0/24 list=GEO_US comment=US
@@ -2023,7 +2022,10 @@ add address=23.165.152.0/24 list=GEO_US comment=US
 add address=23.165.160.0/24 list=GEO_US comment=US
 add address=23.165.176.0/24 list=GEO_US comment=US
 add address=23.165.184.0/24 list=GEO_US comment=US
+add address=23.165.188.0/24 list=GEO_US comment=US
+add address=23.165.196.0/24 list=GEO_US comment=US
 add address=23.165.200.0/24 list=GEO_US comment=US
+add address=23.165.204.0/24 list=GEO_US comment=US
 add address=23.165.208.0/24 list=GEO_US comment=US
 add address=23.165.216.0/24 list=GEO_US comment=US
 add address=23.165.224.0/22 list=GEO_US comment=US

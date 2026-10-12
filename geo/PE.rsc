@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PE
-# Generated: 2026-10-12 09:03 UTC
+# Generated: 2026-10-12 14:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PE | Subnets: 234 (was 269, collapsed 35) | IPs: ~3,250,432
-# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-11, lacnic=2026-10-09, ripencc=2026-10-11
+# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
 #
 /ip firewall address-list
 remove [find where list=GEO_PE and (comment~"^PANEL-TEMP-GEO:")=false]

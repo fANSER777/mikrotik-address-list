@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MX
-# Generated: 2026-10-12 09:03 UTC
+# Generated: 2026-10-12 14:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MX | Subnets: 807 (was 1394, collapsed 587) | IPs: ~28,964,352
-# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-11, lacnic=2026-10-09, ripencc=2026-10-11
+# Countries: MX | Subnets: 808 (was 1395, collapsed 587) | IPs: ~28,964,608
+# RIR data dates: afrinic=2026-10-12, apnic=2026-10-11, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
 #
 /ip firewall address-list
 remove [find where list=GEO_MX and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -12,6 +12,7 @@ add address=23.156.104.0/24 list=GEO_MX comment=MX
 add address=23.157.236.0/24 list=GEO_MX comment=MX
 add address=23.164.12.0/24 list=GEO_MX comment=MX
 add address=23.164.204.0/24 list=GEO_MX comment=MX
+add address=23.165.36.0/24 list=GEO_MX comment=MX
 add address=45.5.52.0/22 list=GEO_MX comment=MX
 add address=45.5.92.0/22 list=GEO_MX comment=MX
 add address=45.6.60.0/22 list=GEO_MX comment=MX
