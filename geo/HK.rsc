@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — HK
-# Generated: 2026-10-13 10:02 UTC
+# Generated: 2026-10-13 16:03 UTC
 # Source: RIR delegated (5 registries)
-# Countries: HK | Subnets: 3072 (was 3436, collapsed 364) | IPs: ~16,000,064
-# RIR data dates: afrinic=2026-10-13, apnic=2026-10-12, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-12
+# Countries: HK | Subnets: 3073 (was 3437, collapsed 364) | IPs: ~16,000,832
+# RIR data dates: afrinic=2026-10-13, apnic=2026-10-13, arin=2026-10-13, lacnic=2026-10-09, ripencc=2026-10-12
 #
 /ip firewall address-list
 remove [find where list=GEO_HK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1752,7 +1752,7 @@ add address=116.92.192.0/19 list=GEO_HK comment=HK
 add address=116.92.224.0/20 list=GEO_HK comment=HK
 add address=116.92.240.0/21 list=GEO_HK comment=HK
 add address=116.193.152.0/22 list=GEO_HK comment=HK
-add address=116.193.158.0/23 list=GEO_HK comment=HK
+add address=116.193.159.0/24 list=GEO_HK comment=HK
 add address=116.193.164.0/22 list=GEO_HK comment=HK
 add address=116.193.168.0/22 list=GEO_HK comment=HK
 add address=116.197.176.0/20 list=GEO_HK comment=HK
@@ -2382,6 +2382,7 @@ add address=194.145.237.0/24 list=GEO_HK comment=HK
 add address=194.146.84.0/22 list=GEO_HK comment=HK
 add address=194.156.104.0/22 list=GEO_HK comment=HK
 add address=194.156.126.0/23 list=GEO_HK comment=HK
+add address=195.10.240.0/22 list=GEO_HK comment=HK
 add address=195.35.105.0/24 list=GEO_HK comment=HK
 add address=195.43.142.0/24 list=GEO_HK comment=HK
 add address=195.64.103.0/24 list=GEO_HK comment=HK
