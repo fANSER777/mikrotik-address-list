@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KY
-# Generated: 2026-10-12 21:59 UTC
+# Generated: 2026-10-13 04:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KY | Subnets: 37 (was 37, collapsed 0) | IPs: ~91,136
-# RIR data dates: afrinic=2026-10-12, apnic=2026-10-12, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
+# RIR data dates: afrinic=2026-10-12, apnic=2026-10-12, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-12
 #
 /ip firewall address-list
 remove [find where list=GEO_KY and (comment~"^PANEL-TEMP-GEO:")=false]

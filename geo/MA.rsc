@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MA
-# Generated: 2026-10-12 21:59 UTC
+# Generated: 2026-10-13 04:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MA | Subnets: 78 (was 78, collapsed 0) | IPs: ~12,274,176
-# RIR data dates: afrinic=2026-10-12, apnic=2026-10-12, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-11
+# RIR data dates: afrinic=2026-10-12, apnic=2026-10-12, arin=2026-10-12, lacnic=2026-10-09, ripencc=2026-10-12
 #
 /ip firewall address-list
 remove [find where list=GEO_MA and (comment~"^PANEL-TEMP-GEO:")=false]
