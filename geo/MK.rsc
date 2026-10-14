@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MK
-# Generated: 2026-10-14 19:50 UTC
+# Generated: 2026-10-14 21:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MK | Subnets: 109 (was 147, collapsed 38) | IPs: ~685,568
 # RIR data dates: afrinic=2026-10-14, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-13, ripencc=2026-10-13
