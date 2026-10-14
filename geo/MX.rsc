@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MX
-# Generated: 2026-10-14 21:25 UTC
+# Generated: 2026-10-14 22:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MX | Subnets: 808 (was 1395, collapsed 587) | IPs: ~28,964,608
 # RIR data dates: afrinic=2026-10-14, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-13, ripencc=2026-10-13
