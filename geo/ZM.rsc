@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZM
-# Generated: 2026-10-15 04:19 UTC
+# Generated: 2026-10-15 05:18 UTC
 # Source: RIR delegated (5 registries)
 # Countries: ZM | Subnets: 42 (was 43, collapsed 1) | IPs: ~1,651,968
 # RIR data dates: afrinic=2026-10-14, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-14, ripencc=2026-10-14
