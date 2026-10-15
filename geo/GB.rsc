@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GB
-# Generated: 2026-10-15 06:35 UTC
+# Generated: 2026-10-15 12:36 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GB | Subnets: 8232 (was 9266, collapsed 1034) | IPs: ~138,717,248
 # RIR data dates: afrinic=2026-10-15, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-14, ripencc=2026-10-14
