@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GH
-# Generated: 2026-10-15 05:18 UTC
+# Generated: 2026-10-15 06:35 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GH | Subnets: 153 (was 156, collapsed 3) | IPs: ~2,203,904
-# RIR data dates: afrinic=2026-10-14, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-14, ripencc=2026-10-14
+# Countries: GH | Subnets: 154 (was 157, collapsed 3) | IPs: ~2,204,160
+# RIR data dates: afrinic=2026-10-15, apnic=2026-10-14, arin=2026-10-14, lacnic=2026-10-14, ripencc=2026-10-14
 #
 /ip firewall address-list
 remove [find where list=GEO_GH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -44,6 +44,7 @@ add address=102.135.188.0/24 list=GEO_GH comment=GH
 add address=102.164.123.0/24 list=GEO_GH comment=GH
 add address=102.176.0.0/17 list=GEO_GH comment=GH
 add address=102.177.100.0/22 list=GEO_GH comment=GH
+add address=102.200.236.0/24 list=GEO_GH comment=GH
 add address=102.201.170.0/24 list=GEO_GH comment=GH
 add address=102.201.176.0/22 list=GEO_GH comment=GH
 add address=102.201.253.0/24 list=GEO_GH comment=GH
