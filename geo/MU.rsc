@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MU
-# Generated: 2026-10-16 10:48 UTC
+# Generated: 2026-10-16 16:49 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MU | Subnets: 105 (was 107, collapsed 2) | IPs: ~3,698,944
-# RIR data dates: afrinic=2026-10-16, apnic=2026-10-15, arin=2026-10-15, lacnic=2026-10-15, ripencc=2026-10-15
+# RIR data dates: afrinic=2026-10-16, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-15, ripencc=2026-10-15
 #
 /ip firewall address-list
 remove [find where list=GEO_MU and (comment~"^PANEL-TEMP-GEO:")=false]
