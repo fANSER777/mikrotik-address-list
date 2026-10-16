@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-10-15 18:37 UTC
+# Generated: 2026-10-16 00:38 UTC
 # Source: RIR delegated (5 registries)
-# Countries: DE | Subnets: 8749 (was 11083, collapsed 2334) | IPs: ~126,338,688
-# RIR data dates: afrinic=2026-10-15, apnic=2026-10-15, arin=2026-10-15, lacnic=2026-10-14, ripencc=2026-10-14
+# Countries: DE | Subnets: 8750 (was 11084, collapsed 2334) | IPs: ~126,404,224
+# RIR data dates: afrinic=2026-10-15, apnic=2026-10-15, arin=2026-10-15, lacnic=2026-10-14, ripencc=2026-10-15
 #
 /ip firewall address-list
 remove [find where list=GEO_DE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3152,7 +3152,7 @@ add address=149.201.0.0/16 list=GEO_DE comment=DE
 add address=149.203.0.0/16 list=GEO_DE comment=DE
 add address=149.205.0.0/16 list=GEO_DE comment=DE
 add address=149.206.0.0/15 list=GEO_DE comment=DE
-add address=149.208.0.0/16 list=GEO_DE comment=DE
+add address=149.208.0.0/15 list=GEO_DE comment=DE
 add address=149.211.0.0/16 list=GEO_DE comment=DE
 add address=149.212.0.0/14 list=GEO_DE comment=DE
 add address=149.216.0.0/15 list=GEO_DE comment=DE
@@ -3567,6 +3567,7 @@ add address=185.1.131.0/24 list=GEO_DE comment=DE
 add address=185.1.155.0/24 list=GEO_DE comment=DE
 add address=185.1.166.0/23 list=GEO_DE comment=DE
 add address=185.1.170.0/23 list=GEO_DE comment=DE
+add address=185.1.172.0/24 list=GEO_DE comment=DE
 add address=185.1.175.0/24 list=GEO_DE comment=DE
 add address=185.1.176.0/24 list=GEO_DE comment=DE
 add address=185.1.182.0/23 list=GEO_DE comment=DE
@@ -5611,7 +5612,7 @@ add address=192.129.51.0/24 list=GEO_DE comment=DE
 add address=192.129.52.0/23 list=GEO_DE comment=DE
 add address=192.129.55.0/24 list=GEO_DE comment=DE
 add address=192.129.58.0/23 list=GEO_DE comment=DE
-add address=192.129.60.0/23 list=GEO_DE comment=DE
+add address=192.129.61.0/24 list=GEO_DE comment=DE
 add address=192.129.98.0/24 list=GEO_DE comment=DE
 add address=192.131.20.0/24 list=GEO_DE comment=DE
 add address=192.135.7.0/24 list=GEO_DE comment=DE
