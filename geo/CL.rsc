@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CL
-# Generated: 2026-10-16 16:49 UTC
+# Generated: 2026-10-16 19:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CL | Subnets: 639 (was 823, collapsed 184) | IPs: ~9,646,848
 # RIR data dates: afrinic=2026-10-16, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-15, ripencc=2026-10-15
