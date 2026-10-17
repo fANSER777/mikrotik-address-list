@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GB
-# Generated: 2026-10-16 19:41 UTC
+# Generated: 2026-10-17 01:42 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GB | Subnets: 8231 (was 9265, collapsed 1034) | IPs: ~138,716,992
-# RIR data dates: afrinic=2026-10-16, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-15, ripencc=2026-10-15
+# Countries: GB | Subnets: 8226 (was 9258, collapsed 1032) | IPs: ~138,720,064
+# RIR data dates: afrinic=2026-10-16, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-15, ripencc=2026-10-16
 #
 /ip firewall address-list
 remove [find where list=GEO_GB and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -649,7 +649,6 @@ add address=45.154.80.0/22 list=GEO_GB comment=GB
 add address=45.154.132.0/22 list=GEO_GB comment=GB
 add address=45.154.148.0/22 list=GEO_GB comment=GB
 add address=45.154.196.0/22 list=GEO_GB comment=GB
-add address=45.154.204.0/22 list=GEO_GB comment=GB
 add address=45.154.208.0/21 list=GEO_GB comment=GB
 add address=45.154.248.0/21 list=GEO_GB comment=GB
 add address=45.155.20.0/22 list=GEO_GB comment=GB
@@ -1528,6 +1527,7 @@ add address=83.138.16.0/20 list=GEO_GB comment=GB
 add address=83.138.32.0/21 list=GEO_GB comment=GB
 add address=83.138.62.0/24 list=GEO_GB comment=GB
 add address=83.138.128.0/18 list=GEO_GB comment=GB
+add address=83.141.64.0/19 list=GEO_GB comment=GB
 add address=83.142.24.0/22 list=GEO_GB comment=GB
 add address=83.142.29.0/24 list=GEO_GB comment=GB
 add address=83.142.32.0/21 list=GEO_GB comment=GB
@@ -2496,7 +2496,7 @@ add address=91.236.18.0/24 list=GEO_GB comment=GB
 add address=91.236.26.0/23 list=GEO_GB comment=GB
 add address=91.236.56.0/24 list=GEO_GB comment=GB
 add address=91.236.64.0/22 list=GEO_GB comment=GB
-add address=91.236.116.0/23 list=GEO_GB comment=GB
+add address=91.236.117.0/24 list=GEO_GB comment=GB
 add address=91.236.152.0/24 list=GEO_GB comment=GB
 add address=91.236.190.0/23 list=GEO_GB comment=GB
 add address=91.236.206.0/24 list=GEO_GB comment=GB
@@ -3492,6 +3492,7 @@ add address=149.196.0.0/16 list=GEO_GB comment=GB
 add address=149.198.0.0/16 list=GEO_GB comment=GB
 add address=149.204.0.0/16 list=GEO_GB comment=GB
 add address=149.241.0.0/16 list=GEO_GB comment=GB
+add address=149.245.253.0/24 list=GEO_GB comment=GB
 add address=149.254.0.0/16 list=GEO_GB comment=GB
 add address=149.255.40.0/21 list=GEO_GB comment=GB
 add address=149.255.56.0/21 list=GEO_GB comment=GB
@@ -5298,7 +5299,6 @@ add address=185.216.76.0/22 list=GEO_GB comment=GB
 add address=185.216.108.0/22 list=GEO_GB comment=GB
 add address=185.216.137.0/24 list=GEO_GB comment=GB
 add address=185.216.144.0/22 list=GEO_GB comment=GB
-add address=185.217.0.0/22 list=GEO_GB comment=GB
 add address=185.217.40.0/22 list=GEO_GB comment=GB
 add address=185.217.48.0/22 list=GEO_GB comment=GB
 add address=185.217.56.0/22 list=GEO_GB comment=GB
@@ -5416,7 +5416,6 @@ add address=185.237.60.0/22 list=GEO_GB comment=GB
 add address=185.237.88.0/22 list=GEO_GB comment=GB
 add address=185.237.101.0/24 list=GEO_GB comment=GB
 add address=185.237.102.0/23 list=GEO_GB comment=GB
-add address=185.237.185.0/24 list=GEO_GB comment=GB
 add address=185.237.196.0/22 list=GEO_GB comment=GB
 add address=185.238.16.0/22 list=GEO_GB comment=GB
 add address=185.238.28.0/24 list=GEO_GB comment=GB
@@ -5462,7 +5461,7 @@ add address=185.245.212.0/22 list=GEO_GB comment=GB
 add address=185.245.232.0/21 list=GEO_GB comment=GB
 add address=185.245.240.0/22 list=GEO_GB comment=GB
 add address=185.246.48.0/22 list=GEO_GB comment=GB
-add address=185.246.128.0/21 list=GEO_GB comment=GB
+add address=185.246.132.0/22 list=GEO_GB comment=GB
 add address=185.246.208.0/22 list=GEO_GB comment=GB
 add address=185.247.137.0/24 list=GEO_GB comment=GB
 add address=185.247.172.0/22 list=GEO_GB comment=GB
@@ -5508,7 +5507,6 @@ add address=185.255.8.0/22 list=GEO_GB comment=GB
 add address=185.255.30.0/24 list=GEO_GB comment=GB
 add address=185.255.100.0/22 list=GEO_GB comment=GB
 add address=185.255.108.0/22 list=GEO_GB comment=GB
-add address=185.255.120.0/22 list=GEO_GB comment=GB
 add address=185.255.160.0/22 list=GEO_GB comment=GB
 add address=185.255.180.0/22 list=GEO_GB comment=GB
 add address=185.255.192.0/22 list=GEO_GB comment=GB
@@ -6245,7 +6243,6 @@ add address=193.42.52.0/22 list=GEO_GB comment=GB
 add address=193.42.144.0/24 list=GEO_GB comment=GB
 add address=193.43.0.96/27 list=GEO_GB comment=GB
 add address=193.43.25.0/24 list=GEO_GB comment=GB
-add address=193.43.104.0/24 list=GEO_GB comment=GB
 add address=193.43.150.0/24 list=GEO_GB comment=GB
 add address=193.46.20.0/22 list=GEO_GB comment=GB
 add address=193.46.61.0/24 list=GEO_GB comment=GB
@@ -6325,7 +6322,6 @@ add address=193.105.95.0/24 list=GEO_GB comment=GB
 add address=193.105.120.0/24 list=GEO_GB comment=GB
 add address=193.105.129.0/24 list=GEO_GB comment=GB
 add address=193.105.132.0/24 list=GEO_GB comment=GB
-add address=193.105.134.0/24 list=GEO_GB comment=GB
 add address=193.105.150.0/24 list=GEO_GB comment=GB
 add address=193.105.170.0/24 list=GEO_GB comment=GB
 add address=193.105.182.0/24 list=GEO_GB comment=GB
@@ -7377,7 +7373,6 @@ add address=195.134.0.0/19 list=GEO_GB comment=GB
 add address=195.135.208.0/22 list=GEO_GB comment=GB
 add address=195.137.0.0/17 list=GEO_GB comment=GB
 add address=195.137.176.0/24 list=GEO_GB comment=GB
-add address=195.137.220.0/24 list=GEO_GB comment=GB
 add address=195.137.252.0/24 list=GEO_GB comment=GB
 add address=195.138.195.0/24 list=GEO_GB comment=GB
 add address=195.138.200.0/24 list=GEO_GB comment=GB
