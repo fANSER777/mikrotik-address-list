@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — EC
-# Generated: 2026-10-17 07:43 UTC
+# Generated: 2026-10-17 10:09 UTC
 # Source: RIR delegated (5 registries)
 # Countries: EC | Subnets: 315 (was 436, collapsed 121) | IPs: ~2,727,168
 # RIR data dates: afrinic=2026-10-17, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-16, ripencc=2026-10-16
