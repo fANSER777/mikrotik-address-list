@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-10-17 10:09 UTC
+# Generated: 2026-10-17 20:50 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29717 (was 70501, collapsed 40784) | IPs: ~1,606,313,632
-# RIR data dates: afrinic=2026-10-17, apnic=2026-10-16, arin=2026-10-16, lacnic=2026-10-16, ripencc=2026-10-16
+# Countries: US | Subnets: 29717 (was 70500, collapsed 40783) | IPs: ~1,606,309,024
+# RIR data dates: afrinic=2026-10-17, apnic=2026-10-16, arin=2026-10-17, lacnic=2026-10-16, ripencc=2026-10-16
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -621,7 +621,6 @@ add address=23.135.204.0/24 list=GEO_US comment=US
 add address=23.135.208.0/24 list=GEO_US comment=US
 add address=23.135.224.0/23 list=GEO_US comment=US
 add address=23.135.228.0/24 list=GEO_US comment=US
-add address=23.135.236.0/24 list=GEO_US comment=US
 add address=23.135.240.0/24 list=GEO_US comment=US
 add address=23.135.244.0/24 list=GEO_US comment=US
 add address=23.135.248.0/24 list=GEO_US comment=US
@@ -2033,7 +2032,6 @@ add address=23.165.224.0/22 list=GEO_US comment=US
 add address=23.165.232.0/24 list=GEO_US comment=US
 add address=23.165.236.0/24 list=GEO_US comment=US
 add address=23.165.240.0/24 list=GEO_US comment=US
-add address=23.165.244.0/24 list=GEO_US comment=US
 add address=23.165.248.0/24 list=GEO_US comment=US
 add address=23.165.252.0/24 list=GEO_US comment=US
 add address=23.166.4.0/24 list=GEO_US comment=US
@@ -29441,7 +29439,9 @@ add address=216.194.0.0/18 list=GEO_US comment=US
 add address=216.194.72.0/22 list=GEO_US comment=US
 add address=216.194.80.0/20 list=GEO_US comment=US
 add address=216.194.96.0/19 list=GEO_US comment=US
-add address=216.194.128.0/17 list=GEO_US comment=US
+add address=216.194.144.0/20 list=GEO_US comment=US
+add address=216.194.160.0/19 list=GEO_US comment=US
+add address=216.194.192.0/18 list=GEO_US comment=US
 add address=216.195.0.0/17 list=GEO_US comment=US
 add address=216.195.128.0/18 list=GEO_US comment=US
 add address=216.195.224.0/19 list=GEO_US comment=US
