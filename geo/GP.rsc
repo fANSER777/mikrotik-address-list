@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GP
-# Generated: 2026-10-17 20:49 UTC
+# Generated: 2026-10-17 21:39 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GP | Subnets: 16 (was 16, collapsed 0) | IPs: ~124,928
 # RIR data dates: afrinic=2026-10-17, apnic=2026-10-16, arin=2026-10-17, lacnic=2026-10-16, ripencc=2026-10-16
