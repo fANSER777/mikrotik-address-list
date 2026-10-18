@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CU
-# Generated: 2026-10-18 03:40 UTC
+# Generated: 2026-10-18 06:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CU | Subnets: 17 (was 21, collapsed 4) | IPs: ~257,024
-# RIR data dates: afrinic=2026-10-17, apnic=2026-10-16, arin=2026-10-17, lacnic=2026-10-16, ripencc=2026-10-17
+# RIR data dates: afrinic=2026-10-18, apnic=2026-10-16, arin=2026-10-17, lacnic=2026-10-16, ripencc=2026-10-17
 #
 /ip firewall address-list
 remove [find where list=GEO_CU and (comment~"^PANEL-TEMP-GEO:")=false]
