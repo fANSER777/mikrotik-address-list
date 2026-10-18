@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SB
-# Generated: 2026-10-18 17:53 UTC
+# Generated: 2026-10-18 21:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SB | Subnets: 12 (was 12, collapsed 0) | IPs: ~14,336
 # RIR data dates: afrinic=2026-10-18, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-17

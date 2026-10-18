@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MD
-# Generated: 2026-10-18 17:53 UTC
+# Generated: 2026-10-18 21:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MD | Subnets: 412 (was 424, collapsed 12) | IPs: ~1,257,472
 # RIR data dates: afrinic=2026-10-18, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-17

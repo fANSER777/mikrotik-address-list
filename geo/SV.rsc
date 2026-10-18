@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SV
-# Generated: 2026-10-18 17:53 UTC
+# Generated: 2026-10-18 21:53 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SV | Subnets: 75 (was 83, collapsed 8) | IPs: ~663,808
 # RIR data dates: afrinic=2026-10-18, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-17
