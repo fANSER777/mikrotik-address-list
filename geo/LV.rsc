@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LV
-# Generated: 2026-10-19 03:54 UTC
+# Generated: 2026-10-19 09:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LV | Subnets: 432 (was 457, collapsed 25) | IPs: ~1,850,624
-# RIR data dates: afrinic=2026-10-18, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-18
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-18
 #
 /ip firewall address-list
 remove [find where list=GEO_LV and (comment~"^PANEL-TEMP-GEO:")=false]
