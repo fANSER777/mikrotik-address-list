@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BN
-# Generated: 2026-10-19 15:57 UTC
+# Generated: 2026-10-19 21:58 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BN | Subnets: 36 (was 38, collapsed 2) | IPs: ~216,576
 # RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
