@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TW
-# Generated: 2026-10-19 09:55 UTC
+# Generated: 2026-10-19 15:57 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TW | Subnets: 730 (was 1079, collapsed 349) | IPs: ~35,740,416
-# RIR data dates: afrinic=2026-10-19, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-18
+# Countries: TW | Subnets: 735 (was 1084, collapsed 349) | IPs: ~35,741,952
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
 #
 /ip firewall address-list
 remove [find where list=GEO_TW and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -26,6 +26,8 @@ add address=27.240.0.0/13 list=GEO_TW comment=TW
 add address=36.50.228.0/23 list=GEO_TW comment=TW
 add address=36.50.248.0/23 list=GEO_TW comment=TW
 add address=36.224.0.0/12 list=GEO_TW comment=TW
+add address=36.255.244.0/24 list=GEO_TW comment=TW
+add address=36.255.246.0/24 list=GEO_TW comment=TW
 add address=39.1.0.0/16 list=GEO_TW comment=TW
 add address=39.8.0.0/13 list=GEO_TW comment=TW
 add address=42.0.64.0/18 list=GEO_TW comment=TW
@@ -129,6 +131,7 @@ add address=103.37.4.0/23 list=GEO_TW comment=TW
 add address=103.37.36.0/22 list=GEO_TW comment=TW
 add address=103.38.146.0/23 list=GEO_TW comment=TW
 add address=103.42.112.0/23 list=GEO_TW comment=TW
+add address=103.42.138.0/23 list=GEO_TW comment=TW
 add address=103.42.144.0/21 list=GEO_TW comment=TW
 add address=103.43.48.0/22 list=GEO_TW comment=TW
 add address=103.46.144.0/22 list=GEO_TW comment=TW
@@ -321,6 +324,8 @@ add address=103.189.132.0/23 list=GEO_TW comment=TW
 add address=103.190.168.0/23 list=GEO_TW comment=TW
 add address=103.191.20.0/22 list=GEO_TW comment=TW
 add address=103.191.181.0/24 list=GEO_TW comment=TW
+add address=103.196.129.0/24 list=GEO_TW comment=TW
+add address=103.196.131.0/24 list=GEO_TW comment=TW
 add address=103.196.172.0/22 list=GEO_TW comment=TW
 add address=103.197.158.0/23 list=GEO_TW comment=TW
 add address=103.197.172.0/22 list=GEO_TW comment=TW

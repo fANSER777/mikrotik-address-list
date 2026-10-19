@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BD
-# Generated: 2026-10-19 09:55 UTC
+# Generated: 2026-10-19 15:57 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BD | Subnets: 2160 (was 2347, collapsed 187) | IPs: ~2,088,256
-# RIR data dates: afrinic=2026-10-19, apnic=2026-10-18, arin=2026-10-18, lacnic=2026-10-16, ripencc=2026-10-18
+# Countries: BD | Subnets: 2162 (was 2349, collapsed 187) | IPs: ~2,089,280
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
 #
 /ip firewall address-list
 remove [find where list=GEO_BD and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -63,6 +63,7 @@ add address=43.245.232.0/22 list=GEO_BD comment=BD
 add address=43.245.244.0/22 list=GEO_BD comment=BD
 add address=43.246.200.0/22 list=GEO_BD comment=BD
 add address=43.248.254.0/23 list=GEO_BD comment=BD
+add address=43.249.20.0/23 list=GEO_BD comment=BD
 add address=43.250.80.0/22 list=GEO_BD comment=BD
 add address=43.251.84.0/22 list=GEO_BD comment=BD
 add address=43.254.96.0/22 list=GEO_BD comment=BD
@@ -1774,6 +1775,7 @@ add address=157.15.136.0/23 list=GEO_BD comment=BD
 add address=157.15.196.0/24 list=GEO_BD comment=BD
 add address=157.15.222.0/23 list=GEO_BD comment=BD
 add address=157.15.228.0/23 list=GEO_BD comment=BD
+add address=157.20.42.0/23 list=GEO_BD comment=BD
 add address=157.20.54.0/23 list=GEO_BD comment=BD
 add address=157.20.56.0/23 list=GEO_BD comment=BD
 add address=157.20.74.0/23 list=GEO_BD comment=BD
