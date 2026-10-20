@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GY
-# Generated: 2026-10-20 16:02 UTC
+# Generated: 2026-10-20 22:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GY | Subnets: 13 (was 14, collapsed 1) | IPs: ~68,864
 # RIR data dates: afrinic=2026-10-20, apnic=2026-10-20, arin=2026-10-20, lacnic=2026-10-19, ripencc=2026-10-19
