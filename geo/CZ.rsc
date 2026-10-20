@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CZ
-# Generated: 2026-10-19 21:58 UTC
+# Generated: 2026-10-20 03:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CZ | Subnets: 1570 (was 1791, collapsed 221) | IPs: ~9,556,928
-# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
+# Countries: CZ | Subnets: 1571 (was 1792, collapsed 221) | IPs: ~9,557,184
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-19, ripencc=2026-10-19
 #
 /ip firewall address-list
 remove [find where list=GEO_CZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -671,6 +671,7 @@ add address=153.76.176.0/23 list=GEO_CZ comment=CZ
 add address=153.76.180.0/22 list=GEO_CZ comment=CZ
 add address=153.76.184.0/21 list=GEO_CZ comment=CZ
 add address=156.137.0.0/16 list=GEO_CZ comment=CZ
+add address=157.173.73.0/24 list=GEO_CZ comment=CZ
 add address=158.194.0.0/16 list=GEO_CZ comment=CZ
 add address=158.196.0.0/16 list=GEO_CZ comment=CZ
 add address=158.255.32.0/21 list=GEO_CZ comment=CZ

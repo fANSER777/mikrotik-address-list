@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AM
-# Generated: 2026-10-19 21:58 UTC
+# Generated: 2026-10-20 03:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AM | Subnets: 200 (was 210, collapsed 10) | IPs: ~666,400
-# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
+# Countries: AM | Subnets: 203 (was 213, collapsed 10) | IPs: ~668,960
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-19, ripencc=2026-10-19
 #
 /ip firewall address-list
 remove [find where list=GEO_AM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -63,6 +63,7 @@ add address=89.249.192.0/20 list=GEO_AM comment=AM
 add address=91.103.24.0/21 list=GEO_AM comment=AM
 add address=91.103.56.0/21 list=GEO_AM comment=AM
 add address=91.103.248.0/22 list=GEO_AM comment=AM
+add address=91.192.156.0/22 list=GEO_AM comment=AM
 add address=91.193.43.0/24 list=GEO_AM comment=AM
 add address=91.195.110.0/23 list=GEO_AM comment=AM
 add address=91.195.254.0/23 list=GEO_AM comment=AM
@@ -170,6 +171,8 @@ add address=193.32.54.0/24 list=GEO_AM comment=AM
 add address=193.57.28.0/22 list=GEO_AM comment=AM
 add address=193.104.56.0/24 list=GEO_AM comment=AM
 add address=193.104.198.0/24 list=GEO_AM comment=AM
+add address=193.106.220.0/22 list=GEO_AM comment=AM
+add address=193.111.204.0/23 list=GEO_AM comment=AM
 add address=193.142.19.0/24 list=GEO_AM comment=AM
 add address=193.163.170.0/24 list=GEO_AM comment=AM
 add address=193.177.240.0/24 list=GEO_AM comment=AM

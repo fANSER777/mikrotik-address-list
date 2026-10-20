@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SC
-# Generated: 2026-10-19 21:58 UTC
+# Generated: 2026-10-20 03:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SC | Subnets: 798 (was 880, collapsed 82) | IPs: ~8,977,664
-# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-16, ripencc=2026-10-18
+# Countries: SC | Subnets: 802 (was 885, collapsed 83) | IPs: ~8,986,112
+# RIR data dates: afrinic=2026-10-19, apnic=2026-10-19, arin=2026-10-19, lacnic=2026-10-19, ripencc=2026-10-19
 #
 /ip firewall address-list
 remove [find where list=GEO_SC and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -234,7 +234,7 @@ add address=80.73.242.0/24 list=GEO_SC comment=SC
 add address=80.73.244.0/24 list=GEO_SC comment=SC
 add address=80.91.209.0/24 list=GEO_SC comment=SC
 add address=80.91.210.0/23 list=GEO_SC comment=SC
-add address=80.91.212.0/24 list=GEO_SC comment=SC
+add address=80.91.212.0/23 list=GEO_SC comment=SC
 add address=80.251.152.0/23 list=GEO_SC comment=SC
 add address=80.253.248.0/22 list=GEO_SC comment=SC
 add address=83.138.48.0/24 list=GEO_SC comment=SC
@@ -379,6 +379,10 @@ add address=109.205.188.0/24 list=GEO_SC comment=SC
 add address=113.30.152.0/22 list=GEO_SC comment=SC
 add address=116.206.104.0/22 list=GEO_SC comment=SC
 add address=128.0.32.0/24 list=GEO_SC comment=SC
+add address=130.78.192.0/20 list=GEO_SC comment=SC
+add address=130.78.208.0/21 list=GEO_SC comment=SC
+add address=130.78.224.0/20 list=GEO_SC comment=SC
+add address=130.78.248.0/21 list=GEO_SC comment=SC
 add address=130.185.152.0/21 list=GEO_SC comment=SC
 add address=130.193.79.0/24 list=GEO_SC comment=SC
 add address=130.255.169.0/24 list=GEO_SC comment=SC
@@ -386,7 +390,7 @@ add address=135.106.0.0/17 list=GEO_SC comment=SC
 add address=135.106.134.0/23 list=GEO_SC comment=SC
 add address=136.234.127.0/24 list=GEO_SC comment=SC
 add address=136.234.128.0/17 list=GEO_SC comment=SC
-add address=137.22.128.0/19 list=GEO_SC comment=SC
+add address=137.22.128.0/20 list=GEO_SC comment=SC
 add address=137.63.0.0/17 list=GEO_SC comment=SC
 add address=138.16.0.0/17 list=GEO_SC comment=SC
 add address=138.16.138.0/23 list=GEO_SC comment=SC
