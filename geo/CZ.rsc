@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CZ
-# Generated: 2026-10-21 16:46 UTC
+# Generated: 2026-10-21 22:47 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CZ | Subnets: 1571 (was 1792, collapsed 221) | IPs: ~9,557,184
-# RIR data dates: afrinic=2026-10-21, apnic=2026-10-21, arin=2026-10-21, lacnic=2026-10-20, ripencc=2026-10-20
+# Countries: CZ | Subnets: 1577 (was 1798, collapsed 221) | IPs: ~9,555,648
+# RIR data dates: afrinic=2026-10-21, apnic=2026-10-21, arin=2026-10-21, lacnic=2026-10-20, ripencc=2026-10-21
 #
 /ip firewall address-list
 remove [find where list=GEO_CZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1365,7 +1365,7 @@ add address=194.58.40.0/22 list=GEO_CZ comment=CZ
 add address=194.58.56.0/22 list=GEO_CZ comment=CZ
 add address=194.58.60.0/23 list=GEO_CZ comment=CZ
 add address=194.58.66.0/23 list=GEO_CZ comment=CZ
-add address=194.58.68.0/22 list=GEO_CZ comment=CZ
+add address=194.58.68.0/23 list=GEO_CZ comment=CZ
 add address=194.58.82.0/23 list=GEO_CZ comment=CZ
 add address=194.58.154.0/23 list=GEO_CZ comment=CZ
 add address=194.58.222.0/23 list=GEO_CZ comment=CZ
@@ -1387,8 +1387,8 @@ add address=194.135.1.0/24 list=GEO_CZ comment=CZ
 add address=194.135.2.0/24 list=GEO_CZ comment=CZ
 add address=194.135.16.0/23 list=GEO_CZ comment=CZ
 add address=194.135.20.0/24 list=GEO_CZ comment=CZ
-add address=194.135.22.0/23 list=GEO_CZ comment=CZ
-add address=194.135.24.0/23 list=GEO_CZ comment=CZ
+add address=194.135.22.0/24 list=GEO_CZ comment=CZ
+add address=194.135.25.0/24 list=GEO_CZ comment=CZ
 add address=194.135.32.0/21 list=GEO_CZ comment=CZ
 add address=194.135.44.0/23 list=GEO_CZ comment=CZ
 add address=194.135.104.0/23 list=GEO_CZ comment=CZ
@@ -1431,7 +1431,13 @@ add address=195.39.239.0/24 list=GEO_CZ comment=CZ
 add address=195.47.0.0/17 list=GEO_CZ comment=CZ
 add address=195.47.235.0/24 list=GEO_CZ comment=CZ
 add address=195.47.252.0/24 list=GEO_CZ comment=CZ
-add address=195.58.32.0/19 list=GEO_CZ comment=CZ
+add address=195.58.32.0/20 list=GEO_CZ comment=CZ
+add address=195.58.48.0/22 list=GEO_CZ comment=CZ
+add address=195.58.52.0/23 list=GEO_CZ comment=CZ
+add address=195.58.54.0/24 list=GEO_CZ comment=CZ
+add address=195.58.57.0/24 list=GEO_CZ comment=CZ
+add address=195.58.58.0/23 list=GEO_CZ comment=CZ
+add address=195.58.60.0/22 list=GEO_CZ comment=CZ
 add address=195.60.89.0/25 list=GEO_CZ comment=CZ
 add address=195.63.192.0/18 list=GEO_CZ comment=CZ
 add address=195.70.128.0/19 list=GEO_CZ comment=CZ
