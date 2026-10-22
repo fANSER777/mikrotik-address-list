@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JP
-# Generated: 2026-10-22 16:22 UTC
+# Generated: 2026-10-22 22:22 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JP | Subnets: 3202 (was 4801, collapsed 1599) | IPs: ~188,713,280
-# RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
+# Countries: JP | Subnets: 3208 (was 4807, collapsed 1599) | IPs: ~188,718,912
+# RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-22
 #
 /ip firewall address-list
 remove [find where list=GEO_JP and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -18,6 +18,7 @@ add address=1.33.0.0/16 list=GEO_JP comment=JP
 add address=1.66.0.0/15 list=GEO_JP comment=JP
 add address=1.72.0.0/13 list=GEO_JP comment=JP
 add address=1.112.0.0/14 list=GEO_JP comment=JP
+add address=5.180.96.0/22 list=GEO_JP comment=JP
 add address=14.0.8.0/22 list=GEO_JP comment=JP
 add address=14.1.4.0/22 list=GEO_JP comment=JP
 add address=14.1.8.0/21 list=GEO_JP comment=JP
@@ -187,7 +188,11 @@ add address=43.251.184.0/22 list=GEO_JP comment=JP
 add address=43.252.240.0/22 list=GEO_JP comment=JP
 add address=43.253.0.0/16 list=GEO_JP comment=JP
 add address=43.255.40.0/22 list=GEO_JP comment=JP
+add address=45.10.174.0/23 list=GEO_JP comment=JP
+add address=45.11.76.0/22 list=GEO_JP comment=JP
 add address=45.75.0.0/17 list=GEO_JP comment=JP
+add address=45.81.32.0/22 list=GEO_JP comment=JP
+add address=45.85.76.0/22 list=GEO_JP comment=JP
 add address=45.113.4.0/22 list=GEO_JP comment=JP
 add address=45.113.116.0/22 list=GEO_JP comment=JP
 add address=45.113.172.0/22 list=GEO_JP comment=JP
@@ -218,6 +223,7 @@ add address=45.127.28.0/22 list=GEO_JP comment=JP
 add address=45.135.160.0/22 list=GEO_JP comment=JP
 add address=45.143.0.0/22 list=GEO_JP comment=JP
 add address=45.148.172.0/22 list=GEO_JP comment=JP
+add address=45.150.236.0/22 list=GEO_JP comment=JP
 add address=45.251.67.0/24 list=GEO_JP comment=JP
 add address=45.251.132.0/22 list=GEO_JP comment=JP
 add address=49.0.16.0/21 list=GEO_JP comment=JP
