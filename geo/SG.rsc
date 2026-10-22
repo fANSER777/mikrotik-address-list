@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SG
-# Generated: 2026-10-22 15:01 UTC
+# Generated: 2026-10-22 16:22 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SG | Subnets: 1757 (was 1906, collapsed 149) | IPs: ~28,957,248
-# RIR data dates: afrinic=2026-10-22, apnic=2026-10-21, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
+# Countries: SG | Subnets: 1755 (was 1904, collapsed 149) | IPs: ~28,956,224
+# RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
 #
 /ip firewall address-list
 remove [find where list=GEO_SG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -363,7 +363,6 @@ add address=103.31.172.0/22 list=GEO_SG comment=SG
 add address=103.31.228.0/22 list=GEO_SG comment=SG
 add address=103.35.91.0/24 list=GEO_SG comment=SG
 add address=103.35.248.0/22 list=GEO_SG comment=SG
-add address=103.36.90.0/23 list=GEO_SG comment=SG
 add address=103.36.92.0/22 list=GEO_SG comment=SG
 add address=103.37.196.0/22 list=GEO_SG comment=SG
 add address=103.38.72.0/22 list=GEO_SG comment=SG
@@ -714,7 +713,6 @@ add address=103.234.190.0/23 list=GEO_SG comment=SG
 add address=103.236.119.0/24 list=GEO_SG comment=SG
 add address=103.236.196.0/22 list=GEO_SG comment=SG
 add address=103.237.80.0/24 list=GEO_SG comment=SG
-add address=103.237.94.0/23 list=GEO_SG comment=SG
 add address=103.237.132.0/23 list=GEO_SG comment=SG
 add address=103.237.142.0/23 list=GEO_SG comment=SG
 add address=103.237.168.0/23 list=GEO_SG comment=SG

@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PH
-# Generated: 2026-10-22 15:01 UTC
+# Generated: 2026-10-22 16:22 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PH | Subnets: 839 (was 918, collapsed 79) | IPs: ~6,266,944
-# RIR data dates: afrinic=2026-10-22, apnic=2026-10-21, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
+# Countries: PH | Subnets: 835 (was 914, collapsed 79) | IPs: ~6,265,920
+# RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
 #
 /ip firewall address-list
 remove [find where list=GEO_PH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -94,7 +94,6 @@ add address=103.11.40.0/22 list=GEO_PH comment=PH
 add address=103.11.112.0/22 list=GEO_PH comment=PH
 add address=103.12.88.0/22 list=GEO_PH comment=PH
 add address=103.13.134.0/24 list=GEO_PH comment=PH
-add address=103.13.182.0/24 list=GEO_PH comment=PH
 add address=103.13.184.0/23 list=GEO_PH comment=PH
 add address=103.14.60.0/22 list=GEO_PH comment=PH
 add address=103.14.194.0/24 list=GEO_PH comment=PH
@@ -165,7 +164,6 @@ add address=103.67.248.0/24 list=GEO_PH comment=PH
 add address=103.68.156.0/22 list=GEO_PH comment=PH
 add address=103.69.108.0/24 list=GEO_PH comment=PH
 add address=103.69.199.0/24 list=GEO_PH comment=PH
-add address=103.69.254.0/24 list=GEO_PH comment=PH
 add address=103.71.92.0/22 list=GEO_PH comment=PH
 add address=103.72.58.0/23 list=GEO_PH comment=PH
 add address=103.72.188.0/22 list=GEO_PH comment=PH
@@ -536,7 +534,6 @@ add address=157.10.32.0/23 list=GEO_PH comment=PH
 add address=157.10.206.0/23 list=GEO_PH comment=PH
 add address=157.15.50.0/24 list=GEO_PH comment=PH
 add address=157.15.140.0/23 list=GEO_PH comment=PH
-add address=157.15.213.0/24 list=GEO_PH comment=PH
 add address=157.20.142.0/23 list=GEO_PH comment=PH
 add address=157.119.68.0/23 list=GEO_PH comment=PH
 add address=158.62.0.0/17 list=GEO_PH comment=PH
@@ -637,7 +634,6 @@ add address=163.227.101.0/24 list=GEO_PH comment=PH
 add address=163.227.118.0/23 list=GEO_PH comment=PH
 add address=163.227.122.0/23 list=GEO_PH comment=PH
 add address=163.227.167.0/24 list=GEO_PH comment=PH
-add address=163.227.240.0/24 list=GEO_PH comment=PH
 add address=163.227.244.0/22 list=GEO_PH comment=PH
 add address=165.99.36.0/23 list=GEO_PH comment=PH
 add address=165.99.48.0/24 list=GEO_PH comment=PH

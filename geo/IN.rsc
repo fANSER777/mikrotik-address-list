@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-10-22 15:01 UTC
+# Generated: 2026-10-22 16:22 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7222 (was 9324, collapsed 2102) | IPs: ~42,031,104
-# RIR data dates: afrinic=2026-10-22, apnic=2026-10-21, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
+# Countries: IN | Subnets: 7223 (was 9326, collapsed 2103) | IPs: ~42,032,128
+# RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-21, ripencc=2026-10-21
 #
 /ip firewall address-list
 remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -847,6 +847,8 @@ add address=95.181.216.0/22 list=GEO_IN comment=IN
 add address=95.214.20.0/22 list=GEO_IN comment=IN
 add address=95.214.188.0/22 list=GEO_IN comment=IN
 add address=101.0.32.0/19 list=GEO_IN comment=IN
+add address=101.1.20.0/22 list=GEO_IN comment=IN
+add address=101.1.26.0/23 list=GEO_IN comment=IN
 add address=101.2.0.0/17 list=GEO_IN comment=IN
 add address=101.53.128.0/19 list=GEO_IN comment=IN
 add address=101.208.0.0/12 list=GEO_IN comment=IN
@@ -6194,7 +6196,6 @@ add address=163.52.36.0/23 list=GEO_IN comment=IN
 add address=163.52.38.0/24 list=GEO_IN comment=IN
 add address=163.52.46.0/23 list=GEO_IN comment=IN
 add address=163.52.60.0/22 list=GEO_IN comment=IN
-add address=163.52.70.0/24 list=GEO_IN comment=IN
 add address=163.52.72.0/23 list=GEO_IN comment=IN
 add address=163.52.84.0/23 list=GEO_IN comment=IN
 add address=163.52.87.0/24 list=GEO_IN comment=IN
@@ -6209,7 +6210,7 @@ add address=163.52.170.0/23 list=GEO_IN comment=IN
 add address=163.52.176.0/23 list=GEO_IN comment=IN
 add address=163.52.182.0/23 list=GEO_IN comment=IN
 add address=163.52.184.0/24 list=GEO_IN comment=IN
-add address=163.52.186.0/23 list=GEO_IN comment=IN
+add address=163.52.186.0/24 list=GEO_IN comment=IN
 add address=163.52.194.0/23 list=GEO_IN comment=IN
 add address=163.52.208.0/23 list=GEO_IN comment=IN
 add address=163.52.222.0/23 list=GEO_IN comment=IN
