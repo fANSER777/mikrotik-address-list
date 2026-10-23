@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GE
-# Generated: 2026-10-23 11:30 UTC
+# Generated: 2026-10-23 12:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GE | Subnets: 314 (was 337, collapsed 23) | IPs: ~1,306,688
 # RIR data dates: afrinic=2026-10-23, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-22, ripencc=2026-10-22

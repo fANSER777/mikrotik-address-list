@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JE
-# Generated: 2026-10-23 11:30 UTC
+# Generated: 2026-10-23 12:20 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JE | Subnets: 47 (was 49, collapsed 2) | IPs: ~156,416
 # RIR data dates: afrinic=2026-10-23, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-22, ripencc=2026-10-22
