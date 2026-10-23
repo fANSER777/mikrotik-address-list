@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BT
-# Generated: 2026-10-23 04:23 UTC
+# Generated: 2026-10-23 04:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BT | Subnets: 49 (was 60, collapsed 11) | IPs: ~51,456
 # RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-22, ripencc=2026-10-22

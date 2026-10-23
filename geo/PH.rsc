@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PH
-# Generated: 2026-10-23 04:24 UTC
+# Generated: 2026-10-23 04:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PH | Subnets: 835 (was 914, collapsed 79) | IPs: ~6,265,920
 # RIR data dates: afrinic=2026-10-22, apnic=2026-10-22, arin=2026-10-22, lacnic=2026-10-22, ripencc=2026-10-22
