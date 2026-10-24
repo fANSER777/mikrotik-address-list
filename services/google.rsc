@@ -1,7 +1,7 @@
 # Google (YouTube, Search, Gmail, etc.) IPv4 address list
-# Generated: 2026-10-23 21:22
+# Generated: 2026-10-24 03:23
 # Source: https://www.gstatic.com/ipranges/goog.json
-# Subnets: 130 | IPs: ~24,211,456
+# Subnets: 132 | IPs: ~24,235,776
 #
 # MikroTik usage:
 #   /tool fetch url="http://YOUR_PANEL/rsc/google.rsc"
@@ -63,14 +63,13 @@ add address=108.177.0.0/17 list=GOOGLE
 add address=130.211.0.0/16 list=GOOGLE
 add address=136.22.2.0/23 list=GOOGLE
 add address=136.22.4.0/23 list=GOOGLE
-add address=136.22.8.0/22 list=GOOGLE
+add address=136.22.8.0/21 list=GOOGLE
+add address=136.22.16.0/20 list=GOOGLE
 add address=136.22.160.0/20 list=GOOGLE
 add address=136.22.176.0/21 list=GOOGLE
 add address=136.22.184.0/23 list=GOOGLE
 add address=136.22.186.0/24 list=GOOGLE
-add address=136.23.39.0/24 list=GOOGLE
-add address=136.23.48.0/20 list=GOOGLE
-add address=136.23.64.0/18 list=GOOGLE
+add address=136.23.0.0/17 list=GOOGLE
 add address=136.64.0.0/11 list=GOOGLE
 add address=136.107.0.0/16 list=GOOGLE
 add address=136.108.0.0/14 list=GOOGLE
@@ -85,6 +84,7 @@ add address=152.239.128.0/17 list=GOOGLE
 add address=162.120.128.0/17 list=GOOGLE
 add address=162.216.148.0/22 list=GOOGLE
 add address=162.222.176.0/21 list=GOOGLE
+add address=172.102.8.0/21 list=GOOGLE
 add address=172.110.32.0/21 list=GOOGLE
 add address=172.217.0.0/16 list=GOOGLE
 add address=172.253.0.0/16 list=GOOGLE
@@ -97,6 +97,7 @@ add address=179.67.0.0/17 list=GOOGLE
 add address=179.69.128.0/17 list=GOOGLE
 add address=179.193.128.0/17 list=GOOGLE
 add address=179.199.0.0/17 list=GOOGLE
+add address=185.150.148.0/22 list=GOOGLE
 add address=186.242.0.0/17 list=GOOGLE
 add address=186.245.0.0/16 list=GOOGLE
 add address=187.78.0.0/17 list=GOOGLE
@@ -135,6 +136,7 @@ add address=208.68.108.0/22 list=GOOGLE
 add address=208.81.188.0/22 list=GOOGLE
 add address=208.117.224.0/19 list=GOOGLE
 add address=209.85.128.0/17 list=GOOGLE
+add address=209.107.176.0/20 list=GOOGLE
 add address=216.58.192.0/19 list=GOOGLE
 add address=216.73.80.0/20 list=GOOGLE
 add address=216.239.32.0/19 list=GOOGLE
