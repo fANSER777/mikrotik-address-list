@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UY
-# Generated: 2026-10-24 06:24 UTC
+# Generated: 2026-10-24 12:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UY | Subnets: 58 (was 92, collapsed 34) | IPs: ~2,516,736
 # RIR data dates: afrinic=2026-10-24, apnic=2026-10-23, arin=2026-10-23, lacnic=2026-10-23, ripencc=2026-10-23

@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IL
-# Generated: 2026-10-24 06:24 UTC
+# Generated: 2026-10-24 12:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IL | Subnets: 781 (was 1058, collapsed 277) | IPs: ~8,051,840
 # RIR data dates: afrinic=2026-10-24, apnic=2026-10-23, arin=2026-10-23, lacnic=2026-10-23, ripencc=2026-10-23
