@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZM
-# Generated: 2026-10-24 00:23 UTC
+# Generated: 2026-10-24 06:24 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZM | Subnets: 42 (was 43, collapsed 1) | IPs: ~1,651,968
-# RIR data dates: afrinic=2026-10-23, apnic=2026-10-23, arin=2026-10-23, lacnic=2026-10-22, ripencc=2026-10-23
+# Countries: ZM | Subnets: 43 (was 44, collapsed 1) | IPs: ~1,652,992
+# RIR data dates: afrinic=2026-10-24, apnic=2026-10-23, arin=2026-10-23, lacnic=2026-10-23, ripencc=2026-10-23
 #
 /ip firewall address-list
 remove [find where list=GEO_ZM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -23,6 +23,7 @@ add address=102.67.160.0/22 list=GEO_ZM comment=ZM
 add address=102.68.136.0/22 list=GEO_ZM comment=ZM
 add address=102.130.100.0/24 list=GEO_ZM comment=ZM
 add address=102.144.0.0/13 list=GEO_ZM comment=ZM
+add address=102.200.16.0/22 list=GEO_ZM comment=ZM
 add address=102.202.16.0/22 list=GEO_ZM comment=ZM
 add address=102.203.92.0/22 list=GEO_ZM comment=ZM
 add address=102.204.66.0/23 list=GEO_ZM comment=ZM
