@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SL
-# Generated: 2026-10-24 18:26 UTC
+# Generated: 2026-10-25 00:27 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SL | Subnets: 30 (was 30, collapsed 0) | IPs: ~85,760
-# RIR data dates: afrinic=2026-10-24, apnic=2026-10-24, arin=2026-10-24, lacnic=2026-10-23, ripencc=2026-10-23
+# RIR data dates: afrinic=2026-10-24, apnic=2026-10-24, arin=2026-10-24, lacnic=2026-10-23, ripencc=2026-10-24
 #
 /ip firewall address-list
 remove [find where list=GEO_SL and (comment~"^PANEL-TEMP-GEO:")=false]
