@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LV
-# Generated: 2026-10-26 22:03 UTC
+# Generated: 2026-10-26 22:35 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LV | Subnets: 432 (was 457, collapsed 25) | IPs: ~1,850,624
 # RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
