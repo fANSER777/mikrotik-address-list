@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PK
-# Generated: 2026-10-26 14:43 UTC
+# Generated: 2026-10-26 20:14 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PK | Subnets: 765 (was 823, collapsed 58) | IPs: ~5,621,760
-# RIR data dates: afrinic=2026-10-26, apnic=2026-10-24, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
+# RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
 #
 /ip firewall address-list
 remove [find where list=GEO_PK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -293,7 +293,6 @@ add address=103.151.46.0/23 list=GEO_PK comment=PK
 add address=103.151.236.0/23 list=GEO_PK comment=PK
 add address=103.152.42.0/23 list=GEO_PK comment=PK
 add address=103.152.100.0/23 list=GEO_PK comment=PK
-add address=103.152.116.0/23 list=GEO_PK comment=PK
 add address=103.152.254.0/23 list=GEO_PK comment=PK
 add address=103.153.14.0/23 list=GEO_PK comment=PK
 add address=103.153.38.0/23 list=GEO_PK comment=PK
@@ -498,6 +497,7 @@ add address=115.186.0.0/17 list=GEO_PK comment=PK
 add address=115.186.128.0/18 list=GEO_PK comment=PK
 add address=116.0.32.0/19 list=GEO_PK comment=PK
 add address=116.58.0.0/17 list=GEO_PK comment=PK
+add address=116.66.236.0/23 list=GEO_PK comment=PK
 add address=116.71.0.0/16 list=GEO_PK comment=PK
 add address=116.90.96.0/19 list=GEO_PK comment=PK
 add address=116.197.156.0/22 list=GEO_PK comment=PK
