@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ
-# Generated: 2026-10-26 08:42 UTC
+# Generated: 2026-10-26 14:43 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BW,BY,BZ,CA,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,ER,ES,ET,EU,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GT,GU,GW,GY,HK,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SI,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW,ZZ | Subnets: 179647 (was 264525, collapsed 84878) | IPs: ~3,692,719,584
-# RIR data dates: afrinic=2026-10-26, apnic=2026-10-24, arin=2026-10-25, lacnic=2026-10-23, ripencc=2026-10-25
+# RIR data dates: afrinic=2026-10-26, apnic=2026-10-24, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
 #
 /ip firewall address-list
 remove [find where list=GEO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -89846,6 +89846,7 @@ add address=5.252.240.0/22 list=GEO comment=IT
 add address=5.253.48.0/22 list=GEO comment=IT
 add address=5.253.196.0/22 list=GEO comment=IT
 add address=5.253.212.0/22 list=GEO comment=IT
+add address=23.166.52.0/24 list=GEO comment=IT
 add address=31.3.160.0/19 list=GEO comment=IT
 add address=31.6.80.0/20 list=GEO comment=IT
 add address=31.7.144.0/20 list=GEO comment=IT
@@ -105461,6 +105462,7 @@ add address=23.111.16.0/20 list=GEO comment=NL
 add address=23.111.80.0/20 list=GEO comment=NL
 add address=23.111.224.0/20 list=GEO comment=NL
 add address=23.111.240.0/21 list=GEO comment=NL
+add address=23.166.92.0/24 list=GEO comment=NL
 add address=23.249.162.0/24 list=GEO comment=NL
 add address=23.249.232.0/21 list=GEO comment=NL
 add address=24.132.0.0/16 list=GEO comment=NL
@@ -139454,6 +139456,7 @@ add address=23.162.28.0/24 list=GEO comment=TH
 add address=23.164.116.0/24 list=GEO comment=TH
 add address=23.165.228.0/24 list=GEO comment=TH
 add address=23.165.244.0/24 list=GEO comment=TH
+add address=23.166.84.0/24 list=GEO comment=TH
 add address=23.177.168.0/24 list=GEO comment=TH
 add address=23.177.200.0/24 list=GEO comment=TH
 add address=23.178.56.0/24 list=GEO comment=TH
@@ -147679,16 +147682,13 @@ add address=23.166.24.0/24 list=GEO comment=US
 add address=23.166.28.0/24 list=GEO comment=US
 add address=23.166.36.0/24 list=GEO comment=US
 add address=23.166.40.0/24 list=GEO comment=US
-add address=23.166.52.0/24 list=GEO comment=US
 add address=23.166.56.0/24 list=GEO comment=US
 add address=23.166.60.0/24 list=GEO comment=US
 add address=23.166.64.0/24 list=GEO comment=US
 add address=23.166.72.0/24 list=GEO comment=US
 add address=23.166.76.0/24 list=GEO comment=US
 add address=23.166.80.0/24 list=GEO comment=US
-add address=23.166.84.0/24 list=GEO comment=US
 add address=23.166.88.0/24 list=GEO comment=US
-add address=23.166.92.0/24 list=GEO comment=US
 add address=23.166.96.0/24 list=GEO comment=US
 add address=23.166.104.0/24 list=GEO comment=US
 add address=23.166.112.0/24 list=GEO comment=US
