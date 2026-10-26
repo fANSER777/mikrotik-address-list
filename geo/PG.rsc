@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PG
-# Generated: 2026-10-26 20:14 UTC
+# Generated: 2026-10-26 22:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PG | Subnets: 65 (was 65, collapsed 0) | IPs: ~67,840
 # RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25

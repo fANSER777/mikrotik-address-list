@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JP
-# Generated: 2026-10-26 20:14 UTC
+# Generated: 2026-10-26 22:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JP | Subnets: 3208 (was 4807, collapsed 1599) | IPs: ~188,718,144
 # RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25

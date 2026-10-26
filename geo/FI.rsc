@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FI
-# Generated: 2026-10-26 20:14 UTC
+# Generated: 2026-10-26 22:03 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FI | Subnets: 987 (was 1147, collapsed 160) | IPs: ~13,925,184
 # RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
