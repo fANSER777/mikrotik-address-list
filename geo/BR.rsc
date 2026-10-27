@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BR
-# Generated: 2026-10-26 22:35 UTC
+# Generated: 2026-10-27 04:36 UTC
 # Source: RIR delegated (5 registries)
-# Countries: BR | Subnets: 4929 (was 13086, collapsed 8157) | IPs: ~79,321,344
-# RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-23, ripencc=2026-10-25
+# Countries: BR | Subnets: 4930 (was 13090, collapsed 8160) | IPs: ~79,321,344
+# RIR data dates: afrinic=2026-10-26, apnic=2026-10-26, arin=2026-10-26, lacnic=2026-10-26, ripencc=2026-10-26
 #
 /ip firewall address-list
 remove [find where list=GEO_BR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -296,7 +296,7 @@ add address=45.165.116.0/22 list=GEO_BR comment=BR
 add address=45.165.120.0/21 list=GEO_BR comment=BR
 add address=45.165.128.0/20 list=GEO_BR comment=BR
 add address=45.165.144.0/21 list=GEO_BR comment=BR
-add address=45.165.153.0/24 list=GEO_BR comment=BR
+add address=45.165.152.0/23 list=GEO_BR comment=BR
 add address=45.165.156.0/22 list=GEO_BR comment=BR
 add address=45.165.160.0/21 list=GEO_BR comment=BR
 add address=45.165.172.0/22 list=GEO_BR comment=BR
@@ -1055,7 +1055,6 @@ add address=45.228.48.0/22 list=GEO_BR comment=BR
 add address=45.228.80.0/20 list=GEO_BR comment=BR
 add address=45.228.96.0/19 list=GEO_BR comment=BR
 add address=45.228.128.0/21 list=GEO_BR comment=BR
-add address=45.228.140.0/22 list=GEO_BR comment=BR
 add address=45.228.144.0/21 list=GEO_BR comment=BR
 add address=45.228.157.0/24 list=GEO_BR comment=BR
 add address=45.228.158.0/23 list=GEO_BR comment=BR
@@ -4107,6 +4106,7 @@ add address=192.80.209.0/24 list=GEO_BR comment=BR
 add address=192.83.207.0/24 list=GEO_BR comment=BR
 add address=192.91.254.0/24 list=GEO_BR comment=BR
 add address=192.100.157.0/24 list=GEO_BR comment=BR
+add address=192.100.165.0/24 list=GEO_BR comment=BR
 add address=192.100.168.0/24 list=GEO_BR comment=BR
 add address=192.100.177.0/24 list=GEO_BR comment=BR
 add address=192.100.206.0/24 list=GEO_BR comment=BR
@@ -4335,6 +4335,7 @@ add address=200.23.31.0/24 list=GEO_BR comment=BR
 add address=200.23.68.0/22 list=GEO_BR comment=BR
 add address=200.23.116.0/24 list=GEO_BR comment=BR
 add address=200.23.118.0/23 list=GEO_BR comment=BR
+add address=200.23.134.0/23 list=GEO_BR comment=BR
 add address=200.23.148.0/24 list=GEO_BR comment=BR
 add address=200.23.152.0/23 list=GEO_BR comment=BR
 add address=200.23.180.0/22 list=GEO_BR comment=BR
