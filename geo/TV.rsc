@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TV
-# Generated: 2026-10-28 12:24 UTC
+# Generated: 2026-10-28 14:04 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TV | Subnets: 1 (was 2, collapsed 1) | IPs: ~8,192
-# RIR data dates: afrinic=2026-10-28, apnic=2026-10-27, arin=2026-10-27, lacnic=2026-10-27, ripencc=2026-10-27
+# RIR data dates: afrinic=2026-10-28, apnic=2026-10-27, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-27
 #
 /ip firewall address-list
 remove [find where list=GEO_TV and (comment~"^PANEL-TEMP-GEO:")=false]
