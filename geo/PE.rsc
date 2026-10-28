@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PE
-# Generated: 2026-10-28 06:23 UTC
+# Generated: 2026-10-28 12:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: PE | Subnets: 235 (was 270, collapsed 35) | IPs: ~3,250,688
 # RIR data dates: afrinic=2026-10-28, apnic=2026-10-27, arin=2026-10-27, lacnic=2026-10-27, ripencc=2026-10-27
