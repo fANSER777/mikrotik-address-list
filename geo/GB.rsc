@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GB
-# Generated: 2026-10-28 20:06 UTC
+# Generated: 2026-10-29 02:07 UTC
 # Source: RIR delegated (5 registries)
-# Countries: GB | Subnets: 8236 (was 9269, collapsed 1033) | IPs: ~138,749,760
-# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-27
+# Countries: GB | Subnets: 8237 (was 9270, collapsed 1033) | IPs: ~138,757,952
+# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-28
 #
 /ip firewall address-list
 remove [find where list=GEO_GB and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3376,6 +3376,7 @@ add address=146.66.64.0/18 list=GEO_GB comment=GB
 add address=146.80.0.0/16 list=GEO_GB comment=GB
 add address=146.87.0.0/16 list=GEO_GB comment=GB
 add address=146.90.0.0/16 list=GEO_GB comment=GB
+add address=146.94.192.0/19 list=GEO_GB comment=GB
 add address=146.97.0.0/16 list=GEO_GB comment=GB
 add address=146.103.128.0/18 list=GEO_GB comment=GB
 add address=146.105.0.0/16 list=GEO_GB comment=GB
@@ -3730,6 +3731,7 @@ add address=164.6.0.0/16 list=GEO_GB comment=GB
 add address=164.11.0.0/16 list=GEO_GB comment=GB
 add address=164.36.0.0/16 list=GEO_GB comment=GB
 add address=164.37.41.0/24 list=GEO_GB comment=GB
+add address=164.37.68.0/24 list=GEO_GB comment=GB
 add address=164.37.96.0/20 list=GEO_GB comment=GB
 add address=164.38.0.0/16 list=GEO_GB comment=GB
 add address=164.39.0.0/18 list=GEO_GB comment=GB
@@ -7168,7 +7170,6 @@ add address=194.238.48.0/21 list=GEO_GB comment=GB
 add address=194.238.60.0/22 list=GEO_GB comment=GB
 add address=194.238.64.0/21 list=GEO_GB comment=GB
 add address=194.238.76.0/24 list=GEO_GB comment=GB
-add address=194.238.78.0/24 list=GEO_GB comment=GB
 add address=194.238.80.0/20 list=GEO_GB comment=GB
 add address=194.238.128.0/17 list=GEO_GB comment=GB
 add address=194.242.55.0/24 list=GEO_GB comment=GB

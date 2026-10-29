@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FR
-# Generated: 2026-10-28 20:06 UTC
+# Generated: 2026-10-29 02:07 UTC
 # Source: RIR delegated (5 registries)
-# Countries: FR | Subnets: 4174 (was 4760, collapsed 586) | IPs: ~81,586,768
-# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-27
+# Countries: FR | Subnets: 4175 (was 4760, collapsed 585) | IPs: ~81,586,768
+# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-28
 #
 /ip firewall address-list
 remove [find where list=GEO_FR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2319,6 +2319,7 @@ add address=185.144.192.0/22 list=GEO_FR comment=FR
 add address=185.144.252.0/22 list=GEO_FR comment=FR
 add address=185.145.32.0/22 list=GEO_FR comment=FR
 add address=185.145.72.0/21 list=GEO_FR comment=FR
+add address=185.145.191.0/24 list=GEO_FR comment=FR
 add address=185.145.248.0/22 list=GEO_FR comment=FR
 add address=185.146.24.0/22 list=GEO_FR comment=FR
 add address=185.146.40.0/22 list=GEO_FR comment=FR
@@ -2405,7 +2406,7 @@ add address=185.164.212.0/22 list=GEO_FR comment=FR
 add address=185.164.232.0/22 list=GEO_FR comment=FR
 add address=185.165.64.0/22 list=GEO_FR comment=FR
 add address=185.165.144.0/22 list=GEO_FR comment=FR
-add address=185.165.192.0/23 list=GEO_FR comment=FR
+add address=185.165.193.0/24 list=GEO_FR comment=FR
 add address=185.166.12.0/22 list=GEO_FR comment=FR
 add address=185.166.100.0/22 list=GEO_FR comment=FR
 add address=185.166.164.0/22 list=GEO_FR comment=FR

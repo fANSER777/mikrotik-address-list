@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UZ
-# Generated: 2026-10-28 20:06 UTC
+# Generated: 2026-10-29 02:07 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UZ | Subnets: 179 (was 224, collapsed 45) | IPs: ~335,104
-# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-27
+# Countries: UZ | Subnets: 180 (was 225, collapsed 45) | IPs: ~336,128
+# RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-27, ripencc=2026-10-28
 #
 /ip firewall address-list
 remove [find where list=GEO_UZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -98,6 +98,7 @@ add address=119.12.104.0/21 list=GEO_UZ comment=UZ
 add address=130.49.168.0/22 list=GEO_UZ comment=UZ
 add address=130.193.29.0/24 list=GEO_UZ comment=UZ
 add address=139.28.44.0/22 list=GEO_UZ comment=UZ
+add address=141.133.148.0/22 list=GEO_UZ comment=UZ
 add address=144.124.192.0/20 list=GEO_UZ comment=UZ
 add address=157.22.128.0/20 list=GEO_UZ comment=UZ
 add address=157.22.144.0/21 list=GEO_UZ comment=UZ
