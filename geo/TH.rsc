@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TH
-# Generated: 2026-10-29 04:21 UTC
+# Generated: 2026-10-29 04:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TH | Subnets: 668 (was 1197, collapsed 529) | IPs: ~8,930,816
 # RIR data dates: afrinic=2026-10-28, apnic=2026-10-28, arin=2026-10-28, lacnic=2026-10-28, ripencc=2026-10-28
