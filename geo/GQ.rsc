@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — GQ
-# Generated: 2026-10-29 14:02 UTC
+# Generated: 2026-10-29 14:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: GQ | Subnets: 10 (was 10, collapsed 0) | IPs: ~17,920
 # RIR data dates: afrinic=2026-10-29, apnic=2026-10-28, arin=2026-10-29, lacnic=2026-10-28, ripencc=2026-10-28
