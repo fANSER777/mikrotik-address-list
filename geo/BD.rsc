@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BD
-# Generated: 2026-10-30 23:32 UTC
+# Generated: 2026-10-30 23:57 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BD | Subnets: 2166 (was 2353, collapsed 187) | IPs: ~2,091,072
 # RIR data dates: afrinic=2026-10-30, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-29, ripencc=2026-10-30
