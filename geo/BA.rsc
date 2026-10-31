@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BA
-# Generated: 2026-10-31 00:49 UTC
+# Generated: 2026-10-31 01:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BA | Subnets: 160 (was 173, collapsed 13) | IPs: ~795,136
 # RIR data dates: afrinic=2026-10-30, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-29, ripencc=2026-10-30
