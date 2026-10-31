@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RW
-# Generated: 2026-10-31 06:02 UTC
+# Generated: 2026-10-31 12:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RW | Subnets: 33 (was 33, collapsed 0) | IPs: ~283,392
 # RIR data dates: afrinic=2026-10-31, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-30, ripencc=2026-10-30

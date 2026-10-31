@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SA
-# Generated: 2026-10-31 06:02 UTC
+# Generated: 2026-10-31 12:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SA | Subnets: 592 (was 632, collapsed 40) | IPs: ~11,237,696
 # RIR data dates: afrinic=2026-10-31, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-30, ripencc=2026-10-30
