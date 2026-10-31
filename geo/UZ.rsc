@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UZ
-# Generated: 2026-10-31 03:57 UTC
+# Generated: 2026-10-31 04:41 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UZ | Subnets: 180 (was 225, collapsed 45) | IPs: ~336,128
 # RIR data dates: afrinic=2026-10-30, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-30, ripencc=2026-10-30
