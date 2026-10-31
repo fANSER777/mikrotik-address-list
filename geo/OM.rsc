@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — OM
-# Generated: 2026-10-31 04:40 UTC
+# Generated: 2026-10-31 05:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: OM | Subnets: 78 (was 78, collapsed 0) | IPs: ~951,872
 # RIR data dates: afrinic=2026-10-30, apnic=2026-10-30, arin=2026-10-30, lacnic=2026-10-30, ripencc=2026-10-30
