@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-11-01 11:04 UTC
+# Generated: 2026-11-01 12:32 UTC
 # Source: RIR delegated (5 registries)
 # Countries: US | Subnets: 29708 (was 70525, collapsed 40817) | IPs: ~1,606,231,456
 # RIR data dates: afrinic=2026-11-01, apnic=2026-10-30, arin=2026-10-31, lacnic=2026-10-30, ripencc=2026-10-31
