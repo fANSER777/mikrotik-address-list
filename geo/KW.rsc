@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KW
-# Generated: 2026-10-31 18:06 UTC
+# Generated: 2026-11-01 00:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KW | Subnets: 134 (was 140, collapsed 6) | IPs: ~1,904,384
-# RIR data dates: afrinic=2026-10-31, apnic=2026-10-30, arin=2026-10-31, lacnic=2026-10-30, ripencc=2026-10-30
+# RIR data dates: afrinic=2026-10-31, apnic=2026-10-30, arin=2026-10-31, lacnic=2026-10-30, ripencc=2026-10-31
 #
 /ip firewall address-list
 remove [find where list=GEO_KW and (comment~"^PANEL-TEMP-GEO:")=false]
