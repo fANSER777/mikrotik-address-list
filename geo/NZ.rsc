@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NZ
-# Generated: 2026-11-02 12:59 UTC
+# Generated: 2026-11-02 18:44 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NZ | Subnets: 1273 (was 1464, collapsed 191) | IPs: ~6,530,816
-# RIR data dates: afrinic=2026-11-02, apnic=2026-10-30, arin=2026-11-01, lacnic=2026-10-30, ripencc=2026-11-01
+# Countries: NZ | Subnets: 1272 (was 1463, collapsed 191) | IPs: ~6,530,560
+# RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-01
 #
 /ip firewall address-list
 remove [find where list=GEO_NZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -376,7 +376,6 @@ add address=103.172.136.0/24 list=GEO_NZ comment=NZ
 add address=103.172.232.0/23 list=GEO_NZ comment=NZ
 add address=103.173.34.0/23 list=GEO_NZ comment=NZ
 add address=103.173.250.0/23 list=GEO_NZ comment=NZ
-add address=103.174.2.0/24 list=GEO_NZ comment=NZ
 add address=103.178.53.0/24 list=GEO_NZ comment=NZ
 add address=103.178.118.0/23 list=GEO_NZ comment=NZ
 add address=103.180.48.0/23 list=GEO_NZ comment=NZ
