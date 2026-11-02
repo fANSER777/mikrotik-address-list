@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FR
-# Generated: 2026-11-01 20:34 UTC
+# Generated: 2026-11-02 02:35 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FR | Subnets: 4175 (was 4760, collapsed 585) | IPs: ~81,586,768
-# RIR data dates: afrinic=2026-11-01, apnic=2026-10-30, arin=2026-11-01, lacnic=2026-10-30, ripencc=2026-10-31
+# RIR data dates: afrinic=2026-11-01, apnic=2026-10-30, arin=2026-11-01, lacnic=2026-10-30, ripencc=2026-11-01
 #
 /ip firewall address-list
 remove [find where list=GEO_FR and (comment~"^PANEL-TEMP-GEO:")=false]
