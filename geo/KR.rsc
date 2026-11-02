@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KR
-# Generated: 2026-11-02 11:26 UTC
+# Generated: 2026-11-02 12:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KR | Subnets: 998 (was 2430, collapsed 1432) | IPs: ~112,497,472
 # RIR data dates: afrinic=2026-11-02, apnic=2026-10-30, arin=2026-11-01, lacnic=2026-10-30, ripencc=2026-11-01
