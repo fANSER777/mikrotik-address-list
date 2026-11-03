@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UA
-# Generated: 2026-11-02 22:24 UTC
+# Generated: 2026-11-03 04:25 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UA | Subnets: 2666 (was 2918, collapsed 252) | IPs: ~9,090,624
-# RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-01
+# Countries: UA | Subnets: 2671 (was 2925, collapsed 254) | IPs: ~9,094,208
+# RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-02
 #
 /ip firewall address-list
 remove [find where list=GEO_UA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -652,6 +652,7 @@ add address=91.212.194.0/24 list=GEO_UA comment=UA
 add address=91.212.203.0/24 list=GEO_UA comment=UA
 add address=91.212.214.0/24 list=GEO_UA comment=UA
 add address=91.212.253.0/24 list=GEO_UA comment=UA
+add address=91.213.8.0/24 list=GEO_UA comment=UA
 add address=91.213.33.0/24 list=GEO_UA comment=UA
 add address=91.213.59.0/24 list=GEO_UA comment=UA
 add address=91.213.62.0/24 list=GEO_UA comment=UA
@@ -853,6 +854,7 @@ add address=91.227.206.0/23 list=GEO_UA comment=UA
 add address=91.227.254.0/24 list=GEO_UA comment=UA
 add address=91.228.12.0/22 list=GEO_UA comment=UA
 add address=91.228.58.0/23 list=GEO_UA comment=UA
+add address=91.228.68.0/22 list=GEO_UA comment=UA
 add address=91.228.122.0/23 list=GEO_UA comment=UA
 add address=91.228.146.0/23 list=GEO_UA comment=UA
 add address=91.228.217.0/24 list=GEO_UA comment=UA
@@ -1595,6 +1597,7 @@ add address=185.246.128.0/22 list=GEO_UA comment=UA
 add address=185.247.20.0/22 list=GEO_UA comment=UA
 add address=185.247.208.0/22 list=GEO_UA comment=UA
 add address=185.248.128.0/22 list=GEO_UA comment=UA
+add address=185.248.192.0/22 list=GEO_UA comment=UA
 add address=185.249.160.0/22 list=GEO_UA comment=UA
 add address=185.250.20.0/22 list=GEO_UA comment=UA
 add address=185.252.24.0/22 list=GEO_UA comment=UA
@@ -2071,12 +2074,14 @@ add address=194.9.176.0/22 list=GEO_UA comment=UA
 add address=194.11.225.0/24 list=GEO_UA comment=UA
 add address=194.12.64.0/19 list=GEO_UA comment=UA
 add address=194.15.52.0/22 list=GEO_UA comment=UA
+add address=194.15.112.0/22 list=GEO_UA comment=UA
 add address=194.15.147.0/24 list=GEO_UA comment=UA
 add address=194.24.182.0/23 list=GEO_UA comment=UA
 add address=194.24.184.0/22 list=GEO_UA comment=UA
 add address=194.24.236.0/23 list=GEO_UA comment=UA
 add address=194.24.246.0/23 list=GEO_UA comment=UA
 add address=194.26.0.0/24 list=GEO_UA comment=UA
+add address=194.26.18.0/24 list=GEO_UA comment=UA
 add address=194.26.164.0/22 list=GEO_UA comment=UA
 add address=194.28.4.0/22 list=GEO_UA comment=UA
 add address=194.28.16.0/22 list=GEO_UA comment=UA

@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — US
-# Generated: 2026-11-02 22:24 UTC
+# Generated: 2026-11-03 04:25 UTC
 # Source: RIR delegated (5 registries)
-# Countries: US | Subnets: 29708 (was 70525, collapsed 40817) | IPs: ~1,606,231,456
-# RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-01
+# Countries: US | Subnets: 29708 (was 70528, collapsed 40820) | IPs: ~1,606,242,720
+# RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-02
 #
 /ip firewall address-list
 remove [find where list=GEO_US and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -10286,9 +10286,9 @@ add address=140.176.0.0/15 list=GEO_US comment=US
 add address=140.178.0.0/16 list=GEO_US comment=US
 add address=140.180.0.0/16 list=GEO_US comment=US
 add address=140.182.0.0/15 list=GEO_US comment=US
-add address=140.184.16.0/21 list=GEO_US comment=US
-add address=140.184.24.0/22 list=GEO_US comment=US
-add address=140.184.64.0/19 list=GEO_US comment=US
+add address=140.184.8.0/21 list=GEO_US comment=US
+add address=140.184.16.0/20 list=GEO_US comment=US
+add address=140.184.64.0/18 list=GEO_US comment=US
 add address=140.184.128.0/17 list=GEO_US comment=US
 add address=140.185.0.0/16 list=GEO_US comment=US
 add address=140.186.0.0/15 list=GEO_US comment=US
