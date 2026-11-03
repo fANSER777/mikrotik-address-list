@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UA
-# Generated: 2026-11-03 06:11 UTC
+# Generated: 2026-11-03 08:25 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UA | Subnets: 2671 (was 2925, collapsed 254) | IPs: ~9,094,208
 # RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-02
