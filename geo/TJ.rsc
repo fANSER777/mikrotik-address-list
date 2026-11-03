@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TJ
-# Generated: 2026-11-03 04:25 UTC
+# Generated: 2026-11-03 06:11 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TJ | Subnets: 60 (was 70, collapsed 10) | IPs: ~85,824
 # RIR data dates: afrinic=2026-11-02, apnic=2026-11-02, arin=2026-11-02, lacnic=2026-10-30, ripencc=2026-11-02
