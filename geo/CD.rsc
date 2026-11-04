@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CD
-# Generated: 2026-11-04 15:32 UTC
+# Generated: 2026-11-04 16:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CD | Subnets: 83 (was 84, collapsed 1) | IPs: ~177,920
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03

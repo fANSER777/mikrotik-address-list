@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KM
-# Generated: 2026-11-04 15:32 UTC
+# Generated: 2026-11-04 16:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KM | Subnets: 6 (was 6, collapsed 0) | IPs: ~8,448
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
