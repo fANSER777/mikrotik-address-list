@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CH
-# Generated: 2026-11-04 18:24 UTC
+# Generated: 2026-11-04 19:37 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CH | Subnets: 2689 (was 3071, collapsed 382) | IPs: ~23,286,640
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
