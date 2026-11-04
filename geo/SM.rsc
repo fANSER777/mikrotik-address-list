@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SM
-# Generated: 2026-11-04 11:09 UTC
+# Generated: 2026-11-04 12:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SM | Subnets: 25 (was 25, collapsed 0) | IPs: ~40,960
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-03, arin=2026-11-03, lacnic=2026-11-03, ripencc=2026-11-03
