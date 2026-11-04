@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-11-04 23:12 UTC
+# Generated: 2026-11-04 23:52 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RU | Subnets: 8671 (was 11492, collapsed 2821) | IPs: ~45,250,624
-# RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
+# Countries: RU | Subnets: 8672 (was 11493, collapsed 2821) | IPs: ~45,250,880
+# RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-04
 #
 /ip firewall address-list
 remove [find where list=GEO_RU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -4590,6 +4590,7 @@ add address=157.186.0.0/16 list=GEO_RU comment=RU
 add address=157.228.73.0/24 list=GEO_RU comment=RU
 add address=157.228.76.0/22 list=GEO_RU comment=RU
 add address=157.228.96.0/23 list=GEO_RU comment=RU
+add address=157.228.98.0/24 list=GEO_RU comment=RU
 add address=158.46.0.0/16 list=GEO_RU comment=RU
 add address=158.58.128.0/21 list=GEO_RU comment=RU
 add address=158.160.0.0/16 list=GEO_RU comment=RU

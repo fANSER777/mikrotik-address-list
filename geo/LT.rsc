@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LT
-# Generated: 2026-11-04 23:12 UTC
+# Generated: 2026-11-04 23:52 UTC
 # Source: RIR delegated (5 registries)
-# Countries: LT | Subnets: 950 (was 1413, collapsed 463) | IPs: ~4,117,504
-# RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
+# Countries: LT | Subnets: 951 (was 1414, collapsed 463) | IPs: ~4,119,552
+# RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-04
 #
 /ip firewall address-list
 remove [find where list=GEO_LT and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -222,6 +222,7 @@ add address=85.209.16.0/22 list=GEO_LT comment=LT
 add address=85.209.220.0/22 list=GEO_LT comment=LT
 add address=85.209.228.0/22 list=GEO_LT comment=LT
 add address=85.232.128.0/19 list=GEO_LT comment=LT
+add address=85.234.184.0/21 list=GEO_LT comment=LT
 add address=85.255.48.0/20 list=GEO_LT comment=LT
 add address=85.255.96.0/20 list=GEO_LT comment=LT
 add address=86.38.0.0/16 list=GEO_LT comment=LT
