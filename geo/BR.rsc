@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BR
-# Generated: 2026-11-04 17:06 UTC
+# Generated: 2026-11-04 18:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BR | Subnets: 4931 (was 13093, collapsed 8162) | IPs: ~79,322,368
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
