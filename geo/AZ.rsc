@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AZ
-# Generated: 2026-11-04 12:05 UTC
+# Generated: 2026-11-04 13:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AZ | Subnets: 187 (was 227, collapsed 40) | IPs: ~773,376
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-03, arin=2026-11-03, lacnic=2026-11-03, ripencc=2026-11-03
