@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DK
-# Generated: 2026-11-04 19:37 UTC
+# Generated: 2026-11-04 20:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DK | Subnets: 1294 (was 1579, collapsed 285) | IPs: ~12,008,480
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-03
