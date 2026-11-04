@@ -1,5 +1,5 @@
 # Telegram IPv4 address list
-# Generated: 2026-11-04 02:24
+# Generated: 2026-11-04 03:08
 # Source: https://core.telegram.org/resources/cidr.txt
 # Subnets: 9 | IPs: ~11,008
 #
