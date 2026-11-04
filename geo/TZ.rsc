@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TZ
-# Generated: 2026-11-04 07:12 UTC
+# Generated: 2026-11-04 08:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TZ | Subnets: 197 (was 203, collapsed 6) | IPs: ~1,090,816
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-03, arin=2026-11-03, lacnic=2026-11-03, ripencc=2026-11-03

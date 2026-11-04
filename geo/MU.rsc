@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MU
-# Generated: 2026-11-04 07:12 UTC
+# Generated: 2026-11-04 08:24 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MU | Subnets: 105 (was 107, collapsed 2) | IPs: ~3,698,944
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-03, arin=2026-11-03, lacnic=2026-11-03, ripencc=2026-11-03
