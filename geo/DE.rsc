@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DE
-# Generated: 2026-11-05 07:49 UTC
+# Generated: 2026-11-05 09:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DE | Subnets: 8742 (was 11072, collapsed 2330) | IPs: ~126,369,920
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-04, ripencc=2026-11-04

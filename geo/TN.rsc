@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TN
-# Generated: 2026-11-05 07:49 UTC
+# Generated: 2026-11-05 09:55 UTC
 # Source: RIR delegated (5 registries)
 # Countries: TN | Subnets: 44 (was 45, collapsed 1) | IPs: ~7,877,632
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-04, ripencc=2026-11-04
