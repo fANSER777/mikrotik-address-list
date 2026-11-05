@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZZ
-# Generated: 2026-11-05 01:48 UTC
+# Generated: 2026-11-05 07:49 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZZ | Subnets: 585 (was 586, collapsed 1) | IPs: ~5,091,584
-# RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-04
+# Countries: ZZ | Subnets: 587 (was 588, collapsed 1) | IPs: ~5,091,328
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-04, ripencc=2026-11-04
 #
 /ip firewall address-list
 remove [find where list=GEO_ZZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -175,8 +175,8 @@ add address=102.200.24.0/21 list=GEO_ZZ comment=ZZ
 add address=102.200.32.0/19 list=GEO_ZZ comment=ZZ
 add address=102.200.64.0/18 list=GEO_ZZ comment=ZZ
 add address=102.200.128.0/19 list=GEO_ZZ comment=ZZ
-add address=102.200.160.0/21 list=GEO_ZZ comment=ZZ
-add address=102.200.168.0/22 list=GEO_ZZ comment=ZZ
+add address=102.200.168.0/23 list=GEO_ZZ comment=ZZ
+add address=102.200.170.0/24 list=GEO_ZZ comment=ZZ
 add address=102.200.212.0/22 list=GEO_ZZ comment=ZZ
 add address=102.201.224.0/22 list=GEO_ZZ comment=ZZ
 add address=102.203.20.0/22 list=GEO_ZZ comment=ZZ
@@ -186,7 +186,9 @@ add address=102.203.76.0/22 list=GEO_ZZ comment=ZZ
 add address=102.204.128.0/20 list=GEO_ZZ comment=ZZ
 add address=102.208.24.0/22 list=GEO_ZZ comment=ZZ
 add address=102.208.156.0/22 list=GEO_ZZ comment=ZZ
+add address=102.210.116.0/22 list=GEO_ZZ comment=ZZ
 add address=102.211.148.0/22 list=GEO_ZZ comment=ZZ
+add address=102.212.100.0/22 list=GEO_ZZ comment=ZZ
 add address=102.212.168.0/22 list=GEO_ZZ comment=ZZ
 add address=102.213.224.0/22 list=GEO_ZZ comment=ZZ
 add address=102.214.15.0/24 list=GEO_ZZ comment=ZZ
