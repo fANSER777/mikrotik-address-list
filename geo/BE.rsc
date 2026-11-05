@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — BE
-# Generated: 2026-11-04 23:52 UTC
+# Generated: 2026-11-05 00:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: BE | Subnets: 924 (was 989, collapsed 65) | IPs: ~12,302,720
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-04
