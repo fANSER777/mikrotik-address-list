@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CZ
-# Generated: 2026-11-05 00:33 UTC
+# Generated: 2026-11-05 01:47 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CZ | Subnets: 1578 (was 1799, collapsed 221) | IPs: ~9,556,672
 # RIR data dates: afrinic=2026-11-04, apnic=2026-11-04, arin=2026-11-04, lacnic=2026-11-03, ripencc=2026-11-04
