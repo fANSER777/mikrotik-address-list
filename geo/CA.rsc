@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CA
-# Generated: 2026-11-06 10:33 UTC
+# Generated: 2026-11-06 14:08 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CA | Subnets: 6425 (was 9340, collapsed 2915) | IPs: ~67,518,976
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-05, ripencc=2026-11-05
+# Countries: CA | Subnets: 6426 (was 9340, collapsed 2914) | IPs: ~67,453,696
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
 #
 /ip firewall address-list
 remove [find where list=GEO_CA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -600,6 +600,7 @@ add address=64.71.240.0/20 list=GEO_CA comment=CA
 add address=64.72.196.0/22 list=GEO_CA comment=CA
 add address=64.72.224.0/19 list=GEO_CA comment=CA
 add address=64.74.54.0/24 list=GEO_CA comment=CA
+add address=64.74.58.0/24 list=GEO_CA comment=CA
 add address=64.77.0.0/17 list=GEO_CA comment=CA
 add address=64.85.32.0/19 list=GEO_CA comment=CA
 add address=64.87.64.0/18 list=GEO_CA comment=CA
@@ -3627,7 +3628,6 @@ add address=198.73.56.0/23 list=GEO_CA comment=CA
 add address=198.73.59.0/24 list=GEO_CA comment=CA
 add address=198.73.60.0/22 list=GEO_CA comment=CA
 add address=198.73.64.0/22 list=GEO_CA comment=CA
-add address=198.73.80.0/23 list=GEO_CA comment=CA
 add address=198.73.83.0/24 list=GEO_CA comment=CA
 add address=198.73.84.0/22 list=GEO_CA comment=CA
 add address=198.73.88.0/22 list=GEO_CA comment=CA
@@ -5676,7 +5676,7 @@ add address=206.174.176.0/20 list=GEO_CA comment=CA
 add address=206.174.192.0/19 list=GEO_CA comment=CA
 add address=206.176.128.0/19 list=GEO_CA comment=CA
 add address=206.177.0.0/16 list=GEO_CA comment=CA
-add address=206.178.0.0/15 list=GEO_CA comment=CA
+add address=206.178.0.0/16 list=GEO_CA comment=CA
 add address=206.180.240.0/20 list=GEO_CA comment=CA
 add address=206.183.132.0/22 list=GEO_CA comment=CA
 add address=206.183.155.0/24 list=GEO_CA comment=CA
@@ -5789,6 +5789,7 @@ add address=207.195.160.0/19 list=GEO_CA comment=CA
 add address=207.198.96.0/19 list=GEO_CA comment=CA
 add address=207.200.128.0/19 list=GEO_CA comment=CA
 add address=207.204.192.0/19 list=GEO_CA comment=CA
+add address=207.207.250.0/23 list=GEO_CA comment=CA
 add address=207.210.0.0/18 list=GEO_CA comment=CA
 add address=207.216.0.0/16 list=GEO_CA comment=CA
 add address=207.219.0.0/16 list=GEO_CA comment=CA
