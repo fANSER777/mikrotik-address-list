@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-11-06 10:09 UTC
+# Generated: 2026-11-06 10:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IN | Subnets: 7233 (was 9340, collapsed 2107) | IPs: ~42,039,808
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-05, ripencc=2026-11-05

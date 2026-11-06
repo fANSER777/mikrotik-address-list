@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MP
-# Generated: 2026-11-06 10:09 UTC
+# Generated: 2026-11-06 10:33 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MP | Subnets: 7 (was 8, collapsed 1) | IPs: ~16,128
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-05, ripencc=2026-11-05
