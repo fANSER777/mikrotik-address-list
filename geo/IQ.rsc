@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IQ
-# Generated: 2026-11-06 14:08 UTC
+# Generated: 2026-11-06 19:16 UTC
 # Source: RIR delegated (5 registries)
 # Countries: IQ | Subnets: 287 (was 344, collapsed 57) | IPs: ~452,928
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
 #
 /ip firewall address-list
 remove [find where list=GEO_IQ and (comment~"^PANEL-TEMP-GEO:")=false]

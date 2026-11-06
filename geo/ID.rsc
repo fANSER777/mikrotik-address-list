@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ID
-# Generated: 2026-11-06 14:08 UTC
+# Generated: 2026-11-06 19:16 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ID | Subnets: 4820 (was 6321, collapsed 1501) | IPs: ~18,344,704
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
+# Countries: ID | Subnets: 4823 (was 6324, collapsed 1501) | IPs: ~18,346,240
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
 #
 /ip firewall address-list
 remove [find where list=GEO_ID and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3418,6 +3418,7 @@ add address=115.166.96.0/19 list=GEO_ID comment=ID
 add address=115.178.48.0/21 list=GEO_ID comment=ID
 add address=115.178.120.0/21 list=GEO_ID comment=ID
 add address=115.178.128.0/17 list=GEO_ID comment=ID
+add address=115.186.80.0/22 list=GEO_ID comment=ID
 add address=115.187.23.0/24 list=GEO_ID comment=ID
 add address=115.187.28.0/22 list=GEO_ID comment=ID
 add address=116.0.0.0/21 list=GEO_ID comment=ID
@@ -4638,9 +4639,11 @@ add address=203.8.174.0/24 list=GEO_ID comment=ID
 add address=203.8.223.0/24 list=GEO_ID comment=ID
 add address=203.11.91.0/24 list=GEO_ID comment=ID
 add address=203.12.20.0/23 list=GEO_ID comment=ID
+add address=203.12.117.0/24 list=GEO_ID comment=ID
 add address=203.14.18.0/24 list=GEO_ID comment=ID
 add address=203.14.176.0/24 list=GEO_ID comment=ID
 add address=203.14.183.0/24 list=GEO_ID comment=ID
+add address=203.14.196.0/24 list=GEO_ID comment=ID
 add address=203.16.11.0/24 list=GEO_ID comment=ID
 add address=203.17.21.0/24 list=GEO_ID comment=ID
 add address=203.17.80.0/21 list=GEO_ID comment=ID
