@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ES
-# Generated: 2026-11-05 20:48 UTC
+# Generated: 2026-11-06 02:49 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ES | Subnets: 3441 (was 3800, collapsed 359) | IPs: ~31,940,736
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-04, ripencc=2026-11-04
+# Countries: ES | Subnets: 3442 (was 3800, collapsed 358) | IPs: ~31,939,968
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-04, ripencc=2026-11-05
 #
 /ip firewall address-list
 remove [find where list=GEO_ES and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -612,7 +612,7 @@ add address=80.224.160.0/20 list=GEO_ES comment=ES
 add address=80.224.176.0/22 list=GEO_ES comment=ES
 add address=80.224.182.0/23 list=GEO_ES comment=ES
 add address=80.224.184.0/22 list=GEO_ES comment=ES
-add address=80.224.188.0/23 list=GEO_ES comment=ES
+add address=80.224.189.0/24 list=GEO_ES comment=ES
 add address=80.224.191.0/24 list=GEO_ES comment=ES
 add address=80.224.192.0/20 list=GEO_ES comment=ES
 add address=80.224.208.0/21 list=GEO_ES comment=ES
@@ -736,9 +736,9 @@ add address=85.136.82.0/24 list=GEO_ES comment=ES
 add address=85.137.82.0/23 list=GEO_ES comment=ES
 add address=85.137.180.0/24 list=GEO_ES comment=ES
 add address=85.152.0.0/16 list=GEO_ES comment=ES
-add address=85.155.0.0/23 list=GEO_ES comment=ES
 add address=85.155.4.0/22 list=GEO_ES comment=ES
-add address=85.155.8.0/22 list=GEO_ES comment=ES
+add address=85.155.9.0/24 list=GEO_ES comment=ES
+add address=85.155.10.0/23 list=GEO_ES comment=ES
 add address=85.155.12.0/23 list=GEO_ES comment=ES
 add address=85.155.216.0/21 list=GEO_ES comment=ES
 add address=85.155.252.0/22 list=GEO_ES comment=ES
@@ -1358,6 +1358,7 @@ add address=149.62.176.0/21 list=GEO_ES comment=ES
 add address=149.74.0.0/16 list=GEO_ES comment=ES
 add address=149.126.32.0/20 list=GEO_ES comment=ES
 add address=149.126.160.0/21 list=GEO_ES comment=ES
+add address=149.245.244.0/24 list=GEO_ES comment=ES
 add address=150.128.0.0/16 list=GEO_ES comment=ES
 add address=150.214.0.0/16 list=GEO_ES comment=ES
 add address=150.241.0.0/18 list=GEO_ES comment=ES
