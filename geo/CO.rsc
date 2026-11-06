@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CO
-# Generated: 2026-11-06 02:49 UTC
+# Generated: 2026-11-06 06:13 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CO | Subnets: 523 (was 651, collapsed 128) | IPs: ~17,523,712
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-04, ripencc=2026-11-05
+# Countries: CO | Subnets: 522 (was 650, collapsed 128) | IPs: ~17,523,456
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-05, ripencc=2026-11-05
 #
 /ip firewall address-list
 remove [find where list=GEO_CO and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -390,7 +390,6 @@ add address=191.144.0.0/12 list=GEO_CO comment=CO
 add address=192.68.185.0/24 list=GEO_CO comment=CO
 add address=192.92.154.0/24 list=GEO_CO comment=CO
 add address=192.100.191.0/24 list=GEO_CO comment=CO
-add address=192.135.95.0/24 list=GEO_CO comment=CO
 add address=192.140.124.0/23 list=GEO_CO comment=CO
 add address=192.144.112.0/22 list=GEO_CO comment=CO
 add address=198.49.128.0/22 list=GEO_CO comment=CO
