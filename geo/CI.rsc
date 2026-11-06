@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CI
-# Generated: 2026-11-06 06:13 UTC
+# Generated: 2026-11-06 07:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CI | Subnets: 236 (was 248, collapsed 12) | IPs: ~1,720,576
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-05, arin=2026-11-05, lacnic=2026-11-05, ripencc=2026-11-05
