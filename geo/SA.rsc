@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SA
-# Generated: 2026-11-06 22:32 UTC
+# Generated: 2026-11-07 00:15 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SA | Subnets: 592 (was 632, collapsed 40) | IPs: ~11,237,696
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-05
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-06
 #
 /ip firewall address-list
 remove [find where list=GEO_SA and (comment~"^PANEL-TEMP-GEO:")=false]
