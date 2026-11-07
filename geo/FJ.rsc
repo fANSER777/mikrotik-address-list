@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FJ
-# Generated: 2026-11-07 01:59 UTC
+# Generated: 2026-11-07 03:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FJ | Subnets: 39 (was 41, collapsed 2) | IPs: ~144,640
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-06
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06
 #
 /ip firewall address-list
 remove [find where list=GEO_FJ and (comment~"^PANEL-TEMP-GEO:")=false]
