@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — YT
-# Generated: 2026-11-07 00:59 UTC
+# Generated: 2026-11-07 01:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: YT | Subnets: 1 (was 1, collapsed 0) | IPs: ~1,024
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-05, ripencc=2026-11-06
