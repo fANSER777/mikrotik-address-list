@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VU
-# Generated: 2026-11-07 06:28 UTC
+# Generated: 2026-11-07 07:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: VU | Subnets: 22 (was 22, collapsed 0) | IPs: ~16,960
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06

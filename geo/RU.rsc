@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-11-07 06:28 UTC
+# Generated: 2026-11-07 07:05 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RU | Subnets: 8673 (was 11494, collapsed 2821) | IPs: ~45,251,136
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06
