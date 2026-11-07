@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NE
-# Generated: 2026-11-07 05:01 UTC
+# Generated: 2026-11-07 06:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NE | Subnets: 15 (was 15, collapsed 0) | IPs: ~48,128
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06

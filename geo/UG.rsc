@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UG
-# Generated: 2026-11-07 05:01 UTC
+# Generated: 2026-11-07 06:28 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UG | Subnets: 109 (was 112, collapsed 3) | IPs: ~1,426,176
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06
