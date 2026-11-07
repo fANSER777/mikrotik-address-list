@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KY
-# Generated: 2026-11-07 10:28 UTC
+# Generated: 2026-11-07 10:40 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KY | Subnets: 37 (was 37, collapsed 0) | IPs: ~91,136
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-06, arin=2026-11-06, lacnic=2026-11-06, ripencc=2026-11-06
