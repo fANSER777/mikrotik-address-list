@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CW
-# Generated: 2026-11-07 16:50 UTC
+# Generated: 2026-11-07 22:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CW | Subnets: 45 (was 51, collapsed 6) | IPs: ~197,632
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-07, arin=2026-11-07, lacnic=2026-11-06, ripencc=2026-11-06
