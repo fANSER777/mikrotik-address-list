@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MV
-# Generated: 2026-11-08 10:53 UTC
+# Generated: 2026-11-08 16:54 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MV | Subnets: 44 (was 46, collapsed 2) | IPs: ~93,952
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-07, arin=2026-11-07, lacnic=2026-11-06, ripencc=2026-11-07
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-07, arin=2026-11-08, lacnic=2026-11-06, ripencc=2026-11-07
 #
 /ip firewall address-list
 remove [find where list=GEO_MV and (comment~"^PANEL-TEMP-GEO:")=false]
