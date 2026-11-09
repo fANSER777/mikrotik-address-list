@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ID
-# Generated: 2026-11-09 04:56 UTC
+# Generated: 2026-11-09 16:59 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ID | Subnets: 4823 (was 6324, collapsed 1501) | IPs: ~18,346,240
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-07, arin=2026-11-08, lacnic=2026-11-06, ripencc=2026-11-08
+# Countries: ID | Subnets: 4829 (was 6331, collapsed 1502) | IPs: ~18,349,056
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-08
 #
 /ip firewall address-list
 remove [find where list=GEO_ID and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -3603,6 +3603,8 @@ add address=139.228.0.0/16 list=GEO_ID comment=ID
 add address=139.255.0.0/16 list=GEO_ID comment=ID
 add address=140.0.0.0/16 list=GEO_ID comment=ID
 add address=140.213.0.0/16 list=GEO_ID comment=ID
+add address=141.229.2.0/23 list=GEO_ID comment=ID
+add address=141.229.4.0/23 list=GEO_ID comment=ID
 add address=144.48.12.0/22 list=GEO_ID comment=ID
 add address=144.79.9.0/24 list=GEO_ID comment=ID
 add address=144.79.17.0/24 list=GEO_ID comment=ID
@@ -4644,6 +4646,9 @@ add address=203.14.18.0/24 list=GEO_ID comment=ID
 add address=203.14.176.0/24 list=GEO_ID comment=ID
 add address=203.14.183.0/24 list=GEO_ID comment=ID
 add address=203.14.196.0/24 list=GEO_ID comment=ID
+add address=203.14.200.0/24 list=GEO_ID comment=ID
+add address=203.14.244.0/24 list=GEO_ID comment=ID
+add address=203.15.128.0/24 list=GEO_ID comment=ID
 add address=203.16.11.0/24 list=GEO_ID comment=ID
 add address=203.17.21.0/24 list=GEO_ID comment=ID
 add address=203.17.80.0/21 list=GEO_ID comment=ID
@@ -4680,6 +4685,7 @@ add address=203.34.118.0/23 list=GEO_ID comment=ID
 add address=203.34.125.0/24 list=GEO_ID comment=ID
 add address=203.57.24.0/23 list=GEO_ID comment=ID
 add address=203.62.165.0/24 list=GEO_ID comment=ID
+add address=203.62.240.0/22 list=GEO_ID comment=ID
 add address=203.77.208.0/20 list=GEO_ID comment=ID
 add address=203.77.224.0/19 list=GEO_ID comment=ID
 add address=203.78.4.0/24 list=GEO_ID comment=ID
