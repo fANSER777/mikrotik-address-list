@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FM
-# Generated: 2026-11-09 16:59 UTC
+# Generated: 2026-11-09 23:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FM | Subnets: 5 (was 5, collapsed 0) | IPs: ~8,704
 # RIR data dates: afrinic=2026-11-05, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-08
