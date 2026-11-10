@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NL
-# Generated: 2026-11-09 23:01 UTC
+# Generated: 2026-11-10 05:02 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NL | Subnets: 5726 (was 6390, collapsed 664) | IPs: ~47,934,752
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-08
+# Countries: NL | Subnets: 5729 (was 6393, collapsed 664) | IPs: ~47,959,584
+# RIR data dates: afrinic=2026-11-05, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-09
 #
 /ip firewall address-list
 remove [find where list=GEO_NL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2334,7 +2334,8 @@ add address=145.4.0.0/14 list=GEO_NL comment=NL
 add address=145.8.0.0/15 list=GEO_NL comment=NL
 add address=145.10.0.0/16 list=GEO_NL comment=NL
 add address=145.11.48.0/20 list=GEO_NL comment=NL
-add address=145.11.128.0/17 list=GEO_NL comment=NL
+add address=145.11.128.0/19 list=GEO_NL comment=NL
+add address=145.11.192.0/18 list=GEO_NL comment=NL
 add address=145.12.0.0/15 list=GEO_NL comment=NL
 add address=145.14.0.0/22 list=GEO_NL comment=NL
 add address=145.14.56.0/21 list=GEO_NL comment=NL
@@ -2503,6 +2504,7 @@ add address=152.89.84.0/22 list=GEO_NL comment=NL
 add address=152.89.152.0/22 list=GEO_NL comment=NL
 add address=152.89.200.0/22 list=GEO_NL comment=NL
 add address=152.114.192.0/22 list=GEO_NL comment=NL
+add address=153.78.128.0/17 list=GEO_NL comment=NL
 add address=155.2.176.0/20 list=GEO_NL comment=NL
 add address=155.2.192.0/19 list=GEO_NL comment=NL
 add address=155.115.0.0/16 list=GEO_NL comment=NL
@@ -5136,6 +5138,7 @@ add address=195.10.202.0/24 list=GEO_NL comment=NL
 add address=195.10.212.0/24 list=GEO_NL comment=NL
 add address=195.10.224.0/23 list=GEO_NL comment=NL
 add address=195.10.228.0/22 list=GEO_NL comment=NL
+add address=195.10.245.0/24 list=GEO_NL comment=NL
 add address=195.12.60.0/22 list=GEO_NL comment=NL
 add address=195.14.1.0/24 list=GEO_NL comment=NL
 add address=195.14.29.0/24 list=GEO_NL comment=NL
