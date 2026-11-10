@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZZ
-# Generated: 2026-11-10 05:02 UTC
+# Generated: 2026-11-10 11:03 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZZ | Subnets: 587 (was 588, collapsed 1) | IPs: ~5,091,328
-# RIR data dates: afrinic=2026-11-05, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-09
+# Countries: ZZ | Subnets: 590 (was 591, collapsed 1) | IPs: ~5,095,936
+# RIR data dates: afrinic=2026-11-10, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-09
 #
 /ip firewall address-list
 remove [find where list=GEO_ZZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -188,6 +188,7 @@ add address=102.208.24.0/22 list=GEO_ZZ comment=ZZ
 add address=102.208.156.0/22 list=GEO_ZZ comment=ZZ
 add address=102.210.116.0/22 list=GEO_ZZ comment=ZZ
 add address=102.211.148.0/22 list=GEO_ZZ comment=ZZ
+add address=102.212.80.0/24 list=GEO_ZZ comment=ZZ
 add address=102.212.100.0/22 list=GEO_ZZ comment=ZZ
 add address=102.212.168.0/22 list=GEO_ZZ comment=ZZ
 add address=102.213.224.0/22 list=GEO_ZZ comment=ZZ
@@ -213,12 +214,14 @@ add address=102.216.228.0/22 list=GEO_ZZ comment=ZZ
 add address=102.217.60.0/22 list=GEO_ZZ comment=ZZ
 add address=102.217.92.0/22 list=GEO_ZZ comment=ZZ
 add address=102.217.208.0/24 list=GEO_ZZ comment=ZZ
+add address=102.217.220.0/22 list=GEO_ZZ comment=ZZ
 add address=102.218.4.0/22 list=GEO_ZZ comment=ZZ
 add address=102.218.96.0/23 list=GEO_ZZ comment=ZZ
 add address=102.218.168.0/22 list=GEO_ZZ comment=ZZ
 add address=102.218.248.0/22 list=GEO_ZZ comment=ZZ
 add address=102.219.4.0/22 list=GEO_ZZ comment=ZZ
 add address=102.219.36.0/22 list=GEO_ZZ comment=ZZ
+add address=102.219.68.0/22 list=GEO_ZZ comment=ZZ
 add address=102.219.128.0/22 list=GEO_ZZ comment=ZZ
 add address=102.219.212.0/22 list=GEO_ZZ comment=ZZ
 add address=102.219.244.0/22 list=GEO_ZZ comment=ZZ
@@ -331,14 +334,13 @@ add address=165.73.144.0/20 list=GEO_ZZ comment=ZZ
 add address=165.90.128.0/18 list=GEO_ZZ comment=ZZ
 add address=168.211.0.0/16 list=GEO_ZZ comment=ZZ
 add address=169.239.52.0/22 list=GEO_ZZ comment=ZZ
-add address=169.239.56.0/22 list=GEO_ZZ comment=ZZ
+add address=169.239.56.0/21 list=GEO_ZZ comment=ZZ
 add address=169.239.88.0/22 list=GEO_ZZ comment=ZZ
 add address=169.239.144.0/22 list=GEO_ZZ comment=ZZ
 add address=169.239.152.0/22 list=GEO_ZZ comment=ZZ
 add address=169.239.172.0/22 list=GEO_ZZ comment=ZZ
 add address=169.239.252.0/22 list=GEO_ZZ comment=ZZ
-add address=169.255.8.0/24 list=GEO_ZZ comment=ZZ
-add address=169.255.10.0/23 list=GEO_ZZ comment=ZZ
+add address=169.255.8.0/22 list=GEO_ZZ comment=ZZ
 add address=169.255.92.0/22 list=GEO_ZZ comment=ZZ
 add address=169.255.96.0/21 list=GEO_ZZ comment=ZZ
 add address=169.255.108.0/22 list=GEO_ZZ comment=ZZ
@@ -586,6 +588,7 @@ add address=197.231.136.0/21 list=GEO_ZZ comment=ZZ
 add address=197.231.208.0/22 list=GEO_ZZ comment=ZZ
 add address=197.231.248.0/22 list=GEO_ZZ comment=ZZ
 add address=197.234.208.0/21 list=GEO_ZZ comment=ZZ
+add address=197.234.244.0/22 list=GEO_ZZ comment=ZZ
 add address=197.255.248.0/22 list=GEO_ZZ comment=ZZ
 add address=212.12.224.0/19 list=GEO_ZZ comment=ZZ
 add address=212.122.224.0/19 list=GEO_ZZ comment=ZZ
