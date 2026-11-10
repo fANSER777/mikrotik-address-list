@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — DM
-# Generated: 2026-11-10 11:03 UTC
+# Generated: 2026-11-10 11:59 UTC
 # Source: RIR delegated (5 registries)
 # Countries: DM | Subnets: 13 (was 13, collapsed 0) | IPs: ~10,496
 # RIR data dates: afrinic=2026-11-10, apnic=2026-11-09, arin=2026-11-09, lacnic=2026-11-06, ripencc=2026-11-09
