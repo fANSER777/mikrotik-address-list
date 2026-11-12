@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SC
-# Generated: 2026-11-12 22:02 UTC
+# Generated: 2026-11-12 22:19 UTC
 # Source: RIR delegated (5 registries)
 # Countries: SC | Subnets: 806 (was 889, collapsed 83) | IPs: ~8,997,376
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
