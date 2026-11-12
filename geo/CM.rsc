@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CM
-# Generated: 2026-11-12 21:46 UTC
+# Generated: 2026-11-12 22:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CM | Subnets: 58 (was 60, collapsed 2) | IPs: ~600,064
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
