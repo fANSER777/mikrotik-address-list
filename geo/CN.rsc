@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CN
-# Generated: 2026-11-12 20:55 UTC
+# Generated: 2026-11-12 21:21 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CN | Subnets: 5520 (was 8818, collapsed 3298) | IPs: ~342,986,496
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
