@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — FR
-# Generated: 2026-11-12 15:50 UTC
+# Generated: 2026-11-12 16:37 UTC
 # Source: RIR delegated (5 registries)
 # Countries: FR | Subnets: 4178 (was 4769, collapsed 591) | IPs: ~81,587,024
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
