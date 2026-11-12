@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AE
-# Generated: 2026-11-12 18:34 UTC
+# Generated: 2026-11-12 19:23 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AE | Subnets: 1223 (was 1308, collapsed 85) | IPs: ~7,273,728
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
