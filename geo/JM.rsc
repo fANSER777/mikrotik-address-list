@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JM
-# Generated: 2026-11-12 08:42 UTC
+# Generated: 2026-11-12 09:22 UTC
 # Source: RIR delegated (5 registries)
 # Countries: JM | Subnets: 53 (was 54, collapsed 1) | IPs: ~225,280
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-11, arin=2026-11-11, lacnic=2026-11-11, ripencc=2026-11-11
