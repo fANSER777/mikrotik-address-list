@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MR
-# Generated: 2026-11-12 14:18 UTC
+# Generated: 2026-11-12 15:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: MR | Subnets: 19 (was 19, collapsed 0) | IPs: ~51,712
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-11, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-11
