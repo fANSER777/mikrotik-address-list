@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CY
-# Generated: 2026-11-11 18:05 UTC
+# Generated: 2026-11-12 00:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CY | Subnets: 540 (was 591, collapsed 51) | IPs: ~1,365,312
-# RIR data dates: afrinic=2026-11-11, apnic=2026-11-11, arin=2026-11-11, lacnic=2026-11-10, ripencc=2026-11-10
+# Countries: CY | Subnets: 514 (was 565, collapsed 51) | IPs: ~1,323,840
+# RIR data dates: afrinic=2026-11-11, apnic=2026-11-11, arin=2026-11-11, lacnic=2026-11-10, ripencc=2026-11-11
 #
 /ip firewall address-list
 remove [find where list=GEO_CY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -13,7 +13,6 @@ add address=2.56.140.0/22 list=GEO_CY comment=CY
 add address=2.56.172.0/22 list=GEO_CY comment=CY
 add address=2.56.176.0/22 list=GEO_CY comment=CY
 add address=2.56.212.0/22 list=GEO_CY comment=CY
-add address=2.57.88.0/22 list=GEO_CY comment=CY
 add address=5.42.205.0/24 list=GEO_CY comment=CY
 add address=5.180.20.0/22 list=GEO_CY comment=CY
 add address=5.180.24.0/21 list=GEO_CY comment=CY
@@ -30,11 +29,7 @@ add address=31.12.92.0/22 list=GEO_CY comment=CY
 add address=31.14.238.0/24 list=GEO_CY comment=CY
 add address=31.25.224.0/21 list=GEO_CY comment=CY
 add address=31.153.0.0/16 list=GEO_CY comment=CY
-add address=31.170.160.0/21 list=GEO_CY comment=CY
 add address=31.216.64.0/18 list=GEO_CY comment=CY
-add address=31.220.16.0/21 list=GEO_CY comment=CY
-add address=31.220.48.0/20 list=GEO_CY comment=CY
-add address=31.220.104.0/21 list=GEO_CY comment=CY
 add address=31.222.229.0/24 list=GEO_CY comment=CY
 add address=36.255.76.0/22 list=GEO_CY comment=CY
 add address=37.9.176.0/21 list=GEO_CY comment=CY
@@ -50,9 +45,7 @@ add address=45.12.108.0/22 list=GEO_CY comment=CY
 add address=45.12.112.0/22 list=GEO_CY comment=CY
 add address=45.12.128.0/20 list=GEO_CY comment=CY
 add address=45.12.144.0/21 list=GEO_CY comment=CY
-add address=45.13.132.0/22 list=GEO_CY comment=CY
 add address=45.13.220.0/22 list=GEO_CY comment=CY
-add address=45.13.252.0/22 list=GEO_CY comment=CY
 add address=45.15.124.0/22 list=GEO_CY comment=CY
 add address=45.15.128.0/22 list=GEO_CY comment=CY
 add address=45.15.140.0/22 list=GEO_CY comment=CY
@@ -77,7 +70,6 @@ add address=45.83.148.0/22 list=GEO_CY comment=CY
 add address=45.84.232.0/22 list=GEO_CY comment=CY
 add address=45.86.60.0/22 list=GEO_CY comment=CY
 add address=45.86.64.0/20 list=GEO_CY comment=CY
-add address=45.87.80.0/22 list=GEO_CY comment=CY
 add address=45.88.148.0/22 list=GEO_CY comment=CY
 add address=45.88.160.0/22 list=GEO_CY comment=CY
 add address=45.88.168.0/22 list=GEO_CY comment=CY
@@ -89,7 +81,6 @@ add address=45.92.124.0/22 list=GEO_CY comment=CY
 add address=45.92.140.0/22 list=GEO_CY comment=CY
 add address=45.92.160.0/21 list=GEO_CY comment=CY
 add address=45.92.192.0/22 list=GEO_CY comment=CY
-add address=45.93.136.0/22 list=GEO_CY comment=CY
 add address=45.94.184.0/22 list=GEO_CY comment=CY
 add address=45.128.48.0/20 list=GEO_CY comment=CY
 add address=45.128.72.0/22 list=GEO_CY comment=CY
@@ -221,7 +212,6 @@ add address=93.109.0.0/16 list=GEO_CY comment=CY
 add address=93.114.128.0/24 list=GEO_CY comment=CY
 add address=93.114.133.0/24 list=GEO_CY comment=CY
 add address=93.115.16.0/21 list=GEO_CY comment=CY
-add address=93.188.160.0/21 list=GEO_CY comment=CY
 add address=94.46.196.0/22 list=GEO_CY comment=CY
 add address=94.46.200.0/22 list=GEO_CY comment=CY
 add address=94.46.208.0/21 list=GEO_CY comment=CY
@@ -263,20 +253,9 @@ add address=139.138.192.0/19 list=GEO_CY comment=CY
 add address=141.98.132.0/22 list=GEO_CY comment=CY
 add address=141.98.160.0/21 list=GEO_CY comment=CY
 add address=141.98.188.0/22 list=GEO_CY comment=CY
-add address=141.136.33.0/24 list=GEO_CY comment=CY
-add address=141.136.34.0/23 list=GEO_CY comment=CY
-add address=141.136.36.0/24 list=GEO_CY comment=CY
-add address=141.136.39.0/24 list=GEO_CY comment=CY
-add address=141.136.41.0/24 list=GEO_CY comment=CY
-add address=141.136.42.0/23 list=GEO_CY comment=CY
-add address=141.136.44.0/22 list=GEO_CY comment=CY
 add address=146.19.202.0/24 list=GEO_CY comment=CY
 add address=149.245.209.0/24 list=GEO_CY comment=CY
 add address=149.245.213.0/24 list=GEO_CY comment=CY
-add address=153.92.0.0/20 list=GEO_CY comment=CY
-add address=153.92.208.0/20 list=GEO_CY comment=CY
-add address=156.67.64.0/20 list=GEO_CY comment=CY
-add address=156.67.208.0/20 list=GEO_CY comment=CY
 add address=157.173.36.0/23 list=GEO_CY comment=CY
 add address=159.200.210.0/24 list=GEO_CY comment=CY
 add address=159.200.220.0/24 list=GEO_CY comment=CY
@@ -315,7 +294,6 @@ add address=185.7.156.0/22 list=GEO_CY comment=CY
 add address=185.8.180.0/22 list=GEO_CY comment=CY
 add address=185.20.212.0/22 list=GEO_CY comment=CY
 add address=185.23.111.0/24 list=GEO_CY comment=CY
-add address=185.28.20.0/22 list=GEO_CY comment=CY
 add address=185.42.32.0/22 list=GEO_CY comment=CY
 add address=185.50.68.0/22 list=GEO_CY comment=CY
 add address=185.52.88.0/22 list=GEO_CY comment=CY
@@ -434,8 +412,6 @@ add address=194.1.136.0/21 list=GEO_CY comment=CY
 add address=194.5.30.0/23 list=GEO_CY comment=CY
 add address=194.5.36.0/22 list=GEO_CY comment=CY
 add address=194.9.62.0/24 list=GEO_CY comment=CY
-add address=194.11.154.0/23 list=GEO_CY comment=CY
-add address=194.11.214.0/23 list=GEO_CY comment=CY
 add address=194.26.213.0/24 list=GEO_CY comment=CY
 add address=194.26.223.0/24 list=GEO_CY comment=CY
 add address=194.30.128.0/19 list=GEO_CY comment=CY
@@ -494,7 +470,6 @@ add address=195.60.95.0/25 list=GEO_CY comment=CY
 add address=195.85.59.0/24 list=GEO_CY comment=CY
 add address=195.88.176.0/23 list=GEO_CY comment=CY
 add address=195.95.138.0/24 list=GEO_CY comment=CY
-add address=195.110.58.0/23 list=GEO_CY comment=CY
 add address=195.137.173.0/24 list=GEO_CY comment=CY
 add address=195.179.96.0/20 list=GEO_CY comment=CY
 add address=195.200.238.0/23 list=GEO_CY comment=CY
@@ -517,7 +492,6 @@ add address=203.28.70.0/23 list=GEO_CY comment=CY
 add address=203.29.53.0/24 list=GEO_CY comment=CY
 add address=203.29.60.0/24 list=GEO_CY comment=CY
 add address=203.30.33.0/24 list=GEO_CY comment=CY
-add address=212.1.208.0/21 list=GEO_CY comment=CY
 add address=212.23.210.0/24 list=GEO_CY comment=CY
 add address=212.31.96.0/19 list=GEO_CY comment=CY
 add address=212.32.16.0/21 list=GEO_CY comment=CY

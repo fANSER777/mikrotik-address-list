@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SC
-# Generated: 2026-11-11 18:05 UTC
+# Generated: 2026-11-12 00:06 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SC | Subnets: 807 (was 890, collapsed 83) | IPs: ~8,998,400
-# RIR data dates: afrinic=2026-11-11, apnic=2026-11-11, arin=2026-11-11, lacnic=2026-11-10, ripencc=2026-11-10
+# Countries: SC | Subnets: 806 (was 889, collapsed 83) | IPs: ~8,997,376
+# RIR data dates: afrinic=2026-11-11, apnic=2026-11-11, arin=2026-11-11, lacnic=2026-11-10, ripencc=2026-11-11
 #
 /ip firewall address-list
 remove [find where list=GEO_SC and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -802,7 +802,6 @@ add address=213.109.206.0/24 list=GEO_SC comment=SC
 add address=213.139.216.0/22 list=GEO_SC comment=SC
 add address=213.166.64.0/22 list=GEO_SC comment=SC
 add address=213.166.88.0/22 list=GEO_SC comment=SC
-add address=213.170.192.0/22 list=GEO_SC comment=SC
 add address=213.217.11.0/24 list=GEO_SC comment=SC
 add address=213.232.68.0/22 list=GEO_SC comment=SC
 add address=216.162.192.0/24 list=GEO_SC comment=SC
