@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CY
-# Generated: 2026-11-12 23:37 UTC
+# Generated: 2026-11-13 00:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: CY | Subnets: 514 (was 565, collapsed 51) | IPs: ~1,323,840
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-12

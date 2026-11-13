@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LY
-# Generated: 2026-11-12 23:37 UTC
+# Generated: 2026-11-13 00:01 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LY | Subnets: 74 (was 74, collapsed 0) | IPs: ~463,104
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-12
