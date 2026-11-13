@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CA
-# Generated: 2026-11-13 06:48 UTC
+# Generated: 2026-11-13 14:25 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CA | Subnets: 6426 (was 9339, collapsed 2913) | IPs: ~67,452,160
-# RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-12, ripencc=2026-11-12
+# Countries: CA | Subnets: 6429 (was 9342, collapsed 2913) | IPs: ~67,451,392
+# RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-13, lacnic=2026-11-12, ripencc=2026-11-12
 #
 /ip firewall address-list
 remove [find where list=GEO_CA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -246,6 +246,7 @@ add address=23.167.148.0/24 list=GEO_CA comment=CA
 add address=23.167.168.0/24 list=GEO_CA comment=CA
 add address=23.167.172.0/24 list=GEO_CA comment=CA
 add address=23.167.224.0/24 list=GEO_CA comment=CA
+add address=23.167.252.0/24 list=GEO_CA comment=CA
 add address=23.168.8.0/24 list=GEO_CA comment=CA
 add address=23.168.16.0/24 list=GEO_CA comment=CA
 add address=23.168.40.0/24 list=GEO_CA comment=CA
@@ -1433,6 +1434,7 @@ add address=103.140.3.0/24 list=GEO_CA comment=CA
 add address=103.140.120.0/23 list=GEO_CA comment=CA
 add address=103.144.176.0/23 list=GEO_CA comment=CA
 add address=103.151.126.0/23 list=GEO_CA comment=CA
+add address=103.200.72.0/23 list=GEO_CA comment=CA
 add address=103.217.104.0/23 list=GEO_CA comment=CA
 add address=103.246.200.0/22 list=GEO_CA comment=CA
 add address=103.247.28.0/23 list=GEO_CA comment=CA
@@ -1741,7 +1743,7 @@ add address=131.143.189.0/24 list=GEO_CA comment=CA
 add address=131.162.8.0/21 list=GEO_CA comment=CA
 add address=131.162.16.0/20 list=GEO_CA comment=CA
 add address=131.162.32.0/19 list=GEO_CA comment=CA
-add address=131.162.64.0/20 list=GEO_CA comment=CA
+add address=131.162.64.0/21 list=GEO_CA comment=CA
 add address=131.162.80.0/21 list=GEO_CA comment=CA
 add address=131.162.112.0/20 list=GEO_CA comment=CA
 add address=131.162.128.0/20 list=GEO_CA comment=CA
@@ -2112,6 +2114,7 @@ add address=143.223.172.0/24 list=GEO_CA comment=CA
 add address=144.34.128.0/17 list=GEO_CA comment=CA
 add address=144.86.144.0/22 list=GEO_CA comment=CA
 add address=144.86.175.0/24 list=GEO_CA comment=CA
+add address=144.86.178.0/23 list=GEO_CA comment=CA
 add address=144.86.196.0/22 list=GEO_CA comment=CA
 add address=144.168.52.0/22 list=GEO_CA comment=CA
 add address=144.168.56.0/21 list=GEO_CA comment=CA
