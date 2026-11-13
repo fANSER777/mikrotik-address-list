@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UY
-# Generated: 2026-11-13 02:05 UTC
+# Generated: 2026-11-13 06:48 UTC
 # Source: RIR delegated (5 registries)
-# Countries: UY | Subnets: 58 (was 92, collapsed 34) | IPs: ~2,516,736
-# RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-12
+# Countries: UY | Subnets: 59 (was 93, collapsed 34) | IPs: ~2,516,992
+# RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-12, ripencc=2026-11-12
 #
 /ip firewall address-list
 remove [find where list=GEO_UY and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -12,6 +12,7 @@ add address=45.228.64.0/23 list=GEO_UY comment=UY
 add address=69.164.80.0/24 list=GEO_UY comment=UY
 add address=69.164.91.0/24 list=GEO_UY comment=UY
 add address=69.164.98.0/24 list=GEO_UY comment=UY
+add address=92.43.88.0/24 list=GEO_UY comment=UY
 add address=131.0.212.0/22 list=GEO_UY comment=UY
 add address=138.59.12.0/22 list=GEO_UY comment=UY
 add address=138.99.44.0/22 list=GEO_UY comment=UY
