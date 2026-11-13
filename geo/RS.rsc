@@ -1,6 +1,6 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RS
-# Generated: 2026-11-13 00:40 UTC
+# Generated: 2026-11-13 00:56 UTC
 # Source: RIR delegated (5 registries)
 # Countries: RS | Subnets: 388 (was 439, collapsed 51) | IPs: ~2,315,776
 # RIR data dates: afrinic=2026-11-12, apnic=2026-11-12, arin=2026-11-12, lacnic=2026-11-11, ripencc=2026-11-12
