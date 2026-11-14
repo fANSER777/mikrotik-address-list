@@ -1,7 +1,7 @@
 # Source data: fresh
-# Source observed at: 2026-11-14T06:09:51.823709+00:00
+# Source observed at: 2026-11-14T06:30:57.597446+00:00
 # Telegram IPv4 address list
-# Generated: 2026-11-14 09:13
+# Generated: 2026-11-14 09:32
 # Source: https://core.telegram.org/resources/cidr.txt
 # Subnets: 9 | IPs: ~11,008
 #
