@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AZ
-# Generated: 2026-11-15 15:31 UTC
+# Generated: 2026-11-15 23:51 UTC
 # Source: RIR delegated (5 registries)
 # Countries: AZ | Subnets: 187 (was 227, collapsed 40) | IPs: ~773,376
-# RIR data dates: afrinic=2026-11-15, apnic=2026-11-15, arin=2026-11-15, lacnic=2026-11-13, ripencc=2026-11-14
+# RIR data dates: afrinic=2026-11-15, apnic=2026-11-15, arin=2026-11-15, lacnic=2026-11-13, ripencc=2026-11-15
 #
 /ip firewall address-list
 remove [find where list=GEO_AZ and (comment~"^PANEL-TEMP-GEO:")=false]
