@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SN
-# Generated: 2026-11-15 05:12 UTC
+# Generated: 2026-11-15 06:28 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SN | Subnets: 35 (was 41, collapsed 6) | IPs: ~407,296
-# RIR data dates: afrinic=2026-11-12, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
+# Countries: SN | Subnets: 34 (was 40, collapsed 6) | IPs: ~406,272
+# RIR data dates: afrinic=2026-11-15, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
 #
 /ip firewall address-list
 remove [find where list=GEO_SN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -22,7 +22,6 @@ add address=102.204.28.0/22 list=GEO_SN comment=SN
 add address=102.207.140.0/24 list=GEO_SN comment=SN
 add address=102.208.110.0/23 list=GEO_SN comment=SN
 add address=102.209.164.0/22 list=GEO_SN comment=SN
-add address=102.209.208.0/22 list=GEO_SN comment=SN
 add address=102.214.191.0/24 list=GEO_SN comment=SN
 add address=154.65.32.0/21 list=GEO_SN comment=SN
 add address=154.73.172.0/22 list=GEO_SN comment=SN

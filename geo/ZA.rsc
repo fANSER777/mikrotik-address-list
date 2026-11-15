@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — ZA
-# Generated: 2026-11-15 05:12 UTC
+# Generated: 2026-11-15 06:28 UTC
 # Source: RIR delegated (5 registries)
-# Countries: ZA | Subnets: 1602 (was 2231, collapsed 629) | IPs: ~27,188,480
-# RIR data dates: afrinic=2026-11-12, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
+# Countries: ZA | Subnets: 1597 (was 2225, collapsed 628) | IPs: ~27,183,616
+# RIR data dates: afrinic=2026-11-15, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
 #
 /ip firewall address-list
 remove [find where list=GEO_ZA and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -323,6 +323,7 @@ add address=102.177.112.0/20 list=GEO_ZA comment=ZA
 add address=102.177.128.0/18 list=GEO_ZA comment=ZA
 add address=102.182.0.0/16 list=GEO_ZA comment=ZA
 add address=102.200.20.0/22 list=GEO_ZA comment=ZA
+add address=102.200.148.0/22 list=GEO_ZA comment=ZA
 add address=102.200.164.0/22 list=GEO_ZA comment=ZA
 add address=102.200.188.0/22 list=GEO_ZA comment=ZA
 add address=102.200.196.0/22 list=GEO_ZA comment=ZA
@@ -490,10 +491,8 @@ add address=102.210.196.0/22 list=GEO_ZA comment=ZA
 add address=102.210.204.0/22 list=GEO_ZA comment=ZA
 add address=102.210.210.0/23 list=GEO_ZA comment=ZA
 add address=102.210.224.0/22 list=GEO_ZA comment=ZA
-add address=102.210.232.0/22 list=GEO_ZA comment=ZA
 add address=102.210.243.0/24 list=GEO_ZA comment=ZA
 add address=102.210.248.0/22 list=GEO_ZA comment=ZA
-add address=102.211.16.0/22 list=GEO_ZA comment=ZA
 add address=102.211.28.0/22 list=GEO_ZA comment=ZA
 add address=102.211.36.0/22 list=GEO_ZA comment=ZA
 add address=102.211.44.0/22 list=GEO_ZA comment=ZA
@@ -532,7 +531,7 @@ add address=102.212.141.0/24 list=GEO_ZA comment=ZA
 add address=102.212.144.0/20 list=GEO_ZA comment=ZA
 add address=102.212.162.0/24 list=GEO_ZA comment=ZA
 add address=102.212.164.0/22 list=GEO_ZA comment=ZA
-add address=102.212.172.0/23 list=GEO_ZA comment=ZA
+add address=102.212.173.0/24 list=GEO_ZA comment=ZA
 add address=102.212.184.0/22 list=GEO_ZA comment=ZA
 add address=102.212.192.0/21 list=GEO_ZA comment=ZA
 add address=102.212.224.0/22 list=GEO_ZA comment=ZA
@@ -624,7 +623,6 @@ add address=102.217.108.0/22 list=GEO_ZA comment=ZA
 add address=102.217.136.0/22 list=GEO_ZA comment=ZA
 add address=102.217.152.0/22 list=GEO_ZA comment=ZA
 add address=102.217.160.0/21 list=GEO_ZA comment=ZA
-add address=102.217.174.0/23 list=GEO_ZA comment=ZA
 add address=102.217.176.0/22 list=GEO_ZA comment=ZA
 add address=102.217.184.0/21 list=GEO_ZA comment=ZA
 add address=102.217.196.0/22 list=GEO_ZA comment=ZA
@@ -694,7 +692,6 @@ add address=102.220.80.0/21 list=GEO_ZA comment=ZA
 add address=102.220.100.0/24 list=GEO_ZA comment=ZA
 add address=102.220.102.0/23 list=GEO_ZA comment=ZA
 add address=102.220.104.0/22 list=GEO_ZA comment=ZA
-add address=102.220.112.0/22 list=GEO_ZA comment=ZA
 add address=102.220.120.0/22 list=GEO_ZA comment=ZA
 add address=102.220.126.0/23 list=GEO_ZA comment=ZA
 add address=102.220.132.0/22 list=GEO_ZA comment=ZA
@@ -702,7 +699,6 @@ add address=102.220.144.0/21 list=GEO_ZA comment=ZA
 add address=102.220.176.0/22 list=GEO_ZA comment=ZA
 add address=102.220.208.0/22 list=GEO_ZA comment=ZA
 add address=102.220.216.0/22 list=GEO_ZA comment=ZA
-add address=102.220.224.0/22 list=GEO_ZA comment=ZA
 add address=102.220.232.0/22 list=GEO_ZA comment=ZA
 add address=102.220.248.0/24 list=GEO_ZA comment=ZA
 add address=102.220.252.0/22 list=GEO_ZA comment=ZA
@@ -1193,7 +1189,6 @@ add address=196.6.221.0/24 list=GEO_ZA comment=ZA
 add address=196.6.222.0/23 list=GEO_ZA comment=ZA
 add address=196.6.224.0/23 list=GEO_ZA comment=ZA
 add address=196.6.231.0/24 list=GEO_ZA comment=ZA
-add address=196.6.232.0/22 list=GEO_ZA comment=ZA
 add address=196.6.237.0/24 list=GEO_ZA comment=ZA
 add address=196.6.238.0/23 list=GEO_ZA comment=ZA
 add address=196.6.240.0/21 list=GEO_ZA comment=ZA

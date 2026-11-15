@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NG
-# Generated: 2026-11-15 05:12 UTC
+# Generated: 2026-11-15 06:28 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NG | Subnets: 404 (was 419, collapsed 15) | IPs: ~3,217,664
-# RIR data dates: afrinic=2026-11-12, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
+# Countries: NG | Subnets: 400 (was 415, collapsed 15) | IPs: ~3,214,848
+# RIR data dates: afrinic=2026-11-15, apnic=2026-11-13, arin=2026-11-14, lacnic=2026-11-13, ripencc=2026-11-14
 #
 /ip firewall address-list
 remove [find where list=GEO_NG and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -34,8 +34,6 @@ add address=41.78.224.0/22 list=GEO_NG comment=NG
 add address=41.78.252.0/22 list=GEO_NG comment=NG
 add address=41.79.4.0/22 list=GEO_NG comment=NG
 add address=41.79.64.0/22 list=GEO_NG comment=NG
-add address=41.79.116.0/22 list=GEO_NG comment=NG
-add address=41.79.152.0/22 list=GEO_NG comment=NG
 add address=41.79.204.0/22 list=GEO_NG comment=NG
 add address=41.86.128.0/19 list=GEO_NG comment=NG
 add address=41.87.64.0/19 list=GEO_NG comment=NG
@@ -277,7 +275,6 @@ add address=102.223.1.0/24 list=GEO_NG comment=NG
 add address=102.223.36.0/22 list=GEO_NG comment=NG
 add address=102.223.52.0/22 list=GEO_NG comment=NG
 add address=102.223.101.0/24 list=GEO_NG comment=NG
-add address=102.223.180.0/23 list=GEO_NG comment=NG
 add address=102.223.255.0/24 list=GEO_NG comment=NG
 add address=105.112.0.0/12 list=GEO_NG comment=NG
 add address=105.235.192.0/20 list=GEO_NG comment=NG
@@ -349,7 +346,6 @@ add address=196.40.160.0/20 list=GEO_NG comment=NG
 add address=196.40.192.0/18 list=GEO_NG comment=NG
 add address=196.41.80.0/24 list=GEO_NG comment=NG
 add address=196.41.84.0/24 list=GEO_NG comment=NG
-add address=196.41.94.0/24 list=GEO_NG comment=NG
 add address=196.43.215.0/24 list=GEO_NG comment=NG
 add address=196.43.232.0/24 list=GEO_NG comment=NG
 add address=196.43.235.0/24 list=GEO_NG comment=NG
