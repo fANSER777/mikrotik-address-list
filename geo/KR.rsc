@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KR
-# Generated: 2026-11-15 23:51 UTC
+# Generated: 2026-11-16 05:52 UTC
 # Source: RIR delegated (5 registries)
 # Countries: KR | Subnets: 999 (was 2431, collapsed 1432) | IPs: ~112,498,496
-# RIR data dates: afrinic=2026-11-15, apnic=2026-11-15, arin=2026-11-15, lacnic=2026-11-13, ripencc=2026-11-15
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-15, arin=2026-11-15, lacnic=2026-11-13, ripencc=2026-11-15
 #
 /ip firewall address-list
 remove [find where list=GEO_KR and (comment~"^PANEL-TEMP-GEO:")=false]
