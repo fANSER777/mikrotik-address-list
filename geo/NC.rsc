@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NC
-# Generated: 2026-11-16 05:52 UTC
+# Generated: 2026-11-16 18:08 UTC
 # Source: RIR delegated (5 registries)
 # Countries: NC | Subnets: 42 (was 46, collapsed 4) | IPs: ~161,536
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-15, arin=2026-11-15, lacnic=2026-11-13, ripencc=2026-11-15
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-16, arin=2026-11-16, lacnic=2026-11-13, ripencc=2026-11-15
 #
 /ip firewall address-list
 remove [find where list=GEO_NC and (comment~"^PANEL-TEMP-GEO:")=false]
