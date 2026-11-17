@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SM
-# Generated: 2026-11-17 05:10 UTC
+# Generated: 2026-11-17 23:15 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SM | Subnets: 25 (was 25, collapsed 0) | IPs: ~40,960
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-16, arin=2026-11-16, lacnic=2026-11-16, ripencc=2026-11-16
+# Countries: SM | Subnets: 26 (was 26, collapsed 0) | IPs: ~43,008
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-17, arin=2026-11-17, lacnic=2026-11-16, ripencc=2026-11-17
 #
 /ip firewall address-list
 remove [find where list=GEO_SM and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -32,3 +32,4 @@ add address=185.168.168.0/22 list=GEO_SM comment=SM
 add address=192.145.48.0/22 list=GEO_SM comment=SM
 add address=194.0.27.0/24 list=GEO_SM comment=SM
 add address=194.183.64.0/19 list=GEO_SM comment=SM
+add address=217.172.200.0/21 list=GEO_SM comment=SM
