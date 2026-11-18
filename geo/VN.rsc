@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — VN
-# Generated: 2026-11-18 04:36 UTC
+# Generated: 2026-11-18 22:42 UTC
 # Source: RIR delegated (5 registries)
-# Countries: VN | Subnets: 1270 (was 1666, collapsed 396) | IPs: ~16,502,784
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-17, arin=2026-11-17, lacnic=2026-11-17, ripencc=2026-11-17
+# Countries: VN | Subnets: 1271 (was 1667, collapsed 396) | IPs: ~16,503,296
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-17, ripencc=2026-11-17
 #
 /ip firewall address-list
 remove [find where list=GEO_VN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -891,6 +891,7 @@ add address=138.252.152.0/23 list=GEO_VN comment=VN
 add address=138.252.206.0/23 list=GEO_VN comment=VN
 add address=138.252.218.0/23 list=GEO_VN comment=VN
 add address=138.252.244.0/23 list=GEO_VN comment=VN
+add address=141.229.46.0/23 list=GEO_VN comment=VN
 add address=144.48.20.0/22 list=GEO_VN comment=VN
 add address=144.48.24.0/22 list=GEO_VN comment=VN
 add address=144.79.12.0/22 list=GEO_VN comment=VN

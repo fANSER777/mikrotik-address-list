@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PH
-# Generated: 2026-11-18 04:36 UTC
+# Generated: 2026-11-18 22:42 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PH | Subnets: 843 (was 922, collapsed 79) | IPs: ~6,268,480
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-17, arin=2026-11-17, lacnic=2026-11-17, ripencc=2026-11-17
+# Countries: PH | Subnets: 845 (was 924, collapsed 79) | IPs: ~6,268,992
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-17, ripencc=2026-11-17
 #
 /ip firewall address-list
 remove [find where list=GEO_PH and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -23,6 +23,8 @@ add address=23.167.92.0/24 list=GEO_PH comment=PH
 add address=23.167.100.0/24 list=GEO_PH comment=PH
 add address=23.167.108.0/24 list=GEO_PH comment=PH
 add address=23.167.124.0/24 list=GEO_PH comment=PH
+add address=23.167.228.0/24 list=GEO_PH comment=PH
+add address=23.167.236.0/24 list=GEO_PH comment=PH
 add address=23.187.40.0/24 list=GEO_PH comment=PH
 add address=27.49.0.0/16 list=GEO_PH comment=PH
 add address=27.50.0.0/22 list=GEO_PH comment=PH
