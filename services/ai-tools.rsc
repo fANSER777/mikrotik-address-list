@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-11-13 17:26
+# Generated: 2026-11-19 16:17
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 238 (OpenAI: 237, Claude: 1) | OpenAI DNS /32: 82 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 951 DNS /32 + 15 FQDN
+# Subnets: 238 (OpenAI: 237, Claude: 1) | OpenAI DNS /32: 84 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 951 DNS /32 + 15 FQDN
 # Upstream FQDN wildcard policy: *.x.ai, *.grok.com, grok.x.com, *.cursor.sh, *.gcpp.cursor.sh, *.cursorvm.com, *.*.cursorvm.com, *.cursor-cdn.com, *.cursorapi.com, downloads.cursor.com, cursor.com
 # Disable TLS inspection for these hosts; it can break HTTP/2 streaming
 #
@@ -250,7 +250,7 @@ add address=8.6.112.5/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.8/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.9/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
-add address=8.47.69.0/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openaimerge.com
+add address=8.47.69.0/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.5/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.8/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
@@ -296,6 +296,7 @@ add address=150.171.109.196/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.197/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.198/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.199/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.109.201/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.209/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.210/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.109.213/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
@@ -307,6 +308,7 @@ add address=150.171.110.3/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.51/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.53/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.115/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
+add address=150.171.110.118/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.161/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.195/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
 add address=150.171.110.210/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.openai.com
