@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — TR
-# Generated: 2026-11-18 22:42 UTC
+# Generated: 2026-11-19 04:43 UTC
 # Source: RIR delegated (5 registries)
-# Countries: TR | Subnets: 1631 (was 2053, collapsed 422) | IPs: ~16,827,584
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-17, ripencc=2026-11-17
+# Countries: TR | Subnets: 1632 (was 2054, collapsed 422) | IPs: ~16,829,696
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-18, ripencc=2026-11-18
 #
 /ip firewall address-list
 remove [find where list=GEO_TR and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -276,6 +276,7 @@ add address=80.253.240.0/21 list=GEO_TR comment=TR
 add address=80.253.252.0/22 list=GEO_TR comment=TR
 add address=81.6.64.0/18 list=GEO_TR comment=TR
 add address=81.8.0.0/17 list=GEO_TR comment=TR
+add address=81.17.192.0/21 list=GEO_TR comment=TR
 add address=81.21.160.0/20 list=GEO_TR comment=TR
 add address=81.22.96.0/20 list=GEO_TR comment=TR
 add address=81.27.78.0/23 list=GEO_TR comment=TR
@@ -537,7 +538,6 @@ add address=93.180.132.0/22 list=GEO_TR comment=TR
 add address=93.182.64.0/18 list=GEO_TR comment=TR
 add address=93.184.144.0/20 list=GEO_TR comment=TR
 add address=93.186.112.0/20 list=GEO_TR comment=TR
-add address=93.187.70.0/24 list=GEO_TR comment=TR
 add address=93.187.200.0/21 list=GEO_TR comment=TR
 add address=93.190.8.0/21 list=GEO_TR comment=TR
 add address=93.190.216.0/21 list=GEO_TR comment=TR
@@ -671,7 +671,7 @@ add address=153.56.211.0/24 list=GEO_TR comment=TR
 add address=153.56.212.0/22 list=GEO_TR comment=TR
 add address=153.56.224.0/22 list=GEO_TR comment=TR
 add address=153.56.244.0/24 list=GEO_TR comment=TR
-add address=153.56.246.0/24 list=GEO_TR comment=TR
+add address=153.56.246.0/23 list=GEO_TR comment=TR
 add address=153.56.251.0/24 list=GEO_TR comment=TR
 add address=153.56.252.0/23 list=GEO_TR comment=TR
 add address=153.56.254.0/24 list=GEO_TR comment=TR
@@ -1456,6 +1456,7 @@ add address=194.213.25.0/24 list=GEO_TR comment=TR
 add address=194.242.32.0/24 list=GEO_TR comment=TR
 add address=194.247.59.0/24 list=GEO_TR comment=TR
 add address=195.8.109.0/24 list=GEO_TR comment=TR
+add address=195.13.37.0/26 list=GEO_TR comment=TR
 add address=195.14.104.0/24 list=GEO_TR comment=TR
 add address=195.18.8.0/24 list=GEO_TR comment=TR
 add address=195.24.232.0/24 list=GEO_TR comment=TR

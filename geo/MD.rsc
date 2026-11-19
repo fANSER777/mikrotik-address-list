@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — MD
-# Generated: 2026-11-18 22:42 UTC
+# Generated: 2026-11-19 04:43 UTC
 # Source: RIR delegated (5 registries)
-# Countries: MD | Subnets: 413 (was 425, collapsed 12) | IPs: ~1,258,496
-# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-17, ripencc=2026-11-17
+# Countries: MD | Subnets: 414 (was 426, collapsed 12) | IPs: ~1,260,544
+# RIR data dates: afrinic=2026-11-16, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-18, ripencc=2026-11-18
 #
 /ip firewall address-list
 remove [find where list=GEO_MD and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -198,6 +198,7 @@ add address=93.119.196.0/22 list=GEO_MD comment=MD
 add address=93.119.200.0/21 list=GEO_MD comment=MD
 add address=93.119.228.0/22 list=GEO_MD comment=MD
 add address=93.119.232.0/21 list=GEO_MD comment=MD
+add address=93.180.248.0/21 list=GEO_MD comment=MD
 add address=94.131.2.0/23 list=GEO_MD comment=MD
 add address=94.131.8.0/21 list=GEO_MD comment=MD
 add address=94.131.20.0/24 list=GEO_MD comment=MD
