@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — PK
-# Generated: 2026-11-19 07:47 UTC
+# Generated: 2026-11-19 20:54 UTC
 # Source: RIR delegated (5 registries)
-# Countries: PK | Subnets: 774 (was 829, collapsed 55) | IPs: ~5,618,432
-# RIR data dates: afrinic=2026-11-19, apnic=2026-11-18, arin=2026-11-18, lacnic=2026-11-18, ripencc=2026-11-18
+# Countries: PK | Subnets: 778 (was 833, collapsed 55) | IPs: ~5,619,200
+# RIR data dates: afrinic=2026-11-19, apnic=2026-11-19, arin=2026-11-19, lacnic=2026-11-18, ripencc=2026-11-18
 #
 /ip firewall address-list
 remove [find where list=GEO_PK and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -293,6 +293,7 @@ add address=103.151.46.0/23 list=GEO_PK comment=PK
 add address=103.151.236.0/23 list=GEO_PK comment=PK
 add address=103.152.42.0/23 list=GEO_PK comment=PK
 add address=103.152.100.0/23 list=GEO_PK comment=PK
+add address=103.152.116.0/23 list=GEO_PK comment=PK
 add address=103.152.254.0/23 list=GEO_PK comment=PK
 add address=103.153.14.0/23 list=GEO_PK comment=PK
 add address=103.153.38.0/23 list=GEO_PK comment=PK
@@ -495,7 +496,9 @@ add address=115.167.64.0/20 list=GEO_PK comment=PK
 add address=115.167.96.0/19 list=GEO_PK comment=PK
 add address=115.186.0.0/23 list=GEO_PK comment=PK
 add address=115.186.4.0/22 list=GEO_PK comment=PK
-add address=115.186.8.0/21 list=GEO_PK comment=PK
+add address=115.186.8.0/24 list=GEO_PK comment=PK
+add address=115.186.10.0/23 list=GEO_PK comment=PK
+add address=115.186.12.0/22 list=GEO_PK comment=PK
 add address=115.186.16.0/20 list=GEO_PK comment=PK
 add address=115.186.32.0/19 list=GEO_PK comment=PK
 add address=115.186.64.0/20 list=GEO_PK comment=PK
@@ -555,6 +558,7 @@ add address=139.190.0.0/18 list=GEO_PK comment=PK
 add address=139.190.72.0/21 list=GEO_PK comment=PK
 add address=139.190.80.0/20 list=GEO_PK comment=PK
 add address=139.190.192.0/18 list=GEO_PK comment=PK
+add address=141.229.50.0/23 list=GEO_PK comment=PK
 add address=144.48.0.0/22 list=GEO_PK comment=PK
 add address=144.48.120.0/22 list=GEO_PK comment=PK
 add address=144.48.128.0/21 list=GEO_PK comment=PK
