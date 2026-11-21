@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — RU
-# Generated: 2026-11-20 21:10 UTC
+# Generated: 2026-11-21 03:11 UTC
 # Source: RIR delegated (5 registries)
-# Countries: RU | Subnets: 8683 (was 11505, collapsed 2822) | IPs: ~45,262,656
-# RIR data dates: afrinic=2026-11-20, apnic=2026-11-20, arin=2026-11-20, lacnic=2026-11-19, ripencc=2026-11-19
+# Countries: RU | Subnets: 8690 (was 11510, collapsed 2820) | IPs: ~45,279,040
+# RIR data dates: afrinic=2026-11-20, apnic=2026-11-20, arin=2026-11-20, lacnic=2026-11-20, ripencc=2026-11-20
 #
 /ip firewall address-list
 remove [find where list=GEO_RU and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2752,6 +2752,7 @@ add address=91.212.68.0/24 list=GEO_RU comment=RU
 add address=91.212.81.0/24 list=GEO_RU comment=RU
 add address=91.212.97.0/24 list=GEO_RU comment=RU
 add address=91.212.118.0/24 list=GEO_RU comment=RU
+add address=91.212.133.0/24 list=GEO_RU comment=RU
 add address=91.212.137.0/24 list=GEO_RU comment=RU
 add address=91.212.146.0/24 list=GEO_RU comment=RU
 add address=91.212.150.0/23 list=GEO_RU comment=RU
@@ -4443,7 +4444,10 @@ add address=136.234.112.0/21 list=GEO_RU comment=RU
 add address=136.234.120.0/22 list=GEO_RU comment=RU
 add address=136.234.124.0/23 list=GEO_RU comment=RU
 add address=136.234.126.0/24 list=GEO_RU comment=RU
-add address=137.22.144.0/20 list=GEO_RU comment=RU
+add address=137.22.144.0/21 list=GEO_RU comment=RU
+add address=137.22.153.0/24 list=GEO_RU comment=RU
+add address=137.22.154.0/23 list=GEO_RU comment=RU
+add address=137.22.156.0/22 list=GEO_RU comment=RU
 add address=138.16.128.0/21 list=GEO_RU comment=RU
 add address=138.16.136.0/23 list=GEO_RU comment=RU
 add address=138.16.140.0/22 list=GEO_RU comment=RU
@@ -4457,6 +4461,7 @@ add address=139.28.180.0/22 list=GEO_RU comment=RU
 add address=139.45.224.0/19 list=GEO_RU comment=RU
 add address=139.100.160.0/20 list=GEO_RU comment=RU
 add address=139.100.192.0/18 list=GEO_RU comment=RU
+add address=140.225.112.0/20 list=GEO_RU comment=RU
 add address=141.0.176.0/21 list=GEO_RU comment=RU
 add address=141.8.128.0/18 list=GEO_RU comment=RU
 add address=141.8.192.0/21 list=GEO_RU comment=RU
@@ -4527,6 +4532,7 @@ add address=147.45.0.0/16 list=GEO_RU comment=RU
 add address=147.78.8.0/22 list=GEO_RU comment=RU
 add address=147.78.180.0/22 list=GEO_RU comment=RU
 add address=147.78.188.0/22 list=GEO_RU comment=RU
+add address=147.138.224.0/19 list=GEO_RU comment=RU
 add address=149.62.0.0/19 list=GEO_RU comment=RU
 add address=149.62.48.0/21 list=GEO_RU comment=RU
 add address=149.62.160.0/21 list=GEO_RU comment=RU
@@ -4611,6 +4617,7 @@ add address=159.194.196.0/22 list=GEO_RU comment=RU
 add address=159.194.200.0/21 list=GEO_RU comment=RU
 add address=159.194.208.0/20 list=GEO_RU comment=RU
 add address=159.194.224.0/19 list=GEO_RU comment=RU
+add address=159.200.80.0/20 list=GEO_RU comment=RU
 add address=159.200.128.0/18 list=GEO_RU comment=RU
 add address=159.200.200.0/23 list=GEO_RU comment=RU
 add address=159.253.120.0/24 list=GEO_RU comment=RU

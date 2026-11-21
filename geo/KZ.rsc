@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KZ
-# Generated: 2026-11-20 21:10 UTC
+# Generated: 2026-11-21 03:11 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KZ | Subnets: 617 (was 697, collapsed 80) | IPs: ~3,384,576
-# RIR data dates: afrinic=2026-11-20, apnic=2026-11-20, arin=2026-11-20, lacnic=2026-11-19, ripencc=2026-11-19
+# Countries: KZ | Subnets: 617 (was 697, collapsed 80) | IPs: ~3,388,416
+# RIR data dates: afrinic=2026-11-20, apnic=2026-11-20, arin=2026-11-20, lacnic=2026-11-20, ripencc=2026-11-20
 #
 /ip firewall address-list
 remove [find where list=GEO_KZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -88,6 +88,7 @@ add address=77.94.3.0/24 list=GEO_KZ comment=KZ
 add address=77.94.4.0/22 list=GEO_KZ comment=KZ
 add address=77.94.8.0/21 list=GEO_KZ comment=KZ
 add address=77.94.16.0/20 list=GEO_KZ comment=KZ
+add address=77.110.80.0/20 list=GEO_KZ comment=KZ
 add address=77.220.206.0/23 list=GEO_KZ comment=KZ
 add address=77.240.32.0/20 list=GEO_KZ comment=KZ
 add address=77.243.80.0/23 list=GEO_KZ comment=KZ
@@ -220,7 +221,6 @@ add address=91.207.8.0/24 list=GEO_KZ comment=KZ
 add address=91.207.74.0/23 list=GEO_KZ comment=KZ
 add address=91.210.172.0/22 list=GEO_KZ comment=KZ
 add address=91.212.93.0/24 list=GEO_KZ comment=KZ
-add address=91.212.133.0/24 list=GEO_KZ comment=KZ
 add address=91.213.49.0/24 list=GEO_KZ comment=KZ
 add address=91.213.247.0/24 list=GEO_KZ comment=KZ
 add address=91.214.42.0/23 list=GEO_KZ comment=KZ
