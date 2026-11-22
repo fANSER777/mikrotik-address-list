@@ -1,7 +1,7 @@
 # Source data: fresh
-# Source observed at: 2026-11-22T02:27:56.793725+00:00
+# Source observed at: 2026-11-22T08:31:17.594132+00:00
 # Telegram IPv4 address list
-# Generated: 2026-11-22 06:17
+# Generated: 2026-11-22 12:18
 # Source: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.list
 # Subnets: 8 | IPs: ~15,104
 #
