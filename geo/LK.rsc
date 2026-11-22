@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — LK
-# Generated: 2026-11-21 21:16 UTC
+# Generated: 2026-11-22 03:17 UTC
 # Source: RIR delegated (5 registries)
 # Countries: LK | Subnets: 69 (was 83, collapsed 14) | IPs: ~563,968
-# RIR data dates: afrinic=2026-11-21, apnic=2026-11-21, arin=2026-11-21, lacnic=2026-11-20, ripencc=2026-11-20
+# RIR data dates: afrinic=2026-11-21, apnic=2026-11-21, arin=2026-11-21, lacnic=2026-11-20, ripencc=2026-11-21
 #
 /ip firewall address-list
 remove [find where list=GEO_LK and (comment~"^PANEL-TEMP-GEO:")=false]
