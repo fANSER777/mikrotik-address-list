@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — UG
-# Generated: 2026-11-23 03:21 UTC
+# Generated: 2026-11-23 09:23 UTC
 # Source: RIR delegated (5 registries)
 # Countries: UG | Subnets: 109 (was 112, collapsed 3) | IPs: ~1,426,176
-# RIR data dates: afrinic=2026-11-22, apnic=2026-11-22, arin=2026-11-22, lacnic=2026-11-20, ripencc=2026-11-22
+# RIR data dates: afrinic=2026-11-23, apnic=2026-11-22, arin=2026-11-22, lacnic=2026-11-20, ripencc=2026-11-22
 #
 /ip firewall address-list
 remove [find where list=GEO_UG and (comment~"^PANEL-TEMP-GEO:")=false]
