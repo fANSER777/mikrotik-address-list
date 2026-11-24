@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IN
-# Generated: 2026-11-24 03:26 UTC
+# Generated: 2026-11-24 15:30 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IN | Subnets: 7245 (was 9356, collapsed 2111) | IPs: ~42,047,232
-# RIR data dates: afrinic=2026-11-23, apnic=2026-11-23, arin=2026-11-23, lacnic=2026-11-23, ripencc=2026-11-23
+# Countries: IN | Subnets: 7243 (was 9350, collapsed 2107) | IPs: ~42,043,648
+# RIR data dates: afrinic=2026-11-24, apnic=2026-11-24, arin=2026-11-24, lacnic=2026-11-23, ripencc=2026-11-23
 #
 /ip firewall address-list
 remove [find where list=GEO_IN and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -893,7 +893,6 @@ add address=103.6.26.0/23 list=GEO_IN comment=IN
 add address=103.6.32.0/23 list=GEO_IN comment=IN
 add address=103.6.88.0/24 list=GEO_IN comment=IN
 add address=103.6.90.0/23 list=GEO_IN comment=IN
-add address=103.6.120.0/23 list=GEO_IN comment=IN
 add address=103.6.132.0/22 list=GEO_IN comment=IN
 add address=103.6.156.0/22 list=GEO_IN comment=IN
 add address=103.6.164.0/24 list=GEO_IN comment=IN
@@ -970,7 +969,6 @@ add address=103.13.178.0/23 list=GEO_IN comment=IN
 add address=103.13.180.0/24 list=GEO_IN comment=IN
 add address=103.13.183.0/24 list=GEO_IN comment=IN
 add address=103.13.219.0/24 list=GEO_IN comment=IN
-add address=103.13.240.0/22 list=GEO_IN comment=IN
 add address=103.14.0.0/24 list=GEO_IN comment=IN
 add address=103.14.46.0/24 list=GEO_IN comment=IN
 add address=103.14.50.0/23 list=GEO_IN comment=IN
@@ -1117,7 +1115,7 @@ add address=103.26.56.0/22 list=GEO_IN comment=IN
 add address=103.26.72.0/23 list=GEO_IN comment=IN
 add address=103.26.96.0/22 list=GEO_IN comment=IN
 add address=103.26.104.0/21 list=GEO_IN comment=IN
-add address=103.26.168.0/23 list=GEO_IN comment=IN
+add address=103.26.169.0/24 list=GEO_IN comment=IN
 add address=103.26.201.0/24 list=GEO_IN comment=IN
 add address=103.26.204.0/22 list=GEO_IN comment=IN
 add address=103.26.216.0/22 list=GEO_IN comment=IN
@@ -1257,7 +1255,6 @@ add address=103.42.50.0/23 list=GEO_IN comment=IN
 add address=103.42.72.0/22 list=GEO_IN comment=IN
 add address=103.42.84.0/22 list=GEO_IN comment=IN
 add address=103.42.88.0/22 list=GEO_IN comment=IN
-add address=103.42.114.0/24 list=GEO_IN comment=IN
 add address=103.42.124.0/22 list=GEO_IN comment=IN
 add address=103.42.128.0/23 list=GEO_IN comment=IN
 add address=103.42.156.0/22 list=GEO_IN comment=IN
@@ -1734,7 +1731,6 @@ add address=103.73.33.0/24 list=GEO_IN comment=IN
 add address=103.73.92.0/22 list=GEO_IN comment=IN
 add address=103.73.127.0/24 list=GEO_IN comment=IN
 add address=103.73.148.0/22 list=GEO_IN comment=IN
-add address=103.73.156.0/23 list=GEO_IN comment=IN
 add address=103.73.180.0/22 list=GEO_IN comment=IN
 add address=103.73.188.0/22 list=GEO_IN comment=IN
 add address=103.73.212.0/22 list=GEO_IN comment=IN
@@ -1914,7 +1910,6 @@ add address=103.82.184.0/21 list=GEO_IN comment=IN
 add address=103.82.206.0/23 list=GEO_IN comment=IN
 add address=103.82.208.0/22 list=GEO_IN comment=IN
 add address=103.82.220.0/23 list=GEO_IN comment=IN
-add address=103.82.234.0/23 list=GEO_IN comment=IN
 add address=103.83.1.0/24 list=GEO_IN comment=IN
 add address=103.83.2.0/23 list=GEO_IN comment=IN
 add address=103.83.8.0/22 list=GEO_IN comment=IN
@@ -2039,7 +2034,8 @@ add address=103.89.249.0/24 list=GEO_IN comment=IN
 add address=103.89.252.0/22 list=GEO_IN comment=IN
 add address=103.90.4.0/23 list=GEO_IN comment=IN
 add address=103.90.6.0/24 list=GEO_IN comment=IN
-add address=103.90.32.0/21 list=GEO_IN comment=IN
+add address=103.90.32.0/22 list=GEO_IN comment=IN
+add address=103.90.38.0/23 list=GEO_IN comment=IN
 add address=103.90.44.0/22 list=GEO_IN comment=IN
 add address=103.90.68.0/22 list=GEO_IN comment=IN
 add address=103.90.79.0/24 list=GEO_IN comment=IN
@@ -5623,7 +5619,7 @@ add address=124.198.240.0/20 list=GEO_IN comment=IN
 add address=124.247.192.0/18 list=GEO_IN comment=IN
 add address=124.253.0.0/16 list=GEO_IN comment=IN
 add address=125.16.0.0/13 list=GEO_IN comment=IN
-add address=125.62.80.0/21 list=GEO_IN comment=IN
+add address=125.62.80.0/22 list=GEO_IN comment=IN
 add address=125.62.96.0/19 list=GEO_IN comment=IN
 add address=125.62.128.0/18 list=GEO_IN comment=IN
 add address=125.62.192.0/20 list=GEO_IN comment=IN
@@ -5709,6 +5705,8 @@ add address=141.229.32.0/23 list=GEO_IN comment=IN
 add address=141.229.36.0/23 list=GEO_IN comment=IN
 add address=141.229.44.0/23 list=GEO_IN comment=IN
 add address=141.229.68.0/22 list=GEO_IN comment=IN
+add address=141.229.72.0/23 list=GEO_IN comment=IN
+add address=141.229.78.0/23 list=GEO_IN comment=IN
 add address=142.79.224.0/19 list=GEO_IN comment=IN
 add address=144.16.0.0/16 list=GEO_IN comment=IN
 add address=144.36.70.0/23 list=GEO_IN comment=IN
@@ -6430,7 +6428,6 @@ add address=165.101.163.0/24 list=GEO_IN comment=IN
 add address=165.101.174.0/23 list=GEO_IN comment=IN
 add address=165.101.182.0/23 list=GEO_IN comment=IN
 add address=165.101.184.0/23 list=GEO_IN comment=IN
-add address=165.101.187.0/24 list=GEO_IN comment=IN
 add address=165.101.192.0/22 list=GEO_IN comment=IN
 add address=165.101.199.0/24 list=GEO_IN comment=IN
 add address=165.101.204.0/22 list=GEO_IN comment=IN
@@ -6643,6 +6640,7 @@ add address=192.12.109.0/24 list=GEO_IN comment=IN
 add address=192.26.215.0/24 list=GEO_IN comment=IN
 add address=192.51.174.0/23 list=GEO_IN comment=IN
 add address=192.58.101.0/24 list=GEO_IN comment=IN
+add address=192.67.85.0/24 list=GEO_IN comment=IN
 add address=192.83.157.0/24 list=GEO_IN comment=IN
 add address=192.84.219.0/24 list=GEO_IN comment=IN
 add address=192.86.133.0/24 list=GEO_IN comment=IN
