@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — AL
-# Generated: 2026-11-23 15:24 UTC
+# Generated: 2026-11-24 03:26 UTC
 # Source: RIR delegated (5 registries)
-# Countries: AL | Subnets: 233 (was 243, collapsed 10) | IPs: ~505,408
-# RIR data dates: afrinic=2026-11-23, apnic=2026-11-23, arin=2026-11-23, lacnic=2026-11-20, ripencc=2026-11-22
+# Countries: AL | Subnets: 235 (was 245, collapsed 10) | IPs: ~506,944
+# RIR data dates: afrinic=2026-11-23, apnic=2026-11-23, arin=2026-11-23, lacnic=2026-11-23, ripencc=2026-11-23
 #
 /ip firewall address-list
 remove [find where list=GEO_AL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -13,6 +13,7 @@ add address=31.41.33.0/24 list=GEO_AL comment=AL
 add address=31.44.64.0/20 list=GEO_AL comment=AL
 add address=31.171.152.0/22 list=GEO_AL comment=AL
 add address=31.222.40.0/21 list=GEO_AL comment=AL
+add address=36.255.120.0/22 list=GEO_AL comment=AL
 add address=37.26.64.0/21 list=GEO_AL comment=AL
 add address=37.26.80.0/21 list=GEO_AL comment=AL
 add address=37.35.64.0/21 list=GEO_AL comment=AL
@@ -118,6 +119,7 @@ add address=141.98.140.0/22 list=GEO_AL comment=AL
 add address=144.48.52.0/22 list=GEO_AL comment=AL
 add address=146.0.16.0/21 list=GEO_AL comment=AL
 add address=147.78.160.0/22 list=GEO_AL comment=AL
+add address=149.245.214.0/23 list=GEO_AL comment=AL
 add address=151.123.186.0/23 list=GEO_AL comment=AL
 add address=153.56.250.0/24 list=GEO_AL comment=AL
 add address=157.173.38.0/23 list=GEO_AL comment=AL
