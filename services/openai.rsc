@@ -1,7 +1,7 @@
 # OpenAI / ChatGPT IPv4 address list
-# Generated: 2026-11-25 06:34
+# Generated: 2026-11-25 12:35
 # Sources: https://openai.com/chatgpt-user.json, live DNS (chatgpt.com, chat.openai.com, auth.openai.com, auth0.openai.com, setup.auth.openai.com, api.openai.com, platform.openai.com, cdn.openai.com, cdn.oaistatic.com, persistent.oaistatic.com, files.oaiusercontent.com, ab.chatgpt.com, android.chat.openai.com, ios.chat.openai.com, tcr9i.chat.openai.com, cdn.openaimerge.com, challenges.cloudflare.com, oaistatsig.com)
-# CIDR subnets: 358 | CIDR IPs: ~71,248 | DNS /32: 84
+# CIDR subnets: 367 | CIDR IPs: ~71,392 | DNS /32: 86
 #
 /ip firewall address-list
 remove [find list=OPENAI]
@@ -48,6 +48,10 @@ add address=9.205.25.128/28 list=OPENAI
 add address=9.205.30.128/28 list=OPENAI
 add address=9.205.30.144/28 list=OPENAI
 add address=9.205.30.176/28 list=OPENAI
+add address=9.205.93.224/28 list=OPENAI
+add address=9.205.93.240/28 list=OPENAI
+add address=9.205.94.0/28 list=OPENAI
+add address=9.205.94.144/28 list=OPENAI
 add address=9.205.128.32/28 list=OPENAI
 add address=9.205.128.48/28 list=OPENAI
 add address=9.223.181.208/28 list=OPENAI
@@ -272,6 +276,11 @@ add address=74.7.35.112/28 list=OPENAI
 add address=74.7.36.64/28 list=OPENAI
 add address=74.7.36.80/28 list=OPENAI
 add address=74.7.36.96/28 list=OPENAI
+add address=74.7.36.128/28 list=OPENAI
+add address=74.7.36.144/28 list=OPENAI
+add address=74.7.36.224/28 list=OPENAI
+add address=74.7.104.240/28 list=OPENAI
+add address=74.7.108.96/28 list=OPENAI
 add address=74.152.51.224/28 list=OPENAI
 add address=74.152.65.144/28 list=OPENAI
 add address=74.152.67.176/28 list=OPENAI
@@ -366,11 +375,13 @@ add address=191.237.249.64/28 list=OPENAI
 add address=8.6.112.0/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.5/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.6/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
+add address=8.6.112.7/32 list=OPENAI comment=OpenAI-DNS-cdn.oaistatic.com
 add address=8.6.112.8/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.6.112.9/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.0/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.5/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.6/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
+add address=8.47.69.7/32 list=OPENAI comment=OpenAI-DNS-cdn.oaistatic.com
 add address=8.47.69.8/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=8.47.69.9/32 list=OPENAI comment=OpenAI-DNS-ab.chatgpt.com
 add address=13.107.213.53/32 list=OPENAI comment=OpenAI-DNS-cdn.openai.com
