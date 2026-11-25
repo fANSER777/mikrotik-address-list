@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — NL
-# Generated: 2026-11-24 15:31 UTC
+# Generated: 2026-11-25 03:33 UTC
 # Source: RIR delegated (5 registries)
-# Countries: NL | Subnets: 5727 (was 6370, collapsed 643) | IPs: ~47,930,656
-# RIR data dates: afrinic=2026-11-24, apnic=2026-11-24, arin=2026-11-24, lacnic=2026-11-23, ripencc=2026-11-23
+# Countries: NL | Subnets: 5730 (was 6373, collapsed 643) | IPs: ~48,004,640
+# RIR data dates: afrinic=2026-11-24, apnic=2026-11-24, arin=2026-11-24, lacnic=2026-11-24, ripencc=2026-11-24
 #
 /ip firewall address-list
 remove [find where list=GEO_NL and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -2519,6 +2519,7 @@ add address=157.97.112.0/20 list=GEO_NL comment=NL
 add address=157.97.144.0/23 list=GEO_NL comment=NL
 add address=157.97.168.0/22 list=GEO_NL comment=NL
 add address=157.97.192.0/18 list=GEO_NL comment=NL
+add address=157.173.33.0/24 list=GEO_NL comment=NL
 add address=157.173.68.0/24 list=GEO_NL comment=NL
 add address=157.173.71.0/24 list=GEO_NL comment=NL
 add address=157.173.72.0/24 list=GEO_NL comment=NL
@@ -2526,6 +2527,7 @@ add address=157.173.74.0/23 list=GEO_NL comment=NL
 add address=157.173.76.0/22 list=GEO_NL comment=NL
 add address=157.228.192.0/18 list=GEO_NL comment=NL
 add address=157.239.128.0/23 list=GEO_NL comment=NL
+add address=158.67.0.0/16 list=GEO_NL comment=NL
 add address=158.94.160.0/22 list=GEO_NL comment=NL
 add address=158.94.174.0/24 list=GEO_NL comment=NL
 add address=158.173.0.0/16 list=GEO_NL comment=NL
@@ -3978,6 +3980,7 @@ add address=188.244.120.0/24 list=GEO_NL comment=NL
 add address=188.244.123.0/24 list=GEO_NL comment=NL
 add address=188.244.125.0/24 list=GEO_NL comment=NL
 add address=188.244.126.0/23 list=GEO_NL comment=NL
+add address=190.2.128.0/19 list=GEO_NL comment=NL
 add address=190.106.64.0/20 list=GEO_NL comment=NL
 add address=190.106.160.0/19 list=GEO_NL comment=NL
 add address=190.211.144.0/24 list=GEO_NL comment=NL

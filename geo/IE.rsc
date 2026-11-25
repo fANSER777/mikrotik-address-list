@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — IE
-# Generated: 2026-11-24 15:30 UTC
+# Generated: 2026-11-25 03:33 UTC
 # Source: RIR delegated (5 registries)
-# Countries: IE | Subnets: 716 (was 762, collapsed 46) | IPs: ~10,011,712
-# RIR data dates: afrinic=2026-11-24, apnic=2026-11-24, arin=2026-11-24, lacnic=2026-11-23, ripencc=2026-11-23
+# Countries: IE | Subnets: 718 (was 764, collapsed 46) | IPs: ~10,013,248
+# RIR data dates: afrinic=2026-11-24, apnic=2026-11-24, arin=2026-11-24, lacnic=2026-11-24, ripencc=2026-11-24
 #
 /ip firewall address-list
 remove [find where list=GEO_IE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -240,6 +240,7 @@ add address=91.199.213.0/24 list=GEO_IE comment=IE
 add address=91.204.82.0/24 list=GEO_IE comment=IE
 add address=91.206.106.0/23 list=GEO_IE comment=IE
 add address=91.206.140.0/23 list=GEO_IE comment=IE
+add address=91.206.150.0/23 list=GEO_IE comment=IE
 add address=91.206.208.0/23 list=GEO_IE comment=IE
 add address=91.207.0.0/23 list=GEO_IE comment=IE
 add address=91.208.0.0/24 list=GEO_IE comment=IE
@@ -487,6 +488,7 @@ add address=185.144.97.0/24 list=GEO_IE comment=IE
 add address=185.144.124.0/22 list=GEO_IE comment=IE
 add address=185.146.180.0/22 list=GEO_IE comment=IE
 add address=185.146.184.0/22 list=GEO_IE comment=IE
+add address=185.149.248.0/22 list=GEO_IE comment=IE
 add address=185.150.168.0/22 list=GEO_IE comment=IE
 add address=185.150.220.0/22 list=GEO_IE comment=IE
 add address=185.152.4.0/22 list=GEO_IE comment=IE
