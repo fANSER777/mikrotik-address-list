@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — JP
-# Generated: 2026-11-26 09:41 UTC
+# Generated: 2026-11-26 15:42 UTC
 # Source: RIR delegated (5 registries)
-# Countries: JP | Subnets: 3208 (was 4807, collapsed 1599) | IPs: ~188,723,520
-# RIR data dates: afrinic=2026-11-26, apnic=2026-11-25, arin=2026-11-25, lacnic=2026-11-25, ripencc=2026-11-25
+# Countries: JP | Subnets: 3211 (was 4810, collapsed 1599) | IPs: ~188,726,080
+# RIR data dates: afrinic=2026-11-26, apnic=2026-11-26, arin=2026-11-26, lacnic=2026-11-25, ripencc=2026-11-25
 #
 /ip firewall address-list
 remove [find where list=GEO_JP and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -555,6 +555,7 @@ add address=103.28.248.0/22 list=GEO_JP comment=JP
 add address=103.29.48.0/22 list=GEO_JP comment=JP
 add address=103.29.113.0/24 list=GEO_JP comment=JP
 add address=103.29.176.0/22 list=GEO_JP comment=JP
+add address=103.30.32.0/22 list=GEO_JP comment=JP
 add address=103.30.52.0/22 list=GEO_JP comment=JP
 add address=103.30.164.0/22 list=GEO_JP comment=JP
 add address=103.30.240.0/22 list=GEO_JP comment=JP
@@ -2673,6 +2674,7 @@ add address=202.191.16.0/20 list=GEO_JP comment=JP
 add address=202.191.112.0/21 list=GEO_JP comment=JP
 add address=202.208.0.0/12 list=GEO_JP comment=JP
 add address=202.224.0.0/11 list=GEO_JP comment=JP
+add address=203.8.12.0/22 list=GEO_JP comment=JP
 add address=203.9.176.0/21 list=GEO_JP comment=JP
 add address=203.14.212.0/24 list=GEO_JP comment=JP
 add address=203.17.52.0/24 list=GEO_JP comment=JP
@@ -3154,6 +3156,7 @@ add address=221.32.0.0/11 list=GEO_JP comment=JP
 add address=221.64.0.0/11 list=GEO_JP comment=JP
 add address=221.96.0.0/12 list=GEO_JP comment=JP
 add address=221.112.0.0/13 list=GEO_JP comment=JP
+add address=221.120.118.0/23 list=GEO_JP comment=JP
 add address=221.120.168.0/21 list=GEO_JP comment=JP
 add address=221.121.160.0/20 list=GEO_JP comment=JP
 add address=221.121.176.0/21 list=GEO_JP comment=JP
