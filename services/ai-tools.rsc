@@ -1,8 +1,8 @@
 # AI TOOLS address list — OpenAI + Claude + Grok + Cursor
-# Generated: 2026-11-26 00:38
+# Generated: 2026-11-27 23:03
 # Sources: openai.com/chatgpt-user.json, live OpenAI DNS, docs.claude.com, xAI/Grok and Cursor DNS
 # Note: Google Gemini IPs are included in Google list (/rsc/google.rsc)
-# Subnets: 368 (OpenAI: 367, Claude: 1) | OpenAI DNS /32: 86 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 951 DNS /32 + 15 FQDN
+# Subnets: 368 (OpenAI: 367, Claude: 1) | OpenAI DNS /32: 88 | Grok: 6 DNS /32 + 9 FQDN | Cursor: 951 DNS /32 + 15 FQDN
 # Upstream FQDN wildcard policy: *.x.ai, *.grok.com, grok.x.com, *.cursor.sh, *.gcpp.cursor.sh, *.cursorvm.com, *.*.cursorvm.com, *.cursor-cdn.com, *.cursorapi.com, downloads.cursor.com, cursor.com
 # Disable TLS inspection for these hosts; it can break HTTP/2 streaming
 #
@@ -402,6 +402,7 @@ add address=104.18.32.47/32 list=AI_TOOLS comment=OpenAI-DNS-ab.chatgpt.com
 add address=104.18.33.45/32 list=AI_TOOLS comment=OpenAI-DNS-platform.openai.com
 add address=104.18.35.233/32 list=AI_TOOLS comment=OpenAI-DNS-setup.auth.openai.com
 add address=104.18.37.228/32 list=AI_TOOLS comment=OpenAI-DNS-chat.openai.com
+add address=104.18.39.21/32 list=AI_TOOLS comment=OpenAI-DNS-ws.chatgpt.com
 add address=104.18.39.85/32 list=AI_TOOLS comment=OpenAI-DNS-ios.chat.openai.com
 add address=104.18.41.158/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.oaistatic.com
 add address=104.18.41.241/32 list=AI_TOOLS comment=OpenAI-DNS-auth.openai.com
@@ -451,6 +452,7 @@ add address=172.64.145.103/32 list=AI_TOOLS comment=OpenAI-DNS-oaistatsig.com
 add address=172.64.146.15/32 list=AI_TOOLS comment=OpenAI-DNS-auth.openai.com
 add address=172.64.146.98/32 list=AI_TOOLS comment=OpenAI-DNS-cdn.oaistatic.com
 add address=172.64.148.171/32 list=AI_TOOLS comment=OpenAI-DNS-ios.chat.openai.com
+add address=172.64.148.235/32 list=AI_TOOLS comment=OpenAI-DNS-ws.chatgpt.com
 add address=172.64.150.28/32 list=AI_TOOLS comment=OpenAI-DNS-chat.openai.com
 add address=172.64.152.23/32 list=AI_TOOLS comment=OpenAI-DNS-setup.auth.openai.com
 add address=172.64.154.211/32 list=AI_TOOLS comment=OpenAI-DNS-platform.openai.com

@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — KE
-# Generated: 2026-11-27 03:45 UTC
+# Generated: 2026-11-27 20:03 UTC
 # Source: RIR delegated (5 registries)
-# Countries: KE | Subnets: 382 (was 409, collapsed 27) | IPs: ~6,266,368
-# RIR data dates: afrinic=2026-11-26, apnic=2026-11-26, arin=2026-11-26, lacnic=2026-11-26, ripencc=2026-11-26
+# Countries: KE | Subnets: 383 (was 410, collapsed 27) | IPs: ~6,267,392
+# RIR data dates: afrinic=2026-11-27, apnic=2026-11-27, arin=2026-11-27, lacnic=2026-11-26, ripencc=2026-11-26
 #
 /ip firewall address-list
 remove [find where list=GEO_KE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -63,6 +63,7 @@ add address=102.164.52.0/22 list=GEO_KE comment=KE
 add address=102.164.56.0/21 list=GEO_KE comment=KE
 add address=102.166.0.0/15 list=GEO_KE comment=KE
 add address=102.176.180.0/22 list=GEO_KE comment=KE
+add address=102.200.8.0/22 list=GEO_KE comment=KE
 add address=102.200.14.0/24 list=GEO_KE comment=KE
 add address=102.200.132.0/22 list=GEO_KE comment=KE
 add address=102.200.140.0/22 list=GEO_KE comment=KE
