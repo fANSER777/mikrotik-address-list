@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — CZ
-# Generated: 2026-11-27 20:02 UTC
+# Generated: 2026-11-28 02:04 UTC
 # Source: RIR delegated (5 registries)
-# Countries: CZ | Subnets: 1582 (was 1803, collapsed 221) | IPs: ~9,559,232
-# RIR data dates: afrinic=2026-11-27, apnic=2026-11-27, arin=2026-11-27, lacnic=2026-11-26, ripencc=2026-11-26
+# Countries: CZ | Subnets: 1584 (was 1805, collapsed 221) | IPs: ~9,560,000
+# RIR data dates: afrinic=2026-11-27, apnic=2026-11-27, arin=2026-11-27, lacnic=2026-11-26, ripencc=2026-11-27
 #
 /ip firewall address-list
 remove [find where list=GEO_CZ and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -1435,6 +1435,7 @@ add address=195.39.239.0/24 list=GEO_CZ comment=CZ
 add address=195.47.0.0/17 list=GEO_CZ comment=CZ
 add address=195.47.235.0/24 list=GEO_CZ comment=CZ
 add address=195.47.252.0/24 list=GEO_CZ comment=CZ
+add address=195.54.166.0/23 list=GEO_CZ comment=CZ
 add address=195.58.32.0/20 list=GEO_CZ comment=CZ
 add address=195.58.48.0/22 list=GEO_CZ comment=CZ
 add address=195.58.52.0/23 list=GEO_CZ comment=CZ
@@ -1493,6 +1494,7 @@ add address=195.246.96.0/23 list=GEO_CZ comment=CZ
 add address=195.250.128.0/19 list=GEO_CZ comment=CZ
 add address=198.141.0.0/16 list=GEO_CZ comment=CZ
 add address=199.40.0.0/15 list=GEO_CZ comment=CZ
+add address=202.122.129.0/24 list=GEO_CZ comment=CZ
 add address=203.32.221.0/24 list=GEO_CZ comment=CZ
 add address=204.29.146.0/24 list=GEO_CZ comment=CZ
 add address=212.4.128.0/19 list=GEO_CZ comment=CZ

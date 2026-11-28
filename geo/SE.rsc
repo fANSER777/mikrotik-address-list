@@ -1,9 +1,9 @@
 # Temporary GEO entries preserved v1
 # GeoIP address list — SE
-# Generated: 2026-11-27 20:03 UTC
+# Generated: 2026-11-28 02:04 UTC
 # Source: RIR delegated (5 registries)
-# Countries: SE | Subnets: 2061 (was 2196, collapsed 135) | IPs: ~31,435,040
-# RIR data dates: afrinic=2026-11-27, apnic=2026-11-27, arin=2026-11-27, lacnic=2026-11-26, ripencc=2026-11-26
+# Countries: SE | Subnets: 2059 (was 2191, collapsed 132) | IPs: ~31,431,200
+# RIR data dates: afrinic=2026-11-27, apnic=2026-11-27, arin=2026-11-27, lacnic=2026-11-26, ripencc=2026-11-27
 #
 /ip firewall address-list
 remove [find where list=GEO_SE and (comment~"^PANEL-TEMP-GEO:")=false]
@@ -74,7 +74,6 @@ add address=37.49.240.0/20 list=GEO_SE comment=SE
 add address=37.122.144.0/22 list=GEO_SE comment=SE
 add address=37.123.128.0/18 list=GEO_SE comment=SE
 add address=37.123.224.0/21 list=GEO_SE comment=SE
-add address=37.139.152.0/21 list=GEO_SE comment=SE
 add address=37.152.56.0/21 list=GEO_SE comment=SE
 add address=37.153.138.0/23 list=GEO_SE comment=SE
 add address=37.153.172.0/23 list=GEO_SE comment=SE
@@ -418,7 +417,6 @@ add address=85.195.0.0/18 list=GEO_SE comment=SE
 add address=85.197.128.0/18 list=GEO_SE comment=SE
 add address=85.208.44.0/22 list=GEO_SE comment=SE
 add address=85.208.80.0/22 list=GEO_SE comment=SE
-add address=85.208.164.0/22 list=GEO_SE comment=SE
 add address=85.224.0.0/13 list=GEO_SE comment=SE
 add address=85.232.160.0/19 list=GEO_SE comment=SE
 add address=85.235.0.0/19 list=GEO_SE comment=SE
@@ -1392,8 +1390,8 @@ add address=192.5.50.0/24 list=GEO_SE comment=SE
 add address=192.12.235.0/24 list=GEO_SE comment=SE
 add address=192.16.123.0/24 list=GEO_SE comment=SE
 add address=192.16.124.0/22 list=GEO_SE comment=SE
-add address=192.16.128.0/21 list=GEO_SE comment=SE
-add address=192.16.136.0/24 list=GEO_SE comment=SE
+add address=192.16.128.0/22 list=GEO_SE comment=SE
+add address=192.16.132.0/23 list=GEO_SE comment=SE
 add address=192.16.138.0/23 list=GEO_SE comment=SE
 add address=192.16.140.0/22 list=GEO_SE comment=SE
 add address=192.16.144.0/21 list=GEO_SE comment=SE
